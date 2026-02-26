@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**2178 files** across **587 directories** covering **82 encodings**.
+**2178 files** across **588 directories** covering **83 encodings**.
 
 ## Sources
 
@@ -4908,7 +4908,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 2,821 |  |
 
-### Chinese encodings (55 files in 3 directories)
+### Chinese encodings (55 files in 4 directories)
 
 #### `big5-chinese/` — 28 files
 
@@ -4943,7 +4943,7 @@ content transcoded to test detection across encodings.
 | `willythecop.blogspot.com.xml` | chardet | 13,437 | High markup ratio (73% tags) |
 | `ytc.blogspot.com.xml` | chardet | 54,145 |  |
 
-#### `gb18030-chinese/` — 25 files
+#### `gb2312-chinese/` — 22 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4960,9 +4960,7 @@ content transcoded to test detection across encodings.
 | `cindychen.com.xml` | chardet | 16,608 |  |
 | `cnblog.org.xml` | chardet | 26,465 |  |
 | `coverer.com.xml` | chardet | 12,095 |  |
-| `culturax_mC4_3.txt` | CulturaX | 3,848 |  |
 | `culturax_mC4_5.txt` | CulturaX | 1,227 |  |
-| `culturax_mC4_7.txt` | CulturaX | 2,051 |  |
 | `eighthday.blogspot.com.xml` | chardet | 22,083 |  |
 | `godthink.blogsome.com.xml` | chardet | 2,628 |  |
 | `jjgod.3322.org.xml` | chardet | 9,356 |  |
@@ -4972,6 +4970,13 @@ content transcoded to test detection across encodings.
 | `softsea.net.xml` | chardet | 87,552 |  |
 | `w3cn.org.xml` | chardet | 5,646 |  |
 | `xy15400.blogcn.com.xml` | chardet | 19,804 |  |
+
+#### `gb18030-chinese/` — 2 files
+
+| File | Source | Size | Notes |
+|------|--------|-----:|-------|
+| `culturax_mC4_3.txt` | CulturaX | 3,848 | Uses gb18030 4-byte sequences |
+| `culturax_mC4_7.txt` | CulturaX | 2,051 | Uses gbk-range bytes beyond gb2312 |
 
 #### `hz-gb-2312-chinese/` — 2 files
 
