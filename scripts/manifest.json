@@ -3351,5 +3351,502 @@
     "method": "transcoded",
     "retrieved": "2026-03-03",
     "notes": ""
+  },
+  {
+    "path": "iso-8859-1-dutch/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-dutch/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-dutch/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-icelandic/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-icelandic/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-icelandic/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-indonesian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-malay/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-norwegian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-norwegian/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-norwegian/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-portuguese/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-portuguese/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-portuguese/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-swedish/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-swedish/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-1-swedish/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-dutch/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-dutch/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-dutch/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-english/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-english/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-english/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-icelandic/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-icelandic/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-icelandic/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-indonesian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-italian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-italian/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-italian/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-malay/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-norwegian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-norwegian/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-norwegian/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-portuguese/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-portuguese/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-portuguese/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-swedish/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-swedish/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-15-swedish/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-2-romanian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-2-romanian/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-2-romanian/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "shift-jis-japanese/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "shift-jis-japanese/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "shift-jis-japanese/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "utf-8-malay/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "utf-8-malay/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "utf-8-malay/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-dutch/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-dutch/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-dutch/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-icelandic/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-icelandic/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-icelandic/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-indonesian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-italian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-italian/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-italian/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-norwegian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-norwegian/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-norwegian/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-portuguese/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-portuguese/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-portuguese/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-swedish/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-swedish/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "windows-1252-swedish/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "utf-7-malay/culturax_00000.txt",
+    "source": "utf-8",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": "Re-encoded from utf-8-malay/culturax_00000.txt"
+  },
+  {
+    "path": "utf-7-malay/culturax_00001.txt",
+    "source": "utf-8",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": "Re-encoded from utf-8-malay/culturax_00001.txt"
+  },
+  {
+    "path": "utf-7-malay/culturax_00002.txt",
+    "source": "utf-8",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": "Re-encoded from utf-8-malay/culturax_00002.txt"
   }
 ]
