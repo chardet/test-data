@@ -16,6 +16,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import sys
@@ -37,6 +38,7 @@ from scripts.substitutions import (  # noqa: E402
     get_substitutions,
     normalize_text,
 )
+from scripts.encoding_overlaps import DISTINGUISHING_BYTES  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -69,6 +71,10 @@ ESCAPE_ENCODINGS = {
     "iso-2022-jp", "iso-2022-jp-2004", "iso-2022-jp-ext",
     "iso-2022-kr", "hz-gb-2312",
 }
+
+# Flexible multibyte encodings that can represent pure ASCII.  Test files
+# for these must contain actual multibyte sequences.
+FLEXIBLE_MULTIBYTE_ENCODINGS = {"utf-8", "utf-8-sig"}
 
 # Languages where text is naturally >90% ASCII (Latin script) -- skip ASCII
 # ratio gate because high ASCII content is expected and realistic.
@@ -271,6 +277,29 @@ def passes_quality_gates(
     except (UnicodeDecodeError, LookupError):
         return False
 
+    # Distinguishing-byte check: encoded bytes must contain at least one
+    # byte value that differs between this encoding and an overlapping one.
+    dist_bytes = DISTINGUISHING_BYTES.get(encoding_prefix)
+    if dist_bytes is not None:
+        if not any(b in dist_bytes for b in encoded):
+            return False
+
+    # Escape-sequence check: escape encodings must contain actual escape
+    # sequences, otherwise the file is indistinguishable from ASCII.
+    if encoding_prefix in ESCAPE_ENCODINGS:
+        if encoding_prefix == "hz-gb-2312":
+            if b"~{" not in encoded:
+                return False
+        else:
+            if b"\x1b" not in encoded:
+                return False
+
+    # Multibyte check: flexible multibyte encodings must contain actual
+    # multibyte sequences, otherwise the file is indistinguishable from ASCII.
+    if encoding_prefix in FLEXIBLE_MULTIBYTE_ENCODINGS:
+        if max(encoded) < 128:
+            return False
+
     return True
 
 
@@ -373,6 +402,7 @@ def generate_culturax(
     cache_dir: str,
     dry_run: bool,
     manifest: list[dict],
+    existing_md5s: set[str],
 ) -> bool:
     """Generate test files via CulturaX transcoding."""
     enc_prefix, language = gap
@@ -409,8 +439,10 @@ def generate_culturax(
         # Try the full article first.
         encoded = text.encode(codec, errors="ignore")
         if passes_quality_gates(encoded, text, codec, enc_prefix, language):
-            candidates.append((text, encoded))
-            continue
+            md5 = hashlib.md5(encoded).hexdigest()
+            if md5 not in existing_md5s:
+                candidates.append((text, encoded))
+                continue
 
         # Try truncated versions at each target size.
         added = False
@@ -425,9 +457,11 @@ def generate_culturax(
                     continue
                 enc = trimmed.encode(codec, errors="ignore")
                 if passes_quality_gates(enc, trimmed, codec, enc_prefix, language):
-                    candidates.append((trimmed, enc))
-                    added = True
-                    break
+                    md5 = hashlib.md5(enc).hexdigest()
+                    if md5 not in existing_md5s:
+                        candidates.append((trimmed, enc))
+                        added = True
+                        break
 
     if not candidates:
         print(
@@ -456,6 +490,7 @@ def generate_culturax(
     dst_dir.mkdir(exist_ok=True)
     for fname, encoded in generated:
         (dst_dir / fname).write_bytes(encoded)
+        existing_md5s.add(hashlib.md5(encoded).hexdigest())
         manifest.append({
             "path": f"{enc_prefix}-{language}/{fname}",
             "source": "culturax",
@@ -507,6 +542,17 @@ def main() -> None:
     base_dir = Path(args.base_dir).resolve()
     cache_dir = str(Path(args.cache_dir).resolve())
 
+    # Build MD5 index of all existing test files for dedup guard.
+    existing_md5s: set[str] = set()
+    if not args.dry_run:
+        for enc_dir in base_dir.iterdir():
+            if not enc_dir.is_dir() or enc_dir.name.startswith((".", "scripts")):
+                continue
+            for f in enc_dir.iterdir():
+                if f.is_file():
+                    existing_md5s.add(hashlib.md5(f.read_bytes()).hexdigest())
+        print(f"MD5 index: {len(existing_md5s)} existing files")
+
     # Find all gaps
     all_gaps = find_gaps(base_dir)
     if not all_gaps:
@@ -551,7 +597,7 @@ def main() -> None:
         print(f"=== Phase 1: CulturaX transcoding ({len(other_gaps)} gaps) ===")
         for gap in other_gaps:
             ok = generate_culturax(
-                gap, base_dir, cache_dir, args.dry_run, manifest,
+                gap, base_dir, cache_dir, args.dry_run, manifest, existing_md5s,
             )
             if ok:
                 created += 1
