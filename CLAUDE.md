@@ -22,17 +22,17 @@ Filename prefixes indicate provenance:
 
 ## Key Files
 
-- **`check_test_data.py`** — Standalone Python 3 script (stdlib only) that validates all test files. Checks: decoding correctness, mojibake detection, control character ratios, language/script mismatches, binary file detection.
+- **`scripts/check_test_data.py`** — Standalone Python 3 script (stdlib only) that validates all test files. Checks: decoding correctness, mojibake detection, control character ratios, language/script mismatches, binary file detection.
 - **`CATALOG.md`** — Comprehensive catalog documenting every file's source, size, and notable characteristics.
 
 ## Common Commands
 
 ```bash
 # Run the full quality check (from repo root)
-python3 check_test_data.py .
+python3 scripts/check_test_data.py .
 
 # JSON output for machine processing
-python3 check_test_data.py . --json
+python3 scripts/check_test_data.py . --json
 ```
 
 ## Encoding Gotchas
