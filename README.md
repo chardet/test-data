@@ -6,10 +6,10 @@ See [CATALOG.md](CATALOG.md) for a full listing of every file's provenance and c
 
 ## Data quality
 
-Run [`check_test_data.py`](check_test_data.py) to verify that all files decode correctly with their labeled encoding and pass quality checks (mojibake, control characters, language/script mismatches):
+Run [`scripts/check_test_data.py`](check_test_data.py) to verify that all files decode correctly with their labeled encoding and pass quality checks (mojibake, control characters, language/script mismatches):
 
 ```bash
-python3 check_test_data.py .
+python3 scripts/check_test_data.py .
 ```
 
 ## Contributing
