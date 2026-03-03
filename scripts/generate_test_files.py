@@ -537,14 +537,28 @@ def main() -> None:
     created = 0
     skipped = 0
 
-    # Categorize gaps
+    # Categorize gaps.  CulturaX runs first so that utf-8-{lang} dirs are
+    # created before the mechanical generators (utf-8-sig, utf-7) need them.
     utf8sig_gaps = [(e, l) for e, l in gaps if e == "utf-8-sig"]
     utf7_gaps = [(e, l) for e, l in gaps if e == "utf-7"]
     other_gaps = [(e, l) for e, l in gaps if e not in ("utf-8-sig", "utf-7")]
 
-    # Method 1: utf-8-sig (BOM prepend)
+    # Phase 1: CulturaX transcoding (creates utf-8 and other base dirs)
+    if other_gaps:
+        print(f"=== Phase 1: CulturaX transcoding ({len(other_gaps)} gaps) ===")
+        for gap in other_gaps:
+            ok = generate_culturax(
+                gap, base_dir, cache_dir, args.dry_run, manifest,
+            )
+            if ok:
+                created += 1
+            else:
+                skipped += 1
+        print()
+
+    # Phase 2: utf-8-sig (BOM prepend from utf-8)
     if utf8sig_gaps:
-        print(f"=== Method 1: utf-8-sig BOM prepend ({len(utf8sig_gaps)} gaps) ===")
+        print(f"=== Phase 2: utf-8-sig BOM prepend ({len(utf8sig_gaps)} gaps) ===")
         for gap in utf8sig_gaps:
             ok = generate_utf8sig(gap, base_dir, args.dry_run, manifest)
             if ok:
@@ -553,24 +567,11 @@ def main() -> None:
                 skipped += 1
         print()
 
-    # Method 2: utf-7 (re-encode)
+    # Phase 3: utf-7 (re-encode from utf-8)
     if utf7_gaps:
-        print(f"=== Method 2: utf-7 re-encode ({len(utf7_gaps)} gaps) ===")
+        print(f"=== Phase 3: utf-7 re-encode ({len(utf7_gaps)} gaps) ===")
         for gap in utf7_gaps:
             ok = generate_utf7(gap, base_dir, args.dry_run, manifest)
-            if ok:
-                created += 1
-            else:
-                skipped += 1
-        print()
-
-    # Method 3: CulturaX transcoding (everything else)
-    if other_gaps:
-        print(f"=== Method 3: CulturaX transcoding ({len(other_gaps)} gaps) ===")
-        for gap in other_gaps:
-            ok = generate_culturax(
-                gap, base_dir, cache_dir, args.dry_run, manifest,
-            )
             if ok:
                 created += 1
             else:
