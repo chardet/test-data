@@ -24,6 +24,7 @@ ISO_TO_LANGUAGE: dict[str, str] = {
     "da": "danish",
     "de": "german",
     "el": "greek",
+    "en": "english",
     "eo": "esperanto",
     "es": "spanish",
     "et": "estonian",
@@ -211,28 +212,12 @@ ENCODING_LANGUAGES: dict[str, tuple[str, ...]] = {
 # ---------------------------------------------------------------------------
 ENCODING_CODEC: dict[str, str] = {
     "big5": "big5hkscs",
+    "cp037": "cp1140",
     "euc-jp": "euc_jis_2004",
-    "gb2312": "gb2312",
     "iso-2022-jp": "iso2022_jp_2",
-    "iso-2022-jp-2004": "iso2022_jp_2004",
-    "iso-2022-jp-ext": "iso2022_jp_ext",
-    "iso-2022-kr": "iso2022-kr",
+    "iso-8859-11": "tis-620",
     "shift_jis": "shift_jis_2004",
     "shift-jis": "shift_jis_2004",
-    "maccyrillic": "mac-cyrillic",
-    "macgreek": "mac-greek",
-    "maciceland": "mac-iceland",
-    "maclatin2": "mac-latin2",
-    "macroman": "mac-roman",
-    "macturkish": "mac-turkish",
-    "cp037": "cp1140",
-    "utf-16be": "utf-16-be",
-    "utf-16le": "utf-16-le",
-    "utf-32be": "utf-32-be",
-    "utf-32le": "utf-32-le",
-    "iso-8859-11": "tis-620",
-    "hp-roman8": "hp-roman8",
-    "kz1048": "kz1048",
 }
 
 
