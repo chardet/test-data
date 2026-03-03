@@ -30,6 +30,7 @@ _SINGLE_BYTE_ENCODINGS: list[str] = [
     "iso-8859-8",
     "iso-8859-9",
     "iso-8859-10",
+    "iso-8859-11",
     "iso-8859-13",
     "iso-8859-14",
     "iso-8859-15",
@@ -133,21 +134,27 @@ def _compute_distinguishing_bytes() -> dict[str, frozenset[int]]:
        than at least one of its overlapping partners.
     4. Return ``{canonical_codec_name: frozenset_of_distinguishing_bytes}``.
     """
-    # Step 1 — build decode tables, skipping encodings Python can't handle.
+    # Step 1 — build decode tables keyed by original name, skipping
+    # encodings Python can't handle.  Use canonical codec names internally
+    # to avoid comparing the same codec twice under different aliases, but
+    # map results back to original names at the end.
     tables: dict[str, list[str | None]] = {}
-    canonical: dict[str, str] = {}  # original name -> canonical codec name
+    to_canonical: dict[str, str] = {}
+    from_canonical: dict[str, list[str]] = {}
     for enc in _SINGLE_BYTE_ENCODINGS:
         try:
             cname = codecs.lookup(enc).name
         except LookupError:
             continue
-        canonical[enc] = cname
+        to_canonical[enc] = cname
+        from_canonical.setdefault(cname, []).append(enc)
         if cname not in tables:
             tables[cname] = _build_decode_table(enc)
 
     codec_names = sorted(tables)
 
-    # Step 2 — find overlapping pairs.
+    # Step 2 — find overlapping pairs (using canonical names to avoid
+    # duplicate comparisons for aliases like iso-8859-11 / tis-620).
     overlaps: dict[str, set[str]] = {cn: set() for cn in codec_names}
     for i, enc_a in enumerate(codec_names):
         table_a = tables[enc_a]
@@ -165,20 +172,22 @@ def _compute_distinguishing_bytes() -> dict[str, frozenset[int]]:
                 overlaps[enc_b].add(enc_a)
 
     # Step 3 — for each encoding with overlaps, find distinguishing bytes.
+    # Compute per canonical name, then expand to all original names.
     result: dict[str, frozenset[int]] = {}
-    for enc, partners in sorted(overlaps.items()):
+    for cname, partners in sorted(overlaps.items()):
         if not partners:
             continue
-        table_enc = tables[enc]
+        table_enc = tables[cname]
         distinguishing: set[int] = set()
         for b in _HIGH_RANGE:
             char_enc = table_enc[b]
             for partner in partners:
-                char_partner = tables[partner][b]
-                if char_enc != char_partner:
+                if tables[partner][b] != char_enc:
                     distinguishing.add(b)
                     break
-        result[enc] = frozenset(distinguishing)
+        dist = frozenset(distinguishing)
+        for orig_name in from_canonical[cname]:
+            result[orig_name] = dist
 
     return result
 
