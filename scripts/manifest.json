@@ -3848,5 +3848,68 @@
     "method": "transcoded",
     "retrieved": "2026-03-03",
     "notes": "Re-encoded from utf-8-malay/culturax_00002.txt"
+  },
+  {
+    "path": "iso-8859-13-estonian/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-13-estonian/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-13-estonian/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-14-breton/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-14-breton/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-14-breton/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-14-irish/culturax_00000.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-14-irish/culturax_00001.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
+  },
+  {
+    "path": "iso-8859-14-irish/culturax_00002.txt",
+    "source": "culturax",
+    "method": "transcoded",
+    "retrieved": "2026-03-03",
+    "notes": ""
   }
 ]
