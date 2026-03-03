@@ -22,12 +22,17 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from scripts.encoding_gaps import (
+# Support running both as `python3 scripts/generate_test_files.py` (from repo root)
+# and as `python3 -m scripts.generate_test_files`.
+if __name__ == "__main__" and __package__ is None:
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from scripts.encoding_gaps import (  # noqa: E402
     LANGUAGE_TO_ISO,
     find_gaps,
     get_codec,
 )
-from scripts.substitutions import (
+from scripts.substitutions import (  # noqa: E402
     apply_substitutions,
     get_substitutions,
     normalize_text,
