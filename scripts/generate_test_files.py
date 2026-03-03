@@ -250,9 +250,12 @@ def passes_quality_gates(
     if len(encoded) < 20:
         return False
 
-    # Too many chars dropped
+    # Too many chars dropped.  Threshold is 0.3 rather than 0.5 because
+    # single-byte Arabic/Urdu encodings (cp1006, cp864, cp720) have a natural
+    # ratio of ~0.5 vs UTF-8 (2-byte chars → 1-byte), and any overhead drops
+    # it further.  0.3 still catches real encoding failures.
     utf8_len = len(text.encode("utf-8"))
-    if utf8_len > 0 and len(encoded) / utf8_len < 0.5:
+    if utf8_len > 0 and len(encoded) / utf8_len < 0.3:
         return False
 
     # ASCII ratio check (only for non-Latin, non-EBCDIC, non-multibyte,

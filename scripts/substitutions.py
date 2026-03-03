@@ -138,6 +138,36 @@ ISO8859_6_FARSI_SUBSTITUTIONS: dict[str, str] = {
     "\u06a9": "\u0643",  # ک → ك (Farsi Kaf → Arabic Kaf)
 }
 
+# cp1006 Urdu: map Urdu-specific chars to base Arabic equivalents (which then
+# get mapped to presentation forms by normalize_text).
+CP1006_URDU_SUBSTITUTIONS: dict[str, str] = {
+    "\u06a9": "\u0643",  # ک → ك (Keheh → Kaf)
+    "\u06cc": "\u064a",  # ی → ي (Farsi Yeh → Arabic Yeh)
+    "\u0688": "\u062f",  # ڈ → د (Ddal → Dal)
+    "\u06d4": ".",        # ۔ → . (Arabic Full Stop → ASCII period)
+    "\u064b": "",         # ً  (Fathatan diacritic — drop)
+    "\u064c": "",         # ٌ  (Dammatan — drop)
+    "\u064d": "",         # ٍ  (Kasratan — drop)
+    "\u064e": "",         # َ  (Fathah — drop)
+    "\u064f": "",         # ُ  (Dammah — drop)
+    "\u0650": "",         # ِ  (Kasrah — drop)
+    "\u0652": "",         # ْ  (Sukun — drop)
+}
+
+# cp864 Arabic: map characters not in cp864's repertoire to close equivalents.
+CP864_ARABIC_SUBSTITUTIONS: dict[str, str] = {
+    "\u06a9": "\u0643",  # ک → ك (Keheh → Kaf)
+    "\u06cc": "\u064a",  # ی → ي (Farsi Yeh → Arabic Yeh)
+    "\u06d4": ".",        # ۔ → . (Arabic Full Stop → ASCII period)
+    "\u064b": "",         # ً  (Fathatan — drop)
+    "\u064c": "",         # ٌ  (Dammatan — drop)
+    "\u064d": "",         # ٍ  (Kasratan — drop)
+    "\u064e": "",         # َ  (Fathah — drop)
+    "\u064f": "",         # ُ  (Dammah — drop)
+    "\u0650": "",         # ِ  (Kasrah — drop)
+    "\u0652": "",         # ْ  (Sukun — drop)
+}
+
 # ---------------------------------------------------------------------------
 # Croatian normalization
 # ---------------------------------------------------------------------------
@@ -295,6 +325,32 @@ VIETNAMESE_DECOMPOSITION: dict[str, str] = {
 
 
 # ---------------------------------------------------------------------------
+# Arabic presentation form tables (for cp1006 / cp864)
+# ---------------------------------------------------------------------------
+# These encodings use Arabic Presentation Forms (U+FB50+ / U+FE70+) rather
+# than the standard Arabic block (U+0600+).  CulturaX text uses the standard
+# block, so we must map base characters to their presentation-form equivalents
+# before encoding.  We use isolated forms (simplest, always valid).
+
+def _build_arabic_pres_map(codec: str) -> dict[str, str]:
+    """Build base-Arabic -> presentation-form map for *codec*."""
+    mapping: dict[str, str] = {}
+    for b in range(0x80, 0x100):
+        try:
+            c = bytes([b]).decode(codec)
+            base = unicodedata.normalize("NFKC", c)
+            if base != c and len(base) == 1 and base not in mapping:
+                mapping[base] = c
+        except (UnicodeDecodeError, LookupError):
+            pass
+    return mapping
+
+
+_CP1006_PRES_MAP: dict[str, str] = _build_arabic_pres_map("cp1006")
+_CP864_PRES_MAP: dict[str, str] = _build_arabic_pres_map("cp864")
+
+
+# ---------------------------------------------------------------------------
 # Helper functions
 # ---------------------------------------------------------------------------
 
@@ -303,10 +359,16 @@ def normalize_text(text: str, encoding: str) -> str:
     """Clean and normalize text for encoding into a legacy charset."""
     # Collapse repeated whitespace
     text = re.sub(r"(\s)\1+", r"\1", text)
+    enc_upper = encoding.upper()
     # Vietnamese decomposition for Windows-1258
-    if encoding.upper() == "WINDOWS-1258":
+    if enc_upper == "WINDOWS-1258":
         nfc = unicodedata.normalize("NFC", text)
         text = "".join(VIETNAMESE_DECOMPOSITION.get(c, c) for c in nfc)
+    # Arabic presentation forms for cp1006 / cp864
+    if enc_upper == "CP1006":
+        text = "".join(_CP1006_PRES_MAP.get(c, c) for c in text)
+    elif enc_upper == "CP864":
+        text = "".join(_CP864_PRES_MAP.get(c, c) for c in text)
     return text
 
 
@@ -329,6 +391,12 @@ def get_substitutions(encoding: str, language: str) -> dict[str, str]:
 
     if enc_upper in ("CP720", "CP864", "ISO-8859-6"):
         subs.update(ARABIC_SUBSTITUTIONS)
+
+    if enc_upper == "CP1006":
+        subs.update(CP1006_URDU_SUBSTITUTIONS)
+
+    if enc_upper == "CP864":
+        subs.update(CP864_ARABIC_SUBSTITUTIONS)
 
     if enc_upper == "CP866":
         subs.update(CP866_SUBSTITUTIONS)  # і→и for all CP866

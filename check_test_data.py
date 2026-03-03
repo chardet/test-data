@@ -22,11 +22,11 @@ from collections import defaultdict
 KNOWN_LANGUAGES = {
     "arabic", "belarusian", "breton", "bulgarian", "chinese", "croatian",
     "czech", "danish", "dutch", "english", "esperanto", "estonian", "farsi",
-    "finnish", "french", "german", "greek", "hebrew", "hungarian",
+    "finnish", "french", "gaelic", "german", "greek", "hebrew", "hungarian",
     "icelandic", "indonesian", "irish", "italian", "japanese", "kazakh",
-    "korean", "latvian", "lithuanian", "macedonian", "maltese", "norwegian",
-    "polish", "portuguese", "romanian", "russian", "serbian", "slovak",
-    "slovene", "spanish", "swedish", "tajik", "thai", "turkish",
+    "korean", "latvian", "lithuanian", "macedonian", "malay", "maltese",
+    "norwegian", "polish", "portuguese", "romanian", "russian", "serbian",
+    "slovak", "slovene", "spanish", "swedish", "tajik", "thai", "turkish",
     "ukrainian", "urdu", "vietnamese", "welsh",
 }
 
@@ -55,7 +55,7 @@ for _name in ("utf-32", "utf-32be", "utf-32le", "utf-16", "utf-16be", "utf-16le"
 
 # EBCDIC encodings (raw bytes look non-ASCII, skip raw-byte heuristics)
 EBCDIC_ENCODINGS = set()
-for _name in ("cp037", "cp500", "cp875", "cp1026", "cp424"):
+for _name in ("cp037", "cp273", "cp500", "cp875", "cp1026", "cp1140", "cp424"):
     try:
         EBCDIC_ENCODINGS.add(codecs.lookup(_name).name)
     except LookupError:
@@ -93,6 +93,7 @@ LANGUAGE_SCRIPTS = {
     "farsi": {"Arabic"},  # Farsi uses Arabic script
     "finnish": {"Latin"},
     "french": {"Latin"},
+    "gaelic": {"Latin"},
     "german": {"Latin"},
     "greek": {"Greek"},
     "hebrew": {"Hebrew"},
@@ -107,6 +108,7 @@ LANGUAGE_SCRIPTS = {
     "latvian": {"Latin"},
     "lithuanian": {"Latin"},
     "macedonian": {"Cyrillic"},
+    "malay": {"Latin"},
     "maltese": {"Latin"},
     "norwegian": {"Latin"},
     "polish": {"Latin"},
@@ -356,8 +358,8 @@ def check_directory(base_path):
         if entry.startswith("."):
             continue
 
-        # Skip None/ (binary files directory)
-        if entry == "None":
+        # Skip non-test-data directories
+        if entry in ("None", "None-None", "scripts"):
             continue
 
         dirs_checked += 1
