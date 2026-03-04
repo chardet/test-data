@@ -2,7 +2,7 @@
 
 This repository contains character encoding test data for the
 [chardet](https://github.com/chardet/chardet) Python library. Each
-subdirectory is named `{encoding}` or `{encoding}-{language}` and
+subdirectory is named `{encoding}` or `{encoding}-{lang_iso}` and
 contains files encoded in that encoding.
 
 **2510 files** across **728 directories** covering **88 encodings**.
@@ -45,7 +45,7 @@ binary/non-text content and returns `None`.
 
 Pure ASCII files for baseline testing.
 
-### `ascii-english/` — 12 files
+### `ascii-en/` — 12 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -62,14 +62,14 @@ Pure ASCII files for baseline testing.
 | `simple.json` | charset-normalizer | 359 | Simple JSON data |
 | `slice.hpp` | unknown | 18,462 |  |
 
-### `ascii-indonesian/` — 2 files
+### `ascii-id/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_114890.txt` | CulturaX | 2,687 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 1,530 |  |
 
-### `ascii-malay/` — 3 files
+### `ascii-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -77,7 +77,7 @@ Pure ASCII files for baseline testing.
 | `culturax_00001.txt` | CulturaX | 540 |  |
 | `culturax_00002.txt` | CulturaX | 4,066 |  |
 
-### `ascii-welsh/` — 1 files
+### `ascii-cy/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -91,7 +91,7 @@ content transcoded to test detection across encodings.
 
 ### Unicode (1347 files in 441 directories)
 
-#### `utf-16-arabic/` — 3 files
+#### `utf-16-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -99,7 +99,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 2,252 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 5,944 |  |
 
-#### `utf-16-belarusian/` — 3 files
+#### `utf-16-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -107,14 +107,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 2,378 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 4,584 |  |
 
-#### `utf-16-breton/` — 2 files
+#### `utf-16-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 1,092 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 1,258 |  |
 
-#### `utf-16-bulgarian/` — 3 files
+#### `utf-16-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -122,7 +122,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 2,514 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 4,742 |  |
 
-#### `utf-16-chinese/` — 3 files
+#### `utf-16-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -130,7 +130,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | 1,290 |  |
 | `culturax_mC4_7.txt` | CulturaX | 2,148 |  |
 
-#### `utf-16-croatian/` — 3 files
+#### `utf-16-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -138,7 +138,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 284 |  |
 | `culturax_00002.txt` | CulturaX | 1,154 |  |
 
-#### `utf-16-czech/` — 3 files
+#### `utf-16-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -146,7 +146,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 2,850 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 5,872 |  |
 
-#### `utf-16-danish/` — 3 files
+#### `utf-16-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -154,7 +154,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 5,856 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 4,040 |  |
 
-#### `utf-16-dutch/` — 3 files
+#### `utf-16-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -162,7 +162,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 4,912 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 2,088 |  |
 
-#### `utf-16-english/` — 9 files
+#### `utf-16-en/` — 9 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -176,7 +176,7 @@ content transcoded to test detection across encodings.
 | `iris-utf-16.csv` | unknown | 10,226 | Iris dataset, originally from Capital One DataProfiler |
 | `iris-utf-16.json` | unknown | 38,296 | Iris dataset, originally from Capital One DataProfiler |
 
-#### `utf-16-esperanto/` — 3 files
+#### `utf-16-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -184,7 +184,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 2,640 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 5,266 |  |
 
-#### `utf-16-estonian/` — 3 files
+#### `utf-16-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -192,7 +192,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 5,562 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 2,052 |  |
 
-#### `utf-16-farsi/` — 3 files
+#### `utf-16-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -200,7 +200,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 5,054 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 3,916 |  |
 
-#### `utf-16-finnish/` — 3 files
+#### `utf-16-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -208,7 +208,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 6,002 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 5,610 |  |
 
-#### `utf-16-french/` — 3 files
+#### `utf-16-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -216,7 +216,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 1,468 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 5,722 |  |
 
-#### `utf-16-gaelic/` — 3 files
+#### `utf-16-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -224,7 +224,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 5,780 |  |
 | `culturax_00002.txt` | CulturaX | 13,102 |  |
 
-#### `utf-16-german/` — 3 files
+#### `utf-16-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -232,7 +232,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 4,316 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 4,520 |  |
 
-#### `utf-16-greek/` — 3 files
+#### `utf-16-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -240,7 +240,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 4,264 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 2,220 |  |
 
-#### `utf-16-hebrew/` — 3 files
+#### `utf-16-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -248,7 +248,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 5,960 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 5,976 |  |
 
-#### `utf-16-hungarian/` — 3 files
+#### `utf-16-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -256,7 +256,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 3,166 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 1,256 |  |
 
-#### `utf-16-icelandic/` — 3 files
+#### `utf-16-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -264,7 +264,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 3,014 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 5,618 |  |
 
-#### `utf-16-indonesian/` — 3 files
+#### `utf-16-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -272,7 +272,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | 5,376 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 3,062 |  |
 
-#### `utf-16-irish/` — 3 files
+#### `utf-16-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -280,7 +280,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 5,796 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 2,446 |  |
 
-#### `utf-16-italian/` — 3 files
+#### `utf-16-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -288,7 +288,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 2,558 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 2,892 |  |
 
-#### `utf-16-japanese/` — 3 files
+#### `utf-16-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -296,7 +296,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 6,002 |  |
 | `culturax_mC4_5.txt` | CulturaX | 5,862 |  |
 
-#### `utf-16-kazakh/` — 3 files
+#### `utf-16-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -304,7 +304,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 1,310 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 5,844 |  |
 
-#### `utf-16-korean/` — 3 files
+#### `utf-16-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -312,7 +312,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 5,794 |  |
 | `culturax_mC4_2.txt` | CulturaX | 1,184 |  |
 
-#### `utf-16-latvian/` — 3 files
+#### `utf-16-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -320,7 +320,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 2,610 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 1,534 |  |
 
-#### `utf-16-lithuanian/` — 3 files
+#### `utf-16-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -328,7 +328,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 5,368 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 6,002 |  |
 
-#### `utf-16-macedonian/` — 3 files
+#### `utf-16-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -336,7 +336,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 2,412 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 6,002 |  |
 
-#### `utf-16-malay/` — 3 files
+#### `utf-16-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -344,7 +344,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,082 |  |
 | `culturax_00002.txt` | CulturaX | 8,134 |  |
 
-#### `utf-16-maltese/` — 3 files
+#### `utf-16-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -352,7 +352,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 6,002 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 2,196 |  |
 
-#### `utf-16-norwegian/` — 3 files
+#### `utf-16-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -360,7 +360,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 6,002 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 6,002 |  |
 
-#### `utf-16-polish/` — 3 files
+#### `utf-16-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -368,7 +368,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 2,602 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 4,768 |  |
 
-#### `utf-16-portuguese/` — 3 files
+#### `utf-16-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -376,7 +376,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 5,752 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 5,676 |  |
 
-#### `utf-16-romanian/` — 3 files
+#### `utf-16-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -384,7 +384,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 5,268 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 5,456 |  |
 
-#### `utf-16-russian/` — 3 files
+#### `utf-16-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -392,7 +392,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 5,664 |  |
 | `culturax_mC4_85056.txt` | CulturaX | 2,654 |  |
 
-#### `utf-16-serbian/` — 3 files
+#### `utf-16-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -400,7 +400,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 2,248 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 5,262 |  |
 
-#### `utf-16-slovak/` — 3 files
+#### `utf-16-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -408,7 +408,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 4,010 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 5,738 |  |
 
-#### `utf-16-slovene/` — 3 files
+#### `utf-16-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -416,7 +416,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 5,312 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 2,378 |  |
 
-#### `utf-16-spanish/` — 3 files
+#### `utf-16-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -424,7 +424,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 5,942 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 5,558 |  |
 
-#### `utf-16-swedish/` — 3 files
+#### `utf-16-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -432,7 +432,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 5,068 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 4,224 |  |
 
-#### `utf-16-tajik/` — 3 files
+#### `utf-16-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -440,7 +440,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 5,640 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 5,708 |  |
 
-#### `utf-16-thai/` — 3 files
+#### `utf-16-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -448,7 +448,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 5,980 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 2,660 |  |
 
-#### `utf-16-turkish/` — 3 files
+#### `utf-16-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -456,7 +456,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 1,460 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 2,680 |  |
 
-#### `utf-16-ukrainian/` — 3 files
+#### `utf-16-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -464,7 +464,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 2,744 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 5,644 |  |
 
-#### `utf-16-urdu/` — 3 files
+#### `utf-16-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -472,7 +472,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 5,886 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 2,452 |  |
 
-#### `utf-16-vietnamese/` — 3 files
+#### `utf-16-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -480,7 +480,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 5,338 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 5,738 |  |
 
-#### `utf-16-welsh/` — 3 files
+#### `utf-16-cy/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -488,7 +488,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | 5,770 |  |
 | `culturax_mC4_78728.txt` | CulturaX | 4,134 |  |
 
-#### `utf-16be-arabic/` — 3 files
+#### `utf-16be-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -496,7 +496,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 2,250 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 5,942 |  |
 
-#### `utf-16be-belarusian/` — 3 files
+#### `utf-16be-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -504,14 +504,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 2,376 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 4,582 |  |
 
-#### `utf-16be-breton/` — 2 files
+#### `utf-16be-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 1,090 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 1,256 |  |
 
-#### `utf-16be-bulgarian/` — 3 files
+#### `utf-16be-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -519,7 +519,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 2,512 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 4,740 |  |
 
-#### `utf-16be-chinese/` — 3 files
+#### `utf-16be-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -527,7 +527,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | 1,288 |  |
 | `culturax_mC4_7.txt` | CulturaX | 2,146 |  |
 
-#### `utf-16be-croatian/` — 3 files
+#### `utf-16be-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -535,7 +535,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 282 |  |
 | `culturax_00002.txt` | CulturaX | 1,152 |  |
 
-#### `utf-16be-czech/` — 3 files
+#### `utf-16be-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -543,7 +543,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 2,848 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 5,870 |  |
 
-#### `utf-16be-danish/` — 3 files
+#### `utf-16be-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -551,7 +551,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 5,854 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 4,038 |  |
 
-#### `utf-16be-dutch/` — 3 files
+#### `utf-16be-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -559,7 +559,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 4,910 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 2,086 |  |
 
-#### `utf-16be-english/` — 5 files
+#### `utf-16be-en/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -569,7 +569,7 @@ content transcoded to test detection across encodings.
 | `nobom-utf16be.txt` | unknown | 1,588 | No-BOM encoding test |
 | `plane1-utf-16be.html` | Contributed | 12,504 | Unicode Plane 1 (supplementary) test |
 
-#### `utf-16be-esperanto/` — 3 files
+#### `utf-16be-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -577,7 +577,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 2,638 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 5,264 |  |
 
-#### `utf-16be-estonian/` — 3 files
+#### `utf-16be-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -585,7 +585,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 5,560 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 2,050 |  |
 
-#### `utf-16be-farsi/` — 3 files
+#### `utf-16be-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -593,7 +593,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 5,052 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 3,914 |  |
 
-#### `utf-16be-finnish/` — 3 files
+#### `utf-16be-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -601,7 +601,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 5,608 |  |
 
-#### `utf-16be-french/` — 3 files
+#### `utf-16be-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -609,7 +609,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 1,466 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 5,720 |  |
 
-#### `utf-16be-gaelic/` — 3 files
+#### `utf-16be-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -617,7 +617,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 5,778 |  |
 | `culturax_00002.txt` | CulturaX | 13,100 |  |
 
-#### `utf-16be-german/` — 3 files
+#### `utf-16be-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -625,7 +625,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 4,314 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 4,518 |  |
 
-#### `utf-16be-greek/` — 3 files
+#### `utf-16be-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -633,7 +633,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 4,262 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 2,218 |  |
 
-#### `utf-16be-hebrew/` — 3 files
+#### `utf-16be-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -641,7 +641,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 5,958 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 5,974 |  |
 
-#### `utf-16be-hungarian/` — 3 files
+#### `utf-16be-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -649,7 +649,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 3,164 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 1,254 |  |
 
-#### `utf-16be-icelandic/` — 3 files
+#### `utf-16be-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -657,7 +657,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 3,012 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 5,616 |  |
 
-#### `utf-16be-indonesian/` — 3 files
+#### `utf-16be-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -665,7 +665,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | 5,374 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 3,060 |  |
 
-#### `utf-16be-irish/` — 3 files
+#### `utf-16be-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -673,7 +673,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 5,794 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 2,444 |  |
 
-#### `utf-16be-italian/` — 3 files
+#### `utf-16be-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -681,7 +681,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 2,556 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 2,890 |  |
 
-#### `utf-16be-japanese/` — 3 files
+#### `utf-16be-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -689,7 +689,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_5.txt` | CulturaX | 5,860 |  |
 
-#### `utf-16be-kazakh/` — 3 files
+#### `utf-16be-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -697,7 +697,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 1,308 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 5,842 |  |
 
-#### `utf-16be-korean/` — 3 files
+#### `utf-16be-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -705,7 +705,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 5,792 |  |
 | `culturax_mC4_2.txt` | CulturaX | 1,182 |  |
 
-#### `utf-16be-latvian/` — 3 files
+#### `utf-16be-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -713,7 +713,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 2,608 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 1,532 |  |
 
-#### `utf-16be-lithuanian/` — 3 files
+#### `utf-16be-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -721,7 +721,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 5,366 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 6,000 |  |
 
-#### `utf-16be-macedonian/` — 3 files
+#### `utf-16be-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -729,7 +729,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 2,410 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 6,000 |  |
 
-#### `utf-16be-malay/` — 3 files
+#### `utf-16be-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -737,7 +737,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,080 |  |
 | `culturax_00002.txt` | CulturaX | 8,132 |  |
 
-#### `utf-16be-maltese/` — 3 files
+#### `utf-16be-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -745,7 +745,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 2,194 |  |
 
-#### `utf-16be-norwegian/` — 3 files
+#### `utf-16be-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -753,7 +753,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 6,000 |  |
 
-#### `utf-16be-polish/` — 3 files
+#### `utf-16be-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -761,7 +761,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 2,600 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 4,766 |  |
 
-#### `utf-16be-portuguese/` — 3 files
+#### `utf-16be-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -769,7 +769,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 5,750 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 5,674 |  |
 
-#### `utf-16be-romanian/` — 3 files
+#### `utf-16be-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -777,7 +777,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 5,266 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 5,454 |  |
 
-#### `utf-16be-russian/` — 3 files
+#### `utf-16be-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -785,7 +785,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 5,662 |  |
 | `culturax_mC4_85056.txt` | CulturaX | 2,652 |  |
 
-#### `utf-16be-serbian/` — 3 files
+#### `utf-16be-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -793,7 +793,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 2,246 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 5,260 |  |
 
-#### `utf-16be-slovak/` — 3 files
+#### `utf-16be-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -801,7 +801,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 4,008 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 5,736 |  |
 
-#### `utf-16be-slovene/` — 3 files
+#### `utf-16be-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -809,7 +809,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 5,310 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 2,376 |  |
 
-#### `utf-16be-spanish/` — 3 files
+#### `utf-16be-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -817,7 +817,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 5,940 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 5,556 |  |
 
-#### `utf-16be-swedish/` — 3 files
+#### `utf-16be-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -825,7 +825,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 5,066 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 4,222 |  |
 
-#### `utf-16be-tajik/` — 3 files
+#### `utf-16be-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -833,7 +833,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 5,638 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 5,706 |  |
 
-#### `utf-16be-thai/` — 3 files
+#### `utf-16be-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -841,7 +841,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 5,978 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 2,658 |  |
 
-#### `utf-16be-turkish/` — 3 files
+#### `utf-16be-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -849,7 +849,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 1,458 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 2,678 |  |
 
-#### `utf-16be-ukrainian/` — 3 files
+#### `utf-16be-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -857,7 +857,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 2,742 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 5,642 |  |
 
-#### `utf-16be-urdu/` — 3 files
+#### `utf-16be-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -865,7 +865,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 5,884 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 2,450 |  |
 
-#### `utf-16be-vietnamese/` — 3 files
+#### `utf-16be-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -873,7 +873,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 5,336 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 5,736 |  |
 
-#### `utf-16be-welsh/` — 3 files
+#### `utf-16be-cy/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -881,7 +881,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | 5,768 |  |
 | `culturax_mC4_78728.txt` | CulturaX | 4,132 |  |
 
-#### `utf-16le-arabic/` — 3 files
+#### `utf-16le-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -889,7 +889,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 2,250 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 5,942 |  |
 
-#### `utf-16le-belarusian/` — 3 files
+#### `utf-16le-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -897,14 +897,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 2,376 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 4,582 |  |
 
-#### `utf-16le-breton/` — 2 files
+#### `utf-16le-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 1,090 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 1,256 |  |
 
-#### `utf-16le-bulgarian/` — 3 files
+#### `utf-16le-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -912,7 +912,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 2,512 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 4,740 |  |
 
-#### `utf-16le-chinese/` — 3 files
+#### `utf-16le-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -920,7 +920,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | 1,288 |  |
 | `culturax_mC4_7.txt` | CulturaX | 2,146 |  |
 
-#### `utf-16le-croatian/` — 3 files
+#### `utf-16le-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -928,7 +928,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 282 |  |
 | `culturax_00002.txt` | CulturaX | 1,152 |  |
 
-#### `utf-16le-czech/` — 3 files
+#### `utf-16le-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -936,7 +936,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 2,848 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 5,870 |  |
 
-#### `utf-16le-danish/` — 3 files
+#### `utf-16le-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -944,7 +944,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 5,854 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 4,038 |  |
 
-#### `utf-16le-dutch/` — 3 files
+#### `utf-16le-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -952,7 +952,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 4,910 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 2,086 |  |
 
-#### `utf-16le-english/` — 5 files
+#### `utf-16le-en/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -962,7 +962,7 @@ content transcoded to test detection across encodings.
 | `nobom-utf16le.txt` | unknown | 1,588 | No-BOM encoding test |
 | `plane1-utf-16le.html` | Contributed | 12,504 | Unicode Plane 1 (supplementary) test |
 
-#### `utf-16le-esperanto/` — 3 files
+#### `utf-16le-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -970,7 +970,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 2,638 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 5,264 |  |
 
-#### `utf-16le-estonian/` — 3 files
+#### `utf-16le-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -978,7 +978,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 5,560 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 2,050 |  |
 
-#### `utf-16le-farsi/` — 3 files
+#### `utf-16le-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -986,7 +986,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 5,052 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 3,914 |  |
 
-#### `utf-16le-finnish/` — 3 files
+#### `utf-16le-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -994,7 +994,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 5,608 |  |
 
-#### `utf-16le-french/` — 3 files
+#### `utf-16le-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1002,7 +1002,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 1,466 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 5,720 |  |
 
-#### `utf-16le-gaelic/` — 3 files
+#### `utf-16le-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1010,7 +1010,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 5,778 |  |
 | `culturax_00002.txt` | CulturaX | 13,100 |  |
 
-#### `utf-16le-german/` — 3 files
+#### `utf-16le-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1018,7 +1018,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 4,314 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 4,518 |  |
 
-#### `utf-16le-greek/` — 3 files
+#### `utf-16le-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1026,7 +1026,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 4,262 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 2,218 |  |
 
-#### `utf-16le-hebrew/` — 3 files
+#### `utf-16le-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1034,7 +1034,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 5,958 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 5,974 |  |
 
-#### `utf-16le-hungarian/` — 3 files
+#### `utf-16le-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1042,7 +1042,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 3,164 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 1,254 |  |
 
-#### `utf-16le-icelandic/` — 3 files
+#### `utf-16le-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1050,7 +1050,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 3,012 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 5,616 |  |
 
-#### `utf-16le-indonesian/` — 3 files
+#### `utf-16le-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1058,7 +1058,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | 5,374 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 3,060 |  |
 
-#### `utf-16le-irish/` — 3 files
+#### `utf-16le-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1066,7 +1066,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 5,794 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 2,444 |  |
 
-#### `utf-16le-italian/` — 3 files
+#### `utf-16le-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1074,7 +1074,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 2,556 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 2,890 |  |
 
-#### `utf-16le-japanese/` — 3 files
+#### `utf-16le-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1082,7 +1082,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_5.txt` | CulturaX | 5,860 |  |
 
-#### `utf-16le-kazakh/` — 3 files
+#### `utf-16le-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1090,7 +1090,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 1,308 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 5,842 |  |
 
-#### `utf-16le-korean/` — 3 files
+#### `utf-16le-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1098,7 +1098,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 5,792 |  |
 | `culturax_mC4_2.txt` | CulturaX | 1,182 |  |
 
-#### `utf-16le-latvian/` — 3 files
+#### `utf-16le-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1106,7 +1106,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 2,608 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 1,532 |  |
 
-#### `utf-16le-lithuanian/` — 3 files
+#### `utf-16le-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1114,7 +1114,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 5,366 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 6,000 |  |
 
-#### `utf-16le-macedonian/` — 3 files
+#### `utf-16le-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1122,7 +1122,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 2,410 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 6,000 |  |
 
-#### `utf-16le-malay/` — 3 files
+#### `utf-16le-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1130,7 +1130,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,080 |  |
 | `culturax_00002.txt` | CulturaX | 8,132 |  |
 
-#### `utf-16le-maltese/` — 3 files
+#### `utf-16le-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1138,7 +1138,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 2,194 |  |
 
-#### `utf-16le-norwegian/` — 3 files
+#### `utf-16le-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1146,7 +1146,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 6,000 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 6,000 |  |
 
-#### `utf-16le-polish/` — 3 files
+#### `utf-16le-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1154,7 +1154,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 2,600 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 4,766 |  |
 
-#### `utf-16le-portuguese/` — 3 files
+#### `utf-16le-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1162,7 +1162,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 5,750 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 5,674 |  |
 
-#### `utf-16le-romanian/` — 3 files
+#### `utf-16le-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1170,7 +1170,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 5,266 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 5,454 |  |
 
-#### `utf-16le-russian/` — 3 files
+#### `utf-16le-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1178,7 +1178,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 5,662 |  |
 | `culturax_mC4_85056.txt` | CulturaX | 2,652 |  |
 
-#### `utf-16le-serbian/` — 3 files
+#### `utf-16le-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1186,7 +1186,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 2,246 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 5,260 |  |
 
-#### `utf-16le-slovak/` — 3 files
+#### `utf-16le-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1194,7 +1194,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 4,008 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 5,736 |  |
 
-#### `utf-16le-slovene/` — 3 files
+#### `utf-16le-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1202,7 +1202,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 5,310 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 2,376 |  |
 
-#### `utf-16le-spanish/` — 3 files
+#### `utf-16le-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1210,7 +1210,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 5,940 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 5,556 |  |
 
-#### `utf-16le-swedish/` — 3 files
+#### `utf-16le-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1218,7 +1218,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 5,066 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 4,222 |  |
 
-#### `utf-16le-tajik/` — 3 files
+#### `utf-16le-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1226,7 +1226,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 5,638 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 5,706 |  |
 
-#### `utf-16le-thai/` — 3 files
+#### `utf-16le-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1234,7 +1234,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 5,978 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 2,658 |  |
 
-#### `utf-16le-turkish/` — 3 files
+#### `utf-16le-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1242,7 +1242,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 1,458 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 2,678 |  |
 
-#### `utf-16le-ukrainian/` — 3 files
+#### `utf-16le-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1250,7 +1250,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 2,742 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 5,642 |  |
 
-#### `utf-16le-urdu/` — 3 files
+#### `utf-16le-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1258,7 +1258,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 5,884 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 2,450 |  |
 
-#### `utf-16le-vietnamese/` — 3 files
+#### `utf-16le-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1266,7 +1266,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 5,336 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 5,736 |  |
 
-#### `utf-16le-welsh/` — 3 files
+#### `utf-16le-cy/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1274,7 +1274,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | 5,768 |  |
 | `culturax_mC4_78728.txt` | CulturaX | 4,132 |  |
 
-#### `utf-32-arabic/` — 3 files
+#### `utf-32-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1282,7 +1282,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 4,504 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 11,888 |  |
 
-#### `utf-32-belarusian/` — 3 files
+#### `utf-32-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1290,14 +1290,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 4,756 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 9,168 |  |
 
-#### `utf-32-breton/` — 2 files
+#### `utf-32-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 2,184 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 2,516 |  |
 
-#### `utf-32-bulgarian/` — 3 files
+#### `utf-32-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1305,7 +1305,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 5,028 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 9,484 |  |
 
-#### `utf-32-chinese/` — 3 files
+#### `utf-32-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1313,7 +1313,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | 2,580 |  |
 | `culturax_mC4_7.txt` | CulturaX | 4,296 |  |
 
-#### `utf-32-croatian/` — 3 files
+#### `utf-32-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1321,7 +1321,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 568 |  |
 | `culturax_00002.txt` | CulturaX | 2,308 |  |
 
-#### `utf-32-czech/` — 3 files
+#### `utf-32-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1329,7 +1329,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 5,700 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 11,744 |  |
 
-#### `utf-32-danish/` — 3 files
+#### `utf-32-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1337,7 +1337,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 11,712 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 8,080 |  |
 
-#### `utf-32-dutch/` — 3 files
+#### `utf-32-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1345,7 +1345,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 9,824 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 4,176 |  |
 
-#### `utf-32-english/` — 7 files
+#### `utf-32-en/` — 7 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1357,7 +1357,7 @@ content transcoded to test detection across encodings.
 | `iris-utf-32.csv` | unknown | 20,452 | Iris dataset, originally from Capital One DataProfiler |
 | `iris-utf-32.json` | unknown | 76,592 | Iris dataset, originally from Capital One DataProfiler |
 
-#### `utf-32-esperanto/` — 3 files
+#### `utf-32-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1365,7 +1365,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 5,280 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 10,532 |  |
 
-#### `utf-32-estonian/` — 3 files
+#### `utf-32-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1373,7 +1373,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 11,124 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 4,104 |  |
 
-#### `utf-32-farsi/` — 3 files
+#### `utf-32-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1381,7 +1381,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 10,108 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 7,832 |  |
 
-#### `utf-32-finnish/` — 3 files
+#### `utf-32-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1389,7 +1389,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 12,004 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 11,220 |  |
 
-#### `utf-32-french/` — 3 files
+#### `utf-32-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1397,7 +1397,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 2,936 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 11,440 |  |
 
-#### `utf-32-gaelic/` — 3 files
+#### `utf-32-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1405,7 +1405,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 11,560 |  |
 | `culturax_00002.txt` | CulturaX | 26,204 |  |
 
-#### `utf-32-german/` — 3 files
+#### `utf-32-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1413,7 +1413,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 8,632 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 9,040 |  |
 
-#### `utf-32-greek/` — 3 files
+#### `utf-32-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1421,7 +1421,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 8,528 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 4,440 |  |
 
-#### `utf-32-hebrew/` — 3 files
+#### `utf-32-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1429,7 +1429,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 11,920 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 11,952 |  |
 
-#### `utf-32-hungarian/` — 3 files
+#### `utf-32-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1437,7 +1437,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 6,332 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 2,512 |  |
 
-#### `utf-32-icelandic/` — 3 files
+#### `utf-32-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1445,7 +1445,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 6,028 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 11,236 |  |
 
-#### `utf-32-indonesian/` — 3 files
+#### `utf-32-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1453,7 +1453,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | 10,752 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 6,124 |  |
 
-#### `utf-32-irish/` — 3 files
+#### `utf-32-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1461,7 +1461,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 11,592 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 4,892 |  |
 
-#### `utf-32-italian/` — 3 files
+#### `utf-32-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1469,7 +1469,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 5,116 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 5,784 |  |
 
-#### `utf-32-japanese/` — 3 files
+#### `utf-32-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1477,7 +1477,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 12,004 |  |
 | `culturax_mC4_5.txt` | CulturaX | 11,724 |  |
 
-#### `utf-32-kazakh/` — 3 files
+#### `utf-32-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1485,7 +1485,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 2,620 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 11,688 |  |
 
-#### `utf-32-korean/` — 3 files
+#### `utf-32-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1493,7 +1493,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 11,588 |  |
 | `culturax_mC4_2.txt` | CulturaX | 2,368 |  |
 
-#### `utf-32-latvian/` — 3 files
+#### `utf-32-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1501,7 +1501,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 5,220 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 3,068 |  |
 
-#### `utf-32-lithuanian/` — 3 files
+#### `utf-32-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1509,7 +1509,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 10,736 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 12,004 |  |
 
-#### `utf-32-macedonian/` — 3 files
+#### `utf-32-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1517,7 +1517,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 4,824 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 12,004 |  |
 
-#### `utf-32-malay/` — 3 files
+#### `utf-32-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1525,7 +1525,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,164 |  |
 | `culturax_00002.txt` | CulturaX | 16,268 |  |
 
-#### `utf-32-maltese/` — 3 files
+#### `utf-32-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1533,7 +1533,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 12,004 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 4,392 |  |
 
-#### `utf-32-norwegian/` — 3 files
+#### `utf-32-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1541,7 +1541,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 12,004 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 12,004 |  |
 
-#### `utf-32-polish/` — 3 files
+#### `utf-32-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1549,7 +1549,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 5,204 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 9,536 |  |
 
-#### `utf-32-portuguese/` — 3 files
+#### `utf-32-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1557,7 +1557,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 11,504 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 11,352 |  |
 
-#### `utf-32-romanian/` — 3 files
+#### `utf-32-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1565,7 +1565,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 10,536 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 10,912 |  |
 
-#### `utf-32-russian/` — 3 files
+#### `utf-32-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1573,7 +1573,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 11,328 |  |
 | `culturax_mC4_85056.txt` | CulturaX | 5,308 |  |
 
-#### `utf-32-serbian/` — 3 files
+#### `utf-32-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1581,7 +1581,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 4,496 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 10,524 |  |
 
-#### `utf-32-slovak/` — 3 files
+#### `utf-32-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1589,7 +1589,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 8,020 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 11,476 |  |
 
-#### `utf-32-slovene/` — 3 files
+#### `utf-32-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1597,7 +1597,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 10,624 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 4,756 |  |
 
-#### `utf-32-spanish/` — 3 files
+#### `utf-32-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1605,7 +1605,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 11,884 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 11,116 |  |
 
-#### `utf-32-swedish/` — 3 files
+#### `utf-32-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1613,7 +1613,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 10,136 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 8,448 |  |
 
-#### `utf-32-tajik/` — 3 files
+#### `utf-32-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1621,7 +1621,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 11,280 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 11,416 |  |
 
-#### `utf-32-thai/` — 3 files
+#### `utf-32-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1629,7 +1629,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 11,912 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 5,320 |  |
 
-#### `utf-32-turkish/` — 3 files
+#### `utf-32-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1637,7 +1637,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 2,920 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 5,360 |  |
 
-#### `utf-32-ukrainian/` — 3 files
+#### `utf-32-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1645,7 +1645,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 5,488 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 11,288 |  |
 
-#### `utf-32-urdu/` — 3 files
+#### `utf-32-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1653,7 +1653,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 11,772 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 4,904 |  |
 
-#### `utf-32-vietnamese/` — 3 files
+#### `utf-32-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1661,7 +1661,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 10,676 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 11,476 |  |
 
-#### `utf-32-welsh/` — 3 files
+#### `utf-32-cy/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1669,7 +1669,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | 11,540 |  |
 | `culturax_mC4_78728.txt` | CulturaX | 8,268 |  |
 
-#### `utf-32be-arabic/` — 3 files
+#### `utf-32be-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1677,7 +1677,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 4,500 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 11,884 |  |
 
-#### `utf-32be-belarusian/` — 3 files
+#### `utf-32be-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1685,14 +1685,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 4,752 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 9,164 |  |
 
-#### `utf-32be-breton/` — 2 files
+#### `utf-32be-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 2,180 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 2,512 |  |
 
-#### `utf-32be-bulgarian/` — 3 files
+#### `utf-32be-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1700,7 +1700,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 5,024 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 9,480 |  |
 
-#### `utf-32be-chinese/` — 3 files
+#### `utf-32be-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1708,7 +1708,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | 2,576 |  |
 | `culturax_mC4_7.txt` | CulturaX | 4,292 |  |
 
-#### `utf-32be-croatian/` — 3 files
+#### `utf-32be-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1716,7 +1716,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 564 |  |
 | `culturax_00002.txt` | CulturaX | 2,304 |  |
 
-#### `utf-32be-czech/` — 3 files
+#### `utf-32be-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1724,7 +1724,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 5,696 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 11,740 |  |
 
-#### `utf-32be-danish/` — 3 files
+#### `utf-32be-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1732,7 +1732,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 11,708 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 8,076 |  |
 
-#### `utf-32be-dutch/` — 3 files
+#### `utf-32be-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1740,7 +1740,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 9,820 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 4,172 |  |
 
-#### `utf-32be-english/` — 5 files
+#### `utf-32be-en/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1750,7 +1750,7 @@ content transcoded to test detection across encodings.
 | `nobom-utf32be.txt` | unknown | 3,176 | No-BOM encoding test |
 | `plane1-utf-32be.html` | Contributed | 24,500 | Unicode Plane 1 (supplementary) test |
 
-#### `utf-32be-esperanto/` — 3 files
+#### `utf-32be-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1758,7 +1758,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 5,276 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 10,528 |  |
 
-#### `utf-32be-estonian/` — 3 files
+#### `utf-32be-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1766,7 +1766,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 11,120 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 4,100 |  |
 
-#### `utf-32be-farsi/` — 3 files
+#### `utf-32be-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1774,7 +1774,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 10,104 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 7,828 |  |
 
-#### `utf-32be-finnish/` — 3 files
+#### `utf-32be-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1782,7 +1782,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 11,216 |  |
 
-#### `utf-32be-french/` — 3 files
+#### `utf-32be-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1790,7 +1790,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 2,932 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 11,436 |  |
 
-#### `utf-32be-gaelic/` — 3 files
+#### `utf-32be-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1798,7 +1798,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 11,556 |  |
 | `culturax_00002.txt` | CulturaX | 26,200 |  |
 
-#### `utf-32be-german/` — 3 files
+#### `utf-32be-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1806,7 +1806,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 8,628 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 9,036 |  |
 
-#### `utf-32be-greek/` — 3 files
+#### `utf-32be-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1814,7 +1814,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 8,524 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 4,436 |  |
 
-#### `utf-32be-hebrew/` — 3 files
+#### `utf-32be-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1822,7 +1822,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 11,916 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 11,948 |  |
 
-#### `utf-32be-hungarian/` — 3 files
+#### `utf-32be-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1830,7 +1830,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 6,328 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 2,508 |  |
 
-#### `utf-32be-icelandic/` — 3 files
+#### `utf-32be-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1838,7 +1838,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 6,024 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 11,232 |  |
 
-#### `utf-32be-indonesian/` — 3 files
+#### `utf-32be-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1846,7 +1846,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | 10,748 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 6,120 |  |
 
-#### `utf-32be-irish/` — 3 files
+#### `utf-32be-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1854,7 +1854,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 11,588 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 4,888 |  |
 
-#### `utf-32be-italian/` — 3 files
+#### `utf-32be-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1862,7 +1862,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 5,112 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 5,780 |  |
 
-#### `utf-32be-japanese/` — 3 files
+#### `utf-32be-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1870,7 +1870,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_5.txt` | CulturaX | 11,720 |  |
 
-#### `utf-32be-kazakh/` — 3 files
+#### `utf-32be-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1878,7 +1878,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 2,616 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 11,684 |  |
 
-#### `utf-32be-korean/` — 3 files
+#### `utf-32be-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1886,7 +1886,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 11,584 |  |
 | `culturax_mC4_2.txt` | CulturaX | 2,364 |  |
 
-#### `utf-32be-latvian/` — 3 files
+#### `utf-32be-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1894,7 +1894,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 5,216 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 3,064 |  |
 
-#### `utf-32be-lithuanian/` — 3 files
+#### `utf-32be-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1902,7 +1902,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 10,732 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 12,000 |  |
 
-#### `utf-32be-macedonian/` — 3 files
+#### `utf-32be-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1910,7 +1910,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 4,820 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 12,000 |  |
 
-#### `utf-32be-malay/` — 3 files
+#### `utf-32be-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1918,7 +1918,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,160 |  |
 | `culturax_00002.txt` | CulturaX | 16,264 |  |
 
-#### `utf-32be-maltese/` — 3 files
+#### `utf-32be-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1926,7 +1926,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 4,388 |  |
 
-#### `utf-32be-norwegian/` — 3 files
+#### `utf-32be-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1934,7 +1934,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 12,000 |  |
 
-#### `utf-32be-polish/` — 3 files
+#### `utf-32be-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1942,7 +1942,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 5,200 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 9,532 |  |
 
-#### `utf-32be-portuguese/` — 3 files
+#### `utf-32be-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1950,7 +1950,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 11,500 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 11,348 |  |
 
-#### `utf-32be-romanian/` — 3 files
+#### `utf-32be-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1958,7 +1958,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 10,532 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 10,908 |  |
 
-#### `utf-32be-russian/` — 3 files
+#### `utf-32be-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1966,7 +1966,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 11,324 |  |
 | `culturax_mC4_85056.txt` | CulturaX | 5,304 |  |
 
-#### `utf-32be-serbian/` — 3 files
+#### `utf-32be-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1974,7 +1974,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 4,492 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 10,520 |  |
 
-#### `utf-32be-slovak/` — 3 files
+#### `utf-32be-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1982,7 +1982,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 8,016 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 11,472 |  |
 
-#### `utf-32be-slovene/` — 3 files
+#### `utf-32be-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1990,7 +1990,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 10,620 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 4,752 |  |
 
-#### `utf-32be-spanish/` — 3 files
+#### `utf-32be-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -1998,7 +1998,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 11,880 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 11,112 |  |
 
-#### `utf-32be-swedish/` — 3 files
+#### `utf-32be-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2006,7 +2006,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 10,132 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 8,444 |  |
 
-#### `utf-32be-tajik/` — 3 files
+#### `utf-32be-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2014,7 +2014,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 11,276 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 11,412 |  |
 
-#### `utf-32be-thai/` — 3 files
+#### `utf-32be-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2022,7 +2022,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 11,908 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 5,316 |  |
 
-#### `utf-32be-turkish/` — 3 files
+#### `utf-32be-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2030,7 +2030,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 2,916 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 5,356 |  |
 
-#### `utf-32be-ukrainian/` — 3 files
+#### `utf-32be-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2038,7 +2038,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 5,484 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 11,284 |  |
 
-#### `utf-32be-urdu/` — 3 files
+#### `utf-32be-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2046,7 +2046,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 11,768 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 4,900 |  |
 
-#### `utf-32be-vietnamese/` — 3 files
+#### `utf-32be-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2054,7 +2054,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 10,672 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 11,472 |  |
 
-#### `utf-32be-welsh/` — 3 files
+#### `utf-32be-cy/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2062,7 +2062,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | 11,536 |  |
 | `culturax_mC4_78728.txt` | CulturaX | 8,264 |  |
 
-#### `utf-32le-arabic/` — 3 files
+#### `utf-32le-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2070,7 +2070,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 4,500 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 11,884 |  |
 
-#### `utf-32le-belarusian/` — 3 files
+#### `utf-32le-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2078,14 +2078,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 4,752 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 9,164 |  |
 
-#### `utf-32le-breton/` — 2 files
+#### `utf-32le-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 2,180 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 2,512 |  |
 
-#### `utf-32le-bulgarian/` — 3 files
+#### `utf-32le-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2093,7 +2093,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 5,024 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 9,480 |  |
 
-#### `utf-32le-chinese/` — 3 files
+#### `utf-32le-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2101,7 +2101,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | 2,576 |  |
 | `culturax_mC4_7.txt` | CulturaX | 4,292 |  |
 
-#### `utf-32le-croatian/` — 3 files
+#### `utf-32le-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2109,7 +2109,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 564 |  |
 | `culturax_00002.txt` | CulturaX | 2,304 |  |
 
-#### `utf-32le-czech/` — 3 files
+#### `utf-32le-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2117,7 +2117,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 5,696 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 11,740 |  |
 
-#### `utf-32le-danish/` — 3 files
+#### `utf-32le-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2125,7 +2125,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 11,708 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 8,076 |  |
 
-#### `utf-32le-dutch/` — 3 files
+#### `utf-32le-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2133,7 +2133,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 9,820 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 4,172 |  |
 
-#### `utf-32le-english/` — 5 files
+#### `utf-32le-en/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2143,7 +2143,7 @@ content transcoded to test detection across encodings.
 | `nobom-utf32le.txt` | unknown | 3,176 | No-BOM encoding test |
 | `plane1-utf-32le.html` | Contributed | 24,500 | Unicode Plane 1 (supplementary) test |
 
-#### `utf-32le-esperanto/` — 3 files
+#### `utf-32le-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2151,7 +2151,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 5,276 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 10,528 |  |
 
-#### `utf-32le-estonian/` — 3 files
+#### `utf-32le-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2159,7 +2159,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 11,120 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 4,100 |  |
 
-#### `utf-32le-farsi/` — 3 files
+#### `utf-32le-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2167,7 +2167,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 10,104 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 7,828 |  |
 
-#### `utf-32le-finnish/` — 3 files
+#### `utf-32le-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2175,7 +2175,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 11,216 |  |
 
-#### `utf-32le-french/` — 3 files
+#### `utf-32le-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2183,7 +2183,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 2,932 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 11,436 |  |
 
-#### `utf-32le-gaelic/` — 3 files
+#### `utf-32le-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2191,7 +2191,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 11,556 |  |
 | `culturax_00002.txt` | CulturaX | 26,200 |  |
 
-#### `utf-32le-german/` — 3 files
+#### `utf-32le-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2199,7 +2199,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 8,628 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 9,036 |  |
 
-#### `utf-32le-greek/` — 3 files
+#### `utf-32le-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2207,7 +2207,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 8,524 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 4,436 |  |
 
-#### `utf-32le-hebrew/` — 3 files
+#### `utf-32le-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2215,7 +2215,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 11,916 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 11,948 |  |
 
-#### `utf-32le-hungarian/` — 3 files
+#### `utf-32le-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2223,7 +2223,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 6,328 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 2,508 |  |
 
-#### `utf-32le-icelandic/` — 3 files
+#### `utf-32le-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2231,7 +2231,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 6,024 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 11,232 |  |
 
-#### `utf-32le-indonesian/` — 3 files
+#### `utf-32le-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2239,7 +2239,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | 10,748 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 6,120 |  |
 
-#### `utf-32le-irish/` — 3 files
+#### `utf-32le-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2247,7 +2247,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 11,588 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 4,888 |  |
 
-#### `utf-32le-italian/` — 3 files
+#### `utf-32le-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2255,7 +2255,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 5,112 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 5,780 |  |
 
-#### `utf-32le-japanese/` — 3 files
+#### `utf-32le-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2263,7 +2263,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_5.txt` | CulturaX | 11,720 |  |
 
-#### `utf-32le-kazakh/` — 3 files
+#### `utf-32le-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2271,7 +2271,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 2,616 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 11,684 |  |
 
-#### `utf-32le-korean/` — 3 files
+#### `utf-32le-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2279,7 +2279,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 11,584 |  |
 | `culturax_mC4_2.txt` | CulturaX | 2,364 |  |
 
-#### `utf-32le-latvian/` — 3 files
+#### `utf-32le-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2287,7 +2287,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 5,216 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 3,064 |  |
 
-#### `utf-32le-lithuanian/` — 3 files
+#### `utf-32le-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2295,7 +2295,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 10,732 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 12,000 |  |
 
-#### `utf-32le-macedonian/` — 3 files
+#### `utf-32le-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2303,7 +2303,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 4,820 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 12,000 |  |
 
-#### `utf-32le-malay/` — 3 files
+#### `utf-32le-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2311,7 +2311,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,160 |  |
 | `culturax_00002.txt` | CulturaX | 16,264 |  |
 
-#### `utf-32le-maltese/` — 3 files
+#### `utf-32le-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2319,7 +2319,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 4,388 |  |
 
-#### `utf-32le-norwegian/` — 3 files
+#### `utf-32le-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2327,7 +2327,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 12,000 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 12,000 |  |
 
-#### `utf-32le-polish/` — 3 files
+#### `utf-32le-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2335,7 +2335,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 5,200 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 9,532 |  |
 
-#### `utf-32le-portuguese/` — 3 files
+#### `utf-32le-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2343,7 +2343,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 11,500 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 11,348 |  |
 
-#### `utf-32le-romanian/` — 3 files
+#### `utf-32le-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2351,7 +2351,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 10,532 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 10,908 |  |
 
-#### `utf-32le-russian/` — 3 files
+#### `utf-32le-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2359,7 +2359,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 11,324 |  |
 | `culturax_mC4_85056.txt` | CulturaX | 5,304 |  |
 
-#### `utf-32le-serbian/` — 3 files
+#### `utf-32le-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2367,7 +2367,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 4,492 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 10,520 |  |
 
-#### `utf-32le-slovak/` — 3 files
+#### `utf-32le-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2375,7 +2375,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 8,016 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 11,472 |  |
 
-#### `utf-32le-slovene/` — 3 files
+#### `utf-32le-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2383,7 +2383,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 10,620 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 4,752 |  |
 
-#### `utf-32le-spanish/` — 3 files
+#### `utf-32le-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2391,7 +2391,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 11,880 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 11,112 |  |
 
-#### `utf-32le-swedish/` — 3 files
+#### `utf-32le-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2399,7 +2399,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 10,132 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 8,444 |  |
 
-#### `utf-32le-tajik/` — 3 files
+#### `utf-32le-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2407,7 +2407,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 11,276 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 11,412 |  |
 
-#### `utf-32le-thai/` — 3 files
+#### `utf-32le-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2415,7 +2415,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 11,908 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 5,316 |  |
 
-#### `utf-32le-turkish/` — 3 files
+#### `utf-32le-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2423,7 +2423,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 2,916 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 5,356 |  |
 
-#### `utf-32le-ukrainian/` — 3 files
+#### `utf-32le-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2431,7 +2431,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 5,484 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 11,284 |  |
 
-#### `utf-32le-urdu/` — 3 files
+#### `utf-32le-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2439,7 +2439,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 11,768 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 4,900 |  |
 
-#### `utf-32le-vietnamese/` — 3 files
+#### `utf-32le-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2447,7 +2447,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 10,672 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 11,472 |  |
 
-#### `utf-32le-welsh/` — 3 files
+#### `utf-32le-cy/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2455,7 +2455,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | 11,536 |  |
 | `culturax_mC4_78728.txt` | CulturaX | 8,264 |  |
 
-#### `utf-7-arabic/` — 3 files
+#### `utf-7-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2463,7 +2463,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 2,882 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 7,452 |  |
 
-#### `utf-7-belarusian/` — 3 files
+#### `utf-7-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2471,14 +2471,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 3,077 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 5,676 |  |
 
-#### `utf-7-breton/` — 2 files
+#### `utf-7-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 593 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 651 |  |
 
-#### `utf-7-bulgarian/` — 3 files
+#### `utf-7-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2486,7 +2486,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 3,164 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 5,933 |  |
 
-#### `utf-7-chinese/` — 3 files
+#### `utf-7-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2494,7 +2494,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_3.txt` | CulturaX | 5,335 |  |
 | `culturax_mC4_5.txt` | CulturaX | 1,680 |  |
 
-#### `utf-7-croatian/` — 3 files
+#### `utf-7-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2502,7 +2502,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 172 |  |
 | `culturax_00002.txt` | CulturaX | 619 |  |
 
-#### `utf-7-czech/` — 3 files
+#### `utf-7-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2510,7 +2510,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 1,895 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 3,931 |  |
 
-#### `utf-7-danish/` — 3 files
+#### `utf-7-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2518,7 +2518,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 3,240 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 2,129 |  |
 
-#### `utf-7-dutch/` — 3 files
+#### `utf-7-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2526,7 +2526,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 2,467 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 1,051 |  |
 
-#### `utf-7-english/` — 3 files
+#### `utf-7-en/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2534,7 +2534,7 @@ content transcoded to test detection across encodings.
 | `reddit_wsb.csv` | unknown | 17,152,721 |  |
 | `weblabor.hu.xml` | chardet | 11,014 |  |
 
-#### `utf-7-esperanto/` — 3 files
+#### `utf-7-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2542,7 +2542,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 1,416 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 2,717 |  |
 
-#### `utf-7-estonian/` — 3 files
+#### `utf-7-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2550,7 +2550,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 3,132 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 1,105 |  |
 
-#### `utf-7-farsi/` — 3 files
+#### `utf-7-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2558,7 +2558,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 5,923 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 4,704 |  |
 
-#### `utf-7-finnish/` — 3 files
+#### `utf-7-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2566,7 +2566,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 3,316 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 3,192 |  |
 
-#### `utf-7-french/` — 3 files
+#### `utf-7-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2574,7 +2574,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 851 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 3,137 |  |
 
-#### `utf-7-gaelic/` — 3 files
+#### `utf-7-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2582,7 +2582,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,178 |  |
 | `culturax_00002.txt` | CulturaX | 7,143 |  |
 
-#### `utf-7-german/` — 3 files
+#### `utf-7-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2590,7 +2590,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 2,241 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 2,375 |  |
 
-#### `utf-7-greek/` — 3 files
+#### `utf-7-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2598,7 +2598,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | 7,056 |  |
 | `culturax_mC4_103810.txt` | CulturaX | 5,177 |  |
 
-#### `utf-7-hebrew/` — 3 files
+#### `utf-7-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2606,7 +2606,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 7,113 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 7,592 |  |
 
-#### `utf-7-hungarian/` — 3 files
+#### `utf-7-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2614,7 +2614,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 2,278 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 918 |  |
 
-#### `utf-7-icelandic/` — 3 files
+#### `utf-7-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2622,13 +2622,13 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 1,967 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 3,669 |  |
 
-#### `utf-7-indonesian/` — 1 files
+#### `utf-7-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | 2,584 |  |
 
-#### `utf-7-irish/` — 3 files
+#### `utf-7-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2636,7 +2636,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 3,679 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 1,484 |  |
 
-#### `utf-7-italian/` — 3 files
+#### `utf-7-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2644,7 +2644,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 1,339 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 1,472 |  |
 
-#### `utf-7-japanese/` — 3 files
+#### `utf-7-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2652,7 +2652,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 7,207 |  |
 | `culturax_mC4_5.txt` | CulturaX | 7,759 |  |
 
-#### `utf-7-kazakh/` — 3 files
+#### `utf-7-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2660,7 +2660,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 1,668 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 7,504 |  |
 
-#### `utf-7-korean/` — 3 files
+#### `utf-7-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2668,7 +2668,7 @@ content transcoded to test detection across encodings.
 | `_ude_2.txt` | Ude | 1,673 |  |
 | `culturax_mC4_1.txt` | CulturaX | 7,183 |  |
 
-#### `utf-7-latvian/` — 3 files
+#### `utf-7-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2676,7 +2676,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 1,744 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 992 |  |
 
-#### `utf-7-lithuanian/` — 3 files
+#### `utf-7-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2684,7 +2684,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 3,175 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 3,562 |  |
 
-#### `utf-7-macedonian/` — 3 files
+#### `utf-7-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2692,7 +2692,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 3,075 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 7,528 |  |
 
-#### `utf-7-malay/` — 3 files
+#### `utf-7-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2700,7 +2700,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 502 |  |
 | `culturax_00002.txt` | CulturaX | 1,683 |  |
 
-#### `utf-7-maltese/` — 3 files
+#### `utf-7-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2708,7 +2708,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 3,622 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 1,240 |  |
 
-#### `utf-7-norwegian/` — 3 files
+#### `utf-7-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2716,7 +2716,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 3,251 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 3,242 |  |
 
-#### `utf-7-polish/` — 3 files
+#### `utf-7-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2724,7 +2724,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 1,477 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 2,894 |  |
 
-#### `utf-7-portuguese/` — 3 files
+#### `utf-7-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2732,7 +2732,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 3,185 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 3,059 |  |
 
-#### `utf-7-romanian/` — 3 files
+#### `utf-7-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2740,7 +2740,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 3,177 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 3,083 |  |
 
-#### `utf-7-russian/` — 3 files
+#### `utf-7-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2748,7 +2748,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85055.txt` | CulturaX | 7,615 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 7,125 |  |
 
-#### `utf-7-serbian/` — 3 files
+#### `utf-7-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2756,7 +2756,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 2,806 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 6,653 |  |
 
-#### `utf-7-slovak/` — 3 files
+#### `utf-7-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2764,7 +2764,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 2,701 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 3,672 |  |
 
-#### `utf-7-slovene/` — 3 files
+#### `utf-7-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2772,7 +2772,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,953 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,285 |  |
 
-#### `utf-7-spanish/` — 3 files
+#### `utf-7-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2780,7 +2780,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 3,175 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 2,948 |  |
 
-#### `utf-7-swedish/` — 3 files
+#### `utf-7-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2788,7 +2788,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 2,947 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 2,473 |  |
 
-#### `utf-7-tajik/` — 3 files
+#### `utf-7-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2796,7 +2796,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 7,285 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 7,155 |  |
 
-#### `utf-7-thai/` — 3 files
+#### `utf-7-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2804,7 +2804,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 6,984 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 2,615 |  |
 
-#### `utf-7-turkish/` — 3 files
+#### `utf-7-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2812,7 +2812,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 890 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 1,624 |  |
 
-#### `utf-7-ukrainian/` — 3 files
+#### `utf-7-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2820,7 +2820,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 3,410 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 7,187 |  |
 
-#### `utf-7-urdu/` — 3 files
+#### `utf-7-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2828,7 +2828,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 7,323 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 3,149 |  |
 
-#### `utf-7-vietnamese/` — 3 files
+#### `utf-7-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2836,14 +2836,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 4,652 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 5,093 |  |
 
-#### `utf-7-welsh/` — 2 files
+#### `utf-7-cy/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_78726.txt` | CulturaX | 2,783 |  |
 | `culturax_mC4_78727.txt` | CulturaX | 2,911 |  |
 
-#### `utf-8-arabic/` — 3 files
+#### `utf-8-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2851,7 +2851,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 2,029 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 5,266 |  |
 
-#### `utf-8-belarusian/` — 3 files
+#### `utf-8-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2859,14 +2859,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 2,202 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 4,074 |  |
 
-#### `utf-8-breton/` — 2 files
+#### `utf-8-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 560 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 635 |  |
 
-#### `utf-8-bulgarian/` — 3 files
+#### `utf-8-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2874,7 +2874,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 2,248 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 4,209 |  |
 
-#### `utf-8-chinese/` — 5 files
+#### `utf-8-zh/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2884,7 +2884,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | 1,810 |  |
 | `culturax_mC4_7.txt` | CulturaX | 3,029 |  |
 
-#### `utf-8-croatian/` — 3 files
+#### `utf-8-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2892,7 +2892,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 149 |  |
 | `culturax_00002.txt` | CulturaX | 587 |  |
 
-#### `utf-8-czech/` — 3 files
+#### `utf-8-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2900,7 +2900,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 1,554 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 3,230 |  |
 
-#### `utf-8-danish/` — 3 files
+#### `utf-8-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2908,7 +2908,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 3,008 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 2,049 |  |
 
-#### `utf-8-dutch/` — 3 files
+#### `utf-8-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2916,7 +2916,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 2,459 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 1,045 |  |
 
-#### `utf-8-english/` — 15 files
+#### `utf-8-en/` — 15 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2936,7 +2936,7 @@ content transcoded to test detection across encodings.
 | `weblabor.hu.2.xml` | chardet | 12,234 |  |
 | `weblabor.hu.xml` | chardet | 10,054 |  |
 
-#### `utf-8-esperanto/` — 3 files
+#### `utf-8-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2944,7 +2944,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 1,345 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 2,655 |  |
 
-#### `utf-8-estonian/` — 3 files
+#### `utf-8-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2952,7 +2952,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 2,876 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 1,045 |  |
 
-#### `utf-8-farsi/` — 3 files
+#### `utf-8-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2960,7 +2960,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 4,243 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 3,328 |  |
 
-#### `utf-8-finnish/` — 3 files
+#### `utf-8-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2968,7 +2968,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 3,094 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 2,920 |  |
 
-#### `utf-8-french/` — 3 files
+#### `utf-8-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2976,7 +2976,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 764 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 2,936 |  |
 
-#### `utf-8-gaelic/` — 3 files
+#### `utf-8-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2984,7 +2984,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,962 |  |
 | `culturax_00002.txt` | CulturaX | 6,699 |  |
 
-#### `utf-8-german/` — 3 files
+#### `utf-8-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -2992,7 +2992,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 2,178 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 2,290 |  |
 
-#### `utf-8-greek/` — 4 files
+#### `utf-8-el/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3001,7 +3001,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 3,696 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 2,021 |  |
 
-#### `utf-8-hebrew/` — 6 files
+#### `utf-8-he/` — 6 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3012,7 +3012,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 5,111 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 5,301 |  |
 
-#### `utf-8-hungarian/` — 3 files
+#### `utf-8-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3020,7 +3020,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 1,757 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 702 |  |
 
-#### `utf-8-icelandic/` — 3 files
+#### `utf-8-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3028,13 +3028,13 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 1,634 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 3,055 |  |
 
-#### `utf-8-indonesian/` — 1 files
+#### `utf-8-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | 2,575 |  |
 
-#### `utf-8-irish/` — 3 files
+#### `utf-8-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3042,7 +3042,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 3,106 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 1,294 |  |
 
-#### `utf-8-italian/` — 3 files
+#### `utf-8-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3050,7 +3050,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 1,297 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 1,454 |  |
 
-#### `utf-8-japanese/` — 4 files
+#### `utf-8-ja/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3059,7 +3059,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 7,544 |  |
 | `culturax_mC4_5.txt` | CulturaX | 8,524 |  |
 
-#### `utf-8-kazakh/` — 3 files
+#### `utf-8-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3067,7 +3067,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 1,207 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 5,375 |  |
 
-#### `utf-8-korean/` — 5 files
+#### `utf-8-ko/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3077,7 +3077,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 6,961 |  |
 | `culturax_mC4_2.txt` | CulturaX | 1,479 |  |
 
-#### `utf-8-latvian/` — 3 files
+#### `utf-8-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3085,7 +3085,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 1,426 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 828 |  |
 
-#### `utf-8-lithuanian/` — 3 files
+#### `utf-8-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3093,7 +3093,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 2,818 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 3,156 |  |
 
-#### `utf-8-macedonian/` — 3 files
+#### `utf-8-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3101,7 +3101,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 2,169 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 5,376 |  |
 
-#### `utf-8-malay/` — 3 files
+#### `utf-8-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3109,7 +3109,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 503 |  |
 | `culturax_00002.txt` | CulturaX | 1,684 |  |
 
-#### `utf-8-maltese/` — 3 files
+#### `utf-8-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3117,7 +3117,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 3,153 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 1,134 |  |
 
-#### `utf-8-norwegian/` — 3 files
+#### `utf-8-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3125,7 +3125,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 3,067 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 3,066 |  |
 
-#### `utf-8-polish/` — 3 files
+#### `utf-8-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3133,7 +3133,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 1,349 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 2,528 |  |
 
-#### `utf-8-portuguese/` — 3 files
+#### `utf-8-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3141,7 +3141,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 2,965 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 2,899 |  |
 
-#### `utf-8-romanian/` — 3 files
+#### `utf-8-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3149,7 +3149,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 2,782 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 2,829 |  |
 
-#### `utf-8-russian/` — 4 files
+#### `utf-8-ru/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3158,7 +3158,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 5,127 |  |
 | `culturax_mC4_85056.txt` | CulturaX | 2,434 |  |
 
-#### `utf-8-serbian/` — 3 files
+#### `utf-8-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3166,7 +3166,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 2,007 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 4,718 |  |
 
-#### `utf-8-sig-arabic/` — 3 files
+#### `utf-8-sig-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3174,7 +3174,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 2,032 |  |
 | `culturax_mC4_98638.txt` | CulturaX | 5,269 |  |
 
-#### `utf-8-sig-belarusian/` — 3 files
+#### `utf-8-sig-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3182,14 +3182,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 2,205 |  |
 | `culturax_mC4_77017.txt` | CulturaX | 4,077 |  |
 
-#### `utf-8-sig-breton/` — 2 files
+#### `utf-8-sig-br/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43762.txt` | CulturaX | 563 |  |
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 638 |  |
 
-#### `utf-8-sig-bulgarian/` — 3 files
+#### `utf-8-sig-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3197,7 +3197,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 2,251 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 4,212 |  |
 
-#### `utf-8-sig-chinese/` — 3 files
+#### `utf-8-sig-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3205,7 +3205,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_3.txt` | CulturaX | 5,595 |  |
 | `culturax_mC4_5.txt` | CulturaX | 1,813 |  |
 
-#### `utf-8-sig-croatian/` — 3 files
+#### `utf-8-sig-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3213,7 +3213,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 152 |  |
 | `culturax_00002.txt` | CulturaX | 590 |  |
 
-#### `utf-8-sig-czech/` — 3 files
+#### `utf-8-sig-cs/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3221,7 +3221,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 1,557 |  |
 | `culturax_mC4_98822.txt` | CulturaX | 3,233 |  |
 
-#### `utf-8-sig-danish/` — 3 files
+#### `utf-8-sig-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3229,7 +3229,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | 3,011 |  |
 | `culturax_mC4_83468.txt` | CulturaX | 2,052 |  |
 
-#### `utf-8-sig-dutch/` — 3 files
+#### `utf-8-sig-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3237,14 +3237,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 2,462 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 1,048 |  |
 
-#### `utf-8-sig-english/` — 2 files
+#### `utf-8-sig-en/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_ude_4.txt` | Ude | 1,729 |  |
 | `bom-utf-8.srt` | unknown | 859 | BOM detection test subtitle |
 
-#### `utf-8-sig-esperanto/` — 3 files
+#### `utf-8-sig-eo/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3252,7 +3252,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 1,348 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 2,658 |  |
 
-#### `utf-8-sig-estonian/` — 3 files
+#### `utf-8-sig-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3260,7 +3260,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | 2,879 |  |
 | `culturax_mC4_66820.txt` | CulturaX | 1,048 |  |
 
-#### `utf-8-sig-farsi/` — 3 files
+#### `utf-8-sig-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3268,7 +3268,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_104836.txt` | CulturaX | 4,246 |  |
 | `culturax_mC4_104837.txt` | CulturaX | 3,331 |  |
 
-#### `utf-8-sig-finnish/` — 3 files
+#### `utf-8-sig-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3276,7 +3276,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 3,097 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 2,923 |  |
 
-#### `utf-8-sig-french/` — 3 files
+#### `utf-8-sig-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3284,7 +3284,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 767 |  |
 | `culturax_mC4_88369.txt` | CulturaX | 2,939 |  |
 
-#### `utf-8-sig-gaelic/` — 3 files
+#### `utf-8-sig-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3292,7 +3292,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,965 |  |
 | `culturax_00002.txt` | CulturaX | 6,702 |  |
 
-#### `utf-8-sig-german/` — 3 files
+#### `utf-8-sig-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3300,7 +3300,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 2,181 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 2,293 |  |
 
-#### `utf-8-sig-greek/` — 3 files
+#### `utf-8-sig-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3308,7 +3308,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | 5,025 |  |
 | `culturax_mC4_103810.txt` | CulturaX | 3,699 |  |
 
-#### `utf-8-sig-hebrew/` — 3 files
+#### `utf-8-sig-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3316,7 +3316,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | 5,114 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 5,304 |  |
 
-#### `utf-8-sig-hungarian/` — 3 files
+#### `utf-8-sig-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3324,7 +3324,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 1,760 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 705 |  |
 
-#### `utf-8-sig-icelandic/` — 3 files
+#### `utf-8-sig-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3332,7 +3332,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 1,637 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 3,058 |  |
 
-#### `utf-8-sig-indonesian/` — 3 files
+#### `utf-8-sig-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3340,7 +3340,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | 2,690 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 1,533 |  |
 
-#### `utf-8-sig-irish/` — 3 files
+#### `utf-8-sig-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3348,7 +3348,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 3,109 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 1,297 |  |
 
-#### `utf-8-sig-italian/` — 3 files
+#### `utf-8-sig-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3356,7 +3356,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 1,300 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 1,457 |  |
 
-#### `utf-8-sig-japanese/` — 3 files
+#### `utf-8-sig-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3364,7 +3364,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_4.txt` | CulturaX | 7,547 |  |
 | `culturax_mC4_5.txt` | CulturaX | 8,527 |  |
 
-#### `utf-8-sig-kazakh/` — 3 files
+#### `utf-8-sig-kk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3372,7 +3372,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | 1,210 |  |
 | `culturax_mC4_73162.txt` | CulturaX | 5,378 |  |
 
-#### `utf-8-sig-korean/` — 3 files
+#### `utf-8-sig-ko/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3380,7 +3380,7 @@ content transcoded to test detection across encodings.
 | `_ude_2.txt` | Ude | 1,631 |  |
 | `culturax_mC4_1.txt` | CulturaX | 6,964 |  |
 
-#### `utf-8-sig-latvian/` — 3 files
+#### `utf-8-sig-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3388,7 +3388,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 1,429 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 831 |  |
 
-#### `utf-8-sig-lithuanian/` — 3 files
+#### `utf-8-sig-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3396,7 +3396,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 2,821 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 3,159 |  |
 
-#### `utf-8-sig-macedonian/` — 3 files
+#### `utf-8-sig-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3404,7 +3404,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 2,172 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 5,379 |  |
 
-#### `utf-8-sig-malay/` — 3 files
+#### `utf-8-sig-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3412,7 +3412,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 543 |  |
 | `culturax_00002.txt` | CulturaX | 4,069 |  |
 
-#### `utf-8-sig-maltese/` — 3 files
+#### `utf-8-sig-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3420,7 +3420,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 3,156 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 1,137 |  |
 
-#### `utf-8-sig-norwegian/` — 3 files
+#### `utf-8-sig-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3428,7 +3428,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 3,070 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 3,069 |  |
 
-#### `utf-8-sig-polish/` — 3 files
+#### `utf-8-sig-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3436,7 +3436,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 1,352 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 2,531 |  |
 
-#### `utf-8-sig-portuguese/` — 3 files
+#### `utf-8-sig-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3444,7 +3444,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 2,968 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 2,902 |  |
 
-#### `utf-8-sig-romanian/` — 3 files
+#### `utf-8-sig-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3452,7 +3452,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | 2,785 |  |
 | `culturax_mC4_78978.txt` | CulturaX | 2,832 |  |
 
-#### `utf-8-sig-russian/` — 3 files
+#### `utf-8-sig-ru/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3460,7 +3460,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_85055.txt` | CulturaX | 5,449 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | 5,130 |  |
 
-#### `utf-8-sig-serbian/` — 3 files
+#### `utf-8-sig-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3468,7 +3468,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66920.txt` | CulturaX | 2,010 |  |
 | `culturax_mC4_66921.txt` | CulturaX | 4,721 |  |
 
-#### `utf-8-sig-slovak/` — 3 files
+#### `utf-8-sig-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3476,7 +3476,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 2,204 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 3,101 |  |
 
-#### `utf-8-sig-slovene/` — 3 files
+#### `utf-8-sig-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3484,7 +3484,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,733 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,217 |  |
 
-#### `utf-8-sig-spanish/` — 3 files
+#### `utf-8-sig-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3492,7 +3492,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 3,029 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 2,825 |  |
 
-#### `utf-8-sig-swedish/` — 3 files
+#### `utf-8-sig-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3500,7 +3500,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 2,647 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 2,206 |  |
 
-#### `utf-8-sig-tajik/` — 3 files
+#### `utf-8-sig-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3508,7 +3508,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 5,150 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 5,100 |  |
 
-#### `utf-8-sig-thai/` — 3 files
+#### `utf-8-sig-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3516,7 +3516,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 7,524 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 2,786 |  |
 
-#### `utf-8-sig-turkish/` — 3 files
+#### `utf-8-sig-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3524,7 +3524,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 778 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 1,423 |  |
 
-#### `utf-8-sig-ukrainian/` — 3 files
+#### `utf-8-sig-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3532,7 +3532,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 2,458 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 5,177 |  |
 
-#### `utf-8-sig-urdu/` — 3 files
+#### `utf-8-sig-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3540,7 +3540,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 5,087 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 2,174 |  |
 
-#### `utf-8-sig-vietnamese/` — 3 files
+#### `utf-8-sig-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3548,7 +3548,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 3,311 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 3,582 |  |
 
-#### `utf-8-sig-welsh/` — 3 files
+#### `utf-8-sig-cy/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3556,7 +3556,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | 2,895 |  |
 | `culturax_mC4_78728.txt` | CulturaX | 2,069 |  |
 
-#### `utf-8-slovak/` — 3 files
+#### `utf-8-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3564,7 +3564,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 2,201 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 3,098 |  |
 
-#### `utf-8-slovene/` — 3 files
+#### `utf-8-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3572,7 +3572,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,730 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,214 |  |
 
-#### `utf-8-spanish/` — 3 files
+#### `utf-8-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3580,7 +3580,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 3,026 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 2,822 |  |
 
-#### `utf-8-swedish/` — 3 files
+#### `utf-8-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3588,7 +3588,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 2,644 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 2,203 |  |
 
-#### `utf-8-tajik/` — 3 files
+#### `utf-8-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3596,7 +3596,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 5,147 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 5,097 |  |
 
-#### `utf-8-thai/` — 3 files
+#### `utf-8-th/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3604,7 +3604,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_109133.txt` | CulturaX | 7,521 |  |
 | `culturax_mC4_109136.txt` | CulturaX | 2,783 |  |
 
-#### `utf-8-turkish/` — 3 files
+#### `utf-8-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3612,7 +3612,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 775 |  |
 | `culturax_mC4_107850.txt` | CulturaX | 1,420 |  |
 
-#### `utf-8-ukrainian/` — 3 files
+#### `utf-8-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3620,7 +3620,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 2,455 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 5,174 |  |
 
-#### `utf-8-urdu/` — 3 files
+#### `utf-8-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3628,7 +3628,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | 5,084 |  |
 | `culturax_mC4_82298.txt` | CulturaX | 2,171 |  |
 
-#### `utf-8-vietnamese/` — 3 files
+#### `utf-8-vi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3636,7 +3636,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 3,308 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 3,579 |  |
 
-#### `utf-8-welsh/` — 2 files
+#### `utf-8-cy/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3645,13 +3645,13 @@ content transcoded to test detection across encodings.
 
 ### ISO 8859 (283 files in 68 directories)
 
-#### `iso-8859-1-danish/` — 1 files
+#### `iso-8859-1-da/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | 529 |  |
 
-#### `iso-8859-1-dutch/` — 3 files
+#### `iso-8859-1-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3659,7 +3659,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,566 |  |
 | `culturax_00002.txt` | CulturaX | 7,922 |  |
 
-#### `iso-8859-1-english/` — 8 files
+#### `iso-8859-1-en/` — 8 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3672,13 +3672,13 @@ content transcoded to test detection across encodings.
 | `_ude_6.txt` | Ude | 2,189 |  |
 | `ioreg_output.txt` | unknown | 748,505 | Large file (748,505 bytes); macOS ioreg command output, added for MacRoman prober testing |
 
-#### `iso-8859-1-finnish/` — 1 files
+#### `iso-8859-1-fi/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_80364.txt` | CulturaX | 1,790 |  |
 
-#### `iso-8859-1-french/` — 4 files
+#### `iso-8859-1-fr/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3687,13 +3687,13 @@ content transcoded to test detection across encodings.
 | `archive_www_lemonde_fr_20020601.txt` | Web Archive | 8,192 |  |
 | `culturax_mC4_88375.txt` | CulturaX | 2,588 |  |
 
-#### `iso-8859-1-german/` — 1 files
+#### `iso-8859-1-de/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | 765 |  |
 
-#### `iso-8859-1-icelandic/` — 3 files
+#### `iso-8859-1-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3701,25 +3701,25 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,170 |  |
 | `culturax_00002.txt` | CulturaX | 22,441 |  |
 
-#### `iso-8859-1-indonesian/` — 1 files
+#### `iso-8859-1-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 2,693 |  |
 
-#### `iso-8859-1-italian/` — 1 files
+#### `iso-8859-1-it/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `archive_www_repubblica_it_20030601.txt` | Web Archive | 5,276 |  |
 
-#### `iso-8859-1-malay/` — 1 files
+#### `iso-8859-1-ms/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 266 |  |
 
-#### `iso-8859-1-norwegian/` — 3 files
+#### `iso-8859-1-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3727,7 +3727,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,857 |  |
 | `culturax_00002.txt` | CulturaX | 34,353 |  |
 
-#### `iso-8859-1-portuguese/` — 3 files
+#### `iso-8859-1-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3735,13 +3735,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,806 |  |
 | `culturax_00002.txt` | CulturaX | 8,646 |  |
 
-#### `iso-8859-1-spanish/` — 1 files
+#### `iso-8859-1-es/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | 377 |  |
 
-#### `iso-8859-1-swedish/` — 3 files
+#### `iso-8859-1-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3749,7 +3749,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,395 |  |
 | `culturax_00002.txt` | CulturaX | 4,993 |  |
 
-#### `iso-8859-10-finnish/` — 3 files
+#### `iso-8859-10-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3757,7 +3757,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,041 |  |
 | `culturax_00002.txt` | CulturaX | 9,322 |  |
 
-#### `iso-8859-10-icelandic/` — 3 files
+#### `iso-8859-10-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3765,7 +3765,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,930 |  |
 | `culturax_00002.txt` | CulturaX | 5,304 |  |
 
-#### `iso-8859-13-estonian/` — 3 files
+#### `iso-8859-13-et/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3773,7 +3773,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,281 |  |
 | `culturax_00002.txt` | CulturaX | 11,750 |  |
 
-#### `iso-8859-13-latvian/` — 4 files
+#### `iso-8859-13-lv/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3782,7 +3782,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 1,304 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 766 |  |
 
-#### `iso-8859-13-lithuanian/` — 4 files
+#### `iso-8859-13-lt/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3791,7 +3791,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 2,683 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 3,000 |  |
 
-#### `iso-8859-14-breton/` — 3 files
+#### `iso-8859-14-br/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3799,7 +3799,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 253 |  |
 | `culturax_00002.txt` | CulturaX | 86,172 |  |
 
-#### `iso-8859-14-gaelic/` — 3 files
+#### `iso-8859-14-gd/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3807,7 +3807,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,889 |  |
 | `culturax_00002.txt` | CulturaX | 6,550 |  |
 
-#### `iso-8859-14-irish/` — 3 files
+#### `iso-8859-14-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3815,19 +3815,19 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,112 |  |
 | `culturax_00002.txt` | CulturaX | 7,210 |  |
 
-#### `iso-8859-14-welsh/` — 1 files
+#### `iso-8859-14-cy/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_78730.txt` | CulturaX | 2,790 |  |
 
-#### `iso-8859-15-danish/` — 1 files
+#### `iso-8859-15-da/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_iso_8859_15.txt` | uchardet | 615 |  |
 
-#### `iso-8859-15-dutch/` — 3 files
+#### `iso-8859-15-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3835,7 +3835,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,661 |  |
 | `culturax_00002.txt` | CulturaX | 7,928 |  |
 
-#### `iso-8859-15-english/` — 3 files
+#### `iso-8859-15-en/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3843,26 +3843,26 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,871 |  |
 | `culturax_00002.txt` | CulturaX | 3,372 |  |
 
-#### `iso-8859-15-finnish/` — 1 files
+#### `iso-8859-15-fi/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_80362.txt` | CulturaX | 3,000 |  |
 
-#### `iso-8859-15-french/` — 2 files
+#### `iso-8859-15-fr/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_iso_8859_15.txt` | uchardet | 976 |  |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | 2,871 |  |
 
-#### `iso-8859-15-german/` — 1 files
+#### `iso-8859-15-de/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `archive_www_spiegel_de_20020601.txt` | Web Archive | 8,192 |  |
 
-#### `iso-8859-15-icelandic/` — 3 files
+#### `iso-8859-15-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3870,19 +3870,19 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,431 |  |
 | `culturax_00002.txt` | CulturaX | 4,973 |  |
 
-#### `iso-8859-15-indonesian/` — 1 files
+#### `iso-8859-15-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 1,000 |  |
 
-#### `iso-8859-15-irish/` — 1 files
+#### `iso-8859-15-ga/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_63469.txt` | CulturaX | 2,897 |  |
 
-#### `iso-8859-15-italian/` — 3 files
+#### `iso-8859-15-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3890,13 +3890,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,135 |  |
 | `culturax_00002.txt` | CulturaX | 28,207 |  |
 
-#### `iso-8859-15-malay/` — 1 files
+#### `iso-8859-15-ms/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 250 |  |
 
-#### `iso-8859-15-norwegian/` — 3 files
+#### `iso-8859-15-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3904,7 +3904,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,328 |  |
 | `culturax_00002.txt` | CulturaX | 10,616 |  |
 
-#### `iso-8859-15-portuguese/` — 3 files
+#### `iso-8859-15-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3912,13 +3912,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,154 |  |
 | `culturax_00002.txt` | CulturaX | 3,475 |  |
 
-#### `iso-8859-15-spanish/` — 1 files
+#### `iso-8859-15-es/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_iso_8859_15.txt` | uchardet | 371 |  |
 
-#### `iso-8859-15-swedish/` — 3 files
+#### `iso-8859-15-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3926,7 +3926,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,145 |  |
 | `culturax_00002.txt` | CulturaX | 4,565 |  |
 
-#### `iso-8859-16-croatian/` — 3 files
+#### `iso-8859-16-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3934,14 +3934,14 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 141 |  |
 | `culturax_00002.txt` | CulturaX | 576 |  |
 
-#### `iso-8859-16-hungarian/` — 2 files
+#### `iso-8859-16-hu/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_82421.txt` | CulturaX | 2,837 |  |
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | 1,572 |  |
 
-#### `iso-8859-16-polish/` — 3 files
+#### `iso-8859-16-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3949,7 +3949,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 2,383 |  |
 
-#### `iso-8859-16-romanian/` — 4 files
+#### `iso-8859-16-ro/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3958,7 +3958,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78979.txt` | CulturaX | 2,872 |  |
 | `culturax_mC4_78980.txt` | CulturaX | 2,753 |  |
 
-#### `iso-8859-16-slovak/` — 3 files
+#### `iso-8859-16-sk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3966,7 +3966,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,100 |  |
 | `culturax_00002.txt` | CulturaX | 16,421 |  |
 
-#### `iso-8859-16-slovene/` — 3 files
+#### `iso-8859-16-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3974,14 +3974,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,188 |  |
 
-#### `iso-8859-2-croatian/` — 2 files
+#### `iso-8859-2-hr/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_enca_iso88592_hr.txt` | ENCA | 127 |  |
 | `_ude_1.txt` | Ude | 5,976 |  |
 
-#### `iso-8859-2-czech/` — 5 files
+#### `iso-8859-2-cs/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -3991,7 +3991,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 1,424 |  |
 | `culturax_mC4_98823.txt` | CulturaX | 1,627 |  |
 
-#### `iso-8859-2-hungarian/` — 21 files
+#### `iso-8859-2-hu/` — 21 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4017,7 +4017,7 @@ content transcoded to test detection across encodings.
 | `torokorszag.blogspot.com.xml` | chardet | 596,838 | Large file (596,838 bytes) |
 | `ugyanmar.blogspot.com.xml` | chardet | 17,772 | High markup ratio (66% tags) |
 
-#### `iso-8859-2-polish/` — 7 files
+#### `iso-8859-2-pl/` — 7 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4029,7 +4029,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97061.txt` | CulturaX | 2,383 |  |
 | `culturax_mC4_97063.txt` | CulturaX | 501 |  |
 
-#### `iso-8859-2-romanian/` — 3 files
+#### `iso-8859-2-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4037,7 +4037,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,771 |  |
 | `culturax_00002.txt` | CulturaX | 4,809 |  |
 
-#### `iso-8859-2-slovak/` — 6 files
+#### `iso-8859-2-sk/` — 6 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4048,7 +4048,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95227.txt` | CulturaX | 2,868 |  |
 | `culturax_mC4_95230.txt` | CulturaX | 2,928 |  |
 
-#### `iso-8859-2-slovene/` — 4 files
+#### `iso-8859-2-sl/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4057,7 +4057,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,188 |  |
 
-#### `iso-8859-3-esperanto/` — 4 files
+#### `iso-8859-3-eo/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4066,7 +4066,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | 1,319 |  |
 | `culturax_mC4_40443.txt` | CulturaX | 2,632 |  |
 
-#### `iso-8859-3-maltese/` — 3 files
+#### `iso-8859-3-mt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4074,7 +4074,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | 3,000 |  |
 | `culturax_mC4_51490.txt` | CulturaX | 1,097 |  |
 
-#### `iso-8859-3-turkish/` — 4 files
+#### `iso-8859-3-tr/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4083,13 +4083,13 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | 2,309 |  |
 
-#### `iso-8859-4-estonian/` — 1 files
+#### `iso-8859-4-et/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_ude_1.txt` | Ude | 2,894 |  |
 
-#### `iso-8859-4-latvian/` — 3 files
+#### `iso-8859-4-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4097,7 +4097,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 1,304 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 766 |  |
 
-#### `iso-8859-4-lithuanian/` — 3 files
+#### `iso-8859-4-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4105,7 +4105,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 2,683 |  |
 | `culturax_mC4_73448.txt` | CulturaX | 2,819 |  |
 
-#### `iso-8859-5-belarusian/` — 3 files
+#### `iso-8859-5-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4113,7 +4113,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77018.txt` | CulturaX | 1,326 |  |
 | `culturax_mC4_77019.txt` | CulturaX | 1,915 |  |
 
-#### `iso-8859-5-bulgarian/` — 16 files
+#### `iso-8859-5-bg/` — 16 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4134,7 +4134,7 @@ content transcoded to test detection across encodings.
 | `ide.li.xml` | chardet | 2,721 |  |
 | `linux-bg.org.xml` | chardet | 3,009 |  |
 
-#### `iso-8859-5-macedonian/` — 3 files
+#### `iso-8859-5-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4142,7 +4142,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 1,205 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 3,000 |  |
 
-#### `iso-8859-5-russian/` — 23 files
+#### `iso-8859-5-ru/` — 23 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4170,7 +4170,7 @@ content transcoded to test detection across encodings.
 | `newsru.com.xml` | chardet | 24,107 |  |
 | `susu.ac.ru.xml` | chardet | 1,214 |  |
 
-#### `iso-8859-5-serbian/` — 3 files
+#### `iso-8859-5-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4178,7 +4178,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66921.txt` | CulturaX | 2,630 |  |
 | `culturax_mC4_66923.txt` | CulturaX | 2,867 |  |
 
-#### `iso-8859-5-ukrainian/` — 3 files
+#### `iso-8859-5-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4186,7 +4186,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 2,821 |  |
 
-#### `iso-8859-6-arabic/` — 6 files
+#### `iso-8859-6-ar/` — 6 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4197,7 +4197,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 1,125 |  |
 | `culturax_mC4_98641.txt` | CulturaX | 1,443 |  |
 
-#### `iso-8859-6-farsi/` — 3 files
+#### `iso-8859-6-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4205,7 +4205,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,339 |  |
 | `culturax_00002.txt` | CulturaX | 17,334 |  |
 
-#### `iso-8859-7-greek/` — 17 files
+#### `iso-8859-7-el/` — 17 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4227,7 +4227,7 @@ content transcoded to test detection across encodings.
 | `naftemporiki.gr.spo.xml` | chardet | 4,372 |  |
 | `naftemporiki.gr.wld.xml` | chardet | 4,576 |  |
 
-#### `iso-8859-8-hebrew/` — 21 files
+#### `iso-8859-8-he/` — 21 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4253,7 +4253,7 @@ content transcoded to test detection across encodings.
 | `pcplus.co.il.xml` | chardet | 1,652 |  |
 | `sharks.co.il.xml` | chardet | 4,949 |  |
 
-#### `iso-8859-9-turkish/` — 10 files
+#### `iso-8859-9-tr/` — 10 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4270,14 +4270,14 @@ content transcoded to test detection across encodings.
 
 ### Windows code pages (155 files in 36 directories)
 
-#### `windows-1250-croatian/` — 2 files
+#### `windows-1250-hr/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_enca_cp1250_hr.txt` | ENCA | 129 |  |
 | `_ude_1.txt` | Ude | 5,976 |  |
 
-#### `windows-1250-czech/` — 6 files
+#### `windows-1250-cs/` — 6 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4288,7 +4288,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 1,424 |  |
 | `culturax_mC4_98823.txt` | CulturaX | 1,627 |  |
 
-#### `windows-1250-hungarian/` — 7 files
+#### `windows-1250-hu/` — 7 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4300,7 +4300,7 @@ content transcoded to test detection across encodings.
 | `bbc.co.uk.hu.pressreview.xml` | chardet | 17,091 |  |
 | `bbc.co.uk.hu.xml` | chardet | 46,615 |  |
 
-#### `windows-1250-polish/` — 5 files
+#### `windows-1250-pl/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4310,7 +4310,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 2,383 |  |
 
-#### `windows-1250-romanian/` — 3 files
+#### `windows-1250-ro/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4318,7 +4318,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,852 |  |
 | `culturax_00002.txt` | CulturaX | 7,539 |  |
 
-#### `windows-1250-slovak/` — 6 files
+#### `windows-1250-sk/` — 6 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4329,7 +4329,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95226.txt` | CulturaX | 2,004 |  |
 | `culturax_mC4_95227.txt` | CulturaX | 2,868 |  |
 
-#### `windows-1250-slovene/` — 5 files
+#### `windows-1250-sl/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4339,7 +4339,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,188 |  |
 
-#### `windows-1251-belarusian/` — 4 files
+#### `windows-1251-be/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4348,7 +4348,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 1,188 |  |
 | `culturax_mC4_77018.txt` | CulturaX | 1,326 |  |
 
-#### `windows-1251-bulgarian/` — 21 files
+#### `windows-1251-bg/` — 21 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4374,7 +4374,7 @@ content transcoded to test detection across encodings.
 | `linux-bg.org.xml` | chardet | 3,030 |  |
 | `rinennor.org.xml` | chardet | 5,559 |  |
 
-#### `windows-1251-macedonian/` — 3 files
+#### `windows-1251-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4382,7 +4382,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 1,205 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 3,000 |  |
 
-#### `windows-1251-russian/` — 27 files
+#### `windows-1251-ru/` — 27 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4414,7 +4414,7 @@ content transcoded to test detection across encodings.
 | `music.peeps.ru.xml` | chardet | 7,878 |  |
 | `newsru.com.xml` | chardet | 24,111 |  |
 
-#### `windows-1251-serbian/` — 3 files
+#### `windows-1251-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4422,7 +4422,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66921.txt` | CulturaX | 2,630 |  |
 | `culturax_mC4_66923.txt` | CulturaX | 2,867 |  |
 
-#### `windows-1251-ukrainian/` — 4 files
+#### `windows-1251-uk/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4431,14 +4431,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 2,821 |  |
 
-#### `windows-1252-danish/` — 2 files
+#### `windows-1252-da/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_windows_1252.txt` | uchardet | 615 |  |
 | `culturax_mC4_83469.txt` | CulturaX | 2,827 |  |
 
-#### `windows-1252-dutch/` — 3 files
+#### `windows-1252-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4446,7 +4446,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,000 |  |
 | `culturax_00002.txt` | CulturaX | 7,928 |  |
 
-#### `windows-1252-english/` — 4 files
+#### `windows-1252-en/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4455,26 +4455,26 @@ content transcoded to test detection across encodings.
 | `anzeige-value-stars.html` | charset-normalizer | 210,655 | Large file (210,655 bytes); High markup ratio (75% tags); from charset-normalizer [issue #104](https://github.com/Ousret/charset_normalizer/issues/104) |
 | `github_bug_9.txt` | unknown | 136 | Regression test for chardet [issue #9](https://github.com/chardet/chardet/issues/9) |
 
-#### `windows-1252-finnish/` — 1 files
+#### `windows-1252-fi/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_80362.txt` | CulturaX | 3,000 |  |
 
-#### `windows-1252-french/` — 2 files
+#### `windows-1252-fr/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_windows_1252.txt` | uchardet | 163 |  |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | 2,871 |  |
 
-#### `windows-1252-german/` — 1 files
+#### `windows-1252-de/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_windows_1252.txt` | uchardet | 765 |  |
 
-#### `windows-1252-icelandic/` — 3 files
+#### `windows-1252-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4482,19 +4482,19 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,075 |  |
 | `culturax_00002.txt` | CulturaX | 3,787 |  |
 
-#### `windows-1252-indonesian/` — 1 files
+#### `windows-1252-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 500 |  |
 
-#### `windows-1252-irish/` — 1 files
+#### `windows-1252-ga/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_63469.txt` | CulturaX | 2,897 |  |
 
-#### `windows-1252-italian/` — 3 files
+#### `windows-1252-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4502,7 +4502,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,476 |  |
 | `culturax_00002.txt` | CulturaX | 11,839 |  |
 
-#### `windows-1252-norwegian/` — 3 files
+#### `windows-1252-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4510,7 +4510,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,283 |  |
 | `culturax_00002.txt` | CulturaX | 10,617 |  |
 
-#### `windows-1252-portuguese/` — 3 files
+#### `windows-1252-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4518,13 +4518,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,000 |  |
 | `culturax_00002.txt` | CulturaX | 3,142 |  |
 
-#### `windows-1252-spanish/` — 1 files
+#### `windows-1252-es/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_windows_1252.txt` | uchardet | 371 |  |
 
-#### `windows-1252-swedish/` — 3 files
+#### `windows-1252-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4532,20 +4532,20 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,071 |  |
 | `culturax_00002.txt` | CulturaX | 3,754 |  |
 
-#### `windows-1253-greek/` — 2 files
+#### `windows-1253-el/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_windows_1253.txt` | uchardet | 467 |  |
 | `culturax_mC4_103810.txt` | CulturaX | 2,131 |  |
 
-#### `windows-1254-turkish/` — 1 files
+#### `windows-1254-tr/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_ude_1.txt` | Ude | 2,088 |  |
 
-#### `windows-1255-hebrew/` — 7 files
+#### `windows-1255-he/` — 7 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4557,7 +4557,7 @@ content transcoded to test detection across encodings.
 | `notes.co.il.6.xml` | chardet | 10,056 |  |
 | `whatsup.org.il.xml` | chardet | 8,755 |  |
 
-#### `windows-1256-arabic/` — 6 files
+#### `windows-1256-ar/` — 6 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4568,7 +4568,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 1,125 |  |
 | `culturax_mC4_98641.txt` | CulturaX | 1,443 |  |
 
-#### `windows-1256-farsi/` — 3 files
+#### `windows-1256-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4576,26 +4576,26 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,140 |  |
 | `culturax_00002.txt` | CulturaX | 15,829 |  |
 
-#### `windows-1257-estonian/` — 2 files
+#### `windows-1257-et/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_enca_cp1257_et.txt` | ENCA | 81 | Very small (81 bytes) |
 | `_ude_1.txt` | Ude | 1,532 |  |
 
-#### `windows-1257-latvian/` — 1 files
+#### `windows-1257-lv/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_enca_cp1257_lv.txt` | ENCA | 72 | Very small (72 bytes) |
 
-#### `windows-1257-lithuanian/` — 1 files
+#### `windows-1257-lt/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_enca_cp1257_lt.txt` | ENCA | 78 | Very small (78 bytes) |
 
-#### `windows-1258-vietnamese/` — 5 files
+#### `windows-1258-vi/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4607,7 +4607,7 @@ content transcoded to test detection across encodings.
 
 ### IBM/DOS code pages (322 files in 113 directories)
 
-#### `cp037-danish/` — 3 files
+#### `cp037-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4615,26 +4615,26 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83468.txt` | CulturaX | 2,019 |  |
 | `culturax_mC4_83470.txt` | CulturaX | 2,853 |  |
 
-#### `cp037-dutch/` — 1 files
+#### `cp037-nl/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_107675.txt` | CulturaX | 2,455 |  |
 
-#### `cp037-english/` — 2 files
+#### `cp037-en/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_ude_1.txt` | Ude | 658 |  |
 | `culturax_mC4_84512.txt` | CulturaX | 849 |  |
 
-#### `cp037-finnish/` — 1 files
+#### `cp037-fi/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_80364.txt` | CulturaX | 1,790 |  |
 
-#### `cp037-french/` — 3 files
+#### `cp037-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4642,67 +4642,67 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,387 |  |
 | `culturax_00002.txt` | CulturaX | 9,484 |  |
 
-#### `cp037-german/` — 2 files
+#### `cp037-de/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2301_83754.txt` | CulturaX | 2,576 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 2,259 |  |
 
-#### `cp037-icelandic/` — 1 files
+#### `cp037-is/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_77489.txt` | CulturaX | 2,808 |  |
 
-#### `cp037-indonesian/` — 2 files
+#### `cp037-id/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | 2,572 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 1,530 |  |
 
-#### `cp037-italian/` — 2 files
+#### `cp037-it/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_92388.txt` | CulturaX | 2,378 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 1,445 |  |
 
-#### `cp037-malay/` — 1 files
+#### `cp037-ms/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00002.txt` | CulturaX | 4,066 |  |
 
-#### `cp037-norwegian/` — 2 files
+#### `cp037-no/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_66762.txt` | CulturaX | 2,502 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 3,000 |  |
 
-#### `cp037-portuguese/` — 1 files
+#### `cp037-pt/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_101817.txt` | CulturaX | 2,875 |  |
 
-#### `cp037-spanish/` — 2 files
+#### `cp037-es/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_87069.txt` | CulturaX | 1,463 |  |
 | `culturax_mC4_87070.txt` | CulturaX | 2,970 |  |
 
-#### `cp037-swedish/` — 2 files
+#### `cp037-sv/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_96485.txt` | CulturaX | 2,733 |  |
 | `culturax_mC4_96486.txt` | CulturaX | 2,533 |  |
 
-#### `cp037-turkish/` — 3 files
+#### `cp037-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4710,7 +4710,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,169 |  |
 | `culturax_00002.txt` | CulturaX | 6,157 |  |
 
-#### `cp1006-urdu/` — 3 files
+#### `cp1006-ur/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4718,7 +4718,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,422 |  |
 | `culturax_00002.txt` | CulturaX | 8,191 |  |
 
-#### `cp1026-turkish/` — 3 files
+#### `cp1026-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4726,7 +4726,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | 2,309 |  |
 
-#### `cp1125-ukrainian/` — 3 files
+#### `cp1125-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4734,7 +4734,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 2,821 |  |
 
-#### `cp273-german/` — 3 files
+#### `cp273-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4742,7 +4742,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,076 |  |
 | `culturax_00002.txt` | CulturaX | 7,474 |  |
 
-#### `cp424-hebrew/` — 4 files
+#### `cp424-he/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4751,7 +4751,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | 2,987 |  |
 | `culturax_OSCAR-2301_58268.txt` | CulturaX | 3,000 |  |
 
-#### `cp437-danish/` — 3 files
+#### `cp437-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4759,7 +4759,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,059 |  |
 | `culturax_00002.txt` | CulturaX | 19,277 |  |
 
-#### `cp437-dutch/` — 3 files
+#### `cp437-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4767,7 +4767,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,566 |  |
 | `culturax_00002.txt` | CulturaX | 7,922 |  |
 
-#### `cp437-english/` — 3 files
+#### `cp437-en/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4775,7 +4775,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,871 |  |
 | `culturax_00002.txt` | CulturaX | 4,191 |  |
 
-#### `cp437-finnish/` — 3 files
+#### `cp437-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4783,7 +4783,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,041 |  |
 | `culturax_00002.txt` | CulturaX | 9,321 |  |
 
-#### `cp437-french/` — 3 files
+#### `cp437-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4791,7 +4791,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,979 |  |
 | `culturax_00002.txt` | CulturaX | 9,483 |  |
 
-#### `cp437-german/` — 3 files
+#### `cp437-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4799,20 +4799,20 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,076 |  |
 | `culturax_00002.txt` | CulturaX | 7,474 |  |
 
-#### `cp437-irish/` — 1 files
+#### `cp437-ga/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_63473.txt` | CulturaX | 2,786 |  |
 
-#### `cp437-italian/` — 2 files
+#### `cp437-it/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_92393.txt` | CulturaX | 1,985 |  |
 | `culturax_mC4_92395.txt` | CulturaX | 1,392 |  |
 
-#### `cp437-portuguese/` — 3 files
+#### `cp437-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4820,13 +4820,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,795 |  |
 | `culturax_00002.txt` | CulturaX | 8,570 |  |
 
-#### `cp437-spanish/` — 1 files
+#### `cp437-es/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_87073.txt` | CulturaX | 1,577 |  |
 
-#### `cp437-swedish/` — 3 files
+#### `cp437-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4834,7 +4834,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,395 |  |
 | `culturax_00002.txt` | CulturaX | 4,993 |  |
 
-#### `cp500-danish/` — 3 files
+#### `cp500-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4842,25 +4842,25 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83468.txt` | CulturaX | 2,019 |  |
 | `culturax_mC4_83470.txt` | CulturaX | 2,853 |  |
 
-#### `cp500-dutch/` — 1 files
+#### `cp500-nl/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_107675.txt` | CulturaX | 2,455 |  |
 
-#### `cp500-english/` — 1 files
+#### `cp500-en/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_84512.txt` | CulturaX | 849 |  |
 
-#### `cp500-finnish/` — 1 files
+#### `cp500-fi/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_80364.txt` | CulturaX | 1,790 |  |
 
-#### `cp500-french/` — 3 files
+#### `cp500-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4868,67 +4868,67 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,710 |  |
 | `culturax_00002.txt` | CulturaX | 9,484 |  |
 
-#### `cp500-german/` — 2 files
+#### `cp500-de/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2301_83754.txt` | CulturaX | 2,576 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 2,259 |  |
 
-#### `cp500-icelandic/` — 1 files
+#### `cp500-is/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_77489.txt` | CulturaX | 2,808 |  |
 
-#### `cp500-indonesian/` — 2 files
+#### `cp500-id/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | 2,572 |  |
 | `culturax_mC4_114892.txt` | CulturaX | 1,530 |  |
 
-#### `cp500-italian/` — 2 files
+#### `cp500-it/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_92388.txt` | CulturaX | 2,378 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 1,445 |  |
 
-#### `cp500-malay/` — 1 files
+#### `cp500-ms/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00002.txt` | CulturaX | 4,066 |  |
 
-#### `cp500-norwegian/` — 2 files
+#### `cp500-no/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_66762.txt` | CulturaX | 2,502 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 3,000 |  |
 
-#### `cp500-portuguese/` — 1 files
+#### `cp500-pt/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_101817.txt` | CulturaX | 2,875 |  |
 
-#### `cp500-spanish/` — 2 files
+#### `cp500-es/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_87069.txt` | CulturaX | 1,463 |  |
 | `culturax_mC4_87070.txt` | CulturaX | 2,970 |  |
 
-#### `cp500-swedish/` — 2 files
+#### `cp500-sv/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_96485.txt` | CulturaX | 2,733 |  |
 | `culturax_mC4_96486.txt` | CulturaX | 2,533 |  |
 
-#### `cp720-arabic/` — 3 files
+#### `cp720-ar/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4936,7 +4936,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98635.txt` | CulturaX | 1,125 |  |
 | `culturax_mC4_98641.txt` | CulturaX | 1,443 |  |
 
-#### `cp720-farsi/` — 3 files
+#### `cp720-fa/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4944,13 +4944,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,672 |  |
 | `culturax_00002.txt` | CulturaX | 8,850 |  |
 
-#### `cp737-greek/` — 1 files
+#### `cp737-el/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_103810.txt` | CulturaX | 2,131 |  |
 
-#### `cp775-estonian/` — 4 files
+#### `cp775-et/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4959,7 +4959,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66820.txt` | CulturaX | 1,025 |  |
 | `culturax_mC4_66822.txt` | CulturaX | 2,894 |  |
 
-#### `cp775-latvian/` — 3 files
+#### `cp775-lv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4967,7 +4967,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | 1,304 |  |
 | `culturax_mC4_71630.txt` | CulturaX | 766 |  |
 
-#### `cp775-lithuanian/` — 3 files
+#### `cp775-lt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4975,7 +4975,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | 2,683 |  |
 | `culturax_mC4_73447.txt` | CulturaX | 3,000 |  |
 
-#### `cp850-danish/` — 3 files
+#### `cp850-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4983,7 +4983,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,074 |  |
 | `culturax_00002.txt` | CulturaX | 19,561 |  |
 
-#### `cp850-dutch/` — 3 files
+#### `cp850-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -4991,14 +4991,14 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,661 |  |
 | `culturax_00002.txt` | CulturaX | 5,386 |  |
 
-#### `cp850-english/` — 2 files
+#### `cp850-en/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 2,000 |  |
 | `culturax_00001.txt` | CulturaX | 3,371 |  |
 
-#### `cp850-finnish/` — 3 files
+#### `cp850-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5006,7 +5006,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,265 |  |
 | `culturax_00002.txt` | CulturaX | 6,844 |  |
 
-#### `cp850-french/` — 3 files
+#### `cp850-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5014,7 +5014,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,338 |  |
 | `culturax_00002.txt` | CulturaX | 9,484 |  |
 
-#### `cp850-german/` — 3 files
+#### `cp850-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5022,7 +5022,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,963 |  |
 | `culturax_00002.txt` | CulturaX | 7,170 |  |
 
-#### `cp850-icelandic/` — 3 files
+#### `cp850-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5030,13 +5030,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,170 |  |
 | `culturax_00002.txt` | CulturaX | 22,441 |  |
 
-#### `cp850-indonesian/` — 1 files
+#### `cp850-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 2,693 |  |
 
-#### `cp850-italian/` — 3 files
+#### `cp850-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5044,13 +5044,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,135 |  |
 | `culturax_00002.txt` | CulturaX | 28,207 |  |
 
-#### `cp850-malay/` — 1 files
+#### `cp850-ms/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 266 |  |
 
-#### `cp850-norwegian/` — 3 files
+#### `cp850-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5058,7 +5058,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,857 |  |
 | `culturax_00002.txt` | CulturaX | 34,353 |  |
 
-#### `cp850-portuguese/` — 3 files
+#### `cp850-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5066,7 +5066,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,806 |  |
 | `culturax_00002.txt` | CulturaX | 8,646 |  |
 
-#### `cp850-spanish/` — 3 files
+#### `cp850-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5074,7 +5074,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,158 |  |
 | `culturax_00002.txt` | CulturaX | 18,231 |  |
 
-#### `cp850-swedish/` — 3 files
+#### `cp850-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5082,7 +5082,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,145 |  |
 | `culturax_00002.txt` | CulturaX | 4,565 |  |
 
-#### `cp852-croatian/` — 3 files
+#### `cp852-hr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5090,7 +5090,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 141 |  |
 | `culturax_00002.txt` | CulturaX | 576 |  |
 
-#### `cp852-czech/` — 4 files
+#### `cp852-cs/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5099,7 +5099,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 1,424 |  |
 | `culturax_mC4_98823.txt` | CulturaX | 1,627 |  |
 
-#### `cp852-hungarian/` — 3 files
+#### `cp852-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5107,7 +5107,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | 1,572 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 627 |  |
 
-#### `cp852-polish/` — 3 files
+#### `cp852-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5115,7 +5115,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 2,383 |  |
 
-#### `cp852-romanian/` — 4 files
+#### `cp852-ro/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5124,7 +5124,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78978.txt` | CulturaX | 2,727 |  |
 | `culturax_mC4_78979.txt` | CulturaX | 2,872 |  |
 
-#### `cp852-slovak/` — 4 files
+#### `cp852-sk/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5133,7 +5133,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95227.txt` | CulturaX | 2,868 |  |
 | `culturax_mC4_95230.txt` | CulturaX | 2,928 |  |
 
-#### `cp852-slovene/` — 3 files
+#### `cp852-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5141,7 +5141,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,188 |  |
 
-#### `cp855-belarusian/` — 3 files
+#### `cp855-be/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5149,7 +5149,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 1,188 |  |
 | `culturax_mC4_77018.txt` | CulturaX | 1,326 |  |
 
-#### `cp855-bulgarian/` — 3 files
+#### `cp855-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5157,7 +5157,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 1,256 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 2,370 |  |
 
-#### `cp855-macedonian/` — 3 files
+#### `cp855-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5165,7 +5165,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 1,205 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 3,000 |  |
 
-#### `cp855-russian/` — 23 files
+#### `cp855-ru/` — 23 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5193,7 +5193,7 @@ content transcoded to test detection across encodings.
 | `newsru.com.xml` | chardet | 24,099 |  |
 | `susu.ac.ru.xml` | chardet | 2,059 |  |
 
-#### `cp855-serbian/` — 3 files
+#### `cp855-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5201,7 +5201,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66921.txt` | CulturaX | 2,630 |  |
 | `culturax_mC4_66923.txt` | CulturaX | 2,867 |  |
 
-#### `cp855-ukrainian/` — 4 files
+#### `cp855-uk/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5210,7 +5210,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 2,821 |  |
 
-#### `cp856-hebrew/` — 3 files
+#### `cp856-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5218,7 +5218,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,217 |  |
 | `culturax_00002.txt` | CulturaX | 9,489 |  |
 
-#### `cp857-turkish/` — 4 files
+#### `cp857-tr/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5227,7 +5227,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107849.txt` | CulturaX | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | 2,309 |  |
 
-#### `cp858-danish/` — 3 files
+#### `cp858-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5235,7 +5235,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,629 |  |
 | `culturax_00002.txt` | CulturaX | 9,021 |  |
 
-#### `cp858-dutch/` — 3 files
+#### `cp858-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5243,25 +5243,25 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,000 |  |
 | `culturax_00002.txt` | CulturaX | 7,928 |  |
 
-#### `cp858-english/` — 1 files
+#### `cp858-en/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 3,372 |  |
 
-#### `cp858-finnish/` — 1 files
+#### `cp858-fi/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_80362.txt` | CulturaX | 3,000 |  |
 
-#### `cp858-french/` — 1 files
+#### `cp858-fr/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | 2,871 |  |
 
-#### `cp858-german/` — 3 files
+#### `cp858-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5269,7 +5269,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,000 |  |
 | `culturax_00002.txt` | CulturaX | 7,084 |  |
 
-#### `cp858-icelandic/` — 3 files
+#### `cp858-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5277,19 +5277,19 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,930 |  |
 | `culturax_00002.txt` | CulturaX | 5,304 |  |
 
-#### `cp858-indonesian/` — 1 files
+#### `cp858-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 1,000 |  |
 
-#### `cp858-irish/` — 1 files
+#### `cp858-ga/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_63469.txt` | CulturaX | 2,897 |  |
 
-#### `cp858-italian/` — 3 files
+#### `cp858-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5297,13 +5297,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,476 |  |
 | `culturax_00002.txt` | CulturaX | 11,839 |  |
 
-#### `cp858-malay/` — 1 files
+#### `cp858-ms/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 250 |  |
 
-#### `cp858-norwegian/` — 3 files
+#### `cp858-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5311,7 +5311,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,328 |  |
 | `culturax_00002.txt` | CulturaX | 10,617 |  |
 
-#### `cp858-portuguese/` — 3 files
+#### `cp858-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5319,7 +5319,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,154 |  |
 | `culturax_00002.txt` | CulturaX | 3,475 |  |
 
-#### `cp858-spanish/` — 3 files
+#### `cp858-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5327,7 +5327,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,546 |  |
 | `culturax_00002.txt` | CulturaX | 12,119 |  |
 
-#### `cp858-swedish/` — 3 files
+#### `cp858-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5335,7 +5335,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,071 |  |
 | `culturax_00002.txt` | CulturaX | 3,754 |  |
 
-#### `cp860-portuguese/` — 3 files
+#### `cp860-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5343,7 +5343,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 2,875 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 2,837 |  |
 
-#### `cp861-icelandic/` — 3 files
+#### `cp861-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5351,7 +5351,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 1,506 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 2,808 |  |
 
-#### `cp862-hebrew/` — 3 files
+#### `cp862-he/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5359,7 +5359,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 984 |  |
 | `culturax_00002.txt` | CulturaX | 9,148 |  |
 
-#### `cp863-french/` — 3 files
+#### `cp863-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5367,13 +5367,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,710 |  |
 | `culturax_00002.txt` | CulturaX | 9,484 |  |
 
-#### `cp864-arabic/` — 1 files
+#### `cp864-ar/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | 385 |  |
 
-#### `cp865-danish/` — 3 files
+#### `cp865-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5381,13 +5381,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,445 |  |
 | `culturax_00002.txt` | CulturaX | 19,560 |  |
 
-#### `cp865-norwegian/` — 1 files
+#### `cp865-no/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_66765.txt` | CulturaX | 669 |  |
 
-#### `cp866-belarusian/` — 4 files
+#### `cp866-be/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5396,7 +5396,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77018.txt` | CulturaX | 1,326 |  |
 | `culturax_mC4_77019.txt` | CulturaX | 1,915 |  |
 
-#### `cp866-bulgarian/` — 3 files
+#### `cp866-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5404,7 +5404,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 1,256 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 2,370 |  |
 
-#### `cp866-macedonian/` — 3 files
+#### `cp866-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5412,7 +5412,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,166 |  |
 | `culturax_00002.txt` | CulturaX | 7,511 |  |
 
-#### `cp866-russian/` — 22 files
+#### `cp866-ru/` — 22 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5439,7 +5439,7 @@ content transcoded to test detection across encodings.
 | `newsru.com.xml` | chardet | 24,099 |  |
 | `susu.ac.ru.xml` | chardet | 2,059 |  |
 
-#### `cp866-serbian/` — 3 files
+#### `cp866-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5447,14 +5447,14 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,397 |  |
 | `culturax_00002.txt` | CulturaX | 11,627 |  |
 
-#### `cp866-ukrainian/` — 2 files
+#### `cp866-uk/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_95020.txt` | CulturaX | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 2,821 |  |
 
-#### `cp869-greek/` — 4 files
+#### `cp869-el/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5463,14 +5463,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 2,131 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 1,109 |  |
 
-#### `cp874-thai/` — 2 files
+#### `cp874-th/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `pharmacy.kku.ac.th.centerlab.xml` | chardet | 9,540 |  |
 | `pharmacy.kku.ac.th.healthinfo-ne.xml` | chardet | 19,707 |  |
 
-#### `cp875-greek/` — 3 files
+#### `cp875-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5478,7 +5478,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 2,131 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 1,109 |  |
 
-#### `cp932-japanese/` — 5 files
+#### `cp932-ja/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5488,7 +5488,7 @@ content transcoded to test detection across encodings.
 | `www2.chuo-u.ac.jp-suishin.xml` | chardet | 4,420 |  |
 | `y-moto.com.xml` | chardet | 37,856 |  |
 
-#### `cp949-korean/` — 1 files
+#### `cp949-ko/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5496,7 +5496,7 @@ content transcoded to test detection across encodings.
 
 ### Mac encodings (109 files in 31 directories)
 
-#### `maccyrillic-belarusian/` — 4 files
+#### `maccyrillic-be/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5505,7 +5505,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77016.txt` | CulturaX | 1,188 |  |
 | `culturax_mC4_77018.txt` | CulturaX | 1,326 |  |
 
-#### `maccyrillic-bulgarian/` — 3 files
+#### `maccyrillic-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5513,7 +5513,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 1,256 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 2,370 |  |
 
-#### `maccyrillic-macedonian/` — 3 files
+#### `maccyrillic-mk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5521,7 +5521,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_102726.txt` | CulturaX | 1,205 |  |
 | `culturax_mC4_102727.txt` | CulturaX | 3,000 |  |
 
-#### `maccyrillic-russian/` — 21 files
+#### `maccyrillic-ru/` — 21 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5547,7 +5547,7 @@ content transcoded to test detection across encodings.
 | `newsru.com.xml` | chardet | 24,109 |  |
 | `susu.ac.ru.xml` | chardet | 1,216 |  |
 
-#### `maccyrillic-serbian/` — 3 files
+#### `maccyrillic-sr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5555,7 +5555,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66921.txt` | CulturaX | 2,630 |  |
 | `culturax_mC4_66923.txt` | CulturaX | 2,867 |  |
 
-#### `maccyrillic-ukrainian/` — 4 files
+#### `maccyrillic-uk/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5564,7 +5564,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | 2,821 |  |
 
-#### `macgreek-greek/` — 3 files
+#### `macgreek-el/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5572,7 +5572,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 2,131 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 1,109 |  |
 
-#### `maciceland-icelandic/` — 3 files
+#### `maciceland-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5580,7 +5580,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | 1,506 |  |
 | `culturax_mC4_77489.txt` | CulturaX | 2,808 |  |
 
-#### `maclatin2-croatian/` — 4 files
+#### `maclatin2-hr/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5589,7 +5589,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 141 |  |
 | `culturax_00002.txt` | CulturaX | 572 |  |
 
-#### `maclatin2-czech/` — 4 files
+#### `maclatin2-cs/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5598,7 +5598,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_98820.txt` | CulturaX | 1,424 |  |
 | `culturax_mC4_98823.txt` | CulturaX | 1,627 |  |
 
-#### `maclatin2-hungarian/` — 3 files
+#### `maclatin2-hu/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5606,7 +5606,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | 1,582 |  |
 | `culturax_mC4_82418.txt` | CulturaX | 627 |  |
 
-#### `maclatin2-polish/` — 3 files
+#### `maclatin2-pl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5614,7 +5614,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | 2,383 |  |
 
-#### `maclatin2-slovak/` — 4 files
+#### `maclatin2-sk/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5623,7 +5623,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95227.txt` | CulturaX | 2,868 |  |
 | `culturax_mC4_95230.txt` | CulturaX | 2,928 |  |
 
-#### `maclatin2-slovene/` — 3 files
+#### `maclatin2-sl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5631,13 +5631,13 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,188 |  |
 
-#### `macroman-breton/` — 1 files
+#### `macroman-br/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_OSCAR-2019_43764.txt` | CulturaX | 628 |  |
 
-#### `macroman-danish/` — 3 files
+#### `macroman-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5645,7 +5645,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83468.txt` | CulturaX | 2,019 |  |
 | `culturax_mC4_83469.txt` | CulturaX | 2,827 |  |
 
-#### `macroman-dutch/` — 3 files
+#### `macroman-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5653,13 +5653,13 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | 2,455 |  |
 | `culturax_mC4_107676.txt` | CulturaX | 1,043 |  |
 
-#### `macroman-english/` — 1 files
+#### `macroman-en/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_84512.txt` | CulturaX | 849 |  |
 
-#### `macroman-finnish/` — 3 files
+#### `macroman-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5667,7 +5667,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | 3,000 |  |
 | `culturax_mC4_80363.txt` | CulturaX | 2,804 |  |
 
-#### `macroman-french/` — 3 files
+#### `macroman-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5675,7 +5675,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | 733 |  |
 | `culturax_mC4_88373.txt` | CulturaX | 1,629 |  |
 
-#### `macroman-german/` — 3 files
+#### `macroman-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5683,7 +5683,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | 2,157 |  |
 | `culturax_mC4_83756.txt` | CulturaX | 2,259 |  |
 
-#### `macroman-icelandic/` — 3 files
+#### `macroman-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5691,13 +5691,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,088 |  |
 | `culturax_00002.txt` | CulturaX | 21,381 |  |
 
-#### `macroman-indonesian/` — 1 files
+#### `macroman-id/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | 2,572 |  |
 
-#### `macroman-irish/` — 3 files
+#### `macroman-ga/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5705,7 +5705,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_63469.txt` | CulturaX | 2,897 |  |
 | `culturax_mC4_63470.txt` | CulturaX | 1,222 |  |
 
-#### `macroman-italian/` — 3 files
+#### `macroman-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5713,7 +5713,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_92390.txt` | CulturaX | 1,278 |  |
 | `culturax_mC4_92391.txt` | CulturaX | 1,445 |  |
 
-#### `macroman-norwegian/` — 3 files
+#### `macroman-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5721,7 +5721,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66763.txt` | CulturaX | 3,000 |  |
 | `culturax_mC4_66764.txt` | CulturaX | 3,000 |  |
 
-#### `macroman-portuguese/` — 3 files
+#### `macroman-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5729,7 +5729,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | 2,875 |  |
 | `culturax_mC4_101818.txt` | CulturaX | 2,837 |  |
 
-#### `macroman-spanish/` — 3 files
+#### `macroman-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5737,7 +5737,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_87070.txt` | CulturaX | 2,970 |  |
 | `culturax_mC4_87071.txt` | CulturaX | 2,778 |  |
 
-#### `macroman-swedish/` — 3 files
+#### `macroman-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5745,14 +5745,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | 2,533 |  |
 | `culturax_mC4_96487.txt` | CulturaX | 2,111 |  |
 
-#### `macroman-welsh/` — 2 files
+#### `macroman-cy/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_78727.txt` | CulturaX | 2,884 |  |
 | `culturax_mC4_78729.txt` | CulturaX | 1,908 |  |
 
-#### `macturkish-turkish/` — 3 files
+#### `macturkish-tr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5762,7 +5762,7 @@ content transcoded to test detection across encodings.
 
 ### KOI8 (34 files in 4 directories)
 
-#### `koi8-r-bulgarian/` — 3 files
+#### `koi8-r-bg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5770,7 +5770,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_84186.txt` | CulturaX | 1,256 |  |
 | `culturax_mC4_84187.txt` | CulturaX | 2,370 |  |
 
-#### `koi8-r-russian/` — 25 files
+#### `koi8-r-ru/` — 25 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5800,7 +5800,7 @@ content transcoded to test detection across encodings.
 | `newsru.com.xml` | chardet | 24,264 |  |
 | `susu.ac.ru.xml` | chardet | 13,623 |  |
 
-#### `koi8-t-tajik/` — 3 files
+#### `koi8-t-tg/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5808,7 +5808,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | 2,819 |  |
 | `culturax_mC4_74867.txt` | CulturaX | 2,853 |  |
 
-#### `koi8-u-ukrainian/` — 3 files
+#### `koi8-u-uk/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5818,7 +5818,7 @@ content transcoded to test detection across encodings.
 
 ### HP encodings (42 files in 14 directories)
 
-#### `hp-roman8-danish/` — 3 files
+#### `hp-roman8-da/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5826,7 +5826,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,074 |  |
 | `culturax_00002.txt` | CulturaX | 19,559 |  |
 
-#### `hp-roman8-dutch/` — 3 files
+#### `hp-roman8-nl/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5834,7 +5834,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,183 |  |
 | `culturax_00002.txt` | CulturaX | 7,922 |  |
 
-#### `hp-roman8-english/` — 3 files
+#### `hp-roman8-en/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5842,7 +5842,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,405 |  |
 | `culturax_00002.txt` | CulturaX | 11,230 |  |
 
-#### `hp-roman8-finnish/` — 3 files
+#### `hp-roman8-fi/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5850,7 +5850,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,041 |  |
 | `culturax_00002.txt` | CulturaX | 9,321 |  |
 
-#### `hp-roman8-french/` — 3 files
+#### `hp-roman8-fr/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5858,7 +5858,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,979 |  |
 | `culturax_00002.txt` | CulturaX | 9,484 |  |
 
-#### `hp-roman8-german/` — 3 files
+#### `hp-roman8-de/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5866,7 +5866,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,076 |  |
 | `culturax_00002.txt` | CulturaX | 7,474 |  |
 
-#### `hp-roman8-icelandic/` — 3 files
+#### `hp-roman8-is/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5874,7 +5874,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,170 |  |
 | `culturax_00002.txt` | CulturaX | 22,441 |  |
 
-#### `hp-roman8-indonesian/` — 3 files
+#### `hp-roman8-id/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5882,7 +5882,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,079 |  |
 | `culturax_00002.txt` | CulturaX | 13,140 |  |
 
-#### `hp-roman8-italian/` — 3 files
+#### `hp-roman8-it/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5890,7 +5890,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,135 |  |
 | `culturax_00002.txt` | CulturaX | 75,190 |  |
 
-#### `hp-roman8-malay/` — 3 files
+#### `hp-roman8-ms/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5898,7 +5898,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 507 |  |
 | `culturax_00002.txt` | CulturaX | 2,303 |  |
 
-#### `hp-roman8-norwegian/` — 3 files
+#### `hp-roman8-no/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5906,7 +5906,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 2,857 |  |
 | `culturax_00002.txt` | CulturaX | 34,334 |  |
 
-#### `hp-roman8-portuguese/` — 3 files
+#### `hp-roman8-pt/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5914,7 +5914,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,806 |  |
 | `culturax_00002.txt` | CulturaX | 8,646 |  |
 
-#### `hp-roman8-spanish/` — 3 files
+#### `hp-roman8-es/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5922,7 +5922,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 3,158 |  |
 | `culturax_00002.txt` | CulturaX | 18,231 |  |
 
-#### `hp-roman8-swedish/` — 3 files
+#### `hp-roman8-sv/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5932,7 +5932,7 @@ content transcoded to test detection across encodings.
 
 ### Chinese encodings (58 files in 4 directories)
 
-#### `big5-chinese/` — 29 files
+#### `big5-zh/` — 29 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5966,7 +5966,7 @@ content transcoded to test detection across encodings.
 | `willythecop.blogspot.com.xml` | chardet | 13,437 | High markup ratio (73% tags) |
 | `ytc.blogspot.com.xml` | chardet | 54,145 |  |
 
-#### `gb18030-chinese/` — 3 files
+#### `gb18030-zh/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -5974,7 +5974,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_3.txt` | CulturaX | 3,848 | Uses gb18030 4-byte sequences |
 | `culturax_mC4_7.txt` | CulturaX | 2,051 | Uses gbk-range bytes beyond gb2312 |
 
-#### `gb2312-chinese/` — 24 files
+#### `gb2312-zh/` — 24 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6003,7 +6003,7 @@ content transcoded to test detection across encodings.
 | `w3cn.org.xml` | chardet | 5,646 |  |
 | `xy15400.blogcn.com.xml` | chardet | 19,804 |  |
 
-#### `hz-gb-2312-chinese/` — 2 files
+#### `hz-gb-2312-zh/` — 2 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6012,7 +6012,7 @@ content transcoded to test detection across encodings.
 
 ### Japanese encodings (70 files in 5 directories)
 
-#### `euc-jp-japanese/` — 32 files
+#### `euc-jp-ja/` — 32 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6049,7 +6049,7 @@ content transcoded to test detection across encodings.
 | `tls.org.xml` | chardet | 15,158 | High markup ratio (62% tags) |
 | `yukiboh.moo.jp.xml` | chardet | 11,596 |  |
 
-#### `iso-2022-jp-2004-japanese/` — 3 files
+#### `iso-2022-jp-2004-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6057,13 +6057,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,759 |  |
 | `culturax_00002.txt` | CulturaX | 10,084 |  |
 
-#### `iso-2022-jp-ext-japanese/` — 1 files
+#### `iso-2022-jp-ext-ja/` — 1 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_00001.txt` | CulturaX | 1,750 |  |
 
-#### `iso-2022-jp-japanese/` — 3 files
+#### `iso-2022-jp-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6071,7 +6071,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_6.txt` | CulturaX | 1,776 |  |
 | `culturax_mC4_5.txt` | CulturaX | 6,387 |  |
 
-#### `shift_jis-japanese/` — 31 files
+#### `shift_jis-ja/` — 31 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6109,7 +6109,7 @@ content transcoded to test detection across encodings.
 
 ### Korean encodings (45 files in 3 directories)
 
-#### `euc-kr-korean/` — 33 files
+#### `euc-kr-ko/` — 33 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6147,7 +6147,7 @@ content transcoded to test detection across encodings.
 | `yunho.egloos.com.xml` | chardet | 23,344 |  |
 | `zangsalang.egloos.com.xml` | chardet | 14,754 |  |
 
-#### `iso-2022-kr-korean/` — 5 files
+#### `iso-2022-kr-ko/` — 5 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6157,7 +6157,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_1.txt` | CulturaX | 6,269 |  |
 | `culturax_mC4_2.txt` | CulturaX | 1,311 |  |
 
-#### `johab-korean/` — 7 files
+#### `johab-ko/` — 7 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6171,7 +6171,7 @@ content transcoded to test detection across encodings.
 
 ### Thai encodings (8 files in 1 directories)
 
-#### `tis-620-thai/` — 8 files
+#### `tis-620-th/` — 8 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6186,7 +6186,7 @@ content transcoded to test detection across encodings.
 
 ### Central Asian encodings (8 files in 2 directories)
 
-#### `kz1048-kazakh/` — 4 files
+#### `kz1048-kk/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6195,7 +6195,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73162.txt` | CulturaX | 2,921 |  |
 | `useful-sentences.html` | charset-normalizer | 260 |  |
 
-#### `ptcp154-kazakh/` — 4 files
+#### `ptcp154-kk/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
@@ -6206,7 +6206,7 @@ content transcoded to test detection across encodings.
 
 ### Other encodings (3 files in 1 directories)
 
-#### `shift-jis-japanese/` — 3 files
+#### `shift-jis-ja/` — 3 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
