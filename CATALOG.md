@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**2510 files** across **728 directories** covering **88 encodings**.
+**2521 files** across **729 directories** covering **88 encodings**.
 
 ## Sources
 
@@ -16,14 +16,14 @@ filename prefix, git history, or content:
 |--------|---------------|------:|-------------|
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,949 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
 | [Mark Pilgrim's chardet](https://github.com/puzzlet/chardet/tree/MarkPilgrim/tests) | `*.xml` (domain names) | 314 | Web-scraped RSS/Atom feeds from the original chardet test suite by Mark Pilgrim. Imported by Puzzlet Chung in 2012. Each filename is the source website's domain. |
-| [Ude](http://code.google.com/p/ude/) (Universal Detector Engine) | `_ude_` | 94 | Test files from the Ude charset detection library (a C# port of Mozilla's universal charset detector). |
-| [charset-normalizer](https://github.com/Ousret/charset_normalizer) ([char-dataset](https://github.com/Ousret/char-dataset)) | various | ~9 | Test data from the charset-normalizer test dataset by Ahmed TAHRI. Iris CSV/JSON datasets originally from [Capital One DataProfiler](https://github.com/capitalone/DataProfiler). UTF-8 `.md`/`.rst` files are READMEs from urllib3 and charset-normalizer. `anzeige-value-stars.html` from charset-normalizer [issue #104](https://github.com/Ousret/charset_normalizer/issues/104). ASCII JSON files (books, parchments, etc.) added to avoid false positives on structured data. `dummy-1.pem` added after [certbot #8964](https://github.com/certbot/certbot/issues/8964). Binary samples ensure non-text is correctly rejected. |
+| [Ude](http://code.google.com/p/ude/) (Universal Detector Engine) | `_ude_` | 96 | Test files from the Ude charset detection library (a C# port of Mozilla's universal charset detector). |
+| [charset-normalizer](https://github.com/Ousret/charset_normalizer) ([char-dataset](https://github.com/Ousret/char-dataset)) | various | ~17 | Test data from the charset-normalizer test dataset by Ahmed TAHRI. Iris CSV/JSON datasets originally from [Capital One DataProfiler](https://github.com/capitalone/DataProfiler). UTF-8 `.md`/`.rst` files are READMEs from urllib3 and charset-normalizer. `anzeige-value-stars.html` from charset-normalizer [issue #104](https://github.com/Ousret/charset_normalizer/issues/104). ASCII JSON files (books, parchments, etc.) added to avoid false positives on structured data. `dummy-1.pem` added after [certbot #8964](https://github.com/certbot/certbot/issues/8964). Binary samples ensure non-text is correctly rejected. |
 | [ENCA](https://cihar.com/software/enca/) | `_enca_` | 32 | Test files from the ENCA (Extremely Naive Charset Analyser) library. |
 | [uchardet](https://www.freedesktop.org/wiki/Software/uchardet/) | `_uchardet_` | 32 | Test files from the uchardet encoding detection library. |
 | [Chromium](https://chromium.googlesource.com/chromium/src/) | `_chromium_` | 15 | Test files from the Chromium browser's encoding detection test suite. |
 | [Mozilla](https://hg.mozilla.org/mozilla-central/) | `_mozilla_` | 11 | Test files from Mozilla's charset detection test suite, including regression tests for specific bugs (bug numbers in filenames). |
 | [Web Archive](https://web.archive.org/) | `archive_` | 11 | Test files sourced from the Wayback Machine web archive. |
-| Contributed | various | ~43 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
+| Contributed | various | ~44 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
 
 ## Binary Test Files (`None-None/`)
 
@@ -89,7 +89,7 @@ Each encoding directory contains files transcoded into that encoding.
 Many source texts appear across multiple encoding directories — the same
 content transcoded to test detection across encodings.
 
-### Unicode (1347 files in 441 directories)
+### Unicode (1356 files in 441 directories)
 
 #### `utf-16-ar/` — 3 files
 
@@ -873,13 +873,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 5,336 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 5,736 |  |
 
-#### `utf-16be-zh/` — 3 files
+#### `utf-16be-zh/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_3.txt` | CulturaX | 4,190 |  |
 | `culturax_mC4_5.txt` | CulturaX | 1,288 |  |
 | `culturax_mC4_7.txt` | CulturaX | 2,146 |  |
+| `sample_chinese_no_bom.txt` | charset-normalizer | 110 | BOM-less Chinese text (mixed simplified and traditional) |
 
 #### `utf-16le-ar/` — 3 files
 
@@ -1266,13 +1267,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 5,336 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 5,736 |  |
 
-#### `utf-16le-zh/` — 3 files
+#### `utf-16le-zh/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_3.txt` | CulturaX | 4,190 |  |
 | `culturax_mC4_5.txt` | CulturaX | 1,288 |  |
 | `culturax_mC4_7.txt` | CulturaX | 2,146 |  |
+| `sample_chinese_no_bom.txt` | charset-normalizer | 110 | BOM-less Chinese text (mixed simplified and traditional) |
 
 #### `utf-32-ar/` — 3 files
 
@@ -2054,13 +2056,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 10,672 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 11,472 |  |
 
-#### `utf-32be-zh/` — 3 files
+#### `utf-32be-zh/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_3.txt` | CulturaX | 8,380 |  |
 | `culturax_mC4_5.txt` | CulturaX | 2,576 |  |
 | `culturax_mC4_7.txt` | CulturaX | 4,292 |  |
+| `sample_chinese_no_bom.txt` | charset-normalizer | 220 | BOM-less Chinese text (mixed simplified and traditional) |
 
 #### `utf-32le-ar/` — 3 files
 
@@ -2447,13 +2450,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | 10,672 |  |
 | `culturax_mC4_85694.txt` | CulturaX | 11,472 |  |
 
-#### `utf-32le-zh/` — 3 files
+#### `utf-32le-zh/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `culturax_mC4_3.txt` | CulturaX | 8,380 |  |
 | `culturax_mC4_5.txt` | CulturaX | 2,576 |  |
 | `culturax_mC4_7.txt` | CulturaX | 4,292 |  |
+| `sample_chinese_no_bom.txt` | charset-normalizer | 220 | BOM-less Chinese text (mixed simplified and traditional) |
 
 #### `utf-7-ar/` — 3 files
 
@@ -2914,12 +2918,16 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | 3,696 |  |
 | `culturax_mC4_103811.txt` | CulturaX | 2,021 |  |
 
-#### `utf-8-en/` — 10 files
+#### `utf-8-en/` — 15 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
+| `CHANGELOG.md` | charset-normalizer | 10,072 | charset-normalizer CHANGELOG (near-ASCII, only 2 non-ASCII bytes) |
 | `_mozilla_bug306272_text.html` | Mozilla | 227 | High markup ratio (72% tags) |
+| `_ude_1.md` | charset-normalizer | 10,109 | charset-normalizer README (near-ASCII, 0.7% non-ASCII) |
+| `_ude_1.rst` | charset-normalizer | 4,460 | urllib3 README (near-ASCII, 0.2% non-ASCII) |
 | `_ude_3.txt` | Ude | 49 | Very small (49 bytes) |
+| `_ude_6.txt` | Ude | 3,524 | English Wikipedia article about the English language |
 | `anitabee.blogspot.com.xml` | chardet | 37,858 |  |
 | `boobooo.blogspot.com.xml` | chardet | 12,982 | High markup ratio (62% tags) |
 | `culturax_mC4_84512.txt` | CulturaX | 850 |  |
@@ -2928,6 +2936,7 @@ content transcoded to test detection across encodings.
 | `iris-utf-8.json` | unknown | 19,153 | Iris dataset, originally from Capital One DataProfiler |
 | `playlist.m3u` | unknown | 2,967 | M3U playlist file |
 | `reddit_wsb.csv` | unknown | 16,984,308 | Large file (16,984,308 bytes); Reddit WallStreetBets data |
+| `safari_misdetected.html` | unknown | 6,751 |  |
 
 #### `utf-8-eo/` — 3 files
 
@@ -4266,7 +4275,7 @@ content transcoded to test detection across encodings.
 | `subtitle.srt` | unknown | 1,440 | Subtitle file |
 | `wikitop_tr_ISO-8859-9.txt` | unknown | 1,840 |  |
 
-### Windows code pages (157 files in 36 directories)
+### Windows code pages (158 files in 37 directories)
 
 #### `windows-1250-cs/` — 6 files
 
@@ -4338,6 +4347,12 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66688.txt` | CulturaX | 2,892 |  |
 | `culturax_mC4_66689.txt` | CulturaX | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | 1,188 |  |
+
+#### `windows-1250-sr/` — 1 files
+
+| File | Source | Size | Notes |
+|------|--------|-----:|-------|
+| `github_bug_672.txt` | charset-normalizer | 56,423 | Serbian subtitle file from charset-normalizer issue #672 |
 
 #### `windows-1251-be/` — 4 files
 
@@ -5930,7 +5945,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | 1,395 |  |
 | `culturax_00002.txt` | CulturaX | 4,993 |  |
 
-### Chinese encodings (58 files in 4 directories)
+### Chinese encodings (59 files in 4 directories)
 
 #### `big5-zh/` — 29 files
 
@@ -5966,11 +5981,12 @@ content transcoded to test detection across encodings.
 | `willythecop.blogspot.com.xml` | chardet | 13,437 | High markup ratio (73% tags) |
 | `ytc.blogspot.com.xml` | chardet | 54,145 |  |
 
-#### `gb18030-zh/` — 3 files
+#### `gb18030-zh/` — 4 files
 
 | File | Source | Size | Notes |
 |------|--------|-----:|-------|
 | `_uchardet_gb18030.txt` | uchardet | 88 | Very small (88 bytes) |
+| `_ude_1.txt` | Ude | 1,429 | Chinese Wikipedia article about the Chinese language. Requires gb18030 (not decodable as gb2312). |
 | `culturax_mC4_3.txt` | CulturaX | 3,848 | Uses gb18030 4-byte sequences |
 | `culturax_mC4_7.txt` | CulturaX | 2,051 | Uses gbk-range bytes beyond gb2312 |
 

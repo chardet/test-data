@@ -105,6 +105,17 @@ def load_existing_notes(catalog_path):
 
 def detect_source(filename):
     """Detect the source of a file based on its name."""
+    # Known charset-normalizer files (checked first to override prefix matches)
+    charset_norm = {
+        "book-stats.json", "books.json", "dummy-1.pem", "empty.json",
+        "parchments.json", "simple.json", "iris.csv", "iris.json",
+        "anzeige-value-stars.html", "useful-sentences.html",
+        "sample_chinese_no_bom.txt", "github_bug_672.txt",
+        "_ude_1.md", "_ude_1.rst",
+    }
+    if filename in charset_norm:
+        return "charset-normalizer"
+
     for prefix, (name, _) in SOURCE_INFO.items():
         if filename.startswith(prefix):
             return name
@@ -112,15 +123,6 @@ def detect_source(filename):
     # Domain-name XML files
     if filename.endswith(".xml") and "." in filename[:-4]:
         return "chardet"
-
-    # Known charset-normalizer files
-    charset_norm = {
-        "book-stats.json", "books.json", "dummy-1.pem", "empty.json",
-        "parchments.json", "simple.json", "iris.csv", "iris.json",
-        "anzeige-value-stars.html", "useful-sentences.html",
-    }
-    if filename in charset_norm:
-        return "charset-normalizer"
 
     # Known contributed files
     if filename.endswith((".rst", ".md")) and not filename.startswith("culturax"):

@@ -3911,5 +3911,45 @@
     "method": "transcoded",
     "retrieved": "2026-03-03",
     "notes": ""
+  },
+  {
+    "path": "gb18030-zh/_ude_1.txt",
+    "source": "ude",
+    "notes": "Chinese Wikipedia article about the Chinese language. Requires gb18030 (not decodable as gb2312)."
+  },
+  {
+    "path": "utf-16be-zh/sample_chinese_no_bom.txt",
+    "source": "charset-normalizer",
+    "notes": "BOM-less Chinese text (mixed simplified and traditional)."
+  },
+  {
+    "path": "utf-16le-zh/sample_chinese_no_bom.txt",
+    "source": "charset-normalizer",
+    "notes": "BOM-less Chinese text (mixed simplified and traditional)."
+  },
+  {
+    "path": "utf-32be-zh/sample_chinese_no_bom.txt",
+    "source": "charset-normalizer",
+    "notes": "BOM-less Chinese text (mixed simplified and traditional)."
+  },
+  {
+    "path": "utf-32le-zh/sample_chinese_no_bom.txt",
+    "source": "charset-normalizer",
+    "notes": "BOM-less Chinese text (mixed simplified and traditional)."
+  },
+  {
+    "path": "utf-8-en/CHANGELOG.md",
+    "source": "charset-normalizer",
+    "notes": "charset-normalizer CHANGELOG (near-ASCII, only 2 non-ASCII bytes)."
+  },
+  {
+    "path": "utf-8-en/_ude_6.txt",
+    "source": "ude",
+    "notes": "English Wikipedia article about the English language."
+  },
+  {
+    "path": "windows-1250-sr/github_bug_672.txt",
+    "source": "charset-normalizer",
+    "notes": "Serbian subtitle file from charset-normalizer issue #672."
   }
 ]
