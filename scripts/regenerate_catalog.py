@@ -47,6 +47,7 @@ SOURCE_INFO = {
     "_enca_": ("ENCA", None),
     "_uchardet_": ("uchardet", None),
     "archive_": ("Web Archive", None),
+    "cc_": ("Common Crawl", "https://commoncrawl.org/"),
 }
 
 

@@ -83,6 +83,10 @@ COMMIT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
             "Safari did not detect",
             "Fix BOM detection",
             "Turkish ISO-8859-9",
+            # Files promoted from the miners: served in that encoding by a
+            # real site, then hand-adjudicated before landing here.
+            "wild Common Crawl",
+            "wild HZ",
         ),
     ),
 )

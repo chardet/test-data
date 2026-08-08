@@ -255,9 +255,17 @@ ADJUDICATION_POOL: tuple[str, ...] = (
 ISO3_TO_ISO1: dict[str, str] = {
     "ara": "ar",
     "bel": "be",
+    "bre": "br",
     "bul": "bg",
     "ces": "cs",
     "cym": "cy",
+    "epo": "eo",
+    "gla": "gd",
+    "gle": "ga",
+    "ind": "id",
+    "mlt": "mt",
+    "msa": "ms",
+    "zsm": "ms",
     "dan": "da",
     "deu": "de",
     "ell": "el",
@@ -297,6 +305,18 @@ ISO3_TO_ISO1: dict[str, str] = {
     "vie": "vi",
     "zho": "zh",
 }
+
+# The reverse mapping, for the --languages filter.  Everything else in this
+# repo speaks ISO 639-1 (directory names, encoding_gaps, check_test_data), so
+# the CLI does too; only the index query needs 639-3.  A few 639-1 codes cover
+# several 639-3 codes -- Malay is a macrolanguage whose pages the crawl tags
+# either "msa" or "zsm" -- so this maps to a tuple.
+ISO1_TO_ISO3: dict[str, tuple[str, ...]] = {}
+for _iso3, _iso1 in ISO3_TO_ISO1.items():
+    ISO1_TO_ISO3.setdefault(_iso1, ())
+    ISO1_TO_ISO3[_iso1] = (*ISO1_TO_ISO3[_iso1], _iso3)
+ISO1_TO_ISO3["no"] = ("nor", "nob", "nno")
+ISO1_TO_ISO3["sr"] = ("srp", "hbs")
 
 MANIFEST_COLUMNS = (
     "path",
@@ -586,13 +606,40 @@ def print_charset_stats(part_urls: list[str]) -> None:
 
 
 def query_hits(
-    part_urls: list[str], targets: tuple[str, ...], per_charset: int
+    part_urls: list[str],
+    targets: tuple[str, ...],
+    per_charset: int,
+    languages: tuple[str, ...] = (),
 ) -> list[Hit]:
-    """Query the index parts for target charsets, capped per charset."""
+    """Query the index parts for target charsets, capped per charset.
+
+    *languages* optionally restricts to pages the crawl tagged with one of
+    the given ISO 639-3 codes, and partitions the per-charset cap by
+    language.  Without it, mining a common charset for a rare language is
+    hopeless: iso-8859-1 alone has 629k pages in a single index part, and
+    the Welsh ones would never surface.
+    """
+    language_filter = ""
+    if languages:
+        # content_languages is a comma-separated list, most confident first.
+        language_filter = (
+            "AND list_has_any(str_split(content_languages, ','), "
+            "?::varchar[]) "
+        )
+    partition = (
+        "lower(content_charset), coalesce(content_languages, '')"
+        if languages
+        else "lower(content_charset)"
+    )
+    parameters: list[object] = [part_urls]
+    if languages:
+        parameters.append(list(languages))
+    parameters.append(per_charset * 3)
+
     rows = (
         connect_duckdb()
         .execute(
-            """
+            f"""
             SELECT charset_index, url, languages, digest,
                    warc_filename, warc_offset, warc_length
             FROM (
@@ -609,16 +656,17 @@ def query_hits(
                            ORDER BY url_surtkey
                        ) AS per_domain,
                        row_number() OVER (
-                           PARTITION BY lower(content_charset) ORDER BY url_surtkey
+                           PARTITION BY {partition} ORDER BY url_surtkey
                        ) AS per_charset
                 FROM read_parquet(?)
                 WHERE fetch_status = 200
                   AND lower(content_charset) IN (SELECT unnest(?::varchar[]))
+                  {language_filter}
                   AND content_mime_detected IN ('text/html', 'application/xhtml+xml')
             )
             WHERE per_domain <= 2 AND per_charset <= ?
-            """,
-            [part_urls, list(targets), per_charset * 3],
+            """,  # noqa: S608 - fragments are literals chosen above, not input
+            [part_urls, list(targets), *parameters[1:]],
         )
         .fetchall()
     )
@@ -1040,7 +1088,22 @@ def run_mine(arguments: argparse.Namespace) -> int:
         print(f"skipping charsets Python cannot decode: {', '.join(unsupported)}")
         targets = tuple(t for t in targets if canonical_codec(t) is not None)
 
-    hits = query_hits(selected, targets, arguments.max_per_charset)
+    requested = [
+        value.strip() for value in arguments.languages.split(",") if value.strip()
+    ]
+    unknown = [code for code in requested if code not in ISO1_TO_ISO3]
+    if unknown:
+        sys.exit(
+            f"unknown language code(s): {', '.join(unknown)}\n"
+            f"  use ISO 639-1, e.g. cy,ga,br (not cym,gle,bre)"
+        )
+    languages = tuple(code for iso1 in requested for code in ISO1_TO_ISO3[iso1])
+    if languages:
+        print(
+            f"restricting to languages: {', '.join(requested)} "
+            f"(index codes: {', '.join(languages)})"
+        )
+    hits = query_hits(selected, targets, arguments.max_per_charset, languages)
     by_charset: dict[str, int] = {}
     for hit in hits:
         by_charset[hit.charset_index] = by_charset.get(hit.charset_index, 0) + 1
@@ -1130,6 +1193,12 @@ def main() -> int:
         "--charsets",
         default=",".join(DEFAULT_TARGETS),
         help="comma-separated index charset values to harvest",
+    )
+    parser.add_argument(
+        "--languages",
+        default="",
+        help="comma-separated ISO 639-1 codes to restrict to (e.g. cy,ga,br); "
+        "needed to find a rare language inside a common charset",
     )
     parser.add_argument(
         "--output",
