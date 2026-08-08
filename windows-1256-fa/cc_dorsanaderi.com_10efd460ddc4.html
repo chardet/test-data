@@ -1,0 +1,952 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<title>.:Dorsa's Website:.</title>
+<style fprolloverstyle>A:hover {color: #FF0000}
+</style>
+</head>
+
+<body bgcolor="#000000" text="#4A2500" link="#4A2500" vlink="#4A2500">
+<!-------------------------------------------------------------------->
+<div id="dot0" style="position: absolute; visibility: hidden; height: 11; width: 11;">
+	<img src="heart1.gif" height=30 width=30>
+</div>
+<div id="dot1" style="position: absolute; height: 11; width: 11;">
+	<img src="/heart2.gif" height=30 width=30>
+</div>
+
+
+<script LANGUAGE="JavaScript">
+
+var nDots = 2;
+
+var Xpos = 0;
+var Ypos = 0;
+
+var DELTAT = .01;
+var SEGLEN = 10;
+var SPRINGK = 10;
+var MASS = 1;
+var XGRAVITY = 0;
+var YGRAVITY = 50;
+var RESISTANCE = 10;
+var STOPVEL = 0.1;
+var STOPACC = 0.1;
+var DOTSIZE = 11;
+var BOUNCE = 0.75;
+
+var isNetscape = navigator.appName=="Netscape";
+
+var followmouse = true;
+
+var dots = new Array();
+init();
+
+function init()
+{
+    var i = 0;
+    for (i = 0; i < nDots; i++) {
+        dots[i] = new dot(i);
+    }
+    
+    if (!isNetscape) {
+    }
+    
+    for (i = 0; i < nDots; i++) {
+        dots[i].obj.left = dots[i].X;
+        dots[i].obj.top = dots[i].Y;
+    }
+    
+    
+    if (isNetscape) {
+        startanimate();
+    } else {
+        // let dots sit there for a few seconds
+        // since they're hiding on the real bullets
+        setTimeout("startanimate()", 1000);
+    }
+}
+
+
+
+function dot(i) 
+{
+    this.X = Xpos;
+    this.Y = Ypos;
+    this.dx = 0;
+    this.dy = 0;
+    if (isNetscape) {	
+        this.obj = eval("document.dot" + i);
+    } else {
+        this.obj = eval("dot" + i + ".style");
+    }
+}
+
+
+function startanimate() {	
+    setInterval("animate()", 20);
+}
+
+
+// This is to line up the bullets with actual LI tags on the page
+// Had to add -DOTSIZE to X and 2*DOTSIZE to Y for IE 5, not sure why
+// Still doesn't work great
+function setInitPositions(dots)
+{
+    // initialize dot positions to be on top 
+    // of the bullets in the <ul>
+    var startloc = document.all.tags("LI");
+    var i = 0;
+    for (i = 0; i < startloc.length && i < (nDots - 1); i++) {
+        dots[i+1].X = startloc[i].offsetLeft
+            startloc[i].offsetParent.offsetLeft - DOTSIZE;
+        dots[i+1].Y = startloc[i].offsetTop +
+            startloc[i].offsetParent.offsetTop + 2*DOTSIZE;
+    }
+    // put 0th dot above 1st (it is hidden)
+    dots[0].X = dots[1].X;
+    dots[0].Y = dots[1].Y - SEGLEN;
+}
+
+// just save mouse position for animate() to use
+function MoveHandler(e)
+{
+    Xpos = e.pageX;
+    Ypos = e.pageY;	  
+    return true;
+}
+
+// just save mouse position for animate() to use
+function MoveHandlerIE() {
+    Xpos = window.event.x + document.body.scrollLeft;
+    Ypos = window.event.y + document.body.scrollTop;	  
+}
+
+if (isNetscape) {
+    document.captureEvents(Event.MOUSEMOVE);
+    document.onMouseMove = MoveHandler;
+} else {
+    document.onmousemove = MoveHandlerIE;
+}
+
+
+function vec(X, Y)
+{
+    this.X = X;
+    this.Y = Y;
+}
+
+// adds force in X and Y to spring for dot[i] on dot[j]
+function springForce(i, j, spring)
+{
+    var dx = (dots[i].X - dots[j].X);
+    var dy = (dots[i].Y - dots[j].Y);
+    var len = Math.sqrt(dx*dx + dy*dy);
+    if (len > SEGLEN) {
+        var springF = SPRINGK * (len - SEGLEN);
+        spring.X += (dx / len) * springF;
+        spring.Y += (dy / len) * springF;
+    }
+}
+
+
+function animate() {	
+    // dots[0] follows the mouse,
+    // though no dot is drawn there
+    var start = 0;
+    if (followmouse) {
+        dots[0].X = Xpos;
+        dots[0].Y = Ypos;	
+        start = 1;
+    }
+    
+    for (i = start ; i < nDots; i++ ) {
+        
+        var spring = new vec(0, 0);
+        if (i > 0) {
+            springForce(i-1, i, spring);
+        }
+        if (i < (nDots - 1)) {
+            springForce(i+1, i, spring);
+        }
+        
+        // air resisitance/friction
+        var resist = new vec(-dots[i].dx * RESISTANCE,
+            -dots[i].dy * RESISTANCE);
+        
+        // compute new accel, including gravity
+        var accel = new vec((spring.X + resist.X)/MASS + XGRAVITY,
+            (spring.Y + resist.Y)/ MASS + YGRAVITY);
+        
+        // compute new velocity
+        dots[i].dx += (DELTAT * accel.X);
+        dots[i].dy += (DELTAT * accel.Y);
+        
+        // stop dead so it doesn't jitter when nearly still
+        if (Math.abs(dots[i].dx) < STOPVEL &&
+            Math.abs(dots[i].dy) < STOPVEL &&
+            Math.abs(accel.X) < STOPACC &&
+            Math.abs(accel.Y) < STOPACC) {
+            dots[i].dx = 0;
+            dots[i].dy = 0;
+        }
+        
+        // move to new position
+        dots[i].X += dots[i].dx;
+        dots[i].Y += dots[i].dy;
+        
+        // get size of window
+        var height, width;
+        if (isNetscape) {
+            height = window.innerHeight + window.pageYOffset;
+            width = window.innerWidth + window.pageXOffset;
+        } else {	
+            height = document.body.clientHeight + document.body.scrollTop;
+            width = document.body.clientWidth + document.body.scrollLeft;
+        }
+        
+        // bounce off 3 walls (leave ceiling open)
+        if (dots[i].Y >=  height - DOTSIZE - 1) {
+            if (dots[i].dy > 0) {
+                dots[i].dy = BOUNCE * -dots[i].dy;
+            }
+            dots[i].Y = height - DOTSIZE - 1;
+        }
+        if (dots[i].X >= width - DOTSIZE) {
+            if (dots[i].dx > 0) {
+                dots[i].dx = BOUNCE * -dots[i].dx;
+            }
+            dots[i].X = width - DOTSIZE - 1;
+        }
+        if (dots[i].X < 0) {
+            if (dots[i].dx < 0) {
+                dots[i].dx = BOUNCE * -dots[i].dx;
+            }
+            dots[i].X = 0;
+        }
+        
+        // move img to new position
+        dots[i].obj.left = dots[i].X;			
+        dots[i].obj.top =  dots[i].Y;		
+    }
+}
+
+// end code hiding
+</script>
+
+
+<!-------------------------------------------------------------------->
+
+
+
+<div align="center">
+	<table border="0" width="800" cellspacing="0" cellpadding="0" height="215">
+		<tr>
+			<td valign="top" height="152" background="topppd.jpg">
+			<table border="0" width="100%" height="154" cellspacing="0" cellpadding="0">
+				<tr>
+					<td rowspan="2" valign="bottom">
+					<p style="margin-top: 19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img border="0" src="sun_animated.gif" width="137" height="120"></td>
+					<td width="179" valign="bottom">
+					<p style="margin-top: 19px">
+					<img border="0" src="heart_Animation.gif" width="78" height="83"></td>
+				</tr>
+				<tr>
+					<td width="179" valign="top" style="margin-top: -10">
+					<b><font face="Comic Sans MS" color="#FFFFFF">I am 4654 
+					Days</font></b></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" height="20">
+			<img border="0" src="history/kids%20unlimited/samallbar.jpg" width="800" height="12"></td>
+		</tr>
+		<tr>
+			<td valign="top">
+
+						<form method="POST" action="history.asp" webbot-action="--WEBBOT-SELF--">
+									<div align="center">
+									<map name="FPMap0">
+									<area href="index3.asp" shape="rect" coords="222, 5, 326, 31">
+									<area href="list.asp" shape="rect" coords="388, 5, 503, 30">
+									<area href="firsts.asp" shape="rect" coords="560, 7, 700, 29">
+									<area href="gallery.asp" shape="rect" coords="24, 3, 143, 30">
+									</map>
+									<img border="0" src="history.jpg" width="720" height="34" usemap="#FPMap0"><p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+									<table border="0" width="721" id="table1" cellspacing="0" cellpadding="0" height="117">
+										<tr>
+											<td background="mtopp.jpg" height="59">&nbsp;</td>
+										</tr>
+										<tr>
+											<td background="mmid.jpg">
+											<p dir="rtl" style="line-height: 200%; margin-left: 20px; margin-right: 20px" align="justify">
+											<font face="Tahoma" size="2" color="#FFFFFF">
+											<b>مقدمه</b><br>
+											<span lang="fa">دورب&#1740;ن، کلاکت، اکشن.&nbsp; 
+											زندگ&#1740; آغاز شد.&nbsp; زندگ&#1740; نوار&#1740;ست 
+											از خاطرات اقامت انسان در د&#1740;ار&#1740; که در 
+											آن روز&#1740; به اذن خداوند به دن&#1740;ا آمده و 
+											روز&#1740; خواهد رفت.&nbsp; زندگ&#1740; &#1740;ک نما&#1740;ش 
+											است و باز&#1740;گر ا&#1740;ن نما&#1740;ش انسان.&nbsp; 
+											انسان&#1740; که از ه&#1740;چ دستنوشته ا&#1740; نما&#1740;شش 
+											را به اجرا گذاشته و مس&#1740;ر آنرا سوق 
+											م&#1740;دهد. پس، از او جز خاطرات تلخ و 
+											ش&#1740;ر&#1740;ن چ&#1740;ز&#1740; به جا&#1740; نخواهد ماند.&nbsp; 
+											خاطرات&#1740; که برگرفته شده از ه&#1740;چ داستان 
+											و کتاب&#1740; ن&#1740;ست و ب&#1740; همتا&#1740; ب&#1740; همتاست.</span></font></p>
+											<p dir="rtl" style="line-height: 200%; margin-left: 20px; margin-right: 20px" align="justify">
+											<span lang="fa">
+											<font face="Tahoma" size="2" color="#FFFFFF">
+											ما قصد دار&#1740;م تا ا&#1740;ن گوهر با ارزش 
+											فرزندمان را حفظ نموده و برا&#1740;ش به 
+											&#1740;ادگار بگذار&#1740;م.&nbsp; باشد تا 
+											انشاالله او پس از کسب مهارت ها&#1740; لازم 
+											ا&#1740;ن صفحه را خود تکم&#1740;ل نما&#1740;د. </font>
+											</span></td>
+										</tr>
+										<tr>
+											<td background="mbot.jpg" height="26">&nbsp;</td>
+										</tr>
+									</table>
+									<p style="margin-top: 20px; margin-bottom: 0">
+									&nbsp;</p>
+									<table border="0" width="695" id="table16" cellspacing="0" cellpadding="0" height="306">
+										<tr>
+											<td background="history/image/1htop.jpg" height="170">&nbsp;</td>
+										</tr>
+										<tr>
+											<td background="history/image/11hmid.jpg" height="53">
+											<div align="center">
+												<table border="0" width="80%" id="table17" cellspacing="0" cellpadding="0">
+													<tr>
+														<td width="98">&nbsp;</td>
+														<td width="458" dir="rtl" height="30">
+														<font face="Tahoma" size="2" color="#4A2500">
+														<span lang="fa">
+														<a href="tree.asp" style="text-decoration: none">شجره نامه</a></span></font></td>
+													</tr>
+													<tr>
+														<td width="98">&nbsp;</td>
+														<td width="458" dir="rtl" height="30">
+														<font face="Tahoma" size="2">
+														<a style="text-decoration: none" href="dic.asp">
+														لغتنـــــــامه</a></font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														20/07/2011</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a style="text-decoration: none" href="his56.asp">
+													مرداد 1390</a>...................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														24/05/2011</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a style="text-decoration: none" href="his54.asp">
+													فرورد&#1740;ن 90 </a>...................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														23/03/2011</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<a style="text-decoration: none" href="his53.asp">
+													<font face="Tahoma" size="2">
+													ع&#1740;دانه</font></a><font face="Tahoma" size="2"><a href="his52.asp"><span style="text-decoration: none"><font color="#FF0000"> </font> </span></a>
+													.........................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														14/02/2011</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his52.asp">
+													<span style="text-decoration: none">
+													<font color="#FF0000">&nbsp;ولنتا&#1740;ن 
+													مبارک </font> </span></a>..............................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														03/02/2011</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his51.asp">
+													<span style="text-decoration: none">&nbsp;خلوت 
+													کودکانه </span></a>..............................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														20/01/2011</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his50.asp">
+													<span style="text-decoration: none">&nbsp;بازم 
+													با تاخ&#1740;ر! </span></a>...............................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														29/11/2010</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his49.asp">
+													<span style="text-decoration: none">&nbsp;تولد 
+													چهار سالگ&#1740; </span></a>........................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">
+														27/10/2010</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his47.asp">
+													<span style="text-decoration: none">&nbsp;30 
+													روز تا تولد!</span></a>...............................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<b>
+														<font face="Tahoma" size="2">10/10/2010</font></b></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his46.asp">
+													<span style="text-decoration: none">&nbsp;دخترِ بلور&#1740; 
+													من!</span></a>............................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														22/09/2010</span></font></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													4<a href="his45.asp" style="text-decoration: none"> 
+													سالگ&#1740; هم&#1740;ن دورو برهاست</a>.........................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														26/08/2010</span></font></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his44.asp">
+													<span style="text-decoration: none">
+													گلِ من</span></a>.............................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														09/08/2010</span></font></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his43.asp">
+													<span style="text-decoration: none">
+													تابستان 89</span></a>.......................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700">
+														<font size="2">
+														11/06/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a style="text-decoration: none" href="his42.asp">
+													&#1740;ش درآمد</a>.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700"><font size="2">
+														06/06/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his41.asp">
+													<span style="text-decoration: none">
+													مناسبت&#1740;ن</span></a>.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														27</span></font><span style="font-family: Tahoma; font-weight: 700"><font size="2">/05/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his40.asp">
+													<span style="text-decoration: none">
+													42 ماهگ&#1740; </span></a>.......................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700"><font size="2">
+														06/05/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a style="text-decoration: none" href="his39.asp">
+													سرگرم&#1740;ه ا&#1740;ن روزهاش</a>.........................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														15</span></font><span style="font-family: Tahoma; font-weight: 700"><font size="2">/04/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his38.asp" style="text-decoration: none">
+													سفر نوروز&#1740;</a>......................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700">
+														<font size="2">26/03/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his36.asp" style="text-decoration: none">
+													ع&#1740;د 1389</a>.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700">
+														<font size="2">16/03/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a style="text-decoration: none" href="his35.asp">
+													کودکانه 7</a>
+													.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														06</span></font><span style="font-family: Tahoma; font-weight: 700"><font size="2">/02/2010</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<span lang="fa">
+													<font face="Tahoma" size="2">
+													<a href="his33.asp">
+													<span style="text-decoration: none">
+													غ&#1740;بت کبر&#1740;!!ا</span></a></font></span><font face="Tahoma" size="2">
+													...................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700"><font size="2">
+														16/12/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<span lang="fa">
+													<font face="Tahoma" size="2">
+													<a href="his34.asp">
+													<span style="text-decoration: none">
+													بازنشستگ&#1740; بابا رضا</span></a></font></span><font face="Tahoma" size="2">
+													.........................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700"><font size="2">
+														13/12/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2">
+													<a href="his31.asp">
+													<span style="text-decoration: none">
+													تولد سه سالگ&#1740;</span></a> ...............................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														22</span></font><span style="font-family: Tahoma; font-weight: 700"><font size="2">/11/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<font face="Tahoma" size="2" color="#000000">
+													<span lang="fa">
+												<span style="text-decoration: none">
+													<a style="text-decoration: none" href="his32.asp">روزشمار تولد</a></span><a style="text-decoration: none" href="his29.asp"> 
+													</a></span>
+													4</font><font face="Tahoma" size="2"><a style="text-decoration: none" href="his24.asp">
+												</a>.................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														17</span></font><span style="font-family: Tahoma; font-weight: 700"><font size="2">/11/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<span lang="fa">
+													<font face="Tahoma" size="2" color="#000000">
+												<span style="text-decoration: none">
+													<a style="text-decoration: none" href="his30.asp">روزشمار تولد</a></span><a style="text-decoration: none" href="his30.asp"> 
+													</a></font></span>
+													<a href="his29.asp">
+													<font face="Tahoma" size="2">
+													<span style="text-decoration: none">
+													3</span></font></a><font face="Tahoma" size="2"><a style="text-decoration: none" href="his24.asp">
+												</a>.................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														07</span></font><span style="font-family: Tahoma; font-weight: 700"><font size="2">/11/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<span lang="fa">
+													<font face="Tahoma" size="2" color="#000000">
+												<span style="text-decoration: none">
+													<a style="text-decoration: none" href="his29.asp">روزشمار تولد</a></span><a style="text-decoration: none" href="his29.asp"> 
+													2</a></font></span><font face="Tahoma" size="2"><a style="text-decoration: none" href="his24.asp">
+												</a>.................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700"><font size="2">
+														27/10/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+													<span lang="fa">
+													<font face="Tahoma" size="2" color="#000000">
+													<a href="his27.asp">
+												<span style="text-decoration: none">روزشمار تولد</span></a></font></span><font face="Tahoma" size="2"><a style="text-decoration: none" href="his24.asp">
+												</a>....................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														1<span lang="en-gb">3</span></span></font><span style="font-family: Tahoma; font-weight: 700"><font size="2">/10/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a href="his26.asp">
+												<span style="text-decoration: none">
+												کودکانه 6</span></a><a style="text-decoration: none" href="his24.asp">
+												</a>.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-family: Tahoma; font-weight: 700">
+														<font size="2">
+														27/09/2009</font></span></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2" color="#000000">
+												<span lang="fa">
+												<a href="his25.asp">
+												<span style="text-decoration: none">
+												دو سال و ده ماهگ&#1740;</span></a></span></font><font face="Tahoma" size="2"><a style="text-decoration: none" href="his24.asp">
+												</a>..........................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														0</span><span style="font-family: Tahoma; font-weight: 700">9</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/09/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his24.asp">
+												سفر به ا&#1740;ران </a>....................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														04</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/07/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his23.asp">
+												کودکانه 5 </a>.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														14</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/06/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his22.asp">
+												روز مادر </a>...........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														04</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/06/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his21.asp">
+												تولد بابا هاد&#1740; </a>..................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">
+														<span lang="fa">27</span>/0<span lang="fa">5</span>/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<span lang="fa">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his20.asp">
+												کودکانه 4</a></font></span><font face="Tahoma" size="2">..........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														30</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/04/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his19.asp">
+												روز معلم</a></font><font color="#FF0000" face="Tahoma" size="2"><span lang="fa"><a style="text-decoration: none" href="his15.asp"> 
+												</a> </span> </font>
+												<font face="Tahoma" size="2">..........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														29</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/04/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font color="#FF0000" face="Tahoma" size="2">
+												<span lang="fa">
+												<a style="text-decoration: none" href="his18.asp">
+												تنهايي</a><a style="text-decoration: none" href="his15.asp"> 
+												</a> </span> </font>
+												<font face="Tahoma" size="2">............................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														25</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/04/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font color="#FF0000" face="Tahoma" size="2"><span lang="fa">
+												<a style="text-decoration: none" href="his17.asp">
+												کودکان&#1728; 3</a><a style="text-decoration: none" href="his15.asp"> 
+												</a> </span> </font>
+												<font face="Tahoma" size="2">.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">
+														21/03/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his16.asp">
+												عيد 1388</a></font><font color="#FF0000" face="Tahoma" size="2"><span lang="fa"><a style="text-decoration: none" href="his15.asp"> 
+												</a> </span> </font>
+												<font face="Tahoma" size="2">........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">
+														17/03/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font color="#FF0000" face="Tahoma" size="2">
+												<span lang="fa">
+												<a style="text-decoration: none" href="his15.asp">چهارشنبه سور&#1740; 
+												</a> </span> </font>
+												<font face="Tahoma" size="2">.............................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														07</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/03/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font color="#FF0000" face="Tahoma" size="2">
+												<span lang="fa">
+												<a style="text-decoration: none" href="his14.asp">
+												خانه تکان&#1740; </a></span></font>
+												<font face="Tahoma" size="2">......................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														22</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/02/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font color="#FF0000" face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his13.asp">
+												کودکانه 2 </a></font>
+												<font face="Tahoma" size="2">.........................................................................<span lang="en-gb">.....</span>.......................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font color="#FF0000">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														14</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/02/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his12.asp">
+												<font color="#FF0000">ولنتاين</font></a><font color="#FF0000">.............................................................................<span lang="en-gb">.....</span>.......................</font></font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">
+														02/02/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his11.asp">
+												يک روز برف&#1740;</a>..............................................................................<span lang="en-gb">.....</span>..............</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">
+														25/01/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his10.asp">
+												مهد کودک</a>.................................................................................<span lang="en-gb">.....</span>..............</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														1</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">8/01/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a href="his9.asp" style="text-decoration: none">بيمار&#1740;</a> .....................................................................................<span lang="en-gb">.....</span>..............</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														16</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/01/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his8.asp">
+												بدون شرح</a> ...................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														12</span></font><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/01/200</span><font size="2"><span style="font-family: Tahoma; font-weight: 700">9</span></font></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a style="text-decoration: none" href="his7.asp">
+												کودکانه 1</a> 
+														.....................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">31/12/200<span lang="fa">8</span></span></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a href="his6.asp">
+												<span style="text-decoration: none">
+												ترک اعت&#1740;اد</span></a> 
+														...................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+														<span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">31/12/200<span lang="fa">8</span></span></td>
+														<td width="458" dir="rtl" height="30">
+												<font size="2">
+												<span style="font-family: Tahoma">
+												<a href="his5.asp">
+												<span style="text-decoration: none">
+												عجب صبر&#1740; خدا دارد</span></a> </span></font>
+												<font face="Tahoma" size="2">
+														.....................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+													<p style="margin-top:5.0pt;margin-right:6.8pt;margin-bottom:5.0pt;
+    margin-left:6.8pt"><b><font size="2"><span style="font-family: Tahoma">28</span></font><span style="font-size: 10.0pt; font-family: Tahoma">/12/200<span lang="fa">8</span></span></b></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a href="his4.asp" style="text-decoration: none">
+												محرم</a> 
+														..........................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+													<p style="margin-top:5.0pt;margin-right:6.8pt;margin-bottom:5.0pt;
+    margin-left:6.8pt"><b><font size="2"><span style="font-family: Tahoma">26</span></font><span style="font-size: 10.0pt; font-family: Tahoma">/12/200<span lang="fa">8</span></span></b></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a href="his3.asp" style="text-decoration: none">
+												کريسمس</a> 
+														....................................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+													<p style="margin-top:5.0pt;margin-right:6.8pt;margin-bottom:5.0pt;
+    margin-left:6.8pt"><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">
+													19/12/200<span lang="fa">8</span></span></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<span lang="fa">
+												<a href="his2.asp" style="text-decoration: none">سفر 
+												به فرانسه</a></span> 
+														.............................................................................................</font></td>
+													</tr>
+													<tr>
+														<td align="center" width="98">
+													<p style="margin-top:5.0pt;margin-right:6.8pt;margin-bottom:5.0pt;
+    margin-left:6.8pt" align="center"><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">
+													18/12/200<span lang="fa">8</span></span></td>
+														<td width="458" dir="rtl" height="30">
+												<font face="Tahoma" size="2">
+												<a href="his1.asp" style="text-decoration: none">
+												<span lang="fa">
+														تولد درسا</span></a> 
+														....................................................................................................</font></td>
+													</tr>
+													<!---<tr>
+														<td align="center">
+														<span lang="fa">
+														<font size="2">
+														<span style="font-family: Tahoma; font-weight: 700">
+														12</span></font></span><span style="font-size: 10.0pt; font-family: Tahoma; font-weight:700">/<span lang="fa">01</span>/2009</span></td>
+														<td width="458" dir="rtl" height="30">
+														<font face="Tahoma" size="2">
+														<span lang="fa">
+														<a style="text-decoration: none" href="his7.asp">
+														درسا و کارهاش</a></span> 
+														............................................................................................</font></td>
+													</tr>-->
+													</table>
+											</div>
+											</td>
+										</tr>
+										<tr>
+											<td background="Paris/hbottom.jpg" height="83">&nbsp;</td>
+										</tr>
+									</table>
+									<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+									<p style="line-height: 0; margin-left: 20px; margin-right: 23px; margin-top: 0; margin-bottom: 0">
+									&nbsp;</div>
+			
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+									<img border="0" src="history/kids%20unlimited/samallbar.jpg" width="800" height="12"></td>
+		</tr>
+	</table>
+	<p>&nbsp;</div>
+<p align="center" style="margin-top: 0; margin-bottom:0">
+<span style="text-transform: uppercase; ">
+<font face="Arial" color="#666666" style="font-size: 7pt">Copyright © Dorsa 
+Naderi</font></span></p>
+<p align="center" style="margin-top: 0; margin-bottom:0">
+<span style="text-transform: uppercase; ">
+<font face="Arial" color="#666666" style="font-size: 7pt">All Rights Reserved</font></span></p>
+</body>
+
+</html>
+
