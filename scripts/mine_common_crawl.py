@@ -729,6 +729,11 @@ def classify(candidate: Candidate) -> str:
     meta_conflict = meta_codec is not None and meta_codec != codec
 
     if not has_signal and candidate.non_ascii_bytes == 0:
+        # For a page declared us-ascii, carrying no high bytes is the
+        # claim being confirmed rather than a missing signal.  Every other
+        # encoding is untestable in that state.
+        if codec == "ascii" and candidate.decode_ok:
+            return "strong"
         return "vacuous"
     if candidate.utf8_mislabel:
         return "utf8-mislabeled"
