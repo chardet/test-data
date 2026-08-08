@@ -24,6 +24,9 @@ Filename prefixes indicate provenance:
 
 - **`scripts/check_test_data.py`** — Standalone Python 3 script (stdlib only) that validates all test files. Checks: decoding correctness, mojibake detection, control character ratios, language/script mismatches, binary file detection.
 - **`CATALOG.md`** — Comprehensive catalog documenting every file's source, size, and notable characteristics.
+- **`scripts/find_real_test_data.py`** — Downloads wild samples from the Wayback Machine, uchardet, and ENCA.
+- **`scripts/mine_common_crawl.py`** — Mines Common Crawl for pages served in rare legacy charsets (see "Mining wild data" below).
+- **`scripts/mine_usenet_hz.py`** — Mines HZ-GB-2312 posts from Internet Archive Usenet mboxes.
 
 ## Common Commands
 
@@ -34,6 +37,42 @@ python3 scripts/check_test_data.py .
 # JSON output for machine processing
 python3 scripts/check_test_data.py . --json
 ```
+
+## Mining wild data
+
+Most of this repo is CulturaX text transcoded into each encoding. The mining
+scripts look for genuinely *wild* samples — bytes that were really served in
+that encoding — which is what the rarest encoding-language pairs still lack.
+
+```bash
+# What charsets does a slice of the crawl declare?
+python3 scripts/mine_common_crawl.py stats
+
+# Fetch and validate candidates (needs duckdb; chardet optional but useful)
+uv run --project ../chardet --with duckdb python3 scripts/mine_common_crawl.py mine
+
+# Show competing readings of candidates that need a human/LLM ruling
+python3 scripts/mine_common_crawl.py adjudicate
+```
+
+Both miners write candidates plus a `manifest.csv` under `scripts/.cache/`
+(gitignored) and **never promote anything automatically** — copying a vetted
+file into its `{encoding}-{language}/` directory is a manual step.
+
+Key lesson encoded in these scripts: **declared charsets lie often.** In the
+first mining run, 0 of 11 disputed pages had a correct header. Each candidate
+therefore gets a verdict saying what the evidence supports — `strong`,
+`ambiguous`, `sparse`, `vacuous`, `utf8-mislabeled`, `wrong-legacy`,
+`mojibake`, or `review`. Note that `vacuous` (pure ASCII) and `sparse` (very
+little non-ASCII) mean the header is *unverifiable*, not wrong — that is the
+normal shape of a mostly-markup page whose encoded text is a small subsection.
+
+`adjudicate` mode exists because neither the header nor a detector is reliable
+on the disputed cases: it prints every encoding that strict-decodes a page,
+ranked by how much of the decoded text lands in that encoding's home script, so
+a human (or an LLM that reads the languages) can pick the reading that yields
+real words. This is how two pages declared `x-maccyrillic` and detected as
+`windows-1250` were identified as ISO-8859-6 Arabic.
 
 ## Encoding Gotchas
 
