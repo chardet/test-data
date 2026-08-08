@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="cp737"?>
+<!--
+Source: http://www.naftemporiki.gr/news/static/rss/news_bus.xml
+Expect: ISO-8859-7
+-->
+<rss version="2.0">
+<channel>
+<title>† Œ€“’„‹ˆ‰† : „ˆ•„ˆ†‘„ˆ‘</title>
+<link>http://www.naftemporiki.gr/</link>
+<description>† Œ€“’„‹ˆ‰† : „ˆ•„ˆ†‘„ˆ‘</description>
+<language>el</language>
+<copyright>Copyright 2006, † Œ€“’„‹ˆ‰† - . €‡€Œ€‘ˆ€ƒ†‘ &amp; ‘ˆ€ €.„.</copyright>
+<webMaster>webmaster@naftemporiki.gr</webMaster>
+<lastBuildDate>Wed, 4 Jan 2006 07:11:00 +0200</lastBuildDate>
+<ttl>10</ttl> 
+<docs>http://www.naftemporiki.gr/news/rss.asp</docs> 
+
+<image>
+<title>† Œ€“’„‹ˆ‰†</title> 
+<width>120</width> 
+<height>24</height> 
+<link>http://www.naftemporiki.gr</link> 
+<url>http://www.naftemporiki.gr/_images/sources/naftlogo_120.gif</url> 
+</image>
+
+
+<item>
+<title>’¨å˜ ¤â˜ ®˜¨˜¡«¨ ©« ¡á ©«¤ œš®é¨ ˜ ˜š¦¨á ˜¢¬©å›à¤ ¢ ˜¤ ¡ãª</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137086</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137086</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>Blue Properties: ‹œ 5,35% ©« Veterin</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137077</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137077</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>Š˜ä¡ã ’¨á§œ˜: Œâ¦ ¡˜«˜Ÿœ« ¡æ §¨¦äæ¤ œšš¬£â¤¦¬ ¡œ­˜¢˜å¦¬</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137090</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137090</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>‹®˜¤ ¡ã: ‘¬£­à¤å˜ £œ «¤ Praktiker</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137079</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137079</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>€¢¦¬£å¤ ¦¤ «ª „¢¢á›¦ª: „§˜¤˜š¦¨á £œ«¦®é¤</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137076</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137076</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>„Š„ „¤›¬£á«à¤ €„: ‘¬š®é¤œ¬© £œ Ÿ¬š˜«¨ ¡ã</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137123</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137123</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>•¨£˜« ©«ã¨ ¦ €Ÿ¤é¤: ƒ ˜šà¤ ©£æª š ˜ ®¨ã©«œª</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137108</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137108</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>‹ã¢¦¤ «ª E¨ ›¦ª «¦ ¡æ©«¦ª «à¤ ¡¢ã©œà¤ §¨¦ª «¦¬ª 118••</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137083</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137083</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>†£œ¨¦¢æš ¦ «¦¬ £œ«æ®¦¬</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137112</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137112</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+<item>
+<title>‰˜¢ç­Ÿ¡œ  ˜ç¥© £/¡ «ª ‹¦¬¨ á›ª</title>
+<guid isPermaLink="true">http://www.naftemporiki.gr/news/rssredir.asp?id=1137121</guid>
+<link>http://www.naftemporiki.gr/news/rssredir.asp?id=1137121</link>
+<pubDate>Wed, 4 Jan 2006 07:00:00 +0200</pubDate>
+<description></description>
+<author>editors@naftemporiki.gr († Œ€“’„‹ˆ‰†)</author>
+</item>
+
+
+
+</channel>
+</rss>
+
+

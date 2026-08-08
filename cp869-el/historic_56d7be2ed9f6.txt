@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="IBM869"?>
+<!--
+Source: http://www.disabled.gr/at/wp-rss2.php
+Expect: ISO-8859-7
+-->
+<!-- generator="wordpress/1.5.1.3" -->
+<rss version="2.0" 
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+
+<channel>
+	<title>Disabled.GR</title>
+	<link>http://www.disabled.gr/at</link>
+	<description>Make Love not Rehab...</description>
+	<pubDate>Mon, 19 Dec 2005 12:04:11 +0000</pubDate>
+	<generator>http://wordpress.org/?v=1.5.1.3</generator>
+	<language>en</language>
+
+		<item>
+		<title>©במÞמײד ׳יבג¢ם חיליה¢זײ</title>
+		<link>http://www.disabled.gr/at/?p=1796</link>
+		<comments>http://www.disabled.gr/at/?p=1796#comments</comments>
+		<pubDate>Fri, 28 Oct 2005 07:01:24 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>ֶÞכדיÝדה¢ "₪חײךבכײ ׀ױַ₪"</category>
+	<category>₪כלÞד תם §¢״זײ !!!</category>
+	<category>Disabled.GR</category>
+	<category>·דהכם ₪״״ÞוÞם</category>
+		<guid>http://www.disabled.gr/at/?p=1796</guid>
+		<description><![CDATA[window.document.getElementById('post-1796').parentNode.className += ' adhesive_post';	©במÞמײד ׳יבג¢ם חיליה¢זײ ״דײ מבח עךילמכדטב ךיו£ Ýכײלמכדיע מÞמכײךוב״דהי£. × Þכ״ײלײ Þחײד למבח ₪גחײ, למיח †״די ¸דה¢וײי (₪פײכח‎ח). ׀ײ הײגהיחמ› ײףיכי£ח למבח עךילמכדטב מתח עודה‎ח הײגבזÞכדח‎ח ײחײ״ה‎ח, מבח ךכילתךדה ׳יגÞדײ הײד מבח לעחיÝÞײ לÞ מײטÝדײ ״דײ לעחÝכדײ ה.›.  × Þכ״ײלײ עךילמבכאÞמײד ײך¢ ¢וײ מײ מÞפחיוי״דה› ׳יבגזײמײ. ¦דײ ךÞכדלל¢מÞכÞם ךובכיףיכÞם מבוÞףתחÞלמÞ למי [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1796</wfw:commentRSS>
+	</item>
+		<item>
+		<title>׀ Þחײד מי ₪¸₪ֶ×ַ­₪ ׀ױַ₪; §דײ׳›למÞ !!!</title>
+		<link>http://www.disabled.gr/at/?p=796</link>
+		<comments>http://www.disabled.gr/at/?p=796#comments</comments>
+		<pubDate>Mon, 25 Apr 2005 17:14:59 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>ֶÞכדיÝדה¢ "₪חײךבכײ ׀ױַ₪"</category>
+	<category>₪חײהידח‎לÞדם</category>
+	<category>₪כלÞד תם §¢״זײ !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=796</guid>
+		<description><![CDATA[window.document.getElementById('post-796').parentNode.className += ' adhesive_post';	׀י ₪¸₪ֶ×ַ­₪ ׀ױַ₪ Ýבזדיעכ״גבהÞ מי 1993 ײך¢ זײ ךײכײ ףותח ךיע Þפײח חײ לי׳ײכ¢מײמי ךכילתךדה¢ ÞחÝדײףכיח ״דײ מבח ײחײךבכײ הײד מדם הײה‎לÞדם חתמדײיע זעÞוי£. × צבףדײה מיע ÞהÝיפ, מי www.DISABLED.GR, ÝבוײÝ, ÞÝÞ ״דײ ךכ‎מב ףיכ› מי ף‎ם מי 1985 תם Disabled Hellas לÞ חײ PC מבם Þךיפם ךיע ךכילײכז¢למבהÞ ״דײ חײ זךיכÞ [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=796</wfw:commentRSS>
+	</item>
+		<item>
+		<title>ֶ‎ם חײ ÝבזילדÞ£לÞמÞ זדהכ ײ״״Þוײ למי www.DISABLED.GR</title>
+		<link>http://www.disabled.gr/at/?p=1749</link>
+		<comments>http://www.disabled.gr/at/?p=1749#comments</comments>
+		<pubDate>Thu, 31 Mar 2005 07:44:16 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>₪כלÞד תם §¢״זײ !!!</category>
+	<category>·דהכם ₪״״ÞוÞם</category>
+		<guid>http://www.disabled.gr/at/?p=1749</guid>
+		<description><![CDATA[window.document.getElementById('post-1749').parentNode.className += ' adhesive_post';	¨›ח גוÞמÞ חײ ÝבזילדÞעגÞ זדהכ ײ״״Þוײ למי www.DISABLED.GR גײ ךכךÞד חײ ךÞכדוײז׳›חÞד ה›ךידי ÞחÞכ״¢ email  ה›ךידי למײגÞכ¢ מבוףתחי ״דײ חײ פכבלדזיךידבגי£ח ײך¢ מיעם ÞגÞויחמם מיע ₪¸₪ֶ×ַ­₪ ׀ױַ₪ ״דײ חײ ״חÞד ב ÞךײוגÞעלב מבם ײ״״Þוײם.
+
+₪״״ÞוÞם ךיע ÞחÝפÞמײד חײ ׳ו›ציעח מבח Þעעךיובצײ מתח ײחײ״חתלמ‎ח ÝÞח ÝבזילדÞ£יחמײד.
+	’וÞם יד ײ״״ÞוÞם ÝבזילדÞ£יחמײד הײד למי חמעךי ךÞכדיÝדה¢ [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1749</wfw:commentRSS>
+	</item>
+		<item>
+		<title>× Ýבזימדה¢מבמײ מיע WWW.DISABLED.GR</title>
+		<link>http://www.disabled.gr/at/?p=1728</link>
+		<comments>http://www.disabled.gr/at/?p=1728#comments</comments>
+		<pubDate>Tue, 29 Mar 2005 09:28:29 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>ֶÞכדיÝדה¢ "₪חײךבכײ ׀ױַ₪"</category>
+	<category>§דײÝהמעי</category>
+	<category>₪כלÞד תם §¢״זײ !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=1728</guid>
+		<description><![CDATA[window.document.getElementById('post-1728').parentNode.className += ' adhesive_post';	׀י WWW.DISABLED.GR Þחײד מי ÝבזיףדולמÞכי site ײחײךבכײם למיח ה¢לזי, ל£זףתחײ זÞ מדם זÞמכלÞדם מיע www.alexa.com: × Ýבזימדה¢מבמײ מתח sites למי Internet זÞמכדמײד ײך¢ מי www.alexa.com. ¾ד זÞמכלÞדם מיע alexa.com ״חיחמײד ÝÞהמם הײד ײך¢ מי Þוובחדה¢ .gr domain. ׃כבלדזיךידי£חמײד ÝÞ, הײמ› ה¢כיח, ײך¢ מדם Ýדײףבזדלמדהם ÞמײדכÞם. ¨חײד ב ךכ‎מב ףיכ› ךיע Þוובחדה¢ site [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1728</wfw:commentRSS>
+	</item>
+		<item>
+		<title>ֶÞכדיÝדה¢ ₪חײךבכײ ׀ױַ₪ (ֶחײהײם ֶÞכדÞפיזחתח)</title>
+		<link>http://www.disabled.gr/at/?p=956</link>
+		<comments>http://www.disabled.gr/at/?p=956#comments</comments>
+		<pubDate>Fri, 18 Mar 2005 19:10:42 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>₪חעך¢מײהמײ</category>
+	<category>¨זÞם :-)</category>
+	<category>ֶÞכדיÝדה¢ "₪חײךבכײ ׀ױַ₪"</category>
+	<category>₪כלÞד תם §¢״זײ !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=956</guid>
+		<description><![CDATA[window.document.getElementById('post-956').parentNode.className += ' adhesive_post';	µײו‎ם כגײמÞ למי ךÞכדיÝדה¢ ₪¸₪ֶ×ַ­₪ ׀ױַ₪. ¨הÝÝÞמײד ײך¢ מי 1993 ה›גÞ Ý£י זחÞם הײד ךÞכדוײז׳›חÞד 116 לÞוÝÞם. ׀ײפעÝכיזÞמײד לÞ 8.300 לעחÝכיזבמם ײך¢ ¢וב מבח ¨וו›Ýײ הײד מבח µ£ךכי.
+
+	׀ײ ֶ¨ַ­¨׃¾·¨¸₪ ײח› מÞ£פים
+	·ךיכÞמÞ חײ Ýדײ׳›לÞמÞ ¢וÞם מדם ÝבזילדÞ£לÞדם מלד ¢ךתם ײעמם ÝבזילדÞ£מבהײח ײך¢ מי 1י מÞ£פים זפכד לזÞכײ Þ›ח ײהיויעגלÞמÞ מיעם ךײכײה›מת לעחÝלזיעם: ׀Þ£פים [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=956</wfw:commentRSS>
+	</item>
+		<item>
+		<title>ֶ‎ם גײ ÝבזילדÞ£לÞמÞ הÞזÞחײ למי www.DISABLED.GR הײד למי ךÞכדיÝדה¢ ₪¸₪ֶ×ַ­₪ ׀ױַ₪</title>
+		<link>http://www.disabled.gr/at/?p=1190</link>
+		<comments>http://www.disabled.gr/at/?p=1190#comments</comments>
+		<pubDate>Fri, 18 Mar 2005 17:19:22 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>ֶÞכדיÝדה¢ "₪חײךבכײ ׀ױַ₪"</category>
+	<category>₪חײהידח‎לÞדם</category>
+	<category>ֶײכ›ועלב</category>
+	<category>₪כלÞד תם §¢״זײ !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=1190</guid>
+		<description><![CDATA[window.document.getElementById('post-1190').parentNode.className += ' adhesive_post';	’וײ מײ הÞזÞחײ ךיע ףמ›חיעח למי www.DISABLED.GR ÝבזילדÞ£יחמײד ײזלתם למבח צבףדײה הידח¢מבמײ, Þף¢ליח ײחהיעח למבח Þךדהײדכ¢מבמײ,  למב ׳ד׳ודיגהב Þף¢ליח Þחײד Ýדײפכיחדה›.
+
+ֿÞ ¢,מד ײףיכ› למי חמעךי ךÞכדיÝדה¢ ₪¸₪ֶ×ַ­₪ ׀ױַ₪, זךיכי£ח חײ ÝבזילדÞעגי£ח הÞזÞחײ ךיע ÝÞח עךÞכ׳ײחיעח מב זײ  מדם Ý£י לÞוÝÞם ÝבזילדÞעזחיע הÞדזחיע. ֿעחגתם, ÝבזילדÞ£יחמײד ¢וײ מײ זדהכ› הÞזÞחײ הײד ¢וÞם [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1190</wfw:commentRSS>
+	</item>
+		<item>
+		<title>₪¦¦¨¶­₪</title>
+		<link>http://www.disabled.gr/at/?p=2556</link>
+		<comments>http://www.disabled.gr/at/?p=2556#comments</comments>
+		<pubDate>Mon, 19 Dec 2005 12:04:11 +0000</pubDate>
+		<dc:creator>Georgia Fika</dc:creator>
+		
+	<category>·דהכם ₪״״ÞוÞם</category>
+		<guid>http://www.disabled.gr/at/?p=2556</guid>
+		<description><![CDATA[	׃ײכאÞמײד ײהיעלמדה¢ ׳ײכבהי¡ײם ״דײ ײכדלמÞכ¢ ײעמ לÞ ›חגכתךי ךיע מי פÞד ײח›״הב הײד ײÝעחײמÞ חײ מי ײ״יכ›לÞד מבו 2310325377
+	µײמײפתכגבהÞ למדם 19-12-2005
+
+]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2556</wfw:commentRSS>
+	</item>
+		<item>
+		<title>₪¦¦¨¶­₪</title>
+		<link>http://www.disabled.gr/at/?p=2555</link>
+		<comments>http://www.disabled.gr/at/?p=2555#comments</comments>
+		<pubDate>Fri, 16 Dec 2005 10:11:12 +0000</pubDate>
+		<dc:creator>Georgia Fika</dc:creator>
+		
+	<category>·דהכם ₪״״ÞוÞם</category>
+		<guid>http://www.disabled.gr/at/?p=2555</guid>
+		<description><![CDATA[	ֶתוÞמײד ₪Þכ¢למכתזײ כעגזדא¢זÞחי ״דײ הײמײהולÞדם הײדחי£כדי למי היעמ מיע זÞ 11 זחÞם ײה¢זײ Þ״״£בלב מבו .210-5734594  6938185089
+	µײמײפ‎כבגבהÞ למדם 16-10-2005
+
+]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2555</wfw:commentRSS>
+	</item>
+		<item>
+		<title>§Þומײ הידחתחדהי£ מיעכדלזי£ 29 Þהײמ. Þעכ‎</title>
+		<link>http://www.disabled.gr/at/?p=2554</link>
+		<comments>http://www.disabled.gr/at/?p=2554#comments</comments>
+		<pubDate>Wed, 14 Dec 2005 09:45:15 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>ֶײכיפם</category>
+	<category>§דײהיךם, ₪חײצעפ</category>
+	<category>₪כלÞד תם §¢״זײ !!!</category>
+		<guid>http://www.disabled.gr/at/?p=2554</guid>
+		<description><![CDATA[	₪כפאÞד ײ£כדי ךײחÞווײÝדה› ב הײמ&#8217; ײוףײ׳במדה לÞדכ› ײךי״כײף מתח Ýדהײדי£פתח ךיע גײ לעזזÞמ›לפיעח למי חי ךכ¢״כײזזײ הידחתחדהי£ מיעכדלזי£ מיע ¾כ״ײחדלזי£ ¨כ״ײמדהם ¨למײם מיעם 2006 זÞ למ¢פי חײ יויהובכתגÞ למדם ײכפם ׂÞ׳כיעײכיע 2006.
+
+¬ײ ÞהÝיגי£ח לעחיודה› 320.000 ÝÞומײ הידחתחדהי£ מיעכדלזי£ ײטײם 29.018.341,88 Þעכ‎.
+	׀י ךכ¢״כײזזײ ײךÞעג£חÞמײד העכתם לÞ פײזבו› הײד זÞלײײ ÞדליÝבזײמדה› למכ‎זײמײ מבם פ‎כײם. ׂמים ך›חמתם ÝÞח [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2554</wfw:commentRSS>
+	</item>
+		<item>
+		<title>× פכבזײמיÝ¢מבלב מבם הידחתחדהם לעחיפם</title>
+		<link>http://www.disabled.gr/at/?p=2553</link>
+		<comments>http://www.disabled.gr/at/?p=2553#comments</comments>
+		<pubDate>Tue, 13 Dec 2005 18:24:46 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>¨עכתךײ ה חתלב</category>
+		<guid>http://www.disabled.gr/at/?p=2553</guid>
+		<description><![CDATA[	׀¾¸ ֶ¨ַ₪ֿ·¨¸¾ ­י£ודי ב ¨עכתךײ ה ¨ךדמכיך ךײכיעלײלÞ זדײ ײחײהיחתלב ב יךיײ ײחײףכיחמײח למבח ךיודמדה ב יךיײ גײ ךכךÞד חײ ײהיויעגבגÞ ךכיהÞדזחיע חײ ÞךדמÞעפגÞ ׳ד‎לדזב ידהיחיזדה ײח›ךמעטב ב יךיײ גײ יÝב״לÞד הײד לÞ ידהיחיזדה לעחיפ הײד ײ£טבלב מבם ײךײלפ¢ובלבם.
+
+ׁךילמבכאÞמײד מבח ײחײהיחתלב ײעמ ¢מד הײד ÝÞÝיזחבם מבם למכײמב״דהם מבם ¶דלײ׳¢חײם ״דײ מבח ײח›ךמעטב הײד מבח ײךײלפ¢ובלב מײ [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2553</wfw:commentRSS>
+	</item>
+	</channel>
+</rss>

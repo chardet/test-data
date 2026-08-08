@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//en" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=DOS-720" />
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+<script>
+function Popup(href, target, width, height)
+{
+	var winl = (screen.width - width) / 2;
+	var wint = (screen.height - height) / 2;
+	window.open(href, target, 'width='+ width +', height='+ height +', top=' + wint + ',left=' + winl + ', toolbar=0, location=0, directories=0, status=1, menuBar=0, scrollBars=0, resizable=0');
+	return false;
+}
+</script>
+<!-- Mirrored from www.akgultrade.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Dec 2014 14:42:12 GMT -->
+<title>AKGUL TAAHHUT</title><head>
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="ana">
+
+
+
+
+
+<div id="header">
+<img src="images/logo.png" border="0" class="logo">
+<div class="dolar"></div>
+<div class="euro"></div>
+
+
+
+<ul class="headermenu">
+<li><a href="default.asp">ι­ε¥΅ ι©ο«ο΅</a><a href="default.asp"></a></li>
+<li><a href="kurumsal.asp">ιλ¬αΆ</a><a href="faaliyet.asp"></a></li>
+<li><a href="faaliyet.asp">ικ›««΅</a><a href="kurumsal.asp"></a></li>
+<li><a href="galeri.asp">κγ©ΰ ι­ν©</a><a href="galeri.asp"></a></li>
+<li><a onclick="javascript:Popup('iletisim.asp','','650','580');" href="javascript:;">ιΆ­ι</a><a onClick="javascript:Popup('iletisim.asp','','650','580');" href="#"></a></li>
+</ul>
+
+
+
+
+<form method="post" action="http://www.akgultrade.com/arama.php" style="margin:0px; padding:0px;">
+</form>
+
+<a href="../default.asp"><img src="images/tr.png" border="0" class="tr"></a>
+<a href="../en"><img src="images/en.png" border="0" class="en"></a>
+<a href="default.asp"><img src="images/ar.png" border="0" class="ar"></a></div>
+
+
+<div id="intro"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="970" height="250" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="images/intro.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><embed src="images/intro.swf" width="970" height="250" align="middle" quality="high" wmode="transparent" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object></div><div id="kutular">
+
+
+<div id="box">
+<img src="images/kategoriler/tekstil.jpg" border="0">
+<ul>
+<li class="cat">ιλ«ο¤</li>
+
+
+  <li><a href="tekstil_icerik.asp?id=3">¦ονα</a></li>
+  
+  <li><a href="tekstil_icerik.asp?id=4">ιοε</a></li>
+  
+  <li><a href="tekstil_icerik.asp?id=5">θο« ¤νΆ</a></li>
+  
+  <li><a href="tekstil_icerik.asp?id=8"> αλο΅</a></li>
+  
+  <li><a href="tekstil_icerik.asp?id=9">Nonwoven</a></li>
+  
+  <li><a href="tekstil_icerik.asp?id=10">ηκ¬</a></li>
+  
+  <li><a href="tekstil_icerik.asp?id=11">«¤§</a></li>
+  
+</ul>
+</div>
+
+
+<div id="box">
+<img src="images/kategoriler/petrol.jpg" border="0">
+<ul>
+<li class="cat">ικν§ ι Ά©νθοκνο΅</li>
+
+
+  <li><a href="petrol_icerik.asp?id=3">¥νΰ λεο΅ ιλεα</a></li>
+  
+  <li><a href="petrol_icerik.asp?id=4">PVC</a></li>
+  
+  <li><a href="petrol_icerik.asp?id=5">λοινλ</a></li>
+  
+  <li><a href="petrol_icerik.asp?id=6">θοκνοΆ ιλ«ο¤</a></li>
+  
+  <li><a href="petrol_icerik.asp?id=7">κν§ γªι΅</a></li>
+  
+</ul>
+</div>
+
+
+<div id="box">
+<img src="images/kategoriler/insaat.jpg" border="0">
+<ul>
+<li class="cat">λ¬Ά</li>
+
+
+  <li><a href="insaat_icerik.asp?id=7">κν§ ι λ</a></li>
+  
+  <li><a href="insaat_icerik.asp?id=8">κ¤κγΆ «θλο΅ / κ¬εο</a></li>
+  
+</ul>
+</div>
+
+
+<div id="box">
+<img src="images/kategoriler/gida.jpg" border="0">
+<ul>
+<li class="cat">κν§ δ¨ο΅</li>
+
+
+  <li><a href="gida_icerik.asp?id=5">ªονΆ</a></li>
+  
+  <li><a href="gida_icerik.asp?id=6">«θ©</a></li>
+  
+  <li><a href="gida_icerik.asp?id=7">ι©ª</a></li>
+  
+  <li><a href="gida_icerik.asp?id=8">ι ηνι</a></li>
+  
+</ul>
+</div>
+
+
+
+
+</div><div class="temizlesol"></div>
+<div id="footer">
+  <div class="footertelefon"></div>
+
+  <ul class="footermenu">
+    <li><a href="default.asp">ι­ε¥΅ ι©ο«ο΅</a></li>
+    <li>|</li>
+    <li><a href="kurumsal.asp">ιλ¬αΆ</a></li>
+    <li>|</li>
+    <li><a href="faaliyet.asp">ικ›««΅</a></li>
+    <li>|</li>
+    <li><a href="galeri.asp">κγ©ΰ ι­ν©</a></li>
+    <li>|</li>
+    <li><a onclick="javascript:Popup('iletisim.asp','','650','580');" href="javascript:;">ιΆ­ι</a></li>
+  </ul>
+</div>
+<div style="margin:0px auto; font:11px Tahoma; color:#CCCCCC; height:18px; width:970px;">Akgul, Turkiye, Irak, Iran, Ticaret</div>
+
+<br>
+<center>
+</center>
+
+
+
+
+</div>
+</body>
+
+

@@ -1,0 +1,3128 @@
+<!DOCTYPE html>
+<html lang="pt" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=IBM860">
+    <title id="tit">Transparˆncia CM Bom Jesus do Oeste</title>
+    <link rel="shortcut icon" href="/Pronimtb/favicon.ico" type="image/ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <script type="text/javascript"> var validacaoUF = 'SC'; </script>
+    <script type="text/javascript">var validacaoNomeComplementar ='Transparˆncia CM Bom Jesus do Oeste'; </script>
+
+    <script type="text/javascript">var ExibirTodosBensPatrimoniais ='1'; </script>
+
+    <script type="text/javascript">var ExibirTodosTipoVeiculos ='1'; </script>
+    <script type="text/javascript">var ExibirTodasSituacoesOpVeiculos ='1'; </script>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style_govbr.css" rel="stylesheet" type="text/css" />
+    <link href="jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Menu/stm31.js"></script>
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery.maskMoney.js"></script>
+    <script type="text/javascript" src="jQuery.print.js"></script>
+    <script type="text/javascript" src="jquery.alerts.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="purl.js"></script>
+
+    <script language="JavaScript" src="keyboard.js"></script>
+
+    <script language="JavaScript">
+        var browser = navigator.appName;
+        if ((browser=="Microsoft Internet Explorer"))
+        {
+            //alert("Name: "+ browser);
+            if (document.documentMode < 9) {
+                alert("Para o correto funcionamento do sistema, o Internet Explorer deve estar na vers„o 9.0 ou superior.");
+            }
+
+        }
+    </script>
+
+    <style>
+        .scrollup {
+            width: 40px;
+            height: 40px;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            display: none;
+            text-indent: -9999px;
+            background: #0074B2 url(imagens/VoltarAoTopo.png) center center no-repeat !important;
+        }
+
+        select#teste option[value="Acesso_Rapido"] {
+            background-image: url(imagens/download.png);
+        }
+
+        a.tooltip {
+            position: relative;
+            font-size: 12px;
+            color: #039;
+            text-decoration: none;
+            cursor: help;
+        }
+
+            a.tooltip:hover {
+                background: transparent;
+                color: #f00;
+                z-index: 25;
+            }
+
+            a.tooltip span {
+                display: none;
+            }
+
+            a.tooltip:hover span {
+                display: block;
+                position: absolute;
+                width: auto;
+                top: -150px;
+                left: -300px;
+                font-size: 12px;
+                padding: 5px;
+                border: 1px solid #999;
+                background: #e0ffff;
+                color: #000;
+            }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+			var ifont = 0;
+			var elementosCheckeds = $(".modalidade > input:checked");
+			var elementoFinalidade = $(".finalidade > input:checked");
+
+			jQuery.each(elementosCheckeds, function(a, b){
+				$(this).trigger('click');
+				$(this).attr('checked', 'checked');
+				$(elementoFinalidade).attr('checked', 'checked');
+			});
+
+			if (validacaoUF == "MG"){
+				$("#tpCredencialmento").show();
+				$("#ckTipoContratoCredenciamento").show();
+				$("#tpLocacao").show();
+				$("#ckTipoContratoLocacao").show();
+				//$("#tpCredenciamentoContrato").show();
+				$("#tpLocacaoContrato").show();
+			}
+
+			if (validacaoUF == "RS" || validacaoUF == "MG"){
+				$("#tpPermissao").show();
+				$("#tpPermissaoContrato").show();
+			}
+
+			if (($("#hndAcao").val() == 1) && ($("#hndItem").val() == 6)){
+
+			    if (ExibirTodosBensPatrimoniais == 1)
+			    {
+			        $("#PatrimonioBensPatrimoniais").show();
+			    }
+			}
+
+			if (($("#hndAcao").val() == 21) && ($("#hndItem").val() == 6)){
+
+			        $("#PublicacaoTemaAuditoria").show();
+			}
+
+			
+			if (($("#hndAcao").val() == 21) && ($("#hndItem").val() == 6)){
+
+					document.getElementById("cmbTemaPublicacoes").style.display = 'none';
+			}			
+					
+			
+			if (ExibirTodosTipoVeiculos == 1)
+			{
+			    $("#FrotasTipoVeiculos").show();
+			}
+
+			if (($("#hndAcao").val() == 1) && ($("#hndItem").val() == 7)){
+
+				if (ExibirTodasSituacoesOpVeiculos == 1)
+				{
+					$("#FrotasSituacaoVeiculo").show();
+				}
+			}
+			$("#txtValorContratoInicial").maskMoney({ symbol: "R$", precision: 4, decimal: ",", thousands: ".", showSymbol: false });
+			$("#txtValorContratoFinal").maskMoney({ symbol: "R$", precision: 4, decimal: ",", thousands: ".", showSymbol: false });
+			$("#txtFaixaSalarialDE").maskMoney({ symbol: "R$", precision: 2, decimal: ",", thousands: ".", showSymbol: false });
+			$("#txtFaixaSalarialATE").maskMoney({ symbol: "R$", precision: 2, decimal: ",", thousands: ".", showSymbol: false });
+			$("#txtValorPagamentoDE").maskMoney({ symbol: "R$", precision: 2, decimal: ",", thousands: ".", showSymbol: false });
+			$("#txtValorPagamentoATE").maskMoney({ symbol: "R$", precision: 2, decimal: ",", thousands: ".", showSymbol: false });
+
+			$("#cmbAno").change();
+			$("#cmbUnidadeGP").change();
+			$("#cmbUnidadeLC").change();
+			$("#cmbUnidadeAR").change();
+			if ('' == '10')
+			{
+				$('#frmFormulario')
+					.removeAttr('onsubmit')
+					.submit(function(e){
+					    e.preventDefault;
+					    downloadXML('');
+					    return false;
+					});
+            }
+
+
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+
+				if ($(this).scrollLeft() > 2) {
+					$("#principal").removeAttr("style");
+					$("#principal").attr("style","float: left; position: absolute; ");
+				}else {
+					$("#principal").removeAttr("style");
+					$("#principal").attr("style","width:100%; float: left; position: absolute; ");
+				}
+            });
+
+            $('.scrollup').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+
+            var height = $(window).height();
+            $('#frameDadosAbertos').css('height', height * 0.7);
+
+        });
+        window.onscroll = function () { mover('aguardeinterno'); }
+        window.onresize = function () { resize(); }
+
+        //var refreshTela
+
+        function mudavisao()
+        {
+			if ($("#cmbAno").val() <= "2013" && $("#cmbAno").val() != "")
+			{
+				$('#perAR').css('display', 'none');
+				$('#inserAR').css('display', 'none');
+			}else
+			{
+				$('#perAR').removeAttr("style","display");
+				$('#inserAR').removeAttr("style","display");
+			}
+			alert('mudaVisao');
+        }
+
+
+        function ImprimirResultado()
+        {
+            $('#conteudo').print({
+                noPrintSelector : '#menu,#tbAtualizacao',
+                iframe : true,
+                mediaPrint : false,
+                prepend : '#topo'
+            });
+        }
+
+        function initAcessibilidade(){
+
+            var resultado = buscarCookie("altoContraste") == "true";
+            toogleBlackTheme(resultado);
+
+            var fontSize = parseInt(buscarCookie("fontSize"));
+            if (fontSize > 0)
+            {
+                increaseFontSize("td",2*fontSize);
+                increaseFontSizeMenu("font",2*fontSize);
+            }
+        }
+
+        function getFontSize(){
+            return parseInt(buscarCookie("fontSize"));
+        }
+
+        function setFontSize(){
+            var fontSize = parseInt(buscarCookie("fontSize"));
+            var eNaN = isNaN(fontSize);
+            if (eNaN == true)
+            {
+                setFontSizeTamanhoOriginal();
+                fontSize = parseInt(buscarCookie("fontSize"));
+                document.cookie = "fontSize=" + (fontSize+1);
+                increaseFontSize("td",2);
+                increaseFontSizeMenu("font",2);
+            }
+
+            if (fontSize < 2)
+            {
+                document.cookie = "fontSize=" + (fontSize+1);
+                increaseFontSize("td",2 );
+                increaseFontSizeMenu("font",2);
+            }
+        }
+
+        function increaseFontSize(tag, fontvar) {
+            var el = document.getElementsByTagName(tag);
+            var currentFont = window.getComputedStyle(el[202],null).fontSize.replace("px", "");
+            var currentFont2 = window.getComputedStyle(el[110],null).fontSize.replace("px", "");
+
+            $('.ClassForm').css('font-size', parseInt(currentFont) + parseInt(fontvar+1)+'px');
+            $('.ClassTituloForm').css('font-size', parseInt(currentFont) + parseInt(fontvar)+'px');
+            $('.select').css('font-size', parseInt(currentFont) + parseInt(fontvar)+'px');
+            $('.Class_TituloCorFundo').css('font-size', parseInt(currentFont2) + parseInt(fontvar)+'px');
+            $('.Class_Relatorio').css('font-size', parseInt(currentFont2) + parseInt(fontvar)+'px');
+            $('.Class_TituloRel').css('font-size', parseInt(currentFont2) + parseInt(fontvar)+'px');
+            $('.Class_TDSilver').css('font-size', parseInt(currentFont2) + parseInt(fontvar)+'px');
+            $('.Class_TDGray').css('font-size', parseInt(currentFont2) + parseInt(fontvar)+'px');
+            $('#geraPublicacoes').css('font-size', parseInt(currentFont2) + parseInt(fontvar)+'px');
+        }
+
+
+        function resetFontSize(tag){
+            var el = document.getElementsByTagName(tag);
+            var currentFont = window.getComputedStyle(el[0],null).fontSize.replace("px", "");
+
+            $('.ClassForm').css('font-size', '14px');
+            $('.ClassTituloForm').css('font-size', '16px');
+            $('.select').css('font-size', '11px');
+            $('.Class_TituloCorFundo').css('font-size', '11px');
+            $('.Class_Relatorio').css('font-size', '10px');
+            $('.Class_TituloRel').css('font-size', '10px');
+            $('.Class_TDSilver').css('font-size', '10px');
+            $('.Class_TDGray').css('font-size', '10px');
+            $('#geraPublicacoes').css('font-size', '14px');
+        }
+
+        function buscarCookie(cookieName) {
+
+            var name = cookieName + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1);
+                if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+            }
+            return "";
+
+        }
+
+        function increaseFontSizeMenu(tag, fontvar) {
+            var el = document.getElementsByTagName(tag);
+            for (var i = 0; i < el.length; i++) {
+                var currentFont = window.getComputedStyle(el[i],null).fontSize.replace("px", "");
+                el[i].style.fontSize = parseInt(currentFont) + parseInt(fontvar) + "px";
+            };
+        }
+
+        function resetFontSizeMenu(tag){
+            var el = document.getElementsByTagName(tag);
+            for (var i = 0; i < el.length; i++) {
+                el[i].style.fontSize = parseInt(13) + "px";
+            };
+        }
+
+        function setFontSizeTamanhoOriginal(){
+            var fontSize = parseInt(buscarCookie("fontSize"));
+
+            if (typeof fontSize != 'undefined' && fontSize != 0)
+            {
+                document.cookie = "fontSize=" + 0;
+                resetFontSize("td");
+                resetFontSizeMenu("font");
+            }
+        }
+
+        function toogleBlackTheme(v)
+        {
+            var objDiv = document.getElementById("formulario");
+            var objDiv4 = document.getElementById("home");
+
+            if (v){
+                $(objDiv).css("color" ,"#FFFFFF");
+                $(objDiv).css("background-color", "#000000");
+                $(objDiv).css("background-image","url(xp6_fundoPreto.jpg)");
+
+                $("#TBiframe").contents().find("p").css("color","#ffffff");
+                $("#Class_TituloCorFundo").contents().find("tr").css("background-color","#000000");
+                $("#Class_TituloCorFundo").contents().find("tr").css("color","#FFFFFF");
+
+                $("#conteudo").css("background-color", "#000000");
+                $("#conteudo").css("color", "#FFF");
+
+                var imagens = objDiv4.getElementsByTagName("img");
+                var img = new Image();
+                img.src = "Custom/Imagens/home.jpg";
+                img.onload = function() {
+                    imagens[0].setAttribute('src', "Custom/Imagens/homeFundoPreto.jpg");
+                }
+                img.onerror = function() {
+                    imagens[0].setAttribute('src', "Imagens/homeFundoPreto.jpg");
+                }
+                //imagens[0].setAttribute('src', "Imagens/homeFundoPreto.jpg");
+
+                var divs = document.getElementsByClassName("Class_TituloCorFundo");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= '#000';
+                    divs[i].style.color= '#FFF';
+                }
+
+                var divs = document.getElementsByClassName("Class_Relatorio");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= 'none';
+                    divs[i].style.background= '#000';
+                    divs[i].style.color= '#FFF';
+
+                }
+
+                $('.Class_Relatorio').removeAttr('onmouseover');
+                $('.Class_Relatorio').removeAttr('onmouseout');
+
+                var divs = document.getElementsByClassName("Class_TituloRel");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= '#000';
+                    divs[i].style.color= '#FFF';
+                }
+
+                var divs = document.getElementsByClassName("Class_TDSilver");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= '#000';
+                    divs[i].style.color= '#FFF';
+                }
+
+                var divs = document.getElementsByClassName("Class_TDGray");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= '#000';
+                    divs[i].style.color= '#FFF';
+                }
+
+                var divs = document.getElementsByTagName("a");
+                for (var i = 0; i < divs.length; i++) {
+                    if (divs[i].name != 'home'){
+                        divs[i].style.background= '#000';
+                        divs[i].style.color= '#FFF';
+                    }
+                }
+
+                var divs = document.getElementsByTagName("th");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.borderColor = '#fff';
+                    divs[i].style.borderStyle = 'solid';
+                    divs[i].style.borderWidth = '1px';
+                }
+
+                if (document.getElementById('geraPublicacoes') != null){
+                    var el = document.getElementById('geraPublicacoes');
+                    var currentFont = window.getComputedStyle(el,null).fontSize.replace("px", "");
+
+                    $('#geraPublicacoes').removeAttr('style');
+                    $('#geraPublicacoes').attr("style","width: 100%; font-size: " + currentFont +"px; ");
+                }
+            }
+            else
+            {
+
+                $(objDiv).css("background-image","url(xp6.jpg)");
+                $(objDiv).css("color" , "#000000");
+
+                var imagens = objDiv4.getElementsByTagName("img");
+                var img = new Image();
+                img.src = "Custom/Imagens/home.jpg";
+                img.onload = function() {
+                    imagens[0].setAttribute('src', "Custom/Imagens/home.jpg");
+                }
+                img.onerror = function() {
+                    imagens[0].setAttribute('src', "Imagens/home.jpg");
+                }
+                //imagens[0].setAttribute('src', "Imagens/home.jpg");
+
+                $("#TBiframe").contents().find("p").css("color","#000000");
+
+                $("#Class_TituloCorFundo").contents().find("tr").css("background-color","#000000");
+                $("#Class_TituloCorFundo").contents().find("tr").css("color","#FFFFFF");
+
+                // Alex comentou esta linha
+                //$("#Class_TituloCorFundo").contents().find("tr").css("color","#FFFFFF");
+
+                $("#conteudo").css("background-color", "#F5F5F5");
+                $("#conteudo").css("color", "#FFF");
+
+                var imagens = objDiv4.getElementsByTagName("img");
+                var img = new Image();
+                img.src = "Custom/Imagens/home.jpg";
+                img.onload = function() {
+                    imagens[0].setAttribute('src', "Custom/Imagens/home.jpg");
+                }
+                img.onerror = function() {
+                    imagens[0].setAttribute('src', "Imagens/home.jpg");
+                }
+                //imagens[0].setAttribute('src', "Imagens/home.jpg");
+
+                // Alex criou esta rotina
+                //var trs = $(".Class_TituloCorFundo");
+                //var ths = $(trs).find("th");
+                //var tds = $(trs).find("td");
+                //for(var i = 0; i < ths.length; i++) {
+                //	ths[i].style.background= '#6699ff';
+                //	ths[i].style.color= '#000';
+                //}
+                //for(var i = 0; i < tds.length; i++) {
+                //	tds[i].style.background= '#6699ff';
+                //	tds[i].style.color= '#000';
+                //}
+
+                var divs = document.getElementsByClassName("Class_TituloCorFundo");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= '#6699ff';
+                    divs[i].style.color= '#000';
+                }
+
+                $('.Class_Relatorio').attr("mouseover","mudar_cor_over(this);");
+                $('.Class_Relatorio').attr("mouseout","mudar_cor_out(this,'#FFFFFF');");
+
+                var divs = document.getElementsByClassName("Class_Relatorio");
+                for (var i = 0; i < divs.length; i++) {
+                    // Alex retirou esta linha
+                    //divs[i].style.background= '#FFF';
+                    divs[i].style.background= '#FFF';
+                    divs[i].style.color= '#000';
+                }
+
+                var divs = document.getElementsByClassName("Class_TituloRel");
+                for (var i = 0; i < divs.length; i++) {
+                    // Alex retirou esta linha
+                    //divs[i].style.background= '#fff';
+
+                    divs[i].style.background= '#fff';
+                    divs[i].style.color= '#000';
+                }
+
+                var divs = document.getElementsByClassName("Class_TDSilver");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= '#C3C3C3';
+                    divs[i].style.color= '#000';
+                }
+
+                var divs = document.getElementsByClassName("Class_TDGray");
+                for (var i = 0; i < divs.length; i++) {
+                    divs[i].style.background= '#999999';
+                    divs[i].style.color= '#000';
+                }
+
+                var divs = document.getElementsByTagName("a");
+                for (var i = 0; i < divs.length; i++) {
+                    if (divs[i].name != 'home'){
+                        divs[i].style.background= '#fff';
+                        divs[i].style.color= '#0101DF';
+                    }
+                }
+
+                if (document.getElementById('geraPublicacoes') != null){
+                    var el = document.getElementById('geraPublicacoes');
+                    var currentFont = window.getComputedStyle(el,null).fontSize.replace("px", "");
+
+                    $('#geraPublicacoes').attr("style","width: 100%; font-size: " + currentFont + "px; color:black !important;");
+                }
+            }
+        }
+
+        function setAltoContraste()
+        {
+            var resultado = !(buscarCookie("altoContraste") == "true");
+            document.cookie = "altoContraste=" + resultado;
+            toogleBlackTheme(resultado);
+        }
+
+        function formatState (state) {
+            if (!state.id) { return state.text; }
+            var $state = $(
+              '<span><img src="vendor/images/flags/' + state.element.value.toLowerCase() + '.png" class="img-flag" /> ' + state.text + '</span>'
+            );
+            return $state;
+        };
+
+        function navigateTo(sel, target, newWindow) {
+            var url = sel.options[sel.selectedIndex].value;
+            if (newWindow) {
+                window.open(url, target, '--- attributes here, see below ---');
+            } else {
+                window[target].location.href = url;
+            }
+        };
+
+    </script>
+
+
+</head>
+<body onload="atualizaFiltroPagina(); initAcessibilidade();" onunload="$('#aguarde').hide();">
+    <script language="javascript"> document.onkeydown = applyKey; </script>
+
+    <div id="principal " style="width:100%; float:left; position:absolute;">
+
+        <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+            <tr id="pesquisa">
+                <td style="width:3px;"></td>
+                <td style="width:18px; height:17px "><img alt="Home" src="Imagens/estrela.png" width="15px" HEIGHT="15px" VSPACE="5px" Hspace="0px" /></td>
+                <td style="width: 3px;">
+                    <select id="cmbMenuFavoritos" name="cmbMenuFavoritos" onscroll="false" style="background-image:url(xp3.gif ); height:21px; text-align:left; align-content:center; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bolder;
+                                font-style: normal; text-decoration: none" onchange="navigateTo(this, 'window', false);">
+                        <option value="">Acesso R pido</option>
+                    </select>
+                </td>
+                <td style="width:6px;"></td>
+                <td style="width:3px;"><img src="Imagens/linhaVertical.png" style="float:left; width: 1px; height:23px;" /></td>
+
+                <td style="width:3px;"></td>
+                <td>
+
+                    <input type="text" name="txtPesquisa" id="txtPesquisa" style="width: 160px; height:15px;" />
+                    <input type="hidden" name="hndtxtPesquisa" id="hndtxtPesquisa" value="" />
+                    <input id="btnPesquisa" name="btnPesquisa" type="submit" value="Pesquisa" onclick="pesquisaRapida();" />
+
+                </td>
+                <td class="acessibilidade" id="botaoAcessibilidade">
+                    <img class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Atalhos" src="Imagens/ac.fw.png" onclick="telaAcessbilidade();">
+                </td>
+                <td class="acessibilidade" id="botaoAcessibilidade">
+                    <img class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tamanho Original do fonte" src="Imagens/a.fw.png" onclick="setFontSizeTamanhoOriginal();">
+                </td>
+                <td class="acessibilidade" id="botaoAcessibilidade">
+                    <img class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Aumentar a fonte" src="Imagens/aMais.fw.png" onclick="setFontSize();">
+                </td>
+                <td class="acessibilidade" id="botaoAcessibilidade">
+                    <img class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Contraste" src="Imagens/contraste.fw.png" onclick="setAltoContraste();">
+                </td>
+            </tr>
+        </table>
+
+        
+        
+
+        <div id="topo">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <img alt="" src="custom/imagens/logo_entidade.gif" />
+                    </td>
+                    <td>
+                        <a name="home" href="index.asp" title="Ir para Home">
+                            <img alt="" src="custom/imagens/Topo2.png" style="border: 0px;" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="menu">
+            <script type="text/javascript" language="JavaScript1.2">
+			<!--
+			beginSTM("ivvnair","static","0","0","left","false","true","310","50","0","0","","blank.gif");
+			beginSTMB("auto","0","0","horizontally","blank.gif","0","0","1","4","transparent","","tiled","#ffffff","0","none","0","Fade","50","0","0","0","0","0","0","1","#999999","true","#ffffff","#ffffff","#ffffff","simple");
+			appendSTMI("false","Administra‡„o","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#9690a8","#9690a8","#cccccc","#cccccc","#9690a8","#9690a8","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("auto","0","0","vertically","arrow_r.gif","0","0","0","4","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#7f7f7f","true","#000000","#000000","#000000","simple");appendSTMI("false","Contratos","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=1&item=1'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=1&item=1'","","","tiled","tiled");appendSTMI("false","Licita‡”es","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=1&item=2'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=1&item=2'","","","tiled","tiled");appendSTMI("false","Fornecedores","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=1&item=3'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=1&item=3'","","","tiled","tiled");appendSTMI("false","Produtos","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=1&item=4'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=1&item=4'","","","tiled","tiled");appendSTMI("false","Exportar Dados","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=1'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=1'","","","tiled","tiled");appendSTMI("false","Ajuda","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:window.open('./Help_TB/TransparenciaBR_Administracao/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:window.open('./Help_TB/TransparenciaBR_Administracao/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","","","tiled","tiled");endSTMB();
+			
+			appendSTMI("false","Despesas","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("down","-1","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Classifica‡„o Institucional","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=4'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=4'","","","tiled","tiled");appendSTMI("false","Fun‡„o","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=7'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=7'","","","tiled","tiled");appendSTMI("false","Programa de Governo","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=3'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=3'","","","tiled","tiled");appendSTMI("false","A‡„o de Governo","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=1'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=1'","","","tiled","tiled");appendSTMI("false","Natureza da Despesa","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=2'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=2'","","","tiled","tiled");appendSTMI("false","Fonte de Recursos","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=6'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=6'","","","tiled","tiled");appendSTMI("false","Esfera Administrativa","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=5'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=5'","","","tiled","tiled");appendSTMI("false","Di rias/Passagens/Adiantamento de Viagem","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=15'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=15'","","","tiled","tiled");appendSTMI("false","Empenhos a Pagar","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=13'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=13'","","","tiled","tiled");appendSTMI("false","Movimenta‡„o Di ria","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=11'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=11'","","","tiled","tiled");appendSTMI("false","Exportar Dados","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","","","","tiled","tiled");beginSTMB("right","-1","0","vertically","arrow_r.gif","0","0","0","4","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Planejamento/Execu‡„o","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=4'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=4'","","","tiled","tiled");appendSTMI("false","Empenhos","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=6'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=6'","","","tiled","tiled");appendSTMI("false","Documentos Extras","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=5'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=5'","","","tiled","tiled");appendSTMI("false","Restos a Pagar","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=7'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=7'","","","tiled","tiled");endSTMB();appendSTMI("false","Ajuda","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:window.open('./Help_TB/TransparenciaBR_Despesas/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:window.open('./Help_TB/TransparenciaBR_Despesas/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","","","tiled","tiled");endSTMB();endSTMB();
+			appendSTMI("false","Transferˆncias Financeiras","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("down","-1","0","vertically","arrow_r.gif","0","0","0","4","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Transferˆncias Financeiras","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=14'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=14'","","","tiled","tiled");appendSTMI("false","Exportar Dados","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","","","","tiled","tiled");beginSTMB("right","-1","0","vertically","arrow_r.gif","0","0","0","4","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Concess„o","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=11'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=11'","","","tiled","tiled");appendSTMI("false","Recebimento","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=12'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=12'","","","tiled","tiled");endSTMB();endSTMB();
+			appendSTMI("false","Transferˆncias Volunt rias","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("down","-1","0","vertically","arrow_r.gif","0","0","0","4","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Transferˆncias Recebidas","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=17'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=17'","","","tiled","tiled");appendSTMI("false","Transferˆncias Concedidas","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=16'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=16'","","","tiled","tiled");appendSTMI("false","Ajuda","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:window.open('./Help_TB/TransparenciaBR_TransferenciasVoluntarias/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:window.open('./Help_TB/TransparenciaBR_GestaodePessoas/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","","","tiled","tiled");endSTMB();
+			appendSTMI("false","Credores","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("down","-1","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Credores","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=10'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=10'","","","tiled","tiled");appendSTMI("false","Ajuda","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:window.open('./Help_TB/TransparenciaBR_Credores/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:window.open('./Help_TB/TransparenciaBR_Credores/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","","","tiled","tiled");endSTMB();endSTMB();
+			appendSTMI("false","Gest„o de Pessoas","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("down","-1","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Sal rios por Colaborador","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=5'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=5'","","","tiled","tiled");appendSTMI("false","Lota‡”es","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=1'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=1'","","","tiled","tiled");appendSTMI("false","Quadro de Pessoal","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=2'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=2'","","","tiled","tiled");appendSTMI("false","Plano de Cargos e Sal rios","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=7'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=7'","","","tiled","tiled");appendSTMI("false","Tabela de Remunera‡„o dos Cargos e Fun‡”es","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=8'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=8'","","","tiled","tiled");appendSTMI("false","Concursos P£blicos","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=9'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=9'","","","tiled","tiled");appendSTMI("false","Servidores/Empregados Ativos","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=3'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=3'","","","tiled","tiled");appendSTMI("false","Servidores Inativos","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=4&item=4'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=4&item=4'","","","tiled","tiled");appendSTMI("false","Di rias/Passagens/Adiantamento de Viagem","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=3&item=15'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=3&item=15'","","","tiled","tiled");appendSTMI("false","Exportar Dados","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","","","","tiled","tiled");beginSTMB("right","-1","0","vertically","arrow_r.gif","0","0","0","4","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Folha de Pagamento","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=8'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=8'","","","tiled","tiled");appendSTMI("false","Rela‡„o de Servidores","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=9'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=9'","","","tiled","tiled");appendSTMI("false","Quadro de Pessoal","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=10&item=10'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=10&item=10'","","","tiled","tiled");endSTMB();appendSTMI("false","Ajuda","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:window.open('./Help_TB/TransparenciaBR_GestaodePessoas/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:window.open('./Help_TB/TransparenciaBR_GestaodePessoas/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","","","tiled","tiled");endSTMB();endSTMB();
+			
+			appendSTMI("false","Acesso … Informa‡„o","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("down","-1","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Perguntas Frequentes","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=20&item=1'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=20&item=1'","","","tiled","tiled");appendSTMI("false","Estrutura Organizacional","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=20&item=2'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=20&item=2'","","","tiled","tiled");appendSTMI("false","Pedido de Informa‡„o","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=20&item=5'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=20&item=5'","","","tiled","tiled");appendSTMI("false","Ajuda","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:window.open('./Help_TB/TransparenciaBR_AcessoInformacao/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:window.open('./Help_TB/TransparenciaBR_AcessoInformacao/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","","","tiled","tiled");endSTMB();endSTMB();
+			appendSTMI("false","Publica‡”es","left","middle","","","-1","-1","0","normal","transparent","transparent","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","","_self","Arial, sans-serif","10pt","#000000","bolder","normal","none","Arial","10pt","#000000","bold","normal","none","1","solid","#cccccc","#cccccc","#999999","#999999","#cccccc","#cccccc","#999999","#999999","","xp3.gif","xp4.gif","tiled","tiled");beginSTMB("down","-1","0","vertically","arrow_r.gif","0","0","0","3","#ffffff","","tiled","#000000","0","solid","0","Fade","50","0","0","0","0","0","0","2","#999999","true","#000000","#000000","#000000","simple");appendSTMI("false","Presta‡„o de Contas","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=21&item=2'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=21&item=2'","","","tiled","tiled");appendSTMI("false","Execu‡„o Or‡ament ria (RREO)","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=21&item=3'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=21&item=3'","","","tiled","tiled");appendSTMI("false","Gest„o Fiscal(RGF)","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=21&item=4'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=21&item=4'","","","tiled","tiled");appendSTMI("false","Estat¡sticas dos Pedidos de Informa‡„o","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=21&item=5'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=21&item=5'","","","tiled","tiled");appendSTMI("false","Publica‡”es","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=21&item=1'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=21&item=1'","","","tiled","tiled");appendSTMI("false","Auditorias e Inspe‡”es do Controle Interno","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:limparCookies();location.href='index.asp?acao=21&item=6'","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:limparCookies();location.href='index.asp?acao=21&item=6'","","","tiled","tiled");appendSTMI("false","Ajuda","left","middle","","","-1","-1","0","normal","#d6d6ce","#999999","","1","-1","-1","blank.gif","blank.gif","-1","-1","0","","javascript:window.open('./Help_TB/TransparenciaBR_Publicacoes/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","_self","Arial","10pt","#000000","normal","normal","none","Arial","10pt","#000000","normal","normal","none","1","solid","#d6d6ce","#d6d6ce","#d6d6ce","#d6d6ce","#cccccc","#d6d6ce","#d6d6ce","#d6d6ce","javascript:window.open('./Help_TB/TransparenciaBR_Publicacoes/index.htm', 'NovaJanela', 'scrollbars,status,resizable');","","","tiled","tiled");endSTMB();endSTMB();
+            
+            
+            
+            
+			endSTM();
+			//-->
+            </script>
+        </div>
+        <div id="linhaTopo" style="width: 100%; text-align: center; bottom: 0px; left: 0px; border: 1px ridge"></div>
+		<div class="Class_RelatorioPaginaPrincipal"><font color="black" ></font></div>
+
+        
+
+        <div class="ClassForm" style="display: none;">
+            <iframe id="frameDadosAbertos" width="100%" height="500px" src="http://meudominio.com.br:5342/" style="display: none;"></iframe>
+        </div>
+
+        
+        
+        <div id="formulario" style="width: 100%; display: none;">
+            <form name="frmFormulario" id="frmFormulario" method="post" action="" onsubmit="return ValidaForm();">
+                
+                <input type="hidden" name="hndAcao" id="hndAcao" value="" />
+                <input type="hidden" name="hndItem" id="hndItem" value="" />
+                <input type="hidden" name="hndvisao" id="hndvisao" value="" />
+                
+                
+                
+                
+                <input type="hidden" name="hndAPDtIni" id="hndAPDtIni" value="" />
+                <input type="hidden" name="hndAPLotacao" id="hndAPLotacao" value="" />
+                <input type="hidden" name="hndAPCargo" id="hndAPCargo" value="" />
+                <input type="hidden" name="hndAPNivel" id="hndAPNivel" value="" />
+                
+                <br />
+                <table id="tamanhoTabela" style="width: 1000px;" cellpadding="3" cellspacing="0">
+
+                    <tr style="height: 50px;">
+                        <td class="ClassTituloForm" style="width: 292px; padding-left:150px; ">
+                             
+
+                            
+
+                        </td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="ClassForm" style="display: none;">
+                        <td align="right">
+                            none;
+                        </td>
+                        <td>
+                            <input type="hidden" name="hndTipoEsportacaoDados" id="hndTipoEsportacaoDados" value="" />
+                            <select name="cmbTipoEsportacaoDados" id="cmbTipoEsportacaoDados" onchange="">
+                                <option value="2" selected>LICITA&Ccedil;&Otilde;ES/CONTRATOS</option>
+                                <option value="6">ESTOQUE</option>
+                                <option value="7">PATRIM&Ocirc;NIO</option>
+                                <option value="8">FROTAS</option>
+                            </select>&nbsp;
+                            <span style="font-size: 10px;" id="dscTipo">
+                                Informa&ccedil;&otilde;es de Licita&ccedil;&otilde;es, Contratos, Produtos e Fornecedores.
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr class="ClassForm" style="display: none;">
+                        <td align="right">
+                            <abbr>*</abbr>Entidade:
+                        </td>
+                        <td>
+                            <select name="cmbUnidadeLC" id="cmbUnidadeLC" onchange="">
+                                <!--DRO - 9245 - 01/03/2019 - Inicio-->
+                                
+                                <!--DRO - 9245 - 01/03/2019 - Fim-->
+                                
+                            </select>
+                        </td>
+                    </tr>
+
+                    
+                    <tr class="ClassForm" style="display: none;">
+                        <div id="div_direita">
+                            <input id="imprimirPDF" name="imprimirPDF" type="submit" value="Imprimir PDF" style="visibility: hidden;">
+                            <input id="exportarXML" name="exportarXML" type="submit" value="Exportar XML" style="visibility: hidden;">
+                            <input id="exportarCSV" name="exportarCSV" type="submit" value="Exportar CSV" style="visibility: hidden;">
+                        </div>
+                        <td align="left" id="linhaPerguntasFrequentes" style="width: 100%; "></td>
+                    </tr>
+                    
+                    
+                    <tr class="ClassForm" style="display: none;">
+                        <td align="left" id="linhaEstruturaOrganizacional" style="width: 100%"></td>
+                    </tr>
+                    
+                    
+                    <tr class="ClassForm" style="display: none;">
+                        <td align="left" id="linhaResultadoPesquisa" style="width: 100%; "></td>
+                    </tr>
+                    
+                    
+                    <!-- Tela PUBLICACOES - ACESSO R†PIDO PELO MENU -->
+                    <tr class="ClassForm" style="display: none;">
+                        <td align="left" id="linhaPublicacoesAcessoRapido" style="width: 100%; "></td>
+                    </tr>
+                    <!-- Tela PUBLICACOES - ACESSO R†PIDO PELO MENU FIM -->
+                    
+                    <tr class="ClassForm" style="display: none;">
+                        <td align="center" id="linhaPedidosInformacao" style="width: 100%; "></td>
+                    </tr>
+                    
+                    
+                    <tr class="ClassForm" style="display: none;">
+                        <td align="left" style="white-space: nowrap;">
+                            <p>Abaixo as informa‡”es dispon¡veis em rela‡„o a Acessibilidade.</p>
+                        </td>
+
+                    </tr>
+                    <tr class="ClassForm" style="display: none;">
+                        <td>
+                            <div>
+                                <table style="width: 900px;" cellpadding="3" cellspacing="0">
+                                    <tr>
+
+                                        <td align="left">
+                                            <img alt="Home" src="Imagens/contraste.fw.png" width="20px" />
+                                        </td>
+                                        <td align="left">
+                                            <b>Contraste</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"></td>
+                                        <td align="left" colspan="2" width="620px">
+                                            Ao clicar neste ¡cone, ser  poss¡vel alterar o contraste do Portal alternando entre as cores preta e original.
+                                        </td>
+                                    </tr>
+                                    <tr style="height: 20px;"></tr>
+                                    <tr>
+                                        <td align="left">
+                                            <img alt="Home" src="Imagens/a.fw.png" width="20px" />
+                                        </td>
+                                        <td align="left">
+                                            <b>Tamanho Original do fonte</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"></td>
+                                        <td align="left">
+                                            Ao clicar neste ¡cone o tamanho da fonte ir  retornar ao tamanho original.
+                                        </td>
+                                    </tr>
+                                    <tr style="height: 20px;"></tr>
+                                    <tr>
+                                        <td align="left">
+                                            <img alt="Home" src="Imagens/aMais.fw.png" width="20px" />
+                                        </td>
+                                        <td align="left">
+                                            <b>Aumentar a fonte</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"></td>
+                                        <td align="left">
+                                            Ao clicar neste ¡cone, ser  permitido aumentar a Fonte do Portal.
+                                        </td>
+                                    </tr>
+                                    <tr style="height: 20px;"></tr>
+                                    <tr>
+                                        <td align="left">
+                                            <img alt="Home" src="Imagens/ac.fw.png" width="20px" />
+                                        </td>
+                                        <td align="left">
+                                            <b>Atalhos</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"></td>
+                                        <td align="left">
+                                            Ao clicar neste ¡cone, ser„o listados os comandos para navega‡„o pelo site atrav‚s da utiliza‡„o do teclado.
+                                            <p>OBSERVA€ŽO: As teclas de atalho, somente ir„o funcionar para os produtos que estiverem instalados e liberados no portal.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div>
+                                <table id="AtalhosAdm" style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+
+                                        <tr>
+                                            <td id="admRowSpan" rowspan="8" width="243px">
+                                                <p align="center"><strong>Administra&ccedil;&atilde;o</strong></p>
+                                            </td>
+                                            
+                                        </tr>
+                                        <tr class="admAG">
+                                            
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Contratos</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + A</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="admAG">
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Licita&ccedil;&otilde;es</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + B</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="admAG">
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Fornecedores</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + C</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="admAG">
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Produtos</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + D</p>
+                                            </td>
+                                        </tr>
+                                        <tr id="amdEstoque">
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Estoque</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + B</p>
+                                            </td>
+                                        </tr>
+                                        <tr id="admPatrimonio">
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Patrim“nio</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + C</p>
+                                            </td>
+                                        </tr>
+                                        <tr id="admFrotas">
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Frotas</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + D</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Exportar Dados</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + E</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table id="AtalhosReceitas" style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+											<td rowspan="5" width="243px">
+                                                <p align="center"><strong>Receitas</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Lan&ccedil;amento das Receitas</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHFT + F</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Arrecada&ccedil;&atilde;o da Receita</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">&nbsp;&nbsp;&nbsp;</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">&nbsp;--&gt; Por Natureza da Receita</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + F</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">&nbsp;--&gt; Por Fonte de Recurso</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + G</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Receitas Di&aacute;rias</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + H</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+											<td rowspan="5" width="243px">
+                                                <p align="center"></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Exportar Dados</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + I</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table id="AtalhosDespesas" style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="15" width="243px">
+                                                <p align="center"><strong>Despesas</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Classifica&ccedil;&atilde;o Industrial</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + J</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Fun&ccedil;&atilde;o</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + W</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Programa de governo</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + L</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">A&ccedil;&atilde;o de governo</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + M</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Natureza da despesa</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + N</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Fonte de recurso</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + O</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Esfera administrativa</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + P</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Di&aacute;rias / passagens</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">CTRL + Q</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Ordem Cron. de Pagamentos</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + 6</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Empenhos a pagar</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + Y</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Movimenta&ccedil;&atilde;o di&aacute;ria</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + S</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Exportar Dados</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">&nbsp;</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">&nbsp;--&gt;&nbsp;Planejamento e execu&ccedil;&atilde;o</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + T</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">&nbsp;--&gt;&nbsp;Empenhos</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">ALT + K</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">&nbsp;--&gt;&nbsp;Documentos Extras</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + V</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">&nbsp;--&gt;&nbsp;Restos a pagar</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">CTRL + X</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+                                <table id="AtalhosTransf" style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5" width="243px">
+                                                <p align="center"><strong>Transfer&ecirc;ncias Financeiras</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Transfer&ecirc;ncias Financeiras</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + 1</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table id="AtalhosTransfVolun" style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5" width="243px">
+                                                <p align="center"><strong>Transfer&ecirc;ncias Volunt&aacute;rias</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Concedidas</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + 2</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Recebidas</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + 3</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table id="AtalhosCredores" style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5" width="243px">
+                                                <p align="center"><strong>Credores</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Credores</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">CTRL + 0</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table id="AtalhosGP" style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="8" width="243px">
+                                                <p align="center"><strong>Gest&atilde;o de Pessoas</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Sal rios Por Colaborador</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">SHIFT + E</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Sal rios por Lota‡„o/Cargos</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">CTRL + 1</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Quadro de Pessoal</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">CTRL + 2</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Plano de Cargos e Sal rios</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">Shift + 4</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Servidores/Empregados Ativos</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">CTRL + 3</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Servidores Inativos</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">&nbsp;CTRL + 4</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="238px">
+                                                <p align="left">Di rias / Passagens / Adiantamento de Viagem</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="214px">
+                                                <p align="left">&nbsp;CTRL + Q</p>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                                <table style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5" width="194px">
+                                                <p align="center"><strong>Acesso a informa&ccedil;&atilde;o</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Perguntas Frequentes</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">CTRL + 8</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Estrutura Organizacional</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">CTRL + 9</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Pedido de Informa‡„o</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">SHIFT + G</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Servi‡o de Informa‡„o ao Cidad„o</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">SHIFT + H</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table style="width: 700px;" border="1" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5" width="194px">
+                                                <p align="center"><strong>Publica‡”es</strong></p>
+                                            </td>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Presta‡„o de Contas</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">SHIFT + I</p>
+                                            </td>
+                                        <tr>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Execu‡„o Or‡ament ria (RREO)</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">SHIFT + J</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Gest„o Fiscal (RGF)</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">SHIFT + K</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap" width="191px">
+                                                <p align="left">Outras Publica‡”es</p>
+                                            </td>
+                                            <td nowrap="nowrap" width="171px">
+                                                <p align="left">SHIFT + A</p>
+                                            </td>
+                                        </tr>
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+
+        </td>
+        </tr>
+        
+        <!-- In¡cio Tela Publica‡”es --->
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                
+            </td>
+            <td>
+                <input type="text" name="txtNomePublicacoes" id="txtNomePublicacoes" maxlength="150"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+		<tr class="ClassForm" style="display: none;">	
+        
+            <td align="right">
+                
+            </td>
+            <td>
+                <select name="cmbTemaPublicacoes" id="cmbTemaPublicacoes" onchange="verificaAreaDoTema()">
+                    <option value="">SELECIONE</option>
+                </select>
+
+                <!-- DRO - 361507 - 26/02/2019 - Inicio -->
+                <input type="hidden" name="txtAreaDoTema" disabled id="txtAreaDoTema" maxlength="10" width: 10px; />
+                <!-- DRO - 361507 - 26/02/2019 - Fim -->
+            </td>
+        </tr>
+		
+        <tr class="ClassForm" style="display: none" id="PublicacaoTemaAuditoria">
+            <td align="right">
+                Tema:
+            </td>
+            <td>
+               Auditorias e Inspe‡”es do Controle Interno
+            </td>
+        </tr>		
+		
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                
+            </td>
+            <td>
+                <input type="hidden" name="hndAnoCargasPublicacoes" id="hndAnoCargasPublicacoes" value="" />
+                <select name="cmbAnoCargasPublicacoes" id="cmbAnoCargasPublicacoes" onchange="preencheComboEntidadePublicacoes()">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                
+            </td>
+            <td>
+                <input type="hidden" name="hndPeriodoPublicacao" id="hndPeriodoPublicacao" value="" />
+                <select name="cmbPeriodoPublicacao" id="cmbPeriodoPublicacao" disabled onchange="alteraComboReferenciaPublicacoes()">
+                    <option value="">
+                        SELECIONE
+                    </option>
+
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                
+            </td>
+            <td id="txtRef">
+                <input type="text" name="txtReferenciaDePublicacoes" id="txtReferenciaDePublicacoes" maxlength="10"
+                       style="text-transform: uppercase; width: 70px; " onkeyup="formataData(this);" />
+                <span id="mensagemAte" style="font-size: 14px; "> &nbsp;at‚&nbsp;</span>
+                <input type="text" name="txtReferenciaAtePublicacoes" id="txtReferenciaAtePublicacoes" maxlength="10"
+                       style="text-transform: uppercase; width: 70px; " onkeyup="formataData(this);" />
+                <span id="mensagemData" style="font-size: 10px; "> Inserir dados no formato DD/MM/AAAA</span>
+            </td>
+
+            <td id="cmbRef" style="width:400px; display:none;">
+                <select name="cmbReferenciaDePublicacoes" id="cmbReferenciaDePublicacoes" onchange="preencheComboReferenciaAtePublicacoes()">
+                    <option value="">
+                        SELECIONE
+                    </option>
+                </select>
+                <span id="mensagemAteCombo" style="font-size: 14px;"> &nbsp;at‚&nbsp;</span>
+                <select name="cmbReferenciaAtePublicacoes" id="cmbReferenciaAtePublicacoes">
+                    <option value="">SELECIONE</option>
+                </select>
+                <span id="mensagemReferencia" style="font-size: 10px !Important; "> Informe a referˆncia</span>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Entidade:
+            </td>
+            <td>
+                <input type="hidden" name="hndEntidadePublicacoes" id="hndEntidadePublicacoes" value="" />
+                <select name="cmbEntidadePublicacoes" id="cmbEntidadePublicacoes" onchange="preencheComboUnidadeGestoraPublicacoes()">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                
+            </td>
+            <td>
+                <select name="cmbUnidadeGestoraPublicacoes" id="cmbUnidadeGestoraPublicacoes">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                
+            </td>
+            <td>
+                <input type="hidden" name="hndOrdenacao" id="hndOrdenacao" value="" />
+                <select name="cmbOrdenacao" id="cmbOrdenacao">
+                    <option value="0">SELECIONE</option>
+                    <option value="1">EXERC‹CIO</option>
+                    <option value="2">VIG‰NCIA INICIAL</option>
+                    <option value="3">VIG‰NCIA FINAL</option>
+                    <option value="4">NOME DO ARQUIVO</option>
+                    <option value="5">DESCRI€ŽO DO ARQUIVO</option>
+                </select>
+                <input type="hidden" name="hndCriterioOrdenacao" id="hndCriterioOrdenacao" value="" />
+                <select name="cmbCriterioOrdenacao" id="cmbCriterioOrdenacao" disabled>
+                    <option value="0">SELECIONE</option>
+                    <option value="1">CRESCENTE</option>
+                    <option value="2">DECRESCENTE</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="left" style="white-space: nowrap; font-family: Verdana; font-size: 12px;">
+                <p>Nesta op‡„o ‚ poss¡vel consultar os arquivos publicados no Portal.</p>
+            </td>
+        </tr>
+        
+		
+		
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="left" id="linhaPublicacoesDownloadArquivos" style="width: 100%; "></td>
+        </tr>
+        
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                <abbr>*</abbr>Ano:
+            </td>
+            <td>
+                <input type="hidden" name="hndDataVigenciaLC" id="hndDataVigenciaLC" value="" />
+                <select name="cmbDataVigenciaLC" id="cmbDataVigenciaLC"
+                        onchange="">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+
+        
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Unidade:
+            </td>
+            <td>
+                <select name="cmbUnidadeAR" id="cmbUnidadeAR" onchange="">
+                    
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Ano:
+            </td>
+            <td>
+                <input type="hidden" name="hndAno" id="hndAno" value="" />
+                <!--DRO - 362404 - 14/03/2019 - Inicio-->
+                
+                
+                <select name="cmbAno" id="cmbAno" onchange=" preencheComboUnidadeGestoraAR();">
+                <!--DRO - 362404 - 14/03/2019 - Fim-->
+                    <!---->
+                    
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right" id="perAR">
+                Per¡odo:
+            </td>
+            <td id="inserAR">
+                <input type="text" name="txtDataInicialAR" id="txtDataInicialAR" maxlength="10" style="width: 109px;"
+                       onkeyup="formataData(this);" onblur="" />&nbsp;a&nbsp;<input type="text" name="txtDataFinalAR" id="txtDataFinalAR" maxlength="10" style="width: 109px;"
+                                                                                                           onkeyup="formataData(this);" onblur="" />
+                <span style="font-size: 10px;" > Inserir dados no formato DD/MM/AAAA</span>
+            </td>
+        </tr>
+
+
+        
+        <!-- 364554 - Consulta AR-CH-369374-PM-Guarani-das-Miss”es -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Unidade Gestora:
+            </td>
+            <td>
+                <input type="hidden" name="hndUnidadeGestoraAR" id="hndUnidadeGestoraAR"  value="" />
+                <select name="cmbUnidadeGestoraAR" id="cmbUnidadeGestoraAR" >
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+
+        
+
+        <tr class="ClassForm" id="exercicioWrapper" style="display: none;">
+            <td align="right">
+                Exerc¡cio: 
+            </td>
+            <td>
+                <input type="hidden" name="hndExercicio" id="hndExercicio" value="" />
+                <select name="cmbExercicio" id="cmbExercicio" onchange=" AtualizaMesFinal('cmbMesInicial', 'cmbMesFinal');">
+                    
+                </select>
+            </td>
+            <script>
+                  $("#cmbExercicio").find("option").remove().end().append("<option value=''>SELECIONE</option>").val("''");
+            </script>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipo Movimento:
+            </td>
+            <td>
+                <input type="hidden" name="hndTipoMovimento" id="hndTipoMovimento" value="" />
+                <select name="cmbTipoMovimento" id="cmbTipoMovimento">
+                    <option value="0">CONCESSŽO</option>
+                    <option value="1">RECEBIMENTO</option>
+                </select>
+            </td>
+        </tr>
+
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Unidade Gestora:
+            </td>
+            <td>
+                <input type="hidden" name="hndUnidadeGestoraLC" id="hndUnidadeGestoraLC" value="" />
+                <select name="cmbUnidadeGestoraLC" id="cmbUnidadeGestoraLC">
+                    <option value="">
+                        SELECIONE
+                    </option>
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Entidade:
+            </td>
+            <td>
+                <input type="hidden" name="hndUnidadeCP" id="hndUnidadeCP" value="" />
+                <select name="cmbUnidadeCP" id="cmbUnidadeCP" onchange="">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                N£mero/Ano do Contrato:
+            </td>
+            <td>
+                <input type="text" name="txtNumeroContrato" id="txtNumeroContrato" style="width: 160px;
+							text-align: right;" maxlength="7" onkeypress="return ApenasNumeros(this);" />&nbsp;/&nbsp;<input type="text" name="txtAnoContrato" id="txtAnoContrato" style="width: 60px; text-align: right;"
+                                                                                                                      maxlength="4" onkeypress="return ApenasNumeros(this);" />
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Situa‡„o do Processo:
+            </td>
+            <td>
+                <input type="hidden" name="hndSitProcessoLicit" id="hndSitProcessoLicit" value="" />
+                <select name="cmbSitProcessoLicit" id="cmbSitProcessoLicit" onchange="licSituacaoFiltrarPor(this)">
+                    <option value="">SELECIONE</option>
+                    <option value="Aberta">Aberta</option>
+                    <option value="Anulada">Anulada</option>
+                    <option value="Conclu¡da">Conclu¡da</option>
+                    <option value="Deserta">Deserta</option>
+                    <option value="Frustrada">Frustrada</option>
+                    <option value="Revogada">Revogada</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Valor de:
+            </td>
+            <td>
+                <input type="text" name="txtValorPagamentoDE" id="txtValorPagamentoDE" maxlength="30" style="text-transform: uppercase; width: 100px;" />&nbsp;&nbsp;  At‚: <input type="text" name="txtValorPagamentoATE" id="txtValorPagamentoATE" maxlength="30" style="text-transform: uppercase; width: 100px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Data de Vencimento Inicial:
+            </td>
+            <td>
+                <input type="text" name="txtDataVencimentoDE" id="txtDataVencimentoDE" maxlength="10" onkeyup="formataData(this)" style="text-transform: uppercase; width: 100px;" /> Final: <input type="text" name="txtDataVencimentoATE" id="txtDataVencimentoATE" maxlength="10" onkeyup="formataData(this)" style="text-transform: uppercase; width: 100px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Situa‡„o:
+            </td>
+            <td>
+                <input type="hidden" name="hndSitOrdemCrono" id="hndSitOrdemCrono" value="" />
+                <select name="cmbSitOrdemCrono" id="cmbSitOrdemCrono" >
+                    <option value="">SELECIONE</option>
+                    <option value="APagar">A Pagar</option>
+                    <option value="Paga">Pagos</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Fonte de Recurso:
+            </td>
+            <td>
+                <input type="text" name="txtFonteRecurso" id="txtFonteRecurso" maxlength="100"
+                       style="text-transform: uppercase; width: 400px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                C¢digo de Aplica‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtCodigoAplicacao" id="txtCodigoAplicacao" maxlength="100"
+                       style="text-transform: uppercase; width: 400px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                N£mero do Processo:
+            </td>
+            <td>
+                <input type="text" name="txtNumeroProcesso" id="txtNumeroProcesso" style="width: 160px;
+							text-align: right;" maxlength="6" onkeypress="return ApenasNumeros(this);" />
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                N£mero da Modalidade:
+            </td>
+            <td>
+                <input type="text" name="txtNumeroModalidade" id="txtNumeroModalidade" style="width: 160px;
+							text-align: right;" maxlength="6" onkeypress="return ApenasNumeros(this);" />
+            </td>
+        </tr>        
+		<tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Filtrar Por:
+            </td>
+            <td>
+                <input type="hidden" name="hndDataFiltro" id="hndDataFiltro" value="" />
+                <select name="cmbDataFiltro" id="cmbDataFiltro" style="width: 237px;">
+                    <option value="1">DATA DE EXPEDI€ŽO</option>
+                    <option value="2">DATA DE JULGAMENTO</option>
+                    <option value="3">DATA DE HOMOLOGA€ŽO</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Per¡odo:
+            </td>
+            <td>
+                <input type="text" name="txtDataInicial" id="txtDataInicial" maxlength="10" style="width: 109px;"
+                       onkeyup="formataData(this);" onblur="" />&nbsp;a&nbsp;<input type="text" name="txtDataFinal" id="txtDataFinal" maxlength="10" style="width: 109px;"
+                                                                                                           onkeyup="formataData(this);" onblur="" />
+                <span style="font-size: 10px;"> Inserir dados no formato DD/MM/AAAA</span>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Per¡odo:
+            </td>
+            <td>
+                <input type="hidden" name="hndMesInicial" id="hndMesInicial" value="" />
+                <select name="cmbMesInicial" id="cmbMesInicial" onchange="">
+                    <option value="">SELECIONE</option>
+                </select>&nbsp;a&nbsp;
+                <input type="hidden" name="hndMesFinal" id="hndMesFinal" value="" />
+                <select name="cmbMesFinal" id="cmbMesFinal" onchange="">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Entidade:
+            </td>
+            <td>
+                <input type="hidden" name="hndUnidadeGP" id="hndUnidadeGP" value="" />
+                <select name="cmbUnidadeGP" id="cmbUnidadeGP" onchange="">
+                    
+                </select>
+            </td>
+        </tr>
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                V¡nculo:
+            </td>
+            <td>
+                <input type="hidden" name="hndVinculoGP" id="hndVinculoGP" value="" />
+                <select name="cmbVinculoGP" id="cmbVinculoGP" onchange="textogp()">
+                    <option value="0">TODOS</option>
+                    <option value="1">EFETIVOS</option>
+                    <option value="2">COMISSIONADOS</option>
+                    <option value="3">CEDIDOS/RECEBIDOS</option>
+					<option value="4">CEDIDOS</option>
+					<option value="5">RECEBIDOS</option>
+                    <option value="6">ESTAGI†RIOS</option>
+                    <option value="7">TEMPOR†RIOS</option>
+                    <option value="8">AGENTE POL‹TICO</option>
+                    <option value="9">MENOR APRENDIZ</option>
+                </select>
+            </td>
+        </tr>
+		<tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Ano:
+            </td>
+            <td>
+                <input type="hidden" name="hndAnoGP" id="hndAnoGP" value="" />
+                
+				<select name="cmbAnoGP" id="cmbAnoGP">                    
+                    <option value="0">TODOS</option>					
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Data:
+            </td>
+            <td>
+                <select name="cmbDataGP" id="cmbDataGP">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+		
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipo de Concurso:
+            </td>
+            <td>
+                <input type="hidden" name="hndConcursoGP" id="hndConcursoGP" value="" />
+                <select name="cmbConcursoGP" id="cmbConcursoGP" onchange="textogp()">
+                    <option value="0">CONCURSOS EM ANDAMENTO</option>
+                    <option value="1">CONCURSOS ENCERRADOS</option>
+                    <option value="2">NOMEA€™ES E CONVOCA€™ES</option>
+                </select>
+            </td>
+        </tr>
+
+		
+		<tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Per¡odo:
+            </td>
+            <td>
+                <input type="hidden" name="hndMesInicialGP" id="hndMesInicialGP" value="" />
+                <select name="cmbMesInicialGP" id="cmbMesInicialGP">
+                    <option value="0">SELECIONE</option>
+					<option value="1">JANEIRO</option>
+					<option value="2">FEVEREIRO</option>
+					<option value="3">MAR€O</option>
+					<option value="4">ABRIL</option>
+					<option value="5">MAIO</option>
+					<option value="6">JUNHO</option>
+					<option value="7">JULHO</option>
+					<option value="8">AGOSTO</option>
+					<option value="9">SETEMBRO</option>
+					<option value="10">OUTUBRO</option>
+					<option value="11">NOVEMBRO</option>
+					<option value="12">DEZEMBRO</option>                	
+                </select>&nbsp;a&nbsp;
+                <input type="hidden" name="hndMesFinalGP" id="hndMesFinalGP" value="" />
+                <select name="cmbMesFinalGP" id="cmbMesFinalGP">
+                    <option value="0">SELECIONE</option>
+					<option value="1">JANEIRO</option>
+					<option value="2">FEVEREIRO</option>
+					<option value="3">MAR€O</option>
+					<option value="4">ABRIL</option>
+					<option value="5">MAIO</option>
+					<option value="6">JUNHO</option>
+					<option value="7">JULHO</option>
+					<option value="8">AGOSTO</option>
+					<option value="9">SETEMBRO</option>
+					<option value="10">OUTUBRO</option>
+					<option value="11">NOVEMBRO</option>
+					<option value="12">DEZEMBRO</option>   
+                </select>
+            </td>
+        </tr>		
+				
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Unidade Gestora:
+            </td>
+            <td>
+                <input type="hidden" name="hndUnidadeGestora" id="hndUnidadeGestora" value="" />
+                <select name="cmbUnidadeGestora" id="cmbUnidadeGestora">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Nome:
+            </td>
+            <td>
+                <input type="text" name="txtNomeFuncionario" id="txtNomeFuncionario" maxlength="150"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Cargo:
+            </td>
+            <td>
+                <input type="text" name="txtCargoFuncionario" id="txtCargoFuncionario" maxlength="150"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Faixa Salarial de:
+            </td>
+            <td>
+                <input type="text" name="txtFaixaSalarialDE" id="txtFaixaSalarialDE" maxlength="30" style="text-transform: uppercase; width: 100px;" /> At‚: <input type="text" name="txtFaixaSalarialATE" id="txtFaixaSalarialATE" maxlength="30" style="text-transform: uppercase; width: 100px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Lota‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtLotacaoFuncionario" id="txtLotacaoFuncionario" maxlength="150"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Apresentar por:
+            </td>
+            <td>
+                <input type="hidden" name="hndApresentarPorCP" id="hndApresentarPorCP" value="" />
+                <select name="cmbApresentarPor" id="cmbApresentarPor">
+                    <option value="0">FUN€ŽO/PROGRAMA</option>
+                    <option value="1">FUN€ŽO/SUBFUN€ŽO</option>
+                </select>
+            </td>
+        </tr>
+
+        
+        <!-- ESTOQUE - ENTIDADE -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Entidade:
+            </td>
+            <td>
+                <select name="cmbEstoqueUnidadeCM" id="cmbEstoqueUnidadeCM" onchange="">
+                    <option value="">SELECIONE</option>
+                    <!--{BLCESTOQUEUNIDADELC}-->
+                    <option value=""></option>
+                    <!--{/BLESTOQUECUNIDADELC}-->
+                </select>
+            </td>
+        </tr>
+
+        <!-- ESTOQUE - ANO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Ano:
+            </td>
+            <td>
+                <input type="hidden" name="hndEstoqueDataVigenciaLC" id="hndEstoqueDataVigenciaLC" value="" />
+                <select name="cmbEstoqueDataVigenciaLC" id="cmbEstoqueDataVigenciaLC"
+                        onchange="">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Unidade Gestora:
+            </td>
+            <td>
+                <input type="hidden" name="hndEstoqueUnidadeGestoraLC" id="hndEstoqueUnidadeGestoraLC" value="" />
+                <select name="cmbEstoqueUnidadeGestoraLC" id="cmbEstoqueUnidadeGestoraLC" onchange="">
+                    <option value="">
+                        SELECIONE
+                    </option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- ESTOQUE - ALMOXARIFADO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Almoxarifado:
+            </td>
+            <td>
+                <input type="hidden" name="hndEstoqueAlmoxarifado" id="hndEstoqueAlmoxarifado" value="" />
+                <select name="cmbEstoqueAlmoxarifado" id="cmbEstoqueAlmoxarifado">
+                    <option value="">
+                        SELECIONE
+                    </option>
+                </select>
+            </td>
+        </tr>
+        <!-- ESTOQUE - LOCALIZACAO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Localiza‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtEstoqueLocalizacao" id="txtEstoqueLocalizacao" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+        <!-- ESTOQUE - MATERIAL -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Material:
+            </td>
+            <td>
+                <input type="text" name="txtEstoqueMaterial" id="txtEstoqueMaterial" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+        <!-- ESTOQUE - MES DO MOVIMENTO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Mˆs do Movimento:
+            </td>
+            <td>
+                <input type="hidden" name="hndEstoqueMesInicial" id="hndEstoqueMesInicial" value="" />
+                <select name="cmbEstoqueMesInicial" id="cmbEstoqueMesInicial" onchange="">
+                    <option value="">SELECIONE</option>
+                </select>&nbsp;a&nbsp;
+                <input type="hidden" name="hndEstoqueMesFinal" id="hndEstoqueMesFinal" value="" />
+                <select name="cmbEstoqueMesFinal" id="cmbEstoqueMesFinal" onchange="">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+        <!-- ESTOQUE - TIPO DO MOVIMENTO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipo do Movimento:
+            </td>
+            <td>
+                <input type="hidden" name="hndEstoqueTipoMovimento" id="hndEstoqueTipoMovimento" value="" />
+                <select name="cmbEstoqueTipoMovimento" id="cmbEstoqueTipoMovimento">
+                    <option value="-1">SELECIONE</option>
+                    <option value="2">Aplica‡„o Imediata</option>
+                    <option value="8">Acerto de Invent rio - Entrada</option>
+                    <option value="9">Acerto de Invent rio - Sa¡da</option>
+                    <option value="15">Baixa de Inserv¡vel</option>
+                    <option value="3">Devolu‡„o de Requisi‡„o</option>
+                    <option value="4">Devolu‡„o de Nota Fiscal</option>
+                    <option value="0">Implanta‡„o de Saldo</option>
+                    <option value="7">Nota Fiscal de Compra</option>
+                    <option value="10">Nota Fiscal de Doa‡„o</option>
+                    <option value="1">Requisi‡„o</option>
+                    <option value="14">Solicita‡„o de Transferˆncia de Almoxarifado</option>
+                    <option value="5">Transferˆncia de Almoxarifado - Sa¡da</option>
+                    <option value="6">Transferˆncia de Almoxarifado - Entrada</option>
+
+                    
+                </select>
+            </td>
+        </tr>
+        <!-- ESTOQUE - CLASSIFICACAO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Classifica‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtEstoqueClassificacao" id="txtEstoqueClassificacao" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - ENTIDADE -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Entidade:
+            </td>
+            <td>
+                <select name="cmbPatrimonioUnidadePP" id="cmbPatrimonioUnidadePP" onchange="">
+                    <option value="">SELECIONE</option>
+                    
+                </select>
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - ANO -->
+        
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Unidade Gestora:
+            </td>
+            <td>
+                <input type="hidden" name="hndPatrimonioUnidadeGestoraLC" id="hndPatrimonioUnidadeGestoraLC" value="" />
+                <select name="cmbPatrimonioUnidadeGestoraLC" id="cmbPatrimonioUnidadeGestoraLC" onchange="">
+                    <option value="">
+                        SELECIONE
+                    </option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - DESCRICAO BEM -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Descri‡„o do Bem:
+            </td>
+            <td>
+                <input type="text" name="txtPatrimonioDescricaoBem" id="txtPatrimonioDescricaoBem" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Aquisi‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtPatrimonioDataInicial" id="txtPatrimonioDataInicial" maxlength="10" style="width: 109px;"
+                       onkeyup="formataData(this);" onblur="" />&nbsp;a&nbsp;<input type="text" name="txtPatrimonioDataFinal" id="txtPatrimonioDataFinal" maxlength="10" style="width: 109px;"
+                                                                                                                     onkeyup="formataData(this);" onblur="" onfocus="focusFunction()" />
+                <span style="font-size: 10px;"> Inserir dados no formato DD/MM/AAAA</span>
+            </td>
+        </tr>
+        <!-- PATRIMONIO - CLASSIFICACAO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Classifica‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtPatrimonioClassificacao" id="txtPatrimonioClassificacao" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - LOCALIZACAO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Localiza‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtPatrimonioLocalizacao" id="txtPatrimonioLocalizacao" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - TIPO DO BEM -->
+        <tr class="ClassForm" style="display:none" id="PatrimonioBensPatrimoniais">
+            <td align="right">
+                Tipo do Bem:
+            </td>
+            <td>
+                <input type="hidden" name="hndPatrimonioSituacaoBem" id="hndPatrimonioSituacaoBem" value="" />
+                <select name="cmbPatrimonioSituacaoBem" id="cmbPatrimonioSituacaoBem">
+                    <option value="-1">SELECIONE</option>
+                    <option value="1">PATRIMONIAL</option>
+                    <option value="2">RECEBIDO EM COMODATO</option>
+                    <option value="3">ALUGADO</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - SITUA€ŽO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Situa‡„o:
+            </td>
+            <td>
+                <input type="hidden" name="hndPatrimonioStatus" id="hndPatrimonioStatus" value="" />
+                <select name="cmbPatrimonioStatus" id="cmbPatrimonioStatus">
+                    <option value="-1">SELECIONE</option>
+                    <option value="N">EM USO</option>
+                    <option value="C">CEDIDO EM COMODATO</option>
+                    <option value="B">BAIXADO</option>
+					<option value="D">DESOCUPADO</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - TIPO DE INGRESSO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right" id="TipoPatrimonio">
+                Tipo de Ingresso:
+            </td>
+            <td>
+                <input type="hidden" name="hndPatrimonioTipoIngresso" id="hndPatrimonioTipoIngresso" value="" />
+                <select name="cmbPatrimonioTipoIngresso" id="cmbPatrimonioTipoIngresso">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- PATRIMONIO - SITUACAO DO BEM -->
+        <!--<tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Situa‡„o do Bem:
+            </td>
+            <td>
+                <input type="hidden" name="hndPatrimonioSituacaoBem" id="hndPatrimonioSituacaoBem" value="" />
+                <select name="cmbPatrimonioSituacaoBem" id="cmbPatrimonioSituacaoBem">
+                    <option value="-1">SELECIONE</option>
+                    <option value="1">EM USO</option>
+                    <option value="2">CEDIDO EM COMODATO</option>
+                    <option value="3">ALUGADO</option>
+                </select>
+            </td>
+        </tr>-->
+        <!-- PATRIMONIO - STATUS -->
+        <!--<tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Status:
+            </td>
+            <td>
+                <input type="hidden" name="hndPatrimonioStatus" id="hndPatrimonioStatus" value="" />
+                <select name="cmbPatrimonioStatus" id="cmbPatrimonioStatus">
+                    <option value="-1">SELECIONE</option>
+                    <option value="N">NORMAL</option>
+                    <option value="B">BAIXADO</option>
+                </select>
+            </td>
+        </tr>-->
+        <!-- FROTAS - ENTIDADE -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Entidade:
+            </td>
+            <td>
+                <select name="cmbFrotasUnidadeAF" id="cmbFrotasUnidadeAF" onchange="">
+                    <option value="">SELECIONE</option>
+                    
+                </select>
+            </td>
+        </tr>
+
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Unidade Gestora:
+            </td>
+            <td>
+                <input type="hidden" name="hndFrotasUnidadeGestora" id="hndFrotasUnidadeGestora" value="" />
+                <select name="cmbFrotasUnidadeGestora" id="cmbFrotasUnidadeGestora" onchange="">
+                    <option value="">
+                        SELECIONE
+                    </option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- FROTAS - TIPO VE‹CULO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipo:
+            </td>
+            <td>
+                <input type="hidden" name="hndFrotasTipoVeiculo" id="hndFrotasTipoVeiculo" value="" />
+                <select name="cmbFrotasTipoVeiculo" id="cmbFrotasTipoVeiculo" onchange="">
+                    <option value="">SELECIONE</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- FROTAS - DESCRICAO VE‹CULO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Descri‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtFrotasDescricao" id="txtFrotasDescricao" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Aquisi‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtFrotasDataInicial" id="txtFrotasDataInicial" maxlength="10" style="width: 109px;"
+                       onkeyup="formataData(this);" onblur="" />
+
+                <input type="text" name="txtFrotasDataFinal" id="txtFrotasDataFinal" maxlength="10" style="width: 109px;"
+                       onkeyup="formataData(this);" onblur="" />
+
+                <span style="font-size: 10px;"> Inserir dados no formato DD/MM/AAAA</span>
+            </td>
+        </tr>
+
+        <!-- FROTAS - LOCALIZA€ŽO VE‹CULO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Localiza‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtFrotasLocalizacao" id="txtFrotasLocalizacao" maxlength="200"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+
+        <!-- FROTAS - PLACA VE‹CULO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Placa:
+            </td>
+            <td>
+                <input type="text" name="txtFrotasPlaca" id="txtFrotasPlaca" maxlength="200"
+                       style="text-transform: uppercase; width: 80px;" />
+            </td>
+        </tr>
+
+        <!-- FROTAS - ANO FABRICA€ŽO VE‹CULO -->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Ano de Fabrica‡„o:
+            </td>
+            <td>
+                <input type="text" name="txtFrotasAnoFabricacao" id="txtFrotasAnoFabricacao" style="width: 60px; text-align: right;" maxlength="4" onkeypress="return ApenasNumeros(this);" />
+
+            </td>
+        </tr>
+
+        <!-- FROTAS - SITUA€ŽO DO VE‹CULO -->
+        <tr class="ClassForm" style="white-space: nowrap; display:none;" id="FrotasSituacaoVeiculo">
+            <td align="right">
+                Situa‡„o:
+            </td>
+            <td>
+                <input type="hidden" name="hndFrotasSituacaoVeiculo" id="hndFrotasSituacaoVeiculo" value="" />
+                <select name="cmbFrotasSituacaoVeiculo" id="cmbFrotasSituacaoVeiculo">
+                    <option value="-1">SELECIONE</option>
+                    <option value="1">EM USO</option>
+                    <option value="4">BAIXADO</option>
+                    <option value="3">OUTROS</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" id="ApresentarPorLotacaoCargos" style="display: none;">
+            <td align="right">
+                Apresentar por:
+            </td>
+            <td>
+                <input type="hidden" name="hndApresentarPorGP" id="hndApresentarPorGP" value="" />
+                <input type="hidden" name="hndApresentar" id="hndApresentar" value="" />
+                <select name="ckTipoGestaoPessoas" id="ckTipoGestaoPessoas">
+                    <option value="-1">SELECIONE</option>
+                    <option value="0">LOTA€™ES</option>
+                    <option value="1">CARGOS</option>
+                </select>
+                <input type="text" name="txtLotacaoCargo" id="txtLotacaoCargo" maxlength="150"
+                       style="text-transform: uppercase; width: 385px; display: none;;" />
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipos de Empenho:
+            </td>
+            <td>
+                <table class="ClassFormTable">
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="ckEmpenhoOrcamentario" id="ckEmpenhoOrcamentario" checked="checked"
+                                   value="1" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckEmpenhoOrcamentario');">Or‡ament rio</span>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="ckEmpenhoExtra" id="ckEmpenhoExtra" value="4" onclick=";" onchange="" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckEmpenhoExtra');;">Extra-Or‡ament rio</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="ckEmpenhoResto" id="ckEmpenhoResto" value="2" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckEmpenhoResto');">Restos a pagar</span>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Nome do Credor:
+            </td>
+            <td>
+                <input type="text" name="txtNomeFornecedor" id="txtNomeFornecedor" maxlength="150"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                CPF/CNPJ do Credor:
+            </td>
+            <td>
+                <input type="text" name="txtCPFCNPJFornecedor" id="txtCPFCNPJFornecedor" onkeyup="formataCPFCNPJ(this);"
+                       maxlength="18" style="width: 237px;" />
+            </td>
+        </tr>
+        <!--363871 - Pronim TB - Textos de Negativas . (Demanda Legal)-->
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipo de Despesa:
+            </td>
+            <td>
+                <input type="hidden" name="hndDiariasPassagens" id="hndDiariasPassagens" value="" />
+                <select name="cmbDiariasPassagens" id="cmbDiariasPassagens" onchange="none;">
+                </select>
+
+                <script>
+                    if ($("#hndItem").val() == 15) {
+                        $("#cmbDiariasPassagens").val("1");
+                    } 
+                </script>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Cargo do Benefici rio:
+            </td>
+            <td>
+                <input type="text" name="txtCargoBenificiario" id="txtCargoBenificiario" maxlength="150" style="width: 237px;" />
+            </td>
+        </tr>
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipo da Transferˆncia:
+            </td>
+            <td>
+                <input type="hidden" name="hndTipoTransferencia" id="hndTipoTransferencia" value="" />
+                <select name="cmbTipoTransferencia" id="cmbTipoTransferencia" onchange="none;">
+                    <option value="">SELECIONE</option>
+                    <option value="41">CONTRIBUI€™ES</option>
+                    <option value="42">AUX‹LIOS</option>
+                    <option value="43">SUBVEN€™ES SOCIAIS</option>
+                    <option value="45">SUBVEN€™ES ECONŒMICAS</option>
+                </select>
+            </td>
+        </tr>
+
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Origem:
+            </td>
+            <td>
+                <input type="hidden" name="hndOrigemRecurso" id="hndOrigemRecurso" value="" />
+                <select name="cmbOrigemRecurso" id="cmbOrigemRecurso" onchange="none;">
+                    <option value="-1">SELECIONE</option>
+                    <option value="1">UNIŽO</option>
+                    <option value="2">ESTADO</option>
+                    <option value="3">OUTROS</option>
+                </select>
+            </td>
+        </tr>
+
+        
+        <tr class="ClassForm" style="display: none;">
+            <td align="right"></td>
+            <td>
+                
+            </td>
+            <td style="height:100px;"></td>
+
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                N£mero do Empenho:
+            </td>
+            <td>
+                <input type="text" name="txtEmpenho" id="txtEmpenho" maxlength="6" style="width: 237px;
+							text-align: right;" />
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Estado:
+            </td>
+            <td>
+                <input type="hidden" name="hndEstado" id="hndEstado" value="" />
+                <select name="cmbEstado" id="cmbEstado" onchange="">
+                    <option value="-1">TODOS</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Munic¡pio:
+            </td>
+            <td>
+                <input type="hidden" name="hndMunicipio" id="hndMunicipio" value="" />
+                <select name="cmbMunicipio" id="cmbMunicipio">
+                    <option value="-1">TODOS</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Valor do Contrato:
+            </td>
+            <td>
+                <table class="ClassFormTable">
+                    <tr>
+                        <td>
+                            <div style="margin-left: 10px;">
+                                Maior &nbsp;que R$
+                                <input type="text" name="txtValorContratoInicial" id="txtValorContratoInicial" style="width: 330px;
+											text-align: right;" maxlength="19" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="margin-left: 10px;">
+                                Menor que R$
+                                <input type="text" name="txtValorContratoFinal" id="txtValorContratoFinal" style="width: 330px;
+											text-align: right;" maxlength="19" />
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Tipo do Contrato:
+            </td>
+            <td>
+                <table class="ClassFormTable" id="tbTipoContrato">
+                    <tr>
+                        <td style="white-space: nowrap;" class="TipoContratoTodos">
+                            <input type="checkbox" name="ckTipoContratoTodos" id="ckTipoContratoTodos" value="0" />
+                            <span class="textCheckBox">
+                                Todos
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoCompra" id="ckTipoContratoCompra" value="1" />
+                            <span class="textCheckBox">
+                                Compra
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoConcessao" id="ckTipoContratoConcessao" value="2" />
+                            <span class="textCheckBox">
+                                Concess„o
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoObra" id="ckTipoContratoObra" value="4" />
+                            <span class="textCheckBox">
+                                Obra
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoServico" id="ckTipoContratoServico" value="8" />
+                            <span class="textCheckBox">
+                                Servi‡o
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoServicoEngenharia" id="ckTipoContratoServicoEngenharia" value="16" />
+                            <span class="textCheckBox">
+                                Servi‡o de Engenharia
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoTrabalhoTecnico" id="ckTipoContratoTrabalhoTecnico" value="32" />
+                            <span class="textCheckBox">
+                                Concurso<span style="font-size: 10px;"> - Trabalho T‚cnico</span>
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoTrabalhoCientifico" id="ckTipoContratoTrabalhoCientifico" value="64" />
+                            <span class="textCheckBox">
+                                Concurso<span style="font-size: 10px;"> - Trabalho Cient¡fico</span>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" class="TipoContrato">
+                            <input type="checkbox" name="ckTipoContratoTrabalhoArtistico" id="ckTipoContratoTrabalhoArtistico" value="128" />
+                            <span class="textCheckBox">
+                                Concurso<span style="font-size: 10px;"> - Trabalho Art¡stico</span>
+                            </span>
+                        </td>
+
+                        <td style="white-space: nowrap; display:none;" class="TipoContrato" id="tpPermissaoContrato">
+                            <input type="checkbox" name="ckTipoContratoPermissao" id="ckTipoContratoPermissao" value="2048" />
+                            <span class="textCheckBox">
+                                Permiss„o
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="white-space: nowrap; display:none;" class="TipoContrato" id="tpLocacaoContrato">
+                            <input type="checkbox" name="ckTipoContratoLocacao" id="ckTipoContratoLocacao" value="512" />
+                            <span class="textCheckBox">
+                                Loca‡„o
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap; display:none;" class="TipoContrato" id="tpCredenciamentoContrato">
+                            <input type="checkbox" name="ckTipoContratoCredenciamento" id="ckTipoContratoCredenciamento" value="256" />
+                            <span class="textCheckBox">
+                                Credenciamento
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Instrumento Contratual:
+            </td>
+            <td>
+                <table class="ClassFormTable" id="tbInstrumentoContratual">
+                    <tr>
+                        <td style="white-space: nowrap;" class="instrumentoContratualTodos">
+                            <input type="checkbox" name="ckIsntrumentoContratoTodos" id="ckIsntrumentoContratoTodos" value="0" />
+                            <span class="textCheckBox">
+                                Todos
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" class="instrumentoContratual">
+                            <input type="checkbox" name="ckContrato" id="ckContrato" value="1" />
+                            <span class="textCheckBox">
+                                Contrato
+                            </span>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" width="150px" class="instrumentoContratual">
+                            <input type="checkbox" name="ckCartaContrato" id="ckCartaContrato" value="2" />
+                            <span class="textCheckBox">
+                                Carta Contrato
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" width="150px" class="instrumentoContratual">
+                            <input type="checkbox" name="ckAutorizacaoCompras" id="ckAutorizacaoCompras" value="4" />
+                            <span class="textCheckBox">
+                                Autoriza‡„o de Compras
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" class="instrumentoContratual">
+                            <input type="checkbox" name="ckOrdemServico" id="ckOrdemServico" value="8" />
+                            <span class="textCheckBox">
+                                Ordem Execu‡„o de Servi‡o
+                            </span>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr class="ClassForm contratos" style="display: none;">
+            <td align="right">
+                Contratos Com:
+            </td>
+            <td>
+                <table class="ClassFormTable" id="tbSomenteContratos">
+                    <tr>
+                        <td style="white-space: nowrap;" class="contratosComTodos">
+                            <input type="checkbox" name="ckContratoTodos" id="ckContratoTodos" value="0" />
+                            <span class="textCheckBox">
+                                Todos
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" width="150px" class="contratosCom">
+                            <input type="checkbox" name="ckContratosAtivos" id="ckContratosAtivos" value="1" />
+                            <span class="textCheckBox">
+                                Ativos
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" width="150px" class="contratosCom">
+                            <input type="checkbox" name="ckContratosAditivos" id="ckContratosAditivos" value="2" />
+                            <span class="textCheckBox">
+                                Com Aditivos
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" class="contratosCom">
+                            <input type="checkbox" name="ckContratosReajustes" id="ckContratosReajustes" value="4" />
+                            <span class="textCheckBox">
+                                Com Reajustes
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;" class="contratosCom">
+                            <input type="checkbox" name="ckContratosRescindidos" id="ckContratosRescindidos" value="8" />
+                            <span class="textCheckBox">
+                                Rescindidos
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;" colspan="2" class="contratosCom">
+                            <input type="checkbox" name="ckContratosSuspensosCancelados" id="ckContratosSuspensosCancelados" value="16" />
+                            <span class="textCheckBox">
+                                Suspensos/Cancelados
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr style="display: none;">
+            <td align="right"></td>
+            <td style="width:250px">
+                <input type="checkbox" name="ckSomenteComAnexos" id="ckSomenteComAnexos"
+                       value="1"
+                <span class="textCheckBox">
+                    Somente com Anexos
+                </span>
+            </td>
+        </tr>
+
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Objeto:
+            </td>
+            <td>
+                <input type="text" name="txtObjeto" id="txtObjeto" maxlength="100" style="text-transform: uppercase;
+							width: 237px;" />
+            </td>
+        </tr>
+
+        <tr style="display: none;">
+            <td align="right"></td>
+            <td style="width:250px">
+                <input type="checkbox" name="ckComAnexos" id="ckComAnexos"
+                       value="1"
+                <span class="textCheckBox">
+                    Somente com Anexos
+                </span>
+            </td>
+        </tr>
+
+        <tr style="display: none;">
+            <td align="right"></td>
+            <td>
+
+                
+                <table class="modalidades-table">
+                    <tr>
+                        <td class="tit_modalidades" font style='font-weight:bold;'>
+                            1) Modalidade
+                        </td>
+                        <td width=75></td>
+                        <td class="tit_finalidades" font style='font-weight:bold; width: 250px;'>
+                            2) Finalidade
+                        </td>
+                    </tr>
+                    <tr style="height:10px;"></tr>
+                </table>
+
+                
+                <table class="modalidades-table" id="tbTipoLicitacao">
+                    <tr>
+                        <td class="modalidade todos">
+                            <input type="checkbox" name="ckTipoModalidadeTodos" id="ckTipoModalidadeTodos" value="0" />
+                            <span class="textCheckBox">
+                                Selecionar tudo
+                            </span>
+                        </td>
+
+                        <td class="finalidade alienacao" style="width:250px">
+                            <input type="checkbox" name="ckTipoAlienacaoBens" id="ckTipoAlienacaoBens"
+                                   value="512" disabled />
+                            <span class="textCheckBox">
+                                Aliena‡„o de Bens
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="modalidade geral padrao" style="width: 210px;">
+                            <input type="checkbox" name="ckTipoModalidadeConvite" id="ckTipoModalidadeConvite"
+                                   value="4" />
+                            <span class="textCheckBox">
+                                Convite
+                            </span>
+                        </td>
+
+                        <td class="finalidade geral padrao">
+                            <input type="checkbox" name="ckTipoLicitacaoCompra" id="ckTipoLicitacaoCompra" value="1"
+                                   disabled />
+                            <span class="textCheckBox">
+                                Compra
+                            </span>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="modalidade geral padrao alienacao">
+                            <input type="checkbox" name="ckTipoModalidadeConcorrencia" id="ckTipoModalidadeConcorrencia"
+                                   value="1" />
+                            <span class="textCheckBox">
+                                Concorrˆncia
+                            </span>
+                        </td>
+
+                        <td class="finalidade geral padrao">
+                            <input type="checkbox" name="ckTipoLicitacaoConcessao" id="ckTipoLicitacaoConcessao"
+                                   value="2" disabled />
+                            <span class="textCheckBox">
+                                Concess„o
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="modalidade concurso">
+                            <input type="checkbox" name="ckTipoModalidadeConcurso" id="ckTipoModalidadeConcurso"
+                                   value="2" />
+
+                            <span class="textCheckBox">
+                                Concurso
+                            </span>
+                        </td>
+
+                        <td class="finalidade concurso">
+                            <input type="checkbox" name="ckTipoLicitacaoTrabalhoArtistico" id="ckTipoLicitacaoTrabalhoArtistico"
+                                   value="256" disabled />
+
+
+                            <span class="textCheckBox">
+                                Concurso<span style="font-size: 10px;"> - Trabalho Art¡stico</span>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="modalidade geral padrao">
+                            <input type="checkbox" name="ckTipoModalidadeDispensavel" id="ckTipoModalidadeDispensavel"
+                                   value="8" />
+                            <span class="textCheckBox">
+                                Dispens vel
+                            </span>
+
+                        </td>
+
+                        <td class="finalidade concurso">
+                            <input type="checkbox" name="ckTipoLicitacaoTrabalhoCientifico" id="ckTipoLicitacaoTrabalhoCientifico"
+                                   value="128" disabled />
+                            <span class="textCheckBox">
+                                Concurso<span style="font-size: 10px;"> - Trabalho Cient¡fico</span>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="modalidade geral padrao credenciamento">
+                            <input type="checkbox" name="ckTipoModalidadeInexigivel" id="ckTipoModalidadeInexigivel"
+                                   value="16" />
+                            <span class="textCheckBox">
+                                Inexig¡vel
+                            </span>
+                        </td>
+
+                        <td class="finalidade concurso">
+                            <input type="checkbox" name="ckTipoLicitacaoTrabalhoTecnico" id="ckTipoLicitacaoTrabalhoTecnico"
+                                   value="64" disabled />
+                            <span class="textCheckBox">
+                                Concurso<span style="font-size: 10px;"> - Trabalho T‚cnico</span>
+                            </span>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="modalidade leilao">
+                            <input type="checkbox" name="ckTipoModalidadeLeilao" id="ckTipoModalidadeLeilao" value="32" />
+                            <span class="textCheckBox">
+                                Leil„o
+                            </span>
+                        </td>
+
+                        <td class="finalidade" id="tpPermissao" style="display:none">
+
+                            <input type="checkbox" name="ckTipoLicitacaoObra" id="ckTipoLicitacaoObra" value="8"
+                                   disabled />
+                            <span class="textCheckBox">
+                                Obra
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="modalidade geral padrao">
+                            <input type="checkbox" name="ckTipoModalidadePregaoPresencial" id="ckTipoModalidadePregaoPresencial"
+                                   value="192" />
+                            <span class="textCheckBox">
+                                Preg„o
+                            </span>
+                        </td>
+
+                        <td class="finalidade geral padrao">
+                            <input type="checkbox" name="ckTipoLicitacaoServico" id="ckTipoLicitacaoServico"
+                                   value="16" disabled />
+                            <span class="textCheckBox">
+                                Servi‡o
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="modalidade geral padrao alienacao">
+                            <input type="checkbox" name="ckTipoModalidadeTomadaPreco" id="ckTipoModalidadeTomadaPreco"
+                                   value="256" />
+                            <span class="textCheckBox">
+                                Tomada de Pre‡o
+                            </span>
+                        </td>
+                        <td class="finalidade geral padrao">
+                            <input type="checkbox" name="ckTipoLicitacaoServicoEngenharia" id="ckTipoLicitacaoServicoEngenharia"
+                                   value="32" disabled />
+                            <span class="textCheckBox">
+                                Servi‡o de Engenharia
+                            </span>
+                            <br>
+                        </td>
+                    </tr>
+					<tr>
+						<td class="modalidade geral padrao" id="tpCredencialmento" >
+							<input type="checkbox" name="ckTipoLicitacaoCredenciamento" id="ckTipoLicitacaoCredenciamento"
+								   value="1" />
+							<span class="textCheckBox">
+								Credenciamento
+							</span>
+						</td>
+						<td class="finalidade geral padrao">
+							<input type="checkbox" name="ckTipoLicitacaoPermissao" id="ckTipoLicitacaoPermissao"
+								   value="2048" disabled />
+							<span class="textCheckBoxCred">
+								Permiss„o
+							</span>
+						</td>
+					</tr>
+				
+					<tr>
+						<td class="modalidade geral padrao" id="tpCarona">
+							<input type="checkbox" name="ckTipoLicitacaoCarona" id="ckTipoLicitacaoCarona"
+								   value="1" />
+							<span class="textCheckBox">
+								Carona 
+							</span>
+						</td>
+						<td class="finalidade locacao" id="tpLocacao" >
+							<input type="checkbox" name="ckTipoLicitacaoLocacao" id="ckTipoLicitacaoLocacao"
+								   value="4096" class="chkCheckBoxCred" disabled />
+							<span class="textCheckBoxCred">
+								Loca‡„o
+							</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="modalidade geral padrao" id="tpChamamento" >
+							<input type="checkbox" name="ckTipoLicitacaoChamamento" id="ckTipoLicitacaoChamamento"
+								   value="1" />
+							<span class="textCheckBox">
+								Chamamento P£blico 
+							</span>
+						</td>
+						<td>
+						</td>
+					</tr>
+					
+
+				</table>
+				
+			</td>
+		</tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Porte da Empresa:
+            </td>
+            <td>
+                <table class="ClassFormTable">
+                    <tr>
+                        <td style="white-space: nowrap;">
+                            <input type="checkbox" name="ckPorteEmpresaMicro" id="ckPorteEmpresaMicro" value="1" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckPorteEmpresaMicro');">Micro Empresa</span>
+                        </td>
+                        <td style="white-space: nowrap;">
+                            <input type="checkbox" name="ckPorteEmpresaPequeno" id="ckPorteEmpresaPequeno" value="2" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckPorteEmpresaPequeno');">
+                                Pequeno
+                                Porte
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;">
+                            <input type="checkbox" name="ckPorteEmpresaNE" id="ckPorteEmpresaNE" value="4" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckPorteEmpresaNE');">N„o Especificado</span>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Descri‡„o do Produto:
+            </td>
+            <td>
+                <input type="text" name="txtDescricaoProduto" id="txtDescricaoProduto" maxlength="100"
+                       style="text-transform: uppercase; width: 474px;" />
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Categoria:
+            </td>
+            <td>
+                <input type="hidden" name="hndCategoria" id="hndCategoria" value="" />
+                <select name="cmbCategoria" id="cmbCategoria" multiple="true" size="8" />
+            </td>
+        </tr>
+        <tr class="ClassForm" style="display: none;">
+            <td align="right">
+                Classifica‡„o:
+            </td>
+            <td>
+                <table class="ClassFormTable">
+                    <tr>
+                        <td style="white-space: nowrap;">
+                            <input type="checkbox" name="ckClassificacaoBensPatrimoniais" id="ckClassificacaoBensPatrimoniais"
+                                   value="2" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckClassificacaoBensPatrimoniais');">
+                                Bens Patrimoniais
+                            </span>
+                        </td>
+                        <td style="white-space: nowrap;">
+                            <input type="checkbox" name="ckClassificacaoMaterialConsumo" id="ckClassificacaoMaterialConsumo"
+                                   value="1" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckClassificacaoMaterialConsumo');">
+                                Material de Consumo
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;">
+                            <input type="checkbox" name="ckClassificacaoObrasServicos" id="ckClassificacaoObrasServicos"
+                                   value="4" />
+                            <span class="textCheckBox" onclick="SetNotCheckBox('ckClassificacaoObrasServicos');">
+                                Obras e Servi‡os
+                            </span>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr style="height: 50px; display: ">
+            <td></td>
+            <td>
+                <input type="submit" name="confirma" id="confirma" value="Gerar" class="clsbutton" />
+            </td>
+        </tr>
+
+        </table>
+        </form>
+        
+    </div>
+    
+    <div id="home" style="display: Block;">
+        <img alt="Home" src="Imagens/home.jpg" width="100%" />
+    </div>
+    <div id="conteudo" style="width: 100%; background-color: #F5F5F5; display: none;">
+        
+    </div>
+    <div id="aguarde" style="display: none; z-index: 9990; position: absolute; width: 100%;
+		height: 100%; top: 0px; left: 0px" primeiravez="0">
+        <div style="position: absolute; background-color: #CCCCCC; opacity: 0.4; -moz-opacity: 0.4;
+			filter: alpha(opacity=40); top: 0px; left: 0px; width: 100%; height: 100%; z-index: 9991;">
+        </div>
+        <div id="aguardeinterno" style="position: relative; background-color: #F0F0FF; height: 100px;
+			width: 250px; z-index: 9992; border: black 2px solid;">
+            <table width="100%" style="height: 25%;">
+                <tr style="height: 25%;">
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="height: 25%;">
+                    <td align="center">
+                        ..: Aguarde :..
+                    </td>
+                </tr>
+                <tr style="height: 25%;">
+                    <td align="center">
+                        <img alt="" src="carregando.gif" />
+                    </td>
+                </tr>
+                <tr style="height: 25%;">
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="linhaRodape" style="width: 100%; text-align: center; bottom: 0px; left: 0px; border: 1px ridge"></div>
+
+	<table class="Class_Relatorio" style="width: 100%;">
+		<tr>
+			<td style="width: 400px;" >
+				PRONIM TB&nbsp;519.01.02-006
+			</td>
+			<td style="text-align:center; 0px;left: 0px;">
+				
+			</td>
+			<td style="width: 400px;" >
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 400px;">
+
+			</td>
+			<td style="text-align:center; 0px;left: 0px;">
+				
+			</td>
+			<td style="width: 400px;" >
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 400px;">
+			</td>
+			<td style="text-align:center; 0px;left: 0px;">
+				
+			</td>
+			<td style="width: 400px;" >
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 400px;">
+			</td>
+			<td style="text-align:center; 0px;left: 0px;">
+				
+			</td>
+			<td style="width: 400px;" >
+			</td>
+		</tr>
+	</table>
+
+    <div id="linhaRodape" style="width: 100%; text-align: center; bottom: 0px; left: 0px; border: 0px ridge; height:40px"></div>
+    <script>
+
+        function incializaValoresPadrao (){
+            //if ($("#hndAcao").val() == 1     ) {
+              //  incializaValoresPadraoLC()
+            //}else
+                
+           if($("#hndAcao").val() == 3) {
+                incializaValoresPadraoCP()
+            }
+
+        }
+        window.onload = incializaValoresPadrao();
+ 
+    </script>
+</body>
+<a href="#" class="scrollup">Scroll</a>
+
+</html>
+
+
+<script>
+    $(document).ready(function () {
+
+        '$("#txtDataInicial").val("");
+        '$("#txtDataFinal").val("");
+
+    });
+</script>
+

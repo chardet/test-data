@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="x-mac-greek"?>
+<!--
+Source: http://www.disabled.gr/at/wp-rss2.php
+Expect: ISO-8859-7
+-->
+<!-- generator="wordpress/1.5.1.3" -->
+<rss version="2.0" 
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+
+<channel>
+	<title>Disabled.GR</title>
+	<link>http://www.disabled.gr/at</link>
+	<description>Make Love not Rehab...</description>
+	<pubDate>Mon, 19 Dec 2005 12:04:11 +0000</pubDate>
+	<generator>http://wordpress.org/?v=1.5.1.3</generator>
+	<language>en</language>
+
+		<item>
+		<title>·θτεέται βοθυήχ ξοσολήνα</title>
+		<link>http://www.disabled.gr/at/?p=1796</link>
+		<comments>http://www.disabled.gr/at/?p=1796#comments</comments>
+		<pubDate>Fri, 28 Oct 2005 07:01:24 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>¦εςιοδιλή "°ξαπθςέα ΖΏΔ°"</category>
+	<category>°ςΫσει φχ Άήηνα !!!</category>
+	<category>Disabled.GR</category>
+	<category>»ιλςΫχ °ηηεμέεχ</category>
+		<guid>http://www.disabled.gr/at/?p=1796</guid>
+		<description><![CDATA[window.document.getElementById('post-1796').parentNode.className += ' adhesive_post';	·θτεέται βοθυήχ ξοσολήνα ηια τθξ ωποστάςικθ πομΰ δςαστάςιοω τετςαπμθηιλοΰ. Έ εςηασέα εέξαι στθξ °υάξα, στοξ Νηιο Αιλήμαο (°ψαςξρξ). Ζα λαυάλοξτΐ αζοςοΰξ στθξ ωποστάςικθ τφξ ωμιλρξ λαυθνεςιξρξ αξαηλρξ, τθξ πςοσφπιλά βοάυεια λαι τθξ σωξοδεέα σε τακέδια ηια σωξΫδςια λ.ΐ.  Έ εςηασέα ωποστθςέϊεται απή ήμα τα τεψξομοηιλΐ βοθυάνατα. ΅ια πεςισσήτεςεχ πμθςοζοςέεχ τθμεζφξεέστε στο [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1796</wfw:commentRSS>
+	</item>
+		<item>
+		<title>Ζέ εέξαι το °Α°¦ΈΔΉ° ΖΏΔ°; Άιαβΐστε !!!</title>
+		<link>http://www.disabled.gr/at/?p=796</link>
+		<comments>http://www.disabled.gr/at/?p=796#comments</comments>
+		<pubDate>Mon, 25 Apr 2005 17:14:59 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>¦εςιοδιλή "°ξαπθςέα ΖΏΔ°"</category>
+	<category>°ξαλοιξρσειχ</category>
+	<category>°ςΫσει φχ Άήηνα !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=796</guid>
+		<description><![CDATA[window.document.getElementById('post-796').parentNode.className += ' adhesive_post';	Ζο °Α°¦ΈΔΉ° ΖΏΔ° δθνιοωςηάυθλε το 1993 απή νέα παςΫα ζέμφξ ποω εέψαξ Ϋξα σοβαςήτατο πςοσφπιλή εξδιαζΫςοξ ηια τθξ αξαπθςέα λαι τιχ λαλρσειχ ξφτιαέοω νωεμοΰ. Έ γθζιαλά τοω ελδοψά, το www.DISABLED.GR, δθμαδά, εέδε ηια πςρτθ ζοςΐ το ζρχ το 1985 φχ Disabled Hellas σε Ϋξα PC τθχ εποψάχ ποω πςοσαςνήστθλε ηια ξα νποςεέ [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=796</wfw:commentRSS>
+	</item>
+		<item>
+		<title>¦ρχ ξα δθνοσιεΰσετε νιλςά αηηεμέα στο www.DISABLED.GR</title>
+		<link>http://www.disabled.gr/at/?p=1749</link>
+		<comments>http://www.disabled.gr/at/?p=1749#comments</comments>
+		<pubDate>Thu, 31 Mar 2005 07:44:16 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>°ςΫσει φχ Άήηνα !!!</category>
+	<category>»ιλςΫχ °ηηεμέεχ</category>
+		<guid>http://www.disabled.gr/at/?p=1749</guid>
+		<description><![CDATA[window.document.getElementById('post-1749').parentNode.className += ' adhesive_post';	¶ΐξ υΫμετε ξα δθνοσιεωυεέ νιλςά αηηεμέα στο www.DISABLED.GR υα πςΫπει ξα πεςιμανβΐξει λΐποιο εξεςηή email ά λΐποιο σταυεςή τθμΫζφξο ηια ξα ψςθσινοποιθυοΰξ απή τοωχ ευεμοξτΫχ τοω °Α°¦ΈΔΉ° ΖΏΔ° ηια ξα ηέξει θ επαμάυεωσθ τθχ αηηεμέαχ.
+
+°ηηεμέεχ ποω εξδΫψεται ξα βμΐγοωξ τθξ εωωπομθγέα τφξ αξαηξφστρξ δεξ δθνοσιεΰοξται.
+	Ωμεχ οι αηηεμέεχ δθνοσιεΰοξται λαι στο Ϋξτωπο πεςιοδιλή [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1749</wfw:commentRSS>
+	</item>
+		<item>
+		<title>Έ δθνοτιλήτθτα τοω WWW.DISABLED.GR</title>
+		<link>http://www.disabled.gr/at/?p=1728</link>
+		<comments>http://www.disabled.gr/at/?p=1728#comments</comments>
+		<pubDate>Tue, 29 Mar 2005 09:28:29 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>¦εςιοδιλή "°ξαπθςέα ΖΏΔ°"</category>
+	<category>Άιαδέλτωο</category>
+	<category>°ςΫσει φχ Άήηνα !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=1728</guid>
+		<description><![CDATA[window.document.getElementById('post-1728').parentNode.className += ' adhesive_post';	Ζο WWW.DISABLED.GR εέξαι το δθνοζιμΫστεςο site αξαπθςέαχ στοξ λήσνο, σΰνζφξα νε τιχ νετςάσειχ τοω www.alexa.com: Έ δθνοτιλήτθτα τφξ sites στο Internet νετςιΫται απή το www.alexa.com. Γι νετςάσειχ τοω alexa.com ηέξοξται δελτΫχ λαι απή το εμμθξιλή .gr domain. Μςθσινοποιοΰξται δε, λατΐ λήςοξ, απή τιχ διαζθνιστιλΫχ εταιςέεχ. ¶έξαι θ πςρτθ ζοςΐ ποω εμμθξιλή site [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1728</wfw:commentRSS>
+	</item>
+		<item>
+		<title>¦εςιοδιλή °ξαπθςέα ΖΏΔ° (¦έξαλαχ ¦εςιεψονΫξφξ)</title>
+		<link>http://www.disabled.gr/at/?p=956</link>
+		<comments>http://www.disabled.gr/at/?p=956#comments</comments>
+		<pubDate>Fri, 18 Mar 2005 19:10:42 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>°ξωπήταλτα</category>
+	<category>¶νεέχ :-)</category>
+	<category>¦εςιοδιλή "°ξαπθςέα ΖΏΔ°"</category>
+	<category>°ςΫσει φχ Άήηνα !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=956</guid>
+		<description><![CDATA[window.document.getElementById('post-956').parentNode.className += ' adhesive_post';	Ίαμρχ άςυατε στο πεςιοδιλή °Α°¦ΈΔΉ° ΖΏΔ°. ¶λδέδεται απή το 1993 λΐυε δΰο νάξεχ λαι πεςιμανβΐξει 116 σεμέδεχ. Ζαψωδςονεέται σε 8.300 σωξδςονθτΫχ απή ήμθ τθξ ¶μμΐδα λαι τθξ Ίΰπςο.
+
+	Ζα ¦¶ΔΉ¶ΜΓ»¶Α° αξΐ τεΰψοχ
+	»ποςεέτε ξα διαβΐσετε ήμεχ τιχ δθνοσιεΰσειχ Ϋτσι ήπφχ αωτΫχ δθνοσιεΰτθλαξ απή το 1ο τεΰψοχ νΫψςι σάνεςα εΐξ αλομοωυάσετε τοωχ παςαλΐτφ σωξδΫσνοωχ: Ζεΰψοχ [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=956</wfw:commentRSS>
+	</item>
+		<item>
+		<title>¦ρχ υα δθνοσιεΰσετε λεένεξα στο www.DISABLED.GR λαι στο πεςιοδιλή °Α°¦ΈΔΉ° ΖΏΔ°</title>
+		<link>http://www.disabled.gr/at/?p=1190</link>
+		<comments>http://www.disabled.gr/at/?p=1190#comments</comments>
+		<pubDate>Fri, 18 Mar 2005 17:19:22 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>¦εςιοδιλή "°ξαπθςέα ΖΏΔ°"</category>
+	<category>°ξαλοιξρσειχ</category>
+	<category>¦αςΐμωσθ</category>
+	<category>°ςΫσει φχ Άήηνα !!!</category>
+	<category>Disabled.GR</category>
+		<guid>http://www.disabled.gr/at/?p=1190</guid>
+		<description><![CDATA[window.document.getElementById('post-1190').parentNode.className += ' adhesive_post';	Ωμα τα λεένεξα ποω ζτΐξοωξ στο www.DISABLED.GR δθνοσιεΰοξται ανΫσφχ στθξ γθζιαλά λοιξήτθτα, εζήσοξ αξάλοωξ στθξ επιλαιςήτθτα, ά στθ βιβμιουάλθ εζήσοξ εέξαι διαψςοξιλΐ.
+
+ªε ή,τι αζοςΐ στο Ϋξτωπο πεςιοδιλή °Α°¦ΈΔΉ° ΖΏΔ°, νποςοΰξ ξα δθνοσιεωυοΰξ λεένεξα ποω δεξ ωπεςβαέξοωξ τθ νέα ά τιχ δΰο σεμέδεχ δθνοσιεωνΫξοω λεινΫξοω. ªωξάυφχ, δθνοσιεΰοξται ήμα τα νιλςΐ λεένεξα λαι ήμεχ [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=1190</wfw:commentRSS>
+	</item>
+		<item>
+		<title>°΅΅¶¤Ή°</title>
+		<link>http://www.disabled.gr/at/?p=2556</link>
+		<comments>http://www.disabled.gr/at/?p=2556#comments</comments>
+		<pubDate>Mon, 19 Dec 2005 12:04:11 +0000</pubDate>
+		<dc:creator>Georgia Fika</dc:creator>
+		
+	<category>»ιλςΫχ °ηηεμέεχ</category>
+		<guid>http://www.disabled.gr/at/?p=2556</guid>
+		<description><![CDATA[	Μαςέϊεται αλοωστιλή βαςθλούαχ ηια αςιστεςή αωτέ σε ΐξυςφπο ποω το Ϋψει αξΐηλθ λαι αδωξατεέ ξα το αηοςΐσει τθμ 2310325377
+	Ίαταψφςάυθλε στιχ 19-12-2005
+
+]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2556</wfw:commentRSS>
+	</item>
+		<item>
+		<title>°΅΅¶¤Ή°</title>
+		<link>http://www.disabled.gr/at/?p=2555</link>
+		<comments>http://www.disabled.gr/at/?p=2555#comments</comments>
+		<pubDate>Fri, 16 Dec 2005 10:11:12 +0000</pubDate>
+		<dc:creator>Georgia Fika</dc:creator>
+		
+	<category>»ιλςΫχ °ηηεμέεχ</category>
+		<guid>http://www.disabled.gr/at/?p=2555</guid>
+		<description><![CDATA[	¦φμεέται °εςήστςφνα ςωυνιϊήνεξο ηια λαταλμέσειχ λαιξοΰςιο στο λοωτέ τοω νε 11 νάξεχ αλήνα εηηΰθσθ τθμ .210-5734594  6938185089
+	Ίαταψρςθυθλε στιχ 16-10-2005
+
+]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2555</wfw:commentRSS>
+	</item>
+		<item>
+		<title>Άεμτέα λοιξφξιλοΰ τοωςισνοΰ 29 ελατ. εωςρ</title>
+		<link>http://www.disabled.gr/at/?p=2554</link>
+		<comments>http://www.disabled.gr/at/?p=2554#comments</comments>
+		<pubDate>Wed, 14 Dec 2005 09:45:15 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>¦αςοψΫχ</category>
+	<category>ΆιαλοπΫχ, °ξαγωψά</category>
+	<category>°ςΫσει φχ Άήηνα !!!</category>
+		<guid>http://www.disabled.gr/at/?p=2554</guid>
+		<description><![CDATA[	°ςψέϊει αΰςιο παξεμμαδιλΐ θ λατ&#8217; αμζαβθτιλά σειςΐ αποηςαζά τφξ διλαιοΰψφξ ποω υα σωννετΐσψοωξ στο ξΫο πςήηςαννα λοιξφξιλοΰ τοωςισνοΰ τοω Γςηαξισνοΰ ¶ςηατιλάχ ¶στέαχ Ϋτοωχ 2006 νε στήψο ξα ομολμθςφυεέ στιχ αςψΫχ Όεβςοωαςέοω 2006.
+
+£α ελδουοΰξ σωξομιλΐ 320.000 δεμτέα λοιξφξιλοΰ τοωςισνοΰ ακέαχ 29.018.341,88 εωςρ.
+	Ζο πςήηςαννα απεωυΰξεται λωςέφχ σε ψανθμΐ λαι νεσαέα εισοδθνατιλΐ στςρνατα τθχ ψρςαχ. ΌΫτοχ πΐξτφχ δεξ [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2554</wfw:commentRSS>
+	</item>
+		<item>
+		<title>Έ ψςθνατοδήτθσθ τθχ λοιξφξιλάχ σωξοψάχ</title>
+		<link>http://www.disabled.gr/at/?p=2553</link>
+		<comments>http://www.disabled.gr/at/?p=2553#comments</comments>
+		<pubDate>Tue, 13 Dec 2005 18:24:46 +0000</pubDate>
+		<dc:creator>Nikos</dc:creator>
+		
+	<category>¶ωςφπαϋλά Ξξφσθ</category>
+		<guid>http://www.disabled.gr/at/?p=2553</guid>
+		<description><![CDATA[	ΖΓΑ ¦¶Δ°ª»¶ΑΓ Ήοΰμιο θ ¶ωςφπαϋλά ¶πιτςοπά παςοωσέασε νια αξαλοέξφσθ θ οποέα αξαζΫςοξταξ στθξ πομιτιλά θ οποέα υα πςΫπει ξα αλομοωυθυεέ πςολεινΫξοω ξα επιτεωψυεέ βιρσινθ οιλοξονιλά αξΐπτωκθ θ οποέα υα οδθηάσει λαι σε οιλοξονιλά σωξοψά λαι αΰκθσθ τθχ απασψήμθσθχ.
+
+Λποστθςέϊεται τθξ αξαλοέξφσθ αωτά ήτι λαι δεδονΫξθχ τθχ στςατθηιλάχ τθχ ¤ισαβήξαχ ηια τθξ αξΐπτωκθ λαι τθξ απασψήμθσθ τα [...]]]></description>
+		<wfw:commentRSS>http://www.disabled.gr/at/?feed=rss2&amp;p=2553</wfw:commentRSS>
+	</item>
+	</channel>
+</rss>

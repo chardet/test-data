@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="is-IS">
+<head>
+<title>Rotalla Setula E-Race RH01 215/55 R16 97W XL - 123dekk.is</title>
+<meta http-equiv="Content-Type" content="text/html; charset=x-mac-icelandic"> 
+<meta name="description" content="Ekstremt billige dekk for personbiler og transportere. Vi tilbyr deg bildekk til svært fordelaktige og uslåelige priser, fraktfritt innen Tyskland, gunstig på montering av dekk, nesten overalt i Tyskland. Enkel bestilling, fleksibel betaling, svært godt utvalg" />
+<meta name="keywords" content="Dekk, bildekk, felger, komplette hjul, biltilbehør, dekkinformasjon, dekkpriser, dekk til beste pris, dekktest, dekkhandel, dekkforhandler, dekktilbud, " />
+<link rel="icon" href="https://www.123dekk.is/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://www.123dekk.is/rshop/Dekk/215-55-R16" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+<link rel="icon" href="https://www.123dekk.is/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/scss/font-awesome-4.7.0/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://ssl.delti.com/scss/responsive/rshop.css" />
+<link rel="stylesheet" type="text/css" href="https://ssl.delti.com/rshop/rdshop/styles/style.css" />
+<link rel="stylesheet" type="text/css" href="/styles/local.css" />
+</head>
+<body>
+<div id="cookie-diss">
+<div class="container">
+<div class="row">
+<div class="col-sm-11 col-xs-10">
+<span>Vi› notum kökur á heimasí›u okkar til a› gera heimsókn ﬂína skilvirkari og notendavænn.</span>
+</div>
+<div class="col-sm-1 col-xs-2">
+<a href="#" onclick="$('#cookie-diss').css('display','none');document.cookie='priv_pol=191;max-age=2592000;path=/;'" class="cookie-diss-button">OK</a>
+</div>
+</div>
+</div>
+</div>
+<div id="headline">
+<div class="container">
+<div class="row">
+ <div class="col-md-6 col-lg-5 hidden-xs"><img src="/images/ico_08.png" alt="ico"> 21 54 32 92 <small class="hidden-xs">(Mánudaga til föstudags kl. 9-17)</small></div>
+ <div class="col-xs-12 col-md-6 col-lg-7 head-right">
+<ul>
+<li class="hidden-xs"><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=Contact">Hafa samband</a></li>
+<li class="hidden-xs"><a href="/cgi-bin/my-account.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169">Mínar pantanir</a></li> 
+<li><a href="#" class="minicart" rel="nofollow"><i class="cart-ico"></i><span class="count">0</span><span class="price">0.00 ISK </span></a>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+ <div class="logo_txt">
+ <a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=index">
+ <span class="logo_head">123dekk.<i>is</i></span><br>
+ 
+ </a>
+ </div>
+ </div>
+<div class="collapse navbar-collapse" id="navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Sommerdekk <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=Sommerdekk">Sommerdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=Helarsdekk">Helårsdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=3&amp;tyre_for=LLKW&amp;s_p=lastebil-dekk">Dekk til lett lastebil</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=3&amp;tyre_for=Runflat&amp;s_p=RunFlat-dekk">RunFlat dekk </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=3&amp;tyre_for=Competition&amp;s_p=Racing-dekk">Racing dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=3&amp;tyre_for=Oldtimer&amp;s_p=Oldtimer-dekk">Oldtimer-dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=3&amp;tyre_for=OFF&amp;s_p=4x4-dekk">Offroad- /4x4-dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=2&amp;s_p=Lastebildekk">Lastebildekk</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Vinterdekk <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=Vinterdekk">Vinterdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=Vinterdekk">Vinterdekk (Friksjon/Uten pigger)</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=Norden-dekk">Norden dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=Piggdekk">Vinterdekk (Piggdekk)</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Lastebildekk <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=2&amp;s_p=Lastebildekk">Lastebildekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=3&amp;tyre_for=LLKW&amp;s_p=lastebil-dekk">Dekk til lett lastebil</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Spesialdekk <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=2&amp;s_p=spesialdekk">Industri-, spesial- og slepedekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Anh_ngerreifen_Diagonal">Trailerdekk diagonal</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Bau__und_Forstmaschinen__MPT_">Bygg- og skogbruksmaskiner(MPT)</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Erdbewegungsreifen_Bagger__EM_">Anleggsmaskiner/gravemaskiner </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Golfcartreifen">Golfbil dekk </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Industriereifen_Luft">Industridekk luft</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Kleinreifen_M_her">Mindre dekk/slåmaskiner</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Landwirtschaftsreifen__AS_">Landbruksmaskin dekk </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;m_s=4&amp;tyre_for=Quad___ATV">Firehjuling / ATV</a></li>
+</ul>
+</li>
+</ul>
+</div></div></nav>
+</div>
+<form action="https://www.123dekk.is/cgi-bin/rshop.pl" name="main_form" class="pure-form" method="get">
+<input type="hidden" name="dsco" value="191" />
+<input type="hidden" name="cart_id" value="BBaK7Vy9QdKIXeSR.191.521906169" />
+<div class="container mainback">
+<ul class="breadcrumb">
+<li class="bread_back"><a href="/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Breite=215&amp;Quer=55&amp;Felge=16&amp;ranzahl=4&amp;rsmFahrzeugart=ALL&amp;suchen=+" id="breadcrumb_goback"><i class="fa fa-arrow-circle-o-left fa-lg"></i> Tilbaka í leitarni›urstö›ur</a></li>
+<li class="bread_point"><a href="/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;s_p=index">Dekkin mín heimasvæ›i</a></li>
+<li class="bread_point"><a href="/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;ranzahl=4&amp;Breite=215&amp;rsmFahrzeugart=ALL&amp;Quer=55&amp;Felge=16&amp;suchen=Ordern">215/55&nbsp;16&nbsp;</a></li>
+<li class="bread_point active"><a href="#">Rotalla Setula E-Race RH01</a></li></ul>
+<h1>Rotalla Setula E-Race RH01 215/55 R16 97W XL</h1>
+<h2><img src="/simg/Logos/Rotalla.gif" alt="Rotalla" style="max-width:100%" /></h2>
+
+
+<p>Research and development with great prices.</p>
+
+
+<div class="row">
+<div class="col-md-4">
+<link rel="stylesheet" type="text/css" href="/sjs/jquery/cloudzoom/cloudzoom.css" />
+
+
+<div class="zoom-reifenbild-div">
+<img class="cloudzoom" id="zoom-reifenbild" src="//image.delti.com/tyre-pictures/h300/Brands/Rotalla/191/Profil_SetulaE-RaceRH01.jpg" alt="Rotalla Setula E-Race RH01" data-cloudzoom="zoomImage: '//image.delti.com/tyre-pictures/1000/Brands/Rotalla/191/Profil_SetulaE-RaceRH01.jpg', lazyLoadZoom: true, disableZoom: 'auto'" />
+</div>
+<link rel="stylesheet" href="/sjs/jquery/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+
+
+
+
+
+<p></p>
+<p style="font-size:xx-small;">
+<b>Vinsamlegast athugi›:</b> Vi› sendum einungis dekk. ﬁó a› felga sé s‡nd á myndinni, er hún ekki innifalin í ver›inu.
+</p>
+
+</div>
+<div class="col-md-8">
+
+<div class="price_section"><div class="price_details"><span id="det_price">einungis <b>9,047</b> ISK</b></i></span>
+<br /><span id="det_ship">Póstbur›argjald og umbú›ir er innifali› í ver›inu!</span>
+<p style="white-space:nowrap;">
+</form>
+<form method="get" action="https://www.123dekk.is/cgi-bin/rshop.pl">
+<input name="dsco" type="hidden" value="191">
+<input name="cart_id" type="hidden" value="BBaK7Vy9QdKIXeSR.191.521906169">
+<div class="ranzahl"> Magn: <select name="ranzahl" id="ranzahl"><option>1</option>\n<option>2</option>\n<option>3</option>\n<option selected="selected">4</option>\n<option>5</option>\n<option>6</option>\n<option>7</option>\n<option>8</option>\n<option>9</option>\n<option>10</option>\n</select></div>
+<input type="hidden" name="add_to_cart" value="Bestellen" />
+<input type="hidden" name="SID" value="52c8587b2c1cb25009bc2d3b053bc161" />
+<input type="hidden" name="4|R-294440|9047|Rotalla Setula E-Race RH01 215/55 R16 97W XL|226" value="1" />
+<button type="submit" class="pure-button pure-button-primary" rel="nofollow"><i class="fa fa-shopping-cart fa-lg"></i> Bæta í körfu</button> </p></div>
+</div>
+
+
+<table class="table table-hover">
+
+<tr valign="top"><td>Dekkjastær›:</td><td>215/55 R16 97W <a href="https://www.123dekk.is/cgi-bin/rshop.pl?details=Ordern&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;typ=R-294440&amp;ranzahl=4&amp;Breite=215&amp;Quer=55&amp;Felge=16&amp;dsco=191&amp;&amp;dim_wahl=1" class="uline">breyta</a></td></tr>
+
+<tr valign="top"><td>Sta›a lagers:</td><td><span style="color:#006600;font-weight:bold">Til á lager</span></td></tr>
+
+<tr valign="top"><td>Tegund dekks:</td><td>
+<b>Sumardekk</b><img src="/simg/So.gif" width="15" height="15" alt="Sumardekk" border="0" /><br /></td></tr>
+
+<tr valign="top"><td>EAN:</td><td>6958460908906</td></tr>
+
+<tr valign="top"><td>Hlutur nr.:</td><td>R-294440</td></tr>
+
+<tr valign="top"><td>Hra›avísir:</td><td><b style="color: #009933">W</b>: ﬂetta dekk er vi›urkennt fyrir hra›akstur <b>allt a› 270 km/h</b> vi›urkennt.</td></tr>
+
+</table>
+
+</div>
+</div>
+<p>Rotalla 215/55 R16 97W XL Setula E-Race RH01
+<p>Rotalla: Research and development with great prices.  </p>
+  </p><p><p> 
+		<a href="rd-weitersagen.pl?cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;dsco=191&amp;typ=R-294440&amp;Marke=Rotalla&amp;Profil=Setula E-Race RH01" aria-label="Vara sem mælt er me›"><i class="fa fa-envelope-o fa-2x"></i></a> 
+<a href="javascript:window.print()" aria-label="Prentuppl‡singar"><i class="fa fa-print fa-2x"></i></a>
+</p> 
+<div align="right"><a href="https://www.123dekk.is/cgi-bin/rshop.pl?suchen=Ordern&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;ranzahl=4&amp;Breite=215&amp;Quer=55&amp;Felge=16&amp;dot_XX=&amp;dsco=191&amp;x_tyre_for=#R-294440" class="pure-button"><i class="fa fa-level-up"></i>
+ Tilbaka í leitarni›urstö›ur</a></div>
+<br>
+<br>
+<br>
+</div>
+</form>
+	<div class="container"></div><div class="bg-grad-gray ico-block">
+ <div class="container">
+ <div class="row duable-top-block ">
+ <div class="col-sm-6 col-md-3 hidden-xs ico-box">
+ <img src="/images/ico-5.png" alt="" class="img-ico-left">
+ <h6>Fast afhendingu</h6>
+ </div>
+ <div class="col-sm-6 col-md-3 hidden-xs ico-box">
+ <img src="/images/ico-4.png" alt="" class="img-ico-left">
+ <h6>+ 5 ﬁjónusta Partner</h6>
+ </div>
+ <div class="col-sm-6 col-md-3 hidden-xs ico-box">
+ <img src="/images/ico-2.png" alt="" class="img-ico-left">
+ <h6>Örugg grei›slu og pöntun</h6>
+ </div>
+ <div class="col-sm-6 col-md-3 hidden-xs ico-box">
+ <img src="/images/ico-3.png" alt="" class="img-ico-left">
+ <h6>30 daga aftur stefnu</h6>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</form>	
+<form action="/cgi-bin/rd-newsletter.pl" method="post">
+<input type="hidden" name="dsco" value="191" />
+<input type="hidden" name="cart_id" value="BBaK7Vy9QdKIXeSR.191.521906169" />
+<div class="bg-orang-grad">
+<div class="container">
+<div class="row">
+<div class="col-sm-5 col-md-6 col-lg-5 hidden-xs">
+<img src="/images/rb4.png" alt="" class="castom_img_shearch">
+</div>
+<div class="col-xs-12 col-sm-7 col-md-6 col-lg-7">
+<h4>Register Fréttabréf</h4>
+<p>Skrá›u ﬂig núna til Fréttabréf! Gerast áskrifandi núna a› fréttabréfinu og fá n‡justu a›ger›ir 123dekk.is</p>
+<input type="email" name="user" placeholder="E-mail" value="" aria-label="E-mail">
+<input type="submit" name="baba" value="skráning">
+</div>
+</div>
+</div>
+</div>
+</div><div class="clear"></div>
+	
+<div class="footerNavA hidden-xs">
+<div class="container">
+<div class="row footerY">
+<div class="col-md-3 col-xs-6 footerX">	
+<h4>Fyrirsagnir</h4>
+<ul id="footerNav">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=PKWSo&amp;s_p=Sommerdekk">Sumardekk</a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=PKWWi&amp;s_p=Vinterdekk">Vinterdekk </a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=PKWDubbade&amp;s_p=Piggdekk">Vinterdekk (Nagladekk)</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-xs-6 footerX">	
+<h4>&nbsp;</h4>
+<ul id="footerNav">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=PKWGAN&amp;s_p=Helarsdekk">Helårsdekk</a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=LLKW&amp;s_p=lastebil_dekk">Dekk fyrir létta trukka</a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=OFF&amp;s_p=4x4-dekk">Offroad- /4x4-dekk</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-xs-6 footerX">	
+<h4>&nbsp;</h4>
+<ul id="footerNav">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=Runflat&amp;s_p=RunFlat_dekk">Run-Flat dekk </a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;tyre_for=Competition&amp;s_p=Racing-dekk">Kappakstursdekk</a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;m_s=3&amp;second_size=1&amp;s_p=Dekk_med_ulik_storrelse">Dekk med ulik storrelse </a></li>
+</ul>
+</div>
+<div class="col-md-3 col-xs-6 footerX">	
+<h4>&nbsp;</h4>
+<ul id="footerNav">
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Dekkjamerki">Dekkjamerki</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Ni_urstoe_ur_profana-Dekk">Ni›urstö›ur prófana-Dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Biltegund-Dekk">Bíltegund Dekk</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="footerNav">
+<div class="container">
+<div class="row footerY">
+<div class="col-md-3 col-xs-6 footerX">	
+<h4>ﬁjónustuver</h4>
+<ul id="footerNav">
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=index">Dekk online</a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=index">Hjem</a></li>
+<li><a href="/cgi-bin/page.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=DErezept">Afhendingar- og grei›slumáti</a></li>
+<li><a href="/cgi-bin/page.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=AGBs">Reglur og skilmálar</a></li>
+<li><a href="/cgi-bin/page.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=datenschutz">Persónuverndarstefna</a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Contact">Hafa samband</a></li>
+<li><a href="/cgi-bin/rd-newsletter.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Newsletter">Newsletter</a></li>
+<li><a href="/cgi-bin/rd-weitersagen.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Recomendar">Me›mæli</a></li>
+<!--<li><a href="/cgi-bin/RD-FAQs.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=/FAQs/index">F.A.Q</a></li>-->
+<li><a href="/cgi-bin/my-account.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=">Mínar pantanir</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-xs-6 footerX">	
+<h4>Stofnun</h4>
+<ul id="footerNav">
+<li><a href="http://www.delti.com/press/english/" target="_blank">Fjölmi›lar</a></li>
+<li><a href="/cgi-bin/RD-kundenmeinung.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Kunder_om_oss">Vi›skiptavinir um okkur</a></li>
+</ul>
+<h4>grei›slukostirnir</h4>
+<div class="pay_white"><img src="/simg/p-visa.png" alt="visa" width="47" height="30" hspace="2" border="0" /><img src="/simg/p-mastercard.png" alt="mastercard" width="47" height="30" hspace="2" border="0" /><img src="/simg/p-paypal.png" alt="paypal" width="47" height="30" hspace="2" border="0" /><img src="/simg/p-banktransfer.png" alt="banktransfer" width="47" height="30" hspace="2" border="0" /><img src="/simg/p-ssl.png" alt="ssl" width="63" height="30" hspace="2" border="0" /></div>
+</div>
+<div class="col-md-3 footerX hidden-xs">
+<h4>A›sto› og rá›leggingar</h4>
+<ul id="footerNav">
+<li><a href="/cgi-bin/reifenneumontage.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=">Skrá ﬂjónustua›ila</a></li>
+<li><a href="https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Reifenbezeichnung">Dekkbetegnelse</a></li>
+<li><a href="/cgi-bin/rd-rueckruf.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;s_p=Call-Back">Símtalsﬂjónusta</a></li>
+<!--<li><a href="/cgi-bin/RD-FAQs.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=&amp;page=rdks&amp;s_p=TPMS-information">Informasjon om TPMS</a></li>	-->	
+<li><a href="/cgi-bin/stationssuche.pl?dsco=191&amp;cart_id=BBaK7Vy9QdKIXeSR.191.521906169&amp;Cookie=">Umfelgunara›ilar dekkja</a></li>
+</ul>
+</div>
+<div class="col-md-3 footerX hidden-xs">
+<section class="footer-iframe-trustplot">
+<div class="kundenmeinungen"></div></section>
+</div>
+</div>
+<p>
+</p>
+</div>
+<div id="footerCopy">123dekk.is - tilbo› um Delticom AG </div>
+<div id="footerCopy">
+</div>
+</div>
+ <div class="bg-footer-darck">
+ <div class="container">
+ <div class="col-xs-12 col-sm-4 col-md-3">
+ <div class="logo-footer">
+ <a href="https://www.delti.com/" target="_blank"><img src="/images/logo-footer.png" alt="Delticom AG"></a>
+ </div>
+ </div>
+ <div class="col-xs-12 col-sm-4 col-md-3 ss-link hidden-xs">
+ <ul>
+ <li><a href="https://www.instagram.com/tyres_by_delticom/" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+ <li><a href="https://twitter.com/dekkonline" target="_blank"><img src="/images/twitter.png" alt="twitter"></a></li>
+ <li><a href="https://plus.google.com/u/0/b/106688736493397128992/106688736493397128992" target="_blank"><img src="/images/Google-P.png" alt="Google-P"></a></li>
+ <li><a href="https://www.youtube.com/user/Reifentv/videos" target="_blank"><img src="/images/youtube.png" alt="youtube"></a></li>
+ <li><a href="http://www.facebook.com/dekkonline" target="_blank"><img src="/images/facebook.png" alt="facebook"></a></li>
+ </ul>
+ </div>
+ <div class="col-xs-12 col-sm-8 col-md-6" id="flaggenFooterOuter">
+<ul id="tyre-shops">
+<li><a id="flags_footer_de" href="https://www.reifendirekt.de" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Reifen-Shop Deutschland"></a></li>
+<li><a id="flags_footer_fr" href="https://www.123pneus.fr" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="pneus-shop france"></a></li>
+<li><a id="flags_footer_ch" href="https://www.reifendirekt.ch" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Reifen-Shop Schweiz"></a></li>
+<li><a id="flags_footer_se" href="https://www.dackonline.se" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Dack-shop Sverige"></a></li>
+<li><a id="flags_footer_it" href="https://www.gommadiretto.it" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Gomme Italia"></a></li>
+<li><a id="flags_footer_no" href="https://www.dekkonline.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Dekk Norge"></a></li>
+<li><a id="flags_footer_dk" href="https://www.daekonline.dk" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Danske dæk shop"></a></li>
+<li><a id="flags_footer_nl" href="https://www.autobandenmarkt.nl" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Banden-Shop Nederland"></a></li>
+<li><a id="flags_footer_uk" href="https://www.mytyres.co.uk" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Tyres-shop UK"></a></li>
+<li><a id="flags_footer_us" href="https://www.tires-direct.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="us-tire-shop"></a></li>
+<li><a id="flags_footer_es" href="https://www.neumaticos-online.es" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Neumaticos-Shop España"></a></li>
+<li><a id="flags_footer_at" href="https://www.reifendirekt.at" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Reifen-Shop Österreich"></a></li>
+<li><a id="flags_footer_si" href="https://www.gume-direkt.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Pnevmatike Sloveniji"></a></li>
+<li><a id="flags_footer_be" href="https://www.123pneus.be" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Pneus-Shop Belgique"></a></li>
+<li><a id="flags_footer_fi" href="https://www.rengas-online.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="rengas shop"></a></li>
+<li><a id="flags_footer_cz" href="https://www.pneushop.cz" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Pneumatik CZ"></a></li>
+<li><a id="flags_footer_sk" href="https://www.pneumatikypriamo.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Pneumatík SK"></a></li>
+<li><a id="flags_footer_pt" href="https://www.pneucity.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="pneus-shop-portugal"></a></li>
+<li><a id="flags_footer_ie" href="https://www.eiretyres.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Tyres-Shop Ireland"></a></li>
+<li><a id="flags_footer_hu" href="https://www.gumik.hu" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Gumik Hungária"></a></li>
+<li><a id="flags_footer_pl" href="https://www.oponytanio.pl" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Opony PL"></a></li>
+<li><a id="flags_footer_ro" href="https://www.cauciucuridirect.ro" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Cauciucuri RO"></a></li>
+<li><a id="flags_footer_gr" href="https://www.elastika-online.gr" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="??ast ??a a?t?????ta 4x4 ?a ?µ?f??t se t"></a></li>
+<li><a id="flags_footer_jp" href="https://www.tires.jp" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="JP"></a></li>
+<li><a id="flags_footer_ru" href="https://www.shiny-online.ru" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="RU"></a></li>
+<li><a id="flags_footer_ca" href="https://www.tires-easy.ca" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Tire CA"></a></li>
+<li><a id="flags_footer_bg" href="https://www.barzgumve.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="BG"></a></li>
+<li><a id="flags_footer_hr" href="https://www.gume.com.hr" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="HR"></a></li>
+<li><a id="flags_footer_ee" href="https://www.reifendirekt.co.ee" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Rehvide EE"></a></li>
+<li><a id="flags_footer_lt" href="https://www.reifendirekt.lt" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Padangø LT"></a></li>
+<li><a id="flags_footer_lv" href="https://www.reifen-direkt.lv" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Riepas LV"></a></li>
+<li><a id="flags_footer_mx" href="https://www.llantera-mia.mx" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Llantas Méxicos"></a></li>
+<li><a id="flags_footer_rs" href="https://www.autogume.rs" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Gume Srbiji"></a></li>
+<li><a id="flags_footer_ua" href="https://www.shyny.com.ua" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="UA"></a></li>
+<li><a id="flags_footer_tr" href="https://www.lastik-online.com.tr" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="TR"></a></li>
+<li><a id="flags_footer_is" href="https://www.123dekk.is" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="IS"></a></li>
+<li><a id="flags_footer_com" href="https://www.reifendirekt.com" target="_blank" rel="noopener"><img src="/simg/leer.gif" alt="Tyres Shop for other countries"></a></li>
+</ul>
+ </div>
+ </div>
+ </div> 
+	 
+<!--generated by: swebd4-->
+<script> window.jQuery || document.write(unescape('%3Cscript src="/sjs/jquery/jquery-3.4.1.min.js" type="text/javascript"%3E%3C/script%3E%3Cscript src="/sjs/jquery/jquery-migrate-3.0.0.min.js" type="text/javascript"%3E%3C/script%3E')) </script><script src="/sjs/jquery/cloudzoom/cloudzoom.js" type="text/javascript" /></script><script type="text/javascript">
+ CloudZoom.quickStart();
+ $(document).ready(function(){
+ if (document.body.offsetWidth < 560) {
+ $("#zoom-reifenbild").off();
+ }
+ $(".cloudzoom-gallery").on('click', function(){
+ if (document.body.offsetWidth < 560) {
+ $("#zoom-reifenbild").off();
+ }
+ });
+ });
+</script><script type="text/javascript" src="/sjs/jquery/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script><script type="text/javascript">
+ $(function(){
+ $('.cloudzoom').bind('click',function(){
+ var cloudZoom = $(this).data('CloudZoom');
+ cloudZoom.closeZoom();
+ $.fancybox.open(cloudZoom.getGalleryList(), {
+ nextEffect: 'fade',
+ prevEffect: 'fade',
+ openEffect: 'fade'
+ });
+ return false;
+ });
+ });
+</script><script src="/sjs/jquery/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script><link rel="stylesheet" href="/sjs/jquery/jquery-ui-1.12.1/css/smoothness/jquery-ui.min.css" type="text/css"/><script src="/sjs/jquery/jquery.menu-aim.js" type="text/javascript"></script>
+<script src="/sjs/jquery/jquery.cookie.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ssl.delti.com/sjs/overlib.js" type="text/javascript"></script>
+<script>	
+if ( !$.cookie('priv_pol') ){
+$('#cookie-diss').css('display','block');
+}
+</script>
+<script src="https://adtm.delti.com/b2c/p/bad655d6483c25d821dac12cb3ce71e1556cfe64/satelliteLib-246d9334a8fac8f7242fe07a80421dd5e091a6aa.js"></script>
+
+<script type="text/javascript">
+ function DetWin(fenster,dername,width,height)
+ {
+if (!width){width = 500}
+if (!height){height = 450}
+
+ window.open(fenster,dername,'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width='+width+',height='+height)
+ 
+ }
+</script> <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+{
+ "@type": "ListItem",
+ "position": 1,
+ "name": "Dekkin mín heimasvæ›i",
+ "item": "https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&&amp;s_p=index"
+ },
+{
+ "@type": "ListItem",
+ "position": 2,
+ "name": "215/55 16 ",
+ "item": "https://www.123dekk.is/cgi-bin/rshop.pl?dsco=191&&amp;&amp;&amp;ranzahl=4&amp;Breite=215&amp;rsmFahrzeugart=ALL&amp;Quer=55&amp;Felge=16&amp;suchen=Ordern"
+ },
+{
+ "@type": "ListItem",
+ "position": 3,
+ "name": "Rotalla Setula E-Race RH01",
+ "item": "https://www.123dekk.is#"
+ }]
+}
+</script>
+<span id="-- SVX4fb6ee501b28185cc7e157bca0dfd779 -- --"></span>
+<script id="aa" type="text/javascript">
+digitalData={};
+digitalData.pageInstanceID="prod_RD_PDP-Car Tires-R-294440";
+digitalData.page={ pageInfo: { pageId: "PDP-Car Tires-R-294440", pageName: "PDP", shopName: "RD", country: "IS", language: "is", statusCode: 200}};
+digitalData.page.pageInfo.campaignID="";
+digitalData.page.category= {
+ pageType: "productDetails",
+ primaryCategory: "Car Tires",
+ subCategory1: ""
+};
+digitalData.page.category= {
+ pageType: "productDetails",
+ primaryCategory: "Car Tires",
+ subCategory1: ""
+};
+digitalData.product = [	 
+{
+productInfo: {
+productID: "R-294440",
+productName: "Setula E-Race RH01",
+price: "9047",	
+manufacturer: "Rotalla",
+tyreWidth: "215",
+tyreHeight: "55",
+tyreConstructionType: "R",
+tyreRimDiameter: "16",
+tyreLoadIndex: "97",
+speedIndex: "W",
+season: "So",
+category: {
+productType: "So",
+primaryCategory: "PKW"
+}
+}
+},
+];
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript">
+window['optimizely'] = window['optimizely'] || [];
+window['optimizely'].push(["trackEvent", "Detailseite"]);
+</script>
+</body>
+</html>
+

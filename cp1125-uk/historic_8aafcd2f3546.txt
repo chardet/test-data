@@ -1,0 +1,560 @@
+# Переклад sed на укра∙нську мову.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Volodymyr M. Lisivka <lvm@mystery.lviv.net>, 2003
+# Dmytro O. Redchuk <dor@kiev-online.net>, 2002.
+# $Id: sed.po,v 1.3 2003/01/28 15:26:09 lvm Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sed 4.0.4\n"
+"Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
+"POT-Creation-Date: 2009-04-30 10:58+0200\n"
+"PO-Revision-Date: 2003-01-25 12:42EET\n"
+"Last-Translator: Volodymyr M. Lisivka <lvm@mystery.lviv.net>\n"
+"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp1125\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sed/compile.c:161
+#, fuzzy
+msgid "multiple `!'s"
+msgstr "Забагато знакўв \"!\""
+
+#: sed/compile.c:162
+#, fuzzy
+msgid "unexpected `,'"
+msgstr "Неочўкувана кома (,)"
+
+#: sed/compile.c:163
+#, fuzzy
+msgid "invalid usage of +N or ~N as first address"
+msgstr "Неможливо використовувати +N чи ~N як першу адресу"
+
+#: sed/compile.c:164
+#, fuzzy
+msgid "unmatched `{'"
+msgstr "Незакрита дужка \"{\""
+
+#: sed/compile.c:165
+#, fuzzy
+msgid "unexpected `}'"
+msgstr "Неочўкувана дужка `}'"
+
+#: sed/compile.c:166
+#, fuzzy
+msgid "extra characters after command"
+msgstr "Зайвў символи пўсля команди"
+
+#: sed/compile.c:167
+#, fuzzy
+msgid "expected \\ after `a', `c' or `i'"
+msgstr "Очўкувалося \\ пўсля \"a\", \"c\" чи \"i\""
+
+#: sed/compile.c:168
+msgid "`}' doesn't want any addresses"
+msgstr "`}' не потребуї будь-яких адрес"
+
+#: sed/compile.c:169
+msgid ": doesn't want any addresses"
+msgstr ": не потребуї будь-яких адрес"
+
+#: sed/compile.c:170
+#, fuzzy
+msgid "comments don't accept any addresses"
+msgstr "Коментарў вживаються без адрес"
+
+#: sed/compile.c:171
+#, fuzzy
+msgid "missing command"
+msgstr "Пропущено команду"
+
+#: sed/compile.c:172
+#, fuzzy
+msgid "command only uses one address"
+msgstr "Команда працюї лише з однўїю адресою"
+
+#: sed/compile.c:173
+#, fuzzy
+msgid "unterminated address regex"
+msgstr "Не завершено регулярний вираз адреси"
+
+#: sed/compile.c:174
+#, fuzzy
+msgid "unterminated `s' command"
+msgstr "Не завершено команду \"s\""
+
+#: sed/compile.c:175
+#, fuzzy
+msgid "unterminated `y' command"
+msgstr "Не завершено команду \"y\""
+
+#: sed/compile.c:176
+#, fuzzy
+msgid "unknown option to `s'"
+msgstr "Невўдома ключ до \"s\""
+
+#: sed/compile.c:177
+msgid "multiple `p' options to `s' command"
+msgstr "забагато ключўв \"p\" до команди \"s\""
+
+#: sed/compile.c:178
+msgid "multiple `g' options to `s' command"
+msgstr "забагато ключўв \"g\" до команди \"s\""
+
+#: sed/compile.c:179
+msgid "multiple number options to `s' command"
+msgstr "забагато числових параметрўв до команди \"s\""
+
+#: sed/compile.c:180
+msgid "number option to `s' command may not be zero"
+msgstr "числовий параметр до команди \"s\" не може бути нулем"
+
+#: sed/compile.c:181
+#, fuzzy
+msgid "strings for `y' command are different lengths"
+msgstr "рядки для команди `y' рўзно∙ довжини"
+
+#: sed/compile.c:182
+msgid "delimiter character is not a single-byte character"
+msgstr ""
+
+#: sed/compile.c:183
+msgid "expected newer version of sed"
+msgstr ""
+
+#: sed/compile.c:184
+#, fuzzy
+msgid "invalid usage of line address 0"
+msgstr "Неправильне використання модифўкатора адреси"
+
+#: sed/compile.c:185
+#, fuzzy, c-format
+msgid "unknown command: `%c'"
+msgstr "Невўдома команда:"
+
+#: sed/compile.c:208
+#, c-format
+msgid "%s: file %s line %lu: %s\n"
+msgstr "%s: файл %s рядок %lu: %s\n"
+
+#: sed/compile.c:211
+#, c-format
+msgid "%s: -e expression #%lu, char %lu: %s\n"
+msgstr "%s: -e вираз #%lu, лўтера %lu: %s\n"
+
+#: sed/compile.c:1664
+#, fuzzy, c-format
+msgid "can't find label for jump to `%s'"
+msgstr "Неможливо знайти мўтку для переходу до \"%s\""
+
+#: sed/execute.c:701
+#, c-format
+msgid "%s: can't read %s: %s\n"
+msgstr "%s: неможливо прочитати %s: %s\n"
+
+#: sed/execute.c:728
+#, fuzzy, c-format
+msgid "couldn't edit %s: is a terminal"
+msgstr "не можу записати елемент %d до %s: %s"
+
+#: sed/execute.c:733
+#, c-format
+msgid "couldn't edit %s: not a regular file"
+msgstr ""
+
+#: sed/execute.c:740 sed/utils.c:222
+#, fuzzy, c-format
+msgid "couldn't open temporary file %s: %s"
+msgstr "Неможливо вўдкрити файл %s: %s"
+
+#: sed/execute.c:1270 sed/execute.c:1450
+msgid "error in subprocess"
+msgstr "помилка у пўдпроцесў"
+
+#: sed/execute.c:1272
+msgid "option `e' not supported"
+msgstr "ключ \"e\" не пўдтримуїться"
+
+#: sed/execute.c:1452
+msgid "`e' command not supported"
+msgstr "команда \"e\" не пўдтримуїться"
+
+#: sed/execute.c:1796
+msgid "no input files"
+msgstr ""
+
+#: sed/regexp.c:41
+#, fuzzy
+msgid "no previous regular expression"
+msgstr "Немаї попереднього регулярного виразу"
+
+#: sed/regexp.c:42
+#, fuzzy
+msgid "cannot specify modifiers on empty regexp"
+msgstr "Неможливо вказати модифўкатори на порожньому регулярному виразў"
+
+#: sed/regexp.c:131
+#, fuzzy, c-format
+msgid "invalid reference \\%d on `s' command's RHS"
+msgstr "Неправильне посилання \\%d у правўй частинў команди \"s\""
+
+#: sed/sed.c:99
+#, c-format
+msgid ""
+"GNU sed home page: <http://www.gnu.org/software/sed/>.\n"
+"General help using GNU software: <http://www.gnu.org/gethelp/>.\n"
+msgstr ""
+
+#: sed/sed.c:106
+#, c-format
+msgid ""
+"E-mail bug reports to: <%s>.\n"
+"Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
+msgstr ""
+"Повўдомлення про помилки надсилайте до: <%s>.\n"
+"Обов'язково додайте слово \"%s\" будь-де у полў \"Тема:\".\n"
+
+#: sed/sed.c:119
+msgid ""
+"  -R, --regexp-perl\n"
+"                 use Perl 5's regular expressions syntax in the script.\n"
+msgstr ""
+"  -R, --regexp-perl\n"
+"                 використовувати у сценарўях регулярнў вирази Perl 5.\n"
+
+#: sed/sed.c:124
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+"\n"
+msgstr ""
+
+#: sed/sed.c:128
+#, c-format
+msgid ""
+"  -n, --quiet, --silent\n"
+"                 suppress automatic printing of pattern space\n"
+msgstr ""
+
+#: sed/sed.c:130
+#, c-format
+msgid ""
+"  -e script, --expression=script\n"
+"                 add the script to the commands to be executed\n"
+msgstr ""
+
+#: sed/sed.c:132
+#, c-format
+msgid ""
+"  -f script-file, --file=script-file\n"
+"                 add the contents of script-file to the commands to be "
+"executed\n"
+msgstr ""
+
+#: sed/sed.c:135
+#, c-format
+msgid ""
+"  --follow-symlinks\n"
+"                 follow symlinks when processing in place\n"
+msgstr ""
+
+#: sed/sed.c:138
+#, c-format
+msgid ""
+"  -i[SUFFIX], --in-place[=SUFFIX]\n"
+"                 edit files in place (makes backup if extension supplied)\n"
+msgstr ""
+
+#: sed/sed.c:141
+#, c-format
+msgid ""
+"  -b, --binary\n"
+"                 open files in binary mode (CR+LFs are not processed "
+"specially)\n"
+msgstr ""
+
+#: sed/sed.c:144
+#, c-format
+msgid ""
+"  -l N, --line-length=N\n"
+"                 specify the desired line-wrap length for the `l' command\n"
+msgstr ""
+
+#: sed/sed.c:146
+#, c-format
+msgid ""
+"  --posix\n"
+"                 disable all GNU extensions.\n"
+msgstr ""
+
+#: sed/sed.c:148
+#, fuzzy, c-format
+msgid ""
+"  -r, --regexp-extended\n"
+"                 use extended regular expressions in the script.\n"
+msgstr ""
+"  -R, --regexp-perl\n"
+"                 використовувати у сценарўях регулярнў вирази Perl 5.\n"
+
+#: sed/sed.c:153
+#, c-format
+msgid ""
+"  -s, --separate\n"
+"                 consider files as separate rather than as a single "
+"continuous\n"
+"                 long stream.\n"
+msgstr ""
+
+#: sed/sed.c:156
+#, c-format
+msgid ""
+"  -u, --unbuffered\n"
+"                 load minimal amounts of data from the input files and "
+"flush\n"
+"                 the output buffers more often\n"
+msgstr ""
+
+#: sed/sed.c:159
+#, c-format
+msgid "      --help     display this help and exit\n"
+msgstr ""
+
+#: sed/sed.c:160
+#, c-format
+msgid "      --version  output version information and exit\n"
+msgstr ""
+
+#: sed/sed.c:161
+#, c-format
+msgid ""
+"\n"
+"If no -e, --expression, -f, or --file option is given, then the first\n"
+"non-option argument is taken as the sed script to interpret.  All\n"
+"remaining arguments are names of input files; if no input files are\n"
+"specified, then the standard input is read.\n"
+"\n"
+msgstr ""
+
+#: sed/sed.c:317
+#, c-format
+msgid "super-sed version %s\n"
+msgstr "super-sed версў∙ %s\n"
+
+#: sed/sed.c:318
+#, fuzzy, c-format
+msgid ""
+"based on GNU sed version %s\n"
+"\n"
+msgstr ""
+"заснований на GNU sed версў∙ 3.02.80\n"
+"\n"
+
+#: sed/sed.c:320
+#, c-format
+msgid "GNU sed version %s\n"
+msgstr "GNU sed версў∙ %s\n"
+
+#: sed/sed.c:322
+#, c-format
+msgid ""
+"%s\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
+"to the extent permitted by law.\n"
+msgstr ""
+
+#: sed/utils.c:93 sed/utils.c:433
+#, fuzzy, c-format
+msgid "cannot remove %s: %s"
+msgstr "%s: неможливо прочитати %s: %s\n"
+
+#: sed/utils.c:163
+#, fuzzy, c-format
+msgid "couldn't open file %s: %s"
+msgstr "Неможливо вўдкрити файл %s: %s"
+
+#: sed/utils.c:186
+#, fuzzy, c-format
+msgid "couldn't attach to %s: %s"
+msgstr "не можу записати елемент %d до %s: %s"
+
+#: sed/utils.c:240
+#, fuzzy, c-format
+msgid "couldn't write %d item to %s: %s"
+msgid_plural "couldn't write %d items to %s: %s"
+msgstr[0] "не можу записати елемент %d до %s: %s"
+msgstr[1] "не можу записати елемент %d до %s: %s"
+
+#: sed/utils.c:255 sed/utils.c:271
+#, c-format
+msgid "read error on %s: %s"
+msgstr "помилка читання %s: %s"
+
+#: sed/utils.c:373
+#, fuzzy, c-format
+msgid "couldn't follow symlink %s: %s"
+msgstr "Неможливо вўдкрити файл %s: %s"
+
+#: sed/utils.c:407
+#, fuzzy, c-format
+msgid "cannot stat %s: %s"
+msgstr "%s: неможливо прочитати %s: %s\n"
+
+#: sed/utils.c:438
+#, fuzzy, c-format
+msgid "cannot rename %s: %s"
+msgstr "%s: неможливо прочитати %s: %s\n"
+
+#: lib/regcomp.c:134
+msgid "Success"
+msgstr "Успўшно"
+
+#: lib/regcomp.c:137
+msgid "No match"
+msgstr "Немаї вўдповўдностў"
+
+#: lib/regcomp.c:140
+msgid "Invalid regular expression"
+msgstr "Неправильний регулярний вираз"
+
+#: lib/regcomp.c:143
+msgid "Invalid collation character"
+msgstr "Неправильний символ спўвставлення"
+
+#: lib/regcomp.c:146
+msgid "Invalid character class name"
+msgstr "Невўрне ўм'я класу символўв"
+
+#: lib/regcomp.c:149
+msgid "Trailing backslash"
+msgstr "Зворотнўй слеш у кўнцў рядка"
+
+#: lib/regcomp.c:152
+msgid "Invalid back reference"
+msgstr "Неправильне зворотнї посилання"
+
+#: lib/regcomp.c:155
+msgid "Unmatched [ or [^"
+msgstr "Не закрито [ чи [^"
+
+#: lib/regcomp.c:158
+msgid "Unmatched ( or \\("
+msgstr "Не закрито ( чи \\("
+
+#: lib/regcomp.c:161
+msgid "Unmatched \\{"
+msgstr "Не закрито \\{"
+
+#: lib/regcomp.c:164
+msgid "Invalid content of \\{\\}"
+msgstr "Неправильний вмўст \\{\\}"
+
+#: lib/regcomp.c:167
+msgid "Invalid range end"
+msgstr "Неправильний кўнець дўапазону"
+
+#: lib/regcomp.c:170
+msgid "Memory exhausted"
+msgstr "Пам'ять вичерпано"
+
+#: lib/regcomp.c:173
+msgid "Invalid preceding regular expression"
+msgstr "Неправильний попереднўй регулярний вираз"
+
+#: lib/regcomp.c:176
+msgid "Premature end of regular expression"
+msgstr "Передчасне закўнчення регулярного виразу"
+
+#: lib/regcomp.c:179
+msgid "Regular expression too big"
+msgstr "Надто великий регулярний вираз"
+
+#: lib/regcomp.c:182
+msgid "Unmatched ) or \\)"
+msgstr "Не закрито ) чи \\)"
+
+#: lib/regcomp.c:703
+msgid "No previous regular expression"
+msgstr "Немаї попереднього регулярного виразу"
+
+#~ msgid "Unexpected End-of-file"
+#~ msgstr "Неочўкуваний кўнець файлу"
+
+#~ msgid "Called savchar() with unexpected pushback (%x)"
+#~ msgstr "Виклик savchar() ўз неочўкуваним pushback (%x)"
+
+#~ msgid "INTERNAL ERROR: bad address type"
+#~ msgstr "ВНУТРЎШНЯ ПОМИЛКА: невўрний тип адреси"
+
+#~ msgid "INTERNAL ERROR: Bad cmd %c"
+#~ msgstr "ВНУТРЎШНЯ ПОМИЛКА: Хибна команда %c"
+
+#~ msgid ""
+#~ "Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+#~ "\n"
+#~ "  -n, --quiet, --silent\n"
+#~ "                 suppress automatic printing of pattern space\n"
+#~ "  -e script, --expression=script\n"
+#~ "                 add the script to the commands to be executed\n"
+#~ "  -f script-file, --file=script-file\n"
+#~ "                 add the contents of script-file to the commands to be "
+#~ "executed\n"
+#~ "  -i[suffix], --in-place[=suffix]\n"
+#~ "                 edit files in place (makes backup if extension "
+#~ "supplied)\n"
+#~ "  -l N, --line-length=N\n"
+#~ "                 specify the desired line-wrap length for the `l' "
+#~ "command\n"
+#~ "  -r, --regexp-extended\n"
+#~ "                 use extended regular expressions in the script.\n"
+#~ "%s  -s, --separate\n"
+#~ "                 consider files as separate rather than as a single "
+#~ "continuous\n"
+#~ "                 long stream.\n"
+#~ "  -u, --unbuffered\n"
+#~ "                 load minimal amounts of data from the input files and "
+#~ "flush\n"
+#~ "                 the output buffers more often\n"
+#~ "      --help     display this help and exit\n"
+#~ "  -V, --version  output version information and exit\n"
+#~ "\n"
+#~ "If no -e, --expression, -f, or --file option is given, then the first\n"
+#~ "non-option argument is taken as the sed script to interpret.  All\n"
+#~ "remaining arguments are names of input files; if no input files are\n"
+#~ "specified, then the standard input is read.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Використання: %s [КЛЮЧ].. {скрипт-якщо-нема-ўнших-скриптўв} [вхўдний-"
+#~ "файл]...\n"
+#~ "\n"
+#~ "  -n, --quiet, --silent\n"
+#~ "                 вимкнути автоматичний друк комўрки регулярного виразу\n"
+#~ "  -e script, --expression=script\n"
+#~ "                 додати сценарўй до команд, що будуть виконанў\n"
+#~ "  -f script-file, --file=script-file\n"
+#~ "                 додати вмўст файла сценарў∙в до команд, що будуть "
+#~ "виконанў\n"
+#~ "  -i[суфўкс], --in-place[=суфўкс]\n"
+#~ "                 редагувати файли \"на мўсцў\"\n"
+#~ "                 (робити копў∙, якщо вказано розширення)\n"
+#~ "  -l N, --line-length=N\n"
+#~ "                 вказати бажану довжину перенесення рядка для команди \"l"
+#~ "\"\n"
+#~ "  -r, --regexp-extended\n"
+#~ "                 використовувати у сценарўях розширенў регулярнў вирази.\n"
+#~ "%s  -s, --separate\n"
+#~ "                 розглядати файли роздўленими, а не як їдиний довгий "
+#~ "потўк\n"
+#~ "  -u, --unbuffered\n"
+#~ "                 брати мўнўмальну кўлькўсть даних з вхўдних файлўв,\n"
+#~ "                 та очищати вихўднў буфери частўше\n"
+#~ "      --help     показати цю пўдказку та вийти\n"
+#~ "  -V, --version  показати ўнформацўю про версўю та вийти\n"
+#~ "\n"
+#~ "Якщо не задано одне з -e, --expression, -f, чи --file, перший аргумент,\n"
+#~ "який не ї rk.xtv  вважатиметься сценарўїм, заданим на виконання.  Всў "
+#~ "ўншў\n"
+#~ "аргументи ї ўменами вхўдних файлўв; якщо ж такў не задано,\n"
+#~ "данў будуть зчитанў ўз стандартного вводу.\n"
+#~ "\n"

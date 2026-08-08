@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+	<meta charset="ISO-8859-16">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+			<link rel="shortcut icon" href="https://0-100.ro/home/wp-content/uploads/2013/11/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://0-100.ro/home/wp-content/uploads/2013/11/favicon.ico">
+		<link rel="alternate" type="application/rss+xml" title="0-100.ro RSS Feed" href="https://0-100.ro/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="0-100.ro Atom Feed" href="https://0-100.ro/feed/atom/" />
+	<link rel="pingback" href="https://0-100.ro/home/xmlrpc.php" />
+	<!--[if lt IE 9]>
+	<script src="https://0-100.ro/home/wp-content/themes/soledad/js/html5.js"></script>
+	<![endif]-->
+	<title>0-100.ro - stiri auto, test drive</title>
+
+<!-- All in One SEO Pack 3.1.1 de Michael Torbert de la Semper Fi Web Design[907,922] -->
+<meta name="description"  content="Sursa ta de informatii auto de buna calitate." />
+
+<meta name="keywords"  content="Stiri Auto, Informatii Auto, Industria Auto, Industrie Auto, Masini, Test Drive, Drive Test, 0-100.ro, Adrian Mitrea, Vlad Barza, Piata Auto, Masini Noi, Masini Electrice," />
+<link rel="next" href="https://0-100.ro/page/2/" />
+
+<link rel="canonical" href="https://0-100.ro/" />
+<!-- All in One SEO Pack -->
+<link rel='dns-prefetch' href='//0-100.ro' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="0-100.ro &raquo; Flux" href="https://0-100.ro/feed/" />
+<link rel="alternate" type="application/rss+xml" title="0-100.ro &raquo; Flux comentarii" href="https://0-100.ro/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/0-100.ro\/home\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://0-100.ro/home/wp-includes/css/dist/block-library/style.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://0-100.ro/home/wp-includes/css/dist/block-library/theme.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://0-100.ro/home/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://0-100.ro/home/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-oswald-css'  href='//fonts.googleapis.com/css?family=Oswald%3A400&#038;ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://0-100.ro/home/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8.3' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='wp-polls-css'  href='https://0-100.ro/home/wp-content/plugins/wp-polls/polls-css.css?ver=2.75.2' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('https://0-100.ro/home/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://0-100.ro/home/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-fonts-css'  href='//fonts.googleapis.com/css?family=Raleway%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CPT+Serif%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair+Display+SC%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CMontserrat%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CArial%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%26subset%3Dcyrillic%2Ccyrillic-ext%2Cgreek%2Cgreek-ext%2Clatin-ext&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='penci_style-css'  href='https://0-100.ro/home/wp-content/themes/soledad/style.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cleaner-gallery-css'  href='https://0-100.ro/home/wp-content/plugins/cleaner-gallery/css/gallery.min.css?ver=20130526' type='text/css' media='all' />
+<link rel='stylesheet' id='instag-slider-css'  href='https://0-100.ro/home/wp-content/plugins/instagram-slider-widget/assets/css/instag-slider.css?ver=1.4.0' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='vc_lte_ie9-css'  href='https://0-100.ro/home/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.3' type='text/css' media='screen' />
+<![endif]-->
+<link rel='stylesheet' id='pretty-sidebar-categories-style-css'  href='https://0-100.ro/home/wp-content/plugins/pretty-sidebar-categories/templates/pretty-sidebar-categories.css?ver=5.2.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://0-100.ro/home/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/0-100.ro\/home\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"yes","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"1","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.46'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8.3'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8.3'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/instagram-slider-widget/assets/js/jquery.flexslider-min.js?ver=2.2'></script>
+<link rel='https://api.w.org/' href='https://0-100.ro/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://0-100.ro/home/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://0-100.ro/home/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.2" />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7687835-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-7687835-1');
+		</script>
+
+		<style type="text/css">
+						.post-entry .penci-recipe-heading a.penci-recipe-print { color:#dd3333; } .post-entry .penci-recipe-heading a.penci-recipe-print { border-color:#dd3333; } .post-entry .penci-recipe-heading a.penci-recipe-print:hover { background-color:#dd3333; } .post-entry .penci-recipe-heading a.penci-recipe-print:hover { color:#fff; }														.penci-recipe-index .cat > a.penci-cat-name { color:#dd3333; }								.penci-recipe-index-wrap .penci-index-more-link a { color:#dd3333; }	</style>
+	<style type="text/css">
+												.penci-review .penci-review-process span { background-color:#dd3333; }				.penci-review .penci-review-good ul li:before { color:#dd3333; }				.penci-review .penci-review-score-total { background-color:#dd3333; }							</style>
+<link rel="shortcut icon" href="https://0-100.ro/home/favicon.ico" type="image/x-icon" /><!-- Favi --><script>var portfolioDataJs = portfolioDataJs || [];</script>    <style type="text/css">
+				h1, h2, h3, h4, h5, h6, h2.penci-heading-video, #navigation .menu li a, .penci-photo-2-effect figcaption h2, .headline-title, a.penci-topbar-post-title, #sidebar-nav .menu li a, .penci-slider .pencislider-container .pencislider-content .pencislider-title, .penci-slider
+		.pencislider-container .pencislider-content .pencislider-button,
+		.author-quote span, .penci-more-link a.more-link, .penci-post-share-box .dt-share, .post-share a .dt-share, .author-content h5, .post-pagination h5, .post-box-title, .penci-countdown .countdown-amount, .penci-countdown .countdown-period, .penci-pagination a, .penci-pagination .disable-url, ul.footer-socials li a span,
+		.widget input[type="submit"], .widget button[type="submit"], .penci-sidebar-content .widget-title, #respond h3.comment-reply-title span, .widget-social.show-text a span, .footer-widget-wrapper .widget .widget-title,
+		.container.penci-breadcrumb span, .container.penci-breadcrumb span a, .penci-container-inside.penci-breadcrumb span, .penci-container-inside.penci-breadcrumb span a, .container.penci-breadcrumb span, .container.penci-breadcrumb span a, .error-404 .go-back-home a, .post-entry .penci-portfolio-filter ul li a, .penci-portfolio-filter ul li a, .portfolio-overlay-content .portfolio-short .portfolio-title a, .home-featured-cat-content .magcat-detail h3 a, .post-entry blockquote cite,
+		.post-entry blockquote .author, .tags-share-box.hide-tags.page-share .share-title, .widget ul.side-newsfeed li .side-item .side-item-text h4 a, .thecomment .comment-text span.author, .thecomment .comment-text span.author a, .post-comments span.reply a, #respond h3, #respond label, .wpcf7 label, #respond #submit, .wpcf7 input[type="submit"], .widget_wysija input[type="submit"], .archive-box span,
+		.archive-box h1, .gallery .gallery-caption, .contact-form input[type=submit], ul.penci-topbar-menu > li a, div.penci-topbar-menu > ul > li a, .featured-style-29 .penci-featured-slider-button a, .pencislider-container .pencislider-content .pencislider-title, .pencislider-container
+		.pencislider-content .pencislider-button, ul.homepage-featured-boxes .penci-fea-in.boxes-style-3 h4 span span, .pencislider-container .pencislider-content .pencislider-button, .woocommerce div.product .woocommerce-tabs .panel #respond .comment-reply-title, .penci-recipe-index-wrap .penci-index-more-link a, .penci-menu-hbg .menu li a, #sidebar-nav .menu li a, .penci-readmore-btn.penci-btn-make-button a, 
+		.bos_searchbox_widget_class #flexi_searchbox h1, .bos_searchbox_widget_class #flexi_searchbox h2, .bos_searchbox_widget_class #flexi_searchbox h3, .bos_searchbox_widget_class #flexi_searchbox h4,
+		.bos_searchbox_widget_class #flexi_searchbox #b_searchboxInc .b_submitButton_wrapper .b_submitButton:hover, .bos_searchbox_widget_class #flexi_searchbox #b_searchboxInc .b_submitButton_wrapper .b_submitButton,
+		.penci-featured-cat-seemore.penci-btn-make-button a, .penci-menu-hbg-inner .penci-hbg_sitetitle { font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
+		.featured-style-29 .penci-featured-slider-button a, #bbpress-forums #bbp-search-form .button{ font-weight: bold; }
+						body, textarea, #respond textarea, .widget input[type="text"], .widget input[type="email"], .widget input[type="date"], .widget input[type="number"], .wpcf7 textarea, .mc4wp-form input, #respond input, .wpcf7 input, #searchform input.search-input, ul.homepage-featured-boxes .penci-fea-in
+		h4, .widget.widget_categories ul li span.category-item-count, .about-widget .about-me-heading, .widget ul.side-newsfeed li .side-item .side-item-text .side-item-meta { font-family: Arial, Helvetica, sans-serif; }
+		p { line-height: 1.8; }
+								.penci-hide-tagupdated{ display: none !important; }
+												h1, h2, h3, h4, h5, h6, #sidebar-nav .menu li a, #navigation .menu li a, a.penci-topbar-post-title, .penci-slider .pencislider-container .pencislider-content .pencislider-title, .penci-slider .pencislider-container .pencislider-content .pencislider-button,
+		.headline-title, .author-quote span, .penci-more-link a.more-link, .author-content h5, .post-pagination h5, .post-box-title, .penci-countdown .countdown-amount, .penci-countdown .countdown-period, .penci-pagination a, .penci-pagination .disable-url, ul.footer-socials li a span,
+		.penci-sidebar-content .widget-title, #respond h3.comment-reply-title span, .widget-social.show-text a span, .footer-widget-wrapper .widget .widget-title, .error-404 .go-back-home a, .home-featured-cat-content .magcat-detail h3 a, .post-entry blockquote cite, .pencislider-container .pencislider-content .pencislider-title, .pencislider-container
+		.pencislider-content .pencislider-button, .post-entry blockquote .author, .tags-share-box.hide-tags.page-share .share-title, .widget ul.side-newsfeed li .side-item .side-item-text h4 a, .thecomment .comment-text span.author, .thecomment .comment-text span.author a, #respond h3, #respond label, .wpcf7 label, #respond #submit, .wpcf7 input[type="submit"], .widget_wysija input[type="submit"], .archive-box span,
+		.archive-box h1, .gallery .gallery-caption, .widget input[type="submit"], .widget button[type="submit"], .contact-form input[type=submit], ul.penci-topbar-menu > li a, div.penci-topbar-menu > ul > li a, .penci-recipe-index-wrap .penci-index-more-link a, #bbpress-forums #bbp-search-form .button, .penci-menu-hbg .menu li a, #sidebar-nav .menu li a, .penci-readmore-btn.penci-btn-make-button a, .penci-featured-cat-seemore.penci-btn-make-button a, .penci-menu-hbg-inner .penci-hbg_sitetitle { font-weight: bold; }
+								.featured-area .penci-image-holder, .featured-area .penci-slider4-overlay, .featured-area .penci-slide-overlay .overlay-link, .featured-style-29 .featured-slider-overlay, .penci-slider38-overlay{ border-radius: ; -webkit-border-radius: ; }
+		.penci-featured-content-right:before{ border-top-right-radius: ; border-bottom-right-radius: ; }
+		.penci-flat-overlay .penci-slide-overlay .penci-mag-featured-content:before{ border-bottom-left-radius: ; border-bottom-right-radius: ; }
+						.container-single .post-image{ border-radius: ; -webkit-border-radius: ; }
+						.penci-mega-thumbnail .penci-image-holder{ border-radius: ; -webkit-border-radius: ; }
+																				#logo a { max-width:300px; }
+		@media only screen and (max-width: 960px) and (min-width: 768px){ #logo img{ max-width: 100%; } }
+														.penci-single-style-7:not( .penci-single-pheader-noimg ).penci_sidebar #main article.post, .penci-single-style-3:not( .penci-single-pheader-noimg ).penci_sidebar #main article.post { background-color: #ffffff; }
+		@media only screen and (max-width: 767px){ .standard-post-special_wrapper { background: #ffffff; } }
+		.wrapper-boxed, .wrapper-boxed.enable-boxed, .home-pupular-posts-title span, .penci-homepage-title, .penci-post-box-meta.penci-post-box-grid .penci-post-share-box, .penci-pagination.penci-ajax-more a.penci-ajax-more-button, .penci-sidebar-content .widget-title, #searchform input.search-input, .woocommerce .woocommerce-product-search input[type="search"], .overlay-post-box-meta, .widget ul.side-newsfeed li.featured-news2 .side-item .side-item-text, .widget select, .widget select option, .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message, .post-entry th, #penci-demobar, #penci-demobar .style-toggle, .grid-overlay-meta .grid-header-box, .header-standard.standard-overlay-meta{ background-color: #ffffff; }
+		.penci-grid .list-post.list-boxed-post .item > .thumbnail:before{ border-right-color: #ffffff; }
+		.penci-grid .list-post.list-boxed-post:nth-of-type(2n+2) .item > .thumbnail:before{ border-left-color: #ffffff; }
+						.widget ul li, .grid-mixed, .penci-post-box-meta, .penci-pagination.penci-ajax-more a.penci-ajax-more-button, .widget-social a i, .penci-home-popular-posts, .header-header-1.has-bottom-line, .header-header-4.has-bottom-line, .header-header-7.has-bottom-line, .container-single .post-entry .post-tags a, .tags-share-box, .post-author, .post-pagination, .post-related, .post-comments .post-title-box, .comments .comment, #respond textarea, .wpcf7 textarea, #respond input, .wpcf7 input, .widget_wysija input, #respond h3, #searchform input.search-input, .post-password-form input[type="text"], .post-password-form input[type="email"], .post-password-form input[type="password"], .post-password-form input[type="number"], .penci-recipe, .penci-recipe-heading, .penci-recipe-ingredients, .penci-recipe-notes, .penci-pagination ul.page-numbers li span, .penci-pagination ul.page-numbers li a, #comments_pagination span, #comments_pagination a, body.author .post-author, .tags-share-box.hide-tags.page-share, .penci-grid li.list-post, .penci-grid li.list-boxed-post-2 .content-boxed-2, .home-featured-cat-content .mag-post-box, .home-featured-cat-content.style-2 .mag-post-box.first-post, .home-featured-cat-content.style-10 .mag-post-box.first-post, .widget select, .widget ul ul, .widget input[type="text"], .widget input[type="email"], .widget input[type="date"], .widget input[type="number"], .widget input[type="search"], .widget .tagcloud a, #wp-calendar tbody td, .woocommerce div.product .entry-summary div[itemprop="description"] td, .woocommerce div.product .entry-summary div[itemprop="description"] th, .woocommerce div.product .woocommerce-tabs #tab-description td, .woocommerce div.product .woocommerce-tabs #tab-description th, .woocommerce-product-details__short-description td, th, .woocommerce ul.cart_list li, .woocommerce ul.product_list_widget li, .woocommerce .widget_shopping_cart .total, .woocommerce.widget_shopping_cart .total, .woocommerce .woocommerce-product-search input[type="search"], .woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span, .woocommerce div.product .product_meta, .woocommerce div.product .woocommerce-tabs ul.tabs, .woocommerce div.product .related > h2, .woocommerce div.product .upsells > h2, .woocommerce #reviews #comments ol.commentlist li .comment-text, .woocommerce table.shop_table td, .post-entry td, .post-entry th, #add_payment_method .cart-collaterals .cart_totals tr td, #add_payment_method .cart-collaterals .cart_totals tr th, .woocommerce-cart .cart-collaterals .cart_totals tr td, .woocommerce-cart .cart-collaterals .cart_totals tr th, .woocommerce-checkout .cart-collaterals .cart_totals tr td, .woocommerce-checkout .cart-collaterals .cart_totals tr th, .woocommerce-cart .cart-collaterals .cart_totals table, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce table.shop_table a.remove, .woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text, .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message, .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register, .woocommerce form.checkout table.shop_table, .woocommerce-checkout #payment ul.payment_methods, .post-entry table, .wrapper-penci-review, .penci-review-container.penci-review-count, #penci-demobar .style-toggle, #widget-area, .post-entry hr, .wpb_text_column hr, #buddypress .dir-search input[type=search], #buddypress .dir-search input[type=text], #buddypress .groups-members-search input[type=search], #buddypress .groups-members-search input[type=text], #buddypress ul.item-list, #buddypress .profile[role=main], #buddypress select, #buddypress div.pagination .pagination-links span, #buddypress div.pagination .pagination-links a, #buddypress div.pagination .pag-count, #buddypress div.pagination .pagination-links a:hover, #buddypress ul.item-list li, #buddypress table.forum tr td.label, #buddypress table.messages-notices tr td.label, #buddypress table.notifications tr td.label, #buddypress table.notifications-settings tr td.label, #buddypress table.profile-fields tr td.label, #buddypress table.wp-profile-fields tr td.label, #buddypress table.profile-fields:last-child, #buddypress form#whats-new-form textarea, #buddypress .standard-form input[type=text], #buddypress .standard-form input[type=color], #buddypress .standard-form input[type=date], #buddypress .standard-form input[type=datetime], #buddypress .standard-form input[type=datetime-local], #buddypress .standard-form input[type=email], #buddypress .standard-form input[type=month], #buddypress .standard-form input[type=number], #buddypress .standard-form input[type=range], #buddypress .standard-form input[type=search], #buddypress .standard-form input[type=password], #buddypress .standard-form input[type=tel], #buddypress .standard-form input[type=time], #buddypress .standard-form input[type=url], #buddypress .standard-form input[type=week], .bp-avatar-nav ul, .bp-avatar-nav ul.avatar-nav-items li.current, #bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic, #bbpress-forums li.bbp-footer, .bbp-pagination-links a, .bbp-pagination-links span.current, .wrapper-boxed .bbp-pagination-links a:hover, .wrapper-boxed .bbp-pagination-links span.current, #buddypress .standard-form select, #buddypress .standard-form input[type=password], #buddypress .activity-list li.load-more a, #buddypress .activity-list li.load-newest a, #buddypress ul.button-nav li a, #buddypress div.generic-button a, #buddypress .comment-reply-link, #bbpress-forums div.bbp-template-notice.info, #bbpress-forums #bbp-search-form #bbp_search, #bbpress-forums .bbp-forums-list, #bbpress-forums #bbp_topic_title, #bbpress-forums #bbp_topic_tags, #bbpress-forums .wp-editor-container, .widget_display_stats dd, .widget_display_stats dt, div.bbp-forum-header, div.bbp-topic-header, div.bbp-reply-header, .widget input[type="text"], .widget input[type="email"], .widget input[type="date"], .widget input[type="number"], .widget input[type="search"], .widget input[type="password"], blockquote.wp-block-quote, .post-entry blockquote.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .post-entry pre, .wp-block-pullquote:not(.is-style-solid-color), .post-entry hr.wp-block-separator, .wp-block-separator, .wp-block-latest-posts, .wp-block-yoast-how-to-block ol.schema-how-to-steps, .wp-block-yoast-how-to-block ol.schema-how-to-steps li, .wp-block-yoast-faq-block .schema-faq-section{ border-color: #dd3333; }
+		.penci-recipe-index-wrap h4.recipe-index-heading > span:before, .penci-recipe-index-wrap h4.recipe-index-heading > span:after{ border-color: #dd3333; opacity: 1; }
+		.tags-share-box .single-comment-o:after, .post-share a.penci-post-like:after{ background-color: #dd3333; }
+		.penci-grid .list-post.list-boxed-post{ border-color: #dd3333 !important; }
+		.penci-post-box-meta.penci-post-box-grid:before, .woocommerce .widget_price_filter .ui-slider .ui-slider-range{ background-color: #dd3333; }
+		.penci-pagination.penci-ajax-more a.penci-ajax-more-button.loading-posts{ border-color: #dd3333 !important; }
+		.penci-vernav-enable .penci-menu-hbg{ box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; }
+		.penci-vernav-enable.penci-vernav-poleft .penci-menu-hbg{ border-right: 1px solid #dd3333; }
+		.penci-vernav-enable.penci-vernav-poright .penci-menu-hbg{ border-left: 1px solid #dd3333; }
+				
+				.penci-menuhbg-toggle:hover .lines-button:after, .penci-menuhbg-toggle:hover .penci-lines:before, .penci-menuhbg-toggle:hover .penci-lines:after{ background: #dd3333; }
+		a, .post-entry .penci-portfolio-filter ul li a:hover, .penci-portfolio-filter ul li a:hover, .penci-portfolio-filter ul li.active a, .post-entry .penci-portfolio-filter ul li.active a, .penci-countdown .countdown-amount, .archive-box h1, .post-entry a, .container.penci-breadcrumb span a:hover, .post-entry blockquote:before, .post-entry blockquote cite, .post-entry blockquote .author, .wpb_text_column blockquote:before, .wpb_text_column blockquote cite, .wpb_text_column blockquote .author, .penci-pagination a:hover, ul.penci-topbar-menu > li a:hover, div.penci-topbar-menu > ul > li a:hover, .penci-recipe-heading a.penci-recipe-print, .main-nav-social a:hover, .widget-social .remove-circle a:hover i, .penci-recipe-index .cat > a.penci-cat-name, #bbpress-forums li.bbp-body ul.forum li.bbp-forum-info a:hover, #bbpress-forums li.bbp-body ul.topic li.bbp-topic-title a:hover, #bbpress-forums li.bbp-body ul.forum li.bbp-forum-info .bbp-forum-content a, #bbpress-forums li.bbp-body ul.topic p.bbp-topic-meta a, #bbpress-forums .bbp-breadcrumb a:hover, #bbpress-forums .bbp-forum-freshness a:hover, #bbpress-forums .bbp-topic-freshness a:hover, #buddypress ul.item-list li div.item-title a, #buddypress ul.item-list li h4 a, #buddypress .activity-header a:first-child, #buddypress .comment-meta a:first-child, #buddypress .acomment-meta a:first-child, div.bbp-template-notice a:hover, .penci-menu-hbg .menu li a .indicator:hover, .penci-menu-hbg .menu li a:hover, #sidebar-nav .menu li a:hover, .penci-rlt-popup .rltpopup-meta .rltpopup-title:hover{ color: #dd3333; }
+		.penci-home-popular-post ul.slick-dots li button:hover, .penci-home-popular-post ul.slick-dots li.slick-active button, .post-entry blockquote .author span:after, .error-image:after, .error-404 .go-back-home a:after, .penci-header-signup-form, .woocommerce span.onsale, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce div.product .entry-summary div[itemprop="description"]:before, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote .author span:after, .woocommerce div.product .woocommerce-tabs #tab-description blockquote .author span:after, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, #top-search.shoping-cart-icon > a > span, #penci-demobar .buy-button, #penci-demobar .buy-button:hover, .penci-recipe-heading a.penci-recipe-print:hover, .penci-review-process span, .penci-review-score-total, #navigation.menu-style-2 ul.menu ul:before, #navigation.menu-style-2 .menu ul ul:before, .penci-go-to-top-floating, .post-entry.blockquote-style-2 blockquote:before, #bbpress-forums #bbp-search-form .button, #bbpress-forums #bbp-search-form .button:hover, .wrapper-boxed .bbp-pagination-links span.current, #bbpress-forums #bbp_reply_submit:hover, #bbpress-forums #bbp_topic_submit:hover, #buddypress .dir-search input[type=submit], #buddypress .groups-members-search input[type=submit], #buddypress button:hover, #buddypress a.button:hover, #buddypress a.button:focus, #buddypress input[type=button]:hover, #buddypress input[type=reset]:hover, #buddypress ul.button-nav li a:hover, #buddypress ul.button-nav li.current a, #buddypress div.generic-button a:hover, #buddypress .comment-reply-link:hover, #buddypress input[type=submit]:hover, #buddypress div.pagination .pagination-links .current, #buddypress div.item-list-tabs ul li.selected a, #buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li a:hover, #buddypress table.notifications thead tr, #buddypress table.notifications-settings thead tr, #buddypress table.profile-settings thead tr, #buddypress table.profile-fields thead tr, #buddypress table.wp-profile-fields thead tr, #buddypress table.messages-notices thead tr, #buddypress table.forum thead tr, #buddypress input[type=submit] { background-color: #dd3333; }
+		.penci-pagination ul.page-numbers li span.current, #comments_pagination span { color: #fff; background: #dd3333; border-color: #dd3333; }
+		.footer-instagram h4.footer-instagram-title > span:before, .woocommerce nav.woocommerce-pagination ul li span.current, .penci-pagination.penci-ajax-more a.penci-ajax-more-button:hover, .penci-recipe-heading a.penci-recipe-print:hover, .home-featured-cat-content.style-14 .magcat-padding:before, .wrapper-boxed .bbp-pagination-links span.current, #buddypress .dir-search input[type=submit], #buddypress .groups-members-search input[type=submit], #buddypress button:hover, #buddypress a.button:hover, #buddypress a.button:focus, #buddypress input[type=button]:hover, #buddypress input[type=reset]:hover, #buddypress ul.button-nav li a:hover, #buddypress ul.button-nav li.current a, #buddypress div.generic-button a:hover, #buddypress .comment-reply-link:hover, #buddypress input[type=submit]:hover, #buddypress div.pagination .pagination-links .current, #buddypress input[type=submit], #searchform.penci-hbg-search-form input.search-input:hover, #searchform.penci-hbg-search-form input.search-input:focus { border-color: #dd3333; }
+		.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message { border-top-color: #dd3333; }
+		.penci-slider ol.penci-control-nav li a.penci-active, .penci-slider ol.penci-control-nav li a:hover, .penci-related-carousel .owl-dot.active span, .penci-owl-carousel-slider .owl-dot.active span{ border-color: #dd3333; background-color: #dd3333; }
+		.woocommerce .woocommerce-message:before, .woocommerce form.checkout table.shop_table .order-total .amount, .woocommerce ul.products li.product .price ins, .woocommerce ul.products li.product .price, .woocommerce div.product p.price ins, .woocommerce div.product span.price ins, .woocommerce div.product p.price, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote:before, .woocommerce div.product .woocommerce-tabs #tab-description blockquote:before, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote cite, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote .author, .woocommerce div.product .woocommerce-tabs #tab-description blockquote cite, .woocommerce div.product .woocommerce-tabs #tab-description blockquote .author, .woocommerce div.product .product_meta > span a:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li.active, .woocommerce ul.cart_list li .amount, .woocommerce ul.product_list_widget li .amount, .woocommerce table.shop_table td.product-name a:hover, .woocommerce table.shop_table td.product-price span, .woocommerce table.shop_table td.product-subtotal span, .woocommerce-cart .cart-collaterals .cart_totals table td .amount, .woocommerce .woocommerce-info:before, .woocommerce div.product span.price, .penci-container-inside.penci-breadcrumb span a:hover { color: #dd3333; }
+		.standard-content .penci-more-link.penci-more-link-button a.more-link, .penci-readmore-btn.penci-btn-make-button a, .penci-featured-cat-seemore.penci-btn-make-button a{ background-color: #dd3333; color: #fff; }
+		.penci-vernav-toggle:before{ border-top-color: #dd3333; color: #fff; }
+														.headline-title { background-color: #ffffff; }
+														a.penci-topbar-post-title:hover { color: #dd3333; }
+										ul.penci-topbar-menu > li a, div.penci-topbar-menu > ul > li a { text-transform: none; font-size: 12px; }
+																				ul.penci-topbar-menu > li a:hover, div.penci-topbar-menu > ul > li a:hover { color: #ffffff; }
+										.penci-topbar-social a:hover { color: #dd3333; }
+																						#navigation .menu li a:hover, #navigation .menu li.current-menu-item > a, #navigation .menu > li.current_page_item > a, #navigation .menu li:hover > a, #navigation .menu > li.current-menu-ancestor > a, #navigation .menu > li.current-menu-item > a { color:  #dd3333; }
+		#navigation ul.menu > li > a:before, #navigation .menu > ul > li > a:before { background: #dd3333; }
+						#navigation.menu-item-padding .menu > li > a:hover, #navigation.menu-item-padding .menu > li:hover > a, #navigation.menu-item-padding .menu > li.current-menu-item > a, #navigation.menu-item-padding .menu > li.current_page_item > a, #navigation.menu-item-padding .menu > li.current-menu-ancestor > a, #navigation.menu-item-padding .menu > li.current-menu-item > a { background-color:  #dd3333; }
+																				#navigation .penci-megamenu .penci-mega-child-categories a.cat-active, #navigation .menu .penci-megamenu .penci-mega-child-categories a:hover, #navigation .menu .penci-megamenu .penci-mega-latest-posts .penci-mega-post a:hover { color: #dd3333; }
+		#navigation .penci-megamenu .penci-mega-thumbnail .mega-cat-name { background: #dd3333; }
+														#navigation ul.menu > li > a, #navigation .menu > ul > li > a { font-size: 12px; }
+																												#navigation .menu .sub-menu li a:hover, #navigation .menu .sub-menu li.current-menu-item > a, #navigation .sub-menu li:hover > a { color:  #dd3333; }
+		#navigation ul.menu ul a:before, #navigation .menu ul ul a:before { background-color: #dd3333;   -webkit-box-shadow: 5px -2px 0 #dd3333;  -moz-box-shadow: 5px -2px 0 #dd3333;  -ms-box-shadow: 5px -2px 0 #dd3333;  box-shadow: 5px -2px 0 #dd3333; }
+						#navigation.menu-style-2 ul.menu ul:before, #navigation.menu-style-2 .menu ul ul:before { background-color: #dd3333; }
+										.penci-featured-content .feat-text h3 a, .featured-style-35 .feat-text-right h3 a, .featured-style-4 .penci-featured-content .feat-text h3 a, .penci-mag-featured-content h3 a, .pencislider-container .pencislider-content .pencislider-title { text-transform: none; letter-spacing: 0; }
+						.penci-home-popular-post .item-related h3 a { text-transform: none; letter-spacing: 0; }
+																				.penci-header-signup-form { padding-top: px; }
+		.penci-header-signup-form { padding-bottom: px; }
+				.penci-header-signup-form { background-color: #dd3333; }
+																						.header-social a:hover i, .main-nav-social a:hover, .penci-menuhbg-toggle:hover .lines-button:after, .penci-menuhbg-toggle:hover .penci-lines:before, .penci-menuhbg-toggle:hover .penci-lines:after {   color: #dd3333; }
+																#sidebar-nav .menu li a:hover, .header-social.sidebar-nav-social a:hover i, #sidebar-nav .menu li a .indicator:hover, #sidebar-nav .menu .sub-menu li a .indicator:hover{ color: #dd3333; }
+		#sidebar-nav-logo:before{ background-color: #dd3333; }
+														.penci-slide-overlay .overlay-link, .penci-slider38-overlay { opacity: ; }
+		.penci-item-mag:hover .penci-slide-overlay .overlay-link, .featured-style-38 .item:hover .penci-slider38-overlay { opacity: ; }
+		.penci-featured-content .featured-slider-overlay { opacity: ; }
+														.penci-mag-featured-content h3 a:hover, .penci-featured-content .feat-text h3 a:hover, .featured-style-35 .feat-text-right h3 a:hover { color: #ffffff; }
+										.featured-style-29 .featured-slider-overlay { opacity: ; }
+																										.penci-standard-cat .cat > a.penci-cat-name { color: #dd3333; }
+		.penci-standard-cat .cat:before, .penci-standard-cat .cat:after { background-color: #dd3333; }
+														.standard-content .penci-post-box-meta .penci-post-share-box a:hover, .standard-content .penci-post-box-meta .penci-post-share-box a.liked { color: #dd3333; }
+						.header-standard .post-entry a:hover, .header-standard .author-post span a:hover, .standard-content a, .standard-content .post-entry a, .standard-post-entry a.more-link:hover, .penci-post-box-meta .penci-box-meta a:hover, .standard-content .post-entry blockquote:before, .post-entry blockquote cite, .post-entry blockquote .author, .standard-content-special .author-quote span, .standard-content-special .format-post-box .post-format-icon i, .standard-content-special .format-post-box .dt-special a:hover, .standard-content .penci-more-link a.more-link { color: #dd3333; }
+		.standard-content .penci-more-link.penci-more-link-button a.more-link{ background-color: #dd3333; color: #fff; }
+		.standard-content-special .author-quote span:before, .standard-content-special .author-quote span:after, .standard-content .post-entry ul li:before, .post-entry blockquote .author span:after, .header-standard:after { background-color: #dd3333; }
+		.penci-more-link a.more-link:before, .penci-more-link a.more-link:after { border-color: #dd3333; }
+						.penci-grid li .item h2 a, .penci-masonry .item-masonry h2 a, .grid-mixed .mixed-detail h2 a, .overlay-header-box .overlay-title a { text-transform: none; }
+										.penci-grid .cat a.penci-cat-name, .penci-masonry .cat a.penci-cat-name { color: #dd3333; }
+		.penci-grid .cat a.penci-cat-name:after, .penci-masonry .cat a.penci-cat-name:after { border-color: #dd3333; }
+								.penci-post-share-box a.liked, .penci-post-share-box a:hover { color: #dd3333; }
+								.penci-grid li .item h2 a:hover, .penci-masonry .item-masonry h2 a:hover, .grid-mixed .mixed-detail h2 a:hover { color: #dd3333; }
+						.overlay-post-box-meta .overlay-share a:hover, .overlay-author a:hover, .penci-grid .standard-content-special .format-post-box .dt-special a:hover, .grid-post-box-meta span a:hover, .grid-post-box-meta span a.comment-link:hover, .penci-grid .standard-content-special .author-quote span, .penci-grid .standard-content-special .format-post-box .post-format-icon i, .grid-mixed .penci-post-box-meta .penci-box-meta a:hover { color: #dd3333; }
+		.penci-grid .standard-content-special .author-quote span:before, .penci-grid .standard-content-special .author-quote span:after, .grid-header-box:after, .list-post .header-list-style:after { background-color: #dd3333; }
+		.penci-grid .post-box-meta span:after, .penci-masonry .post-box-meta span:after { border-color: #dd3333; }
+		.penci-readmore-btn.penci-btn-make-button a{ background-color: #dd3333; color: #fff; }
+						.penci-grid li.typography-style .overlay-typography { opacity: ; }
+		.penci-grid li.typography-style:hover .overlay-typography { opacity: ; }
+						.penci-grid li.typography-style .item .main-typography h2 a { color: #ffffff; }
+						.penci-grid li.typography-style .item .main-typography h2 a:hover { color: #ffffff; }
+								.penci-grid li.typography-style .grid-post-box-meta span a:hover { color: #ffffff; }
+						.overlay-header-box .overlay-title a { color: #ffffff; }
+										.overlay-header-box .cat > a.penci-cat-name:hover { color: #ffffff; }
+						.overlay-author span, .overlay-author a { color: #ffffff; }
+																.penci-sidebar-content .penci-border-arrow .inner-arrow { background-color: #dd3333; }
+		.penci-sidebar-content.style-2 .penci-border-arrow:after{ border-top-color: #dd3333; }
+								.penci-sidebar-content .penci-border-arrow .inner-arrow, .penci-sidebar-content.style-4 .penci-border-arrow .inner-arrow:before, .penci-sidebar-content.style-4 .penci-border-arrow .inner-arrow:after, .penci-sidebar-content.style-5 .penci-border-arrow, .penci-sidebar-content.style-7
+		.penci-border-arrow, .penci-sidebar-content.style-9 .penci-border-arrow { border-color: #dd3333; }
+		.penci-sidebar-content .penci-border-arrow:before { border-top-color: #dd3333; }
+						.penci-sidebar-content.style-5 .penci-border-arrow { border-color: #dd3333; }
+		.penci-sidebar-content.style-5 .penci-border-arrow .inner-arrow{ border-bottom-color: #dd3333; }
+						.penci-sidebar-content.style-7 .penci-border-arrow .inner-arrow:before, .penci-sidebar-content.style-9 .penci-border-arrow .inner-arrow:before { background-color: #dd3333; }
+						.penci-sidebar-content .penci-border-arrow:after { border-color: #dd3333; }
+						.penci-sidebar-content .penci-border-arrow .inner-arrow { color: #ffffff; }
+												.widget ul.side-newsfeed li .side-item .side-item-text h4 a:hover, .widget a:hover, .penci-sidebar-content .widget-social a:hover span, .widget-social a:hover span, .penci-tweets-widget-content .icon-tweets, .penci-tweets-widget-content .tweet-intents a, .penci-tweets-widget-content
+		.tweet-intents span:after, .widget-social.remove-circle a:hover i , #wp-calendar tbody td a:hover{ color: #dd3333; }
+		.widget .tagcloud a:hover, .widget-social a:hover i, .widget input[type="submit"]:hover, .widget button[type="submit"]:hover { color: #fff; background-color: #dd3333; border-color: #dd3333; }
+		.about-widget .about-me-heading:before { border-color: #dd3333; }
+		.penci-tweets-widget-content .tweet-intents-inner:before, .penci-tweets-widget-content .tweet-intents-inner:after { background-color: #dd3333; }
+		.penci-owl-carousel.penci-tweets-slider .owl-dots .owl-dot.active span, .penci-owl-carousel.penci-tweets-slider .owl-dots .owl-dot:hover span { border-color: #dd3333; background-color: #dd3333; }
+				#widget-area { padding: px 0; }
+																														.footer-subscribe .widget .mc4wp-form input[type="submit"]:hover { background-color: #dd3333; }
+																										.footer-widget-wrapper .penci-tweets-widget-content .icon-tweets, .footer-widget-wrapper .penci-tweets-widget-content .tweet-intents a, .footer-widget-wrapper .penci-tweets-widget-content .tweet-intents span:after, .footer-widget-wrapper .widget ul.side-newsfeed li .side-item
+		.side-item-text h4 a:hover, .footer-widget-wrapper .widget a:hover, .footer-widget-wrapper .widget-social a:hover span, .footer-widget-wrapper a:hover, .footer-widget-wrapper .widget-social.remove-circle a:hover i { color: #dd3333; }
+		.footer-widget-wrapper .widget .tagcloud a:hover, .footer-widget-wrapper .widget-social a:hover i, .footer-widget-wrapper .mc4wp-form input[type="submit"]:hover, .footer-widget-wrapper .widget input[type="submit"]:hover, .footer-widget-wrapper .widget button[type="submit"]:hover { color: #fff; background-color: #dd3333; border-color: #dd3333; }
+		.footer-widget-wrapper .about-widget .about-me-heading:before { border-color: #dd3333; }
+		.footer-widget-wrapper .penci-tweets-widget-content .tweet-intents-inner:before, .footer-widget-wrapper .penci-tweets-widget-content .tweet-intents-inner:after { background-color: #dd3333; }
+		.footer-widget-wrapper .penci-owl-carousel.penci-tweets-slider .owl-dots .owl-dot.active span, .footer-widget-wrapper .penci-owl-carousel.penci-tweets-slider .owl-dots .owl-dot:hover span {  border-color: #dd3333;  background: #dd3333;  }
+								ul.footer-socials li a:hover i { background-color: #dd3333; border-color: #dd3333; }
+										ul.footer-socials li a:hover span { color: #dd3333; }
+										#footer-section { background-color: #313131; }
+								#footer-section .footer-menu li a:hover { color: #dd3333; }
+												.penci-go-to-top-floating { background-color: #dd3333; }
+								#footer-section a { color: #dd3333; }
+						.container-single .penci-standard-cat .cat > a.penci-cat-name { color: #dd3333; }
+		.container-single .penci-standard-cat .cat:before, .container-single .penci-standard-cat .cat:after { background-color: #dd3333; }
+						.container-single .single-post-title { text-transform: none; letter-spacing: 1px; }
+																																		.container-single .post-pagination h5 { text-transform: none; letter-spacing: 0; }
+								.container-single .item-related h3 a { text-transform: none; letter-spacing: 0; }
+						
+						.container-single .post-share a:hover, .container-single .post-share a.liked, .page-share .post-share a:hover { color: #dd3333; }
+						.post-share .count-number-like { color: #dd3333; }
+						.comment-content a, .container-single .post-entry a, .container-single .format-post-box .dt-special a:hover, .container-single .author-quote span, .container-single .author-post span a:hover, .post-entry blockquote:before, .post-entry blockquote cite, .post-entry blockquote .author, .wpb_text_column blockquote:before, .wpb_text_column blockquote cite, .wpb_text_column blockquote .author, .post-pagination a:hover, .author-content h5 a:hover, .author-content .author-social:hover, .item-related h3 a:hover, .container-single .format-post-box .post-format-icon i, .container.penci-breadcrumb.single-breadcrumb span a:hover { color: #dd3333; }
+		.container-single .standard-content-special .format-post-box, ul.slick-dots li button:hover, ul.slick-dots li.slick-active button { border-color: #dd3333; }
+		ul.slick-dots li button:hover, ul.slick-dots li.slick-active button, #respond h3.comment-reply-title span:before, #respond h3.comment-reply-title span:after, .post-box-title:before, .post-box-title:after, .container-single .author-quote span:before, .container-single .author-quote
+		span:after, .post-entry blockquote .author span:after, .post-entry blockquote .author span:before, .post-entry ul li:before, #respond #submit:hover, .wpcf7 input[type="submit"]:hover, .widget_wysija input[type="submit"]:hover, .post-entry.blockquote-style-2 blockquote:before {  background-color: #dd3333; }
+		.container-single .post-entry .post-tags a:hover { color: #fff; border-color: #dd3333; background-color: #dd3333; }
+								.post-entry a, .container-single .post-entry a{ color: #dd3333; }
+																																		ul.homepage-featured-boxes .penci-fea-in h4 span span, ul.homepage-featured-boxes .penci-fea-in h4 span, ul.homepage-featured-boxes .penci-fea-in.boxes-style-2 h4 { background-color: #8224e3; }
+		ul.homepage-featured-boxes li .penci-fea-in:before, ul.homepage-featured-boxes li .penci-fea-in:after, ul.homepage-featured-boxes .penci-fea-in h4 span span:before, ul.homepage-featured-boxes .penci-fea-in h4 > span:before, ul.homepage-featured-boxes .penci-fea-in h4 > span:after, ul.homepage-featured-boxes .penci-fea-in.boxes-style-2 h4:before { border-color: #8224e3; }
+								ul.homepage-featured-boxes .penci-fea-in:hover h4 span { color: #6eb48c; }
+								.penci-home-popular-post .item-related h3 a { color: #dd3333; }
+						.penci-home-popular-post .item-related h3 a:hover { color: #dd3333; }
+								.penci-homepage-title .inner-arrow{ background-color: #dd3333; }
+		.penci-border-arrow.penci-homepage-title.style-2:after{ border-top-color: #dd3333; }
+						.penci-border-arrow.penci-homepage-title:after { background-color: #dd3333; }
+						.penci-border-arrow.penci-homepage-title .inner-arrow, .penci-homepage-title.style-4 .inner-arrow:before, .penci-homepage-title.style-4 .inner-arrow:after, .penci-homepage-title.style-7, .penci-homepage-title.style-9 { border-color: #dd3333; }
+		.penci-border-arrow.penci-homepage-title:before { border-top-color: #dd3333; }
+		.penci-homepage-title.style-5, .penci-homepage-title.style-7{ border-color: #dd3333; }
+						.penci-border-arrow.penci-homepage-title.style-5 .inner-arrow{ border-bottom-color: #dd3333; }
+		.penci-homepage-title.style-5{ border-color: #dd3333; }
+						.penci-homepage-title.style-7 .inner-arrow:before, .penci-homepage-title.style-9 .inner-arrow:before{ background-color: #dd3333; }
+						.penci-border-arrow.penci-homepage-title:after { border-color: #dd3333; }
+
+						.penci-homepage-title .inner-arrow, .penci-homepage-title.penci-magazine-title .inner-arrow a { color: #ffffff; }
+										.home-featured-cat-content .magcat-detail h3 a { color: #313131; }
+						.home-featured-cat-content .magcat-detail h3 a:hover { color: #dd3333; }
+						.home-featured-cat-content .grid-post-box-meta span a:hover { color: #dd3333; }
+		.home-featured-cat-content .first-post .magcat-detail .mag-header:after { background: #dd3333; }
+		.penci-slider ol.penci-control-nav li a.penci-active, .penci-slider ol.penci-control-nav li a:hover { border-color: #dd3333; background: #dd3333; }
+						.home-featured-cat-content .mag-photo .mag-overlay-photo { background-color: #ffffff; }
+				.home-featured-cat-content .mag-photo .mag-overlay-photo { opacity: ; }
+		.home-featured-cat-content .mag-photo:hover .mag-overlay-photo { opacity: ; }
+				.home-featured-cat-content .mag-photo .magcat-detail h3 a, .penci-single-mag-slider .magcat-detail .magcat-titlte a, .home-featured-cat-content.style-14 .first-post .magcat-detail h3 a { color: #ffffff; }
+						.home-featured-cat-content .mag-photo .magcat-detail h3 a:hover, .penci-single-mag-slider .magcat-detail .magcat-titlte a:hover, .home-featured-cat-content.style-14 .first-post .magcat-detail h3 a:hover { color: #ffffff; }
+						.home-featured-cat-content .mag-photo .grid-post-box-meta span, .home-featured-cat-content .mag-photo .grid-post-box-meta span a, .penci-single-mag-slider .grid-post-box-meta span, .penci-single-mag-slider .grid-post-box-meta span a, .home-featured-cat-content.style-14 .mag-meta,
+		.home-featured-cat-content.style-14 .mag-meta span a { color: #ffffff; }
+		.home-featured-cat-content .mag-photo .grid-post-box-meta span:after, .home-featured-cat-content .mag-single-slider .grid-post-box-meta span:after, .home-featured-cat-content.style-14 .mag-meta span:after { background-color: #ffffff; }
+																						.inner-item-portfolio:hover .penci-portfolio-thumbnail a:after { opacity: ; }
+																				
+		
+		    </style>
+    <script type="application/ld+json">{
+    "@context": "https:\/\/schema.org\/",
+    "@type": "organization",
+    "@id": "#organization",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/0-100.ro\/home\/wp-content\/uploads\/2013\/11\/logozero.png"
+    },
+    "url": "https:\/\/0-100.ro\/",
+    "name": "0-100.ro",
+    "description": ""
+}</script><script type="application/ld+json">{
+    "@context": "https:\/\/schema.org\/",
+    "@type": "WebSite",
+    "name": "0-100.ro",
+    "alternateName": "",
+    "url": "https:\/\/0-100.ro\/",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https:\/\/0-100.ro\/search\/{search_term}",
+        "query-input": "required name=search_term"
+    }
+}</script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<link rel="amphtml" href="https://0-100.ro" /><meta name="generator" content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home blog cookies-not-set wpb-js-composer js-comp-ver-6.0.3 vc_responsive">
+<a id="close-sidebar-nav" class="header-3"><i class="fa fa-close"></i></a>
+<nav id="sidebar-nav" class="header-3" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+
+			<div id="sidebar-nav-logo">
+							<a href="https://0-100.ro/"><img class="penci-lazy" src="https://0-100.ro/home/wp-content/themes/soledad/images/penci-holder.png" data-src="https://0-100.ro/home/wp-content/uploads/2013/11/logozero.png" alt="0-100.ro" /></a>
+					</div>
+	
+			<div class="header-social sidebar-nav-social">
+			<div class="inner-header-social">
+			<a href="https://www.facebook.com/0100.ro/" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
+												<a href="https://www.youtube.com/user/NewpressOnlineMedia" rel="nofollow" target="_blank"><i class="fa fa-youtube-play"></i></a>
+																							</div>		</div>
+	
+	<ul id="menu-meniu-principal" class="menu"><li id="menu-item-80853" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-80853"><a href="https://0-100.ro/"><i class="fa fa-car"></i></a></li>
+<li id="menu-item-80855" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80855"><a href="https://0-100.ro/categorii/test-drive/">Review</a></li>
+<li id="menu-item-80854" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80854"><a href="https://0-100.ro/categorii/opinie/">Opinie</a></li>
+<li id="menu-item-80856" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80856"><a href="https://0-100.ro/categorii/eco/">Eco</a></li>
+<li id="menu-item-80857" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80857"><a href="https://0-100.ro/categorii/top-story/">Top Story</a></li>
+<li id="menu-item-80960" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80960"><a href="https://0-100.ro/categorii/reportaj/">Reportaj</a></li>
+<li id="menu-item-80859" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80859"><a href="https://0-100.ro/categorii/tehnologie/">Tehnologie</a></li>
+<li id="menu-item-80861" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80861"><a href="https://0-100.ro/categorii/saloane-auto/">Saloane Auto</a></li>
+</ul></nav>
+
+<!-- .wrapper-boxed -->
+<div class="wrapper-boxed header-style-header-3">
+
+	<!-- Top Instagram -->
+	
+	<!-- Top Bar -->
+			<div class="penci-top-bar topbar-menu topbar-fullwidth">
+	<div class="container">
+		<div class="penci-headline" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+			<ul id="menu-top-menu" class="penci-topbar-menu"><li id="menu-item-80850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80850"><a href="https://0-100.ro/contact/">Contact</a></li>
+<li id="menu-item-80851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80851"><a href="https://0-100.ro/despre/">Despre</a></li>
+<li id="menu-item-80852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80852"><a href="https://0-100.ro/arhiva/">Arhiva</a></li>
+</ul>										<div class="penci-topbar-social">
+					<div class="inner-header-social">
+			<a href="https://www.facebook.com/0100.ro/" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
+												<a href="https://www.youtube.com/user/NewpressOnlineMedia" rel="nofollow" target="_blank"><i class="fa fa-youtube-play"></i></a>
+																							</div>				</div>
+								</div>
+	</div>
+</div>		
+	
+	<header id="header" class="header-header-3" itemscope="itemscope" itemtype="https://schema.org/WPHeader"><!-- #header -->
+				<div class="inner-header">
+			<div class="container align-left-logo has-banner">
+
+				<div id="logo">
+																		<h1>
+								<a href="https://0-100.ro/"><img src="https://0-100.ro/home/wp-content/uploads/2013/11/logozero.png" alt="0-100.ro" /></a>
+							</h1>
+															</div>
+
+														<div class="header-banner header-style-3">
+						<!-- (c) 2000-2019 Gemius SA version 2.0: /0-100.ro/970x250, ABG BMW seria 5  -->
+<script language="javascript1.2" type="text/javascript">
+//<![CDATA[
+document.write('<scr'+'ipt src="//rogde.adocean.pl/_'+(new Date()).getTime()+'/ad.js?id=QycMX0pF7dzrEQ3VFrOXntY7E.dls0OXp10qEIZQEJn.87/nc=0/gdpr=0/gdpr_consent=/redir=" language="javascript"></scr'+'ipt>');
+//]]>
+</script>											</div>
+				
+				
+							</div>
+		</div>
+		
+					<!-- Navigation -->
+			<nav id="navigation" class="header-layout-bottom menu-style-2 header-3" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+				<div class="container">
+					<div class="button-menu-mobile header-3"><i class="fa fa-bars"></i></div>
+										<ul id="menu-meniu-principal-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-80853"><a href="https://0-100.ro/"><i class="fa fa-car"></i></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80855"><a href="https://0-100.ro/categorii/test-drive/">Review</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80854"><a href="https://0-100.ro/categorii/opinie/">Opinie</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80856"><a href="https://0-100.ro/categorii/eco/">Eco</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80857"><a href="https://0-100.ro/categorii/top-story/">Top Story</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80960"><a href="https://0-100.ro/categorii/reportaj/">Reportaj</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80859"><a href="https://0-100.ro/categorii/tehnologie/">Tehnologie</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80861"><a href="https://0-100.ro/categorii/saloane-auto/">Saloane Auto</a></li>
+</ul>
+					
+					
+
+					
+																										
+					
+				</div>
+			</nav><!-- End Navigation -->
+			</header>
+	<!-- end #header -->
+		
+	<div class="featured-area featured-style-4"><div class="container"><div class="penci-owl-carousel penci-owl-featured-area"data-style="style-4" data-auto="false" data-autotime="4000" data-speed="600" data-loop="true">	<div class="item">
+					<a class="penci-image-holder owl-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2018/08/Renault-Zoe-Z.E.-R90-sursa-Adrian-Mitrea-05-780x516.jpeg" href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/" title="Revizia unei maºini electrice cu piese aftermarket. Cât costã"></a>
+				<div class="penci-slider4-overlay">
+			<a class="overlay-link" href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/"></a>
+			<div class="penci-featured-content">
+				<div class="feat-text">
+					<div class="featured-slider-overlay"></div>
+											<div class="cat featured-cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/curiozitati/"  rel="category tag">Curiozitati</a><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></div>
+										<h3><a title="Revizia unei maºini electrice cu piese aftermarket. Cât costã" href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/">Revizia unei maºini electrice cu piese aftermarket. Cât costã</a></h3>
+											<div class="feat-meta">
+															<span class="feat-time"><time class="entry-date published" datetime="2019-08-01T11:59:18+03:00">1 august 2019</time></span>
+																						<span class="feat-comments"><a href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/#comments ">19 comentarii</a></span>
+													</div>
+									</div>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+					<a class="penci-image-holder owl-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/07/Adrian-Mitrea-si-Citroen-C5-Aircross-foto-Marius-Stoianov-2-780x516.jpg" href="https://0-100.ro/2019/07/25/5-curiozitati-despre-citroen-c5-aircross/" title="5 curiozitãþi despre Citröen C5 Aircross"></a>
+				<div class="penci-slider4-overlay">
+			<a class="overlay-link" href="https://0-100.ro/2019/07/25/5-curiozitati-despre-citroen-c5-aircross/"></a>
+			<div class="penci-featured-content">
+				<div class="feat-text">
+					<div class="featured-slider-overlay"></div>
+											<div class="cat featured-cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/citroen/"  rel="category tag">Citroen</a><a class="penci-cat-name" href="https://0-100.ro/categorii/curiozitati/"  rel="category tag">Curiozitati</a><a class="penci-cat-name" href="https://0-100.ro/categorii/video/"  rel="category tag">Video</a></div>
+										<h3><a title="5 curiozitãþi despre Citröen C5 Aircross" href="https://0-100.ro/2019/07/25/5-curiozitati-despre-citroen-c5-aircross/">5 curiozitãþi despre Citröen C5 Aircross</a></h3>
+											<div class="feat-meta">
+															<span class="feat-time"><time class="entry-date published" datetime="2019-07-25T17:00:20+03:00">25 iulie 2019</time></span>
+																						<span class="feat-comments"><a href="https://0-100.ro/2019/07/25/5-curiozitati-despre-citroen-c5-aircross/#comments ">4 comentarii</a></span>
+													</div>
+									</div>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+					<a class="penci-image-holder owl-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/BMW-i3-la-intrarea-in-Romania-sursa-Adrian-Mitrea-780x516.jpg" href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/" title="Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi un automobil pe combustie, din þarã sau strãinãtate"></a>
+				<div class="penci-slider4-overlay">
+			<a class="overlay-link" href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/"></a>
+			<div class="penci-featured-content">
+				<div class="feat-text">
+					<div class="featured-slider-overlay"></div>
+											<div class="cat featured-cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/curiozitati/"  rel="category tag">Curiozitati</a><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></div>
+										<h3><a title="Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi un automobil pe combustie, din þarã sau strãinãtate" href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/">Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi...</a></h3>
+											<div class="feat-meta">
+															<span class="feat-time"><time class="entry-date published" datetime="2019-06-27T12:27:44+03:00">27 iunie 2019</time></span>
+																						<span class="feat-comments"><a href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/#comments ">49 comentarii</a></span>
+													</div>
+									</div>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+					<a class="penci-image-holder owl-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Ford-Puma-foto-Adrian-Mitrea-00-780x516.jpg" href="https://0-100.ro/2019/06/26/noul-ford-puma-felina-din-inima-olteniei-cel-mai-avansat-automobil-fabricat-in-romania/" title="Noul Ford Puma, felina din inima Olteniei &#8211; cel mai avansat automobil fabricat în România"></a>
+				<div class="penci-slider4-overlay">
+			<a class="overlay-link" href="https://0-100.ro/2019/06/26/noul-ford-puma-felina-din-inima-olteniei-cel-mai-avansat-automobil-fabricat-in-romania/"></a>
+			<div class="penci-featured-content">
+				<div class="feat-text">
+					<div class="featured-slider-overlay"></div>
+											<div class="cat featured-cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/ford/"  rel="category tag">Ford</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></div>
+										<h3><a title="Noul Ford Puma, felina din inima Olteniei &#8211; cel mai avansat automobil fabricat în România" href="https://0-100.ro/2019/06/26/noul-ford-puma-felina-din-inima-olteniei-cel-mai-avansat-automobil-fabricat-in-romania/">Noul Ford Puma, felina din inima Olteniei &#8211; cel mai avansat automobil...</a></h3>
+											<div class="feat-meta">
+															<span class="feat-time"><time class="entry-date published" datetime="2019-06-26T07:58:26+03:00">26 iunie 2019</time></span>
+																						<span class="feat-comments"><a href="https://0-100.ro/2019/06/26/noul-ford-puma-felina-din-inima-olteniei-cel-mai-avansat-automobil-fabricat-in-romania/#comments ">33 comentarii</a></span>
+													</div>
+									</div>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+					<a class="penci-image-holder owl-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Ford-DSFL-2019-sursa-Ford-10-780x516.jpg" href="https://0-100.ro/2019/06/20/ford-dsfl-cursurile-de-condus-defensiv-dau-deja-rezultate-o-experienta-personala-si-invataminte-de-la-bogdan-marisca/" title="Ford DSFL: Cursurile de condus defensiv dau deja rezultate. O experienþã personalã ºi învãþãminte de la Bogdan Mariºca"></a>
+				<div class="penci-slider4-overlay">
+			<a class="overlay-link" href="https://0-100.ro/2019/06/20/ford-dsfl-cursurile-de-condus-defensiv-dau-deja-rezultate-o-experienta-personala-si-invataminte-de-la-bogdan-marisca/"></a>
+			<div class="penci-featured-content">
+				<div class="feat-text">
+					<div class="featured-slider-overlay"></div>
+											<div class="cat featured-cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/ford/"  rel="category tag">Ford</a><a class="penci-cat-name" href="https://0-100.ro/categorii/siguranta-auto/"  rel="category tag">Siguranta Auto</a></div>
+										<h3><a title="Ford DSFL: Cursurile de condus defensiv dau deja rezultate. O experienþã personalã ºi învãþãminte de la Bogdan Mariºca" href="https://0-100.ro/2019/06/20/ford-dsfl-cursurile-de-condus-defensiv-dau-deja-rezultate-o-experienta-personala-si-invataminte-de-la-bogdan-marisca/">Ford DSFL: Cursurile de condus defensiv dau deja rezultate. O experienþã personalã...</a></h3>
+											<div class="feat-meta">
+															<span class="feat-time"><time class="entry-date published" datetime="2019-06-20T11:31:51+03:00">20 iunie 2019</time></span>
+																						<span class="feat-comments"><a href="https://0-100.ro/2019/06/20/ford-dsfl-cursurile-de-condus-defensiv-dau-deja-rezultate-o-experienta-personala-si-invataminte-de-la-bogdan-marisca/#comments ">4 comentarii</a></span>
+													</div>
+									</div>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+					<a class="penci-image-holder owl-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Caravana-ElectricRomania-foto-Ciprian-Mihai-780x516.jpg" href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/" title="#ElectricRomânia, ziua 6: BMW i3 din caravanã, diferit de cel de-acasã"></a>
+				<div class="penci-slider4-overlay">
+			<a class="overlay-link" href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/"></a>
+			<div class="penci-featured-content">
+				<div class="feat-text">
+					<div class="featured-slider-overlay"></div>
+											<div class="cat featured-cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/bmw/"  rel="category tag">BMW</a><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></div>
+										<h3><a title="#ElectricRomânia, ziua 6: BMW i3 din caravanã, diferit de cel de-acasã" href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/">#ElectricRomânia, ziua 6: BMW i3 din caravanã, diferit de cel de-acasã</a></h3>
+											<div class="feat-meta">
+															<span class="feat-time"><time class="entry-date published" datetime="2019-06-19T08:15:31+03:00">19 iunie 2019</time></span>
+																						<span class="feat-comments"><a href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/#comments ">14 comentarii</a></span>
+													</div>
+									</div>
+			</div>
+		</div>
+	</div>
+</div></div></div>		
+
+
+	<div class="container penci_sidebar right-sidebar">
+		<div id="main" class="penci-layout-magazine-1 penci-main-sticky-sidebar">
+			<div class="theiaStickySidebar">
+
+										<section class="home-featured-cat mag-cat-style-1">
+							<div class="penci-border-arrow penci-homepage-title penci-magazine-title style-5 pcalign-left">
+					<h3 class="inner-arrow"><a href="https://0-100.ro/categorii/eco/">Eco</a></h3>
+				</div>
+				<div class="home-featured-cat-content style-1">
+																	<div class="cat-left"><div class="mag-post-box hentry first-post">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2018/08/Renault-Zoe-Z.E.-R90-sursa-Adrian-Mitrea-05-585x390.jpeg" href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/" title="Revizia unei maºini electrice cu piese aftermarket. Cât costã">
+		</a>
+					</div>
+	<div class="magcat-detail">
+		<div class="mag-header">		<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/">Revizia unei maºini electrice cu piese aftermarket. Cât costã</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+											<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																<span><time class="entry-date published" datetime="2019-08-01T11:59:18+03:00">1 august 2019</time></span>
+									</div>
+					</div>					<div class="mag-excerpt entry-content">
+				<p>Cele mai multe dintre maºinile electrice aflate pe piaþa din România sunt încã prea noi sã fi avut nevoie de reparaþii semnificative, însã prin simple cãutãri pe Internet am gãsit&hellip;</p>
+			</div>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-08-01T11:59:18+03:00">1 august 2019</time>		</div>
+			</div>
+</div>
+</div><div class="cat-right"><div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/BMW-i3-la-intrarea-in-Romania-sursa-Adrian-Mitrea-585x390.jpg" href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/" title="Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi un automobil pe combustie, din þarã sau strãinãtate">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/">Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi un automobil pe combustie, din þarã sau strãinãtate</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-06-27T12:27:44+03:00">27 iunie 2019</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-27T12:27:44+03:00">27 iunie 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Caravana-ElectricRomania-foto-Ciprian-Mihai-585x390.jpg" href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/" title="#ElectricRomânia, ziua 6: BMW i3 din caravanã, diferit de cel de-acasã">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/">#ElectricRomânia, ziua 6: BMW i3 din caravanã, diferit de cel de-acasã</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-06-19T08:15:31+03:00">19 iunie 2019</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-19T08:15:31+03:00">19 iunie 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Audi-e-tron-la-ElectricRomania-foto-Ciprian-Mihai-502-585x390.jpg" href="https://0-100.ro/2019/06/18/electricromania-ziua-5-audi-e-tron-e-un-varf-tehnologic-dar-retrovizoarele-digitale-sunt-de-evitat/" title="#ElectricRomânia, ziua 5: e-tron e un vârf tehnologic, retrovizoarele digitale sunt de evitat">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/06/18/electricromania-ziua-5-audi-e-tron-e-un-varf-tehnologic-dar-retrovizoarele-digitale-sunt-de-evitat/">#ElectricRomânia, ziua 5: e-tron e un vârf tehnologic, retrovizoarele digitale sunt de evitat</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-06-18T01:01:14+03:00">18 iunie 2019</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-18T01:01:14+03:00">18 iunie 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Volkswagen-e-Golf-la-ElectricRomania-sursa-Ciprian-Mihai-404-585x390.jpg" href="https://0-100.ro/2019/06/17/electricromania-ziua-4-reintalnire-cu-regele-e-golf/" title="#ElectricRomânia, ziua 4: (Re)întâlnire cu regele e-Golf">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/06/17/electricromania-ziua-4-reintalnire-cu-regele-e-golf/">#ElectricRomânia, ziua 4: (Re)întâlnire cu regele e-Golf</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-06-17T15:21:35+03:00">17 iunie 2019</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-17T15:21:35+03:00">17 iunie 2019</time>		</div>
+			</div>
+</div>
+</div>																</div>
+
+				
+				
+						</section>
+											<section class="home-featured-cat mag-cat-style-1">
+							<div class="penci-border-arrow penci-homepage-title penci-magazine-title style-5 pcalign-left">
+					<h3 class="inner-arrow"><a href="https://0-100.ro/categorii/test-drive/">Review</a></h3>
+				</div>
+				<div class="home-featured-cat-content style-1">
+																	<div class="cat-left"><div class="mag-post-box hentry first-post">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy penci-other-layouts-lighbox" data-src="https://0-100.ro/home/wp-content/uploads/2019/01/Volkswagen-T-CROSS-in-Volkswagen-Concept-Store-sursa-Adrian-Mitrea-01-585x390.jpeg" href="https://www.youtube.com/watch?v=TtlDPLfSPEA" title="Prim contact cu Volkswagen T-CROSS, avanpremierã în România. Review static">
+		</a>
+					</div>
+	<div class="magcat-detail">
+		<div class="mag-header">		<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/01/14/prim-contact-cu-volkswagen-t-cross-avanpremiera-in-romania-review-static/">Prim contact cu Volkswagen T-CROSS, avanpremierã în România. Review static</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+											<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																<span><time class="entry-date published" datetime="2019-01-14T12:58:28+03:00">14 ianuarie 2019</time></span>
+									</div>
+					</div>					<div class="mag-excerpt entry-content">
+				<p>Volkswagen T-CROSS se alãturã familei de SUV-uri ºi crossover-e a mãrcii Volkswagen din Aprilie 2019, pe piaþa din România, iar maºina a fost deja prezentatã în avanpremierã în þarã, în&hellip;</p>
+			</div>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-01-14T12:58:28+03:00">14 ianuarie 2019</time>		</div>
+			</div>
+</div>
+</div><div class="cat-right"><div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2018/11/Renault-Kangoo-Z.E.-Maxi-sursa-Adrian-Mitrea-18-585x390.jpeg" href="https://0-100.ro/2018/11/06/test-drive-renault-kangoo-z-e-in-10-puncte/" title="Test Drive Renault Kangoo Z.E. în 10 puncte">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2018/11/06/test-drive-renault-kangoo-z-e-in-10-puncte/">Test Drive Renault Kangoo Z.E. în 10 puncte</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2018-11-06T13:05:10+03:00">6 noiembrie 2018</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2018-11-06T13:05:10+03:00">6 noiembrie 2018</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size penci-other-layouts-lighbox" data-src="https://0-100.ro/home/wp-content/uploads/2018/11/Audi-Q3-sursa-Audi-01-585x390.jpg" href="https://www.youtube.com/watch?v=ry67CnftvrY" title="Test Drive Audi Q3 2018">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2018/11/01/test-drive-audi-q3-2018/">Test Drive Audi Q3 2018</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2018-11-01T13:56:10+03:00">1 noiembrie 2018</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2018-11-01T13:56:10+03:00">1 noiembrie 2018</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size penci-other-layouts-lighbox" data-src="https://0-100.ro/home/wp-content/uploads/2018/10/Mazda-MX-5-2019-sursa-Mazda-09-585x390.jpg" href="https://www.youtube.com/watch?v=LLKoxg1OFsI" title="Test Drive Mazda MX-5 2018">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2018/09/29/test-drive-mazda-mx-5-2018/">Test Drive Mazda MX-5 2018</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2018-09-29T23:59:50+03:00">29 septembrie 2018</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2018-09-29T23:59:50+03:00">29 septembrie 2018</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2018/09/Ford-Fiesta-ST-2018-sursa-Ford-02-585x390.jpg" href="https://0-100.ro/2018/09/24/test-drive-ford-fiesta-st-2018/" title="Test Drive Ford Fiesta ST 2018">
+		</a>
+					</div>
+	<div class="magcat-detail">
+				<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2018/09/24/test-drive-ford-fiesta-st-2018/">Test Drive Ford Fiesta ST 2018</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2018-09-24T23:52:49+03:00">24 septembrie 2018</time></span>
+									</div>
+											<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2018-09-24T23:52:49+03:00">24 septembrie 2018</time>		</div>
+			</div>
+</div>
+</div>																</div>
+
+				
+				
+						</section>
+											<div class="home-featured-cat mag-cat-style-2">
+							<div class="penci-border-arrow penci-homepage-title penci-magazine-title style-5 pcalign-left">
+					<h3 class="inner-arrow"><a href="https://0-100.ro/categorii/tehnologie/">Tehnologie</a></h3>
+				</div>
+				<div class="home-featured-cat-content style-2">
+																	
+<div class="mag-post-box hentry first-post">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/05/BMW-Z4-si-BMW-Seria-3-sursa-BMW-Group-Romania-585x390.jpg" href="https://0-100.ro/2019/05/17/o-zi-pe-circuit-cu-noul-bmw-z4-si-noul-bmw-seria-3-sunete-si-mirosuri-efemere-dar-greu-de-uitat/" title="O zi pe circuit cu noul BMW Z4 ºi noul BMW Seria 3: sunete ºi mirosuri efemere, dar greu de uitat"></a>
+		
+			</div>
+	<div class="magcat-detail">
+		<div class="mag-header">			<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/05/17/o-zi-pe-circuit-cu-noul-bmw-z4-si-noul-bmw-seria-3-sunete-si-mirosuri-efemere-dar-greu-de-uitat/">O zi pe circuit cu noul BMW Z4 ºi noul BMW Seria 3: sunete ºi mirosuri efemere, dar greu de uitat</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+											<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																<span><time class="entry-date published" datetime="2019-05-17T13:29:06+03:00">17 mai 2019</time></span>
+									</div>
+						</div>					<div class="mag-excerpt entry-content">
+				<p>În tot iureºul cotidian uitãm sã ne oprim, pentru o secundã, sã contemplãm ce ne înconjoarã. Sã interiorizãm un pic clipa: unde suntem, de unde venim ºi încotro ne îndreptãm.&hellip;</p>
+			</div>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-05-17T13:29:06+03:00">17 mai 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2019/04/Noul-Ford-Kuga-prezentat-in-Sugar-City-Amsterdam-la-evenimentul-Go-Further-sursa-Adrian-Mitrea-02-585x390.jpg" href="https://0-100.ro/2019/04/02/ford-dezlantuit-in-europa-electrificare-masiva-a-intregii-game-si-modele-noi-printre-ele-noul-kuga-noul-explorer-versiuni-hibride-ale-focus-si-fiesta/" title="Ford, dezlãnþuit în Europa: electrificare masivã a întregii game ºi modele noi. Printre ele: noul Kuga, noul Explorer, versiuni hibride ale Focus ºi Fiesta"></a>
+		
+			</div>
+	<div class="magcat-detail">
+					<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/04/02/ford-dezlantuit-in-europa-electrificare-masiva-a-intregii-game-si-modele-noi-printre-ele-noul-kuga-noul-explorer-versiuni-hibride-ale-focus-si-fiesta/">Ford, dezlãnþuit în Europa: electrificare masivã a întregii game ºi modele noi. Printre ele: noul Kuga, noul Explorer, versiuni hibride ale Focus ºi Fiesta</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-04-02T21:15:25+03:00">2 aprilie 2019</time></span>
+									</div>
+												<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-04-02T21:15:25+03:00">2 aprilie 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2009/11/IMG_9230.jpg" href="https://0-100.ro/2019/02/05/masina-hibrida-intre-solutie-optima-si-inutilitate/" title="Maºina hibridã: între soluþie optimã ºi&#8230; inutilitate"></a>
+		
+			</div>
+	<div class="magcat-detail">
+					<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/02/05/masina-hibrida-intre-solutie-optima-si-inutilitate/">Maºina hibridã: între soluþie optimã ºi&#8230; inutilitate</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-02-05T13:02:06+03:00">5 februarie 2019</time></span>
+									</div>
+												<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-02-05T13:02:06+03:00">5 februarie 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size" data-src="https://0-100.ro/home/wp-content/uploads/2017/09/Dacia-Duster-sursa-Dacia-49.jpg" href="https://0-100.ro/2018/10/02/dacia-duster-primeste-motor-de-150-cai-putere-si-media-nav-evolution-cu-apple-carplay-si-android-auto/" title="Dacia Duster primeºte motor de 150 Cai Putere ºi Media Nav Evolution cu Apple CarPlay ºi Android Auto"></a>
+		
+			</div>
+	<div class="magcat-detail">
+					<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2018/10/02/dacia-duster-primeste-motor-de-150-cai-putere-si-media-nav-evolution-cu-apple-carplay-si-android-auto/">Dacia Duster primeºte motor de 150 Cai Putere ºi Media Nav Evolution cu Apple CarPlay ºi Android Auto</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2018-10-02T11:10:35+03:00">2 octombrie 2018</time></span>
+									</div>
+												<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2018-10-02T11:10:35+03:00">2 octombrie 2018</time>		</div>
+			</div>
+</div>																</div>
+
+				
+				
+						</div>
+											<div class="home-featured-cat mag-cat-style-2">
+							<div class="penci-border-arrow penci-homepage-title penci-magazine-title style-5 pcalign-left">
+					<h3 class="inner-arrow"><a href="https://0-100.ro/categorii/interviu/">Interviu</a></h3>
+				</div>
+				<div class="home-featured-cat-content style-2">
+																	
+<div class="mag-post-box hentry first-post">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy penci-other-layouts-lighbox" data-src="https://0-100.ro/home/wp-content/uploads/2019/05/1A6043FB-DA87-435C-9416-979658939995-585x390.jpeg" href="https://www.youtube.com/watch?v=YRSpK7DHXxI" title="#electRO ep.5: Record mondial EV în România"></a>
+		
+			</div>
+	<div class="magcat-detail">
+		<div class="mag-header">			<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/05/20/electro-ep-5-record-mondial-ev-in-romania/">#electRO ep.5: Record mondial EV în România</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+											<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																<span><time class="entry-date published" datetime="2019-05-20T14:01:46+03:00">20 mai 2019</time></span>
+									</div>
+						</div>					<div class="mag-excerpt entry-content">
+				<p>Un neamþ, o maºinã electricã franþuzeascã, sponsori deschiºi la minte ºi o þarã superbã de explorat &#8211; cam aºa a ajuns sã fie scris un record mondial, cu o maºinã&hellip;</p>
+			</div>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-05-20T14:01:46+03:00">20 mai 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size penci-other-layouts-lighbox" data-src="https://0-100.ro/home/wp-content/uploads/2019/05/Brent-Valmar-foto-Marius-Stoianov-585x390.jpg" href="https://www.youtube.com/watch?v=PS3rANyxn50" title="#electRO ep.4: Viziunea unui lider"></a>
+		
+			</div>
+	<div class="magcat-detail">
+					<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/05/02/electro-ep-4-viziunea-unui-lider/">#electRO ep.4: Viziunea unui lider</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-05-02T20:47:56+03:00">2 mai 2019</time></span>
+									</div>
+												<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-05-02T20:47:56+03:00">2 mai 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size penci-other-layouts-lighbox" data-src="https://0-100.ro/home/wp-content/uploads/2019/04/Alex-Teodorescu-sursa-0-100.ro-03-585x390.png" href="https://www.youtube.com/watch?v=TqRHj3-4inU" title="#electRO ep.3: Omul-infrastructurã"></a>
+		
+			</div>
+	<div class="magcat-detail">
+					<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/04/21/electro-ep-3-omul-infrastructura/">#electRO ep.3: Omul-infrastructurã</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-04-21T21:14:14+03:00">21 aprilie 2019</time></span>
+									</div>
+												<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-04-21T21:14:14+03:00">21 aprilie 2019</time>		</div>
+			</div>
+</div>
+<div class="mag-post-box hentry">
+	<div class="magcat-thumb">
+						<a class="penci-image-holder penci-lazy small-fix-size penci-other-layouts-lighbox" data-src="https://0-100.ro/home/wp-content/uploads/2019/04/Dana-Popescu-foto-Marius-Stoianov-585x390.png" href="https://www.youtube.com/watch?v=eMO1p8K3MYo" title="#electRO ep.2: Cel mai dorit EV din România"></a>
+		
+			</div>
+	<div class="magcat-detail">
+					<h3 class="magcat-titlte entry-title"><a href="https://0-100.ro/2019/04/11/electro-ep-2-cel-mai-dorit-ev-din-romania/">#electRO ep.2: Cel mai dorit EV din România</a></h3>
+							<div class="grid-post-box-meta mag-meta">
+																<span><time class="entry-date published" datetime="2019-04-11T00:21:08+03:00">11 aprilie 2019</time></span>
+									</div>
+												<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-04-11T00:21:08+03:00">11 aprilie 2019</time>		</div>
+			</div>
+</div>																</div>
+
+				
+				
+						</div>
+											<section class="home-featured-cat mag-cat-style-7">
+							<div class="penci-border-arrow penci-homepage-title penci-magazine-title style-5 pcalign-left">
+					<h3 class="inner-arrow"><a href="https://0-100.ro/categorii/reportaj/">Reportaj</a></h3>
+				</div>
+				<div class="home-featured-cat-content style-7">
+																	<ul class="penci-grid penci-grid-maglayout penci-fea-cat-style-7">
+									<li class="grid-style">
+	<article id="post-83641" class="item hentry">
+					<div class="thumbnail">
+												<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/BMW-i3-si-Parlamentul-Ungariei-din-Budapesta-sursa-Adrian-Mitrea-585x390.jpg" href="https://0-100.ro/2019/06/04/cel-mai-lung-drum-cu-masina-electrica-si-prima-iesire-din-tara-destinatie-budapesta/" title="Cel mai lung drum cu maºina electricã ºi prima ieºire din þarã. Destinaþie: Budapesta">
+				</a>
+				
+																															</div>
+		
+		<div class="grid-header-box">
+
+			<h2 class="grid-title entry-title"><a href="https://0-100.ro/2019/06/04/cel-mai-lung-drum-cu-masina-electrica-si-prima-iesire-din-tara-destinatie-budapesta/">Cel mai lung drum cu maºina electricã ºi prima ieºire din þarã. Destinaþie: Budapesta</a></h2>
+
+							<div class="grid-post-box-meta">
+											<span class="author-italic author">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																<span><time class="entry-date published" datetime="2019-06-04T16:41:07+03:00">4 iunie 2019</time></span>
+									</div>
+					</div>
+
+				<div class="item-content entry-content">
+			<p>Unii ar spune cã ¥e nebunie curatãµ, alþii cã ¥e imposibilµ sã pleci cu o maºinã electricã din Bucureºti pânã la Budapesta. ªi totuºi&#8230; se poate. Mai mult decât atât,&hellip;</p>
+		</div>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-04T16:41:07+03:00">4 iunie 2019</time>		</div>
+			</article>
+</li><li class="grid-style">
+	<article id="post-83613" class="item hentry">
+					<div class="thumbnail">
+												<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/05/Designer-Ford-Trucks-sursa-Ford-Trucks-585x390.jpg" href="https://0-100.ro/2019/05/23/vizita-la-ford-trucks-istanbul-expansiunea-spre-vest-incepe-cu-romania-ca-exemplu-de-urmat/" title="Vizitã la Ford Trucks Istanbul: expansiunea spre Vest începe cu România ca exemplu de urmat">
+				</a>
+				
+																															</div>
+		
+		<div class="grid-header-box">
+
+			<h2 class="grid-title entry-title"><a href="https://0-100.ro/2019/05/23/vizita-la-ford-trucks-istanbul-expansiunea-spre-vest-incepe-cu-romania-ca-exemplu-de-urmat/">Vizitã la Ford Trucks Istanbul: expansiunea spre Vest începe cu România ca exemplu de urmat</a></h2>
+
+							<div class="grid-post-box-meta">
+											<span class="author-italic author">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																<span><time class="entry-date published" datetime="2019-05-23T17:34:09+03:00">23 mai 2019</time></span>
+									</div>
+					</div>
+
+				<div class="item-content entry-content">
+			<p>Camioanele Ford sunt tot mai prezente pe ºantierele ºi strãzile din România, dar puþini ºtiu de unde vin, cum sunt proiectate ori produse ºi cât de mari sunt ambiþiile producãtorului&hellip;</p>
+		</div>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-05-23T17:34:09+03:00">23 mai 2019</time>		</div>
+			</article>
+</li>									</ul>
+																</div>
+
+				
+				
+						</section>
+					
+				
+					
+					
+					<div class="penci-wrapper-posts-content">
+
+												<ul class="penci-wrapper-data penci-grid">						
+						<li class="list-post magazine-layout magazine-1">
+	<article id="post-83978" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2018/08/Renault-Zoe-Z.E.-R90-sursa-Adrian-Mitrea-05-585x390.jpeg" href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/" title="Revizia unei maºini electrice cu piese aftermarket. Cât costã">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/curiozitati/"  rel="category tag">Curiozitati</a><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/">Revizia unei maºini electrice cu piese aftermarket. Cât costã</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-08-01T11:59:18+03:00">1 august 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-08-01T11:59:18+03:00">1 august 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Cele mai multe dintre maºinile electrice aflate pe piaþa din România sunt încã prea noi sã fi avut nevoie de reparaþii semnificative, însã prin simple cãutãri pe Internet am gãsit&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83963" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/07/Adrian-Mitrea-si-Citroen-C5-Aircross-foto-Marius-Stoianov-2-585x390.jpg" href="https://0-100.ro/2019/07/25/5-curiozitati-despre-citroen-c5-aircross/" title="5 curiozitãþi despre Citröen C5 Aircross">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/citroen/"  rel="category tag">Citroen</a><a class="penci-cat-name" href="https://0-100.ro/categorii/curiozitati/"  rel="category tag">Curiozitati</a><a class="penci-cat-name" href="https://0-100.ro/categorii/video/"  rel="category tag">Video</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/07/25/5-curiozitati-despre-citroen-c5-aircross/">5 curiozitãþi despre Citröen C5 Aircross</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-07-25T17:00:20+03:00">25 iulie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-07-25T17:00:20+03:00">25 iulie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Citröen C5 a devenit SUV, de unde ºi particula Aircross. Este acum parte a familiei de SUV-uri ºi crossover-e Citröen, adicã maºini care se remarcã în segmentul lor printr-un design&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83848" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/BMW-i3-la-intrarea-in-Romania-sursa-Adrian-Mitrea-585x390.jpg" href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/" title="Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi un automobil pe combustie, din þarã sau strãinãtate">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/curiozitati/"  rel="category tag">Curiozitati</a><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/">Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi un automobil pe combustie, din þarã sau strãinãtate</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-27T12:27:44+03:00">27 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-27T12:27:44+03:00">27 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Cum pleci în concediu când ai o maºinã electricã? E o întrebare pe care o primesc des de când am trecut la electromobilitate, iar aceasta va fi prima varã în&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83875" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Ford-Puma-foto-Adrian-Mitrea-00-585x390.jpg" href="https://0-100.ro/2019/06/26/noul-ford-puma-felina-din-inima-olteniei-cel-mai-avansat-automobil-fabricat-in-romania/" title="Noul Ford Puma, felina din inima Olteniei &#8211; cel mai avansat automobil fabricat în România">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/ford/"  rel="category tag">Ford</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/26/noul-ford-puma-felina-din-inima-olteniei-cel-mai-avansat-automobil-fabricat-in-romania/">Noul Ford Puma, felina din inima Olteniei &#8211; cel mai avansat automobil fabricat în România</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-26T07:58:26+03:00">26 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-26T07:58:26+03:00">26 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Noul Ford Puma, un SUV/crossover de clasã B, puþin mai mare decât EcoSport, a fost dezvãluit presei Marþi, 25 Iunie, într-un eveniment cu uºile închise la Craiova. Maºina va fi&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83818" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Ford-DSFL-2019-sursa-Ford-10-585x390.jpg" href="https://0-100.ro/2019/06/20/ford-dsfl-cursurile-de-condus-defensiv-dau-deja-rezultate-o-experienta-personala-si-invataminte-de-la-bogdan-marisca/" title="Ford DSFL: Cursurile de condus defensiv dau deja rezultate. O experienþã personalã ºi învãþãminte de la Bogdan Mariºca">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/ford/"  rel="category tag">Ford</a><a class="penci-cat-name" href="https://0-100.ro/categorii/siguranta-auto/"  rel="category tag">Siguranta Auto</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/20/ford-dsfl-cursurile-de-condus-defensiv-dau-deja-rezultate-o-experienta-personala-si-invataminte-de-la-bogdan-marisca/">Ford DSFL: Cursurile de condus defensiv dau deja rezultate. O experienþã personalã ºi învãþãminte de la Bogdan Mariºca</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/luiza-sireteanu/">Luiza Sireþeanu</a></span>
+			<time class="entry-date published" datetime="2019-06-20T11:31:51+03:00">20 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/luiza-sireteanu/">Luiza Sireþeanu</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-20T11:31:51+03:00">20 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Programul Ford Driving Skills For Life (DSFL), care constã în cursuri practice ºi teoretice de condus defensiv, încep deja sã-ºi arate efectele pozitive în mentalitatea conducãtorilor auto din România, spune&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83856" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Caravana-ElectricRomania-foto-Ciprian-Mihai-585x390.jpg" href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/" title="#ElectricRomânia, ziua 6: BMW i3 din caravanã, diferit de cel de-acasã">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/bmw/"  rel="category tag">BMW</a><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/19/electricromania-ziua-6-bmw-i3-din-caravana-diferit-de-cel-de-acasa/">#ElectricRomânia, ziua 6: BMW i3 din caravanã, diferit de cel de-acasã</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-19T08:15:31+03:00">19 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-19T08:15:31+03:00">19 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Deºi am peste 20.000 km parcurºi la bordul a vreo ºase modele BMW i3 diferite (dintre care unul REx ºi unul i3s), acest model de la BMW continuã sã mã&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83785" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Audi-e-tron-la-ElectricRomania-foto-Ciprian-Mihai-502-585x390.jpg" href="https://0-100.ro/2019/06/18/electricromania-ziua-5-audi-e-tron-e-un-varf-tehnologic-dar-retrovizoarele-digitale-sunt-de-evitat/" title="#ElectricRomânia, ziua 5: e-tron e un vârf tehnologic, retrovizoarele digitale sunt de evitat">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/audi/"  rel="category tag">Audi</a><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/18/electricromania-ziua-5-audi-e-tron-e-un-varf-tehnologic-dar-retrovizoarele-digitale-sunt-de-evitat/">#ElectricRomânia, ziua 5: e-tron e un vârf tehnologic, retrovizoarele digitale sunt de evitat</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-18T01:01:14+03:00">18 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-18T01:01:14+03:00">18 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Cu Audi e-tron ºi ale sale retrovizoare digitale am unit douã pieþe ale Unirii superbe din Vestul României, în ziua a cincea de #ElectricRomânia: Piaþa Unirii din Oradea ºi Piaþa&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83758" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Volkswagen-e-Golf-la-ElectricRomania-sursa-Ciprian-Mihai-404-585x390.jpg" href="https://0-100.ro/2019/06/17/electricromania-ziua-4-reintalnire-cu-regele-e-golf/" title="#ElectricRomânia, ziua 4: (Re)întâlnire cu regele e-Golf">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a><a class="penci-cat-name" href="https://0-100.ro/categorii/volkswagen/"  rel="category tag">Volkswagen</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/17/electricromania-ziua-4-reintalnire-cu-regele-e-golf/">#ElectricRomânia, ziua 4: (Re)întâlnire cu regele e-Golf</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-17T15:21:35+03:00">17 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-17T15:21:35+03:00">17 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Volkswagen e-Golf este un ¥all-rounderµ foarte bun &#8211; o maºinã proiectatã obsesiv ºi rafinatã pânã la cele mai mici detalii. Oferã tehnologii de top fãrã sã ¥strigeµ acest lucru, asigurã&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83732" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Renault-ZOE-Z.E.-la-ElectricRomania-sursa-Ciprian-Mihai-302-585x390.jpg" href="https://0-100.ro/2019/06/16/electricromania-ziua-3-ziua-cea-mai-lunga-consumul-cel-mai-mic/" title="#ElectricRomânia, ziua 3: Ziua cea mai lungã, consumul cel mai mic">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/renault/"  rel="category tag">Renault</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/16/electricromania-ziua-3-ziua-cea-mai-lunga-consumul-cel-mai-mic/">#ElectricRomânia, ziua 3: Ziua cea mai lungã, consumul cel mai mic</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-16T23:55:37+03:00">16 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-16T23:55:37+03:00">16 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>A treia zi din #ElectricRomânia m-a gãsit tot la volanul lui Renault ZOE Z.E. fiindcã în ziua a doua am parcurs prea puþini kilometri. Aºa cã fiecare dintre noi ºi-a&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83671" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Renault-ZOE-Z.E.-la-ElectricRomania-sursa-Ciprian-Mihai-02-585x390.jpg" href="https://0-100.ro/2019/06/15/electricromania-ziua-2-regasire-cu-renault-zoe-z-e-si-intalnire-cu-un-cititor-care-are-jaguar-i-pace-si-bmw-i3/" title="#ElectricRomânia, ziua 2: Regãsire cu Renault ZOE Z.E. ºi întâlnire cu un cititor care are Jaguar I-PACE ºi BMW i3">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/renault/"  rel="category tag">Renault</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/15/electricromania-ziua-2-regasire-cu-renault-zoe-z-e-si-intalnire-cu-un-cititor-care-are-jaguar-i-pace-si-bmw-i3/">#ElectricRomânia, ziua 2: Regãsire cu Renault ZOE Z.E. ºi întâlnire cu un cititor care are Jaguar I-PACE ºi BMW i3</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-15T07:28:05+03:00">15 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-15T07:28:05+03:00">15 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Am condus ZOE Z.E. pentru prima datã chiar la începuturile modelului, în 2013. Maºina a evoluat constant de atunci, iar acum, în turul #ElectricRomânia, m-am regãsit pentru a nu ºtiu&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li><li class="list-post magazine-layout magazine-1">
+	<article id="post-83672" class="item hentry">
+
+					<div class="thumbnail">
+				
+									<a class="penci-image-holder penci-lazy" data-src="https://0-100.ro/home/wp-content/uploads/2019/06/Nissan-LEAF-la-ElectricRomania-sursa-Ciprian-Mihai-02-585x390.jpg" href="https://0-100.ro/2019/06/14/electricromania-ziua-1-concluzii-amestecate-la-primul-contact-cu-nissan-leaf/" title="#ElectricRomânia, ziua 1: Concluzii amestecate la primul contact cu Nissan LEAF">
+					</a>
+				
+																															</div>
+		
+		<div class="content-list-right">
+			<div class="header-list-style">
+									<span class="cat"><a class="penci-cat-name" href="https://0-100.ro/categorii/eco/"  rel="category tag">Eco</a><a class="penci-cat-name" href="https://0-100.ro/categorii/nissan/"  rel="category tag">Nissan</a><a class="penci-cat-name" href="https://0-100.ro/categorii/romania/"  rel="category tag">Romania</a></span>
+				
+				<h2 class="entry-title grid-title"><a href="https://0-100.ro/2019/06/14/electricromania-ziua-1-concluzii-amestecate-la-primul-contact-cu-nissan-leaf/">#ElectricRomânia, ziua 1: Concluzii amestecate la primul contact cu Nissan LEAF</a></h2>
+						<div class="penci-hide-tagupdated">
+			<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+			<time class="entry-date published" datetime="2019-06-14T18:37:16+03:00">14 iunie 2019</time>		</div>
+											<div class="grid-post-box-meta">
+													<span class="author-italic author vcard">de <a class="url fn n" href="https://0-100.ro/author/adrian-mitrea/">Adrian Mitrea</a></span>
+																			<span><time class="entry-date published" datetime="2019-06-14T18:37:16+03:00">14 iunie 2019</time></span>
+											</div>
+							</div>
+
+							<div class="item-content entry-content">
+					<p>Este prima datã când conduc a doua generaþie Nissan LEAF. Primele mele concluzii sunt amestecate: pe cât de mult strãluceºte la unele capitole, pe atât de mult dezamãgeºte la altele.&hellip;</p>
+				</div>
+						
+					</div>
+
+	</article>
+</li>
+												</ul>						
+																				<div class="penci-pagination penci-ajax-more penci-ajax-home penci-ajax-more-click">
+								<a class="penci-ajax-more-button" data-mes="Scuze, nu mai sunt alte postari" data-layout="magazine-1" data-number="6" data-offset="15"
+								   data-from="customize" data-template="sidebar">
+									<span class="ajax-more-text">Incarca mai multe postari</span><span class="ajaxdot"></span><i class="fa fa-refresh"></i>
+								</a>
+							</div>
+						
+					</div>
+
+					
+				
+				
+			</div>
+		</div>
+
+					
+<div id="sidebar" class="penci-sidebar-content style-5 pcalign-left penci-sticky-sidebar">
+	<div class="theiaStickySidebar">
+		<aside id="search-4" class="widget widget_search"><form role="search" method="get" id="searchform" action="https://0-100.ro/">
+    <div>
+		<input type="text" class="search-input" placeholder="cautare - scrie si apasa Enter" name="s" id="s" />
+	 </div>
+</form></aside>		<aside id="recent-posts-7" class="widget widget_recent_entries">		<h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Articole recente</span></h4>		<ul>
+											<li>
+					<a href="https://0-100.ro/2019/08/01/revizia-unei-masini-electrice-cu-piese-aftermarket-cat-costa/">Revizia unei maºini electrice cu piese aftermarket. Cât costã</a>
+									</li>
+											<li>
+					<a href="https://0-100.ro/2019/07/25/5-curiozitati-despre-citroen-c5-aircross/">5 curiozitãþi despre Citröen C5 Aircross</a>
+									</li>
+											<li>
+					<a href="https://0-100.ro/2019/06/27/inchirieri-auto-vacanta-inchirieri-auto-business/">Soluþii de vacanþã când ai maºinã electricã: pleci cu ea sau închiriezi un automobil pe combustie, din þarã sau strãinãtate</a>
+									</li>
+											<li>
+					<a href="https://0-100.ro/2019/06/26/noul-ford-puma-felina-din-inima-olteniei-cel-mai-avansat-automobil-fabricat-in-romania/">Noul Ford Puma, felina din inima Olteniei &#8211; cel mai avansat automobil fabricat în România</a>
+									</li>
+											<li>
+					<a href="https://0-100.ro/2019/06/20/ford-dsfl-cursurile-de-condus-defensiv-dau-deja-rezultate-o-experienta-personala-si-invataminte-de-la-bogdan-marisca/">Ford DSFL: Cursurile de condus defensiv dau deja rezultate. O experienþã personalã ºi învãþãminte de la Bogdan Mariºca</a>
+									</li>
+					</ul>
+		</aside><aside id="recent-comments-4" class="widget widget_recent_comments"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Comentarii recente</span></h4><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://0-100.ro' rel='external nofollow' class='url'>Adrian Mitrea</a></span> la <a href="https://0-100.ro/2019/06/04/cel-mai-lung-drum-cu-masina-electrica-si-prima-iesire-din-tara-destinatie-budapesta/#comment-165354">Cel mai lung drum cu maºina electricã ºi prima ieºire din þarã. Destinaþie: Budapesta</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.tapedistribution.ro' rel='external nofollow' class='url'>Danko</a></span> la <a href="https://0-100.ro/2019/06/04/cel-mai-lung-drum-cu-masina-electrica-si-prima-iesire-din-tara-destinatie-budapesta/#comment-165353">Cel mai lung drum cu maºina electricã ºi prima ieºire din þarã. Destinaþie: Budapesta</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.tapedistribution.ro' rel='external nofollow' class='url'>Danko</a></span> la <a href="https://0-100.ro/2019/06/04/cel-mai-lung-drum-cu-masina-electrica-si-prima-iesire-din-tara-destinatie-budapesta/#comment-165352">Cel mai lung drum cu maºina electricã ºi prima ieºire din þarã. Destinaþie: Budapesta</a></li><li class="recentcomments"><span class="comment-author-link">Un anonim</span> la <a href="https://0-100.ro/2017/09/18/un-nou-raport-pune-la-zid-masinile-diesel-pe-intreaga-lor-durata-de-viata-emit-cu-365-tone-de-co2-mai-mult-decat-cele-pe-benzina/#comment-165350">Un nou raport pune la zid masinile diesel: Pe intreaga lor durata de viata emit cu 3,65 tone de CO2 mai mult decat cele pe benzina</a></li><li class="recentcomments"><span class="comment-author-link">TaxiPriusUK</span> la <a href="https://0-100.ro/2019/02/05/masina-hibrida-intre-solutie-optima-si-inutilitate/#comment-165349">Maºina hibridã: între soluþie optimã ºi&#8230; inutilitate</a></li></ul></aside><aside id="text-10" class="widget widget_text">			<div class="textwidget"><p><center><!-- (c) 2000-2019 Gemius SA version 2.0: /0-100.ro/300x250, ABG Seria 2 AT --><br />
+<script language="javascript1.2" type="text/javascript">
+//< ![CDATA[
+document.write('<scr'+'ipt src="//rogde.adocean.pl/_'+(new Date()).getTime()+'/ad.js?id=mO5WWX6YQiJgikBQ4N6Suc0MYGimCWLMXkWaSNRbQLL.M7/nc=0/gdpr=0/gdpr_consent=/redir=" language="javascript">');
+//]]>
+</script></center></p>
+</div>
+		</aside><aside id="text-12" class="widget widget_text">			<div class="textwidget"><p><center><!-- (c) 2000-2019 Gemius SA version 2.0: /0-100.ro/300x250, ABG BMW i3 --><br />
+<script language="javascript1.2" type="text/javascript">
+//< ![CDATA[
+document.write('<scr'+'ipt src="//rogde.adocean.pl/_'+(new Date()).getTime()+'/ad.js?id=UcKcfB7Q7cJqAL6TwEDiS0G6La_3rueqxf7PwmhZ6eP.47/nc=0/gdpr=0/gdpr_consent=/redir=" language="javascript">');
+//]]>
+</script></center></p>
+</div>
+		</aside><aside id="custom_html-10" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- (c) 2000-2019 Gemius SA version 2.0: /0-100.ro/300x250, ABG BMW i3 -->
+<script language="javascript1.2" type="text/javascript">
+//< ![CDATA[
+document.write('<scr'+'ipt src="//rogde.adocean.pl/_'+(new Date()).getTime()+'/ad.js?id=UcKcfB7Q7cJqAL6TwEDiS0G6La_3rueqxf7PwmhZ6eP.47/nc=0/gdpr=0/gdpr_consent=/redir=" language="javascript">');
+//]]>
+</script></div></aside>	</div>
+</div>		
+<!-- END CONTAINER -->
+</div>
+
+<div class="clear-footer"></div>
+
+
+
+
+
+<footer id="footer-section" class="penci-footer-social-media penci-lazy" itemscope itemtype="https://schema.org/WPFooter">
+	<div class="container">
+					<div class="footer-socials-section">
+				<ul class="footer-socials">
+											<li><a href="https://www.facebook.com/0100.ro/" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+																																																								<li><a href="https://www.youtube.com/user/NewpressOnlineMedia" rel="nofollow" target="_blank"><i class="fa fa-youtube-play"></i><span>Youtube</span></a></li>
+																																																																																																																							</ul>
+			</div>
+									<div class="footer-logo-copyright footer-not-logo footer-not-gotop">
+				
+				
+									<div id="footer-copyright">
+						<p>@2018 - 0-100.ro. All Right Reserved. Designed by <a href="https://0-100.ro" target="_blank">0-100.ro</a></p>
+					</div>
+											</div>
+							<div class="penci-go-to-top-floating"><i class="fa fa-angle-up"></i></div>
+			</div>
+</footer>
+
+</div><!-- End .wrapper-boxed -->
+
+<div id="fb-root"></div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/0-100.ro\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.3'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/penci-recipe/js/jquery.rateyo.min.js?ver=2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PENCI = {"ajaxUrl":"https:\/\/0-100.ro\/home\/wp-admin\/admin-ajax.php","nonce":"fb58f10f47"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/penci-recipe/js/rating_recipe.js?ver=2.2'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/penci-review/js/jquery.easypiechart.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/penci-review/js/review.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/0-100.ro\/home\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/wp-polls/polls-js.js?ver=2.75.2'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/gallery-by-supsystic/src/GridGallery/Colorbox/jquery-colorbox/jquery.colorbox.js?ver=1.13.7'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/plugins/gallery-by-supsystic/src/GridGallery/Colorbox/jquery-colorbox/i18n/jquery.colorbox-ro.js?ver=1.13.7'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/themes/soledad/js/libs-script.min.js?ver=6.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_var_more = {"url":"https:\/\/0-100.ro\/home\/wp-admin\/admin-ajax.php","nonce":"fb58f10f47"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/themes/soledad/js/main.js?ver=6.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_var = {"url":"https:\/\/0-100.ro\/home\/wp-admin\/admin-ajax.php","nonce":"fb58f10f47"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/themes/soledad/js/post-like.js?ver=6.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_var_more = {"url":"https:\/\/0-100.ro\/home\/wp-admin\/admin-ajax.php","nonce":"fb58f10f47"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-content/themes/soledad/js/more-post.js?ver=1.0'></script>
+<script type='text/javascript' src='https://0-100.ro/home/wp-includes/js/wp-embed.min.js?ver=5.2.2'></script>
+
+			<div id="cookie-notice" role="banner" class="cn-bottom bootstrap" style="color: #fff; background-color: #000;"><div class="cookie-notice-container"><span id="cn-notice-text">Acest site foloseste cookie-uri pentru a imbunatati experienta utilizatorului. Prin utilizarea site-ului nostru sunteti de acord cu toate cookie-urile in conformitate cu politica noastra de Cookie-uri.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button">Accepta</a>
+				</div>
+				
+			</div>
+
+</body>
+</html>
+<!-- Page generated by LiteSpeed Cache 2.9.8.4 on 2019-08-20 11:10:21 -->
+

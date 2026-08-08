@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="IBM862"?>
+<!--
+Source: http://www.hagada.org.il/hagada/html/backend.php
+Expect: windows-1255
+-->
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+ "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+
+ <rss version="0.91">
+
+<channel>
+<title>„‚ƒ„ „™€Œ‰š</title>
+<link>http://www.hagada.org.il</link>
+<description>„‚ƒ„ „™€Œ‰š</description>
+<language>he</language>
+
+<item>
+<title>: 6/1 : „”‚…š ‰Œ’‰ …’€…ƒ ’ „š‚˜…š „’‰‰ „š—™…˜š‰</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4195</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>: 8/1 : ”‚™ ’Œ „‡‰˜…š ‰™˜€Œ …”Œ‘ˆ‰ ˜‹† Œ€‰”…˜–‰„ €Œˆ˜ˆ‰‰š ‰˜…™Œ‰</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4194</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>„”‰Œ…‚ €‰‚…ƒ‰ „—–…’‰‰ „€˜‰—€‰</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4193</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>: 7/1 : ‘‰…˜ Œ‰Œ’‰</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4192</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>‰–‡… Œ™…š‰ „š‡…˜„ „–‰…˜‰š ‰…-‰…˜—</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4191</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>…€…Œ‰ Œ€</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4190</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>’Œ „‹……š: ‘…˜‰„</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4189</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>ˆ˜ ”…˜’…š</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4188</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>Œ„…–‰€ €Œ ‡…• Œ‡…— €š ‡˜…š „‹…‡-€ƒ</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4187</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>„š˜‚‰Œ „‘˜‰‡ ™Œ €˜‰— ™˜…</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4186</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>‰ —''‰ …‰ ‡ƒ''™</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4182</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>‘˜ˆ…ˆ €ƒ… - „‚˜Œ‰š ™Œ ˜–</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4181</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>: 7/1 : ™‰—… ‹˜‰ †‰š‰ ‘€Œ</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4180</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>:: 12/1 :: š—–‰ 2006 …„Œ‡„ ’…‰</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4179</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+<item>
+<title>‡™‰…š„ ™Œ „™…š”…š „‰„…ƒ‰š-’˜‰š</title>
+<link>http://www.hagada.org.il/hagada/html/modules.php?name=News&amp;file=article&amp;sid=4177</link>
+<description><span dir="rtl"></span></description>
+</item>
+
+</channel>
+</rss>

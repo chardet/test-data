@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="is-IS">
+<head>
+<title>Dekk Outlet: ¶dòr sumar og vetrardekk - 123felgur.is</title>
+<meta http-equiv="Content-Type" content="text/html; charset=IBM861"> 
+<meta name="keywords" content="Hj¢l † besta veråi, heill hj¢l pr¢f, heill hj¢l viåskipti, heill hj¢l sîluaåila, heill hj¢l tilboå, sm†sala, umboåiå">
+<meta name="description" content="Hj¢l † g¢åu veråi ° heill hj¢l Outlet - 123felgur.is. Sumar, allur-†rst°å eåa vetur hj¢l ° h†r
+Gëåi sem remainders sterkum
+minnkaå kaupa † netinu.">
+<link rel="canonical" href="https://www.123felgur.is/" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="/scss/font-awesome-4.7.0/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://ssl.delti.com/scss/responsive/rshop.css" />
+<link rel="stylesheet" type="text/css" href="https://ssl.delti.com/rshop/wheels/styles/style.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800">
+</head>
+<body text="#646464" link="#646464" vlink="#646464" alink="#646464" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="cookie-diss">
+<div class="container">
+<div class="row">
+<div class="col-sm-11 col-xs-10">
+<span>Viå notum kîkur † heimas°åu okkar til aå gera heims¢kn ï°na skilvirkari og notendavënn.</span>
+</div>
+<div class="col-sm-1 col-xs-2">
+<a href="#" onclick="$('#cookie-diss').css('display','none');document.cookie='priv_pol=380;max-age=2592000;path=/;'" class="cookie-diss-button">OK</a>
+</div>
+</div>
+</div>
+</div>
+<div class="container hidden-xs" id="highlights">
+<div class="row row-centered">
+<div class="col-sm-4">RASK LEVERING</div>
+<div class="col-sm-4">KùBERBESKYTTELSE</div>
+<div class="col-sm-4">PERSONVERN</div>
+</div>
+</div>
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/">123<b>felgur</b>.is</a>
+</div>
+<div class="collapse navbar-collapse" id="navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Kompletthjul & Felger <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="kompletthjul.html">Kompletthjul & Felger</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Lettmetallfelger-med-sommerdekk.html">Lettmetallfelger med sommerdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Lettmetallfelger-med-alle-helarsdekkene.html">Lettmetallfelger med alle helÜrsdekken</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Komplette-hjul-Lettmetall.html">Lettmetallfelger med vinterdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Komplett_hjulskift.html">StÜlfelger med vinterdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/skw.pl?dsco=380&amp;sowigan=PKWDubbade&s_p=Stalfelger-med-Piggdekk">StÜlfelger med Piggdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Stalfelger-med-Helarsdekk.html">StÜlfelger med HelÜrsdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Stalfelger-med-Sommerdekk.html">StÜlfelger med Sommerdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="kompletthjul.html">Felger</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Lettmetallfelger.html">Lettmetallfelger</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Stalfelger.html">StÜlfelger</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Dekk <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="dekk.html">Dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Sommerdekk.html">Sommerdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Vinterdekk.html">Vinterdekk (Friksjon/Uten pigger)</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Norden-dekk.html">Norden dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Piggdekk.html">Vinterdekk (Piggdekk)</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Helarsdekk.html">HelÜrsdekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="lastebil-dekk.html">Dekk til lett lastebil</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="RunFlat-dekk.html">RunFlat dekk </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Racing-dekk.html">Racing dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Oldtimer-dekk.html">Oldtimer-dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="4x4-dekk.html">Offroad- /4x4-dekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Lastebildekk.html">Lastebildekk</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Motorsykkeldekk <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="Motorsykkeldekk.html">Motorsykkeldekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Chopper_Cruiser.html">Chopper/Cruiser</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Enduro.html">Enduro</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Motocross.html">Motocross</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Quad___ATV.html">Quad / ATV</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Motorsport.html">Motorsport</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Scooter___moped.html">Scooter / moped</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Supersport_vei.html">Supersport vei</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Tourensport_Diagonal.html">Tourensport Diagonal</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Tourensport_Radial.html">Tourensport Radial</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorsykkeldekk_Vinterdekk.html">Vinterdekk</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Spesialdekk <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="spesialdekk.html">Industri-, spesial- og slepedekk</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Anh_ngerreifen_Diagonal">Trailerdekk diagonal</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Bau__und_Forstmaschinen__MPT_">Bygg- og skogbruksmaskiner(MPT)</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Erdbewegungsreifen_Bagger__EM_">Anleggsmaskiner/gravemaskiner </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Golfcartreifen">Golfbil dekk </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Industriereifen_Luft">Industridekk luft</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Kleinreifen_M_her">Mindre dekk/slÜmaskiner</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Landwirtschaftsreifen__AS_">Landbruksmaskin dekk </a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/cgi-bin/rshop.pl?dsco=380&amp;m_s=4&amp;tyre_for=Quad___ATV">Firehjuling / ATV</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">Bildeler <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="bildeler.html">Bildeler</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Snoekjettinger.html">Snõkjettinger</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Motorolje.html">Motorolje</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="Bremser.html">Bremser</a></li>
+</ul>
+</li>
+</ul>
+</div></div></nav>
+<form action="https://www.123felgur.is/cgi-bin/rshop.pl" name="main_form" class="pure-form" method="get">
+<input type="hidden" name="dsco" value="380" />
+
+</form> 
+<form action="/cgi-bin/komplettrad.pl" method="get" name="basissuche" class="pure-form"> 
+<input type="hidden" name="dsco" value="380" />
+
+<div id="searchbackkr">
+<center>
+<table border="0" class="tbl_search" cellpadding="10" cellspacing="0">
+<tbody>
+<tr> 
+<td colspan="3" align="center"><a onclick="changeSuchmaske('ueberPkw', 'ueberNummer')" class="suchmaskeAuswahlAktiv" id="ueberPkw">§lhj¢l</a>
+<a onclick="changeSuchmaske('ueberNummer', 'ueberPkw')" class="suchmaskeAuswahlInaktiv" id="ueberNummer">Dekkja- og st†lhj¢lapakkar</a></td>
+</tr>
+<tr> 
+<td class="tbl_side"> </td>
+<td>
+
+<div id="ueberPkwSuchmaske" style="display:block"> 
+<div class="heading_7">Dekkjartòpa</div> 
+<select name="Season" id="" size="1">
+<option title="Dekkjartòpa" value="">Vinsamlegast veljiå</option>
+<option value="gan" >Heils†rsdekk</option>
+<option value="sommer" >Sumardekk</option>
+<option value="winter" >Vetrardekk</option>
+</select>
+<br />
+<div class="heading_7">Vinsamlegast veldu b°l vîrumerki</div> 
+<select name="BrandCode" id="pkwmarke" size="1" onchange="this.form.submit()">
+<option value="">Vinsamlegast veljiå</option>
+<option value="ALFA ROMEO">ALFA ROMEO</option>
+<option value="ALPINA">ALPINA</option>
+<option value="ASTON MARTIN">ASTON MARTIN</option>
+<option value="AUDI">AUDI</option>
+<option value="BENTLEY">BENTLEY</option>
+<option value="BMW">BMW</option>
+<option value="BMW M">BMW M</option>
+<option value="BUGATTI">BUGATTI</option>
+<option value="CADILLAC">CADILLAC</option>
+<option value="CHEVROLET">CHEVROLET</option>
+<option value="CHRYSLER">CHRYSLER</option>
+<option value="CITROEN">CITROEN</option>
+<option value="DACIA">DACIA</option>
+<option value="DAEWOO">DAEWOO</option>
+<option value="DAIHATSU">DAIHATSU</option>
+<option value="DODGE">DODGE</option>
+<option value="FERRARI">FERRARI</option>
+<option value="FIAT">FIAT</option>
+<option value="FORD">FORD</option>
+<option value="HONDA">HONDA</option>
+<option value="HYUNDAI">HYUNDAI</option>
+<option value="INFINITI">INFINITI</option>
+<option value="ISUZU">ISUZU</option>
+<option value="IVECO">IVECO</option>
+<option value="JAGUAR">JAGUAR</option>
+<option value="JEEP">JEEP</option>
+<option value="KIA">KIA</option>
+<option value="LADA">LADA</option>
+<option value="LAMBORGHINI">LAMBORGHINI</option>
+<option value="LANCIA">LANCIA</option>
+<option value="LAND ROVER">LAND ROVER</option>
+<option value="LEXUS">LEXUS</option>
+<option value="MASERATI">MASERATI</option>
+<option value="MAYBACH">MAYBACH</option>
+<option value="MAZDA">MAZDA</option>
+<option value="MCLAREN">MCLAREN</option>
+<option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+<option value="MG">MG</option>
+<option value="MINI">MINI</option>
+<option value="MITSUBISHI">MITSUBISHI</option>
+<option value="NISSAN">NISSAN</option>
+<option value="OPEL">OPEL</option>
+<option value="PEUGEOT">PEUGEOT</option>
+<option value="PONTIAC">PONTIAC</option>
+<option value="PORSCHE">PORSCHE</option>
+<option value="PROTON">PROTON</option>
+<option value="RENAULT">RENAULT</option>
+<option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+<option value="ROVER">ROVER</option>
+<option value="SAAB">SAAB</option>
+<option value="SEAT">SEAT</option>
+<option value="SKODA">SKODA</option>
+<option value="SMART">SMART</option>
+<option value="SSANGYONG">SSANGYONG</option>
+<option value="SUBARU">SUBARU</option>
+<option value="SUZUKI">SUZUKI</option>
+<option value="TESLA">TESLA</option>
+<option value="TOYOTA">TOYOTA</option>
+<option value="VOLKSWAGEN">VOLKSWAGEN</option>
+<option value="VOLVO">VOLVO</option>
+</select><br /><br />
+<div class="heading_10"><input name="hersuchen" id="suchen4" value="View gerå lista" class="pure-button pure-button-primary" type="submit"></div>
+</div> 
+</form> 
+<form action="/cgi-bin/skw.pl" method="get" name="basissuche" class="pure-form"> 
+<input type="hidden" name="dsco" value="380" />
+<div id="ueberNummerSuchmaske" style="display:none;">
+<div class="heading_7">Dekkjartòpa</div> 
+<select name="sowigan" id="" size="1">
+<option title="Dekkjartòpa" value="">Vinsamlegast veljiå</option>
+<option value="GAN" >Heils†rsdekk</option>
+<option value="So" >Sumardekk</option>
+<option value="Wi" >Vetrardekk</option>
+</select>
+<br />
+<div class="heading_7">Vinsamlegast veldu b°l vîrumerki</div> 
+<select name="Hersteller" id="pkwmarke" size="1" onchange="this.form.submit()">
+<option value="">Vinsamlegast veljiå</option>
+<option value="Alfa Romeo">Alfa Romeo</option>
+<option value="Audi">Audi</option>
+<option value="BMW">BMW</option>
+<option value="Chevrolet">Chevrolet</option>
+<option value="Chrysler">Chrysler</option>
+<option value="Citroen">Citroen</option>
+<option value="Dacia">Dacia</option>
+<option value="Daewoo">Daewoo</option>
+<option value="Daihatsu">Daihatsu</option>
+<option value="Dodge">Dodge</option>
+<option value="Fiat">Fiat</option>
+<option value="Ford">Ford</option>
+<option value="General Motors">General Motors</option>
+<option value="Honda">Honda</option>
+<option value="Hyundai">Hyundai</option>
+<option value="IBC">IBC</option>
+<option value="Isuzu">Isuzu</option>
+<option value="Jaguar">Jaguar</option>
+<option value="Jeep">Jeep</option>
+<option value="Kia">Kia</option>
+<option value="Lada">Lada</option>
+<option value="Lancia">Lancia</option>
+<option value="Land Rover">Land Rover</option>
+<option value="Lexus">Lexus</option>
+<option value="MCC-Smart">MCC-Smart</option>
+<option value="Mazda">Mazda</option>
+<option value="Mercedes Benz">Mercedes Benz</option>
+<option value="Mitsubishi">Mitsubishi</option>
+<option value="Nissan">Nissan</option>
+<option value="Opel">Opel</option>
+<option value="Peugeot">Peugeot</option>
+<option value="Proton">Proton</option>
+<option value="Renault">Renault</option>
+<option value="Rover">Rover</option>
+<option value="Saab">Saab</option>
+<option value="Seat">Seat</option>
+<option value="Skoda">Skoda</option>
+<option value="Ssangyong">Ssangyong</option>
+<option value="Subaru">Subaru</option>
+<option value="Suzuki">Suzuki</option>
+<option value="Toyota">Toyota</option>
+<option value="VW">VW</option>
+<option value="Volvo">Volvo</option>
+</select><br /><br />
+<div class="heading_10"><input name="hersuchen" id="suchen4" value="View gerå lista" class="pure-button pure-button-primary" type="submit"></div>
+</div>
+<br /><br />
+</td>
+<td class="tbl_side"> </td>
+</tr>
+</tbody>
+</table>
+</center> 
+</div> 
+<div class="container hidden-xxs" id="offer">
+<div class="row row-centered">
+<div class="col-md-6">
+<div class="heading_7">Tilboå ° dag</div><p align="center"><a href="/cgi-bin/rshop.pl?details=Ordern&amp;typ=R-277544&amp;ranzahl=4&amp;dsco=380" class="hidden-xs"><img src="//image.delti.com/tyre-pictures/190/Nankang/EconexNA-1.jpg/380/_.jpg"></a></p><div class="heading_14">Nankang Econex NA-1 205/55 R16 94V XL</div><div class="heading_15">7,488 ISK</div>
+</div>
+<div class="col-md-6" style="background-color:#F5F5F5;"><h2>Auåvelt og flj¢tlegt er aå lj£ka</h2>
+<div class="row">
+<div class="col-md-4"><img width="147" height="82" alt="Icons-a" src="images/Icons-a.png" border="0"></div>
+<div class="col-md-8"><h6>1. Veldu framleiåanda eåa sl†åu îkutëki gîgnum</h6></div>
+</div>
+<div class="row">
+<div class="col-md-4"><img width="147" height="82" alt="Icons-b" src="images/Icons-b.png" border="0"></div>
+<div class="col-md-8"><h6>2. Viåkomandi leita Complete Hj¢l / felgur</h6></div>
+</div>
+<div class="row">
+<div class="col-md-4"><img width="147" height="82" alt="Icons-c" src="images/Icons-c.png" border="0"></div>
+<div class="col-md-8"><h6>3. Auåvelt rîå</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container"></div><div id="price_incl" align="center"><small>Verå inniheldur VSK og heimsendingu innan Iceland.</small></div>
+</form>
+	<div class="container"></div>
+</form>	
+<form action="/cgi-bin/rd-newsletter.pl" method="post">	
+	 <input type="hidden" name="dsco" value="380" />
+<div class="container">
+<div class="row row-centered x_footer">
+<div class="col-md-6 hidden-xxs">
+<table width="100%" height="38" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#F5F5F5">
+<tr>
+<td width="50%" bgcolor="#FFFFFF"><div class="heading_7">Register FrÇttabrÇf</div><br />Skr†åu ïig n£na til FrÇttabrÇf! Gerast †skrifandi n£na aå frÇttabrÇfinu og f† nòjustu aågeråir 123felgur.is</td>
+<td width="50%" bgcolor="#387DBE"><table border="0">
+<tr>
+ <td width="25">
+<select name="Anrede" class="inp anrede">
+<option value="Herra">Herra</option>
+<option value="Fr£">Fr£</option>
+<option value=" "> </option>
+ </select>
+ </td><td><input placeholder="Fornafn" type="text" name="01-name" value="" class="inp name">
+<input placeholder="kenninafn" type="text" name="01-2name" value="" class="inp name"></td></tr>
+<tr><td style="background-image:url('/simg/newsletter-back.png');background-repeat:no-repeat;" rowspan="2"><td><input placeholder="E-mail" type="text" name="user" value="" class="inp mail"></td>
+</tr>
+<tr><td><input name="baba" value="skr†ning" class="pure-button" type="submit" /></td>
+</tr>
+</table></td>
+</tr>
+</table>
+ </div>
+ <div class="col-md-6"><h2>greiåslukostirnir</h2>
+ <div class="row row-centered x_footer">
+ <div class="col-md-12"><img src="//image.delti.com/simg/p-visa.png" alt="visa" width="47" height="30" hspace="2" border="0" /><img src="//image.delti.com/simg/p-mastercard.png" alt="mastercard" width="47" height="30" hspace="2" border="0" /><img src="//image.delti.com/simg/p-paypal.png" alt="paypal" width="47" height="30" hspace="2" border="0" /><img src="//image.delti.com/simg/p-sofort.png" alt="sofort" width="47" height="30" hspace="2" border="0" /><img src="//image.delti.com/simg/p-banktransfer.png" alt="banktransfer" width="47" height="30" hspace="2" border="0" /><img src="//image.delti.com/simg/p-ssl.png" alt="ssl" width="63" height="30" hspace="2" border="0" /></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="container">
+<div class="footerNav">
+<ul id="footerNav">
+<li><a href="/">Hjem</a></li>
+<li><a href="DErezept.html">Leverings- og betalingsmuligheter</a></li>
+<li><a href="AGBs.html">Generelle kjõpsbetingelser</a></li>
+<li><a href="datenschutz.html">Informasjonsvern</a></li>
+<li><a href="Contact.html">Contact</a></li>
+<li><a href="Newsletter.html">Newsletter</a></li>
+<li><a href="/cgi-bin/my-account.pl?dsco=380">Min bestilling</a></li>
+</ul>
+	
+<p><a href="https://www.komplettraeder24.at" target="_blank" rel="noopener">AT</a> |
+<a href="https://www.123jantes.be" target="_blank" rel="noopener">BE-FR</a> |
+<a href="https://www.velgenshop-online.be" target="_blank" rel="noopener">BE-NL</a> |
+<a href="https://www.komplettraeder24.ch" target="_blank" rel="noopener">CH-DE</a> |
+<a href="https://www.123jantes.ch" target="_blank" rel="noopener">CH-FR</a> |
+<a href="https://www.komplettraeder24.de" target="_blank" rel="noopener">DE</a> |
+<a href="https://www.faelge24.dk" target="_blank" rel="noopener">DK</a> |
+<a href="https://www.llantas24.es" target="_blank" rel="noopener">ES</a> |
+<a href="https://www.vanteet-online.fi" target="_blank" rel="noopener">FI</a> |
+<a href="https://www.123jantes.fr" target="_blank" rel="noopener">FR</a> |
+<a href="https://www.wheels-online.ie" target="_blank" rel="noopener">IE</a> |
+<a href="https://www.123felgur.is" target="_blank" rel="noopener">IS</a> |
+<a href="https://www.cerchigomme24.it" target="_blank" rel="noopener">IT</a> |
+<a href="https://www.velgen-direct.nl" target="_blank" rel="noopener">NL</a> |
+<a href="https://www.felger-shop.no" target="_blank" rel="noopener">NO</a> |
+<a href="https://www.123felgi.pl" target="_blank" rel="noopener">PL</a> |
+<a href="https://www.jantes-online.pt" target="_blank" rel="noopener">PT</a> |
+<a href="https://www.falgar-shop.se" target="_blank" rel="noopener">SE</a> |
+<a href="https://www.wheels24.co.uk" target="_blank" rel="noopener">UK</a></p>
+<p>
+</p>
+<div class="heading_11">
+</div>
+<p><div class="heading_13">123felgur.is, et tilbud fra Delticom AG</div></p></div>
+</div>
+<!--generated by: bizmasterc1-->
+<script src="/sjs/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script src="/sjs/jquery/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/sjs/jquery/jquery-ui-1.12.1/css/smoothness/jquery-ui.min.css" type="text/css"/>
+<script src="/sjs/jquery/jquery.menu-aim.js" type="text/javascript"></script>
+<script src="/sjs/jquery/jquery.cookie.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ssl.delti.com/sjs/overlib.js" type="text/javascript"></script>
+<script>	
+if ( !$.cookie('priv_pol') ){
+$('#cookie-diss').css('display','block');
+}
+</script>
+ <script type="text/javascript" src="https://ssl.delti.com/sjs/change_suchmaske.js"></script>
+<script src="https://adtm.delti.com/b2c/p/bad655d6483c25d821dac12cb3ce71e1556cfe64/satelliteLib-246d9334a8fac8f7242fe07a80421dd5e091a6aa.js"></script>
+<span id="-- SVX5c502395eef5a139314705fd811de469 -- --"></span>
+<span id="-- 18.08.2019 08:13 --"></span>
+<script id="aa" type="text/javascript">
+digitalData={};
+digitalData.pageInstanceID="prod_RDF_homepage";
+digitalData.page={ pageInfo: { pageId: "homepage", pageName: "Home", shopName: "RDF", country: "IS", language: "is", statusCode: 200}};
+digitalData.page.pageInfo.campaignID="";
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript">
+window['optimizely'] = window['optimizely'] || [];
+window['optimizely'].push(["trackEvent", "page_index"]);
+</script>
+</body>
+</html>
+

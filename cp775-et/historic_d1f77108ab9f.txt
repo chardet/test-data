@@ -1,0 +1,494 @@
+<html>
+
+<head>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=IBM775">
+
+
+<style>
+body {font-size:12px; margin-top:0px; margin-bottom:0px; font-face:arial;}
+td {font-size:12px;  font-face:arial;}
+h2 {font-size:18px;  font-face:arial;}
+a {font-size:12px;  font-face:arial; color:#0000cc;}
+sub {font-size:8px; font-family:times; color:#cc6600;}
+
+.amenu {font-size:12px;  font-face:arial; color:#0000aa; text-decoration:none;}
+.amenu:hover{text-decoration:underline; color:#ff6600;}
+
+.aviide {font-size:12px;  font-face:arial; color:#aa0000; text-decoration:none;}
+.aviide:hover{text-decoration:underline; color:#0000ff;}
+
+.hall {color:#efefef;}
+.esikuuik {font-size:10px;  font-family:tahoma; color:#333333;}
+.aeg {font-size:14px;  font-family:tahoma; color:#0000cc; text-decoration:none;}
+.aeg2 {font-size:13px;  font-family:tahoma; color:#454566;}
+</style>
+
+</head>
+
+
+<body bgcolor=#000000>
+
+
+
+
+<table width=90% align=center cellpadding=20 cellspacing=1 bgcolor=#ccccee>
+
+   <tr>
+		<td align=center bgcolor="#ffffff">
+
+					<table width=100%>
+						<tr>
+						  <td width=200 align=center>
+						    <a href="http://www.eestimale.ee/"><img border=0 src="pildid/EMTY.gif"></a>
+						  </td>
+						  <td align=center>
+							 	<h2>PAUL KERESE 95. SöNNIAASTALE PöHENDATUD MALETURNIIRIDE SARI <font color=#0000cc>2011</font></h2>
+						  </td>
+						</tr>
+					</table>
+
+
+			<p align=center>
+			 <a class=amenu href="index.php">  esilehele  </a>
+			 &nbsp;&nbsp;<font color=#cdcdcd>|</font>&nbsp;&nbsp;
+			 <a class=amenu href="index.php?akt=1">  kalenderplaan  </a>
+			 &nbsp;&nbsp;<font color=#cdcdcd>|</font>&nbsp;&nbsp;
+			 <a class=amenu href="index.php?akt=2">  Åldtabel  </a>
+			 			 &nbsp;&nbsp;<font color=#cdcdcd>|</font>&nbsp;&nbsp;
+			 <a class=amenu href="index.php?akt=4">  sarja toetajad  </a>
+								</p>
+	</td>
+</tr>
+<tr>
+<td align=center bgcolor="#ffffff">
+			      <table width=100% cellspacing=10>
+		 <tr>
+		   <td width=40% valign=top>
+
+                         
+							 <p>
+								<table bgcolor=#565656 width=100% cellspacing=1 cellpadding=8>
+									<tr>
+										<td bgcolor=#000055 align=center>
+											<font color=#efefef><b>Tabeli esikÅmme</b></font>
+											 &nbsp;&nbsp; <img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a href="/sari2011/index.php?akt=2" class=hall> vaata kogu tabelit </a>
+									   </td>
+									</tr>
+									<tr>
+
+										<td bgcolor=#ffffff>
+																			<p class=esikuuik>
+																				<b>JÑrjestus pÑrast 28. osav‰istlust : </b>
+																			</p>
+																			<table width=90% align=center><tr>
+	      <td class=esikuuik align=right width=20>1.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=030523">Vovk, Ilja</a></td>
+			<td class=esikuuik width=30> &nbsp; 2370</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>931</b></td>
+			 <td class=esikuuik width=30>25</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>2.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=030432">æv‰rjov, Igor</a></td>
+			<td class=esikuuik width=30> &nbsp; 2393</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>868.5</b></td>
+			 <td class=esikuuik width=30>23</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>3.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=030519">Volodin, Aleksander</a></td>
+			<td class=esikuuik width=30> &nbsp; 2447</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>782.5</b></td>
+			 <td class=esikuuik width=30>16</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>4.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=030183">Kukk, Sander</a></td>
+			<td class=esikuuik width=30> &nbsp; 2241</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>684.75</b></td>
+			 <td class=esikuuik width=30>16</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>5.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=030414">Sîît, Margus</a></td>
+			<td class=esikuuik width=30> &nbsp; 2282</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>657.5</b></td>
+			 <td class=esikuuik width=30>20</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>6.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=030262">Narva, Jaan</a></td>
+			<td class=esikuuik width=30> &nbsp; 2304</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>648.5</b></td>
+			 <td class=esikuuik width=30>18</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>7.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=101101">Tedrema, Ardi</a></td>
+			<td class=esikuuik width=30> &nbsp; 2163</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>645</b></td>
+			 <td class=esikuuik width=30>20</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>8.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=050529">Abozenko, Georg</a></td>
+			<td class=esikuuik width=30> &nbsp; 2033</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>635.5</b></td>
+			 <td class=esikuuik width=30>24</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>9.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=060300">Medar, Marti</a></td>
+			<td class=esikuuik width=30> &nbsp; 1938</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>630.5</b></td>
+			 <td class=esikuuik width=30>23</td>
+			<td></td>
+	      </tr>
+	      <tr>
+	      <td class=esikuuik align=right width=20>10.</td>
+			<td class=esikuuik width=150> &nbsp; <a class=esikuuik href="/sari2011/index.php?akt=8&amp;id=030543">Fomina, Tatjana</a></td>
+			<td class=esikuuik width=30> &nbsp; 2240</td>
+			<td width=10></td>
+	      <td class=esikuuik width=30><b>619.5</b></td>
+			 <td class=esikuuik width=30>20</td>
+			<td></td>
+	      </tr>
+	      </table>
+
+										</td>
+									</tr>
+								</table>
+							 </p>
+
+					<div>
+					  <table bgcolor=#565656 width=100% cellspacing=1 cellpadding=8>
+						 <tr>
+								<td bgcolor=#000055 align=center>
+								  <font color=#efefef><b>Sarja toetajad</b></font>
+								</td>
+						 </tr>
+						<tr>
+								<td bgcolor=#ffffff valign=middle>
+								<p>
+								  <img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a class=aviide href="index.php?akt=4"> vaata meie k‰iki toetajaid </a>
+								</p>
+									<div align=center >
+									 <a class=hall target=_blank href="http://www.kodumasinad.ee/"><img border=0 src="sponsorid/kodumasinad.gif" vspace=10 hspace=15></a>
+
+	                      </div>
+								  <div align=center >
+			                   <a href="http://www.kulka.ee/" target=_blank><img border=0 src="sponsorid/kultuurkapital.gif" vspace=10 hspace=15></a>
+									</div>
+									 <div align=center >
+									  <a class=hall target=_blank href="http://hmn.kul.ee/"><img border=0 src="sponsorid/hmn.gif" vspace=10 hspace=15></a>
+								   </div>
+
+
+								</td>
+						 </tr>
+					  </table>
+					</div>
+
+             <div>&nbsp;</div>
+
+					<div>
+					  <table bgcolor=#565656 width=100% cellspacing=1 cellpadding=8>
+						 <tr>
+								<td bgcolor=#000055 align=center>
+								  <font color=#efefef><b>Sarja koduleht</b></font>
+								</td>
+						 </tr>
+						<tr>
+								<td bgcolor=#ffffff>
+
+								  <p>
+								     Aegamîîda lisandub uusi v‰imalusi
+								     statistika vaatamiseks ja muutuvad kujunduselemendid.
+								  </p>
+								</td>
+						 </tr>
+					  </table>
+					</div>
+					
+					             <div>&nbsp;</div>
+						<div>
+					  <table bgcolor=#565656 width=100% cellspacing=1 cellpadding=8>
+						 <tr>
+								<td bgcolor=#000055 align=center>
+								  <font color=#efefef><b>Sarja reeglid</b></font>
+								</td>
+						 </tr>
+						<tr>
+								<td bgcolor=#ffffff>
+								  <p>
+								  <img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a class=aviide href="nlsari.pdf" target=_blank> sarja Åldjuhend (pdf) </a>
+								  &nbsp;&nbsp;
+								    <img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a  class=aviide href="lisa_pr.pdf" target=_blank> lisaprotokoll (pdf) </a>
+								  </p>
+								  <p>
+								  Paul Kerese 95. sÅnniaastale pÅhendatud maleturniiride sarja kuulub kokku 28 turniiri.
+								  </p>
+								  <p>
+								  Igal mÑngijal lÑheb sarja koondarvestusse 8 parema turniiri tulemus.
+								  TÑiendavalt saab igal kiir- ja tavamale ajakontrolliga turniiril osalemise eest 10
+									boonuspunkti. Sarja koondarvestusse lÑhevad k‰ikidel turniiridel osalemiste eest
+									saadavad boonuspunktid (maksimaalselt kuni 280 boonuspunkti - 28 turniiri).
+								  </p>
+								  <p>
+								  Kokku on koondauhinnafond 4000 &euro;.
+								  </p>
+								</td>
+						 </tr>
+					  </table>
+					</div>
+
+			</td>
+
+			<td width=60% valign=top>
+			
+					<div>
+					  <table bgcolor=#565656 width=100% cellspacing=1 cellpadding=8>
+						 <tr>
+								<td bgcolor=#000055 align=center>
+								  <font color=#efefef><b>2011. aasta sarja l‰pptulemused</b></font>
+								</td>
+						 </tr>
+						<tr>
+								<td bgcolor=#ffffff>
+								
+								  <p>
+								<img src="failid/vovk.jpg" align=right hspace=15 vspace=10>
+			                            LÑbi 2011. aasta vÑldanud Paul Kerese 95. sÅnniaastale pÅhendatud
+maleturniiride sarja kuulus kokku 28 turniiri. öldarvestuses tuli sarja
+v‰itjaks FIDE meister </b>Ilja Vovk.
+</p> 
+ <p>
+Eesti Male ToetusÅhing palub auhinnasaajatel teatada oma arveldusarve number
+ja isikukood eelistatult e-mailile  <i>malegold7@gmail.com</i>
+malegold7@gmail.com v‰i telefonil 53496452 (Margus Sîît).
+ </p>
+ <p>
+2011. aasta maleturniiride sarja pidulik l‰petamine toimub 2012. aastal
+teoks saava analoogse maleturniiride sarja esimeseks v‰istluseks oleva Eesti
+Spordiselts Kalevi XXI rahvusvahelise kiirmaleturniiri "Meenutades Paul
+Kerest" avatseremoonia ajal 6. jaanuaril 2012 kell 15.30 Sokos Hotell Viru
+konverentsikeskuses Tallinnas. Lisainfo:
+<a href="http://www.eestikalev.ee/?module=news&id=596" target=_blank>www.eestikalev.ee</a>
+  </p>
+ <p>
+Vastavalt 2011. aasta sarja Åldjuhendile: "Iga maletaja v‰ib saada
+koondauhinna maksimaalselt Åhes kategoorias."  Sellest p‰him‰ttest lÑhtudes
+kujunes auhinnasaajate nimekiri alljÑrgnevalt (auhinnasaaja nime jÑrel on
+toodud sulgudes l‰ppkoht sarja Åldtabelis).
+  </p>
+ <p>
+Eesti Male ToetusÅhing poolt vÑlja pandud Paul Kerese 95. sÅnniaastale
+pÅhendatud maleturniiride sarja koondauhinnad (bruto):
+   </p>
+ <pre>
+- I koht - 700 EUR - Ilja Vovk (1.)
+- II koht - 500 EUR - Igor æv‰rjov (2.)
+- III koht - 400 EUR - Aleksandr Volodin (3.)
+- IV koht - 300 EUR - Sander Kukk (4.)
+- V koht - 200 EUR - Margus Sîît (5.)
+- VI koht - 150 EUR - Jaan Narva (6.)
+- VII koht - 100 EUR - Georg Abozenko (8.)
+- VIII koht - 50 EUR - Sergei Neff (12.)
+- IX koht - 50 EUR - Pavel Vorobjov (15.)
+- X koht - 50 EUR - Andrei æi’kov (16.)
+ 
+- Reitinguga kuni 2200*
+- I koht - 150 EUR - Ardi Tedrema (7.)
+- II koht - 100 EUR - Marti Medar (9.)
+- III koht - 50 EUR - T‰nu Rauk (18.)
+ 
+- Reitinguga kuni 1900*
+- I koht - 150 EUR - Anna Sagadijeva (13.)
+- II koht - 100 EUR - Henrik HaavamÑe (17.)
+- III koht - 50 EUR - Jaan Urgas (25.)
+ 
+- Reitinguga kuni 1600*
+- I koht - 150 EUR - Kirill Chukavin (14.)
+- II koht - 100 EUR - Rene Lumiste (30.)
+- III koht - 50 EUR - Margareth Olde (57.)
+ 
+- Seeniorid (sÅnniaastaga 1951 ja vanemad)
+- I koht - 150 EUR - Hillar KÑrner (11.)
+- II koht - 100 EUR - Anto Remmel (23.)
+- III koht - 50 EUR - Kalle Peebo (24.)
+ 
+- Naised
+- I koht - 150 EUR - Tatjana Fomina (10.)
+- II koht - 100 EUR - Tiina P‰lendik (19.)
+- III koht - 50 EUR - Regina Narva (28.)
+   </pre>
+ <p>
+*Eesti kiirmale reiting seisuga 1. jaanuar 2011.
+  </p>
+
+								</td>
+						 </tr>
+					  </table>
+					</div>
+			
+			
+			
+			
+
+						 
+
+
+			 <p>
+			  <table bgcolor=#565656 width=100% cellspacing=1 cellpadding=8>
+             <tr>
+						<td bgcolor=#000055 align=center>
+						  <font color=#efefef><b>Eesolevad turniirid</b></font> &nbsp;&nbsp; <img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a href="/sari2011/index.php?akt=1" class=hall> vaata kalenderplaani </a>
+						</td>
+				 </tr>
+				<tr>
+
+						<td bgcolor=#ffffff><table width=100% cellpadding=5 cellspacing=1 align=center border=0><tr>
+													 <td align=center>19.</td>
+										          <td><b><a href="/sari2011/index.php?akt=3&id=19">Valge Daami kiirturniir</a></b></td>
+													 <td>28.08. - 28.08.</td>
+													 <td><i>Haapsalu</i></td>
+													 <td><img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a  class=aviide  href="http://www.maleliit.ee/info/2011/valge_daam_2011_kiir_juhend.pdf" target=_blank> juhend </a></td>
+
+
+												  </tr><tr>
+													 <td align=center>20.</td>
+										          <td><b><a href="/sari2011/index.php?akt=3&id=20">R‰uge kiirmaleturniir</a></b></td>
+													 <td>24.09. - 24.09.</td>
+													 <td><i>R‰uge</i></td>
+													 <td><img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a  class=aviide  href="http://www.eestimale.ee/sari2011/rouge.pdf" target=_blank> juhend </a></td>
+
+
+												  </tr><tr>
+													 <td align=center>21.</td>
+										          <td><b><a href="/sari2011/index.php?akt=3&id=21">T‰rva kiirmaleturniir</a></b></td>
+													 <td>25.09. - 25.09.</td>
+													 <td><i>T‰rva</i></td>
+													 <td><img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a  class=aviide  href="http://www.eestimale.ee/sari2011/torva.pdf" target=_blank> juhend </a></td>
+
+
+												  </tr><tr>
+													 <td align=center>22.</td>
+										          <td><b><a href="/sari2011/index.php?akt=3&id=22">Viimsi valla kiirmaleturniir</a></b></td>
+													 <td>08.10. - 08.10.</td>
+													 <td><i>Haabneeme</i></td>
+													 <td><img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a  class=aviide  href="http://www.eestimale.ee/sari2011/Viimsi.pdf" target=_blank> juhend </a></td>
+
+
+												  </tr><tr>
+													 <td align=center>23.</td>
+										          <td><b><a href="/sari2011/index.php?akt=3&id=23">Ida-Virumaa lahtised meistriv‰istlused</a></b></td>
+													 <td>21.10. - 23.10.</td>
+													 <td><i>Kohtla-JÑrve</i></td>
+													 <td><img src="pildid/arrow.gif" align=absmiddle width=9px height=9px  hspace=6px><a  class=aviide  href="http://www.eestimale.ee/sari2011/iviru.pdf" target=_blank> juhend </a></td>
+
+
+												  </tr></table>
+						</td>
+				 </tr>
+			  </table>
+         </p>
+
+
+
+
+
+				
+
+
+
+			 <p>
+			  <table bgcolor=#565656 width=100% cellspacing=1 cellpadding=8>
+             <tr>
+						<td bgcolor=#000055 align=center>
+						  <font color=#efefef><b>Kontaktandmed</b></font>
+						</td>
+				 </tr>
+				<tr>
+
+						<td bgcolor=#ffffff>
+
+                   
+                   
+                  <form name="kiri" action="?akt=10#saada" method="post">
+
+						  <p>
+						  <a name="saada"></a>
+						   <input type=checkbox name="kellele1" value="1"> <b>EMTö n‰ukogu esimees : </b> Toomas ValgmÑe ( toomas [ . ] valgmae [ Ñt ] kodumasinad [ . ] ee  )
+						  </p>
+
+						  <p>
+						  <input type=checkbox name="kellele2" value="2" > <b>EMTö juhatuse liige : </b> Margus Sîît ( margus [ Ñt ] geotehnika [ . ] ee  )
+						  </p>
+
+						  <p>
+						  <input type=checkbox name="kellele3" value="3"
+						   checked > <b>Peakohtunik, arvestus : </b>  Marek Kolk ( marek [ . ] kolk [ Ñt ] ut [ . ] ee  )
+						  </p>
+
+                    <p align=center>
+						   <textarea name="sisu" rows=5 cols=70></textarea>
+						  </p>
+						  <p align=center>
+						  Teie nimi <input type="text" size=30 name="knimi" value="">
+			           &nbsp;&nbsp;
+						  Teie e-aadress <input type="text" size=30 name="adr" value="">
+						  </p>
+						  <div>
+						  &nbsp;
+						  </div>
+
+						  <p align=center><font color=#990000><b>KONTROLLKöSIMUS : </b> Mitu jalga on kaheksajalal?&nbsp;
+											<input type=hidden name="kysimus" value="100">
+											<input type=text name="arvutus" size=14></font></p>
+
+											<p align=right>
+											<input type=submit name="sonumvorm" value="Saada teade">
+											</p>
+						             						  </form>
+
+
+
+
+
+						</td>
+				 </tr>
+			  </table>
+         </p>
+
+
+		   </td>
+
+		 </tr>
+		</table>
+			</td>
+	</tr>
+
+</table>
+
+</body>
+</html>
+
+
