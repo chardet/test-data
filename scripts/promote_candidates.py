@@ -117,6 +117,8 @@ USENET_PAIR: dict[str, tuple[str, str]] = {
     # Repository scans: BOM-identified file encodings, English sources.
     "utf-8-sig": ("utf-8-sig", "en"),
     "utf-16": ("utf-16", "en"),
+    "utf-16-le": ("utf-16-le", "en"),
+    "utf-16-be": ("utf-16-be", "en"),
     "utf-32": ("utf-32", "en"),
 }
 

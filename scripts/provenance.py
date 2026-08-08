@@ -56,12 +56,22 @@ REPO = Path(__file__).resolve().parent.parent
 WILD = "wild"
 TRANSCODED = "transcoded"
 SUITE = "suite"
+# Period text in an encoding Python cannot name (Kamenický, Mazovia),
+# re-encoded into the supported codepage the same text would have used on a
+# differently configured machine of the era.  The bytes are ours, so it is
+# not wild; the text is authentic rather than modern web prose, so it is
+# not ordinary transcoding either.  See scripts/transcode_historic.py.
+HISTORIC = "historic"
 
 # Substrings of the introducing commit's subject line -> provenance.
 # Order matters: the first matching rule wins.  Anything unmatched falls
 # through to SUITE, which is the conservative default -- it asserts only
 # that we cannot show the file was either scraped or generated here.
 COMMIT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    (
+        HISTORIC,
+        ("historic transcode", "Transcode historic"),
+    ),
     (
         TRANSCODED,
         (

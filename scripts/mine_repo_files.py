@@ -54,6 +54,30 @@ BOM_CHARSETS: dict[str, tuple[bytes, str]] = {
     "utf-32": (codecs.BOM_UTF32_LE, "utf-32"),
 }
 
+# BOM-less wide encodings cannot be recognised from a mark, and the web has
+# essentially none -- a page without a BOM needs a charset header, so
+# authors just use one.  Files are different: Windows .rc resource scripts
+# are routinely UTF-16LE with no BOM.  They are identified structurally, by
+# ASCII text leaving NULs in every high byte: odd offsets for little-endian,
+# even for big-endian.
+BOMLESS_CHARSETS = ("utf-16-le", "utf-16-be")
+
+
+def wide_without_bom(data: bytes, codec: str) -> bool:
+    """Whether *data* looks like BOM-less UTF-16 of the given endianness."""
+    if len(data) < 64 or len(data) % 2 or data[:2] in (
+        codecs.BOM_UTF16_LE,
+        codecs.BOM_UTF16_BE,
+    ):
+        return False
+    window = min(len(data), 8192)
+    pairs = window // 2
+    odd = sum(1 for i in range(1, window, 2) if data[i] == 0)
+    even = sum(1 for i in range(0, window, 2) if data[i] == 0)
+    if codec == "utf-16-le":
+        return odd > pairs * 0.8 and even < pairs * 0.05
+    return even > pairs * 0.8 and odd < pairs * 0.05
+
 MANIFEST_COLUMNS = (
     "path", "repo", "member", "size", "letters", "detected", "status",
 )
@@ -77,9 +101,14 @@ def clone(repo: str, destination: Path) -> None:
     )
 
 
-def evaluate(data: bytes, bom: bytes, codec: str) -> int | None:
+def evaluate(data: bytes, bom: bytes | None, codec: str) -> int | None:
     """Return the letter count if *data* is usable text in this encoding."""
-    if not data.startswith(bom) or not MIN_SIZE <= len(data) <= MAX_SIZE:
+    if not MIN_SIZE <= len(data) <= MAX_SIZE:
+        return None
+    if bom is None:
+        if not wide_without_bom(data, codec):
+            return None
+    elif not data.startswith(bom):
         return None
     try:
         text = data.decode(codec)
@@ -96,7 +125,10 @@ def evaluate(data: bytes, bom: bytes, codec: str) -> int | None:
 
 def scan(root: Path, charset: str, limit: int) -> list[tuple]:
     """Walk *root* collecting files that match the target charset."""
-    bom, codec = BOM_CHARSETS[charset]
+    if charset in BOMLESS_CHARSETS:
+        bom, codec = None, charset
+    else:
+        bom, codec = BOM_CHARSETS[charset]
     found: list[tuple] = []
     seen: set[str] = set()
     for path in sorted(root.rglob("*")):
@@ -148,7 +180,11 @@ def write_candidates(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--repo", required=True, help="git URL to clone")
-    parser.add_argument("--charset", default="utf-8-sig", choices=sorted(BOM_CHARSETS))
+    parser.add_argument(
+        "--charset",
+        default="utf-8-sig",
+        choices=sorted({*BOM_CHARSETS, *BOMLESS_CHARSETS}),
+    )
     parser.add_argument("--max-files", type=int, default=8)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     arguments = parser.parse_args()

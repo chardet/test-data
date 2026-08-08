@@ -1,0 +1,81 @@
+              DraŸ¡ Historie (c) NoSense 1995
+
+
+               Posledn¡ informace k CD verzi
+------------------------------------------------------------
+
+  Pıed  spouçtØn¡m  hry  se  ujistØte,  §e  je CD disk DraŸ¡
+Historie ve vaç¡ CD-ROM jednotce.
+
+  NedoporuŸujeme v m vynd vat CD disk z mechaniky v pr…bØhu
+hran¡ hry.
+
+  Pokud  zm Ÿknete pıi  naŸ¡t n¡ z  CD disku  kl vesu Pause,
+m…§e  se st t,  §e se  hra zasekne  a pom…§e  v m u§  jedinØ
+tlaŸ¡tko  Reset na  vaçem poŸ¡taŸi...  Tato nepı¡jemnost  se
+projevuje pouze na  nØkterìch poŸ¡taŸ¡ch (konfigurac¡ch), je
+mo§n‚, §e na tom vaçem ne.
+
+  Jestli§e m te vypnut‚ titulky a nad mluv¡c¡ postaviŸkou se
+v m  zniŸehonic objev¡  nØjak‚ ŸtvereŸky  (teŸky!), pı¡padnØ
+vodorovn‚  Ÿ rky (pomlŸky!)  a postaviŸka  pıi tom  nemluv¡,
+neznamen  to  nic jin‚ho, ne§  §e pıemìçl¡! To  opravdu nen¡
+chyba...
+
+
+                 Pro majitele karty Adlib
+------------------------------------------------------------
+
+  Hra  nebyla  na  kart ch  Adlib  nikdy  testov na.  Pıesto
+vØı¡me,  §e by v m hudba mo§n  mohla fungovat, zvuky nikoliv.
+K tomu,   abyste   ji   opravdu   slyçeli,   mus¡te   udØlat
+n sleduj¡c¡:
+
+  Zkop¡rovat   do  adres ıe   hry  soubor   MIDI.CFG,  kterì
+naleznete na CD disku v adres ıi ADLIB.
+
+  Jinìm   ıeçen¡m  je   RU¬N·  naeditovat   soubor  MIDI.CFG
+v adres ıi hry. Popis souboru MIDI.CFG naleznete n¡§e.
+
+
+
+                  Popis souboru MIDI.CFG
+       (konfiguraŸn¡ soubor pro hran¡ hudby a zvuk…)
+------------------------------------------------------------
+
+  1.ı dek- adresa karty DEKADICKY, v pı¡padØ karty Adlib sem
+           napiçte 904
+  2.ı dek- Ÿ¡slo pıeruçen¡, u karty Adlib nepodstatn‚
+  3.ı dek- Ÿ¡slo kan lu DMA, u karty Adlib nepodstatn‚
+  4.ı dek- nechat tam to, co tam je
+  5.ı dek- nechat tam to, co tam je
+  6.ı dek- typ karty, v pı¡padØ karty Adlib sem napiçte 255,
+           jinak typ karty Blaster
+
+
+------------------------------------------------------------
+
+  üeçen¡ probl‚m… neuvedenìch v manu lu.
+
+
+  NaŸ¡tal jsem  ulo§enou pozici a ona  se buÔ nenaŸetla nebo
+hra spadnula!
+  -m te zıejmØ na disku m lo m¡sta. Zkuste nØco nepotıebn‚ho
+vymazat  a pak  by mØlo  ukl d n¡ a  naŸ¡t n¡ hern¡ch  pozic
+prob¡hat norm lnØ. Ka§d  hern¡  pozice potıebuje okolo 12 KB
+m¡sta.
+
+  æel jsem do mapy a pıi  vìstupu z n¡ se hra chovala velice
+divnØ...
+  -ten samì probl‚m s nedostatkem m¡sta na disku.
+
+  Moje zvukov  karta ne a ne zaŸ¡t hr t!
+  -pokud  m   nØjak‚  ovladaŸe,  dejte  je  z horn¡ pamØti do
+pamØti konvenŸn¡.
+
+  Hra mi zniŸehonic spadla.
+  -v §nØ? My  douf me, §e to  snad ne! Pak  n m zbìv  se  v m
+jedinØ  velice  omluvit  a  doporuŸit  v m  hr t  od posledn¡
+ulo§en‚ pozice...
+
+------------------------------------------------------------

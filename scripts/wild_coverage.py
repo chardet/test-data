@@ -25,7 +25,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from encoding_gaps import get_codec  # noqa: E402
-from provenance import WILD, classify_all, data_files  # noqa: E402
+from provenance import HISTORIC, WILD, classify_all, data_files  # noqa: E402
 
 TARGET = 5
 
@@ -73,15 +73,22 @@ def dir_codec(dirname: str) -> str | None:
     return None
 
 
+# Historic transcodes count toward coverage: for encodings whose own
+# corpus survives only in a codepage Python cannot name, period text
+# re-encoded into the supported sibling is the closest thing to a real
+# sample that can exist, and is far better evidence than modern web text.
+COUNTED = (WILD, HISTORIC)
+
+
 def wild_counts() -> dict[str, int]:
-    """Wild file count per codec, including encodings with zero."""
+    """Countable file count per codec, including encodings with zero."""
     verdicts = classify_all()
     counts: dict[str, int] = defaultdict(int)
     for path in data_files():
         codec = dir_codec(path.partition("/")[0])
         if codec is None:
             continue
-        counts[codec] += 1 if verdicts.get(path) == WILD else 0
+        counts[codec] += 1 if verdicts.get(path) in COUNTED else 0
     return dict(counts)
 
 
