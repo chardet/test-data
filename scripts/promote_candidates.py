@@ -86,6 +86,10 @@ USENET_PAIR: dict[str, tuple[str, str]] = {
     "iso-2022-kr": ("iso2022_kr", "ko"),
     "big5": ("big5", "zh"),
     "euc-kr": ("euc_kr", "ko"),
+    # BBS artpacks: an English-language scene, so the language is implied
+    # by the source the same way a newsgroup hierarchy implies one.
+    "cp437": ("cp437", "en"),
+    "cp850": ("cp850", "en"),
 }
 
 

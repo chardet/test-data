@@ -1,0 +1,12 @@
+          Important information on the DM-ADMNT.TXT release
+    컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+
+ 1.  Picture colorization is optimum at 16.7 million colours.
+     Although viewable in 256 colours or 65k colours, picrure quality
+     suffers. You have been warned! =)
+
+ 2.  Yes, (this is irrelevant) this is a small pack, but we're a small
+     group! whee!
+
+
+                                        -eq  -dM
