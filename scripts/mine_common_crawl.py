@@ -524,6 +524,13 @@ def connect_duckdb():  # noqa: ANN201
         ("http_retries", "8"),
         ("http_retry_backoff", "4"),
         ("http_timeout", "120000"),
+        # Scanning several remote Parquet parts at once will happily eat
+        # all of RAM and get the process OOM-killed mid-scan.  Bound it:
+        # the query is IO-bound on the crawl's servers anyway, so a small
+        # memory ceiling and thread count cost almost nothing.
+        ("memory_limit", "'2GB'"),
+        ("threads", "3"),
+        ("preserve_insertion_order", "false"),
     ):
         try:
             connection.execute(f"SET {setting} = {value}")
