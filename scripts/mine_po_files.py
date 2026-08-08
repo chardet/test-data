@@ -31,7 +31,9 @@ import re
 import shutil
 import subprocess
 import sys
+import tarfile
 import tempfile
+import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
@@ -151,6 +153,51 @@ def evaluate(data: bytes) -> tuple[str, str, int] | None:
     return declared, codec, counted
 
 
+def scan_tarball(url: str, per_charset: int) -> list[tuple]:
+    """Scan a release tarball's catalogues without unpacking it to disk.
+
+    Modern catalogues are all UTF-8 -- translators migrated years ago -- so
+    the legacy encodings survive only in historical releases.  GNU keeps
+    every tarball it ever shipped, which makes them the densest source of
+    KOI8-R, EUC-KR and the ISO-8859 family in self-labelling form.
+    """
+    request = urllib.request.Request(  # noqa: S310
+        url, headers={"User-Agent": "chardet-test-data-miner/0.1"}
+    )
+    with tempfile.NamedTemporaryFile(suffix=".tar.gz") as handle:
+        with urllib.request.urlopen(request, timeout=300) as response:  # noqa: S310
+            shutil.copyfileobj(response, handle)
+        handle.flush()
+        kept: dict[str, int] = defaultdict(int)
+        seen: set[str] = set()
+        rows: list[tuple] = []
+        try:
+            archive = tarfile.open(handle.name)
+        except tarfile.TarError:
+            return []
+        with archive:
+            for member in archive.getmembers():
+                if not member.name.endswith(".po") or not member.isfile():
+                    continue
+                extracted = archive.extractfile(member)
+                if extracted is None:
+                    continue
+                data = extracted.read()
+                result = evaluate(data)
+                if result is None:
+                    continue
+                declared, codec, counted = result
+                if kept[codec] >= per_charset:
+                    continue
+                digest = hashlib.sha256(data).hexdigest()
+                if digest in seen:
+                    continue
+                seen.add(digest)
+                kept[codec] += 1
+                rows.append((member.name, data, declared, codec, counted))
+    return rows
+
+
 def scan(root: Path, per_charset: int) -> list[tuple]:
     kept: dict[str, int] = defaultdict(int)
     seen: set[str] = set()
@@ -201,12 +248,28 @@ def write_candidates(rows: list[tuple], repo: str, output_dir: Path, chardet_mod
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("--repo", required=True)
+    parser.add_argument("--repo", default="", help="git URL to clone")
+    parser.add_argument("--tarball", default="", help="release tarball URL")
     parser.add_argument("--max-per-charset", type=int, default=4)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     arguments = parser.parse_args()
 
     chardet_module = _load_chardet()
+    if arguments.tarball:
+        rows = scan_tarball(arguments.tarball, arguments.max_per_charset)
+        by_codec: dict[str, int] = defaultdict(int)
+        for row in rows:
+            by_codec[row[3]] += 1
+        print(f"{len(rows)} catalogue(s) across {len(by_codec)} encodings")
+        for codec, count in sorted(by_codec.items()):
+            print(f"  {codec:<16} {count}")
+        if not rows:
+            return 1
+        write_candidates(rows, arguments.tarball, arguments.output, chardet_module)
+        return 0
+    if not arguments.repo:
+        sys.exit("pass --repo or --tarball")
+
     workdir = Path(tempfile.mkdtemp(prefix="po-mine-"))
     try:
         checkout = workdir / "repo"
