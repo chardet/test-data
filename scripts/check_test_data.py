@@ -30,6 +30,24 @@ KNOWN_LANGUAGES = {
     "ukrainian", "urdu", "vietnamese", "welsh",
 }
 
+# Directories are named `{encoding}-{iso639-1}` (they used full language
+# names until the 2026 rename; KNOWN_LANGUAGES above still accepts those).
+ISO_TO_LANGUAGE = {
+    "ar": "arabic", "be": "belarusian", "bg": "bulgarian", "br": "breton",
+    "cs": "czech", "cy": "welsh", "da": "danish", "de": "german",
+    "el": "greek", "en": "english", "eo": "esperanto", "es": "spanish",
+    "et": "estonian", "fa": "farsi", "fi": "finnish", "fr": "french",
+    "ga": "irish", "gd": "gaelic", "he": "hebrew", "hr": "croatian",
+    "hu": "hungarian", "id": "indonesian", "is": "icelandic", "it": "italian",
+    "ja": "japanese", "kk": "kazakh", "ko": "korean", "lt": "lithuanian",
+    "lv": "latvian", "mk": "macedonian", "ms": "malay", "mt": "maltese",
+    "nl": "dutch", "no": "norwegian", "pl": "polish", "pt": "portuguese",
+    "ro": "romanian", "ru": "russian", "sk": "slovak", "sl": "slovene",
+    "sr": "serbian", "sv": "swedish", "tg": "tajik", "th": "thai",
+    "tr": "turkish", "uk": "ukrainian", "ur": "urdu", "vi": "vietnamese",
+    "zh": "chinese",
+}
+
 # ---------------------------------------------------------------------------
 # Binary magic bytes
 # ---------------------------------------------------------------------------
@@ -136,20 +154,27 @@ LANGUAGE_SCRIPTS = {
 def parse_dir_name(dirname):
     """Parse directory name into (encoding, language_or_None).
 
-    Uses rsplit('-', 1) and checks if the last segment is a known language.
+    The language split is attempted *before* falling back to treating the
+    whole name as a codec, because two encoding names collide with language
+    codes: `utf-16-be` and `utf-32-be` are Belarusian text in the BOM'd
+    encoding, while `utf-16be-ru` and `utf-32be-ru` are big-endian.  Since
+    codecs.lookup("utf-32-be") happily returns the big-endian codec,
+    resolving the full name first silently decodes Belarusian as UTF-32BE
+    and reports a bogus decode error.
     """
-    if dirname in ("None", "ascii"):
+    if dirname in ("None", "None-None", "ascii"):
         return dirname, None
 
     parts = dirname.rsplit("-", 1)
-    if len(parts) == 2 and parts[1] in KNOWN_LANGUAGES:
-        encoding_name = parts[0]
-        language = parts[1]
-    else:
-        encoding_name = dirname
-        language = None
+    if len(parts) == 2:
+        # ISO 639-1 suffix (current scheme), only if the remainder is a codec.
+        if parts[1] in ISO_TO_LANGUAGE and resolve_encoding(parts[0]) is not None:
+            return parts[0], ISO_TO_LANGUAGE[parts[1]]
+        # Full-word suffix (pre-2026 scheme).
+        if parts[1] in KNOWN_LANGUAGES:
+            return parts[0], parts[1]
 
-    return encoding_name, language
+    return dirname, None
 
 
 def resolve_encoding(name):
