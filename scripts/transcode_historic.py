@@ -32,6 +32,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import re
 import sys
 from pathlib import Path
 
@@ -156,14 +157,24 @@ def run_from_wild(arguments) -> int:  # noqa: ANN001
         writer = csv.writer(fh)
         if not existing:
             writer.writerow(MANIFEST_COLUMNS)
-        for origin, text in sources:
+        for origin, source_text in sources:
             if written >= arguments.count:
                 break
+            # Re-point any in-file declaration at the target first, so the
+            # bytes and what the file says about itself agree.
+            text = retarget_charset(source_text, arguments.target)
             try:
                 out = text.encode(arguments.target)
             except (UnicodeEncodeError, LookupError):
                 continue
             if out.decode(arguments.target) != text:
+                continue
+            if declares_charset(text) and not declares_target(text, arguments.target):
+                continue
+            # Pure ASCII is byte-identical under every one of these
+            # codepages, so such a file says nothing about the encoding it
+            # is filed under -- it is an ASCII sample wearing a label.
+            if not any(byte > 0x7F for byte in out):
                 continue
             digest = hashlib.sha256(out).hexdigest()[:12]
             path = target_dir / f"historic_{digest}.txt"
@@ -177,6 +188,103 @@ def run_from_wild(arguments) -> int:  # noqa: ANN001
             print(f"  {origin} -> {path.name}")
     print(f"Wrote {written} file(s) to {target_dir}")
     return 0 if written else 1
+
+
+# A page that names a charset in its own markup cannot be re-encoded: the
+# bytes would then be cp862 while the text insists it is windows-1255, and
+# chardet's markup stage reads that declaration before anything else.  The
+# file would assert a falsehood about itself, so such sources are refused
+# outright rather than ranked down.
+CHARSET_DECL_RE = re.compile(
+    r"""(?ix)
+    (?: <\?xml [^>]*? \bencoding \s* = \s* ["'] (?P<xml> [\w.:+-]+ ) ["']
+      | <meta [^>]*? \bcharset \s* = \s* ["']? (?P<html> [\w.:+-]+ )
+      | ^ \s* ["']? Content-Type: [^\n"']*? \bcharset= (?P<mime> [\w.:+-]+ )
+      )""",
+    re.MULTILINE,
+)
+
+MARKUP_RE = re.compile(r"(?i)<(?:!doctype\s+html|html\b|\?xml\b)")
+
+
+def declares_charset(text: str) -> bool:
+    """True if *text* names a character set inside itself.
+
+    Re-encoding such text produces a file whose bytes and whose own
+    declaration disagree -- the exact contradiction the detector is
+    supposed to resolve, planted in the answer key.
+    """
+    return CHARSET_DECL_RE.search(text) is not None
+
+
+# What a file of the era would have called the encoding in its own header.
+# Only the labels differing from the Python codec name need an entry.
+CHARSET_LABELS: dict[str, str] = {
+    "cp720": "DOS-720", "cp737": "cp737", "cp775": "IBM775",
+    "cp852": "IBM852", "cp857": "IBM857", "cp858": "IBM00858",
+    "cp860": "IBM860", "cp861": "IBM861", "cp862": "IBM862",
+    "cp863": "IBM863", "cp864": "IBM864", "cp865": "IBM865",
+    "cp869": "IBM869", "cp1125": "cp1125",
+    "hp-roman8": "hp-roman8", "koi8-t": "KOI8-T", "kz1048": "KZ-1048",
+    "mac-greek": "x-mac-greek", "mac-iceland": "x-mac-icelandic",
+    "mac-latin2": "x-mac-ce", "mac-turkish": "x-mac-turkish",
+    "ptcp154": "PTCP154",
+    "iso8859-3": "ISO-8859-3", "iso8859-10": "ISO-8859-10",
+    "iso8859-14": "ISO-8859-14", "iso8859-16": "ISO-8859-16",
+}
+
+
+def declares_target(text: str, codec: str) -> bool:
+    """True if every declaration in *text* resolves to *codec*.
+
+    The safety net behind :func:`retarget_charset`: if a declaration form
+    slips past the rewrite, the file is dropped rather than shipped saying
+    one thing while its bytes say another.
+    """
+    import codecs as _codecs  # noqa: PLC0415
+
+    try:
+        want = _codecs.lookup(codec).name
+    except LookupError:
+        return False
+    # The realistic label is not always one Python can name -- a Mac page
+    # said ``x-mac-greek``, which ``codecs.lookup`` rejects -- so accept the
+    # label this module writes for the target as well.
+    label = charset_label(codec).lower()
+    for match in CHARSET_DECL_RE.finditer(text):
+        found = match.group("xml") or match.group("html") or match.group("mime")
+        if found.lower() == label:
+            continue
+        try:
+            if _codecs.lookup(found).name != want:
+                return False
+        except LookupError:
+            return False
+    return True
+
+
+def charset_label(codec: str) -> str:
+    """The name a file should use for *codec* in its own declaration."""
+    return CHARSET_LABELS.get(codec, codec)
+
+
+def retarget_charset(text: str, codec: str) -> str:
+    """Point every in-file charset declaration at *codec*.
+
+    A page really served as cp862 said so in its own ``<meta>``, and a
+    translator shipping an IBM865 catalogue wrote that in the PO header.
+    Rewriting keeps the file internally consistent, where dropping the
+    declaration or leaving the old one would not.
+    """
+    label = charset_label(codec)
+
+    def replace(match: re.Match[str]) -> str:
+        found = match.group("xml") or match.group("html") or match.group("mime")
+        start = match.start(match.lastgroup) - match.start()
+        end = start + len(found)
+        return match.group(0)[:start] + label + match.group(0)[end:]
+
+    return CHARSET_DECL_RE.sub(replace, text)
 
 
 def wild_sources(language: str, limit: int) -> list[tuple[str, str]]:
@@ -217,8 +325,9 @@ def wild_sources(language: str, limit: int) -> list[tuple[str, str]]:
         # ASCII encodes identically under sibling EBCDIC pages and so
         # distinguishes none of them.
         era = 0 if name.startswith(("artpack_", "usenet_", "_ude_")) else 2
+        markup = 2 if MARKUP_RE.search(text) else 0
         flat = 0 if any(ch > "\x7f" for ch in text) else 1
-        scored.append((era + flat, path, text))
+        scored.append((era + markup + flat, path, text))
     scored.sort(key=lambda row: row[0])
     return [(path, text) for _, path, text in scored[:limit]]
 
