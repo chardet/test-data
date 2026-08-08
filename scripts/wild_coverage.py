@@ -27,6 +27,17 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from encoding_gaps import get_codec  # noqa: E402
 from provenance import HISTORIC, WILD, classify_all, data_files  # noqa: E402
 
+# Per-tier targets.  A flat number assumed a retrievable wild corpus
+# exists for every encoding; testing ten source types showed it does not.
+# What is reachable differs by family, so the bar does too:
+#
+#   web      5 -- Common Crawl supplies these readily
+#   usenet   3 -- mail and news archives are finite but real
+#   archive  2 -- DOS/Mac/HP text survives in single-digit quantities, and
+#                 much of it uses codepages Python cannot name
+#   none     0 -- EBCDIC is not published as retrievable files at all;
+#                 transcoded coverage is accepted as sufficient there
+TIER_TARGETS: dict[str, int] = {"web": 5, "usenet": 3, "archive": 2, "no-known-source": 0}
 TARGET = 5
 
 # How a given encoding family could plausibly yield wild bytes.
@@ -42,11 +53,25 @@ for _codec in (
     "iso8859-5", "iso8859-6", "iso8859-7", "iso8859-8", "iso8859-9",
     "iso8859-13", "iso8859-15", "iso8859-16", "koi8-r", "koi8-u", "tis-620",
     "cp874", "big5", "big5hkscs", "gb2312", "gb18030", "euc_jp", "euc_kr",
-    "shift_jis", "cp932", "cp949", "utf-8", "utf-8-sig", "utf-16", "utf-16-be",
-    "utf-16-le", "utf-32", "utf-32-be", "utf-32-le", "mac-cyrillic", "cp866",
-    "ascii", "euc_jis_2004", "shift_jis_2004",
+    "shift_jis", "cp932", "cp949", "utf-8", "utf-8-sig", "utf-16",
+    "mac-cyrillic", "cp866", "ascii", "euc_jis_2004", "shift_jis_2004",
 ):
     SOURCE_CLASS[_codec] = WEB
+# Measured, not assumed.  These sit in the scarce tier because scanning
+# found almost nothing, not because nobody looked:
+#   iso8859-3   3 hits across 10% of a crawl, all mislabelled; the single
+#               ISO-8859-3 catalogue in a 405-file gettext archive was
+#               actually UTF-8
+#   iso8859-16  zero hits over the same scan
+#   utf-16-le   one file across two large Windows repos and a 20-part crawl
+#   utf-16-be   none found anywhere; these directories mean BOM-*less*, and
+#               real-world UTF-16 essentially always carries a BOM
+for _codec in ("iso8859-3", "iso8859-16", "utf-16-le", "utf-16-be"):
+    SOURCE_CLASS[_codec] = ARCHIVE
+# Wild UTF-32 barely exists: two index hits across twenty crawl parts, and
+# none in repository scans.  The two files already held were luck.
+for _codec in ("utf-32", "utf-32-be", "utf-32-le"):
+    SOURCE_CLASS[_codec] = NONE
 for _codec in ("hz", "iso2022_jp", "iso2022_jp_2", "iso2022_jp_2004",
                "iso2022_jp_ext", "iso2022_kr", "utf-7", "johab"):
     SOURCE_CLASS[_codec] = USENET
@@ -94,7 +119,12 @@ def wild_counts() -> dict[str, int]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("--target", type=int, default=TARGET)
+    parser.add_argument(
+        "--target",
+        type=int,
+        default=None,
+        help="override the per-tier targets with one flat number",
+    )
     parser.add_argument(
         "--targets",
         action="store_true",
@@ -103,14 +133,25 @@ def main() -> int:
     arguments = parser.parse_args()
 
     counts = wild_counts()
-    short = {c: n for c, n in counts.items() if n < arguments.target}
+
+    def target_for(codec: str) -> int:
+        tier = SOURCE_CLASS.get(codec, ARCHIVE)
+        if arguments.target is not None:
+            return arguments.target
+        return TIER_TARGETS[tier]
+
+    short = {c: n for c, n in counts.items() if n < target_for(c)}
 
     if arguments.targets:
-        web = sorted(c for c in short if SOURCE_CLASS.get(c) == WEB)
+        web = sorted(c for c in short if SOURCE_CLASS.get(c) == WEB)  # noqa: F841
         print(",".join(web))
         return 0
 
-    print(f"{len(counts)} encodings; target {arguments.target} wild files each")
+    if arguments.target is None:
+        described = ", ".join(f"{k} {v}" for k, v in TIER_TARGETS.items())
+        print(f"{len(counts)} encodings; per-tier targets: {described}")
+    else:
+        print(f"{len(counts)} encodings; flat target {arguments.target}")
     met = len(counts) - len(short)
     print(f"  meeting target: {met}   short: {len(short)}\n")
 
@@ -128,10 +169,10 @@ def main() -> int:
         entries = by_source.get(source, [])
         if not entries:
             continue
-        need = sum(arguments.target - n for _, n in entries)
+        need = sum(target_for(c) - n for c, n in entries)
         print(f"{labels[source]} -- {len(entries)} encodings, {need} files needed")
         for codec, count in entries:
-            print(f"    {codec:<18} has {count}, needs {arguments.target - count}")
+            print(f"    {codec:<18} has {count}, needs {target_for(codec) - count}")
         print()
     return 0
 
