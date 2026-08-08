@@ -83,10 +83,14 @@ COMMIT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
             "Safari did not detect",
             "Fix BOM detection",
             "Turkish ISO-8859-9",
-            # Files promoted from the miners: served in that encoding by a
-            # real site, then hand-adjudicated before landing here.
+            # Files promoted from the miners: served or posted in that
+            # encoding for real, then adjudicated before landing here.
+            # scripts/promote_candidates.py is the only path in, and it
+            # refuses pairs chardet's registry does not vouch for, so any
+            # commit that promotes candidates is adding wild data.
             "wild Common Crawl",
             "wild HZ",
+            "Promote ",
         ),
     ),
 )
