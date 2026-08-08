@@ -50,7 +50,25 @@ KAMENICKY_UPPER = (
     "≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ "
 )
 
-HISTORIC_TABLES: dict[str, str] = {"kamenicky": KAMENICKY_UPPER}
+# Mazovia (CP667), the de facto Polish DOS encoding.  Positions 0xB0-0xFF
+# are identical to CP437; the Polish letters replace CP437's Western
+# accents in 0x80-0xAF, which is exactly why Polish DOS text read as CP437
+# or CP852 comes out wrong.
+MAZOVIA_UPPER = (
+    "Çüéâäàąçêëèïî\u0107ÄĄ"
+    "Ęęłôö\u0106ûùŚÖÜ¢Ł¥śƒ"
+    "ŹŻóÓńŃźż¿⌐¬½¼¡«»"
+    "░▒▓│┤╡╢╖╕╣║╗╝╜╛┐"
+    "└┴┬├─┼╞╟╚╔╩╦╠═╬╧"
+    "╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀"
+    "αßΓπΣσµτΦΘΩδ∞φε∩"
+    "≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ "
+)
+
+HISTORIC_TABLES: dict[str, str] = {
+    "kamenicky": KAMENICKY_UPPER,
+    "mazovia": MAZOVIA_UPPER,
+}
 
 # Words that must appear once a table is applied correctly.  A single wrong
 # entry silently produces plausible-looking mojibake, so each table is
@@ -59,6 +77,10 @@ TABLE_SELFTEST: dict[str, tuple[bytes, tuple[str, ...]]] = {
     "kamenicky": (
         b"Dra\x87\xa1 Historie",  # "Dračí Historie"
         ("Dračí", "Historie"),
+    ),
+    "mazovia": (
+        b"ma\x92y du\xa7y \x91d\xa6",  # "mały duży ędź"
+        ("mały", "duży"),
     ),
 }
 
