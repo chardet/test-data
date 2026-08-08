@@ -17,10 +17,8 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import json
 import os
 import sys
-from datetime import date
 from pathlib import Path
 
 # Support running both as `python3 scripts/generate_test_files.py` (from repo root)
@@ -39,6 +37,16 @@ from scripts.substitutions import (  # noqa: E402
     normalize_text,
 )
 from scripts.encoding_overlaps import DISTINGUISHING_BYTES  # noqa: E402
+
+
+def dir_language(language: str) -> str:
+    """Return the directory-name form of a language.
+
+    ``ENCODING_LANGUAGES`` is keyed by full name, but directories have used
+    ISO 639-1 codes since the 2026 rename.  Without this the generator would
+    create ``cp037-breton/`` beside the existing ``cp037-da/``.
+    """
+    return LANGUAGE_TO_ISO.get(language, language)
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -312,10 +320,10 @@ def generate_utf8sig(
     gap: tuple[str, str],
     base_dir: Path,
     dry_run: bool,
-    manifest: list[dict],
 ) -> bool:
     """Generate a utf-8-sig directory by prepending BOM to utf-8 files."""
     _enc_prefix, language = gap
+    language = dir_language(language)
     src_dir = base_dir / f"utf-8-{language}"
     dst_dir = base_dir / f"utf-8-sig-{language}"
 
@@ -339,13 +347,6 @@ def generate_utf8sig(
         raw = src_file.read_bytes()
         dst_path = dst_dir / src_file.name
         dst_path.write_bytes(UTF8_BOM + raw)
-        manifest.append({
-            "path": f"utf-8-sig-{language}/{src_file.name}",
-            "source": "utf-8",
-            "method": "bom-prepend",
-            "retrieved": str(date.today()),
-            "notes": f"BOM prepended to utf-8-{language}/{src_file.name}",
-        })
 
     print(f"  CREATED utf-8-sig-{language}/ ({len(files)} files)")
     return True
@@ -355,10 +356,10 @@ def generate_utf7(
     gap: tuple[str, str],
     base_dir: Path,
     dry_run: bool,
-    manifest: list[dict],
 ) -> bool:
     """Generate a utf-7 directory by re-encoding utf-8 files."""
     _enc_prefix, language = gap
+    language = dir_language(language)
     src_dir = base_dir / f"utf-8-{language}"
     dst_dir = base_dir / f"utf-7-{language}"
 
@@ -384,13 +385,6 @@ def generate_utf7(
         encoded = text.encode("utf-7")
         dst_path = dst_dir / src_file.name
         dst_path.write_bytes(encoded)
-        manifest.append({
-            "path": f"utf-7-{language}/{src_file.name}",
-            "source": "utf-8",
-            "method": "transcoded",
-            "retrieved": str(date.today()),
-            "notes": f"Re-encoded from utf-8-{language}/{src_file.name}",
-        })
 
     print(f"  CREATED utf-7-{language}/ ({len(files)} files)")
     return True
@@ -401,18 +395,22 @@ def generate_culturax(
     base_dir: Path,
     cache_dir: str,
     dry_run: bool,
-    manifest: list[dict],
     existing_md5s: set[str],
 ) -> bool:
     """Generate test files via CulturaX transcoding."""
     enc_prefix, language = gap
     codec = get_codec(enc_prefix)
-    dst_dir = base_dir / f"{enc_prefix}-{language}"
 
     iso_lang = LANGUAGE_TO_ISO.get(language)
     if iso_lang is None:
         print(f"  SKIP {enc_prefix}-{language}: no ISO code for '{language}'")
         return False
+
+    # Substitution tables are keyed by full language name; the directory
+    # itself is named with the ISO code.
+    full_language = language
+    language = iso_lang
+    dst_dir = base_dir / f"{enc_prefix}-{language}"
 
     if dry_run:
         print(
@@ -428,7 +426,7 @@ def generate_culturax(
         return False
 
     # Prepare substitutions
-    subs = get_substitutions(enc_prefix, language)
+    subs = get_substitutions(enc_prefix, full_language)
 
     # Encode all articles and collect those that pass quality gates.
     candidates: list[tuple[str, bytes]] = []
@@ -491,13 +489,6 @@ def generate_culturax(
     for fname, encoded in generated:
         (dst_dir / fname).write_bytes(encoded)
         existing_md5s.add(hashlib.md5(encoded).hexdigest())
-        manifest.append({
-            "path": f"{enc_prefix}-{language}/{fname}",
-            "source": "culturax",
-            "method": "transcoded",
-            "retrieved": str(date.today()),
-            "notes": "",
-        })
 
     print(
         f"  CREATED {enc_prefix}-{language}/ "
@@ -575,13 +566,7 @@ def main() -> None:
     else:
         print()
 
-    manifest: list[dict] = []
 
-    # Load existing manifest if present
-    manifest_path = base_dir / "scripts" / "manifest.json"
-    if manifest_path.is_file() and not args.dry_run:
-        with open(manifest_path, encoding="utf-8") as f:
-            manifest = json.load(f)
 
     created = 0
     skipped = 0
@@ -597,7 +582,7 @@ def main() -> None:
         print(f"=== Phase 1: CulturaX transcoding ({len(other_gaps)} gaps) ===")
         for gap in other_gaps:
             ok = generate_culturax(
-                gap, base_dir, cache_dir, args.dry_run, manifest, existing_md5s,
+                gap, base_dir, cache_dir, args.dry_run, existing_md5s,
             )
             if ok:
                 created += 1
@@ -609,7 +594,7 @@ def main() -> None:
     if utf8sig_gaps:
         print(f"=== Phase 2: utf-8-sig BOM prepend ({len(utf8sig_gaps)} gaps) ===")
         for gap in utf8sig_gaps:
-            ok = generate_utf8sig(gap, base_dir, args.dry_run, manifest)
+            ok = generate_utf8sig(gap, base_dir, args.dry_run)
             if ok:
                 created += 1
             else:
@@ -620,20 +605,13 @@ def main() -> None:
     if utf7_gaps:
         print(f"=== Phase 3: utf-7 re-encode ({len(utf7_gaps)} gaps) ===")
         for gap in utf7_gaps:
-            ok = generate_utf7(gap, base_dir, args.dry_run, manifest)
+            ok = generate_utf7(gap, base_dir, args.dry_run)
             if ok:
                 created += 1
             else:
                 skipped += 1
         print()
 
-    # Write manifest
-    if not args.dry_run and manifest:
-        manifest_path.parent.mkdir(exist_ok=True)
-        with open(manifest_path, "w", encoding="utf-8") as f:
-            json.dump(manifest, f, indent=2, ensure_ascii=False)
-            f.write("\n")
-        print(f"Manifest written: {manifest_path} ({len(manifest)} entries)")
 
     print(f"\nDone: {created} created, {skipped} skipped")
 
