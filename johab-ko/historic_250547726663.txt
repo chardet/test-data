@@ -1,0 +1,278 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml+xml;charset=johab" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<title> ÒA¶¥ˆa·³ </title>
+<link rel="stylesheet" type="text/css" href="/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/common/css/join_mypage.css" />
+<script type="text/javascript" src="/common/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript">
+/*checkbox Ðaa e ¬åÈ‚*/
+function doOpenCheck(chk,c_id)
+{
+	var obj1 = document.getElementsByName(c_id);
+	
+	for(var i = 0; i < obj1.length; i++){
+		if(obj1[i] !=chk){
+			obj1[i].checked = false;
+		};
+
+	};
+	
+};
+function allow()
+{
+	var chk1 = document.getElementById("provision_ok").checked;
+	var chk2 = document.getElementById("privacy_ok").checked;
+
+	if(!chk1)
+	{
+		alert("·¡¶w´¢‰ÅµA •··Ða­a´¡ Ðs“¡”a.")
+		return false;
+	}
+	if(!chk2)
+	{
+		alert("ˆ·¥¸÷¥¡Âá‹s¤wÃ±µA •··Ða­a´¡ Ðs“¡”a.")
+		return false;
+	}
+	return true;
+
+}
+</script>
+</head>
+<body>
+<!-- skipnavi -->
+<div id="skipnavi"><a href="#content">¥¥¢…¤a¡ˆa‹¡</a></div>
+<!-- //skipnavi -->
+<!-- wrap -->
+<div id="wrap">
+<!-- header -->
+	<!-- header -->
+	<div id="header">
+		<h1><a href="/index.asp"><img src="/images/common/logo.jpg" alt="DaeKhon Corporation" /></a></h1>
+<!-- nav -->			
+		<h2 class="blind">‘A§¡‰A·¡­e</h2>
+		<ul class="nav">
+			<li class="gnb"><a href="/daekhon/intro.asp"><img src="/images/common/1depth04.jpg" alt="DAEKHON" /></a>
+				<ul class="nav_sub04 sub_gnb">
+					<li><a href="/daekhon/intro.asp"><img src="/images/common/2depth04_01.jpg" alt="”‰¥­¡ˆ" /></a></li>
+					<li><a href="/daekhon/vision.asp"><img src="/images/common/2depth04_02.jpg" alt="§¡¸å" /></a></li>
+					<li><a href="/daekhon/ability.asp"><img src="/images/common/2depth04_03.jpg" alt="Ð‚¯±µbœ·" /></a></li>
+					<li><a href="/daekhon/qualitypolicy.asp"><img src="/images/common/2depth.jpg" alt="Î‘»©¤wÃ±" /></a></li>
+					<li><a href="/daekhon/patent.asp"><img src="/images/common/2depth04_04.jpg" alt="ËbÐá £¹ ‹¡®‰¥¡·AÑeÑ×" /></a></li>
+					<li><a href="/daekhon/culture.asp"><img src="/images/common/2depth04_05.jpg" alt="‹¡´ó¢…ÑÁ" /></a></li>
+					<li><a href="/daekhon/organization.asp"><img src="/images/common/2depth04_06.jpg" alt="¹¡»¢•¡" /></a></li>
+					<li><a href="/daekhon/ci.asp"><img src="/images/common/2depth04_07.jpg" alt="CI" /></a></li>
+					<li><a href="/daekhon/place.asp"><img src="/images/common/2depth04_08.jpg" alt="¬a´ó¸w¸÷¥¡" /></a></li>
+					<li><a href="/daekhon/partners.asp"><img src="/images/common/2depth04_09.jpg" alt="Global Partners" /></a></li>
+				</ul>
+			</li>	
+			<li class="gnb"><a href="/motion/intro.asp?category=1"><img src="/images/common/1depth01.jpg" alt="MOTION" /></a>
+				<ul class="nav_sub01 sub_gnb">
+					<li><a href="/motion/intro.asp?category=1"><img src="/images/common/2depth01_01.jpg" alt="¬a´ó¦…´¡" /></a></li>
+					<li><a href="/motion/control.asp?category=1&category2=1"><img src="/images/common/2depth01_02.jpg" alt="¹A´á¦" /></a></li>
+					<li><a href="/motion/control.asp?category=1&category2=2"><img src="/images/common/2depth01_03.jpg" alt="Š•·¦" /></a></li>
+					<li><a href="/motion/control.asp?category=1&category2=3"><img src="/images/common/2depth01_04.jpg" alt="‰·´s £¹ º¥e¸wÃ¡¦" /></a></li>
+					<li><a href="/motion/control.asp?category=1&category2=4"><img src="/images/common/2depth01_05.jpg" alt="¡¡—I¦" /></a></li>
+					<li><a href="/motion/control.asp?category=1&category2=5"><img src="/images/common/2depth01_06.jpg" alt="´ÏiŸ¡ÅA·¡­e" /></a></li>
+				</ul>
+			</li>	
+			<li class="gnb"><a href="/motion/intro.asp?category=2"><img src="/images/common/1depth02.jpg" alt="VISION" /></a>
+				<ul class="nav_sub02 sub_gnb">
+					<li><a href="/motion/intro.asp?category=2"><img src="/images/common/2depth02_01.jpg" alt="¬a´ó¦…´¡" /></a></li>
+					<li><a href="/motion/control.asp?category=2&category2=6"><img src="/images/common/2depth02_02.jpg" alt="Äa¡Aœa" /></a></li>
+					<li><a href="/motion/control.asp?category=2&category2=7"><img src="/images/common/2depth02_03.jpg" alt="¹¡¡w" /></a></li>
+					<li><a href="/motion/control.asp?category=2&category2=8"><img src="/images/common/2depth02_04.jpg" alt="E»a" /></a></li>
+					<li><a href="/motion/control.asp?category=2&category2=9"><img src="/images/common/2depth02_05.jpg" alt="ID" /></a></li>
+					<li><a href="/motion/control.asp?category=2&category2=10"><img src="/images/common/2depth02_06.jpg" alt="­¡ÏaËa¶Á´á" /></a></li>
+					<li><a href="/motion/control.asp?category=2&category2=11"><img src="/images/common/2depth02_07.jpg" alt="´ÏiŸ¡ÅA·¡­e" /></a></li>
+				</ul>			
+			</li>	
+			<li class="gnb"><a href="/motion/control.asp?category=3&category2=12"><img src="/images/common/1depth03.jpg" alt="R&amp;D" /></a>
+				<ul class="nav_sub03 sub_gnb">
+					<!--<li><a href="/motion/intro.asp?category=3"><img src="/images/common/2depth03_01.jpg" alt="¬a´ó¦…´¡" /></a></li>-->
+					<li><a href="/motion/control.asp?category=3&category2=12"><img src="/images/common/2depth03_02.jpg" alt="µeŠ­¡" /></a></li>
+					<li><a href="/motion/control.asp?category=3&category2=13"><img src="/images/common/2depth03_03.jpg" alt="‹¡®‰Ë±" /></a></li>
+				</ul>
+			</li>	
+			<li class="gnb"><a href="/news/notice.asp"><img src="/images/common/1depth05.jpg" alt="NEWS" /></a>
+				<ul class="nav_sub05 sub_gnb">
+					<li><a href="/news/notice.asp"><img src="/images/common/2depth05_01.jpg" alt="‰·»¡¬aÐw" /></a></li>
+					<li><a href="/news/news.asp"><img src="/images/common/2depth05_02.jpg" alt="”‰¥­¡¯¢" /></a></li>
+					<li><a href="http://blog.naver.com/daekhon" target="_blank"><img src="/images/common/2depth05_03.jpg" alt="§i¡‹a" /></a></li>
+					<!--<li><a href="https://twitter.com/Daekhon" target="_blank"><img src="/images/common/2depth05_04.jpg" alt="Ëa¶áÈá" /></a></li>-->
+				</ul>
+			</li>	
+			<li class="gnb"><a href="/service/education.asp"><img src="/images/common/1depth06.jpg" alt="SERVICE" /></a>
+				<ul class="nav_sub06 sub_gnb">
+					<li><a href="/service/education.asp"><img src="/images/common/2depth06_01.jpg" alt="Ša·B¯¥À÷" /></a></li>
+					<li><a href="/service/faq.asp"><img src="/images/common/2depth06_02.jpg" alt="FAQ" /></a></li>
+					<li><a href="/service/DownBoard.asp"><img src="/images/common/2depth06_03.jpg" alt="”a¶…¡—a" /></a></li>
+					<li><a href="/service/estimate.asp"><img src="/images/common/2depth06_04.jpg" alt="‰e¸â¢…·" /></a></li>
+					<li><a href="/service/ContactUs.asp"><img src="/images/common/2depth06_05.jpg" alt="Contact Us" /></a></li>
+				</ul>
+			</li>	
+		</ul>
+		<div class="nav_bg"><!-- 2depth ¤‰w¦¦… --></div>
+<!-- //nav -->
+<!-- search_section -->
+		<div class="search_section">		
+			<p class="srch_btn"><a href="#" onclick="imageView();return false;"><img src="/images/common/icon_srch.jpg" alt="É·Ðsˆñ¬‚" /></a></p>			
+		</div>
+<!-- //search_section -->		
+	</div>
+<!-- //header -->
+
+<!-- container -->
+	<div id="container"> 
+		<div id="content">
+<!-- util -->
+						<h2 class="blind">·AË©¡A“A</h2>
+			<div class="util">
+			
+				<a href="/member/login.asp"><img src="/images/common/h_util01.png" alt="LOGIN" /></a>
+				<a href="/member/join.asp"><img src="/images/common/h_util02.png" alt="JOIN" /></a>
+			
+				<a href="/service/sitemap.asp"><img src="/images/common/h_util03.png" alt="SITEMAP" /></a>
+				<a href="/eng" class="util_last"><img src="/images/common/h_util04.png" alt="ENGLISH" /></a>
+			</div>
+<!-- //util -->	
+<!-- ÄåÉEÃa µwµb -->
+			<div class="sub_con">
+				<div class="sub_title_area">
+					<h2><img src="/images/sub/join_title.png" alt="join" /></h2>
+					<p>ÒA¶¥ˆa·³</p>
+					<p class="location"><a href="/index.asp">HOME</a>><a href="/member/join.asp">JOIN</a>>ÒA¶¥ˆa·³</p>
+				</div>
+				
+<div class="lnb">
+	<h3 class="blind">»¡µb‘A§¡‰A·¡­e</h3>
+	<ul>
+		<li><strong>ÒA¶¥ˆa·³</strong></li>
+		<li><a href="/member/login.asp">¡‹a·¥</a></li>
+		<li><a href="/member/findId.asp">´a·¡—¡/§¡£©¤åÑ¡Àx‹¡</a></li>
+		<li><a href="/member/rule.asp">·¡¶w´¢‰Å</a></li>
+		<li class="lnb_last"><a href="/member/protect.asp">ˆ·¥¸÷¥¡ÀáŸ¡¤wÃ±</a></li>
+	</ul>
+</div>
+
+				<div class="visual join_visual">
+					<span class="visual01"><img src="/images/sub/join_txt_visual01.png" alt="INTRODUCE DAEKHON CORPORATION" /></span><span class="visual02"><img src="/images/sub/join_txt_visual02.png" alt="•¡¸å‰Á ¥eÑÁŸi ÂŠÐa“e ‹¡´ó ”‰¥ Å¡ÌáA·¡­e·e •¡¸å·i  ñÂ»¡ ´g‰V¯s“¡”a." /></span>
+				</div>
+				<form action="joinForm.asp" method="post" onsubmit="return allow();" name="frm">
+					<fieldset>
+					<legend>·¡¶w´¢‰Å</legend>
+					<h3>·¡¶w´¢‰Å</h3>
+						<div class="contents join_provision">							
+							<div class="join_txt_box01">
+								<p>
+									ÙÃ ÒA¶¥ˆa·³´¢‰Å<br />
+									¹A 1 ¹¡ [ ¡¢¸â ]<br />
+									<br />
+									¥¥ ´¢‰Å·e ¸å‹¡É·¯¥¬a´ó¤ó £¹ ¸÷¥¡É·¯¥ w ·¡¶wÁ¢»¥ £¹ ¸÷¥¡¥¡Ñ¡ —wµA ‰ÅÐe ¤óŸIµA ·Ðaµa ”‰¥ Å¡ÌáA·¡­e(·¡Ða "ÒA¬a"œa Ðe”a)ˆa ¹A‰·Ða“e 
+									ÒA¶¥¬á§¡¯a(·¡Ða "¬á§¡¯a "œa Ðe”a)· ·¡¶w ¹¡ˆå, ¸éÀa ‹aŸ¡‰¡ ÒA¶¥‹AÃ¢µA ‰ÅÐe ¬aÐw —w·i ‹A¸÷Ðq·i ¡¢¸â·a¡ Ðs“¡”a.<br />
+									<br />
+									<br />
+									¹A 2 ¹¡ [ ‰·»¡ ]<br />
+									<br />
+									1. ¥¥ ‹A¸÷·e ¬á§¡¯a ÑÁ¡eµA ‰A¯¡ Ðaˆáa ‹¡Èa· ¤w¤ó·a¡ ÒA¶¥µA‰A ‰·»¡Ðq·a¡°á Òab·i ¤i¬—Ðs“¡”a.<br />
+									2. ÒA¬a“e ¥¥ ‹A¸÷·i ¥e‰wÐi ® ·¶·a¡a, ¥e‰w–E ‹A¸÷·e ¹A1Ðw‰Á ˆ{·e ¤w¤ó·a¡ ‰·»¡ Ðq·a¡°á Òab·i ¤i¬—Ðs“¡”a.<br />
+									3. ÒA¶¥·e ¬á§¡¯a· ®¸÷, ™¡“e Ð»¡µA ”Ð ÒA¬aˆa ÒA¶¥ ™¡“e ¹A 3¸aµA ”Ðaµa ´á˜áÐe À‚·±•¡ »¡»¡ ´g·qµA •··Ðs“¡”a.<br />
+									<br />
+									<br />
+									¹A 3 ¹¡ [ ´¢‰Å¶A º…Ã¢ ]<br />
+									<br />
+									¥¥ ´¢‰ÅµA ‹A¸÷–A»¡ ´g·e ¬aÐw·e ¸å‹¡É·¯¥¬a´ó¤ó £¹ ¸÷¥¡É·¯¥ w ·¡¶wÁ¢»¥ £¹ ¸÷¥¡¥¡Ñ¡ —wµA ‰ÅÐe ¤óŸI ‹¡Èa ‰Åe¤ów· ‹A¸÷µA ·Ðs“¡”a.<br />
+									<br />
+									<br />
+								</p>
+							</div>	
+							<p class="check_provision">
+							<label for="provision_ok"><input type="checkbox" name="agree01" id="provision_ok" onclick="doOpenCheck(this , 'agree01');" value="1"/>•··Ðs“¡”a.</label>
+							<label for="provision_no"><input type="checkbox" name="agree01" id="provision_no" onclick="doOpenCheck(this , 'agree01');" value="2"/>•·· Ða»¡ ´g¯s“¡”a.</label>
+							</p>								
+						</div>
+					</fieldset>
+					<fieldset>
+						<h3>ˆ·¥¸÷¥¡ÀáŸ¡¤wÃ±</h3>
+						<div class="contents">							
+							<div class="join_txt_box01">
+								<p>
+									ÙÃ  ”‰¥ Å¡ÌáA·¡­e ˆ·¥¸÷¥¡ ÀáŸ¡¤wÃ±<br />
+									<br />
+									Ù>(º)”‰¥ Å¡ÌáA·¡­eÙ?·e (·¡Ða 'ÒA¬a'“e) ‰¡ˆ‚“±· ˆ·¥¸÷¥¡Ÿi º—¶a¯¡Ða¡a, "¸÷¥¡É·¯¥ w ·¡¶wÁ¢»¥ £¹ ¸÷¥¡¥¡Ñ¡"µA ‰ÅÐe ¤óŸI·i º…®Ða‰¡ 
+									·¶¯s“¡”a.<br />
+									ÒA¬a“e ˆ·¥¸÷¥¡ÀáŸ¡¤wÃ±·i É·Ðaµa ‰¡ˆ‚“±A¬á ¹A‰·Ða¯¡“e ˆ·¥¸÷¥¡ˆa ´á˜áÐe ¶w•¡µÁ ¤w¯¢·a¡ ·¡¶w–A‰¡ ·¶·a¡a, ˆ·¥¸÷¥¡¥¡Ñ¡Ÿi ¶áÐ 
+									´á˜áÐe ¹¡Ã¡ˆa ÂáÐ»¡‰¡ ·¶“e»¡ ´ia—aŸ³“¡”a.<br />
+									ÒA¬a“e ˆ·¥¸÷¥¡ÀáŸ¡¤wÃ±·i ˆ¸÷Ða“e ‰w¶ ¶Ó¬a·¡Ëa ‰·»¡¬aÐw(™¡“e ˆ¥i‰·»¡)·i É·Ðaµa ‰·»¡Ði ˆõ·³“¡”a.<br />
+									<br />
+									Û‘ ¥¥ ¤wÃ±·e : 2011 ‘e 9 ¶© 30·© ¦Èá ¯¡Ð—–S“¡”a.<br /> 
+									<br />
+							Ùq ˆ·¥¸÷¥¡ ®»³µA ”Ðe •··<br />
+							ÒA¬a“e ŠáÐaA¬á ÒA¬a Ñ±ÍA·¡»¡(http://daekhon.co.kr)· ·¡¶w´¢‰Å· ¶wµA ”Ð ÙH•··Ðe”aÙI¤áËe ™¡“e ÙH•··´eÐqÙI¤áËe·i ÇiŸ¢Ði ® ·¶“e ¸éÀaŸi  aeÐaµa, ÙH•··Ðe”aÙI¤áËe·i ÇiŸ¢Ða¡e ˆ·¥¸÷¥¡ ®»³µA ”Ð •··Ðe ˆõ·a¡ ˆeºÐs“¡”a.<br />
+							<br />
+							<br />
+							Ùq ˆ·¥¸÷¥¡· ®»³ £¹ ·¡¶w¡¢¸â<br />
+							ÒA¬a Ñ±ÍA·¡»¡“e ÒA¶¥ˆa·³ ¯¡ ¬á§¡¯a ·¡¶w·i ¶áÐ Ï©¶aÐe ÂA­¡Ðe· ˆ·¥¸÷¥¡ e·i ®»³Ðs“¡”a. ÀáŸ¡Ða‰¡ ·¶“e ˆ·¥¸÷¥¡“e ”a·q· ¡¢¸â ·¡¶A· ¶w•¡¡“e ·¡¶w–A»¡ ´g¯s“¡”a.
+							<br />
+							<br />
+							Ùq ®»³Ða“e ˆ·¥¸÷¥¡ Ðw¡¢<br />
+							ÒA¬a“e ÒA¶¥ˆa·³, ¬w”q, ¬á§¡¯a ¯¥À÷, Ša·B ¯¥À÷, sÎ‘ —w—w·i ¶áÐ ´aœµÁ ˆ{·e ˆ·¥¸÷¥¡Ÿi ®»³Ða‰¡ ·¶¯s“¡”a.<br />
+							Û‘ ®»³Ðw¡¢ : ·¡Ÿq, ¡‹a·¥ID, §¡£©¤åÑ¡, ÒA¬a¡w, »¢À‚, ¬—‘e¶©·©,  ¸åÑÁ¤åÑ¡ , ÓA”¸åÑÁ¤åÑ¡, ·¡¡A·©, ÆÇ¡, ‰i¹A‹¡¢, ÒA¬a ™¡“e ¸aÈ‚ º­¡(¤­·¯¡)<br />
+							Û‘ ˆ·¥¸÷¥¡ ®»³¤w¤ó : Ñ±ÍA·¡»¡(ÒA¶¥ˆa·³), ¬á¡e, ¸åÑÁ, Ì‚¯a, ¸å¯¡ÒA Àqˆa —w<br /> 
+							<br />
+							<br />
+							Ùq ˆ·¥¸÷¥¡· ¥¡·A‹¡ˆe £¹ ·¡¶w‹¡ˆe<br />
+							ÒA¬a Ñ±ÍA·¡»¡ ®»³–E ˆ·¥¸÷¥¡· ¥¡·A‹¡ˆe·e ÒA¶¥ÈiÊA —w ·¡¶w¡¢¸â·¡ ”i¬÷–E ÒŒa»¡ ·³“¡”a.<br />
+							<br />
+							<br />
+							Ùq ˆ·¥¸÷¥¡· Ìa‹¡µA ‰ÅÐe ¬aÐw<br />
+							ˆ·¥¸÷¥¡ Ìa‹¡“e ÒA¶¥¦…· ¥i•¡ ¶aÀ÷ ´ô·¡“e Ìa‹¡Ða»¡ ´g¯s“¡”a.<br />
+								</p>
+							</div>	
+							<p class="check_provision"><label for="privacy_ok"><input type="checkbox" name="agree02" value="1" id="privacy_ok" onclick="doOpenCheck(this, 'agree02');" />•··Ðs“¡”a.</label><label for="privacy_no"><input type="checkbox" name="agree02" value="2" id="privacy_no" onclick="doOpenCheck(this, 'agree02');" />•·· Ða»¡ ´g¯s“¡”a.</label></p>																
+						</div>
+						<p class="provision_btn"><input type="image" src="/images/join/provision_ok.jpg" alt="ÒA¶¥ˆa·³Ða‹¡"/>&nbsp;<a href="javascript:history.back();"><img src="/images/common/btn_cancel.jpg" alt="Âá­¡" /></a></p>
+					</fieldset>
+				</form>	
+			</div>
+		</div>
+<!-- //ÄåÉEÃa µwµb -->		
+<!-- //ÄåÉEÃa µwµb -->		
+		<div id="footer">
+			<div class="foot_util">
+				<h2 class="blind">Ða”e ·AË©¡A“A</h2>
+				<div class="provision">
+					<span><a href="/member/protect.asp"><img src="/images/common/foot_util01.jpg" alt="ˆ·¥¸÷¥¡Âá‹s¤wÃ±" /></a></span><a href="/member/rule.asp"><img src="/images/common/foot_util02.jpg" alt="·¡¶w´¢‰Å" /></a>
+				</div>
+				<!--div class="sns_util">
+					<a href="javascript:window.open('https://twitter.com/Daekhon','','')"><img src="/images/common/foot_util03.jpg" alt="Ëa¶áÈá" /></a><a href="javascript:window.open('http://blog.naver.com/daekhon','','')"><img src="/images/common/foot_util04.jpg" alt="ÍA·¡¯a¦‚" /></a>
+				</div-->
+			</div>
+			<address><img src="/images/common/adress.jpg" alt="" /></address>
+		</div>
+	</div>
+<!-- //container -->
+<!-- quick_menu -->
+	<div class="aside">
+		<h2><img src="/images/common/h_quick.jpg" alt="QUICK MENU" /></h2>
+		<ul>
+			<li><a href="/uploads/catalog/catalog.pdf"><img src="/images/common/quick_menu01.jpg" alt="Äa”i¡‹a" /></a></li>
+			<li><a href="/service/estimate.asp"><img src="/images/common/quick_menu02.jpg" alt="1:1¢…·" /></a></li>
+			<li><a href="/service/education.asp"><img src="/images/common/quick_menu03.jpg" alt="Ša·B¯¥À÷" /></a></li>
+			<li><a href="/daekhon/place.asp"><img src="/images/common/quick_menu04.jpg" alt="¬a´ó¸w¸÷¥¡" /></a></li>
+			<li><a href="/service/ContactUs.asp"><img src="/images/common/quick_menu05.jpg" alt="Contact us" /></a></li>
+			<li><a href="#container"><img src="/images/common/quick_menu06.jpg" alt="TOP" /></a></li>			
+		</ul>
+	</div>
+<!-- //quick_menu -->
+</div>
+<!-- //wrap -->
+
+</body>
+</html>
+
+

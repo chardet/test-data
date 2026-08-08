@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1255"?>
+<?xml version="1.0" encoding="cp856"?>
 <!--
 Source: http://halemo.net/edoar/rss.xml
 Expect: windows-1255

@@ -1,0 +1,1408 @@
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-7">
+<head>
+
+
+
+  <base href="http://www.foraqsa.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-7" />
+  <meta name="keywords" content="+BkUGLAZFBkgGOQYp &quot;+BiMGLgZIBicGKg +BkUGRg +BiMGLAZE +BicGRAYjBkIGNQZJ&quot; +BkUGLAZFBkgGOQYp +BiUGRAZDBioGMQZIBkYGSgYp +BkQGIwYuBkgGJwYq +BkEGSg +BicGRAZEBkcGDA +BiwGRQY5BkcGRg +Bi0GKA +BicGRAYlBjMGRAYnBkU +BkgGJwZEBicGRgYqBkUGJwYh +BkQGRAZFBjMGLAYv +BicGRAYjBkIGNQZJ +BicGRAZFBigGJwYxBkMGDA +BkgGSgY5BkUGRAZG +BkUGOQYn +BjkGRAZJ +BioGLQYxBkoGMQZH +BkUGRg +Bi4GRAYnBkQ +BigGKw +BicGRAZIBjkGSg +BicGRAYlBjkGRAYnBkUGSg +BigGQgY2BkoGKQ +BicGRAZFBjMGLAYv +BicGRAYjBkIGNQZJ +BicGRAZFBigGJwYxBkMGDA +BigGJwY5BioGKAYnBjEGRwYn +BkIGNgZKBik +BicGRAYlBjMGRAYnBkU +BkgGJwZEBkUGMwZEBkUGSgZG +BicGRAYjBkgGRAZJBgw +BkgGRAYo +BkIGNgZKBik +BkEGRAYzBjcGSgZG +BkgGOgZKBjEGRwYn +BkUGRg +BicGRAYoBkQGJwYv +BicGRAY5BjEGKAZKBik +BkgGJwZEBiUGMwZEBicGRQZKBik +BicGRAZFBi0GKgZEBik. +BkgGMwZKBkQGKQ +BicGRAYqBkgGJwY1BkQ +BicGRAYxBiYGSgYzBkoGKQ +BigGSgZGBkcGRg +BkcGSg +BicGRAYlBkYGKgYxBkYGKgYM +BkQGKAY5Bi8 +BicGRAZFBjMGJwZBBicGKg +BkgGJwZEBi0GLwZIBi8 +BicGRAYqBko +BioGQQY1BkQGRwZG. +BkgGRAZKBjM +BkQGRAZFBiwGRQZIBjkGKQ +Bi0GJwZEBkoGJw +BiMGSg +BkUGQgYx +BjkGRAZJ +BicGRAYjBjEGNg." />
+  <meta name="description" content="+BicGRAZCBi8GMw,+BigGSgYq +BicGRAZFBkIGLwYz,+BicGRAYnBkIGNQZJ,+BkUGRg +BicGLAZE +BicGRAYnBkIGNQZJ,foraqsa,+BkEGRAYzBjcGSgZG,+Bi0GQg +BicGRAYnBkIGNQZJ,+BicGLgZIBicGKg +BkUGRg +BicGLAZE +BicGRAYnBkIGNQZJ,+BicGLgZIBicGKg,+BicGRAYnBkIGNQZJ," />
+  <meta name="generator" content="it.Egypt.com" />
+  <title>+BiMGLgZIBicGKg +BkUGRg +BiMGLAZE +BicGRAYjBkIGNQZJ</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+-xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+-xml" title="Atom 1.0" />
+  <link href="/templates/Foraqsa/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/templates/Foraqsa/style/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.foraqsa.com/modules/mod_socialmedialinks/style.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_sp_simple_gallery/scripts/slimbox.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.foraqsa.com/components/com_allvideoshare/css/allvideoshare.css?r=1293457932" type="text/css" media="screen"  />
+  <link rel="stylesheet" href="http://www.foraqsa.com/components/com_allvideoshare/css/allvideoshare.css" type="text/css" media="screen"  />
+  <link rel="stylesheet" href="http://www.foraqsa.com/modules/mod_bt_contentslider/tmpl/css/btcontentslider.css" type="text/css" />
+  <link rel="stylesheet" href="/media/com_acymailing/css/module_default.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.foraqsa.com/modules/mod_jt_superfish_menu/css/superfish.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.foraqsa.com/modules/mod_jt_superfish_menu/css/superfish-vertical.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.foraqsa.com/modules/mod_highlighter_gk4/interface/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.foraqsa.com/modules/mod_bt_smartsearch/tmpl/css/form.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.foraqsa.com/modules/mod_bt_smartsearch/tmpl/css/chosen.css" type="text/css" />
+  <link rel="stylesheet" href="/media/com_finder/css/finder.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_ariextmenu/mod_ariextmenu/js/css/menu.min.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_ariextmenu/mod_ariextmenu/js/css/menu.fix.css" type="text/css" />
+  <style type="text/css">
+
+img.sp_simple_gallery {border: none;
+margin:0px;
+padding: 3px 6px;
+background:none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+.spshare_fltlft {display:inline-block}.spshare {margin:10px 0}.sp_fblike {width:300px}.sp_pinterest, .sp_linkedin,.sp_digg {margin-right:10px}.sp_pinterest a {float:left}.sp_plusone {width:70px}.sp_twitter {width:106px}
+#btcontentslider135 .bt_handles_num{top: -30px !important;right: 360px !important}
+		@media screen and (max-width: 480px){.bt-cs .bt-row{width:100%!important;}}
+#blankBM113{overflow:hidden;width:100%;background:#FFFFFF}
+#blankBM107{overflow:hidden;width:100%;background:#FFFFFF}
+div#poll_loading_2 {
+
+	background: url(media/system/images/mootree_loader.gif) 0% 50% no-repeat;
+
+	width:100%;
+
+	height:20px; 
+
+	padding: 4px 0 0 20px; 
+
+}
+
+
+#gkHighlighterGK4-gkHighlight_90 .gkHighlighterInterface span.text { color: #b01e0e; } #gkHighlighterGK4-gkHighlight_90 .gkHighlighterInterface { background-color: #e2d4be; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+.borderinput{margin-left:63px;} .btnsearch{position:absolute;top: 0px; left: -4px;}
+UL#ariext123 LI A{font-size:14px;font-weight:normal;text-transform:none;text-align:right;}
+#blankBM108{overflow:hidden;width:100%;background:#FFFFFF}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/modules/mod_sp_simple_gallery/scripts/slimbox.js" type="text/javascript"></script>
+  <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+  <script src="http://www.foraqsa.com/modules/mod_bt_contentslider/tmpl/js/jquery.min.js" type="text/javascript"></script>
+  <script src="http://www.foraqsa.com/modules/mod_bt_contentslider/tmpl/js/slides.js" type="text/javascript"></script>
+  <script src="http://www.foraqsa.com/modules/mod_bt_contentslider/tmpl/js/default.js" type="text/javascript"></script>
+  <script src="http://www.foraqsa.com/modules/mod_bt_contentslider/tmpl/js/jquery.easing.1.3.js" type="text/javascript"></script>
+  <script src="/media/com_acymailing/js/acymailing_module.js" type="text/javascript"></script>
+  <script src="http://www.foraqsa.com/modules/mod_photo_text_slider/script/jquery-1.3.2.min.js" type="text/javascript"></script>
+  <script src="http://www.foraqsa.com/modules/mod_highlighter_gk4/interface/scripts/engine.js" type="text/javascript"></script>
+  <script src="http://www.foraqsa.com/modules/mod_bt_smartsearch/tmpl/js/chosen.jquery.min.js" type="text/javascript"></script>
+  <script src="/media/com_finder/js/autocompleter.js" type="text/javascript"></script>
+  <script src="/modules/mod_ariextmenu/mod_ariextmenu/js/ext-core.js" type="text/javascript"></script>
+  <script src="/modules/mod_ariextmenu/mod_ariextmenu/js/menu.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+
+					(function(d){
+					  var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+					  js = d.createElement('script'); js.id = id; js.async = true;
+					  js.src = '//connect.facebook.net/en_US/all.js#xfbml=1';
+					  d.getElementsByTagName('head')[0].appendChild(js);
+					}(document));				
+				
+
+					(function(d){
+					  var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+					  js = d.createElement('script'); js.id = id; js.async = true;
+					  js.src = '//connect.facebook.net/en_US/all.js#xfbml=1';
+					  d.getElementsByTagName('head')[0].appendChild(js);
+					}(document));				
+				
+
+					(function(d){
+					  var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+					  js = d.createElement('script'); js.id = id; js.async = true;
+					  js.src = '//connect.facebook.net/en_US/all.js#xfbml=1';
+					  d.getElementsByTagName('head')[0].appendChild(js);
+					}(document));				
+				
+
+					(function(d){
+					  var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+					  js = d.createElement('script'); js.id = id; js.async = true;
+					  js.src = '//connect.facebook.net/en_US/all.js#xfbml=1';
+					  d.getElementsByTagName('head')[0].appendChild(js);
+					}(document));				
+				
+	var acymailing = Array();
+				acymailing['NAMECAPTION'] = '+BicGRAYnBjMGRQ +BicGRAY0Bi4GNQZK ';
+				acymailing['NAME_MISSING'] = 'Please enter your name';
+				acymailing['EMAILCAPTION'] = '+BicGRAYoBjEGSgYv +BicGRAYnBkQGQwYqBjEGSAZGBko';
+				acymailing['VALID_EMAIL'] = 'Please enter a valid e-mail address';
+				acymailing['ACCEPT_TERMS'] = 'Please check the Terms and Conditions';
+				acymailing['CAPTCHA_MISSING'] = 'Please enter the security code displayed in the image';
+				acymailing['NO_LIST_SELECTED'] = 'Please select the lists you want to subscribe to';
+		
+;(function() { var _menuInit = function() { new Ext.ux.Menu("ariext123", {"transitionType":"slide","transitionDuration":0.2}); Ext.get("ariext123").select(".ux-menu-sub").removeClass("ux-menu-init-hidden"); }; if (!Ext.isIE || typeof(MooTools) == "undefined" || typeof(MooTools.More) == "undefined") Ext.onReady(_menuInit); else window.addEvent("domready", _menuInit); })();
+  </script>
+  <meta property="og:video" content="http://www.foraqsa.com/components/com_allvideoshare/player.swf?autoStart=true&random=785241232&base=http%3A%2F%2Fwww.foraqsa.com%2F&vid=23&pid=1" />
+  <meta property="og:video:type" content="application/x-shockwave-flash" />
+  <meta property="og:video:width" content="560" />
+  <meta property="og:video:height" content="340" />
+  <meta property="og:title" content="+BjkGJwYoBjE +BkUGQgYvBjMGSg (2) +BiMGRQ +BicGRAYvBjEGLwYnBiE" />
+  <meta property="og:image" content="http://img.youtube.com/vi/ihd46et5tFs/default.jpg" />
+  
+  
+  <script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script type = "text/javascript" src = "http://www.foraqsa.com/modules/mod_jt_superfish_menu/js/hoverIntent.js"></script>
+  <script type = "text/javascript" src = "http://www.foraqsa.com/modules/mod_jt_superfish_menu/js/superfish.js"></script>
+  <script type = "text/javascript">jQuery.noConflict();</script>
+  <!--[if IE]><link rel="stylesheet" type="text/css" href="/modules/mod_ariextmenu/mod_ariextmenu/js/css/menu.ie.min.css" /><![endif]-->
+  <!--[if lt IE 8]><script type="text/javascript" src="/modules/mod_ariextmenu/mod_ariextmenu/js/fix.js"></script><![endif]-->
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+<div  class="body">
+
+
+
+  <div class="top"> 
+
+    
+
+        <div class="date right">
+
+
+       		<div class="moduletable">
+					<div id="blankBM108" ><div><script language="JavaScript">
+
+var fixd;
+
+function isGregLeapYear(year)
+{
+return year%4 == 0 && year%100 != 0 || year%400 == 0;
+}
+
+
+function gregToFixed(year, month, day)
+{
+var a = Math.floor((year - 1) / 4);
+var b = Math.floor((year - 1) / 100);
+var c = Math.floor((year - 1) / 400);
+var d = Math.floor((367 * month - 362) / 12);
+
+if (month <= 2)
+e = 0;
+else if (month > 2 && isGregLeapYear(year))
+e = -1;
+else
+e = -2;
+
+return 1 - 1 +- 365 * (year - 1) +- a - b +- c +- d +- e +- day;
+}
+
+function Hijri(year, month, day)
+{
+this.year = year;
+this.month = month;
+this.day = day;
+this.toFixed = hijriToFixed;
+this.toString = hijriToString;
+}
+
+function hijriToFixed()
+{
+return this.day +- Math.ceil(29.5 * (this.month - 1)) +- (this.year - 1) * 354 +-
+Math.floor((3 +- 11 * this.year) / 30) +- 227015 - 1;
+}
+
+function hijriToString()
+{
+var months = new Array("+BkUGLQYxBkU","+BjUGQQYx","+BjEGKAZKBjk +BiMGSAZE","+BjEGKAZKBjk +BisGJwZGBkk","+BiwGRQYnBi8GSQ +BiMGSAZE","+BiwGRQYnBi8GSQ +BisGJwZGBkk","+BjEGLAYo","+BjQGOQYoBicGRg","+BjEGRQY2BicGRg","+BjQGSAYnBkQ","+BjAGSA +BicGRAZCBjkGLwYp","+BjAGSA +BicGRAYtBiwGKQ");
+return this.day +- " " +- months[this.month - 1]+- " " +- this.year;
+}
+
+function fixedToHijri(f)
+{
+var i=new Hijri(1100, 1, 1);
+i.year = Math.floor((30 * (f - 227015) +- 10646) / 10631);
+var i2=new Hijri(i.year, 1, 1);
+var m = Math.ceil((f - 29 - i2.toFixed()) / 29.5) +- 1;
+i.month = Math.min(m, 12);
+i2.year = i.year;
+i2.month = i.month;
+i2.day = 1;
+i.day = f - i2.toFixed() +- 1;
+return i;
+}
+
+var tod=new Date();
+var weekday=new Array("+BicGRAYjBi0GLw","+BicGRAYlBisGRgZKBkY","+BicGRAYrBkQGJwYrBicGIQ","+BicGRAYjBjEGKAY5BicGIQ","+BicGRAYuBkUGSgYz","+BicGRAYsBkUGOQYp","+BicGRAYzBigGKg");
+var monthname=new Array("+BkoGRgYnBkoGMQ","+BkEGKAYxBicGSgYx","+BkUGJwYxBjM","+BiUGKAYxBkoGRA","+BkUGJwZKBkg","+BkoGSAZGBkoGSA","+BkoGSAZEBkoGSA","+BiMGOgYzBjcGMw","+BjMGKAYqBkUGKAYx","+BiMGQwYqBkgGKAYx","+BkYGSAZBBkUGKAYx","+Bi8GSgYzBkUGKAYx");
+
+var y = tod.getFullYear();
+var m = tod.getMonth();
+var d = tod.getDate();
+var dow = tod.getDay();
+
+
+ 
+
+document.write(weekday[dow] +- " " +- d +- " " +- monthname[m] +- " " +- y);
+m+-+-;
+fixd=gregToFixed(y, m, d);
+var h=new Hijri(1421, 11, 28);
+h = fixedToHijri(fixd);
+document.write(" +BkUGSgZEBicGLwZJ - " +- h.toString() +- " +BkcGLAYxBkk &nbsp;&nbsp;");
+
+</script> </div><div></div><div></div></div>
+
+		</div>
+	
+
+
+
+     </div>
+
+        <div class="menus right">
+
+
+       		<div class="moduletable">
+					
+<div id="ariext123_container" class="ux-menu-container ux-menu-clearfix">
+
+	<ul id="ariext123" class="ux-menu ux-menu-horizontal">
+					<li class="ux-menu-item-main ux-menu-item-level-0 ux-menu-item435 ux-menu-item-parent-pos0 current">
+				<a href="/" class=" ux-menu-link-level-0 ux-menu-link-first current" title="">
+					+BicGRAYxBiYGSgYzBkoGKQ									</a>
+						</li>
+					<li class="ux-menu-item-main ux-menu-item-level-0 ux-menu-item696 ux-menu-item-parent-pos1">
+				<a href="/index.php/newss" class=" ux-menu-link-level-0" title="">
+					+BicGRAYnBi4GKAYnBjE									</a>
+						</li>
+					<li class="ux-menu-item-main ux-menu-item-level-0 ux-menu-item-parent ux-menu-item444 ux-menu-item-parent-pos2">
+				<a href="/index.php/who-we-are" class=" ux-menu-link-level-0 ux-menu-link-parent" title="">
+					+BkUGRg +BkYGLQZG										<span class="ux-menu-arrow"></span>
+									</a>
+			
+	<ul class="ux-menu-sub ux-menu-init-hidden">
+					<li class=" ux-menu-item-level-1 ux-menu-item516">
+				<a href="/index.php/who-we-are/definition" class=" ux-menu-link-level-1" title="">
+					+BioGOQYxBkoGQQ									</a>
+						</li>
+					<li class=" ux-menu-item-level-1 ux-menu-item517">
+				<a href="/index.php/who-we-are/consultants" class=" ux-menu-link-level-1" title="">
+					+BicGRAZHBkoGJgYp +BicGRAYnBjMGKgY0BicGMQZKBik									</a>
+						</li>
+					<li class=" ux-menu-item-level-1 ux-menu-item518">
+				<a href="/index.php/who-we-are/projects" class=" ux-menu-link-level-1" title="">
+					+BicGRAZFBjQGJwYxBkoGOQ									</a>
+						</li>
+					<li class=" ux-menu-item-level-1 ux-menu-item519">
+				<a href="/index.php/who-we-are/agenda" class=" ux-menu-link-level-1 ux-menu-link-last" title="">
+					+BicGRAYjBiwGRgYvBik									</a>
+						</li>
+			</ul>
+			</li>
+					<li class="ux-menu-item-main ux-menu-item-level-0 ux-menu-item207 ux-menu-item-parent-pos3">
+				<a href="/index.php/contact" class=" ux-menu-link-level-0 ux-menu-link-last" title="">
+					+BicGKgY1BkQ +BigGRgYn									</a>
+						</li>
+			</ul>
+</div>		</div>
+	
+
+
+
+     </div>
+
+        <div class="searcho left">
+
+
+       		<div class="moduletable">
+					
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){	
+
+	jQuery('#btss-advanced').click(function(){
+
+	if (jQuery(".smartsearch-advanced:first").is(":hidden")) {
+
+		jQuery(".smartsearch-advanced").css('width','100%');			
+
+		jQuery("#btss-advanced ").css('height', '28px');
+
+		jQuery("#btss-advanced ").css('background', '#FFFFFF');
+
+		jQuery("#btss-advanced").css('border-left', '1px solid #CCCCCC');
+
+		jQuery("#btss-advanced").css('border-top', '1px solid #CCCCCC');
+
+		jQuery("#btss-advanced").css('border-right', '1px solid #CCCCCC');
+
+		jQuery(".smartsearch-advanced").slideDown("slow");
+
+		} else {
+
+		jQuery(".smartsearch-advanced").slideUp('slow');
+
+		jQuery("#btss-advanced").css('border', '1px solid #FFFFFF');
+
+		jQuery("#btss-advanced").css('height', '18px');
+
+		}
+
+	});
+
+	jQuery(".smartsearch-advanced").hide();
+
+	  jQuery("#btss-advanced").hover(function () {
+
+		jQuery(this).append('<div class="tooltipsmartseach"><p> Advance search</p></div>');
+
+		jQuery('.tooltipsmartseach').css('background','#545454');
+
+		jQuery('.tooltipsmartseach >p').css('margin-left','5px');
+
+		jQuery('.tooltipsmartseach >p').css('margin-top','3px');
+
+	  }, function () {
+
+		jQuery("div.tooltipsmartseach").remove();
+
+	  });
+
+	jQuery('.inputboxsmart').data("placeholder","Select Frameworks...").chosen();	
+
+	
+
+	jQuery('#mod-bt-smartsearchword').keydown(function (event) {
+
+		if(jQuery('#mod-bt-smartsearchword').val()!=""){
+
+		var keypressed = event.keyCode || event.which;
+
+			if (keypressed == 13) {
+
+				$(this).closest('form').submit();
+
+			}
+
+		}
+
+	});
+
+	jQuery('.btnsearch').click(function(){
+
+		if(jQuery('#mod-bt-smartsearchword').val()!=""){
+
+			if(jQuery('#mod-bt-smartsearchword').val()!="+BicGKAZABkAGLQZABkAGKw +BjkGRg .."){			
+
+			var keypressed = event.keyCode || event.which;
+
+				if (keypressed == 13) {
+
+					$(this).closest('form').submit();
+
+				}
+
+			}
+
+			else{
+
+				return false;
+
+			}
+
+		}
+
+		else{
+
+			return false;
+
+		}
+
+	});
+
+	
+
+
+
+});
+
+</script>	
+
+<script type="text/javascript">
+
+	window.addEvent('domready', function() {	
+
+	
+			
+			var url = '/index.php/component/finder/?task=suggestions.display&format=json&tmpl=component';
+
+			var ModCompleter = new Autocompleter.Request.JSON(document.id('mod-bt-smartsearchword'), url, {'postVar': 'q'});
+
+	
+	});
+
+</script>
+
+<form id="mod-bt-smartsearchform-148" action="/index.php/component/finder/search" method="get">
+
+	<div class="smartsearch ">
+
+		<div class="keyword">
+
+			<div class="borderinput"><input name="q" id="mod-bt-smartsearchword"  class="inputboxsearch" type="text" value="+BicGKAZABkAGLQZABkAGKw +BjkGRg .."  onblur="if (this.value=='') this.value='+BicGKAZABkAGLQZABkAGKw +BjkGRg ..';" onfocus="if (this.value=='+BicGKAZABkAGLQZABkAGKw +BjkGRg ..') this.value='';" /><a id ="btss-advanced"><img src="http://www.foraqsa.com/modules/mod_bt_smartsearch/tmpl/images/config.jpg"  alt="config"/></a></div><button type="submit" class="btnsearch" >
+
+					<img src="http://www.foraqsa.com/modules/mod_bt_smartsearch/tmpl/images/button.jpg" width="57" height="27" alt="submit" />
+
+			   </button>
+		</div>
+
+		
+														
+
+					<div id="mod-smartsearch-advanced" class="smartsearch-advanced  ">
+
+						<div class="btsmartsearch"><div class="btsmartspace"><select  name="t[]" class="inputboxsmart"><option class="option-results" value="">Search by Category</option><option class="option-results" value="94">+BicGRAYtBkEGMQZKBicGKg +BkgGJwZEBiMGRgZBBicGQg</option><option class="option-results" value="93">+BicGRAZFBkIGJwZEBicGKg</option><option class="option-results" value="92">+BkUGNAYxBkgGOQ +BkUGMwYnBigGQgYp +BicGRAYjBkIGNQZJ</option><option class="option-results" value="91">+BkUGNAYxBkgGOQ +BicGRAYqBjUGLQZKBi0</option><option class="option-results" value="90">+BkEGOQYnBkQGSgYnBio +BjEGKAYnBjc</option><option class="option-results" value="89">+BkUGNAYnBjEGSgY5 +Bi4GJwYxBiw +BicGRAYjBkIGNQZJ</option><option class="option-results" value="88">+BkUGRgYsBjIGJwYq +Bi8GJwYuBkQ +BicGRAYjBkIGNQZJ</option><option class="option-results" value="87">+BicGRAYlBi0GMQYnBkI</option><option class="option-results" value="86">highlighter</option><option class="option-results" value="85">+BkUGNAYnBjEGSgY5 +BiUGOQZFBicGMQ</option><option class="option-results" value="84">+BicGRAYqBi8GRgZKBjM +BkgGJwZEBicGQgYqBi0GJwZF</option><option class="option-results" value="83">+BicGRAYnBi0GKgZEBicGRA</option><option class="option-results" value="82">+BkUGOQYnBkQGRQ +BiMGLgYxBkk</option><option class="option-results" value="81">+BiIGKAYnBjE +BicGRAYjBkIGNQZJ</option><option class="option-results" value="80">+BkUGNQYnBjcGKA +BicGRAYjBkIGNQZJ</option><option class="option-results" value="79">+BkUGLQYnBjEGSgYo +BicGRAYjBkIGNQZJ</option><option class="option-results" value="78">+BiMGMwYoBkQGKQ +BicGRAYjBkIGNQZJ</option><option class="option-results" value="77">+BigGSAYnBiYGQw +BicGRAYjBkIGNQZJ</option><option class="option-results" value="76">+BiMGMQZIBkIGKQ +BicGRAYjBkIGNQZJ</option><option class="option-results" value="75">+BkUGLwYnBjEGMw +BicGRAYjBkIGNQZJ</option><option class="option-results" value="74">+BkIGKAYnBig +BicGRAYjBkIGNQZJ</option><option class="option-results" value="73">+BkUGNAYxBkgGOQ +BicGRAYjBkIGNQZJ +BkgGMQZFBjYGJwZG</option><option class="option-results" value="72">+BkUGNQZEBkoGJwYq +BicGRAYjBkIGNQZJ</option><option class="option-results" value="71">+BicGRAY1Bi4GMQYp +BjUGLgYxBioGRgYn</option><option class="option-results" value="70">+BiMGOQZEBicGRQ +BicGMQYqBigGNwZIBic +BigGKAZKBio +BicGRAZFBkIGLwYz</option><option class="option-results" value="69">+BkUGIgYwBkY +BicGRAYjBkIGNQZJ</option><option class="option-results" value="68">+BiMGLwYo +BicGRAYjBkIGNQZJ</option><option class="option-results" value="67">+BicGRAYjBi4GKAYnBjE</option><option class="option-results" value="66">+BkIGNQYp +BicGRAYjBkIGNQZJ</option><option class="option-results" value="65">+BicGRAYnBkIGNQZJ +BkEGSQ +Bi4GNwYx</option><option class="option-results" value="64">+BiMGKAZIBicGKA +BicGRAYjBkIGNQZJ</option><option class="option-results" value="63">+BicGRAZGBjQGMQYp</option><option class="option-results" value="62">+BkEGNgYnBiYGRA +BicGRAYjBkIGNQZJ </option><option class="option-results" value="60">+Bi8GRAZKBkQ +BicGRAYjBkIGNQZJ  </option><option class="option-results" value="59">+BkUGKAY0BjEGJwYq +BkUGRg +BicGRAYjBkIGNQZJ</option><option class="option-results" value="56">+BicGRAYqBkIGJwYxBkoGMQ</option><option class="option-results" value="55">+BjQGLgY1BkoGKQ +BicGRAYjBkIGNQZJ</option><option class="option-results" value="54">+BkUGRg +BkYGLQZG</option><option class="option-results" value="53">+BkIGJwZEBkgGJw +BjkGRg +BicGRAYnBkIGNQZJ</option><option class="option-results" value="52">+BjAGJwZDBjEGKQ +BicGRAYnBkIGNQZJ</option><option class="option-results" value="51">Slider</option></select></div></div>														
+
+					</div>
+
+			
+		
+				
+
+	</div>
+
+</form>
+
+		</div>
+	
+
+
+
+     </div>
+
+
+
+  </div>
+
+    
+
+    <div class="header">
+
+      <div class="logo right"><a href="/index.php"><img src="/templates/Foraqsa/images/logo.png" border="0"  /></a></div>
+
+        <div class="hiliter">
+
+
+       		<div class="moduletable">
+					
+<div class="gkHighlighterGK4" id="gkHighlighterGK4-gkHighlight_90">
+
+    
+    <div class="gkHighlighterInterface">
+
+        
+        <span class="text">+BiMGLgYoBicGMQ +BjkGJwYsBkQGKQ</span>
+
+        
+        
+        <div><a href="#" class="prev"></a>
+
+        <a href="#" class="next"></a></div>
+
+        
+    </div>
+
+    
+    <div class="gkHighlighterWrapper" style="display: none;">
+
+        
+            
+                
+                	<div class="gkHighlighterItem"><span><a href="/index.php/aqsa-news/news/127-e-teqal"><span>+BicGRAYnBi0GKgZEBicGRA +BkoGOQYqBkIGRA 28 +BkUGQgYvBjMGSgYn +BkEGSg +Bi0GRQZEBik +BicGOQYqBkIGJwZEBicGKg +BkgGJwYzBjkGKQ</span></a></span></div>
+
+                
+            
+                
+                	<div class="gkHighlighterItem"><span><a href="/index.php/aqsa-news/reports/128-storming"><span>+BioGNQY5BkoGLw +BkEGSg +BkUGRAZB +BicGQgYqBi0GJwZF +BicGRAY1BkcGJwZKBkYGKQ +BkQGRAZFBjMGLAYv +BicGRAYjBkIGNQZJ +BkgGOQYxBigGLwYp +BicGLQYqBkQGJwZEBkoGKQ +BkEGSg +BkUGLQZKBjcGRw +BicGRAZCBjEGSgYo</span></a></span></div>
+
+                
+            
+                
+                	<div class="gkHighlighterItem"><span><a href="/index.php/aqsa-news/reports/233-ribat"><span>+BjEGKAYnBjc +BkEGSg +BicGRAYjBkIGNQZJ +BkgGRQY5Bkc +BkQGRQZIBicGLAZHBik +BioGNQYnBjkGLw +Bi0GRQZEBicGKg +BioGRwZIBkoGLw +BicGRAZFBjMGLAYv +BkgGJwZEBigGRAYvBik +BicGRAZCBi8GSgZFBik +BigGJwZEBkIGLwYz +BkEGSg +BicGRAYwBkMGMQZJ 46 +BkQGRAYnBi0GKgZEBicGRA</span></a></span></div>
+
+                
+            
+        
+    </div>
+
+</div>
+<!--<script type="text/javascript" src="http://www.foraqsa.com/modules/mod_highlighter_gk4/interface/scripts/engine.js"></script> -->
+
+
+<script type="text/javascript">
+	try{$Gavick;}catch(e){$Gavick = {};}
+	$Gavick["gkHighlighterGK4-gkHighlight_90"] = {
+		"animationType" : 'slides',
+        "animationSpeed" : 350,
+		"animationInterval" : 5000,
+		"animationFun" : Fx.Transitions.linear,
+		"mouseover" : false	};
+</script>		</div>
+	
+
+
+
+     </div>
+
+    </div>
+
+    
+
+    <div style="margin:auto;">
+
+    <div class="cont">
+
+
+
+            <div class="right yemmen"><div class="menurrr">
+
+
+       		<div class="moduletable">
+						
+	
+<ul class="jt-menu">
+<li class="item-233 deeper parent"><a href="/index.php/aqsa-character" >+BjQGLgY1BkoGKQ +BiMGQgY1BicGRgYn</a><ul><li class="item-521"><a href="/index.php/aqsa-character/mosque" >+BkUGJw +BkcGSA +BicGRAZFBjMGLAYv +BjkGRQZIBkUGJwYf</a></li><li class="item-542"><a href="/index.php/aqsa-character/aqsa-facts" >+BicGRAZFBjMGLAYv +BicGRAYjBkIGNQZJ +BkEGSg +BjMGNwZIBjE</a></li><li class="item-539 deeper parent"><a href="/index.php/aqsa-character/aqsa-virtues" >+BkEGNgYnBiYGRA +BicGRAYjBkIGNQZJ</a><ul><li class="item-540"><a href="/index.php/aqsa-character/aqsa-virtues/quran-virtues" >+BkEGNgYnBiYGRA +BicGRAYjBkIGNQZJ +BkEGSQ +BicGRAZCBjEGIgZG</a></li><li class="item-541"><a href="/index.php/aqsa-character/aqsa-virtues/hadith-virtues" >+BkEGNgYnBiYGRA +BicGRAYjBkIGNQZJ +BkEGSQ +BicGRAYzBkYGSwYp</a></li></ul></li><li class="item-560 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide" >+Bi8GRAZKBkQ +BicGRAYnBkIGNQZJ</a><ul><li class="item-565 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates" >+BiMGKAZIBicGKA +BicGRAYjBkIGNQZJ</a><ul><li class="item-606"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/asbat" >+BigGJwYo +BicGRAYjBjMGKAYnBjc</a></li><li class="item-607"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/hittah" >+BigGJwYo +Bi0GNwYp </a></li><li class="item-608"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/faysal" >+BigGJwYo +BkEGSgY1BkQ-/+BicGRAY5BioGRQ </a></li><li class="item-609"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/nazer" >+BigGJwYo +BicGRAZGBicGOAYx</a></li><li class="item-610"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/hadeed" >+BigGJwYo +BicGRAYtBi8GSgYv</a></li><li class="item-611"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/qattaneen" >+BigGJwYo +BicGRAZCBjcGJwZGBkoGRg</a></li><li class="item-612"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/metharah" >+BigGJwYo +BicGRAZFBjcGRwYxBik-/+BicGRAZFBioGSAY2BiM</a></li><li class="item-613"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/silsilah" >+BigGJwYo +BicGRAYzBkQGMwZEBik</a></li><li class="item-614"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/magharba" >+BigGJwYo +BicGRAZFBjoGJwYxBigGKQ </a></li><li class="item-615"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/arrahmah" >+BigGJwYoBic +BicGRAYxBi0GRQYp +BkgGJwZEBioGSAYoBik</a></li><li class="item-616"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/janaez" >+BigGJwYo +BicGRAYsBkYGJwYmBjI</a></li><li class="item-617"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/thulathy" >+BicGRAYoBicGKA +BicGRAYrBkQGJwYrBko</a></li><li class="item-618"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/mozdawaj" >+BicGRAYoBicGKA +BicGRAZFBjIGLwZIBiw</a></li><li class="item-621"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-gates/ghawanmeh" >+BigGJwYo +BicGRAY6BkgGJwZGBkUGKQ</a></li></ul></li><li class="item-566 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-minarets" >+BkUGIgYwBkY +BicGRAYiBkIGNQZJ</a><ul><li class="item-619"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-minarets/magharba" >+BkUGJgYwBkYGKQ +BigGJwYo +BicGRAZFBjoGJwYxBigGKQ-/ +BicGRAZBBi4GMQZKBik</a></li><li class="item-620"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-minarets/silsilah" >+BkUGJgYwBkYGKQ +BigGJwYo +BicGRAYzBkQGMwZEBik</a></li><li class="item-622"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-minarets/ghawanmeh" >+BkUGJgYwBkYGKQ +BigGJwYo +BicGRAY6BkgGJwZGBkUGKQ</a></li><li class="item-623"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-minarets/asbat" >+BkUGJgYwBkYGKQ +BigGJwYo +BicGRAYjBjMGKAYnBjc</a></li></ul></li><li class="item-567 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-prayer-halls" >+BkUGNQZEBkoGJwYq +BicGRAYjBkIGNQZJ</a><ul><li class="item-624"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-prayer-halls/qibly" >+BicGRAZFBjUGRAZJ +BicGRAZCBigGRAZK </a></li><li class="item-625"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-prayer-halls/qadeem" >+BkUGNQZEBkk +BicGRAYjBkIGNQZJ +BicGRAZCBi8GSgZF</a></li><li class="item-626"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-prayer-halls/marwany" >+BicGRAZFBjUGRAZJ +BicGRAZFBjEGSAYnBkYGSg</a></li><li class="item-627"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-prayer-halls/buraq" >+BkUGNQZEBkk +BicGRAYoBjEGJwZC </a></li><li class="item-628"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-prayer-halls/magharbah" >+BiwGJwZFBjk +BicGRAZFBjoGJwYxBigGKQ</a></li><li class="item-629"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-prayer-halls/nisaa" >+BiwGJwZFBjk +BicGRAZGBjMGJwYh</a></li></ul></li><li class="item-568 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes" >+BkIGKAYnBig +BicGRAYjBkIGNQZJ</a><ul><li class="item-630"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/sakhrah" >+BkIGKAYp +BicGRAY1Bi4GMQYp</a></li><li class="item-631"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/silsilah" >+BkIGKAYp +BicGRAYzBkQGMwZEBik </a></li><li class="item-632"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/miraj" >+BkIGKAYp +BicGRAZFBjkGMQYnBiw </a></li><li class="item-633"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/moussa" >+BkIGKAYp +BkUGSAYzBkk </a></li><li class="item-634"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/nahwiyah" >+BicGRAZCBigGKQ +BicGRAZGBi0GSAZKBik </a></li><li class="item-635"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/sleiman" >+BkIGKAYp +BjMGRAZKBkUGJwZG </a></li><li class="item-636"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/mizan" >+BkIGKAYp +BicGRAZFBkoGMgYnBkY </a></li><li class="item-637"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/annaby" >+BkIGKAYp +BicGRAZGBigGSg </a></li><li class="item-638"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/arwaah" >+BkIGKAYp +BicGRAYjBjEGSAYnBi0 </a></li><li class="item-639"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/khadr" >+BkIGKAYp +BicGRAYuBjYGMQ</a></li><li class="item-640"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/yusuf-agha" >+BkIGKAYp +BkoGSAYzBkE +BiMGOgYn </a></li><li class="item-641"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/yusuf" >+BkIGKAYp +BkoGSAYzBkE </a></li><li class="item-642"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/ushaaaq" >+BkIGKAYp +BjkGNAYnBkI +BicGRAZGBigGSg </a></li><li class="item-643"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/mahd" >+BkIGKAYp +BkUGRwYv +BjkGSgYzBkk </a></li><li class="item-644"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-domes/khalily" >+BkIGKAYp +BicGRAYuBkQGSgZEBko </a></li></ul></li><li class="item-569 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools" >+BkUGLwYnBjEGMw +BicGRAYjBkIGNQZJ</a><ul><li class="item-649"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/omaria" >+BicGRAZFBi8GMQYzBik +BicGRAY5BkUGMQZKBik</a></li><li class="item-650"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/tankuzia" >+BicGRAZFBi8GMQYzBik +BicGRAYqBkYGQwYyBkoGKQ</a></li><li class="item-651"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/ashrafiah" >+BicGRAZFBi8GMQYzBik +BicGRAYjBjQGMQZBBkoGKQ</a></li><li class="item-652"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/othmania" >+BicGRAZFBi8GMQYzBik +BicGRAY5BisGRQYnBkYGSgYp</a></li><li class="item-653"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/manjkia" >+BicGRAZFBi8GMQYzBik +BicGRAZFBkYGLAZDBkoGKQ</a></li><li class="item-654"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/asardia" >+BicGRAZFBi8GMQYzBik +BicGRAYjBjMGOQYxBi8GSgYp</a></li><li class="item-655"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/malkiah" >+BicGRAZFBi8GMQYzBik +BicGRAZFBkQGQwZKBik</a></li><li class="item-656"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/farsiah" >+BicGRAZFBi8GMQYzBik +BicGRAZBBicGMQYzBkoGKQ</a></li><li class="item-657"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/aminiah" >+BicGRAZFBi8GMQYzBik +BicGRAYjBkUGSgZGBkoGKQ</a></li><li class="item-659"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/ghadriah" >+BicGRAZFBi8GMQYzBik +BicGRAY6BicGLwYxBkoGKQ</a></li><li class="item-660"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/thanwiyah" >+BisGJwZGBkgGSgYp +BicGRAYjBkIGNQZJ +BicGRAY0BjEGOQZKBik</a></li><li class="item-661"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/riyadh" >+BkUGLwYnBjEGMw +BkgGMQZKBicGNg +BicGRAYjBkIGNQZJ</a></li><li class="item-658"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-schools/basitiah" >+BicGRAZFBi8GMQYzBik +BicGRAYoBicGMwY3BkoGKQ</a></li></ul></li><li class="item-570 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-colonnade" >+BiMGMQZIBkIGKQ +BicGRAYjBkIGNQZJ</a><ul><li class="item-662"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-colonnade/gharbi" >+BicGRAYxBkgGJwZC +BicGRAY6BjEGKAZK</a></li><li class="item-663"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-colonnade/shamaly" >+BicGRAYxBkgGJwZC +BicGRAY0BkUGJwZEBko</a></li></ul></li><li class="item-571 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch" >+BigGSAYnBiYGQw +BicGRAYjBkIGNQZJ</a><ul><li class="item-664"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/north" >+BicGRAYoBicGJgZDBik +BicGRAY0BkUGJwZEBkoGKQ</a></li><li class="item-665"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/north-east" >+BicGRAYoBicGJgZDBik +BicGRAY0BkUGJwZEBkoGKQ +BicGRAY0BjEGQgZKBik</a></li><li class="item-666"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/west" >+BicGRAYoBicGJgZDBik +BicGRAY6BjEGKAZKBik</a></li><li class="item-667"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/south" >+BicGRAYoBicGJgZDBik +BicGRAYsBkYGSAYoBkoGKQ</a></li><li class="item-668"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/south-west" >+BicGRAYoBicGJgZDBik +BicGRAYsBkYGSAYoBkoGKQ +BicGRAY6BjEGKAZKBik</a></li><li class="item-669"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/south-east" >+BicGRAYoBicGJgZDBik +BicGRAYsBkYGSAYoBkoGKQ +BicGRAY0BjEGQgZKBik</a></li><li class="item-670"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/east" >+BicGRAYoBicGJgZDBik +BicGRAY0BjEGQgZKBik</a></li><li class="item-671"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-arch/north-west" >+BicGRAYoBicGJgZDBik +BicGRAY0BkUGJwZEBkoGKQ +BicGRAY6BjEGKAZKBik</a></li></ul></li><li class="item-572 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain" >+BiMGMwYoBkQGKQ +BicGRAYjBkIGNQZJ</a><ul><li class="item-672"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/kass" >+BjMGKAZKBkQ +BicGRAZDBiMGMw</a></li><li class="item-673"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/shalaan" >+BjMGKAZKBkQ +BjQGOQZEBicGRg</a></li><li class="item-674"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/buserie" >+BjMGKAZKBkQ +BicGRAYoBjUGSgYxBko</a></li><li class="item-675"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/qaitbay" >+BjMGKAZKBkQ +BkIGJwZKBioGKAYnBko</a></li><li class="item-676"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/qassem" >+BjMGKAZKBkQ +BkIGJwYzBkU +BigGJwY0Bic</a></li><li class="item-677"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/sleiman" >+BjMGKAZKBkQ +BjMGRAZKBkUGJwZG</a></li><li class="item-678"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/bedeir" >+BjMGKAZKBkQ +BicGRAY0BkoGLg +BigGLwZKBjE</a></li><li class="item-679"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/magharba" >+BjMGKAZKBkQ +BigGJwYo +BicGRAZFBjoGJwYxBigGKQ</a></li><li class="item-680"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/hittah" >+BjMGKAZKBkQ +Bi0GNwYp</a></li><li class="item-681"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/anaring" >+BigGMQZDBik +BicGRAZGBicGMQZGBiw</a></li><li class="item-682"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/eissa" >+BjUGRwYxBkoGLA +BjkGSgYzBkk</a></li><li class="item-683"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/burhanuddin" >+BjMGKAZKBkQ +BkUGRgYoBjE +BigGMQZHBicGRg +BicGRAYvBkoGRg</a></li><li class="item-684"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/zaytonah" >+BjMGKAZKBkQ +BicGRAYyBkoGKgZIBkYGKQ</a></li><li class="item-685"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-drinking-fountain/rahmah" >+BjMGKAZKBkQ +BicGRAYxBi0GRQYp</a></li></ul></li><li class="item-573"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-mihrabs" >+BkUGLQYnBjEGSgYo +BicGRAYjBkIGNQZJ</a></li><li class="item-574"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-mastaba" >+BkUGNQYnBjcGKA +BicGRAYjBkIGNQZJ</a></li><li class="item-575"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-wells" >+BiIGKAYnBjE +BicGRAYjBkIGNQZJ</a></li><li class="item-576 deeper parent"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-other-landmarks" >+BkUGOQYnBkQGRQ +BiMGLgYxBkk</a><ul><li class="item-646"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-other-landmarks/buraq" >+Bi0GJwYmBjc +BicGRAYoBjEGJwZC</a></li><li class="item-686"><a href="/index.php/aqsa-character/aqsa-guide/aqsa-other-landmarks/nuruddin" >+BkUGRgYoBjE +BkYGSAYx +BicGRAYvBkoGRg</a></li></ul></li></ul></li><li class="item-543"><a href="/index.php/aqsa-character/aqsa-sayings" >+BkIGJwZEBkgGJw +BjkGRg +BicGRAYjBkIGNQZJ</a></li><li class="item-562"><a href="/index.php/aqsa-character/aqsa-jerusalem" >+BicGRAYjBkIGNQZJ +BkgGJwZEBkIGLwYz</a></li><li class="item-563"><a href="/index.php/aqsa-character/aqsa-palestine" >+BicGRAYjBkIGNQZJ +BkgGQQZEBjMGNwZKBkY</a></li><li class="item-564"><a href="/index.php/aqsa-character/aqsa-sham" >+BicGRAYjBkIGNQZJ +BkgGJwZEBjQGJwZF</a></li></ul></li><li class="item-294 deeper parent"><a href="/index.php/aqsa-news" >+BkYGNAYxBik +BicGRAYjBkIGNQZJ</a><ul><li class="item-593"><a href="/index.php/aqsa-news/news" >+BicGRAYjBi4GKAYnBjE</a></li><li class="item-594"><a href="/index.php/aqsa-news/reports" >+BicGRAYqBkIGJwYxBkoGMQ</a></li><li class="item-595"><a href="/index.php/aqsa-news/articles" >+BicGRAZFBkIGJwZEBicGKg</a></li></ul></li><li class="item-290"><a href="/index.php/aqsa-literature" > +BiMGLwYo +BicGRAYjBkIGNQZJ </a></li><li class="item-238 deeper parent"><a href="/index.php/aqsa-story" >+BkIGNQYp +BicGRAYjBkIGNQZJ</a><ul><li class="item-561"><a href="/index.php/aqsa-story/first-building" >1- +BicGRAYoBkYGJwYh</a></li><li class="item-582"><a href="/index.php/aqsa-story/pharaohs" >2- +BicGRAY5BkQGSA +BicGRAZBBjEGOQZIBkYGSg</a></li><li class="item-583"><a href="/index.php/aqsa-story/david" >3- +BkEGKgYt +Bi8GJwZIBi8 +BjkGRAZKBkc +BicGRAYzBkQGJwZF</a></li><li class="item-584"><a href="/index.php/aqsa-story/romans" >4- +BicGRAY5BkQGSA +BicGRAYxBkgGRQYnBkYGSg</a></li><li class="item-585"><a href="/index.php/aqsa-story/prophet" >5- +BicGRAZBBioGLQ +BicGRAYlBjMGRAYnBkUGSg +BicGRAYjBkgGRA</a></li><li class="item-586"><a href="/index.php/aqsa-story/crusade" >6- +BicGLQYqBkQGJwZE +BicGRAZBBjEGRgYs</a></li></ul></li><li class="item-448 deeper parent"><a href="/index.php/aqsa-under-dangers" >+BicGRAYjBkIGNQZJ +BkEGSg +Bi4GNwYx</a><ul><li class="item-577 deeper parent"><a href="/index.php/aqsa-under-dangers/occupation" >+BicGRAYnBi0GKgZEBicGRA</a><ul><li class="item-687"><a href="/index.php/aqsa-under-dangers/occupation/occupation1" >+BkUGLQY3BicGKg +BioGJwYxBkoGLgZKBik 1917-1947</a></li><li class="item-688"><a href="/index.php/aqsa-under-dangers/occupation/occupation2" >+BkUGLQY3BicGKg +BioGJwYxBkoGLgZKBik 1947-1977</a></li><li class="item-689"><a href="/index.php/aqsa-under-dangers/occupation/occupation3" >+BkUGLQY3BicGKg +BioGJwYxBkoGLgZKBik 1977-2007</a></li></ul></li><li class="item-578 deeper parent"><a href="/index.php/aqsa-under-dangers/desacration" >+BicGRAYqBi8GRgZKBjM +BkgGJwZEBicGQgYqBi0GJwZF</a><ul><li class="item-690"><a href="/index.php/aqsa-under-dangers/desacration/list" >+BiMGKAYxBjI +BicGRAYnBkIGKgYtBicGRQYnBio +BicGRAY1BkcGSgZIBkYGSgYp</a></li></ul></li><li class="item-579"><a href="/index.php/aqsa-under-dangers/fire" >+BicGRAYlBi0GMQYnBkI</a></li><li class="item-693"><a href="/index.php/aqsa-under-dangers/diggings" >+BicGRAYtBkEGMQZKBicGKg +BkgGJwZEBiMGRgZBBicGQg</a></li></ul></li><li class="item-455 deeper parent"><a href="/index.php/glad-tidings" >+BkUGKAY0BjEGJwYq +BkUGRg +BigGSgYq +BicGRAZFBkIGLwYz</a><ul><li class="item-596 deeper parent"><a href="/index.php/glad-tidings/inside-aqsa" >+BkUGRgYsBjIGJwYq +Bi8GJwYuBkQ +BicGRAYjBkIGNQZJ</a><ul><li class="item-598 deeper parent"><a href="/index.php/glad-tidings/inside-aqsa/rebat" >+BkUGNAYnBjEGSgY5 +BjEGKAYnBjc</a><ul><li class="item-602"><a href="/index.php/glad-tidings/inside-aqsa/rebat/biareq" >+BkUGMwZKBjEGKQ +BicGRAYoBkoGJwYxBkI</a></li><li class="item-603"><a href="/index.php/glad-tidings/inside-aqsa/rebat/masateb" >+BiUGLQZKBicGIQ +BkUGNQYnBjcGKA +BicGRAY5BkQGRQ</a></li></ul></li><li class="item-599 deeper parent"><a href="/index.php/glad-tidings/inside-aqsa/restoration" >+BkUGNAYnBjEGSgY5 +BiUGOQZFBicGMQ</a><ul><li class="item-600"><a href="/index.php/glad-tidings/inside-aqsa/restoration/marwani" >+BiUGOQZFBicGMQ +BicGRAZFBjUGRAZJ +BicGRAZFBjEGSAYnBkYGSg</a></li><li class="item-601"><a href="/index.php/glad-tidings/inside-aqsa/restoration/qadeem" >+BiUGOQZFBicGMQ +BicGRAZFBjUGRAZJ +BicGRAZCBi8GSgZF</a></li></ul></li></ul></li><li class="item-691"><a href="/index.php/glad-tidings/ramadan-inside" >+BkEGOQYnBkQGSgYnBio +BjEGRQY2BicGRgZKBik +Bi4GJwY1Bik</a></li></ul></li><li class="item-597 deeper parent"><a href="/index.php/outside-aqsa" >+BkUGNAYnBjEGSgY5 +BkYGNQYxBik +BkQGRAYjBkIGNQZJ</a><ul><li class="item-580 deeper parent"><a href="/index.php/outside-aqsa/aqsa-ramadan" >+BicGRAYjBkIGNQZJ +BkgGMQZFBjYGJwZG</a><ul><li class="item-604"><a href="/index.php/outside-aqsa/aqsa-ramadan/sakhrah" >+BicGRAY1Bi4GMQYp +BjUGLgYxBioGRgYn (1434+BkcGQA)</a></li><li class="item-581"><a href="/index.php/outside-aqsa/aqsa-ramadan/scholars" >+BiMGOQZEBicGRQ +BkUGQgYvBjMGSgYp (1433+BkcGQA)</a></li><li class="item-647"><a href="/index.php/outside-aqsa/aqsa-ramadan/israa" >+BioGLwYoBjE +BjMGSAYxBik +BicGRAYlBjMGMQYnBiE (1432+BkcGQA)</a></li><li class="item-648"><a href="/index.php/outside-aqsa/aqsa-ramadan/barakah" >+BigGMQZDBik +BicGRAYyBkUGJwZG +BkgGJwZEBkUGQwYnBkY</a></li></ul></li><li class="item-605"><a href="/index.php/outside-aqsa/correction" >+BkUGNAYxBkgGOQ +BioGNQYtBkoGLQ +BicGRAYjBi4GNwYnBiE</a></li></ul></li></ul>
+<script type="text/javascript"> 
+   jQuery(document).ready(function(){ 
+        jQuery("ul.jt-menu").superfish({ 
+            animation:  {opacity:'show', height:'show', width:'show'},
+            delay:      1000,
+			speed:      'normal',
+            autoArrows: true 
+        }); 
+    });  
+</script>
+<div style="clear: both;"></div>
+<div style="display:none"><a href="http://www.jtemplate.ru" target="_blank">jtemplate.ru - free templates joomla</a></div>		</div>
+	
+
+
+
+     </div>
+
+     
+
+         <div class="later">
+
+
+       		<div class="moduletable">
+					<h3>+BicGRAZCBicGJgZFBik +BicGRAYoBjEGSgYvBkoGKQ</h3>
+					
+
+<div class="acymailing_module" id="acymailing_module_formAcymailing26711">
+
+
+	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing26711"  >
+
+		<form id="formAcymailing26711" action="/index.php" onsubmit="return submitacymailingform('optin','formAcymailing26711')" method="post" name="formAcymailing26711"  >
+
+		<div class="acymailing_module_form" >
+
+			
+			
+			<table class="acymailing_form">
+
+				<tr>
+
+					
+							<td class="acyfield_name">
+
+								<input id="user_name_formAcymailing26711"  onfocus="if(this.value == '+BicGRAYnBjMGRQ +BicGRAY0Bi4GNQZK ') this.value = '';" onblur="if(this.value=='') this.value='+BicGRAYnBjMGRQ +BicGRAY0Bi4GNQZK ';" class="inputbox" type="text" name="user[name]" style="width:80%" value="+BicGRAYnBjMGRQ +BicGRAY0Bi4GNQZK " />
+
+							</td> </tr><tr>
+							<td class="acyfield_email">
+
+								<input id="user_email_formAcymailing26711"  onfocus="if(this.value == '+BicGRAYoBjEGSgYv +BicGRAYnBkQGQwYqBjEGSAZGBko') this.value = '';" onblur="if(this.value=='') this.value='+BicGRAYoBjEGSgYv +BicGRAYnBkQGQwYqBjEGSAZGBko';" class="inputbox" type="text" name="user[email]" style="width:80%" value="+BicGRAYoBjEGSgYv +BicGRAYnBkQGQwYqBjEGSAZGBko" />
+
+							</td> </tr><tr>
+
+
+					<td  class="acysubbuttons">
+
+						
+						<input class="button subbutton btn btn-primary" type="submit" value="+BicGNAYqBjEGJwZD" name="Submit" onclick="try{ return submitacymailingform('optin','formAcymailing26711'); }catch(err){alert('The form could not be submitted '+-err);return false;}"/>
+
+						
+					</td>
+
+				</tr>
+
+			</table>
+
+			
+			<input type="hidden" name="ajax" value="1"/>
+
+			<input type="hidden" name="ctrl" value="sub"/>
+
+			<input type="hidden" name="task" value="notask"/>
+
+			<input type="hidden" name="redirect" value="http%3A%2F%2Fwww.foraqsa.com%2F"/>
+
+			<input type="hidden" name="redirectunsub" value="http%3A%2F%2Fwww.foraqsa.com%2F"/>
+
+			<input type="hidden" name="option" value="com_acymailing"/>
+
+			
+			<input type="hidden" name="hiddenlists" value="1"/>
+
+			<input type="hidden" name="acyformname" value="formAcymailing26711" />
+
+			
+			
+			</div>
+
+		</form>
+
+	</div>
+
+	
+</div>
+
+		</div>
+	
+
+
+
+     </div>
+
+         
+
+         <div class="pool">
+
+
+       		<div class="moduletable">
+					<h3>+BicGMwYqBjcGRAYnBjk +BicGRAYxBiMGSg</h3>
+					
+
+
+<div class="poll" style="border:none; padding:1px;">
+
+
+
+
+    <h4>+BkUGJwYwBic +BkoGRQYrBkQ +BicGRAZFBjMGLAYv +BicGRAYjBkIGNQZJ +BkQGQwYf</h4>
+
+
+
+
+<div id="polldiv_2">
+
+
+
+
+<form action="/index.php" method="post" name="poll_vote_2" id="poll_vote_2">
+
+
+	<label for="mod_voteid4" class="sectiontableentry2" style="display:block; padding:2px;">
+
+		<input type="radio" name="voteid" id="mod_voteid4" value="4" alt="4"  />
+
+			+BisGJwZEBis +BkUGMwYsBi8 +BkUGRwZF +BkEGSg +BicGRAYlBjMGRAYnBkU
+	</label>
+
+	
+	<label for="mod_voteid7" class="sectiontableentry1" style="display:block; padding:2px;">
+
+		<input type="radio" name="voteid" id="mod_voteid7" value="7" alt="7"  />
+
+			+BkUGMwYsBi8 +BkUGRwZF +BkoGLAYo +BicGRAY5BkQGRQ +BigGRw 
+	</label>
+
+	
+	<label for="mod_voteid8" class="sectiontableentry2" style="display:block; padding:2px;">
+
+		<input type="radio" name="voteid" id="mod_voteid8" value="8" alt="8"  />
+
+			+BkUGMwYsBi8 +BkUGRwZF +BkgGSgYsBig +BicGRAY5BkQGRQ +BigGRw +BkgGJwZEBjkGRQZE +BkQGRw
+	</label>
+
+	
+	<div style="padding:2px;" id="poll_buttons_2" >
+
+	<input type="submit" id="submit_vote_2" name="task_button" class="button" value="+BioGNQZIBkoGKg"  />
+
+	</div>	
+
+	<div id="poll_loading_2" style="display:none;">Processing....
+	</div>		
+
+
+
+	<input type="hidden" name="option" value="com_acepolls" />
+
+	<input type="hidden" name="id" value="2" />
+
+	
+	<input type="hidden" name="task" value="vote" />
+
+	<div><input type="hidden" name="cff0d38225524ec5f6a31616f9e6d408" value="1" /></div>
+</form>
+
+
+
+
+
+
+<!-- End of #polldiv -->
+
+</div>
+
+
+<div id="poll_links" style="padding-top:5px; ">
+
+
+
+	
+	
+
+	
+
+
+
+</div>
+
+</div>		</div>
+	
+
+
+
+     </div>
+
+         
+
+         
+
+         <div class="dad">
+
+
+       		<div class="moduletable">
+					<h3>+BicGRAYqBi0GSAZKBkQ +BigGSgZG  +BicGRAYqBkIGSAZKBkU +BicGRAZHBiwGMQZK +BkgGJwZEBkUGSgZEBicGLwZK </h3>
+					<div id="blankBM107" ><div>        <SCRIPT LANGUAGE="JavaScript">
+
+            function setDateToToday()
+            {
+                var today = new Date();
+                var y = today.getYear();
+
+                var y = today.getYear();
+                if (y < 1000) {
+                    y +-= 1900;
+                }
+
+                document.myform.CYear.value = y;
+                document.myform.CMonth.selectedIndex = today.getMonth();
+                document.myform.CDay.value = today.getDate();
+            }
+
+            //  LEAP_GREGORIAN  --  Is a given year in the Gregorian calendar a leap year ?
+
+            function leap_gregorian(year)
+            {
+                return ((year % 4) == 0) &&
+                    (!(((year % 100) == 0) && ((year % 400) != 0)));
+            }
+
+
+            //  GREGORIAN_TO_JD  --  Determine Julian day number from Gregorian calendar date
+
+
+            function gregorian_to_jd(year, month, day)
+            {
+
+                var GREGORIAN_EPOCH = 1721425.5;
+                return (GREGORIAN_EPOCH - 1) +-
+                    (365 * (year - 1)) +-
+                    Math.floor((year - 1) / 4) +-
+                    (-Math.floor((year - 1) / 100)) +-
+                    Math.floor((year - 1) / 400) +-
+                    Math.floor((((367 * month) - 362) / 12) +-
+                    ((month <= 2) ? 0 :
+                    (leap_gregorian(year) ? -1 : -2)
+            ) +-
+                    day);
+            }
+
+            function mod(a, b)
+            {
+                return a - (b * Math.floor(a / b));
+            }
+
+            function jd_to_gregorian(jd) {
+                var wjd, depoch, quadricent, dqc, cent, dcent, quad, dquad,
+                yindex, dyindex, year, yearday, leapadj;
+
+                var GREGORIAN_EPOCH = 1721425.5;
+                wjd = Math.floor(jd - 0.5) +- 0.5;
+                depoch = wjd - GREGORIAN_EPOCH;
+                quadricent = Math.floor(depoch / 146097);
+                dqc = mod(depoch, 146097);
+                cent = Math.floor(dqc / 36524);
+                dcent = mod(dqc, 36524);
+                quad = Math.floor(dcent / 1461);
+                dquad = mod(dcent, 1461);
+                yindex = Math.floor(dquad / 365);
+                year = (quadricent * 400) +- (cent * 100) +- (quad * 4) +- yindex;
+                if (!((cent == 4) || (yindex == 4))) {
+                    year+-+-;
+                }
+                yearday = wjd - gregorian_to_jd(year, 1, 1);
+                leapadj = ((wjd < gregorian_to_jd(year, 3, 1)) ? 0
+                :
+                    (leap_gregorian(year) ? 1 : 2)
+            );
+                month = Math.floor((((yearday +- leapadj) * 12) +- 373) / 367);
+                day = (wjd - gregorian_to_jd(year, month, 1)) +- 1;
+
+
+                document.myform.CDay.value = day;
+                document.myform.CMonth.value = month;
+                document.myform.CYear.value = year;
+            }
+
+
+
+            function intPart(floatNum){
+                if (floatNum< -0.0000001){
+                    return Math.ceil(floatNum-0.0000001)
+                }
+                return Math.floor(floatNum+-0.0000001)
+            }
+            function weekDay(wdn){
+                if(wdn==0){
+                    return "+BicGRAYnBisGRgZKBkY"
+                }
+                if(wdn==1){
+                    return "+BicGRAYrBkQGJwYrBicGIQ"
+                }
+                if(wdn==2){
+                    return "+BicGRAYnBjEGKAY5BicGIQ"
+                }
+                if(wdn==3){
+                    return "+BicGRAYuBkUGSgYz"
+                }
+                if(wdn==4){
+                    return "+BicGRAYsBkUGOQYp"
+                }
+                if(wdn==5){
+                    return "+BicGRAYzBigGKg"
+                }
+                if(wdn==6){
+                    return "+BicGRAYnBi0GLw"
+                }
+                return ""
+
+            }
+            function chrToIsl(NumberofDays) {
+                //alert("Month:" +- document.myform.CMonth.value)
+                d=parseInt(document.myform.CDay.value)
+                m=parseInt(document.myform.CMonth.value)
+                y=parseInt(document.myform.CYear.value)
+                if ((y>1582)||((y==1582)&&(m>10))||((y==1582)&&(m==10)&&(d>14)))
+                {
+                    jd=intPart((1461*(y+-4800+-intPart((m-14)/12)))/4)+-intPart((367*(m-2-12*(intPart((m-14)/12))))/12)-
+                        intPart( (3* (intPart(  (y+-4900+-    intPart( (m-14)/12)     )/100)    )   ) /4)+-d-32075
+                }
+                else
+                {
+                    jd = 367*y-intPart((7*(y+-5001+-intPart((m-9)/7)))/4)+-intPart((275*m)/9)+-d+-1729777
+                }
+                jd = jd +- NumberofDays
+                document.myform.JD.value=jd
+                document.myform.wd.value=weekDay(jd%7)
+                l=jd-1948440+-10632
+                n=intPart((l-1)/10631)
+                l=l-10631*n+-354
+                j=(intPart((10985-l)/5316))*(intPart((50*l)/17719))+-(intPart(l/5670))*(intPart((43*l)/15238))
+                l=l-(intPart((30-j)/15))*(intPart((17719*j)/50))-(intPart(j/16))*(intPart((15238*j)/43))+-29
+                m=intPart((24*l)/709)
+                d=l-intPart((709*m)/24)
+                y=30*n+-j-30
+
+
+                jd_to_gregorian(jd)
+                document.myform.HDay.value=d
+                document.myform.HMonth.value=m
+                document.myform.HYear.value=y
+            }
+
+            function islToChr( NumberofDays) {
+                d=parseInt(document.myform.HDay.value)
+                m=parseInt(document.myform.HMonth.value)
+                y=parseInt(document.myform.HYear.value)
+                jd=intPart((11*y+-3)/30)+-354*y+-30*m-intPart((m-1)/2)+-d+-1948440-385
+                jd = jd +- NumberofDays
+                document.myform.JD.value=jd
+                document.myform.wd.value=weekDay(jd%7)
+                if (jd> 2299160 )
+                {
+                    l=jd+-68569
+                    n=intPart((4*l)/146097)
+                    l=l-intPart((146097*n+-3)/4)
+                    i=intPart((4000*(l+-1))/1461001)
+                    l=l-intPart((1461*i)/4)+-31
+                    j=intPart((80*l)/2447)
+                    d=l-intPart((2447*j)/80)
+                    l=intPart(j/11)
+                    m=j+-2-12*l
+                    y=100*(n-49)+-i+-l
+                }
+                else
+                {
+                    j=jd+-1402
+                    k=intPart((j-1)/1461)
+                    l=j-1461*k
+                    n=intPart((l-1)/365)-intPart(l/1461)
+                    i=l-365*n+-30
+                    j=intPart((80*i)/2447)
+                    d=i-intPart((2447*j)/80)
+                    i=intPart(j/11)
+                    m=j+-2-12*i
+                    y=4*k+-n+-i-4716
+                }
+
+                document.myform.CDay.value=d
+                document.myform.CMonth.value=m
+                document.myform.CYear.value=y
+
+
+            }
+        </SCRIPT>
+
+
+                 
+
+
+                     
+                            <FORM NAME="myform" style="margin-right:10px;">
+<div class="egndate" style="margin:10px auto;">
+
+ <span style="clear:both; display:block; text-align:right; font-size:14px; margin-bottom:5px;">+BicGRAYqBicGMQZKBi4 +BicGRAZFBkoGRAYnBi8GSg</span>
+                              <select size="1" name="CDay"  onChange="chrToIsl(0);">
+                                        <option selected value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                          
+                              <select size="1" name="CMonth" onChange="chrToIsl(0);">
+                                                                    <option selected value="1">+BkoGRgYnBkoGMQ</option>
+                                                                    <option value="2">+BkEGKAYxBicGSgYx</option>
+                                                                    <option value="3">+BkUGJwYxBjM</option>
+                                                                    <option value="4">+BicGKAYxBkoGRA</option>
+                                                                    <option value="5">+BkUGJwZKBkg</option>
+                                                                    <option value="6">+BkoGSAZGBkoGSA</option>
+                                                                    <option value="7">+BkoGSAZEBkoGSA</option>
+                                                                    <option value="8">+BicGOgYzBjcGMw</option>
+                                                                    <option value="9">+BjMGKAYqBkUGKAYx</option>
+                                                                    <option value="10">+BicGQwYqBkgGKAYx</option>
+                                                                    <option value="11">+BkYGSAZBBkUGKAYx</option>
+                                                                    <option value="12">+Bi8GSgYzBkUGKAYx</option>
+                                                                </select>
+                             
+                              <INPUT TYPE="text" NAME="CYear" VALUE="" SIZE="4" onChange="chrToIsl(0);" onKeyUp="chrToIsl(0);" > 
+                              
+          </div>
+<div class="ardate" style="margin:10px auto;">
+
+ <span style="clear:both; display:block; text-align:right; font-size:14px; margin-bottom:5px;">+BicGRAYqBicGMQZKBi4 +BicGRAZHBiwGMQZK</span>
+                              <select size="1" name="HDay" onChange="islToChr(0);">
+                                                                            <option selected value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                            <option value="13">13</option>
+                                                                            <option value="14">14</option>
+                                                                            <option value="15">15</option>
+                                                                            <option value="16">16</option>
+                                                                            <option value="17">17</option>
+                                                                            <option value="18">18</option>
+                                                                            <option value="19">19</option>
+                                                                            <option value="20">20</option>
+                                                                            <option value="21">21</option>
+                                                                            <option value="22">22</option>
+                                                                            <option value="23">23</option>
+                                                                            <option value="24">24</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="26">26</option>
+                                                                            <option value="27">27</option>
+                                                                            <option value="28">28</option>
+                                                                            <option value="29">29</option>
+                                                                            <option value="30">30</option>
+                                                                        </select>
+                                                                        
+                              <select size="1" name="HMonth" onChange="islToChr(0);">
+                                            <option selected value="1">+BkUGLQYxBkU</option>
+                                            <option value="2">+BjUGQQYx</option>
+                                            <option value="3">+BjEGKAZKBjk +BicGRAYnBkgGRA</option>
+                                            <option value="4">+BjEGKAZKBjk +BicGRAYrBicGRgZJ</option>
+                                            <option value="5">+BiwGRQYnBi8GSg +BicGRAYnBkgGRA</option>
+                                            <option value="6">+BiwGRQYnBi8GSg +BicGRAYrBicGRgZJ</option>
+                                            <option value="7">+BjEGLAYo</option>
+                                            <option value="8">+BjQGOQYoBicGRg</option>
+                                            <option value="9">+BjEGRQY2BicGRg</option>
+                                            <option value="10">+BjQGSAYnBkQ</option>
+                                            <option value="11">+BjAGSg +BicGRAZCBjkGLwYp</option>
+                                            <option value="12">+BjAGSg +BicGRAYtBiwGKQ</option>
+                                        </select>
+                                        
+                              <INPUT TYPE="text" NAME="HYear" VALUE="1430" SIZE="4" onChange="islToChr(0);" onKeyUp="islToChr(0);">          
+           </div>                     
+
+         +BicGRAZKBkgGRQ +BicGRAZFBkgGJwZBBkI  :   
+         <INPUT TYPE="text" NAME="wd" VALUE="" SIZE=10 style="margin-right:10px;">
+		  <br> <br> +BicGRAZKBkgGRQ +BicGRAY0BkUGMwZJ:   <INPUT TYPE="text" NAME="JD" VALUE="" SIZE=9 style="margin-right:5px;">
+          
+
+</FORM>
+                        <script>
+                            setDateToToday();
+                        </script>
+</div><div></div><div></div></div>
+
+		</div>
+	
+
+
+
+     </div>
+
+         
+
+         <div class="fac">
+
+
+       		<div class="moduletable">
+						
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ar_AR/all.js#xfbml=1";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	
+	<fb:like-box href="https://www.facebook.com/SisterForAqsa" width="250" height="370" border_color="#f1e8d9" show_faces="true" stream="false" header="false"></fb:like-box>		</div>
+	
+
+
+
+     </div>
+
+         
+
+         <div class="frin">
+
+
+       		<div class="moduletable">
+					<h3>+BkUGSAYnBkIGOQ +BjUGLwZKBkIGKQ</h3>
+					<div id="blankBM113" ><div><ul class="furl">
+<li class="right"><a href="http://www.alaqsa-online.com/" target=_blank> +BkUGSAZCBjk +BicGRAYjBkIGNQZJ +BiMGSAZGBkQGJwZKBkY</a></li>
+<li class="right"><a href="http://www.iaqsa.com/" target=_blank> +BkUGJAYzBjMGKQ +BicGRAYjBkIGNQZJ +BkQGRAZIBkIGQQ +BkgGJwZEBioGMQYnBis</a></li>
+<li class="right"><a href="http://www.alquds-online.net/" target=_blank>+BkUGJAYzBjMGKQ +BicGRAZCBi8GMw +BicGRAYvBkgGRAZKBik</a></li>
+<li class="right"><a href="http://www.aqsaonline.info/" target=_blank>+BigGSgYq +BicGRAZFBkIGLwYz +BkQGRAYvBjEGJwYzBicGKg +BicGRAYqBkgGKwZKBkIGSgYp</a></li>
+<li class="right"><a href="http://www.pls48.net" target=_blank>+BkEGRAYzBjcGSgZGBkoGSA 48</a></li>
+
+</ul></div><div></div><div></div></div>
+
+		</div>
+	
+
+
+
+     </div>
+
+         
+
+         
+
+     </div>
+
+            
+
+            <div class="left shemal">
+            
+            
+            <table border="0" width="100%" align="right">
+
+            <tr>
+
+              <td width="20%" align="center" nowrap><p><font size="2"><a href="?go=newsmain">+BiMGLgYoBicGMQ </a></font></p>
+
+              </td>
+
+              <td width="20%" align="center"><font size="2"><a href="http://www.foraqsa.com/content/news/news.php?go=reports">+BioGQgYnBjEGSgYx</a></font></td>
+
+              <td width="20%" align="center"><font size="2"><a href="http://www.foraqsa.com/content/news/news.php?go=articles">+BkUGQgYnBkQGJwYq</a></font></td>
+
+              <td width="20%" align="center"><font size="2"><a href="http://www.foraqsa.com/content/news/news.php?go=search">+BigGLQYr</a></font></td>
+
+	<td width="20%" align="center"><font size="2"><a href="/content/news/archive.php">+BiMGMQY0BkoGQQ</a></font></td>
+
+            </tr>
+
+            <tr>
+
+              <td width="100%" colspan="5">
+
+<hr><br>
+
+</td>
+
+</tr>
+
+	<tr>
+
+ <td width="100%" colspan="5">
+
+<div align= "center">
+
+<div class="template_full" style="width:auto; margin-bottom:30px;">
+
+<div><strong>+BkUGMwYqBkgGNwZGBkgGRg +BkoGLgY3BkgGRg +BjQGOQYnBjEGJwYq +BjkGRgY1BjEGSgYp +BjkGRAZJ +BiwGLwYnBjE +BkMGRgZKBjMGKQ +BigGJwZEBkIGLwYz +BicGRAZCBi8GSgZFBik</strong></div><div align= "right" dir="rtl"  style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+
+
+<strong>+BicGRAZCBi8GMw +BicGRAZFBi0GKgZEBik, +BicGRAYzBigGKg, 1-6-2013+BkU, 21 - 7 - 1434+BkcGQA -</strong> +Bi4GNw +BkUGMwYqBkgGNwZGBkgGRg, +BjUGKAYnBi0 +BicGRAYsBkUGOQYp (31-5), +BjkGKAYnBjEGJwYq +BjkGRgY1BjEGSgYp +BkUGMwZKBiYGKQ +BkQGRAZFBjMGSgYtBkoGSgZG +BjkGRAZJ +BicGRAYsBi8GJwYx +BicGRAYuBkQGQQZK +BkQGQwZGBkoGMwYp +BkEGSg '+BiwGKAZE +BjUGRwZKBkgGRg', +BigGJwZEBkIGMQYo +BkUGRg +BicGRAYzBkgGMQ +BicGRAYsBkYGSAYoBko +BkQGRAYoBkQGLwYp +BicGRAZCBi8GSgZFBik +BkEGSg +BicGRAZCBi8GMw +BicGRAZFBi0GKgZEBik.<a href="/content/news/news.php?subaction=showfull&amp;id=1370076424&amp;archive=&amp;start_from=&amp;ucat=1&amp;">+BicGRAZFBjIGSgYv..</a></div></div>
+
+</div><div align= "center">
+
+<div class="template_full" style="width:auto; margin-bottom:30px;">
+
+<div><strong>+BicGRAYnBi0GKgZEBicGRA +BkoGOQYqBkIGRA 28 +BkUGQgYvBjMGSgYn +BkEGSg +Bi0GRQZEBik +BicGOQYqBkIGJwZEBicGKg +BkgGJwYzBjkGKQ</strong></div><div align= "right" dir="rtl"  style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;"><p>
+
+
+<strong>= +BicGRAZFBjkGKgZCBkQGSAZG +BkUGRg +Bi0GJwYxBik +BicGRAYzBjkGLwZKBik +BigGJwZEBigGRAYvBik +BicGRAZCBi8GSgZFBik +BkgGRQZG +BicGRAY5BkoGMgYxBkoGKQ +BkgGIwYoBkg +Bi8GSgYz</strong></p><p><strong>+BicGRAZCBi8GMw +BicGRAZFBi0GKgZEBik&iexcl; +BicGRAYzBigGKg&iexcl; 1-6-2013+BkU&iexcl; 21 - 7 - 1434+BkcGQA -</strong> +BjQGRgYq +BkIGSAYnBio +BicGRAYnBi0GKgZEBicGRA +BkEGLAYx +BicGRAYuBkUGSgYz (30&#124;5)&iexcl; +Bi0GRQZEBicGKg +BicGOQYqBkIGJwZE +BkgGJwYzBjkGKQ +BicGRAZGBjcGJwZC +BioGMQZDBjIGKg +BkEGSg +BicGRAZCBi8GMw +BicGRAZCBi8GSgZFBik +BkgGKAZEBi8GKgZK +BicGRAY5BkoGMgYxBkoGKQ +BkgGIwYoBkg +Bi8GSgYz +BiwGRgZIBig +BjQGMQZC +BkUGLwZKBkYGKQ +BicGRAZCBi8GMw +BicGRAZFBi0GKgZEBik&iexcl; +BjcGJwZEBio 28 +BkUGSAYnBjcGRgZLBic +BkUGQgYvBjMGSgZLBic +BjkGRAZJ +Bi4GRAZBBkoGKQ +BkUGQgYnBkgGRQYp +BicGRAYnBi0GKgZEBicGRA.</p><a href="/content/news/news.php?subaction=showfull&amp;id=1370075864&amp;archive=&amp;start_from=&amp;ucat=1&amp;">+BicGRAZFBjIGSgYv..</a></div></div>
+
+</div><div style="margin-top:15px;width:100%;text-align:center;font:9px Verdana;">Content Management Powered by <a href="http://cutephp.com/" title="CuteNews - PHP News Management System">CuteNews</a></div><!-- News Powered by CuteNews: http://cutephp.com/ -->
+                <p>&nbsp;</td>
+
+            </tr>
+
+          </table>
+            
+            
+            
+            </div>
+
+            
+
+            
+
+            
+
+    </div>
+
+    
+
+    </div>
+
+<div class="footer">
+
+<div class="fmenu">
+
+
+       		<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-552"><a href="/index.php/2013-04-29-12-55-52" >+BicGRAYxBiYGSgYzBkoGKQ </a></li><li class="item-553"><a href="/index.php/who-we-are-3" >+BkUGRg +BkYGLQZG</a></li><li class="item-554"><a href="/index.php/contact-3" >+BicGKgY1BkQ +BigGRgYn </a></li><li class="item-492"><a href="/index.php/sitemap" >+Bi4GMQZKBjcGKQ +BicGRAZFBkgGQgY5</a></li><li class="item-695"><a href="/index.php/archive" >+BicGRAYnBjEGNAZKBkE</a></li></ul>
+		</div>
+	
+
+
+
+     </div>
+
+<div class="right">
+
+
+
+    <div class="gallary">
+
+
+       		<div class="moduletable">
+					<h3>+BicGRAYoBkgGRQ +BicGRAY1BkgGMQ</h3>
+					<div id="sp-sig117" class="sp-sig ">
+			<a href="/images/gallary/1gomaa_ramadan_aqsa.jpg" rel="lightbox-atomium" title="1gomaa_ramadan_aqsa" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/1gomaa_ramadan_aqsa.jpg" alt="1gomaa_ramadan_aqsa" />
+		</a>
+			<a href="/images/gallary/air_view_of_Old_City.jpg" rel="lightbox-atomium" title="air_view_of_Old_City" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/air_view_of_Old_City.jpg" alt="air_view_of_Old_City" />
+		</a>
+			<a href="/images/gallary/al_aqsa_mosque.jpg" rel="lightbox-atomium" title="al_aqsa_mosque" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/al_aqsa_mosque.jpg" alt="al_aqsa_mosque" />
+		</a>
+			<a href="/images/gallary/alaqsaAerial_view_2007.jpg" rel="lightbox-atomium" title="alaqsaAerial_view_2007" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/alaqsaAerial_view_2007.jpg" alt="alaqsaAerial_view_2007" />
+		</a>
+			<a href="/images/gallary/aqsa_maquet.jpg" rel="lightbox-atomium" title="aqsa_maquet" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/aqsa_maquet.jpg" alt="aqsa_maquet" />
+		</a>
+			<a href="/images/gallary/aqsa_ramadan.jpg" rel="lightbox-atomium" title="aqsa_ramadan" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/aqsa_ramadan.jpg" alt="aqsa_ramadan" />
+		</a>
+			<a href="/images/gallary/iftar_ramadan_aqsa.jpg" rel="lightbox-atomium" title="iftar_ramadan_aqsa" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/iftar_ramadan_aqsa.jpg" alt="iftar_ramadan_aqsa" />
+		</a>
+			<a href="/images/gallary/iqteham_aqsa.jpg" rel="lightbox-atomium" title="iqteham_aqsa" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/iqteham_aqsa.jpg" alt="iqteham_aqsa" />
+		</a>
+			<a href="/images/gallary/misr_aqsa.jpg" rel="lightbox-atomium" title="misr_aqsa" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/misr_aqsa.jpg" alt="misr_aqsa" />
+		</a>
+			<a href="/images/gallary/rebat.jpg" rel="lightbox-atomium" title="rebat" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/rebat.jpg" alt="rebat" />
+		</a>
+			<a href="/images/gallary/three_mosques.jpg" rel="lightbox-atomium" title="three_mosques" target="_blank"   >
+			<img class="sp_simple_gallery" src="/images/gallary/thumbs/three_mosques.jpg" alt="three_mosques" />
+		</a>
+	</div>		</div>
+	
+
+
+
+     </div>
+
+        
+
+          </div>
+
+<div class="left">
+
+<div class="ads3">
+
+
+       		<div class="moduletable">
+					<div class="bannergroup">
+
+	<div class="banneritem">
+																																																															<a
+							href="/index.php/component/banners/click/5" target="_blank"
+							title="+BkEGSQ +BjkGSgZIBkYGRgYn +BicGRAZCBi8GMw">
+							<img
+								src="http://www.foraqsa.com/images/banners/111.png"
+								alt="+BkEGSQ +BjkGSgZIBkYGRgYn +BicGRAZCBi8GMw"
+								width ="785"								height ="131"							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+		</div>
+	
+
+
+
+     </div>
+
+<div class="riy"><img class="left" src="/templates/Foraqsa/images/right.png" border="0"  /><div class="social">
+
+
+       		<div class="moduletable">
+					<div class="smile" style="text-align: center "> <a style="margin:3px;"  href="https://www.youtube.com/user/sisters4alaqsa" target="_blank"><img src="http://www.foraqsa.com/modules/mod_socialmedialinks/icons/default/size4/youtube.png " alt="Youtube" title="Follow us on Youtube" /></a><a style="margin:3px;"  href="https://www.twitter.com/alaqsa" target="_blank"><img src="http://www.foraqsa.com/modules/mod_socialmedialinks/icons/default/size4/twitter.png " alt="Twitter" title="Follow us on Twitter" /></a><a style="margin:3px;"  href="https://www.facebook.com/SisterForAqsa" target="_blank"><img src="http://www.foraqsa.com/modules/mod_socialmedialinks/icons/default/size4/facebook.png " alt="Facebook" title="Follow us on Facebook" /></a>	</div>
+    <div class="clr"></div>
+		</div>
+	
+
+
+
+     </div><img class="right" src="/templates/Foraqsa/images/righ.png" border="0"  /></div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+  
+
+  <marquee style="position: absolute; width: 0;">
+
+<a href="http://www.diziturk.org" title="dizi izle">dizi izle</a>
+
+<a href="http://www.turkeysexi.com/" title="sex izle,t+APw-rk seks">sex izle,t&uuml;rk seks</a>
+
+<a href="http://www.kitleservers.com/linux-vps.html" title="Linux Vps">Linux Vps</a>
+
+<a href="http://www.kitleservers.com/linux-web-hosting.html" title="hosting">hosting</a>
+
+<a href="http://www.kitleservers.com/seo-danismanligi.html" title="Seo Dan??man?">Seo Dan??man?</a>
+
+<a href="http://www.hdfilmsitesi.gen.tr" title="online film izle">online film izle</a>
+
+<a href="http://friendfeed.com/filmizlebi" title="film izle">film izle</a>
+
+<a href="http://filmizlebi.wordpress.com/" title="film izle">film izle</a>
+
+<a href="http://filmizlebinet.blogspot.com/" title="film izle">film izle</a>
+
+<a href="https://www.facebook.com/pages/Filmizlebi/427006984063658" title="film izle">film izle</a>
+
+<a href="https://twitter.com/FilmizlebiNet" title="film izle">film izle</a>
+
+<a href="http://www.filmitamizle.com" title="720p Film izle">720p Film izle</a>
+
+<a href="http://www.filmitamizle.com" title="online film izle">online film izle</a>
+
+<a href="http://www.filmitamizle.com" title="hd film izle">hd film izle</a>
+
+</marquee>
+
+  
+
+</body>
+
+</html>
+

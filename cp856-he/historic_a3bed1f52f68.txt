@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="WINDOWS-1255"?>
+<?xml version="1.0" encoding="cp856"?>
 <!--
 Source: http://www.info.org.il/rss/rss.php
 Expect: windows-1255

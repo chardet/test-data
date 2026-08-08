@@ -1,0 +1,574 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml+xml;charset=johab" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<title> º—­¡‹¡´ó·WÐs ¬á¶‰µeÐsÒA</title>
+<link rel="stylesheet" type="text/css" href="/common/css/common.css?20140408" />
+<script type="text/javascript" src="/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript" src="/common/js/_basicFunction.js"></script>
+<title> º—­¡‹¡´ó·WÐs ¬á¶‰µeÐsÒA</title>
+<link rel="stylesheet" type="text/css" href="/common/css/etc.css" />
+
+<script language="JavaScript">
+<!--
+
+//-->
+</script>
+</head>
+<body>
+<!-- skipnavi -->
+<div id="skipnavi">
+	<a href="#container">¥¥¢…¤a¡ˆa‹¡</a>
+</div>
+<!-- //skipnavi -->
+<!-- wrap -->
+<div id="wrap">
+
+	<!-- TopMenu  -->
+	
+	<form name="topLoginForm" method="post" style="margin: 0; padding: 0;">
+		<input type="hidden" name="RETURL" value="/etc/search/search.board.asp">
+	</form>
+
+	<script type="text/javascript">
+	<!--
+		function goTopLogin()
+		{
+			var isLoginUser = false;
+
+			if( !isLoginUser )
+			{
+				if(confirm("¡‹a·¥ Ò ·¡¶wˆa“wÐs“¡”a.\n\n¡‹a·¥ Ða¯¡‰V¯s“¡Œa?"))
+				{
+					document.topLoginForm.action="/login/login.asp"
+					document.topLoginForm.submit();
+				}
+			}
+
+			return isLoginUser;
+		}
+
+		function targetTopLogin(targetURL)
+		{
+			var isLoginUser = false;
+
+			if( !isLoginUser )
+			{
+				if(confirm("¡‹a·¥ Ò ·¡¶wˆa“wÐs“¡”a.\n\n¡‹a·¥ Ða¯¡‰V¯s“¡Œa?"))
+				{
+					if(targetURL != "" && targetURL != null)
+					{
+						document.topLoginForm.RETURL.value = targetURL;
+					}
+					document.topLoginForm.action = "/login/login.asp";
+					document.topLoginForm.submit();
+				}
+			}
+
+			return isLoginUser;
+		}
+	//-->
+	</script>
+	
+	<script type="text/javascript">
+	<!--
+		var ajax_gugun_top;
+		// AJAX ¸å­·
+		function getXmlHttpRequest_top() {
+			if(window.ActiveXObject){
+				try{
+					return new ActiveXObject("Msxml2.XMLHTTP");
+					// ´aœ Microsoft.XMLHTTP¥¡”a ¬¡¶… ¤á¸å-> å¸á ¬—¬÷¯¡•¡
+				} catch(e) {
+					try{
+						return new ActiveXObject("Microsoft.XMLHTTP");
+					}catch(e2){
+						return null;
+					}
+				}
+			} else if(window.XMLHttpRequest){
+				return new XMLHttpRequest();
+				// IE ·¡¶AµA Ìa·¡´áÍ¢¯a, µ¡ÍAœa ˆ{·e §aœa¶¸áµA¬á XMLRequest ˆ‚ÁA ŠÐa‹¡
+			}else{
+				return null;
+			}
+		}
+	
+	
+		// ” ÄaÉA‰¡Ÿ¡ ¬åÈ‚ Ðq®
+		function select_cate2_top(sel) {
+			var index = sel.selectedIndex;
+			//================ ÄaÉA‰¡Ÿ¡ ˆñ¬‚·i ¶áÐe AJAX ====================
+			ajax_gugun_top = getXmlHttpRequest_top();
+			ajax_gugun_top.onreadystatechange = function() {
+				if(ajax_gugun_top.readyState == 4){
+					if(ajax_gugun_top.status == 200){
+						if(typeof(document.getElementById("div_gugun2_top")) == "object"){
+							document.getElementById("div_gugun2_top").innerHTML = ajax_gugun_top.responseText;
+						}
+					}
+				}
+			}
+			ajax_gugun_top.open("GET", "/common/asp/ajax.category.asp?cate1=" + sel.options[index].value, true);
+			ajax_gugun_top.send(null);
+		}
+	
+	
+		// ” ÄaÉA‰¡Ÿ¡ ¬åÈ‚ Ðq®
+		function select_cate_top(sel) {
+			var index = sel.selectedIndex;
+			//================ ÄaÉA‰¡Ÿ¡ ˆñ¬‚·i ¶áÐe AJAX ====================
+			ajax_gugun_top = getXmlHttpRequest_top();
+			ajax_gugun_top.onreadystatechange = function() {
+				if(ajax_gugun_top.readyState == 4){
+					if(ajax_gugun_top.status == 200){
+						if(typeof(document.getElementById("div_gugun2_top")) == "object"){
+							document.getElementById("div_gugun2_top").innerHTML = ajax_gugun_top.responseText;
+						}
+					}
+				}
+			}
+			ajax_gugun_top.open("GET", "/common/asp/ajax.category.asp?cate2=&cate1=" + sel, true);
+			ajax_gugun_top.send(null);
+		}
+	
+	
+		function select_area_top(sel)
+		{
+			var index = sel.selectedIndex;
+			//================ ÄaÉA‰¡Ÿ¡ ˆñ¬‚·i ¶áÐe AJAX ====================
+			ajax_gugun_top = getXmlHttpRequest_top();
+	
+			ajax_gugun_top.onreadystatechange = function()
+			{
+				if(ajax_gugun_top.readyState == 4)
+				{
+					if(ajax_gugun_top.status == 200)
+					{
+						if(typeof(document.getElementById("div_area2_top")) == "object")
+						{
+							  document.getElementById("div_area2_top").innerHTML = ajax_gugun_top.responseText;
+						}
+					}
+				}
+			}
+	
+			  ajax_gugun_top.open("GET", "/common/asp/area.asp?area1=" + sel, true);
+			  ajax_gugun_top.send(null);
+		}
+		
+	//-->
+	</script>
+	
+	
+	<!-- header -->
+	<div id="header">
+		<div class="header_wrap">
+			<h1><a href="/"><img src="/images/common/logo.jpg" alt="º—­¡‹¡´ó·WÐs ¬á¶‰µeÐsÒA" /></a></h1>
+			<div class="search">
+				<form action="/etc/search/search.board.asp" method="get">
+					<fieldset>
+						<legend>ˆñ¬‚</legend>
+						<div class="search_wrap">
+							<input class="search_input" type="text" title="ˆñ¬‚´á ·³bÀw" name="keyword" /><input type="image" src="/images/common/search_btn.gif" alt="ˆñ¬‚" />
+						</div>
+					</fieldset>
+				</form>
+				<form action="/profile/list.profile.asp" method="post">
+					<a class="detail_btn" href="#"><img src="/images/main/detail_search_btn.gif" alt="¬w­Aˆñ¬‚" /></a>
+					<fieldset class="detail_search">
+						<legend>ÒA¶¥ˆñ¬‚</legend>
+						<div>
+							<input class="detail_input" type="text" title="ˆñ¬‚´á ·³bÀw" name="keyword" /><input type="image" src="/images/common/detail_search_btn.gif" alt="ˆñ¬‚" />
+							<dl>
+								<dt><img src="/images/common/search_title1.gif" alt="µ³­e¬aÐw" /></dt>
+								<dd class="first">
+									<ul>
+										<li>
+											<input type="checkbox" name="option" id="option1" value="ˆ·¥¬a´ó¸a" /><label for="option1">ˆ·¥¬a´ó¸a</label>
+										</li>
+										<li>
+											<input type="checkbox" name="option" id="option2" value="¤ó·¥¬a´ó¸a" /><label for="option2">¤ó·¥¬a´ó¸a</label>
+										</li>
+										<li>
+											<input type="checkbox" name="option2" id="option3" value="§¡¬w¸w" /><label for="option3">§¡¬w¸w</label>
+										</li>
+										<li>
+											<input type="checkbox" name="option2" id="option4" value="ºŠ¥¬w¸w" /><label for="option4">ºŠ¥¬w¸w</label>
+										</li>
+										<li class="last">
+											<input type="checkbox" name="option2" id="option5" value="Å¡¯a”b¬w¸w" /><label for="option5">Å¡¯a”b¬w¸w</label>
+										</li>
+									</ul>
+								</dd>
+								<dt><img src="/images/common/search_title2.gif" alt="´ó¹·¥i ¬åÈ‚" /></dt>
+								<dd>
+									<span style="float:left">
+										
+										<select name="cate1" onChange="javascript:select_cate2_top(this);" title="1Àa ´ó¹· ¬åÈ‚">
+											<option value="">1Àa ´ó¹··i ¬åÈ‚Ða­A¶a</option>
+											
+											<option value="1">¬—¬e ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="2">•¡­¡  ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="3">¢‰ŸAÚý¶…® ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="4">IT ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="5">‹qÑwÚý¬aÂ‰ ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="6">µE»¡“¡´áŸ· ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="7">¹AÎ‘¯¡ÐñÚý¬é‰ ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="8">‰×‰¡Úý—¡¸a·¥ ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="9">·¥­áÂ‰ÌeÚýµw¬wÚýÉ·¯¥ ¸å¢…‹¡´óŠ…</option>
+											
+											<option value="10">»¡¯¢¸å¢…ˆaÚý¬a´ó¬á§¡¯a ‹¡´óŠ…</option>
+											
+											<option value="11">‹¡Èa ‹¡´óŠ…</option>
+											
+										</select>&nbsp;
+									</span>
+									<span id="div_gugun2_top" style="float:left">
+										<select name="cate2" title="2Àa ´ó¹· ¬åÈ‚">
+											<option value="">2Àa ´ó¹··i ¬åÈ‚Ða­A¶a</option>
+										</select>
+									</span>
+								</dd>
+								<dt><img src="/images/common/search_title3.gif" alt="»¡µb¥i ¬åÈ‚" /></dt>
+								<dd>
+									<select name="area1" class="select" onChange="javascript:select_area_top(this.value);" title="»¡µb ¬åÈ‚">
+										<option value="">»¡µb·i ¬åÈ‚Ða­A¶a</option>
+										
+										<option value="‰w‹¡">‰w‹¡</option>
+										
+										<option value="¬á¶‰">¬á¶‰</option>
+										
+									</select>
+									<span id="div_area2_top">
+										<select name="area2" class="select" title="¬w­A»¡µb ¬åÈ‚">
+										  <option value="">¬w­A»¡µb·i ¬åÈ‚Ða­A¶a</option>
+										</select>
+									</span>
+								</dd>
+								<dt><img src="/images/common/search_title4.gif" alt="ŠaŸAÒA ˆñ¬‚" /></dt>
+								<dd>
+									<select title="ŠaŸAÒA ¬åÈ‚" name="kyo">
+										<option value="">ŠaŸAÒAŸi ¬åÈ‚Ða­A¶a</option>
+										
+										<option value="22" >2NE2ŠaŸAÒA</option>
+										
+										<option value="1" >ˆaœqŠaŸAÒA</option>
+										
+										<option value="28" >ˆa¥¡ŠaŸAÒA</option>
+										
+										<option value="2" >ˆw­¡ŠaŸAÒA</option>
+										
+										<option value="3" >‹¡´óaœa¡¡·±ŠaŸAÒA</option>
+										
+										<option value="25" >a¡¡ŠaŸAÒA</option>
+										
+										<option value="24" >–¡¢ŠaŸAÒA</option>
+										
+										<option value="5" >¡¡œeŠaŸAÒA</option>
+										
+										<option value="7" >¢»¡ˆÇiœóŠaŸAÒA</option>
+										
+										<option value="8" >¬á¶‰Í¡œñŠaŸAÒA</option>
+										
+										<option value="9" >­¡­¡ŠaŸAÒA</option>
+										
+										<option value="10" >¶Ÿ¡ŠaŸAÒA</option>
+										
+										<option value="27" >·¡ŸBŠaŸAÒA</option>
+										
+										<option value="11" >·¡¡¢ŠaŸAÒA</option>
+										
+										<option value="12" >·¡¶ŠaŸAÒA</option>
+										
+										<option value="13" >·©‰wŠaŸAÒA</option>
+										
+										<option value="23" >¸÷·¥Í¡œñŠaŸAÒA</option>
+										
+										<option value="32" >Àw¹¡·WÐsŠaŸAÒA</option>
+										
+										<option value="14" >À÷¡wŠaŸAÒA</option>
+										
+										<option value="15" >Å¡œá¯aŠaŸAÒA</option>
+										
+										<option value="16" >Çe a·qŠaŸAÒA</option>
+										
+										<option value="29" >Ìiº—ŠaŸAÒA</option>
+										
+										<option value="17" >FOR1ŠaŸAÒA</option>
+										
+										<option value="26" >G¤‰Ÿ¡ŠaŸAÒA</option>
+										
+										<option value="30" >ICT·WÐsŠaŸAÒA</option>
+										
+										<option value="18" >NTBŠaŸAÒA</option>
+										
+									</select>
+								</dd>
+							</dl>
+							<button type="button" class="particulars_bt"><img src="/images/common/detail_close_btn.gif" alt="¬w­Aˆñ¬‚ ”h‹¡" /></button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<ul class="util">
+		
+			<li><a href="/login/login.asp">¡‹a·¥</a></li>
+		
+			<li><a href="/member/signup/signup1.asp">ÒA¶¥ˆa·³</a></li>
+			<li><a href="/mypage/mypage.asp"> a·¡ÍA·¡»¡</a></li>
+			<li class="last"><a href="/etc/sitemap/sitemap.asp">¬a·¡Ëa “</a></li>
+		</ul>
+		<ul class="nav" id="gnb">
+			<li class="nav_title"><a href="/gathering/index.asp"><img src="/images/common/gnb_title1_off.gif" alt="ŠaŸAÒA" /></a>
+				<ul>
+					<li><a href="/gathering/member/list.board.asp">ŠaŸAÒA ¸÷¥¡</a></li>
+					<li><a href="/gathering/boardall/list.board.asp">ŠaŸAÒA ­¡¯¢</a></li>
+				</ul>
+			</li>
+			<li class="nav_title"><a href="/profile/list.profile.asp"><img src="/images/common/gnb_title2_off.gif" alt="ÒA¶¥¬a" /></a>
+				<ul class="title_list2">
+					<li><a href="/profile/list.profile.asp">ÒA¶¥¬a ¸÷¥¡</a></li>
+					<li><a href="/profile/board/list.board.asp">ÒA¶¥¬a •·¸÷</a></li>
+				</ul>
+			</li>
+			<li class="nav_title"><a href="/club/introduction/list.board.asp?search_gubun=‰©Ïa•·Ñ¡ÒA"><img src="/images/common/gnb_title3_off.gif" alt="•·Ñ¡ÒA" /></a>
+				<ul class="title_list3">
+					<li><a href="/club/introduction/list.board.asp?search_gubun=‰©Ïa•·Ñ¡ÒA">º—‹¡·WÐs‰©Ïa•·Ñ¡ÒA</a></li>
+					<li><a href="/club/introduction/list.board.asp?search_gubun=¬e´b•·Ñ¡ÒA">·¡¬e¬e´bÒA</a></li>
+				</ul>
+			</li>
+			<li class="nav_title"><a href="/business/sell/list.sell.asp"><img src="/images/common/gnb_title4_off.gif" alt="§¡»¡“¡¯a" /></a>
+				<ul class="title_list4">
+					<li><a href="/business/sell/list.sell.asp">Ìs“¡”a</a></li>
+					<li><a href="/business/buy/list.buy.asp">¬s“¡”a</a></li>
+					<li><a href="/business/pr/list.pr.asp">¬wÎ‘­¡ˆ</a></li>
+					<li><a href="/business/convention/list.convention_member.asp">´ó¢Ñs´¢</a></li>
+				</ul>
+			</li>
+			<li class="nav_title"><a href="/information/government/list.government.asp"><img src="/images/common/gnb_title5_off.gif" alt="¸÷¥¡‰×¸w" /></a>
+				<ul class="title_list5">
+					<li><a href="/information/government/list.government.asp">¸÷¦¸÷À‚ ¸÷¥¡</a></li>
+					<li><a href="/information/enterprise/list.enterprise.asp">‹¡´ó»¡¶¥¸÷¥¡</a></li>
+					<li><a href="/information/convergence/list.convergence.asp">·W¥¢Ðs ¸÷¥¡</a></li>
+				</ul>
+			</li>
+			<li class="nav_title"><a href="/coalition/introduction/introduction.asp"><img src="/images/common/gnb_title6_off.gif" alt="µeÐsÒA" /></a>
+				<ul class="title_list6">
+					<li><a href="/coalition/introduction/introduction.asp">µeÐsÒA ­¡ˆ</a></li>
+					<li><a href="/coalition/notice/list.notice.asp">µeÐsÒA ‰·»¡</a></li>
+					<li><a href="/coalition/news/list.news.asp">µeÐsÒA ¥¡‰¡</a></li>
+					<li><a href="/coalition/broadcast/list.broadcast.asp">µeÐsÒA ¥¡•¡¸aža</a></li>
+					<li><a href="/coalition/schedule/list.board.asp">µeÐsÒA ·©¸÷</a></li>
+					<li><a href="/coalition/gallery/list.gallery.asp">¬a»¥ˆ‰œáŸ¡</a></li>
+					<li class="gnb_last"><a href="/coalition/faq/list.faq.asp">FAQ</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="gnb_bg">
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- // TopMenu  -->
+
+	<!-- container -->
+	<div id="container">
+		<div class="contents">
+			<div class="contents_title">
+				<h2><img src="/images/etc/etc_search_h2.gif" alt="ˆñ¬‚‰i‰Á" /></h2>
+				<p class="location">Ñ± > ETC > <span>ˆñ¬‚‰i‰Á</span></p>
+			</div>
+			<div class="etc_search">
+				<form action="/etc/search/search.board.asp" method="get" name="searchForm">
+				<input type="text" title="ˆñ¬‚´á ·³bÀw" name="keyword" value=""/>
+				<a href="#" onclick="document.searchForm.submit();"><img src="/images/etc/esearch_btn.jpg" alt="ˆñ¬‚" /></a>
+				</form>
+				<p>ˆñ¬‚´á <span>[]</span>µA ”Ðe ˆñ¬‚ ‰i‰Á·³“¡”a.</p>
+			</div>
+			<div>
+				<iframe src="list.member.asp?keyword=" frameborder="0" width="652" title="ÒA¶¥ ˆñ¬‚ ‰i‰Á" name="replyList1" id="replyList1"></iframe>
+			</div>
+			<div>
+				<iframe src="list.board.asp?keyword=" frameborder="0" width="652" title="‰A¯¡Ìe ˆñ¬‚ ‰i‰Á" name="replyList2" id="replyList2"></iframe>
+			</div>
+			<div>
+				<iframe src="list.schedule.asp?keyword=" frameborder="0" width="652" title="·©¸÷ ˆñ¬‚ ‰i‰Á" name="replyList3" id="replyList3"></iframe>
+			</div>
+		</div>
+		
+		<!-- RightMenu  -->
+		
+		<div class="side_contents">
+			<a href="/member/signup/signup1.asp"><img class="join" src="/images/gathering/aside_banner1.jpg" alt="º—­¡‹¡´ó·WÐs ¬á¶‰µeÐsÒA º—­¡‹¡´ó ÂA‰¡· Äá£A“¡Ë¡ ˆa·³¯¥À÷Ða‹¡" /></a>
+			
+			<div class="lnb">
+				<h3 class="lnb_cate"><img src="/images/gathering/lnb_h3.gif" alt="CATEGORY" /></h3>
+				<dl>
+					<dt>ETC</dt>
+					<dd><a href="/etc/ask/ask.asp">‰×‰¡¢…·</a></dd>
+					<dd><a href="/etc/policy/policy.asp">ˆ·¥¸÷¥¡Âá‹s¤wÃ±</a></dd>
+					<dd><a href="/etc/policy/clause.asp">·¡¶w´¢‰Å</a></dd>
+					<dd><a href="/etc/search/search.board.asp">ˆñ¬‚‰i‰Á</a></dd>
+					<dd class="last"><a href="/etc/sitemap/sitemap.asp">¬a·¡Ëa “</a></dd>
+				</dl>
+			</div>
+			
+			<div class="tab_aside">
+				<h3 class="lnb_cate"><img src="/images/gathering/notice_aside_h3.gif" alt="µeÐsÒA ‰·»¡" /></h3>
+				<ul>
+				
+					<li><a href="/coalition/notice/view.notice.asp?num=811&page=1">ÒA¶¥¬a DB(•A·¡Èá¥A·¡¯a) ¹¡¬aµA..</a></li>
+				
+					<li><a href="/coalition/notice/view.notice.asp?num=810&page=1">4”¤ó¸÷·¢Ša·B »¡¶¥¬a´ó ˆ¯¡!..</a></li>
+				
+				</ul>
+				<a class="aside_more" href="/COALITION/notice/list.notice.asp"><img src="/images/common/more_btn.gif" alt="µeÐsÒA ‰·»¡ ”á¥¡‹¡" /></a>
+			</div>
+			<div class="tab_aside">
+				<h3 class="lnb_cate"><img src="/images/gathering/news_aside_h3.gif" alt="µeÐsÒA ­¡¯¢" /></h3>
+				<ul>
+				
+					<li><a href="/coalition/news/view.news.asp?num=61&page=1">ÒA¶¥¬a Èq¤w &lt;4&gt; (º)µA¯a..</a></li>
+				
+					<li><a href="/coalition/news/view.news.asp?num=60&page=1">ÒA¶¥¬a Èq¤w &lt;3&gt; (º)ÄŸ¡..</a></li>
+				
+				</ul>
+				<a class="aside_more" href="/COALITION/news/list.news.asp"><img src="/images/common/more_btn.gif" alt="µeÐsÒA ­¡¯¢ ”á¥¡‹¡" /></a>
+			</div>
+			<div class="tab_aside tab_last">
+				<h3 class="lnb_cate"><img src="/images/gathering/dongjung_aside_h3.gif" alt="ÒA¶¥¬a •·¸÷" /></h3>
+				<ul>
+				
+					<li><a href="/profile/board/view.board.asp?num=47&page=1">‘¡‰wÐe ”Îa ˜a“± ‰iÑ¥</a></li>
+				
+				</ul>
+				<a class="aside_more" href="#"><img src="/images/common/more_btn.gif" alt="ÒA¶¥¬a •·¸÷ ”á¥¡‹¡" /></a>
+			</div>
+			<div class="banner_aside">
+				<a class="long_banner" href="http://www.vision-tek.co.kr/" target="_blank"><img src="/images/gathering/banner_list2.jpg" alt="VisionTek" /></a>
+				<a class="long_banner" href="http://www.haion.net/" target="_blank"><img src="/images/gathering/banner_list3.jpg" alt="haionnet" /></a>
+				<a class="long_banner" href="http://www.furkorea.com/" target="_blank"><img src="/images/gathering/banner_list4.jpg" alt="samyang Fur" /></a>
+				<a class="long_banner" href="http://www.malgum.com/" target="_blank"><img src="/images/gathering/banner_list1.jpg" alt="MALGUM digital conversence group" /></a>
+				<a class="long_banner" href="http://www.smpk.co.kr/" target="_blank"><img src="/images/gathering/banner_list5.jpg" alt="°‘´…ÌaÄá¯a" /></a>
+				<a class="long_banner" href="http://www.tourbaksa.com/" target="_blank"><img src="/images/gathering/banner_list6.jpg" alt="µaÐ—¤b¬a" /></a>
+				<a class="long_banner" href="http://www.vosang.com/company/" target="_blank"><img src="/images/gathering/banner_list7.jpg" alt="—¡»¡Èi ¥¡¬w ÌaËaá DGReward" /></a>
+				<a class="long_banner" href="http://www.nonghyup.com/Branch/RegionIndex.aspx?RegionCd=0009" target="_blank"><img src="/images/gathering/banner_list8.jpg" alt="NH‘·Ñs ¬á¶‰ µw´ó¥¥¦" /></a>
+				<ul>
+					<li><a href="#"><img src="/images/gathering/banner_list9.jpg" alt="»¡µw ‘¡¢¤ó·¥" /></a></li>
+					<li><a href="http://www.animalmagazine.kr/" target="_blank"><img src="/images/gathering/banner_list10.jpg" alt="ANImaLzinega" /></a></li>
+					<li><a href="http://www.cpdflower.com/" target="_blank"><img src="/images/gathering/banner_list11.jpg" alt="ccopida" /></a></li>
+					<li><a href="#"><img src="/images/gathering/banner_list12.jpg" alt="ORONIA" /></a></li>
+					<li><a href="http://www.majortech.co.kr/" target="_blank"><img src="/images/gathering/banner_list13.jpg" alt="MAJORTECH" /></a></li>
+					<li><a href="http://www.gangjungpong.co.kr/" target="_blank"><img src="/images/gathering/banner_list14.jpg" alt="JM º¸÷¡wœa·¥" /></a></li>
+					<li><a href="#"><img src="/images/gathering/banner_list15.jpg" alt="BIKE R&D" /></a></li>
+					<li><a href="http://www.litepharm.com/" target="_blank"><img src="/images/gathering/banner_list16.jpg" alt="LitePharmTceh" /></a></li>
+					<li><a href="http://www.kccpr.co.kr/" target="_blank"><img src="/images/gathering/banner_list17.jpg" alt="KCC" /></a></li>
+					<li><a href="#"><img src="/images/gathering/banner_list18.jpg" alt="GIO-LITE" /></a></li>
+				</ul>
+			</div>
+
+		
+				
+		
+		<!-- // RightMenu  -->
+		
+	</div>
+	<!-- //container -->
+	
+	<!-- FooterMenu  -->
+		<!-- quick_menu -->
+	<div class="quick_menu">
+		<a href="/member/signup/signup1.asp"><img src="/images/common/quick_menu1.gif" alt="ˆa·³´e" /></a>
+		<a href="/business/convention/guide.asp"><img src="/images/common/quick_menu2.gif" alt="¹AÓA¢…·" /></a>
+		<a href="/etc/ask/ask.asp"><img src="/images/common/quick_menu3.gif" alt="‰×‰¡´e" /></a>
+		<a class="quick_edu" href="/education/education01.asp"><img src="/images/common/quick_menu4.gif" alt="¸÷¦»¡¶¥Ša·B" /></a>
+	</div>
+	<!-- //quick_menu -->
+	<!-- // FooterMenu  -->
+
+</div>
+<!-- //wrap -->
+
+<!-- FooterMenu  -->
+<!-- footer_wrap -->
+<div class="footer_wrap">
+	<!-- footer -->
+	<div id="footer">
+		<img class="foot_logo" src="/images/common/foot_logo.gif" alt="º—­¡‹¡´ó·WÐs ¬á¶‰µeÐsÒA" />
+		<div class="foot_info">
+			<ul>
+				<li><a href="/coalition/introduction/map.asp">µeÐsÒA ­¡ˆ</a></li>
+				<li><a href="/etc/ask/ask.asp">‰×‰¡´e</a></li>
+				<li><a href="/business/convention/guide.asp">´ó¢Ñs´¢</a></li>
+				<li class="finfo_bold"><a href="/etc/policy/policy.asp">ˆ·¥¸÷¥¡Âá‹s¤wÃ±</a></li>
+				<li class="finfo_last"><a href="/etc/policy/clause.asp">·¡¶w´¢‰Å</a></li>
+			</ul>
+			<select name="select" onChange="window.open(this.options[this.selectedIndex].value,'_blank')" title="·A‰Å ¬a·¡Ëa">
+				<option selected >·A‰Å ¬a·¡Ëa</option>
+				<option value="http://www.mke.go.kr">&nbsp;»¡¯¢‰w¹A¦</option>
+				<option value="http://www.moel.go.kr/index.jsp">&nbsp;‘¡•·¦</option>
+				<option value="http://www.smba.go.kr/user.tdf?a=user.index.IndexApp&c=1001&MC=SMBA&open=y">&nbsp;º—‹¡À÷</option>
+                <option value="http://www.sbc.or.kr/">&nbsp;º—­¡‹¡´ó»¥Ów‰·”e</option>
+                <option value="http://www.greenbiz.go.kr/Index">&nbsp;º—‹¡´ó‹aŸ¥‘U</option>
+                <option value="http://www.bizinfo.go.kr">&nbsp;Biz Info</option>
+                <option value="http://www.cseia.org.tw">&nbsp;(¬a)º—ÑÁº—­¡‹¡´ó..</option>
+			</select>
+			
+			<select name="select" onChange="window.open(this.options[this.selectedIndex].value,'_blank')" title="º—´wÒA £¹ »¡µb µeÐsÒA">
+				<option selected >º—´wÒA £¹ »¡µb µeÐsÒA</option>
+				<option value="http://www.koshba.or.kr">&nbsp;º—´wÒA</option>
+				<option value="http://seoul.koshba.or.kr">&nbsp;¬á¶‰µeÐsÒA</option>
+				<option value="http://bs.koshba.or.kr">&nbsp;¦¬eµeÐsÒA</option>
+                <option value="http://www.eupjong-ic.or.kr">&nbsp;·¥ÀåµeÐsÒA</option>
+                <option value="http://www.2up.or.kr">&nbsp;”¸åÂ—qµeÐsÒA</option>
+                <option value="http://ul.koshba.or.kr">&nbsp;¶‰¬eµeÐsÒA</option>
+                <option value="http://gg.koshba.or.kr">&nbsp;‰w‹¡µeÐsÒA</option>
+				<option value="http://kw.koshba.or.kr">&nbsp;ˆw¶¥µeÐsÒA</option>
+				<option value="http://www.eupkorea.com">&nbsp;Â—¦‚µeÐsÒA</option>
+				<option value="http://jb.koshba.or.kr">&nbsp;¸å¦‚µeÐsÒA</option>
+				<option value="http://www.gn2up.com">&nbsp;‰wqµeÐsÒA</option>
+				<option value="http://cj.koshba.or.kr">&nbsp;¹AºµeÐsÒA</option>
+			</select>
+						
+			<address><span>¬a”e¤ó·¥ º—­¡‹¡´ó·WÐs ¬á¶‰µeÐsÒA</span><span>¶Íe¤åÑ¡(08503) ¬á¶‰¯¡ ‹qÀåŠ ˆa¬e—¡»¡Èé1¡ 181 ˆa¬eW­EÈá 404Ñ¡</span><span>Tel. 02-2645-2300</span>Fax. 02-6455-4199</address>
+			<p class="copy">Copyright &copy; º—­¡‹¡´ó·WÐs ¬á¶‰µeÐsÒA. All Rights Reserved.</p>
+		</div>
+	</div>
+	<!-- //footer -->
+</div>
+<!-- //footer_wrap -->
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42740054-1', 'koshba.or.kr');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- // FooterMenu  -->
+	
+</body>
+</html>
+
+
+
