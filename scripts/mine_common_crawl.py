@@ -729,13 +729,22 @@ def classify(candidate: Candidate) -> str:
     # but only when those sequences actually occur.
     escape_based = codec.startswith(("iso2022", "hz"))
     has_escapes = b"\x1b$" in body or b"\x1b(" in body or b"~{" in body
-    has_signal = (
-        has_escapes if escape_based else candidate.non_ascii_bytes >= MIN_NON_ASCII
-    )
+    # UTF-16/32 encode Latin text as ASCII bytes interleaved with NULs, so
+    # counting bytes above 0x7F reads near zero and every such page looks
+    # like it carries no evidence.  Their signal is structural: the file
+    # decodes as a wide encoding and yields real text.  Without this the
+    # utf-16-le/be and utf-32 directories can never be filled from a crawl.
+    wide = codec.startswith(("utf-16", "utf-32"))
+    if escape_based:
+        has_signal = has_escapes
+    elif wide:
+        has_signal = candidate.decode_ok and candidate.size >= MIN_BODY_BYTES
+    else:
+        has_signal = candidate.non_ascii_bytes >= MIN_NON_ASCII
     meta_codec = canonical_codec(candidate.charset_meta)
     meta_conflict = meta_codec is not None and meta_codec != codec
 
-    if not has_signal and candidate.non_ascii_bytes == 0:
+    if not has_signal and candidate.non_ascii_bytes == 0 and not wide:
         # For a page declared us-ascii, carrying no high bytes is the
         # claim being confirmed rather than a missing signal.  Every other
         # encoding is untestable in that state.
