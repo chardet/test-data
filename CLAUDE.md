@@ -84,9 +84,12 @@ that introduced it (`scripts/provenance.py`):
   *they* were obtained, and some arrived as deliberate multi-encoding sets — so
   they are deliberately not called wild.
 
-Run `python3 scripts/wild_coverage.py` for the current counts. Any commit whose
-subject starts with `Promote ` is treated as adding wild data, so keep that
-prefix when promoting candidates.
+Run `python3 scripts/wild_coverage.py` for the current counts. Provenance is
+read from the introducing commit's subject, so keep the `Promote ` prefix when
+promoting candidates. Files named `historic_`, `artpack_`, `usenet_`, `crawl_`
+or `ebcdic_` are classified by that prefix instead, because only the mining
+scripts write those names and keying solely on subject lines silently filed two
+whole batches as `suite`.
 
 Run `python3 scripts/provenance.py --check` to cross-check the git-derived
 classification against an independent signal (whether a file's decoded text
@@ -106,8 +109,13 @@ sharply by family:
 - **Web (Common Crawl)** — the Windows and ISO-8859 codepages, CJK, KOI8,
   Thai. Routine; just needs more crawl slices.
 - **Usenet / mail archives** — HZ and ISO-2022-JP exist essentially nowhere
-  else. `alt.chinese.text` and the `japan.*` hierarchy both deliver. Korean
-  Usenet used EUC-KR rather than ISO-2022-KR, so that one still needs a source.
+  else. `alt.chinese.text` and the `japan.*` hierarchy both deliver. What is
+  *not* there is settled: a census of the 454 MB of archives already cached
+  (13 mboxes, ~39,000 charset declarations) found zero `utf-7`, zero `johab`,
+  and zero of the ISO-2022-JP variants. Korean Usenet used EUC-KR, so the
+  whole `han.*` hierarchy yields exactly two `iso-2022-kr` messages, and both
+  are halves of one 360-byte MIME test post. Do not go looking again; those
+  five are transcoded.
 - **Software / BBS / disk archives** — DOS, Mac and HP codepages. CP437 is
   solved via `mine_artpacks.py`. The rest are hard for reasons worth
   recording, so nobody re-runs the same dead ends:
@@ -131,16 +139,39 @@ sharply by family:
   enter re-encoded into a supported codepage. `transcode_historic.py` does
   that with self-tested tables. The bottleneck is not the codec but surviving
   text: a 40-item sweep of Czech and Slovak DOS software found exactly one
-  usable file.
+  usable file. Its `--from-wild` mode re-encodes wild text already in the
+  tree, preferring period sources and plain text over web pages, and enforces
+  two rules worth knowing:
+  - *The output may not contradict itself.* A page re-encoded to cp862 while
+    its markup still said `windows-1255` would plant the exact contradiction
+    the detector exists to resolve into the answer key. The declaration is
+    rewritten to name the target, then checked.
+  - *The encoding has to have changed something.* Output identical to the
+    ASCII encoding of the same text is refused. Test for that by comparing
+    against ASCII, not by looking for high bytes: UTF-7 and ISO-2022 are
+    7-bit, and a high-byte test throws away every one of their transcodes.
 - **File encodings** — utf-8-sig and utf-16 live in files, not web pages.
   A 30-part crawl found one BOM-carrying page; one Microsoft sample repo
   held 2,343. Use `mine_repo_files.py`. Note that real-world UTF-16 nearly
   always carries a BOM, so `utf-16-le`/`utf-16-be`, which mean *BOM-less*
   here, remain unfilled and may describe something that barely exists.
 - **EBCDIC** (`cp037`, `cp273`, `cp424`, `cp500`, `cp875`, `cp1026`, `cp1006`,
-  `cp1140`, `cp856`) — no known public source of real files. Mainframe datasets
-  are not published as retrievable, language-labelled text. Treat these as
-  transcode-only.
+  `cp1140`, `cp856`) — mostly transcode-only, but not for the reason first
+  assumed. Real mainframe files are published; they are just usually *record*
+  data. The AWS `mainframe-data-utilities` samples decode to readable names
+  and dates yet are VB-format, with binary RDW headers and COMP fields that
+  leave 795 NULs in a 1 KB file. The usable category is RECFM=F card images:
+  fixed 80-byte records, `0x40`-padded, no NULs at all.
+  `larandvit/ebcdic-parser`'s Texas Railroad Commission gas file is one, and
+  `cp037-en` is filled from it. So the search that works is *look for card
+  images, not for text*. Four further repos scanned that way (IBM-Z-zOS,
+  copybook-rs, copybook-ts, vscode-ebcdicconverter) yielded nothing, and no
+  non-English card-image dataset has turned up yet.
+- **CP864 cannot hold logical-order Arabic at all.** Python's codec maps the
+  presentation forms in the U+FE80 block, so base letters like `ا` and `م`
+  raise `UnicodeEncodeError` and even `%` is absent. Real CP864 files store
+  shaped glyphs. Filling it needs either a genuine wild file or an Arabic
+  shaping pass, and a wrong shaper produces text a reader would call broken.
 
 ## Mining wild data
 
