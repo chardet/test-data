@@ -800,8 +800,18 @@ def refine_by_bom(codec: str, body: bytes) -> str:
     label cannot carry.  This repo keeps them in separate directories, so
     the bytes have to decide.
     """
-    if codec == "utf-8" and body.startswith(codecs.BOM_UTF8):
-        return "utf-8-sig"
+    # A UTF-8 BOM is unambiguous whatever the page claims to be.  Pages
+    # that declare a legacy charset and then open with EF BB BF are real
+    # utf-8-sig bytes, and were previously discarded as "utf8-mislabeled"
+    # -- which is true about the label but throws away good data for the
+    # one encoding a charset label can never identify.
+    if body.startswith(codecs.BOM_UTF8):
+        try:
+            body.decode("utf-8")
+        except UnicodeDecodeError:
+            pass
+        else:
+            return "utf-8-sig"
     if codec in {"utf-16-le", "utf-16-be"} and body[:2] in (
         codecs.BOM_UTF16_LE,
         codecs.BOM_UTF16_BE,
