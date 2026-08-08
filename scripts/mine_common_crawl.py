@@ -750,12 +750,36 @@ def suggested_dir(codec: str, languages: str) -> str:
     return f"{codec}-{iso1}" if iso1 else codec
 
 
+def refine_by_bom(codec: str, body: bytes) -> str:
+    """Resolve BOM-distinguished codecs from the bytes themselves.
+
+    The index reports a charset name, but utf-8 vs utf-8-sig, and utf-16
+    vs utf-16le/be, are distinctions about a byte-order mark that a charset
+    label cannot carry.  This repo keeps them in separate directories, so
+    the bytes have to decide.
+    """
+    if codec == "utf-8" and body.startswith(codecs.BOM_UTF8):
+        return "utf-8-sig"
+    if codec in {"utf-16-le", "utf-16-be"} and body[:2] in (
+        codecs.BOM_UTF16_LE,
+        codecs.BOM_UTF16_BE,
+    ):
+        return "utf-16"
+    if codec == "utf-16" and body[:2] not in (
+        codecs.BOM_UTF16_LE,
+        codecs.BOM_UTF16_BE,
+    ):
+        return "utf-16-be" if body[:1] == b"\x00" else "utf-16-le"
+    return codec
+
+
 def validate_candidate(hit: Hit, body: bytes, chardet_module) -> Candidate | None:  # noqa: ANN001
     """Run every validation signal for one fetched page."""
     codec = canonical_codec(hit.charset_index)
     if codec is None:
         print(f"  unsupported charset {hit.charset_index!r}: {hit.url[:60]}")
         return None
+    codec = refine_by_bom(codec, body)
 
     fraction: float | None = None
     try:
