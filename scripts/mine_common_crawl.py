@@ -129,6 +129,16 @@ INDEX_CHARSET_ALIASES: dict[str, str] = {
     "ibm852": "cp852",
     "ibm855": "cp855",
     "ibm866": "cp866",
+    # Python has no alias for these, though the crawl reports them.
+    "windows-949": "cp949",
+    "x-windows-949": "cp949",
+    "windows-950": "cp950",
+    "x-windows-950": "cp950",
+    "x-mac-roman": "mac-roman",
+    "x-mac-greek": "mac-greek",
+    "x-mac-turkish": "mac-turkish",
+    "x-mac-icelandic": "mac-iceland",
+    "x-mac-ce": "mac-latin2",
 }
 
 # Candidate quality thresholds.
