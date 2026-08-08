@@ -618,6 +618,12 @@ def query_hits(
     language.  Without it, mining a common charset for a rare language is
     hopeless: iso-8859-1 alone has 629k pages in a single index part, and
     the Welsh ones would never surface.
+
+    The cap counts *distinct domains*, not rows.  Ranking rows by
+    url_surtkey and taking the first N returns the alphabetically-first
+    pages, which cluster on a handful of hosts -- a 24-part scan of
+    windows-1252 yielded 2 usable candidates out of 72k pages per part
+    because nearly all of the top-ranked rows shared one domain.
     """
     language_filter = ""
     if languages:
@@ -655,16 +661,17 @@ def query_hits(
                                         url_host_registered_domain
                            ORDER BY url_surtkey
                        ) AS per_domain,
-                       row_number() OVER (
-                           PARTITION BY {partition} ORDER BY url_surtkey
-                       ) AS per_charset
+                       dense_rank() OVER (
+                           PARTITION BY {partition}
+                           ORDER BY url_host_registered_domain
+                       ) AS domain_rank
                 FROM read_parquet(?)
                 WHERE fetch_status = 200
                   AND lower(content_charset) IN (SELECT unnest(?::varchar[]))
                   {language_filter}
                   AND content_mime_detected IN ('text/html', 'application/xhtml+xml')
             )
-            WHERE per_domain <= 2 AND per_charset <= ?
+            WHERE per_domain <= 2 AND domain_rank <= ?
             """,  # noqa: S608 - fragments are literals chosen above, not input
             [part_urls, list(targets), *parameters[1:]],
         )
