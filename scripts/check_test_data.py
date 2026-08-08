@@ -133,7 +133,9 @@ LANGUAGE_SCRIPTS = {
     "portuguese": {"Latin"},
     "romanian": {"Latin"},
     "russian": {"Cyrillic"},
-    "serbian": {"Cyrillic"},
+    # Serbian is digraphic: written in both Cyrillic and Latin.  chardet's
+    # registry lists sr under windows-1250 as well as the Cyrillic pages.
+    "serbian": {"Cyrillic", "Latin"},
     "slovak": {"Latin"},
     "slovene": {"Latin"},
     "spanish": {"Latin"},

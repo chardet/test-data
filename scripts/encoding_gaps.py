@@ -78,6 +78,9 @@ _WESTERN = (
     "english", "french", "german", "spanish", "portuguese", "italian",
     "dutch", "danish", "swedish", "norwegian", "finnish", "icelandic",
     "indonesian", "malay",
+    # Celtic languages use Latin script and appear across the Western
+    # code pages; added to chardet's registry in #351.
+    "irish", "welsh", "breton",
 )
 _WESTERN_TR = (*_WESTERN, "turkish")
 _CYRILLIC = (
@@ -129,7 +132,8 @@ ENCODING_LANGUAGES: dict[str, tuple[str, ...]] = {
     "johab": ("korean",),
     # === Windows code pages ===
     "cp874": ("thai",),
-    "windows-1250": _CENTRAL_EU,
+    # Latin-script Serbian uses Windows-1250 (chardet #351).
+    "windows-1250": (*_CENTRAL_EU, "serbian"),
     "windows-1251": _CYRILLIC,
     "windows-1252": _WESTERN,
     "windows-1253": ("greek",),
@@ -139,7 +143,9 @@ ENCODING_LANGUAGES: dict[str, tuple[str, ...]] = {
     "windows-1257": _BALTIC,
     "windows-1258": ("vietnamese",),
     # === KOI8 ===
-    "koi8-r": ("russian", "bulgarian"),
+    # Bulgarian in KOI8-R is not a real-world pair; the registry lists only
+    # Russian, and the koi8-r-bg directory was removed for the same reason.
+    "koi8-r": ("russian",),
     "koi8-u": ("ukrainian",),
     # === TIS-620 ===
     "tis-620": ("thai",),
@@ -177,12 +183,13 @@ ENCODING_LANGUAGES: dict[str, tuple[str, ...]] = {
     # === DOS ===
     "cp437": (
         "english", "french", "german", "spanish", "portuguese", "italian",
-        "dutch", "danish", "swedish", "finnish",
+        "dutch", "danish", "swedish", "finnish", "irish",
     ),
     "cp737": ("greek",),
     "cp775": _BALTIC,
     "cp850": _WESTERN,
-    "cp852": _CENTRAL_EU_NO_RO,
+    # Romanian was encoded in CP852 on DOS, using cedilla forms (chardet #351).
+    "cp852": _CENTRAL_EU,
     "cp855": _CYRILLIC,
     "cp856": ("hebrew",),
     "cp857": ("turkish",),
@@ -266,6 +273,10 @@ def find_gaps(base_dir: str | Path) -> list[tuple[str, str]]:
         if len(parts) != 2:
             continue
         enc_prefix, language = parts[0], parts[1]
+        # Directories use ISO 639-1 codes since the 2026 rename, while
+        # ENCODING_LANGUAGES is keyed by full name.  Without normalizing,
+        # nothing matches and every expected pair reports as a gap.
+        language = ISO_TO_LANGUAGE.get(language, language)
         existing.add((enc_prefix, language))
 
     # Build the full expected set and find what's missing.
