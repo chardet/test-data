@@ -113,6 +113,10 @@ USENET_PAIR: dict[str, tuple[str, str]] = {
     # by the source the same way a newsgroup hierarchy implies one.
     "cp437": ("cp437", "en"),
     "cp850": ("cp850", "en"),
+    # Repository scans: BOM-identified file encodings, English sources.
+    "utf-8-sig": ("utf-8-sig", "en"),
+    "utf-16": ("utf-16", "en"),
+    "utf-32": ("utf-32", "en"),
 }
 
 
