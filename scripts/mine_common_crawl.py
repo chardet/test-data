@@ -518,6 +518,17 @@ def connect_duckdb():  # noqa: ANN201
         )
     connection = duckdb.connect()
     connection.execute("INSTALL httpfs; LOAD httpfs;")
+    # Sustained scanning earns 503s from data.commoncrawl.org.  Retry with
+    # a long backoff rather than losing a multi-minute scan to one blip.
+    for setting, value in (
+        ("http_retries", "8"),
+        ("http_retry_backoff", "4"),
+        ("http_timeout", "120000"),
+    ):
+        try:
+            connection.execute(f"SET {setting} = {value}")
+        except Exception:  # noqa: BLE001, S110 - older duckdb lacks some knobs
+            pass
     proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     if proxy:
         connection.execute("SET http_proxy = ?", [proxy.split("//", 1)[-1]])
@@ -1144,7 +1155,15 @@ def run_mine(arguments: argparse.Namespace) -> int:
             f"restricting to languages: {', '.join(requested)} "
             f"(index codes: {', '.join(languages)})"
         )
-    hits = query_hits(selected, targets, arguments.max_per_charset, languages)
+    try:
+        hits = query_hits(selected, targets, arguments.max_per_charset, languages)
+    except Exception as error:  # noqa: BLE001 - duckdb wraps HTTP failures
+        if "503" in str(error) or "Service Unavailable" in str(error):
+            sys.exit(
+                "data.commoncrawl.org returned 503 -- sustained scanning gets "
+                "rate limited.\n  Wait a few minutes, or lower --parts."
+            )
+        raise
     by_charset: dict[str, int] = {}
     for hit in hits:
         by_charset[hit.charset_index] = by_charset.get(hit.charset_index, 0) + 1
