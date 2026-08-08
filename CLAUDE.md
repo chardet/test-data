@@ -25,6 +25,30 @@ Filename prefixes indicate provenance:
 - **`scripts/check_test_data.py`** — Standalone Python 3 script (stdlib only) that validates all test files. Checks: decoding correctness, mojibake detection, control character ratios, language/script mismatches, binary file detection.
 - **`CATALOG.md`** — Comprehensive catalog documenting every file's source, provenance, size, and notable characteristics. Regenerate with `python3 scripts/regenerate_catalog.py .` (idempotent; hand-written Notes are preserved across runs).
 - **`scripts/provenance.py`** — Classifies every file as `wild`, `transcoded`, or `suite` by tracing it through git history to the commit that introduced it. Fills the catalog's Provenance column.
+- **`scripts/check_registry_sync.py`** — Verifies this repo's language tables still match chardet's `registry.py`. Run it after any chardet release that touches encoding-language associations.
+
+## Keeping in sync with chardet
+
+`encoding_gaps.ENCODING_LANGUAGES` (which encoding-language pairs we expect
+data for) and `check_test_data.LANGUAGE_SCRIPTS` (which scripts a language
+uses) restate facts that chardet's `registry.py` owns, so they drift:
+
+```bash
+uv run --project ../chardet python3 scripts/check_registry_sync.py
+```
+
+Exits non-zero on any divergence. Deliberate differences go in that script's
+`ALLOWED_DIVERGENCES` with a reason. Without chardet importable it skips
+rather than fails, keeping this repo dependency-free.
+
+**Directory names use ISO 639-1 codes** (`windows-1250-sr`, not
+`windows-1250-serbian`) since the March 2026 rename. Three separate scripts
+broke on that and were fixed later — any code matching a directory's language
+suffix must map the code through `ISO_TO_LANGUAGE` first. Two encoding names
+also collide with language codes: `utf-16-be` and `utf-32-be` are Belarusian
+in the BOM'd encoding, while `utf-16be-*` and `utf-32be-*` are big-endian.
+Resolve the language suffix *before* trying the whole name as a codec, or
+`codecs.lookup` will hand back the big-endian codec.
 - **`scripts/find_real_test_data.py`** — Downloads wild samples from the Wayback Machine, uchardet, and ENCA.
 - **`scripts/mine_common_crawl.py`** — Mines Common Crawl for pages served in rare legacy charsets (see "Mining wild data" below).
 - **`scripts/mine_usenet_hz.py`** — Mines HZ-GB-2312 posts from Internet Archive Usenet mboxes.
