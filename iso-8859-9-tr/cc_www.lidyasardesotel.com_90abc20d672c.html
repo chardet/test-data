@@ -1,0 +1,566 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-9"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lidya Sardes Thermal Hotel - Salihli</title>
+	<meta name="description" content="Lidya Sardes Thermal Hotel ile ilgili detaylı bilgilere ve resimlere ulaşabilir 
+	ve Lidya Sardes Thermal Hotel için online rezervasyon yapabirsiniz.">
+	<!-- Bootstrap -->
+    <link href="/dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/assets/css/custom.css" rel="stylesheet" media="screen">
+
+    <!-- Carousel -->
+	<link href="/examples/carousel/carousel.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	
+    <!-- Fonts -->	
+	<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:700,400,300,300italic' rel='stylesheet' type='text/css'>	
+	<!-- Font-Awesome -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css" media="screen" />
+    <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="assets/css/font-awesome-ie7.css" media="screen" /><![endif]-->
+	
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="/css/fullscreen.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/rs-plugin/css/settings.css" media="screen" />
+
+    <!-- Picker UI-->	
+	<link rel="stylesheet" href="/assets/css/jquery-ui.css" />		
+	
+    <!-- jQuery -->	
+    <script src="/assets/js/jquery.v2.0.3.js"></script>
+
+
+    	<style type="text/css">
+	.sticky {
+		position: fixed;
+		top: 100;
+		width: 100%;
+	}
+
+	.sticky + .content {
+		padding-top: 102px;
+	}
+
+
+
+
+
+</style>
+<script>
+		/*window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("telefon");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    header.classList.add("sticky");
+		  } else {
+		    header.classList.remove("sticky");
+		  }
+		}*/
+
+		
+	</script>
+	
+</head>
+<body id="top">
+
+	<!-- Top wrapper -->
+	
+
+
+<div class="hidden-md hidden-lg hidden-sm col-xs-12">
+	<img src="/media/micro_logo_yeni/lidya-sardes.jpg" alt="Lidya Sardes Thermal Hotel Logo" class="img-responsive" style="max-height:100px; margin:0 auto;"/>	
+</div>
+
+
+<div class="navbar-wrapper2 hidden-xs">
+	<div class="container">
+		<div class="navbar mtnav">
+
+			<div class="container offset-3">
+				<!-- Navigation-->
+				<div class="navbar-header">
+					<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a href="/" class="navbar-brand hidden-xs"><img src="/media/micro_logo_yeni/lidya-sardes.jpg" alt="Lidya Sardes Thermal Hotel Logo" class="logo"/></a>
+												</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="/">Anasayfa</a>
+						</li>
+						<li class="dropdown">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);">Odalar<b class="lightcaret mt-2"></b></a>
+							<ul class="dropdown-menu posright-0">
+								<li><a href="/oda/Ana-Bina-Standart-Oda_Yarim-Pansiyon">Ana Bina Standart Oda Yarım Pansiyon</a></li><li><a href="/oda/Dubleks-Bahce-Suit_Yarim-Pansiyon">Dubleks Bahçe Suit Yarım Pansiyon</a></li><li><a href="/oda/Bahce-Suit-Oda_Yarim-Pansiyon">Bahçe Suit Oda Yarım Pansiyon</a></li><li><a href="/oda/Ana-Bina-Corner-Oda_Yarim-Pansiyon">Ana Bina Corner Oda Yarım Pansiyon</a></li>							</ul>
+						</li>	
+						<li>
+							<a href="/otel-hakkinda">Otel Hakkında</a>
+						</li>
+						<li>
+							<a href="/fotograf-galerisi">Fotoğraf Galerisi</a>
+						</li>
+						<li>
+							<a href="/fiyatlar">Fiyatlar</a>
+						</li>
+						<li>
+							<a href="/iletisim">İletişim</a>
+						</li>
+						<li class="text-center">
+															<a href="tel:02362020210">
+									<strong>Bilgi ve Rezervasyon Hattı<br /><span style="color:#ff0000;">0 236 202 02 10</span></strong>
+								</a>
+							
+						</li>
+
+					</ul>
+				</div>
+				<!-- /Navigation-->			  
+			</div>
+
+		</div>
+	</div>
+</div>	<!-- /Top wrapper -->
+
+
+	<!--
+	#################################
+		- THEMEPUNCH BANNER -
+	#################################
+-->
+
+<div id="telefon" style="background-color:#565656;padding:5px; width: 101%;" class="hidden-lg hidden-sm hidden-md">
+															<h5 class="text-center" style="color:#ffffff;">Rezervasyon Hattı: <a href="tel:02362020210" style="color:#ffffff; font-size:18px;font-weight:bold;"> 0 236 202 02 10</a><br /><br /><h5>
+								
+		        </div>
+
+        
+        	<div class="row" style="position:relative;">
+        		<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+        			<img src="/media/mikro_slider_yeni/114/2.jpg?v=15.0" alt="Lidya Sardes Thermal Hotel Slider " class="img-responsive"/>        		</div>
+        		<div class="col-md-6 hidden-xs" style="padding:0px;">
+        			<img src="/media/mikro_slider_yeni/114/1.jpg?v=15.0" alt="Lidya Sardes Thermal Hotel Slider " class="img-responsive"/>        		</div>
+        		<div class="col-md-6 hidden-xs" style="padding:0px;">
+        			<img src="/media/mikro_slider_yeni/114/2.jpg?v=15.0" alt="Lidya Sardes Thermal Hotel Slider " class="img-responsive"/>        		</div>
+
+        		<div id="orta" style="position: absolute; top: 61%; margin-top: -275px; left: 50%; margin-left: -131.5px; z-index: 999;" class="hidden-xs">
+
+        			        				<img src="/images/lgmikrobg.png" class="img-responsive" style="min-width: 263px; max-width: 300px; max-height: 380px;">				
+
+        				<div class="col-xs-12" style="position: absolute; top: 50%; margin-top: -90px;  border-radius: 0; padding:0px !important;">
+
+        					<div class="col-xs-12 index-bolge-icerik-otel-detay-v3" style="width:253px; height:130px; 
+        					line-height:130px; text-align:center; padding:0 0 0 10px !important;">
+
+        					<div class="col-xs-12" style="padding:0 !important;">
+        						<img src="/media/micro_logo_yeni/lidya-sardes.jpg" alt="Lidya Sardes Thermal Hotel Logo" style="max-height:130px; display: inline-block; vertical-align: middle; max-width:213px;"/>        					</div>
+
+
+        				</div>
+        				<!-- TELEFON ve BİZ SİZİ ARAYALIM BASLANGIC -->
+
+        				<div class="col-md-12" style="padding-right:0px !important; padding-left:0px !important;">
+        					<div style="line-height:100%; font-size: 24px; padding: 0 15px 17px; font-weight: 700; color: #54437A;  background-color: transparent; text-align: center;">
+        						<span style="font-size: 18px; font-weight: 600; color: #999;">Rezervasyon </span><br>         
+        						<span><a href="tel:02362020210" style="color:#ff0000; text-decoration:none; font-weight:bold;">0 236 202 02 10</a></span>
+        					</div>
+        				</div>
+        			        			<!-- TELEFON ve BİZ SİZİ ARAYALIM BITIS -->
+        		</div>
+        	</div>
+        </div>
+
+    	<!--<div id="dajy" class="fullscreen-container mtslide sliderbg fixed">
+			<img src="/media/mikro_slider_yeni/114/1.jpg?v=2" alt="Lidya Sardes Thermal Hotel Slider " class="img-responsive"/>		</div>-->
+
+		<!--
+		##############################
+		 - ACTIVATE THE BANNER HERE -
+		##############################
+		
+		<script type="text/javascript">
+
+			var tpj=jQuery;
+			tpj.noConflict();
+
+			tpj(document).ready(function() {
+
+			if (tpj.fn.cssOriginal!=undefined)
+				tpj.fn.css = tpj.fn.cssOriginal;
+
+				tpj('.fullscreenbanner').revolution(
+					{
+						delay:9000,
+						startwidth:1170,
+						startheight:600,
+
+						onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+						thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+						thumbHeight:50,
+						thumbAmount:3,
+
+						hideThumbs:0,
+						navigationType:"bullet",				// bullet, thumb, none
+						navigationArrows:"solo",				// nexttobullets, solo (old name verticalcentered), none
+
+						navigationStyle:false,				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+						navigationHAlign:"left",				// Vertical Align top,center,bottom
+						navigationVAlign:"bottom",					// Horizontal Align left,center,right
+						navigationHOffset:30,
+						navigationVOffset:30,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						touchenabled:"on",						// Enable Swipe Function : on/off
+
+
+						stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+						stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+						hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+						hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+						hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+
+						fullWidth:"on",							// Same time only Enable FullScreen of FullWidth !!
+						fullScreen:"off",						// Same time only Enable FullScreen of FullWidth !!
+
+
+						shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+					});
+
+
+		});
+		</script>
+		
+	-->
+
+
+
+
+	<!-- WRAP -->
+
+				<div class="wrap cstyle03" style="margin-top:130px !important;">
+			
+
+			<div class="container mt-130 z-index100">		
+				<div class="row">
+					<div class="col-md-12">
+						<div class="bs-example bs-example-tabs cstyle04">
+
+					<!--<ul class="nav nav-tabs" id="myTab">
+						<li onclick="mySelectUpdate()" class="active"><a data-toggle="tab" href="#air2"><span class="flight"></span><span class="hidetext">Air</span>&nbsp;</a></li>
+						<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#hotel2"><span class="hotel"></span><span class="hidetext">Hotel</span>&nbsp;</a></li>
+						<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#car2"><span class="car"></span><span class="hidetext">Car</span>&nbsp;</a></li>
+						<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#vacations2"><span class="suitcase"></span><span class="hidetext">Vacations</span>&nbsp;</a></li>
+						<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#flighthotel2"><span class="flighthotel"></span><span class="hidetext">Flight + Hotel</span>&nbsp;</a></li>
+						<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#cruise2"><span class="cruise"></span><span class="hidetext">Cruise</span>&nbsp;</a></li>
+						<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#hotelcar2"><span class="hotelcar"></span><span class="hidetext">Hotel + Car</span>&nbsp;</a></li>
+						<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#flighthotelcar2"><span class="flighthotelcar"></span><span class="hidetext">Flight + Hotel + Car</span>&nbsp;</a></li>
+					</ul>-->
+					<form action="https://www.oteldenal.com.tr/otel/lidya-sardes-thermal-hotel?token=6VixDXYEFvdSNFn8UXRKnrYho2mh6LgUsgJcNCt7Uyq8e&ref=http://www.lidyasardesotel.com&kw=micro" method="post">
+						<div class="tab-content2" id="myTabContent">
+							<div id="air2" class="tab-pane fade active in">
+								
+								<!--<div class="col-md-4">
+									<div class="w50percent">
+										<div class="wh90percent textleft">
+											<span class="opensans size13"><b>Flying from</b></span>
+											<input type="text" class="form-control" placeholder="City or airport">
+										</div>
+									</div>
+
+									<div class="w50percentlast">
+										<div class="wh90percent textleft right">
+											<span class="opensans size13"><b>To</b></span>
+											<input type="text" class="form-control" placeholder="City or airport">
+										</div>
+									</div>
+								</div>-->
+								
+								<div class="col-md-4">
+									<div class="w50percent">
+										<div class="wh90percent textleft">
+											<span class="opensans size13"><b>Giriş Tarihi</b></span>
+											<input type="text" name="txt_giris_tarihi" class="form-control mySelectCalendar" id="datepicker3" placeholder="Giriş"/>
+										</div>
+									</div>
+
+									<div class="w50percentlast">
+										<div class="wh90percent textleft right">
+											<span class="opensans size13"><b>Gece Sayısı</b></span>
+											<select name="txt_gece_sayisi" class="form-control mySelectBoxClass">
+												<option value="1">1 Gece</option>
+												<option value="2" selected>2 Gece</option>
+												<option value="3">3 Gece</option>
+												<option value="4">4 Gece</option>
+												<option value="5">5 Gece</option>
+												<option value="6">6 Gece</option>
+												<option value="7">7 Gece</option>
+												<option value="8">8 Gece</option>
+												<option value="9">9 Gece</option>
+												<option value="10">10 Gece</option>
+												<option value="11">11 Gece</option>
+												<option value="12">12 Gece</option>
+												<option value="13">13 Gece</option>
+												<option value="14">14 Gece</option>
+												<option value="15">15 Gece</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-4">
+									<div class="room1" >
+										<div class="w50percent">
+											<div class="wh90percent textleft">
+												<span class="opensans size13"><b>Yetişkin Sayısı</b></span>
+												<select class="form-control mySelectBoxClass" name="txt_yetiskin_sayisi">
+													<option value="1">1 Yetişkin</option>
+													<option value="2" selected>2 Yetişkin</option>
+													<option value="3">3 Yetişkin</option>
+													<option value="4">4 Yetişkin</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="w50percentlast">	
+											<div class="wh90percent textleft right">
+												<span class="opensans size13"><b>Çocuk Sayısı</b></span>
+												<select class="form-control mySelectBoxClass" id="txt_cocuk_sayisi" name="txt_cocuk_sayisi">
+													<option value="0" selected>Çocuk Yok</option>
+													<option value="1">1 Çocuk</option>
+													<option value="2">2 Çocuk</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="room1" >
+										<div class="w50percent cocuk1" style="display:none;">
+											<div class="wh90percent textleft">
+												<span class="opensans size13"><b>1.Çocuk Doğum Yılı</b></span>
+												<select class="form-control mySelectBoxClass" name="txt_birinci_cocuk_yas">
+													<option value="0" selected>Seçiniz</option>
+													<option value="1">2018 </option>
+													<option value="2">2017 </option>
+													<option value="3">2016 </option>
+													<option value="4">2015 </option>
+													<option value="5">2014 </option>
+													<option value="6">2013 </option>
+													<option value="7">2012 </option>
+													<option value="8">2011 </option>
+													<option value="9">2010 </option>
+													<option value="10">2009 </option>
+													<option value="11">2008 </option>
+													<option value="12">2007 </option>
+												</select>
+											</div>
+										</div>
+
+										<div class="w50percentlast cocuk2" style="display:none;">	
+											<div class="wh90percent textleft right">
+												<span class="opensans size13"><b>2.Çocuk Doğum Yılı</b></span>
+												<select class="form-control mySelectBoxClass" name="txt_ikinci_cocuk_yas">
+													<option value="0" selected>Seçiniz</option>
+													<option value="1">2018 </option>
+													<option value="2">2017 </option>
+													<option value="3">2016 </option>
+													<option value="4">2015 </option>
+													<option value="5">2014 </option>
+													<option value="6">2013 </option>
+													<option value="7">2012 </option>
+													<option value="8">2011 </option>
+													<option value="9">2010 </option>
+													<option value="10">2009 </option>
+													<option value="11">2008 </option>
+													<option value="12">2007 </option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<!--End of 1st tab -->
+							<button type="submit" class="btn-search right mr30">FİYAT HESAPLA</button>
+						</div>
+						
+						<div class="searchbg2 hidden-xs">
+							<div class="left ca01">
+								<button type="button" class="bookbtn mt1 mr30"><span class="glyphicon glyphicon-star" style="color:#ff6633;"></span> Termal Konsept  </button><button type="button" class="bookbtn mt1 mr30"><span class="glyphicon glyphicon-star" style="color:#ff6633;"></span>  Spa  </button><button type="button" class="bookbtn mt1 mr30"><span class="glyphicon glyphicon-star" style="color:#ff6633;"></span>  Sigara İçilmeyen Oda  </button><button type="button" class="bookbtn mt1 mr30"><span class="glyphicon glyphicon-star" style="color:#ff6633;"></span>  Ücretsiz Otopark </button>							</div>
+
+
+							
+						</div>
+					</form>	
+				</div>
+			</div>
+			<div class="row mt30">
+				<div class="col-md-12">
+					<h4>Tesisimize Ait Odalar</h4>
+				</div>
+			</div>
+			<div class="row mt30">
+
+
+
+
+				
+				<div class="col-md-4 mt30" style="padding-top:10px !important;">
+                                            			<div class="shadow cstyle05">
+                                            			<div class="fwi one"><img src="/media/oda_resim/buyuk/1515488859-std.jpg" alt=" Ana Bina Standart Oda Online Rezervasyon" /><div class="mhover none"><span class="icon"><a href="oda/Ana-Bina-Standart-Oda_Yarim-Pansiyon"><img src="images/spacer.png" alt=""/></a></span></div></div>
+                                            			<div class="ctitle" style="text-transform:none;font-size:14px;">Ana Bina Standart Oda </div>
+                                            			</div>
+                                            			</div><div class="col-md-4 mt30" style="padding-top:10px !important;">
+                                            			<div class="shadow cstyle05">
+                                            			<div class="fwi one"><img src="/media/oda_resim/buyuk/1515488835-bahcesuit.jpg" alt=" Dubleks Bahçe Suit Online Rezervasyon" /><div class="mhover none"><span class="icon"><a href="oda/Dubleks-Bahce-Suit_Yarim-Pansiyon"><img src="images/spacer.png" alt=""/></a></span></div></div>
+                                            			<div class="ctitle" style="text-transform:none;font-size:14px;">Dubleks Bahçe Suit </div>
+                                            			</div>
+                                            			</div><div class="col-md-4 mt30" style="padding-top:10px !important;">
+                                            			<div class="shadow cstyle05">
+                                            			<div class="fwi one"><img src="/media/oda_resim/buyuk/1515488835-bahcesuit.jpg" alt=" Bahçe Suit Oda Online Rezervasyon" /><div class="mhover none"><span class="icon"><a href="oda/Bahce-Suit-Oda_Yarim-Pansiyon"><img src="images/spacer.png" alt=""/></a></span></div></div>
+                                            			<div class="ctitle" style="text-transform:none;font-size:14px;">Bahçe Suit Oda </div>
+                                            			</div>
+                                            			</div><div class="col-md-4 mt30" style="padding-top:10px !important;">
+                                            			<div class="shadow cstyle05">
+                                            			<div class="fwi one"><img src="/media/oda_resim/buyuk/1515488819-corner.jpg" alt=" Ana Bina Corner Oda Online Rezervasyon" /><div class="mhover none"><span class="icon"><a href="oda/Ana-Bina-Corner-Oda_Yarim-Pansiyon"><img src="images/spacer.png" alt=""/></a></span></div></div>
+                                            			<div class="ctitle" style="text-transform:none;font-size:14px;">Ana Bina Corner Oda </div>
+                                            			</div>
+                                            			</div>
+
+
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <!--Sadece 122 Id 'li otelin sayfasının sol alt kısmına "Oteldenal otelin resmi acentasıdır" şeklinde bir img koyulmuştur  -->
+                                <style>
+                                @media screen and (max-width: 600px) {
+                                	div.otel {
+                                		display: none;
+                                	}
+                                </style>	
+
+                                
+                            </div>
+
+
+
+
+
+                            <!-- FOOTER -->
+		<div class="footerbg">
+			<div class="container">		
+				<footer>
+					<div class="footer">
+                                        						<p>Rezervasyon için <span> <a href="tel:02362020210">0 236 202 02 10</a></span></p>
+                    <p > Lidya Sardes Thermal Hotel için detaylı bilgi almak ve rezervasyon yapmak için 0 236 202 02 10 telefonu arayabilirsiniz. </p>
+
+                                        
+                   
+
+
+					</div>
+				</footer>
+			</div>	
+		</div>
+
+
+
+
+                        </div>
+                        <!-- /WRAP -->
+
+
+
+                        <!-- Javascript -->
+                        <script type="text/javascript">
+		//------------------------------
+	//Picker
+	//------------------------------
+
+	jQuery(function() {
+		"use strict";
+		jQuery( "#datepicker3" ).datepicker({
+			dateFormat: "dd-mm-yy",
+			monthNames: [ "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık" ],
+			dayNamesMin: [ "Pa", "Pt", "Sl", "Ça", "Pe", "Cu", "Ct" ],
+			firstDay:1
+		});
+	});
+	var ss=jQuery;
+	ss.noConflict();
+	ss("#txt_cocuk_sayisi").change(function() {
+		var vs = ss(this).val();
+		if (vs=='1') { ss('.cocuk1').css('display','block');ss('.cocuk2').css('display','none');}
+		if (vs=='2') { ss('.cocuk1').css('display','block');ss('.cocuk2').css('display','block');}
+		if (vs=='0') { ss('.cocuk1').css('display','none');ss('.cocuk2').css('display','none');}
+	});
+</script>
+<!-- This page JS -->
+<script src="assets/js/js-index3.js"></script>	
+
+<!-- Custom functions -->
+<script src="assets/js/functions.js"></script>
+
+<!-- Picker UI-->	
+<script src="assets/js/jquery-ui.js"></script>		
+
+<!-- Easing -->
+<script src="assets/js/jquery.easing.js"></script>
+
+<!-- jQuery KenBurn Slider  -->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- Nicescroll  -->	
+<script src="assets/js/jquery.nicescroll.min.js"></script>
+
+<!-- CarouFredSel -->
+<script src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script src="assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="assets/js/helper-plugins/jquery.transit.min.js"></script>
+<script type="text/javascript" src="assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+
+<!-- Custom Select -->
+<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>	
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="dist/js/bootstrap.min.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","licenseKey":"291a468b29","applicationID":"6146174","transactionName":"MhBSZQoZWBJVWk1cXgtaZUMRV18PUFxBG0ENBQ==","queueTime":0,"applicationTime":37,"atts":"HldRE0IDSxw=","errorBeacon":"bam.eu01.nr-data.net","agent":""}</script></body>
+</html>
+
+

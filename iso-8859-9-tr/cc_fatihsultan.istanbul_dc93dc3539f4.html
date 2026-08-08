@@ -1,0 +1,652 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+<title>Fatih Sultan Gayrimenkul Yatırım Organizasyon</title>
+<meta name="description" content="Fatih Sultan Gayrimenkul Yatırım Ortaklığı, organizasyonu. Akıllı gayrimenkul yatırım fırsatları ve danışmanlığı için web sitemizi inceleyebilirsiniz." />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jcarousellite_1.0.1c4.js"></script>
+<script type="text/javascript">
+$(function() {
+	$("#newsticker-demo").jCarouselLite({
+		vertical: true,
+		hoverPause:true,
+		btnPrev: ".previous",
+		btnNext: ".next",
+		visible:2,
+		auto:3000,
+		speed:800,
+		
+	});
+});
+</script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+<script>
+   $(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.jpg');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44040050-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+<header>
+ <div class="container">
+        <div id="contacts">
+             <div id="sol">
+                  <div id="phone"><img src="img/phone.png" width="20" height="20" /></div>
+                  <div id="telno">0 216 322 12 60</div>
+                  <div class="temizle"></div>
+             </div>
+             <div id="sag">
+                  <div id="iconlar"> 
+                       <div class="home-mail">
+                            <a href="index.asp"><i class="fa fa-home"></i></a>
+                            <a href="mailto:info@wawgroup.com.tr"><i class="fa fa-envelope"></i></a>
+                      </div>
+                  </div>
+                   <div id="mail">info@wawgroup.com.tr</div>
+             
+             </div>
+             <div class="temizle"></div>
+        </div>
+        
+        
+        <a class="logo" href="index.asp"><img src="img/FS-Logo-Beyaz-Kucuk.jpg" /></a>
+        <div id="slogan"></div>
+       
+        
+        <div class="temizle"></div>
+        <ul id="menu">
+            <li style="background-color:lightblue"><a href="http://www.wawgyo.com" onclick="window.open(this.href); return false;">SİSTEM GİRİŞ</a></li>
+<!--            <li><a href="uyelik.asp?tur=uyelik">ÜYE<br /> GİRİŞİ</a></li>-->
+            <li><a href="index.asp">ANASAYFA</a></li>
+            <li><a href="kurumsal.asp">KURUMSAL</a></li>
+            <li><a href="hizmetler.asp">HİZMETLER</a></li>
+            <li><a href="yatirimmerkezi.asp?tur=anakat">YATIRIM FIRSATLARI</a></li>
+            <li><a href="gyo.asp?tur=genel">GYO</a></li>
+            <li><a href="iletisim.asp">İLETİŞİM</a></li>
+
+        </ul>
+   </div>
+     
+</header>
+<section id="banner">
+      <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill"><img src="img/1.jpg" /></div>
+                <div class="carousel-caption">
+                    <h2>Waw Group</h2>
+                </div>
+            </div>
+            
+            <div class="item">
+                <div class="fill"><img src="img/2.jpg" /></div>
+                <div class="carousel-caption">
+                    <h2>Waw Group Gayrimenkul</h2>
+                </div>
+            </div>
+            
+            
+            <div class="item">
+                <div class="fill"><img src="img/3.jpg" /></div>
+                <div class="carousel-caption">
+                    <h2>Waw Group Yatırım</h2>
+                </div>
+            </div>
+            
+            <div class="item">
+                <div class="fill"><img src="img/4.jpg" /></div>
+                <div class="carousel-caption">
+                    <h2>Waw Group Organizasyon</h2>
+                </div>
+            </div>
+            
+            
+            <div class="item">
+                <div class="fill"><img src="img/5.jpg" /></div>
+                <div class="carousel-caption">
+                    <h2>Waw Group</h2>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </div>
+     <script>
+		$('.carousel').carousel({
+			interval: 5000 //changes the speed
+		})
+    </script>
+ 
+</section>
+<section id="govde">
+         <div class="container">
+              <div id="firsatlar">
+                   <span class="baslik">CAZİP YATIRIM FIRSATLARI</span>
+                   <div id="yay"></div>
+                   <div id="cyf">
+                        <ul>
+   
+      <li style="width:267px !important"><a href="yatirimmerkezi.asp?tur=detay&a_id=59">ŞARKÖY PROJESİ</a></li>
+   
+      <li style="width:267px !important"><a href="yatirimmerkezi.asp?tur=detay&a_id=55">YALOVA*  &#1610;&#1604;&#1608;&#1575;  ÇINARCIK* &#1580;&#1606;&#1575;&#1585;&#1580;&#1603;</a></li>
+   
+      <li style="width:267px !important"><a href="yatirimmerkezi.asp?tur=detay&a_id=46">ANTALYA DÖŞEMEALTINDA TİCARİ İMARLI CAZİP YATIRIM</a></li>
+    
+   <li><a href="yatirimmerkezi.asp?tur=anakat">Diğerleri..</a></li>
+            
+ </ul>
+                       
+                       
+
+                        <div id="hesaplama">
+                             <a href="banka.asp"><img src="img/hesaplama.png" /></a>
+                        </div>
+                   </div>
+                   <div class="temizle"></div>
+                   
+                   
+              </div>
+              <div id="haberler">
+                   <div id="yatirim">
+                      <a href="formlar.asp?tip=yyi">YATIRIM YAPMAK İSTİYORUM &raquo;</a>
+                      <a href="formlar.asp?tip=yvny" style="margin-left:108px; color:#DA6C00; font-size:17px"><img src="img/help2.png" align="absmiddle" width="44" />YATIRIMIM VAR NE YAPMALIYIM &raquo;</a>
+                      <div id="quest"><img src="img/help.png" /></div>
+                   </div>
+                   <div id="haber-box">
+                        <span class="baslik">HABERLER</span>
+                        
+                        <div id="newsticker-demo" style="padding:0;margin:0">
+        
+                          <ul>
+                          
+                          <li> 
+                              <div class="haber"> 
+                                   <h3 id="haberbaslik"><a href="haber_detay.asp?a_id=60&tip=haber" style="color:#000">Konut alacaklar dikkat! Elinizi çabuk tutun</a></h3>
+                                        <span class="haber-siyah-yazi"><a href="haber_detay.asp?a_id=60&tip=haber" style="color:#000"><h1>Konut alacaklar dikkat! Elinizi &ccedil;abuk tutun</h1>
+<h3>KONUTDER Başkanı &Ouml;mer Faruk &Ccedil;elik,  &ouml;n&uuml;m&uuml;zdeki yıl konut fiyatlarının y&uuml;zde 35 artabileceğini s&ouml;yledi.  &Ccedil;elik, ev almak i&ccedil;in uygun bir zaman olduğunu ifade etti.</h3>
+<p><img src="/userfiles/konutlar.jpg" alt="" width="750" height="420" /></p>
+<div class="news-content">
+<p>Dolardaki ani değişimler emlak sekt&ouml;r&uuml;ndeki maliyetleri de etkiliyor.&nbsp;<span>Konut Geliştiricileri ve Yatırımcıları Derneği (KONUTDER)  Başkanı &Ouml;mer Faruk &Ccedil;elik,&nbsp;bu d&ouml;nemde konut alanların kazan&ccedil;lı &ccedil;ıkacağı  tahmininde bulunarak, dolardan y&uuml;zde 20 kazanan vatandaşın gayrimenkule  yatırım yapabileceğini s&ouml;yledi.</span></p>
+<p><span style="color:#B22222"><strong> 2017 DE EVLER DAHA PAHALI OLACAK </strong></span></p>
+<p>Başkan &Ccedil;elik, &quot;Dolardan y&uuml;zde 20 kazancın yanı sıra bir de kur  kaynaklı maliyet artışı var. 2017 de evler bug&uuml;nki fiyattan pahalı  olacak. Hem yapılacak zam hem de konutun değer artışı s&ouml;z konusu olacak.  Bu da y&uuml;zde 15 lik bir fiyat farkı demek. Yani şimdi ev alan vatandaş  y&uuml;zde 35 kazanacak&quot; diye konuştu. Orta gelir grubunda ciddi bir konut  talebi olduğunu dile getiren &Ccedil;elik, gayrimenkul sekt&ouml;r&uuml;nde tablonun k&ouml;t&uuml;  olmadığını belirtti. &Ccedil;elik, &quot;Mesela 2013 te 310 bin, 2014 de 489 bin  olan konut stoku 2015 de 290 bine, bu yılın ilk 9 ayında ise 195 bine  d&uuml;şm&uuml;ş&quot; dedi.<br />
+&nbsp;<br />
+<span style="color:#B22222"><strong>İTİBAR İNDİRİMLERİ&nbsp;</strong></span></p>
+<p>Sekt&ouml;rde bazı firmaların kredi borcunu &ouml;demekte zorluk &ccedil;ektiğini  belirten &Ccedil;elik, &quot;Nakit akışını, banka borcunu y&ouml;netmek adına bir takım  firmalar fiyatları d&uuml;ş&uuml;rebilir ya da vadeleri uzatabilir. İşadamı  itibarını kaybetmemek i&ccedil;in zararı g&ouml;ze alır. &Ccedil;&uuml;nk&uuml; işadamı i&ccedil;in sermaye  para değil itibardır. &Ouml;n&uuml;m&uuml;zdeki yıl b&ouml;yle &ouml;rnekler de g&ouml;rebiliriz.  Şirketlerin sunduğu vadeler 12 yıla &ccedil;ıkabilir&quot; dedi.&nbsp;</p>
+<p>Sabah</p>
+</div></a></span>
+                                        <div class="temizle"></div>
+                                    <div class="detay"><a href="haber_detay.asp?a_id=60&tip=haber">Detaylar &gt;&gt; </a></div>
+                              </div>
+                         </li>
+                         
+                          <li> 
+                              <div class="haber"> 
+                                   <h3 id="haberbaslik"><a href="haber_detay.asp?a_id=58&tip=haber" style="color:#000">Şarköy Projesi</a></h3>
+                                        <span class="haber-siyah-yazi"><a href="haber_detay.asp?a_id=58&tip=haber" style="color:#000"><p><iframe src="https://www.youtube.com/embed/R0TJ9JzGYWE" allowfullscreen="0" width="560" height="315" frameborder="0"></iframe></p></a></span>
+                                        <div class="temizle"></div>
+                                    <div class="detay"><a href="haber_detay.asp?a_id=58&tip=haber">Detaylar &gt;&gt; </a></div>
+                              </div>
+                         </li>
+                         
+                          <li> 
+                              <div class="haber"> 
+                                   <h3 id="haberbaslik"><a href="haber_detay.asp?a_id=57&tip=haber" style="color:#000">Arapça Kitapçık</a></h3>
+                                        <span class="haber-siyah-yazi"><a href="haber_detay.asp?a_id=57&tip=haber" style="color:#000"><p>Bazı projelerimizin ve satılık arsalardan oluşan portf&ouml;ylerimizin yer aldığı ve turizm faaliyetleriyle alakalı olarak hazırladığımız Arap&ccedil;a broş&uuml;r&uuml;m&uuml;z&uuml; aşağıdaki bağlantıdan g&ouml;r&uuml;nt&uuml;leyebilir, indirebilirsiniz.</p>
+<p><a href="https://drive.google.com/file/d/0B_rIqqNSWsppSnRVbTZXRC1IN00/view">ARAP&Ccedil;A KİTAP&Ccedil;IK</a></p>
+<p>&nbsp;<a href="http://drive.google.com/file/d/0B_rIqqNSWsppSnRVbTZXRC1IN00/view"><img src="http://fatihsultan.istanbul/yonetim/resim/yatirim/5112016135326p.png" alt="Arap&ccedil;a kitap&ccedil;ık" /></a></p></a></span>
+                                        <div class="temizle"></div>
+                                    <div class="detay"><a href="haber_detay.asp?a_id=57&tip=haber">Detaylar &gt;&gt; </a></div>
+                              </div>
+                         </li>
+                         
+                          <li> 
+                              <div class="haber"> 
+                                   <h3 id="haberbaslik"><a href="haber_detay.asp?a_id=56&tip=haber" style="color:#000">DEV OTOYOL PROJESİ</a></h3>
+                                        <span class="haber-siyah-yazi"><a href="haber_detay.asp?a_id=56&tip=haber" style="color:#000"><p><img src="/userfiles/&Ccedil;ANAKKALE OTOYOL.jpg" alt="" /></p>
+<p><img src="http://fatihsultan.istanbul/yonetim/resim/yatirim/18102016115140L.jpg" width="544" vspace="50" border="10" align="absBottom" hspace="50" height="272" alt="" /></p>
+<p>Yap-İşlet-Devret modeli ile 2023 yılında hizmete a&ccedil;ılması planlanan ve  maliyeti 9 milyar 843 milyon lira olarak hesaplanan 324,415 kilometre  uzunluğundaki otoyol projesinin g&uuml;zergahı belli oldu. Resmi adı  Kanalı  Tekirdağ &Ccedil;anakkale Savaştepe 1.ve 2. kesim otoyolu  projesi olan  g&uuml;zergah; İstanbul un Silivri İl&ccedil;esi nden başlayacak, Tekirdağ ın  Marmara Ereğlisi, &Ccedil;orlu, S&uuml;leymanpaşa, Malkara il&ccedil;elerinden ge&ccedil;erek  &Ccedil;anakkale ye ulaşacak. Vatan ın haberine g&ouml;re; &Ccedil;anakkale k&ouml;pr&uuml;s&uuml; otoyol  g&uuml;zergahı, &Ccedil;anakkale nin Gelibolu, Lapseki, &Ccedil;an ve Yenice il&ccedil;eleri  &uuml;zerinden Balıkesir Balya il&ccedil;esinde son bulacak. Proje tamamlandığında  İstanbul u &Ccedil;anakkale ye ve sonrasında Kuzey Ege ye bağlayacak.<br />
+<br />
+TEK Y&Ouml;NL&Uuml; &Ccedil;ALIŞACAK<br />
+Toplam  uzunluğu 324,415 km olan otoyol g&uuml;zergahında 3 gidiş- 3 geliş olmak  &uuml;zere toplam 6 şerit olacak. Otoyoldaki t&uuml;m kavşak yolları tek şeritli  ve tek y&ouml;nl&uuml; olarak &ccedil;alışacak. Kınalı ve Balıkesir otoyol bağlantıları  ile g&uuml;zergah &uuml;zerinde toplam 20 adet kavşak ya da giriş-&ccedil;ıkış istasyonu  da yer alacak. Bunun yanında otoyola giriş-&ccedil;ıkış hızı saatte 80 km  olarak belirlenirken, &ccedil;evresel koşulların k&ouml;t&uuml; olduğu yerlerde 50 km  olarak belirlendi. Kınalı Tekirdağ &Ccedil;anakkale Savaştepe 1, ve 2, Kesim  Otoyolu, İstanbul u &Ccedil;anakkale ye ve sonrasında Kuzey Ege ye bağlayacak  2023 yılının en &ouml;nemli otoyol projelerinden biri.<br />
+<br />
+BOĞAZ GE&Ccedil;İŞİNE ALTERNATİF<br />
+Proje  ayrıca İstanbul Boğaz Ge&ccedil;işi ne yeni bir alternatif oluşturacak şekilde  planlandı. Bu &ccedil;alışmalar doğrultusunda &Ccedil;anakkale Boğazı K&ouml;pr&uuml;s&uuml;,  &Ccedil;anakkale boğazının kuzey kesiminde S&uuml;tl&uuml;ce Suluca arasında Avrupa ve  Asya yakalarını birbirine bağlayacak bir asma k&ouml;pr&uuml; olacak.<br />
+<br />
+3 BİN 500 KİŞİ &Ccedil;ALIŞACAK<br />
+Proje  kapsamında yapılması planlanan otoyol g&uuml;zergahına 7 adet şantiye  kurulacak. Kurulan bu şantiyelerde 3 bin 500 kişinin &ccedil;alıştırılması  planlanıyor. Gelibolu-Lapseki arasında konumlandırılacak olan &Ccedil;anakkale  Boğazı K&ouml;pr&uuml;s&uuml; n&uuml;n uzunluğu 3 bin 869 metre, k&ouml;pr&uuml;n&uuml;n orta a&ccedil;ıklığı 2  bin 23 metre, yan a&ccedil;ıklıkları ise bin metre olarak hesaplandı. K&ouml;pr&uuml;n&uuml;n  orta a&ccedil;ıklığının uzunluğunda dikkat &ccedil;eken detay ise orta a&ccedil;ıklık  uzunluğunun proje bitim tarihiyle aynı olması oldu. Bu &ouml;zellikleri ile  k&ouml;pr&uuml; d&uuml;nyanın en b&uuml;y&uuml;k a&ccedil;ıklıklı k&ouml;pr&uuml;s&uuml; olmaya aday.</p></a></span>
+                                        <div class="temizle"></div>
+                                    <div class="detay"><a href="haber_detay.asp?a_id=56&tip=haber">Detaylar &gt;&gt; </a></div>
+                              </div>
+                         </li>
+                         
+                          <li> 
+                              <div class="haber"> 
+                                   <h3 id="haberbaslik"><a href="haber_detay.asp?a_id=31&tip=haber" style="color:#000">KANAL İSTANBUL PROJESİNİN DETAYLARI BELLİ OLDU</a></h3>
+                                        <span class="haber-siyah-yazi"><a href="haber_detay.asp?a_id=31&tip=haber" style="color:#000"><p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:7.5pt;&#10;margin-left:-2.25pt;mso-line-height-alt:10.9pt;mso-outline-level:1"><span style="font-size: xx-large;"><b><span style="font-family: PFDinTextCompProMedium, serif;">Kanal İstanbul projesinin detayları belli oldu</span></b></span><b><span style="font-size: 36pt; font-family: PFDinTextCompProMedium, serif;"><o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;&#10;margin-left:-2.25pt;margin-bottom:.0001pt;line-height:22.5pt;mso-outline-level:&#10;2"><span style="font-size:17.0pt;font-family:&quot;PFDinTextCompProLight&quot;,&quot;serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">Kanal İstanbul &ccedil;evresindeki n&uuml;fusun 500 bin olması planlandı. Karadeniz ve Marmara yı bağlayacak projede, y&uuml;ksek binalar yer almayacak.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;color:#989898;mso-fareast-language:&#10;TR">23.03.2015 - 10:02<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 7.5pt;"><span style="color: rgb(152, 152, 152); font-family: Arial, sans-serif; font-size: 9pt;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">Kanal İstanbul un detayları belli olmaya başladı. Projenin &ouml;nemli detaylarını i&ccedil;eren dosya Cumhurbaşkanı&nbsp;</span><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#049CDB;mso-fareast-language:TR">Recep Tayyip Erdoğan</span><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR"> a sunuldu.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">N&Uuml;FUS AZALTILDI<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">Yeni şehirdeki n&uuml;fus yoğunluğu ise 1.2 milyondan 500 bine &ccedil;ekildi. Kanal etrafında şekillenecek şehirdeki n&uuml;fusun her iki yakada 250 şer bin n&uuml;fusun yer alması kararlaştırıldı. Bu kararın alınmasında Erdoğan ın talebinin etkili olduğu &ouml;ğrenildi. Hayvanların doğal ortamda yaşamlarını s&uuml;rd&uuml;rebilmesi i&ccedil;in kanal &uuml;zerine kurulacak k&ouml;pr&uuml;lerde de doğal bitki &ouml;rt&uuml;s&uuml;n&uuml;n korunması planlanıyor.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">ARKEOLOJİK PARKLAR<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">Proje alanı i&ccedil;indeki orman alanları, dereler ve dere yataklarının korunması planlanıyor. A&ccedil;ık alanlar, bio-&ccedil;eşitliliği, a&ccedil;ık hava tesislerini, pasif ve aktif rekreasyon alanlarını, k&uuml;&ccedil;&uuml;k &ccedil;aplı gıda &uuml;retimini ve &ccedil;eşitli ağa&ccedil;lardan oluşan bitki &ouml;rt&uuml;s&uuml;n&uuml; barındıracak. Arkeolojik parklar oluşturulacak. Hayvanat bah&ccedil;esi a&ccedil;ık alan ağının bir par&ccedil;ası olarak ormanlık alanın yakınında inşa edilecek. Bina y&uuml;ksekliği 6 katla sınırlandırıldı. Y&uuml;ksek binalar kanaldan uzağa inşa edilecek. Kentsel tasarım planının yeni n&uuml;fusa g&ouml;re tamamlanmasının ardından, imar planı aşamasına ge&ccedil;ilecek. Bu kapsamda da s&uuml;reci İstanbul B&uuml;y&uuml;kşehir Belediyesi ve belediye şirketi BİMTAŞ y&ouml;netecek.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">EN FAZLA 6 KATA İZİN<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">Kanalın etrafına kurulacak kentin &ouml;zg&uuml;n bir silueti olacak. Bu kapsamda villa tipi yapılardan, binaların en fazla 6 katlı olacağı konut projelerine kadar kademeli yapılaşma oluşturulacak. Proje alanında &quot;Kat Adedi Analizi&quot;nde ise şu bilgilere yer verildi: &quot;En y&uuml;ksek inşaat kanal &ccedil;evresinden ve yerleşim sınırındaki a&ccedil;ık alanlardan uzak tutulmuş, bu şekilde iskan alanının kanal manzarası en &uuml;st d&uuml;zeye &ccedil;ıkarılmıştır. Kanalın doğu kenarı boyunca, kuzey-g&uuml;ney doğrultusunda merkezi iş alanına karşılık gelen, doğrusal bir doku g&ouml;r&uuml;lmektedir. Bina y&uuml;kseklikleri dokusu, en y&uuml;ksek yapılar metro istasyonlarında gruplanacak şekilde toplu taşıma hattını takip etmektedir...&quot;<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">BOĞAZ TRAFİĞİ<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">Kanal İstanbul ile 2 yarımada ve bir ada oluşacak. Proje ile boğaz trafiğinin de son bulması hedefleniyor. Kanal İstanbul dan g&uuml;nde 150-160 geminin ge&ccedil;mesi hedefleniyor. Cumhurbaşkanı Erdoğan a sunulan Kanal İstanbul dosyasında ulaşım alanları ise ş&ouml;yle tarif edildi: &quot;&Ccedil;oklu model yaklaşımı yoğun trafik sorununa yol a&ccedil;madan iş merkezleri, end&uuml;striyel alanlar ve işyerlerine en kolay ulaşımı sağlamayı hedefliyor. Yerleşim Verimi ve altyapıyı destekleyen, taşıt yolu ve &ccedil;eşitli toplu taşıma yollarının da s&uuml;rekliliğini sağlayacak k&ouml;pr&uuml;ler, kanal boyunca kullanılacaktır. Geniş kesişim alanları ve hızlı tren durakları beyaz daire ile g&ouml;sterilmişken yerel metro ve tramvay durakları kalın bir izle işaretlenmiştir. Bu alanlar stratejik olarak merkezi iş alanına ve geniş iskan alanlarına bağlanmış, diğer ulaşım t&uuml;rlerine bağlantı sağlanmıştır.&quot;</span><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR"> <o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">&nbsp;</span></b></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR"> V  ŞEKLİNDE OLACAK<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">Daha &ouml;nce Silivri, Ortak&ouml;y, İnceğiz, G&ouml;k&ccedil;eli, &Ccedil;anak&ccedil;a, Dağyenice olarak tespit edilen proje arazisinden, Karacak&ouml;y, Evcik Barajı ndan Karadeniz e bağlanan b&ouml;l&uuml;mde istimlak edilecek arazilerin &ccedil;okluğu sebebiyle vazge&ccedil;ildi. Proje, planlamalara g&ouml;re K&uuml;&ccedil;&uuml;k&ccedil;ekmece, Başakşehir ve Arnavutk&ouml;y il&ccedil;elerinden ge&ccedil;erek Karadeniz ile Marmara Denizi ni birbirine bağlayacak. Kirlenen K&uuml;&ccedil;&uuml;k&ccedil;ekmece G&ouml;l&uuml; kanala katılacak, Sazlıdere Barajı ise devre dışı kalacak. Kanal İstanbul, alttan kesik  V  harfi bi&ccedil;iminde inşa edilecek. Alt b&ouml;l&uuml;m&uuml;n genişliği 100 metreye, V harfinin 2 ucu arasındaki mesafe 520 metreye ulaşabilecek. Kanalın derinliği 25 metre olacak. Proje, İstanbul da Avcılar, Bağcılar, Bakırk&ouml;y, Arnavutk&ouml;y, Başakşehir, esenler, Ey&uuml;p ve K&uuml;&ccedil;&uuml;k&ccedil;ekmece nin belirli bir b&ouml;l&uuml;m&uuml;n&uuml; i&ccedil;eren bir b&ouml;lgeyi kapsıyor.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">&nbsp;</span><b style="line-height: 19.5pt;"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">(Kanal İstanbul bittiğinde aşağıdaki resimlerdeki gibi g&ouml;r&uuml;necek)</span></b></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">İHALE &Ouml;N&Uuml;M&Uuml;ZDEKİ AY<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">İstanbul un &ccedil;ok b&uuml;y&uuml;k kısmını adaya d&ouml;n&uuml;şt&uuml;recek Kanal İstanbul i&ccedil;in &ouml;n&uuml;m&uuml;zdeki aylarda ihale s&uuml;reci başlayacak. Toplam 10 milyar dolara mal olacak dev proje, par&ccedil;a par&ccedil;a ihale edilecek. Projenin fizibilite &ccedil;alışmaları ise tamamlandı. Karadeniz ve Marmara nın yapay bir boğazla bağlanacağı projeyle yerli ve yabancı birden fazla şirket ilgilenirken; Panama Kanalı nı yapan MWH Global ile &Ccedil;inli birka&ccedil; şirketin talip olduğu belirtiliyor. Bunun yanı sıra &ouml;nemli İtalyan ve Rus firmalarla &ouml;n g&ouml;r&uuml;şmeler yapıldı. &Ouml;te yandan İstanbul daki deniz trafiğine &ccedil;&ouml;z&uuml;m i&ccedil;in &ccedil;ok b&uuml;y&uuml;k bir Rus firmasının kanalın inşasını &uuml;stlenebileceğini ilettiği de &ouml;ğrenildi.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">UZUNLUĞU 43 KİLOMETRE OLACAK<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:19.5pt"><span style="font-size:9.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&#10;&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:&#10;TR">Kanal &uuml;zerine 6 k&ouml;pr&uuml; kurulacak. 4 &uuml; ana karayolu g&uuml;zerg&acirc;hı olarak yapılacak. Kanalın uzunluğu 43 km, genişliği 400 metre olacak.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:15.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;&#10;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Helvetica;&#10;color:#484141;mso-fareast-language:TR">HAFRİYAT DEĞERLENDİRİLECEK<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="line-height:19.5pt"><span style="font-size:9.0pt;&#10;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;&#10;mso-bidi-font-family:Helvetica;color:#484141;mso-fareast-language:TR">Ortaya &ccedil;ıkacak milyonlarca metrek&uuml;p hafriyat, liman ve havalimanı yapımı ile kanalın kapatılmasında kullanılacak.<o:p></o:p></span></p></a></span>
+                                        <div class="temizle"></div>
+                                    <div class="detay"><a href="haber_detay.asp?a_id=31&tip=haber">Detaylar &gt;&gt; </a></div>
+                              </div>
+                         </li>
+                         
+                          <li> 
+                              <div class="haber"> 
+                                   <h3 id="haberbaslik"><a href="haber_detay.asp?a_id=17&tip=haber" style="color:#000">İSTANBUL ARNAVUTKÖY DE KANAL İSTANBUL PROJESİNE ÇOK YAKIN YATIRIM FIRSATI</a></h3>
+                                        <span class="haber-siyah-yazi"><a href="haber_detay.asp?a_id=17&tip=haber" style="color:#000"><p>&nbsp;İstanbul Arnavutk&ouml;y de k&acirc;rlı yatırım fırsatı !!! Yatırımyapılacak arsanın konumu KANAL İSTANBUL projesine hakim bir noktadadır. Projenin başlaması ile birlikte arsanın değeri daha k&acirc;rlı bir hale gelecektir. Bu y&uuml;zden yatırımcının kısa zamanda y&uuml;ksek k&acirc;r elde edebileceği avantajlı bir yatırımdır. Yatırımın detaylarını web sitemizde yatırım fırsatları b&ouml;l&uuml;m&uuml;nde devam eden yatırımlar kısmında g&ouml;rebilirsiniz.&nbsp;</p></a></span>
+                                        <div class="temizle"></div>
+                                    <div class="detay"><a href="haber_detay.asp?a_id=17&tip=haber">Detaylar &gt;&gt; </a></div>
+                              </div>
+                         </li>
+                         
+                          <li> 
+                              <div class="haber"> 
+                                   <h3 id="haberbaslik"><a href="haber_detay.asp?a_id=1&tip=haber" style="color:#000">GAYRİMENKUL YATIRIMI  BÜTÜN YATIRIM ŞEKİLLERİNİ GERİDE BIRAKTI</a></h3>
+                                        <span class="haber-siyah-yazi"><a href="haber_detay.asp?a_id=1&tip=haber" style="color:#000"><p>Son 1 yıl i&ccedil;erisinde hangi yatırım aracının daha fazla k&acirc;r getrirdiği hakkında ki rapor i&ccedil;in l&uuml;tfen detaylara tıklayınız..</p>
+<p><style type="text/css">
+.beyaz{color:#FFF; font-size:14px; font-weight:bold;}
+.logorenk{background-color:#E5C88B}
+.solbosluk{padding-left:5px}
+.altcizgi{border-bottom:1px solid #d0d0d0;}
+.sagcizgi{border-right:1px solid #d0d0d0;}
+.ustcizgi{border-top:1px solid #d0d0d0;}
+.solcizgi{border-left:1px solid #d0d0d0;}
+.yazi{color:#333; font-size:13px}
+.softgri{background-color:#f7f7f7;}
+</style></p>
+<table border="0" cellspacing="0" cellpadding="0" width="720" class="yazi">
+    <tbody>
+        <tr class="beyaz">
+            <td width="189" height="30" bgcolor="#f09b48" class="solbosluk">YATIRIM ARA&Ccedil;LARI</td>
+            <td width="12" height="30" bgcolor="#f09b48">&nbsp;</td>
+            <td width="125" height="30" bgcolor="#f09b48">YATIRIM MİKTARI</td>
+            <td width="9" height="30" bgcolor="#f09b48">&nbsp;</td>
+            <td width="59" height="30" align="center" bgcolor="#f09b48">SON</td>
+            <td width="52" height="30" align="left" bgcolor="#f09b48">3 AY</td>
+            <td width="53" height="30" align="left" bgcolor="#f09b48">6 AY</td>
+            <td width="52" height="30" align="left" bgcolor="#f09b48">9 AY</td>
+            <td width="57" height="30" align="left" bgcolor="#f09b48">1 YIL</td>
+            <td width="112" height="30" bgcolor="#EC8F34" style="border-bottom:1px solid #000">TOPLAM K&Acirc;R</td>
+        </tr>
+        <tr>
+            <td height="17">&nbsp;</td>
+            <td height="17" class="altcizgi">&nbsp;</td>
+            <td height="17" colspan="2" class="altcizgi">&nbsp;</td>
+            <td height="17" class="altcizgi">&nbsp;</td>
+            <td height="17" class="altcizgi">&nbsp;</td>
+            <td height="17" class="altcizgi">&nbsp;</td>
+            <td height="17" class="altcizgi">&nbsp;</td>
+            <td height="17" class="altcizgi">&nbsp;</td>
+            <td height="17" class="altcizgi sagcizgi">&nbsp;</td>
+        </tr>
+        <tr>
+            <td height="28" class="sagcizgi altcizgi solcizgi solbosluk softgri ustcizgi">GAYRİMENKUL</td>
+            <td height="28" class="altcizgi ustcizgi">&nbsp;</td>
+            <td height="28" colspan="2" class="altcizgi ustcizgi">50.000 TL</td>
+            <td height="28" class="altcizgi ustcizgi">&nbsp;</td>
+            <td height="28" class="altcizgi ustcizgi">%</td>
+            <td height="28" class="altcizgi ustcizgi">%</td>
+            <td height="28" class="altcizgi ustcizgi">%</td>
+            <td height="28" class="altcizgi ustcizgi">%</td>
+            <td height="28" class="altcizgi sagcizgi ustcizgi">%</td>
+        </tr>
+        <tr>
+            <td height="28" class="sagcizgi altcizgi solcizgi solbosluk softgri">ALTIN</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" colspan="2" class="altcizgi">50.000 TL</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi sagcizgi">%</td>
+        </tr>
+        <tr>
+            <td height="28" class="sagcizgi altcizgi solcizgi solbosluk softgri">FİNANS</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" colspan="2" class="altcizgi">50.000 TL</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi sagcizgi">%</td>
+        </tr>
+        <tr>
+            <td height="28" class="sagcizgi altcizgi solcizgi solbosluk softgri">D&Ouml;VİZ</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" colspan="2" class="altcizgi">50.000 TL</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi sagcizgi">%</td>
+        </tr>
+        <tr>
+            <td height="28" class="sagcizgi altcizgi solcizgi solbosluk softgri">BORSA</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" colspan="2" class="altcizgi">50.000 TL</td>
+            <td height="28" class="altcizgi">&nbsp;</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi">%</td>
+            <td height="28" class="altcizgi sagcizgi">%</td>
+        </tr>
+    </tbody>
+</table></a></span>
+                                        <div class="temizle"></div>
+                                    <div class="detay"><a href="haber_detay.asp?a_id=1&tip=haber">Detaylar &gt;&gt; </a></div>
+                              </div>
+                         </li>
+                          
+          
+            
+           
+                           </ul>
+                       
+                       
+                       </div><!--newsticker-demo-->
+                        <div id="sss"><a href="iletisim.asp"><img src="img/sss-icon.jpg" /></a></div>
+                        <div id="sorular"><a href="iletisim.asp" style="display:block; color:#000">SORULARINIZ</a></div>
+                   </div>
+                   <div style="margin-top:10px; font-family:'Oswald', sans-serif !important; position:relative; color:#000"><a class="fancybox-media" href="video.asp" style="color:#000"><img src="img/play.png" align="absmiddle" /> <span style=" background-color:#F7BC21;display:block; border:1px solid #CCC; position:absolute; top:2px; left:56px; padding:8px 11px;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;">TANITIM VİDEOLARI</span></a></div>
+                   
+              </div>
+              <div class="temizle"></div>
+         </div>
+</section>
+
+<footer style="margin-top:195px">
+   
+   <div id="footer-ust">
+        <div class="container">
+             <table width="920" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="758" height="21">İLETİŞİM BİLGİLERİ</td>
+                <td width="222" rowspan="3" id="sosyal-icon">
+                    <a href=""><img src="img/instagram-icon.png" alt="Intsgram" /></a>
+                    <a href=""><img src="img/twit-icon.png" alt="Twitter" /></a>
+                    <a href="https://www.facebook.com/pages/WAW-GROUP-Yap%C4%B1-Yat%C4%B1r%C4%B1m-Organizasyon/866208290107334?fref=ts" target="_blank"><img src="img/face-icon.png" alt="Facebook" /></a>                </td>
+              </tr>
+              <tr>
+                <td height="21">Kavacık Mahallesi Çiftlik Caddesi No:30/1 Beykoz/İSTANBUL</td>
+               </tr>
+              <tr>
+                <td height="21">Tel & Faks : 0 (216) 322 12 60 | info@wawgruop.com</td>
+               </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+     </div>
+  </div>
+   <div id="footer-alt">
+        <div class="container">
+           <table width="700" border="0" cellpadding="0" cellspacing="0">
+                   <tr>
+                      <td>
+                          <table>
+                              <tr>
+                                  <td style="width:175px; height:44px;"><a href="http://www.bam-mimarlik.com" title="Bayrak Altuntaş Mimarlık"><img src="img/Bayrak-Altuntas-Mimarlik-Kucuk2.png" height="40" alt="BAM Mimarlık İnşaat" align="absmiddle" /></a></td>
+                                  <td style="width:175px; height:44px;"><a href="http://www.emlakplatformu.com.tr" title="Emlak Platformu"><img src="img/emlak-platformu.png" alt="Erdem İnşaat" height="40" align="absmiddle" /></a></td>
+                                 
+                              </tr>
+                          </table>
+                      </td>
+                      <td align="right">
+                           <table width="350" align="right" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td width="187" height="44" align="right" style="padding-right:12px"><img src="img/yusa.png" alt="Yuşa Gayrimenkul" align="absmiddle" /></td>
+                                <td width="173" align="left"><a href="http://beykozyusa.com.tr" target="_blank">BEYKOZ YUŞA GAYRİMENKUL</a></td>
+                                <td width="53" align="right"><img src="img/ertugrul.png" width="32" height="32" alt="ERTUĞRUL GAZİ İNŞAAT" /></td>
+                                <td width="137" align="right"><a href="http://ertugrulgazi.com.tr/" target="_blank">ERTUĞRUL GAZİ İNŞAAT</a></td>
+                              </tr>
+                            </table>
+                      </td>
+                   </tr>
+            </table>
+         </div>
+   
+   </div>
+
+<script type="text/javascript" data-cfasync="false">(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'e7fbba32-9b37-49fd-a01a-f2a251400669', f: true }); done = true; } }; })();</script>
+</footer>
+
+</body>
+</html>
+
+

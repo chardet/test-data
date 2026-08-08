@@ -1,0 +1,247 @@
+
+
+ 
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 	<title>بنك الدم   </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+	<meta NAME="description" CONTENT="من يحب الخير عليه ان يشترك فمن الممكن ان يكون هو السبب فى انقاذ حياة مريض ">
+	  		<meta NAME="keywords" CONTENT="بنك الدم, بنك, الدم, تبرع بالدم, تبرع دم, دم, فاعل خير, موقع بنك الدم">
+		<LINK href="favicon.ico" rel="shortcut icon">
+ 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery.tools.min.js"></script>	
+  </head>
+ <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background:url(templets/new/bg.png) repeat-x;">
+<center>
+<table id="Table_01" width="960" height="604" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td  width="960"   valign="top" align="center">
+				 <table id="Table_01" width="960" height="352" border="0" cellpadding="0" cellspacing="0" dir="ltr">
+					<tr>
+						<td>
+							<img src="templets/new/top_01.gif" width="165" height="8" alt=""></td>
+						<td>
+							<img src="templets/new/top_02.gif" width="628" height="8" alt=""></td>
+						<td>
+							<img src="templets/new/top_03.gif" width="167" height="8" alt=""></td>
+					</tr>
+					<tr>
+						<td>
+							<img src="templets/new/top_04.gif" width="165" height="42" alt=""></td>
+						<td background="templets/new/top_05.gif" width="628" height="42" align="center" >
+													 
+							<div style="margin:2px" dir="rtl"><font class="font2"><font color="#FF0000"> اعلان : </font></font><a href="page-25.html"><font class="font3">لتعديل البيانات او حذفها ارسل لنا رساله عبر اتصل بنا بها رقم الجوال والدوله والمطلوب عمله </font> </a></div>
+							
+						</td>
+						<td>
+							<img src="templets/new/top_06.gif" width="167" height="42" alt=""></td>
+					</tr>
+					<tr>
+						<td>
+							<img src="templets/new/top_07.gif" width="165" height="302" alt=""></td>
+						<td><a href="index.html">
+							<img src="templets/new/top_08.gif" width="628" height="302" border="0"></a></td>
+						<td>
+							<img src="templets/new/top_09.gif" width="167" height="302" alt=""></td>
+					</tr>
+				</table>
+		
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" align="center">
+
+
+
+		
+	
+
+	
+	  <script>
+	$(function()
+	{
+		$("#go").css({cursor:"pointer"});
+		
+		$("#go").click(function(){
+	
+			 
+				 if($("#country").val()==""){
+						$("#country").attr({title:"مـــن فضـــلك اختـــر الدولـــة"})
+						$("#country").tooltip({
+						position: "center left",
+						offset: [-40, 150],
+						effect: "fade",
+						opacity: 0.7
+ 						});
+						$("#country").focus();
+						 
+				 }else if($("#town").val()==""){
+						$("#town").attr({title:"مـــن فضـــلك  اختـــر المدينــــة"})
+						$("#town").tooltip({
+						position: "center left",
+						offset: [-40, 150],
+						effect: "fade",
+						opacity: 0.7
+ 						});
+						$("#town").focus();
+
+					  
+				 }else if($("#blood_type").val()==""){
+					 	$("#blood_type").attr({title:"مـــن فضـــلك  اختـــر فصيلة الدم"})
+						$("#blood_type").tooltip({
+						position: "center left",
+						offset: [-40, 150],
+						effect: "fade",
+						opacity: 0.7
+ 						});
+						$("#blood_type").focus();
+
+					 
+				 }else{
+				 
+				 
+							$("#result").html("<p align='center'><br><br><img src='images/loader.gif'></p>" );
+							$("#result").load("result_search.php?"+$("#search_form").serialize());
+					}
+						
+			})
+			
+	})
+	
+	function get_data(file_name,id){
+		$("#"+id).html("<div align='center'><img src='images/loader.gif'></div>" );
+ 		$("#"+id).load(file_name);
+	
+	}
+</script>
+
+<form action="?" method="post" id="search_form" name="search_form">
+<input type="hidden" name="do" value="search" />
+<table id="Table_01" width="639" height="78" border="0" cellpadding="0" cellspacing="0" dir="ltr">
+	<tr>
+		<td><img src="templets/new/center_01.gif" width="125" height="49" id="go"></td>
+		<td><img src="templets/new/center_02.gif" width="10" height="49"></td>
+		<td width="165" height="49" background="templets/new/center_03.gif" align="right" dir="rtl"> 
+			<label class="label">
+				<select name="blood_type"  id="blood_type" class="selects" >
+					<option value="">  اختــر فصيلة الدم </option>
+					<option value="Op">+O</option>
+					<option value="Om">-O</option>
+					<option value="Bp">+B</option>
+					<option value="Bm">-B</option>
+					<option value="Ap">+A</option>
+					<option value="Am">-A</option>
+					<option value="ABp">+AB</option>
+					<option value="ABm">-AB</option>
+				</select>
+			</label>	 
+		</td>
+		<td width="164" height="49" background="templets/new/center_03.gif" align="right" dir="rtl">
+			<label class="label" id="towns">
+				<select name="town"  id="town" class="selects">
+		 			<option value="">اختـــر المدينـــة</option>
+				</select>
+			</label>
+		</td>
+		<td width="163" height="49" background="templets/new/center_03.gif" align="right" dir="rtl">
+		<label class="label">
+			<select name="country"  id="country" class="selects"  onchange="get_data('show_town.php?id='+this.value,'towns')">
+					  <option value="">اختر الدولة</option>
+												<option value="25" >الأردن</option>
+												<option value="19" >الإمارات</option>
+												<option value="22" >البحرين</option>
+												<option value="24" >الجزائر</option>
+												<option value="17" >السعودية</option>
+												<option value="117" >السودان</option>
+												<option value="118" >الصومال</option>
+												<option value="31" >العراق</option>
+												<option value="21" >الكويت</option>
+												<option value="30" >المغرب</option>
+												<option value="28" >اليمن</option>
+												<option value="550" >تركيا</option>
+												<option value="23" >تونس</option>
+												<option value="115" >جزر القمر</option>
+												<option value="528" >جنوب السودان</option>
+												<option value="113" >جيبوتي</option>
+												<option value="26" >سوريا</option>
+												<option value="29" >عمان</option>
+												<option value="27" >فلسطين</option>
+												<option value="20" >قطر</option>
+												<option value="110" >لبنان</option>
+												<option value="116" >ليبيا</option>
+												<option value="18" >مصر</option>
+												<option value="114" >موريتانيا</option>
+										</select>
+		</label>		
+		</td>
+		<td>	<img src="templets/new/center_06.gif" width="12" height="49" ></td>
+	</tr>
+	<tr><td colspan="6" align="right" bgcolor="#FFFFFF"><img src="templets/new/center_07.gif"></td></tr>
+	<tr><td colspan="6" align="center" bgcolor="#FFFFFF"> 
+		<div  id="result"> </div>
+	</td></tr>
+</table>
+
+
+
+</form>
+
+
+            
+
+
+
+	
+	
+	
+ 
+
+
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><a href="adduser.html" ><img src="templets/new/layout_03.gif" border="0"></a>            <br />
+
+                          <a href="https://play.google.com/store/apps/details?id=com.micro0.bankblood"><img alt="Get it on Google Play" src="https://developer.android.com/images/brand/ar_generic_rgb_wo_60.png" /></a>
+
+
+            
+            </td>
+		</tr>
+		<tr>
+			<td>	<img src="templets/new/layout_04.gif" width="960" height="9" alt=""></td>
+		</tr>
+		<tr>
+			<td width="960" height="56"  bgcolor="#FFFFFF" align="center" valign="top">
+				<table width="560" border="0">
+						<tr>
+							<td><a href="index.html"><font class="font4">الرئيسية |</font></a> </td>
+							<td><a href="page-23.html"><font class="font4">فوائد التبرع العلمية  |</font></a></td>
+							<td><a href="page-22.html"><font class="font4">ثواب التبرع |</font></a> </td>
+							<td><a href="page-21.html"><font class="font4">من نحن |</font></a></td>
+							<td><a href="page-24.html"><font class="font4">ادعمنا |</font></a></td>
+							<td><a href="send.html"><font class="font4">راسلنا |</font></a></td>
+							<td><a href="page-25.html"><font class="font4">الخصوصية</font></a></td>
+							<td>	&nbsp; 
+								<a href="http://digg.com/submit?phase=2&url=http%3A%2F%2Fwww.b-blood.org&title=blood bank" target="blank"><img src="templets/new/digg.png" border="0" /></a>
+									 
+								<a href="http://twitter.com/home?status=www.b-blood.org" target="blank"> <img src="templets/new/twitter.png" border="0" /></a>
+									 
+								<a href="http://www.facebook.com/sharer.php?u=http://www.b-blood.org&t=Share with facebook" target="blank"><img src="templets/new/facebook.png" border="0" /></a>
+							</td>
+					
+						</tr>
+					</table>
+				
+			</td>
+		</tr>
+	</table>
+	</center>
+
+  </body>
+</html>
+
+

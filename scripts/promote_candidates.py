@@ -74,8 +74,31 @@ def prefix_for_codec() -> dict[str, str]:
     return mapping
 
 
+_WILD_CACHE: dict[str, str] | None = None
+
+
 def existing_count(directory: Path) -> int:
-    return sum(1 for p in directory.iterdir() if p.is_file()) if directory.is_dir() else 0
+    """Wild files already in a directory.
+
+    The cap exists to stop one prolific host dominating a directory, so it
+    counts only files that are themselves wild.  Counting every file would
+    let a directory of transcoded CulturaX text block the wild samples it
+    most needs -- ascii-en held twelve files and exactly one wild one.
+    """
+    global _WILD_CACHE  # noqa: PLW0603
+    if _WILD_CACHE is None:
+        try:
+            from provenance import WILD, classify_all  # noqa: PLC0415
+
+            _WILD_CACHE = {k: v for k, v in classify_all().items() if v == WILD}
+        except Exception:  # noqa: BLE001
+            _WILD_CACHE = {}
+    if not directory.is_dir():
+        return 0
+    name = directory.name
+    return sum(
+        1 for p in directory.iterdir() if p.is_file() and f"{name}/{p.name}" in _WILD_CACHE
+    )
 
 
 # The Usenet miner groups candidates by charset rather than tagging each row
