@@ -179,15 +179,23 @@ def evaluate(data: bytes, codec: str) -> tuple[int, int, int] | None:
         pass
     else:
         return None
-    # The byte must be one only this codepage claims, or the file is
-    # equally good evidence for a sibling and therefore evidence for none.
-    marks = DISTINGUISHING_BYTES.get(codec)
-    unique = sum(1 for b in set(data) if marks and b in marks)
-    if not unique:
-        return None
     try:
         text = data.decode(codec)
     except (UnicodeDecodeError, LookupError):
+        return None
+    # The byte must be one only this codepage claims, or the file is
+    # equally good evidence for a sibling and therefore evidence for none.
+    # It must also decode to a *letter*: DOS ASCII art is full of bytes
+    # that are technically unique to a codepage but render as the same
+    # block or box character everywhere, which proves nothing about the
+    # language.  An English art file tripped this before the check existed.
+    marks = DISTINGUISHING_BYTES.get(codec) or frozenset()
+    unique = sum(
+        1
+        for b in sorted(set(data))
+        if b in marks and bytes([b]).decode(codec, errors="replace").isalpha()
+    )
+    if not unique:
         return None
     # DOS text uses CR/LF and the occasional EOF marker; nothing else in C0.
     if any(ord(ch) < 0x20 and ch not in "\t\n\r\x1a" for ch in text):
