@@ -171,10 +171,14 @@ def run_from_wild(arguments) -> int:  # noqa: ANN001
                 continue
             if declares_charset(text) and not declares_target(text, arguments.target):
                 continue
-            # Pure ASCII is byte-identical under every one of these
-            # codepages, so such a file says nothing about the encoding it
-            # is filed under -- it is an ASCII sample wearing a label.
-            if not any(byte > 0x7F for byte in out):
+            # Reject output the encoding did not actually change: ASCII
+            # text is byte-identical under every one of these codepages,
+            # so the file would say nothing about the encoding it is filed
+            # under.  Comparing against the ASCII encoding rather than
+            # looking for high bytes keeps this correct for the 7-bit
+            # encodings, whose output is all ASCII bytes but carries the
+            # shift and escape sequences that identify them.
+            if out == ascii_bytes(text):
                 continue
             digest = hashlib.sha256(out).hexdigest()[:12]
             path = target_dir / f"historic_{digest}.txt"
@@ -232,6 +236,14 @@ CHARSET_LABELS: dict[str, str] = {
     "iso8859-3": "ISO-8859-3", "iso8859-10": "ISO-8859-10",
     "iso8859-14": "ISO-8859-14", "iso8859-16": "ISO-8859-16",
 }
+
+
+def ascii_bytes(text: str) -> bytes | None:
+    """*text* as ASCII, or None if it does not fit in ASCII."""
+    try:
+        return text.encode("ascii")
+    except UnicodeEncodeError:
+        return None
 
 
 def declares_target(text: str, codec: str) -> bool:
