@@ -121,7 +121,11 @@ USENET_PAIR: dict[str, tuple[str, str]] = {
 
 
 def normalize_row(row: dict[str, str]) -> tuple[str, str] | None:
-    """Return (codec, iso language) for a manifest row of either miner."""
+    """Return (codec, iso language) for a manifest row of any miner."""
+    # PO catalogues carry both explicitly: the charset is declared in the
+    # file's own header and the language is its filename.
+    if row.get("codec") and row.get("language"):
+        return canonical(row["codec"]), row["language"]
     if row.get("codec"):
         iso = (row.get("suggested_dir", "").rsplit("-", 1) + [""])[1]
         return canonical(row["codec"]), iso
@@ -174,7 +178,9 @@ def main() -> int:
                 rejects.append((row["path"], f"no directory prefix for codec {codec}"))
                 continue
             if not language:
-                rejects.append((row["path"], f"no language tag ({row['languages']!r})"))
+                rejects.append(
+                    (row["path"], f"no language tag ({row.get('languages', '')!r})")
+                )
                 continue
             if language not in ENCODING_LANGUAGES.get(prefix, ()):
                 rejects.append(
