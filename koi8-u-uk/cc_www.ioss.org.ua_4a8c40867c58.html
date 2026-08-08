@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=koi8-u" />
+	<title>Головна сторінка</title>
+<style type="text/css">
+<!--
+html{
+	}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	border:0;
+	margin:0;
+	padding:0;
+    width:100%;
+	background:#150F0D url(/img/body_bg.jpg) repeat-x;
+	color:#363636;
+	font-size:70%;
+}
+
+a.intext{ 	color:#363636; text-decoration:none; font-weight:normal;}
+.f10{ font-size:90%;}
+form, ul, input{
+	margin: 0;
+	padding: 0;
+}
+
+a, img, div {
+	border:0;
+	margin:0;
+	padding:0;
+}
+a { color:#9F0200; font-weight:bold;}
+	a.some_more{ font-family:Tahoma, Verdana, sans-serif; color:#150F0D; font-size:10px; text-decoration:none; font-weight:normal; 
+				 padding-right:13px; background: url(/img/more.gif) no-repeat 100% 1px;}
+.clr{ clear:both;}
+#body{ 
+	width:728px; 
+	margin:0 auto; 
+	background:#fff url(/img/all_bg.jpg) -200px 0; 
+	} 
+	
+#right_bg{ background:url(/img/right_bg.gif) repeat-y 100% 0; width:100%;}
+
+#shapka{ background:url(/img/shapka.jpg) no-repeat; width:100%; height:302px; position:relative; margin-bottom:29px;}
+
+
+#home, #tree, #mail, #tomain, #ru, #en, #ua, #ru_a, #en_a, #ua_a { position:absolute; display:block;}
+
+#home, #tree, #mail{ width:25px; height:25px; top:23px;}
+#home{ left:220px;}
+#tree{ left:260px;}
+#mail{ left:300px;}
+
+#ru, #en, #ua, #ru_a, #en_a, #ua_a { 
+	width:26px; 
+	height:17px; 
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	top:26px;}
+#ru, #en, #ua{ color:#9F0200;}
+#ru_a, #en_a, #ua_a{ color:#000; text-transform:uppercase; text-decoration:none;}
+#ua, #ua_a { left:590px;}
+#ru, #ru_a { left:632px;}
+#en, #en_a { left:670px;}
+#tomain{ width:304px; height:100px; left:385px; top:134px;}
+
+#left{ padding-left:41px;}
+
+/* MENU */
+	#v1, #v2, #v3, #v4, #v5{
+		position:absolute; 
+		display:none;
+		background:url(/img/popup_bg.png) no-repeat;
+		top:24px; 
+		left:100px; 
+		width:133px;
+		padding:6px 0 0 4px;
+		z-index:999;
+		}
+	#v1 div, #v2 div, #v3 div, #v4 div, #v5 div{
+		border-right:1px solid #DECFC6;
+		border-bottom:1px solid #DECFC6;
+		padding:10px 15px 13px 13px;
+		}
+
+	#v1 ul, #v2 ul, #v3 ul, #v4 ul, #v5 ul{ margin:0; padding:0; list-style:none;}
+	#v1 ul li, #v2 ul li, #v3 ul li, #v4 ul li, #v5 ul li{ padding: 2px 0 2px 16px; background:url(/img/li1.gif) no-repeat 0 3px;}
+	#v1 ul li a, #v2 ul li a, #v3 ul li a, #v4 ul li a, #v5 ul li a{ color:#363636; font-weight:normal; text-decoration: none;}
+	#v1 ul li a:hover, #v2 ul li a:hover, #v3 ul li a:hover, #v4 ul li a:hover, #v5 ul li a:hover{ text-decoration: underline;}
+	
+/* /MENU*/
+.lm { display:block; font-size:14px; font-weight:bold; padding: 10px 4px 10px 20px; border-bottom:2px solid #fff; background:url(/img/lm.gif) no-repeat 0 13px;width:128px;}
+.lm_a{ 
+	display:block; font-size:14px; font-weight:bold; padding: 10px 4px 10px 20px; border-bottom:2px solid #fff; background:url(/img/lm_a.gif) no-repeat 0 13px;width:128px;
+	color:#3C3C3C; text-decoration:none; }
+
+.photo_corner1{ padding-top:4px; padding-left:4px; background:url(/img/corner1.gif) no-repeat;}
+.photo_corner2{ padding-bottom:4px; padding-right:4px; background:url(/img/corner2.gif) no-repeat 100% 100%;}
+#center{ padding-right:28px;}
+.title{ padding: 0 0 25px 25px; position:relative;}
+	.fl_right{ float:right; padding-top:10px;}
+.news_open{ padding-left:26px; background:url(/img/trizub_yellow.gif) no-repeat 5px 0; position:relative;}
+	.photo_fl_left{ border:1px solid #B02E2B; display:block; float:left; margin-right:16px;}
+	.photo_fl_left img{ padding:2px; }
+.date{ font-weight:bold; color:#0E0E0E;}
+.text{ padding-top:15px; text-align:justify;}
+.one_news_main{ padding:15px 0 0 26px; background:url(/img/trizub_gray.gif) no-repeat 5px 15px;}
+#right{}
+.button{background:url(/img/button_bg.gif) no-repeat; border:0; color:#fff; font-family:Tahoma, Verdana, sans-serif; font-size:10px; font-weight:bold; width:97px; height:19px; cursor:pointer;}
+.left_block1{ background:url(/img/line1.gif) no-repeat 0 100%; padding-bottom:10px;}
+#search_main{ background:url(/img/search_bg.gif) no-repeat 0 100%; width:97px; height:90px; padding-left:85px;}
+.osoba{ background:url(/img/t_osoba.jpg) no-repeat; margin:20px 0; height:36px; padding-right:35px;}
+
+.more{ font-weight:bold; text-decoration:none; color:#9F0200; font-family:Tahoma, Verdana, sans-serif;}
+#footer{ height:96px; background:url(/img/footer.gif) no-repeat 100% 100%; position:relative;}
+
+#addr, #contact, #copy{ position:absolute; font-size:10px; top:50px;}
+	#addr{ left:50px;}
+	#contact{ left:220px;}
+	#copy{ left:515px;}
+	.red{ font-weight:bold; color:#9F0200; font-family:Tahoma, Verdana, sans-serif;}
+-->
+</style>
+<link rel="icon" href="http://ioss.org.ua/sm/site/fileslibrary/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://ioss.org.ua/sm/site/fileslibrary/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="body">
+ <div id="right_bg">
+ 	<div id="shapka">
+		<a href="/" id="home"></a>
+		<a href="/map/" id="tree"></a>
+		<a href="mailto:ioss.pr@gmail.com" id="mail"></a>
+		<a id="ua_a">Укр</a>
+		<!-- a href="# /cgi-bin/lang.cgi?ru" id="ru">Рус</a -->
+		<a href="/cgi-bin/lang.cgi?en" id="ru">Eng</a>
+		<a href="/" id="tomain"></a>		
+
+	</div>
+	
+	<table cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td valign="top" width="152" id="left">
+
+<script language="JavaScript" type="text/javascript">
+  function on(p) {
+   document.getElementById('v' + p).style.display='block';
+   document.getElementById('hsel').style.visibility='hidden';
+  } 
+  function off(p) {
+   document.getElementById('v' + p).style.display='none';
+   document.getElementById('hsel').style.visibility='visible';
+  } 
+</script>
+
+			<div style="position:relative; z-index:20; width:100%;">
+
+
+			<a href="/news/" class="lm" onMouseOver="on('1');" onMouseOut="off('1');" onfocus="this.blur()">Новини</a>
+
+				<div onMouseOver="on('1');" onMouseOut="off('1');" id="v1">
+					<div>
+						<ul>
+							<li><a href="/news/ball/">Бали</a></li>	
+                                                        <li><a href="/news/work/">Діяльність Ордену та його Кавалерів </a></li>				
+							<li><a href="/news/international/">Міжнародні новини </a></li>				
+							<li><a href="/news/decorating/">Нагородження </a></li>				
+											
+				</ul>
+			</div>
+			</div>
+			</div>
+
+			<div style="position:relative; z-index:19;">
+
+			<a href="/about/" class="lm" onfocus="this.blur()" onMouseOver="on('2');" onMouseOut="off('2');">Про Орден</a>
+
+			<div onMouseOver="on('2');" onMouseOut="off('2');"  id="v2">
+			<div>
+				<ul>
+					<li><a href="/about/prior/">Великий Магістр Ордену </a></li>				
+					<li><a href="/about/documents/">Офіційні документи </a></li>
+                                        <li><a href="/about/appointment/">Призначення </a></li>
+                                        <li><a href="/about/history/">Історія Ордену </a></li>
+                                        <li><a href="/about/knights/">Виникнення лицарства</a></li>				
+					<li><a href="/about/zaxist/">На захист Ордену </a></li>				
+					
+				</ul>
+			</div>
+			</div>
+			</div>
+
+			<div style="position:relative; z-index:18;">
+
+			<a href="/orden/persons/" class="lm" onfocus="this.blur()">Кавалери Ордену</a>
+
+			</div>
+
+                        <div style="position:relative; z-index:17;">
+
+			<a href="/priest/" class="lm" onfocus="this.blur()">Священики</a>
+
+			</div>
+			
+                        <div style="position:relative; z-index:16;">
+
+			<a href="/gallery/" class="lm" onfocus="this.blur()" style="border-bottom:0px solid #fff; margin-bottom:20px;" onMouseOver="on('4');" onMouseOut="off('4');">Фотогалерея</a>
+
+			<div onMouseOver="on('4');" onMouseOut="off('4');" id="v4">
+			<div>
+				<ul>
+					<li><a href="/orden/persons/">Кавалери ордену </a></li>				
+					<li><a href="/gallery/list/1/0/">Діяльність Ордену та його Кавалерів </a></li>				
+					<li><a href="/gallery/list/9/0/">Міжнародні новини </a></li>				
+					<li><a href="/gallery/list/8/0/">Священики Ордену </a></li>				
+				</ul>
+			</div>
+			</div>
+			</div>
+                                   
+
+
+			<div class="photo_corner1" style=" margin:0 0 10px 0;">
+				<div class="photo_corner2">
+<a href="/gallery/list/3/0/1243/"><img src="/sm/site/photogallery/uploads/1243/1244_4.jpg" width="142" alt="" /></a><br>
+                                </div>
+			</div>
+<div class="clr"></div>
+			<div style="padding-left:4px">
+			<a href="/gallery/" class="some_more" onfocus="this.blur()">всі фото</a>
+			</div>
+
+  <div style="position:relative; z-index:15;">
+
+			<a href="/reklama/" class="lm" onfocus="this.blur()" onMouseOver="on('5');" onMouseOut="off('5');">Пропозиції</a>
+
+			<div onMouseOver="on('5');" onMouseOut="off('5');"  id="v5">
+			<div>
+				<ul>
+					<li><a href="/reklama/world/">Міжнародні пропозиції </a></li>								<li><a href="/reklama/Ukraine/">Українські пропозиції </a></li>
+                                        <li><a href="/reklama/hot/">Гарячі пропозиції </a></li>
+                                        					
+				</ul>
+			</div>
+			</div>
+			</div>
+
+
+		</td>
+		<td valign="top" width="291" id="center">			<div class="title">
+				<div class="fl_right"><a href="/news/" class="some_more">всі новини</a></div>
+				<a href="/news/"><img src="/img/t_news_big.gif" alt="" /></a>
+			</div>
+			<div class="news_open">
+				
+				<span class="red">Привітання з Новим 2018 роком</span><br /><br />
+				<span class="date">31.12.2017</span>
+				<div class="text">
+				<p align="left"><font face="Arial">Вельмишановні Кавалерствені Дами і Кавалери Міжнародного Ордену Святого Станіслава!<br />Від усього серця вітаю Вас із Новим 2018 роком та світлим святаом Різдва Христового!<br />Хай Новий рік принесе Вам радість, відчуття душевного спокою, злагоду та благополуччя.<br />З цими прекрасними святами завжди пов&rsquo;язані надії на краще.<br />Тож бажаю Вам у новому році оптимізму, гарного настрою та реалізації всього задуманого.<br />Нехай мир і добро назавжди оселяться у ваших домівках.<br />Хай ці свята рушником добра і любові щедро вистелять Вам світлі дороги у майбутнє.<br />Любові, щастя, міцного здоров&rsquo;я Вам і Вашим близьким, щирих посмішок від тих, хто поряд!<br />Нехай в Вашій родині господарем буде мир, спокій і добробут, а господинею віра, надія і любов!<br />Бажаю кожному з Вас знайти свою успішну життєву стежину, стати гідним громадянином<br />України, примножувати славу рідного краю!</font><font face="Arial"><br />З повагою<br />Великий Магістр Міжнародного Ордену<br />Святого Станіслава<br />Павло В&rsquo;ялов</font></p>
+ 				</div>
+			</div>
+                        
+			<div class="one_news_main">
+				<a href="/news/international/2017/06/01/506.html">Інвеститура в Лондоні</a><br />
+				<span class="date">01.06.2017</span>
+			</div>
+                        
+			<div class="one_news_main">
+				<a href="/news/work/2017/01/25/505.html">Благодійні різдвяні подарунки ліцеїстам від Міжнародного Ордену Святого Станіслава</a><br />
+				<span class="date">25.01.2017</span>
+			</div>
+                        
+			<div class="one_news_main">
+				<a href="/news/work/2016/12/07/503.html">Нагородження відзнаками Ордену Святого Станіслава і підвищення в ранзі на 69-й інвеститурі 26 листопада 2016 року</a><br />
+				<span class="date">07.12.2016</span>
+			</div>
+                        
+		</td>
+		<td valign="top" width="217" id="right">
+		<div style="padding-top:7px;">
+		<img src="/img/t_subscribe_small.gif" width="61" height="15" alt="" />
+		</div>
+		<div class="left_block1">
+<script language="JavaScript">
+function checkDisp(){
+var mess = '';
+   mess = mess + chmail();
+   if  (mess == '') return (true);
+   else{ alert(mess); return(false); }
+}
+
+function chmail(){
+    var mail=document.subscr.mymail.value ;
+    var reg = /[0-9a-z_]+@[0-9a-z_^.]+.[a-z]{2,3}/
+    if (!reg.exec(mail)){ return('Во введенном Вами e-mail адресе используются недопустимые символы, попробуйте ещё раз. \n') } else{ return(''); }
+}
+</script>
+
+<form action="/subscribe/" method="post" style="margin:15px 0;" name="subscr" onSubmit="return checkDisp();">
+	<table cellpadding="0" cellspacing="0" width="181">
+	<tr>
+		<td width="84" align="right" style="padding-right:8px; background:#CE9B53 url(/img/b.gif) no-repeat 3px 50%; color:#fff;"> E-mail</td>
+		<td width="97" style="border:1px solid #CE9B53"><input type="text" name="mymail" style="width:97px; font-size:10px; padding:1px 0; border:0;" /></td>
+	</tr>
+	<tr>
+		<td>&nbsp;<input type="hidden" name="act" value="1" /></td>
+		<td style="padding-top:4px; text-align:right;"><button type="submit" class="button" onfocus="this.blur()">ОК</button></td>
+	</tr>
+	</table>
+</form>
+		</div>
+		<div style="padding:14px 0;">
+		<img src="/img/t_search_small.gif" width="47" height="14" alt="" />
+		</div>
+		<div id="search_main">
+		<form action="/search/" method="get">
+		<table cellpadding="0" cellspacing="0" width="97">
+			<tr>
+				<td><img src="/img/tp.gif" height="2" width="1" alt="" /></td>
+			</tr>
+			<tr>
+				<td style="border:1px solid #CE9B53"><input type="text" name="query" style="width:95px; font-size:10px; padding:1px 0; border:0;"  /></td>
+			</tr>
+			<tr>
+				<td><img src="/img/tp.gif" height="3" width="1" alt="" /></td>
+			</tr>
+			<tr>
+				<td style="border:1px solid #CE9B53">
+					<select name="section" style="width:95px; border:0; font-size:10px;">
+                                                <option value="0"></option>
+						<option value="1">Новини</option>
+						<option value="2">Про Орден</option>
+						<option value="3">Кавалери Ордену</option>
+                                                <option value="4">Фотогалерея</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><img src="/img/tp.gif" height="3" width="1" alt="" /></td>
+			</tr>
+			<tr>
+				<td><button type="submit" class="button">Шукати</button></td>
+			</tr>
+		</table>
+		</form>
+		</div>
+                                <div class="osoba">
+			<div class="fl_right"><a href="/orden/persons/" class="some_more">всі персоналії</a></div>
+			<div class="clr"></div>
+		</div>
+<div style="padding-right:15px;">
+			<a href="/orden/persons/info/77/"><img src="/sm/site/photogallery/uploads/225/248_4.png" align="left" style="margin-right:10px; margin-bottom:3px;" width="103" alt="" /></a>
+			<a class="date" href="/orden/persons/info/77/" style="text-decoration:none;">АЛЕКСЄЄНКО Світлана Федорівна</a><br>
+			<a href="/orden/persons/info/77/" class="intext f10">
+			Декрет 605/ 2006
+Про нагородження Орденом Святого Станіслава V&nbsp; ступеня
+Алексєєнко Світлани Федорівни
+1. На підставі... <span class="more">&gt;</span>
+			</a>
+</div>
+		
+		</td>
+	</tr>
+	</table>
+	
+	<div id="footer">
+	<div id="addr">04073, вул. Фрунзе, 160 Київ, <br>Україна</div>
+	<div id="contact">тел./факс: (044) 468-84-85 <br /><a href="mailto:acoss@rambler.ru" style="font-weight:normal; text-decoration:none;">acoss@rambler.ru</a></div>
+	<div id="copy">Copyright &copy; 2006 <br />
+		<span class="red">Міжнародний Орден Святого<br>Станіслава</span>
+	</div>
+	</div>
+	
+ </div>
+</div>
+</body>
+</html>
+

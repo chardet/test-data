@@ -47,6 +47,7 @@ import argparse
 import csv
 import gzip
 import hashlib
+import json
 import mailbox
 import re
 import shutil
@@ -89,6 +90,27 @@ MANIFEST_COLUMNS = (
 )
 
 
+def list_item_files(item: str) -> tuple[str, ...]:
+    """Names of the mbox archives inside an archive.org item.
+
+    Filenames cannot be derived from the identifier: the item
+    ``FULL-USENET-BACKUP-2020-Oct-japan.soc.cult.121.mbox.7z`` actually
+    holds ``japan.soc.cult.(121).mbox.7z``, parentheses and all.
+    """
+    request = urllib.request.Request(  # noqa: S310
+        f"https://archive.org/metadata/{item}",
+        headers={"User-Agent": "chardet-test-data-miner/0.1"},
+    )
+    with urllib.request.urlopen(request, timeout=120) as response:  # noqa: S310
+        payload = json.load(response)
+    return tuple(
+        entry["name"]
+        for entry in payload.get("files", [])
+        if entry["name"].endswith((".mbox.7z", ".mbox.gz"))
+        and not entry["name"].startswith("history/")
+    )
+
+
 def _load_chardet():  # noqa: ANN202
     try:
         import chardet  # noqa: PLC0415
@@ -125,6 +147,16 @@ def download(item: str, filename: str, cache_dir: Path) -> Path:
                 "py7zr is required for .7z archives.\n"
                 "  uv run --with py7zr python3 scripts/mine_usenet.py ..."
             )
+        # Extract into a directory of its own.  Globbing the shared cache
+        # would pick up whichever mbox an earlier group left behind, and
+        # silently mine the wrong newsgroup.
+        extract_dir = cache_dir / filename.removesuffix(".7z")
+        if extract_dir.is_dir():
+            existing = sorted(extract_dir.glob("*.mbox"))
+            if existing:
+                print(f"Using cached {existing[0]}")
+                return existing[0]
+        extract_dir.mkdir(parents=True, exist_ok=True)
         archive_path = cache_dir / filename
         with (
             urllib.request.urlopen(request, timeout=600) as response,  # noqa: S310
@@ -132,13 +164,12 @@ def download(item: str, filename: str, cache_dir: Path) -> Path:
         ):
             shutil.copyfileobj(response, out)
         with py7zr.SevenZipFile(archive_path, "r") as archive:
-            archive.extractall(path=cache_dir)
+            archive.extractall(path=extract_dir)
         archive_path.unlink()
-        # The archive holds one mbox, whose name may differ from the .7z.
-        candidates = sorted(cache_dir.glob("*.mbox"))
-        if not candidates:
+        found = sorted(extract_dir.rglob("*.mbox"))
+        if not found:
             sys.exit(f"no mbox found inside {filename}")
-        return candidates[-1]
+        return found[0]
 
     with (
         urllib.request.urlopen(request, timeout=600) as response,  # noqa: S310
@@ -282,8 +313,10 @@ def main() -> int:
             )
         item, mboxes = DEFAULT_SOURCES[arguments.charset]
     if not mboxes:
-        # A FULL-USENET-BACKUP item is named after the single file it holds.
-        mboxes = (item.replace("FULL-USENET-BACKUP-2020-Oct-", "", 1),)
+        mboxes = list_item_files(item)
+        if not mboxes:
+            sys.exit(f"no mbox archives found in item {item}")
+        print(f"{item}: {', '.join(mboxes)}")
 
     chardet_module = _load_chardet()
     if chardet_module is None:

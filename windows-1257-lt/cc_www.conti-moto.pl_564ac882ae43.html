@@ -1,0 +1,523 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="LTR" lang="lt">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1257">
+<base href="http://www.conti-moto.pl/">
+<title>osCommerce - Lietuviška versija</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script language="javascript" src="includes/general.js"></script>
+<script language="javascript"><!--
+function check_form() {
+  var error_message = "Įvyko klaida pildant formą!\n\nIštaisykite prašom:\n\n";
+  var error_found = false;
+  var error_field;
+  var keywords = document.advanced_search.keywords.value;
+  var dfrom = document.advanced_search.dfrom.value;
+  var dto = document.advanced_search.dto.value;
+  var pfrom = document.advanced_search.pfrom.value;
+  var pto = document.advanced_search.pto.value;
+  var pfrom_float;
+  var pto_float;
+
+  if ( ((keywords == '') || (keywords.length < 1)) && ((dfrom == '') || (dfrom == 'yyyy-mm-dd') || (dfrom.length < 1)) && ((dto == '') || (dto == 'yyyy-mm-dd') || (dto.length < 1)) && ((pfrom == '') || (pfrom.length < 1)) && ((pto == '') || (pto.length < 1)) ) {
+    error_message = error_message + "* Mažiausiai vienas paieškos laukas turi būti užpildytas.\n";
+    error_field = document.advanced_search.keywords;
+    error_found = true;
+  }
+
+  if ((dfrom.length > 0) && (dfrom != 'yyyy-mm-dd')) {
+    if (!IsValidDate(dfrom, 'yyyy-mm-dd')) {
+      error_message = error_message + "* Neteisinga data nuo.\n";
+      error_field = document.advanced_search.dfrom;
+      error_found = true;
+    }
+  }
+
+  if ((dto.length > 0) && (dto != 'yyyy-mm-dd')) {
+    if (!IsValidDate(dto, 'yyyy-mm-dd')) {
+      error_message = error_message + "* Neteisinga data iki.\n";
+      error_field = document.advanced_search.dto;
+      error_found = true;
+    }
+  }
+
+  if ((dfrom.length > 0) && (dfrom != 'yyyy-mm-dd') && (IsValidDate(dfrom, 'yyyy-mm-dd')) && (dto.length > 0) && (dto != 'yyyy-mm-dd') && (IsValidDate(dto, 'yyyy-mm-dd'))) {
+    if (!CheckDateRange(document.advanced_search.dfrom, document.advanced_search.dto)) {
+      error_message = error_message + "* Data iki turi būti didesnė ar lygi datai nuo.\n";
+      error_field = document.advanced_search.dto;
+      error_found = true;
+    }
+  }
+
+  if (pfrom.length > 0) {
+    pfrom_float = parseFloat(pfrom);
+    if (isNaN(pfrom_float)) {
+      error_message = error_message + "* Kaina nuo turi būti skaičius.\n";
+      error_field = document.advanced_search.pfrom;
+      error_found = true;
+    }
+  } else {
+    pfrom_float = 0;
+  }
+
+  if (pto.length > 0) {
+    pto_float = parseFloat(pto);
+    if (isNaN(pto_float)) {
+      error_message = error_message + "* Kaina iki turi būti skaičius.\n";
+      error_field = document.advanced_search.pto;
+      error_found = true;
+    }
+  } else {
+    pto_float = 0;
+  }
+
+  if ( (pfrom.length > 0) && (pto.length > 0) ) {
+    if ( (!isNaN(pfrom_float)) && (!isNaN(pto_float)) && (pto_float < pfrom_float) ) {
+      error_message = error_message + "* Kaina iki turi būti didesnė už kainą nuo.\n";
+      error_field = document.advanced_search.pto;
+      error_found = true;
+    }
+  }
+
+  if (error_found == true) {
+    alert(error_message);
+    error_field.focus();
+    return false;
+  } else {
+    RemoveFormatString(document.advanced_search.dfrom, "yyyy-mm-dd");
+    RemoveFormatString(document.advanced_search.dto, "yyyy-mm-dd");
+    return true;
+  }
+}
+
+function popupWindow(url) {
+  window.open(url,'popupWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=450,height=280,screenX=150,screenY=150,top=150,left=150')
+}
+//--></script>
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+<!-- header //-->
+
+
+
+<div align="center" style="background-image:url(../images/top-background.gif); background-position:center">
+<table width="980" height="120" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="54" align="left" valign="top"><a href="index.php"><img src="../images/logo.jpg"  alt=", " width="490" height="50" border="0" /></a></td>
+      </tr>
+      <tr class="headerNavigation">
+        <td align="left" valign="top" class="breadcrumb"><h1 class="breadcrumb" align="left" valign="top">&nbsp;&nbsp;&nbsp;<strong></strong></h1></td>
+        
+      </tr>
+    </table></td>
+    <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="66" align="right" valign="bottom" class="breadcrumb"><div class="breadcrumb" align="right" valign="top" style="color:#000000">&nbsp;&nbsp;&nbsp;<strong><a href="motocykle.php" class="breadcrumb" style="color:#000000">Motocykle</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="skutery.php" class="breadcrumb" style="color:#000000">Skutery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="testy.php" class="breadcrumb" style="color:#000000">Testy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="down.php" class="breadcrumb" style="color:#000000">Download</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="informacje.php" class="breadcrumb" style="color:#000000">Informacje</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="shipping.php" class="breadcrumb" style="color:#000000">Przesylka</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="dealerzy.php" class="breadcrumb" style="color:#000000">Dealerzy</a>&nbsp;&nbsp;&nbsp;</strong></div></td>
+      </tr>
+      <tr>
+        <td height="8" align="right" valign="bottom" class="breadcrumb"><img src="../images/pixel_trans.gif" alt="space" width="10" height="8" /></td>
+      </tr>
+      <tr class="headerNavigation">
+        <td align="right" valign="top" class="headerNavigation">          <a href="http://www.conti-moto.pl/account.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0" class="headerNavigation">Mano duomenys</a> &nbsp;|&nbsp; <a href="http://www.conti-moto.pl/shopping_cart.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0" class="headerNavigation">Prekių krepšelis</a> &nbsp;|&nbsp; <a href="http://www.conti-moto.pl/checkout_shipping.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0" class="headerNavigation">Vykdyti užsakymą</a>&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+
+  </div>
+
+
+
+
+
+<!-- header_eof //-->
+
+<!-- body //-->
+<table border="0" width="980" align="center" cellspacing="3" cellpadding="3" background="images/tlo-middle.gif">
+  <tr>
+    <td width="191" valign="top">
+    
+    <table border="0" width="191" cellspacing="0" cellpadding="2">
+    	<tr>
+    		<td>
+    			<table border="0" width="191" cellspacing="0" cellpadding="2">
+<!-- left_search //-->
+<!-- search //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="4" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Paieška</td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><form name="quick_find" action="http://www.conti-moto.pl/advanced_search_result.php" method="get"><input type="text" name="keywords" size="10" maxlength="30" style="width: 161px">&nbsp;<input type="hidden" name="osCsid" value="7dd3b5fc77980cb5c04b7bcf0aeabcd0"><input type="image" src="includes/languages/lithuanian/images/buttons/button_quick_find.gif" border="0" alt="Paieška" title=" Paieška "><br>Įrašykite ieškomą žodį ar frazę.<br><a href="http://www.conti-moto.pl/advanced_search.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><b> Detali paieška</b></a></form></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- search_eof //-->
+<!-- left_search_eof //-->
+    			</table>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			<table border="0" width="191" cellspacing="0" cellpadding="2">
+<!-- left_navigation //-->
+<script type="text/javascript" src="flashobject.js"></script>	        	
+<div id="menu" align="left" class="boxText">
+<a href="http://www.conti-moto.pl/index.php?cPath=81"><b> O.Motocykl</b>-&gt;</a>&nbsp;(266)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_82">ContiAttackSM</a>&nbsp;(4)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_83">ContiRaceAttack</a>&nbsp;(5)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_84">ContiRaceAttack Rain</a>&nbsp;(3)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_85"><b>ContiRaceAttack Slick Endurance</b></a>&nbsp;(2)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_86">ContiRaceAttack Slick Medium</a>&nbsp;(3)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_87">ContiRaceAttack Slick Soft</a>&nbsp;(3)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_88">ContiRaceAttackComp.Endurance</a>&nbsp;(3)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_89">ContiRaceAttackComp.Medium</a>&nbsp;(4)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_90">ContiRaceAttackComp.Soft</a>&nbsp;(4)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_91">ContiRaceAttackCustom</a>&nbsp;(2)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_92">ContiSportAttack</a>&nbsp;(9)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_93">ContiSportAttack 2</a>&nbsp;(9)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_94">ContiTwist SM</a>&nbsp;(2)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_95">ContiTwist SM Sport</a>&nbsp;(2)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_96">TKC 80</a>&nbsp;(26)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_98">CM1</a>&nbsp;(1)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_99">CM2</a><br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_101">ContiEscape</a>&nbsp;(10)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_102">ContiGo!</a>&nbsp;(32)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_103">ContiMotion</a>&nbsp;(12)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_104">ContiRoadAttack</a>&nbsp;(11)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_105">ContiRoadAttack 2</a>&nbsp;(16)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_106">ContiTrailAttack</a>&nbsp;(18)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_107">K112</a>&nbsp;(4)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_108">Michelin</a>&nbsp;(1)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_109">TKH24</a>&nbsp;(2)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_110">TKV11Front</a>&nbsp;(6)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_111">TKV12Rear</a>&nbsp;(4)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_120">ContiForce</a>&nbsp;(1)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_121">ContiForceSM</a>&nbsp;(3)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_122">ContiGelandeSport</a>&nbsp;(5)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_123">ContiRoadAttack2 GT</a>&nbsp;(4)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_124">Detka</a><br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_125">G701</a>&nbsp;(1)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_126">RB2</a>&nbsp;(1)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_136">MILESTONE</a>&nbsp;(22)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_137">ContiClassicAttack</a>&nbsp;(3)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_138">ContiRoadAttack2CR</a>&nbsp;(4)<br>&nbsp;&nbsp;<a href="http://www.conti-moto.pl/index.php?cPath=81_139">ContiTrailAttack2 TractionSkin</a>&nbsp;(23)<br><a href="http://www.conti-moto.pl/index.php?cPath=115"> detki motocyklowe-&gt;</a>&nbsp;(30)<br><a href="http://www.conti-moto.pl/index.php?cPath=117">O.Scooter-&gt;</a>&nbsp;(84)<br><a href="http://www.conti-moto.pl/index.php?cPath=118"> Ochraniacz-&gt;</a>&nbsp;(23)<br></div>
+
+<script type="text/javascript">
+   var fo = new FlashObject("../swf/left.swf", "top2", "180", "630", "7", "#336699");
+   fo.addParam("wmode", "transparent");
+   fo.write("menu");
+</script>
+<!-- left_navigation_eof //-->
+    			</table>
+    		</td>
+    	</tr>
+    </table>
+    
+    </td>
+    
+    
+<!-- body_text //-->
+    <td width="100%" valign="top"><form name="advanced_search" action="http://www.conti-moto.pl/advanced_search_result.php" method="get" onSubmit="return check_form(this);"><input type="hidden" name="osCsid" value="7dd3b5fc77980cb5c04b7bcf0aeabcd0"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="pageHeading">Detali paieška</td>
+            <td class="pageHeading" align="right"><img src="images/table_background_browse.gif" border="0" alt="Detali paieška" title=" Detali paieška " width="60" height="42"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+      </tr>
+      <tr>
+        <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Paieškos kriterijus</td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/infobox/corner_right.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><input type="text" name="keywords" style="width: 100%"></td>
+  </tr>
+  <tr>
+    <td align="right" class="boxText"><input type="checkbox" name="search_in_description" value="1"> Ieškoti prekių aprašymuose</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+      </tr>
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+          <tr>
+            <td class="smallText"><a href="javascript:popupWindow('http://www.conti-moto.pl/popup_search_help.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0')"><u>Paieškos pagalba</u> [?]</a></td>
+            <td class="smallText" align="right"><input type="image" src="includes/languages/lithuanian/images/buttons/button_search.gif" border="0" alt="Ieškoti" title=" Ieškoti "></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+      </tr>
+      <tr>
+        <td><table border="0" width="100%" cellspacing="1" cellpadding="2" class="infoBox">
+          <tr class="infoBoxContents">
+            <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+              <tr>
+                <td class="fieldKey">Prekių grupės:</td>
+                <td class="fieldValue"><select name="categories_id"><option value="" SELECTED>Visos grupės</option></select></td>
+              </tr>
+              <tr>
+                <td class="fieldKey">&nbsp;</td>
+                <td class="smallText"><input type="checkbox" name="inc_subcat" value="1" CHECKED> Įtraukti pogrupius</td>
+              </tr>
+              <tr>
+                <td colspan="2"><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+              </tr>
+              <tr>
+                <td class="fieldKey">Gamintojai:</td>
+                <td class="fieldValue"><select name="manufacturers_id"><option value="" SELECTED>Visi gamintojai</option><option value="6">Canon</option><option value="4">Fox</option><option value="8">GT Interactive</option><option value="9">Hewlett Packard</option><option value="5">Logitech</option><option value="1">Matrox</option><option value="2">Microsoft</option><option value="7">Sierra</option><option value="3">Warner</option></select></td>
+              </tr>
+              <tr>
+                <td colspan="2"><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+              </tr>
+              <tr>
+                <td class="fieldKey">Kaina nuo:</td>
+                <td class="fieldValue"><input type="text" name="pfrom"></td>
+              </tr>
+              <tr>
+                <td class="fieldKey">Kaina iki:</td>
+                <td class="fieldValue"><input type="text" name="pto"></td>
+              </tr>
+              <tr>
+                <td colspan="2"><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+              </tr>
+              <tr>
+                <td class="fieldKey">Įvedimo data nuo:</td>
+                <td class="fieldValue"><input type="text" name="dfrom" value="yyyy-mm-dd" onFocus="RemoveFormatString(this, 'yyyy-mm-dd')"></td>
+              </tr>
+              <tr>
+                <td class="fieldKey">Įvedimo data iki:</td>
+                <td class="fieldValue"><input type="text" name="dto" value="yyyy-mm-dd" onFocus="RemoveFormatString(this, 'yyyy-mm-dd')"></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></form></td>
+<!-- body_text_eof //-->
+    <td width="191" valign="top"><table border="0" width="191" cellspacing="0" cellpadding="2">
+<!-- right_navigation //-->
+<!-- shopping_cart //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="4" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Prekių krepšelis</td>
+    <td height="14" class="infoBoxHeading" nowrap><a href="http://www.conti-moto.pl/shopping_cart.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="images/infobox/arrow_right.gif" border="0" alt="plačiau" title=" plačiau " width="12" height="10"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText">...yra tuščias</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- shopping_cart_eof //-->
+<!-- reviews //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="4" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Atsiliepimai</td>
+    <td height="14" class="infoBoxHeading" nowrap><a href="http://www.conti-moto.pl/reviews.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="images/infobox/arrow_right.gif" border="0" alt="plačiau" title=" plačiau " width="12" height="10"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText">Šiuo metu atsiliepimų nėra</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- reviews_eof //-->
+<!-- languages //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="4" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Kalba</td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"> <a href="http://www.conti-moto.pl/advanced_search.php?language=pl&osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="includes/languages/polish/images/icon.gif" border="0" alt="Polski" title=" Polski " width="24" height="15"></a>  <a href="http://www.conti-moto.pl/advanced_search.php?language=ee&osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="includes/languages/eesti/images/icon.gif" border="0" alt="Estonian" title=" Estonian " width="22" height="16"></a>  <a href="http://www.conti-moto.pl/advanced_search.php?language=lt&osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="includes/languages/lithuanian/images/icon.gif" border="0" alt="Lithuanian" title=" Lithuanian " width="26" height="14"></a>  <a href="http://www.conti-moto.pl/advanced_search.php?language=lv&osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="includes/languages/latvian/images/icon.gif" border="0" alt="Llatvian" title=" Llatvian " width="22" height="16"></a>  <a href="http://www.conti-moto.pl/advanced_search.php?language=en&osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="includes/languages/english/images/icon.gif" border="0" alt="English" title=" English " width="24" height="15"></a>  <a href="http://www.conti-moto.pl/advanced_search.php?language=de&osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0"><img src="includes/languages/german/images/icon.gif" border="0" alt="Deutsch" title=" Deutsch " width="24" height="15"></a> </td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- languages_eof //-->
+<!-- currencies //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="4" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Valiuta</td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><form name="currencies" action="http://www.conti-moto.pl/advanced_search.php" method="get"><select name="currency" onChange="this.form.submit();" style="width: 100%"><option value="USD">US Dollar</option><option value="EUR">Euro</option><option value="PLN" SELECTED>Z³oty</option></select><input type="hidden" name="osCsid" value="7dd3b5fc77980cb5c04b7bcf0aeabcd0"></form></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- currencies_eof //-->
+<!-- information //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="4" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Informacija</td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><a href="http://www.conti-moto.pl/shipping.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0">Pristatymas ir gražinimai</a><br><a href="http://www.conti-moto.pl/privacy.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0">Privatumo nuostatos</a><br><a href="http://www.conti-moto.pl/conditions.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0">Sąlygos ir garantijos</a><br><a href="http://www.conti-moto.pl/contact_us.php?osCsid=7dd3b5fc77980cb5c04b7bcf0aeabcd0">Kontaktai</a></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- information_eof //-->
+
+<!-- search //-->
+
+          <tr>
+
+            <td>
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="4" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Linki</td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><a href="http://www.reifen-freigaben.de/freigaben_swf/freigaben.htm" target="_blank">Dobór opon do motocykli</a></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><a href="http://www.koloserwis.pl/opony.php" target="_blank">Opony do samochodów</a></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><a href="http://www.koloserwis.pl/felgi.php" target="_blank">Felgi samochodowe</a></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+
+            </td>
+
+          </tr>
+
+<!-- search_eof //-->
+
+<!-- right_navigation_eof //-->
+    </table></td>
+  </tr>
+</table>
+<!-- body_eof //-->
+
+<!-- footer //-->
+<table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="1" class="infoBox"><img src="images/pixel_trans.gif" alt="space" width="1" height="1" /></td>
+    <td height="1" class="infoBox"><img src="images/pixel_trans.gif" alt="space" width="1" height="1" /></td>
+  </tr>
+  <tr>
+    <td width="220" height="40" align="left" valign="top" class="footer"><img src="../images/pixel_trans.gif" alt="space" width="5" height="5" />Powered by: <a href="http://www.oscommerce.com/" target="_blank"><strong>osCommerce</strong></a> <br /> 
+      <img src="../images/pixel_trans.gif" alt="space" width="5" height="5" />Polish language: <a href="http://www.oscommerce.waw.pl/" target="_blank"><strong>osCommerce.waw.pl</strong></a></td>
+    <td width="760" height="40" align="right" valign="top" class="footer"><a href="index.php" class="footer"></a>&nbsp;&raquo;&nbsp;<img src="../images/pixel_trans.gif" alt="space" width="5" height="5" /><br />
+    <a href="http://www.luczak.pl/" target="_blank" class="footer">Projektowanie stron internetowych: www.luczak.pl</a><img src="../images/pixel_trans.gif" alt="space" width="5" height="5" /><br />
+    <a href="polecane.php" class="footer">Pozycjonowanie</a>: <a href="http://www.luczak.pl/" target="_blank" class="footer">www.luczak.pl</a><img src="../images/pixel_trans.gif" alt="space" width="5" height="5" /></td>
+  </tr>
+</table>
+<!-- footer_eof //-->
+<br>
+</body>
+</html>
+
+
