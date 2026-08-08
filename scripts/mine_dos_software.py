@@ -59,6 +59,33 @@ MIN_HIGH_BYTES = 20
 MAX_HIGH_FRACTION = 0.45
 MAX_CASE_NOISE = 0.25
 
+# Letters characteristic of each language, used to check that the text is
+# actually in the language being claimed.  --language is an assertion by
+# the caller; without this a Spanish README passed as Polish cp852 purely
+# because its accented letters happened to be cp852-distinguishing.
+LANGUAGE_LETTERS: dict[str, str] = {
+    "pl": "ąćęłńóśźżĄĆĘŁŃÓŚŹŻ",
+    "cs": "áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ",
+    "sk": "áäčďéíĺľňóôŕšťúýžÁÄČĎÉÍĹĽŇÓÔŔŠŤÚÝŽ",
+    "hu": "áéíóöőúüűÁÉÍÓÖŐÚÜŰ",
+    "ro": "ăâîșşțţĂÂÎȘŞȚŢ",
+    "de": "äöüßÄÖÜ",
+    "da": "æøåÆØÅ",
+    "no": "æøåÆØÅ",
+    "sv": "åäöÅÄÖ",
+    "pt": "ãáàâçéêíóôõúÃÁÀÂÇÉÊÍÓÔÕÚ",
+    "es": "áéíóúñüÁÉÍÓÚÑÜ",
+    "fr": "àâçéèêëîïôùûüÀÂÇÉÈÊËÎÏÔÙÛÜ",
+    "tr": "çğıöşüÇĞİÖŞÜ",
+    "el": "αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ",
+    "he": "אבגדהוזחטיכלמנסעפצקרשת",
+    "ru": "абвгдежзийклмнопрстуфхцчшщыьэюяАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ",
+    "lt": "ąčęėįšųūžĄČĘĖĮŠŲŪŽ",
+    "lv": "āčēģīķļņšūžĀČĒĢĪĶĻŅŠŪŽ",
+    "is": "áðéíóúýþæöÁÐÉÍÓÚÝÞÆÖ",
+}
+MIN_LANGUAGE_LETTERS = 8
+
 MANIFEST_COLUMNS = (
     "path", "item", "member", "codec", "language", "size", "letters",
     "high_bytes", "unique_bytes", "detected", "status",
@@ -165,7 +192,7 @@ def case_noise(text: str) -> float:
     return noisy / len(words)
 
 
-def evaluate(data: bytes, codec: str) -> tuple[int, int, int] | None:
+def evaluate(data: bytes, codec: str, language: str = "") -> tuple[int, int, int] | None:
     """Return (letters, high bytes, unique bytes) for an accepted candidate."""
     if not MIN_SIZE <= len(data) <= MAX_SIZE or b"\x00" in data:
         return None
@@ -203,6 +230,9 @@ def evaluate(data: bytes, codec: str) -> tuple[int, int, int] | None:
     letters = sum(1 for ch in text if ch.isalpha())
     if letters < MIN_LETTERS or case_noise(text) > MAX_CASE_NOISE:
         return None
+    expected = LANGUAGE_LETTERS.get(language)
+    if expected and sum(1 for ch in text if ch in expected) < MIN_LANGUAGE_LETTERS:
+        return None
     return letters, high, unique
 
 
@@ -224,7 +254,7 @@ def zip_members(blob: bytes) -> list[tuple[str, bytes]]:
     return found
 
 
-def mine_item(item: str, codec: str, per_item: int) -> list[tuple]:
+def mine_item(item: str, codec: str, per_item: int, language: str = "") -> list[tuple]:
     try:
         resolved = item_archive_url(item)
         if resolved is None:
@@ -296,7 +326,9 @@ def main() -> int:
     for item in items:
         if len(rows) >= arguments.max_files:
             break
-        for row in mine_item(item, arguments.codec, arguments.per_item):
+        for row in mine_item(
+            item, arguments.codec, arguments.per_item, arguments.language
+        ):
             digest = hashlib.sha256(row[2]).hexdigest()
             if digest in seen:
                 continue
