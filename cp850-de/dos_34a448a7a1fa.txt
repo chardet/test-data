@@ -1,0 +1,20 @@
+    TWORK Shareware Version v1.7 - 11.08.96
+ (c) Copyright 1993-1996 Pentastar Productions
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+o Action Jump and Run (DOS, Win95, OS/2)
+o 4 von 20 Leveln spielbar in dieser Version
+o Savepoints in der Vollversion
+o Gravis GamePad Untersttzung
+o 1 von 4 graphischen Szenarien erkundbar
+o schnelles, ruckelfreies, parallaxes 70hz
+  Scrolling (VGA + SVGA optimiert)
+o Gerenderte Charaktere
+o Hintergrnde aus echten Photos
+o Digitale Soundeffekte (SB + kompatible)
+o Digitale, fetzige Hintergrundmusik (kein MIDI)
+o 4 Schwierigkeitsstufen
+o mehrere Spielgeschwindigkeiten
+o Registriergebhr: DM 20,- incl. Versandkosten
+o Pentastar Productions (K.Wysk)
+  In der Bebie 10, 30539 Hannover
+  FAX: 0511/9524766, CIS:101342,3221

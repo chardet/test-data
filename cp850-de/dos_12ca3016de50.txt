@@ -1,0 +1,93 @@
+
+Kurzanleitung fr die PC-Version von "Das Telekommando kehrt zurck"
+--------------------------------------------------------------------
+
+1. Hardware-Anforderungen
+
+   Um das Telekommando zu spielen, ben”tigen  Sie  mindestens  einen
+   PC/AT mit 80286 Prozessor, MS-DOS 3.00 oder h”her, eine VGA- oder
+   MCGA-Grafikkarte, 520 Kilobyte freien Hauptspeicher und  ungef„hr
+   1.2 Megabyte Platz auf Ihrer Festplatte.
+
+   Untersttzt werden neben der Tastatur die Maus  als  Eingabeger„t
+   sowie AdLib- und Soundblaster-Musikkarten. Das Telekommando l„uft
+   optimal auf einem 80386 Rechner ab 33 Mhz und einer Soundblaster-
+   Musikkarte.
+
+2. Installation auf Festplatte
+
+   Zum Installieren wechseln Sie zuerst auf das Laufwerk, in dem die
+   Originaldiskette von  "Das Telekommando kehrt zurck" steckt. Sie
+   tun dies, indem Sie die Originaldiskette beispielsweise in  Lauf-
+   werk A: stecken und danach "A: [EINGABETASTE]" eintippen.
+
+   Als n„chstes tippen Sie "INSTALL <WOHIN> [EINGABETASTE]" ein. Das
+   Wort <WOHIN> ersetzen Sie durch das Verzeichnis, in das  Sie  das
+   Telekommando  kopieren  m”chten.  Wenn  Sie das Telekommando nach
+   "C:\SPIELE" kopieren m”chten, tippen Sie:
+
+   "INSTALL C:\SPIELE\TELEKOM2"
+
+   ein (und beschlieáen die Zeile mit der [EINGABETASTE]).  Das  In-
+   stallationsprogramm  kopiert  dann alle n”tigen Daten in das Ver-
+   zeichnis "C:\SPIELE\TELEKOM2" und wechselt automatisch  nach  dem
+   Installationsvorgang in dieses Verzeichnis.
+
+3. Starten
+
+   Wechseln Sie auf die Platte und in das Verzeichnis,  in  das  Sie
+   das Telekommando installiert haben und tippen Sie
+
+   "TK2 [EINGABETASTE]"
+
+   ein. Wenn Sie das Telekommando zum ersten Mal starten, kommen Sie
+   automatisch in ein Men, in dem Sie Ihre Soundkarte  registrieren
+   lassen k”nnen. M”chten Sie zu einem sp„teren Zeitpunkt die Sound-
+   karten-Installation ver„ndern, tippen Sie
+
+   "TK2 S [EINGABETASTE]"
+
+   ein. Das Installationsmen fr die Soundkarte besitzt eine Hilfe-
+   funktion, die Sie durch Drcken von "H" aktivieren k”nnen.
+
+   TIP: Sollten Sie ber einen langsameren Rechner verfgen oder das
+   Gefhl haben, daá das Telekommando mit Soundblaster-Untersttzung
+   ein wenig z„h l„uft, dann w„hlen Sie "AdLib" als Musikkarte.
+
+4. Die Bedienung mit der Tastatur und der Maus
+
+   Obwohl wir eine Maus zur Bedienung empfehlen, l„át sich das Tele-
+   kommando auch mit der PC-Tastatur steuern:
+
+   Pfeiltasten (Cursor)                 Mauszeiger bewegen
+   Eingabetaste oder Leertaste          Mausknopf drcken
+
+5. Optionen w„hrend des Spiels
+
+   Wenn Sie w„hrend des Spiels [ESCAPE] drcken, erscheint ein Men,
+   in dem Sie unter anderem den aktuellen Spielstand speichern, ein-
+   laden, oder das Spiel beenden k”nnen.
+
+   TIP: Das Programm speichert den aktuellen Spielstand beim Beenden
+   nicht - achten Sie also darauf, dies vorher zu tun.
+
+6. Steuerung im Spiel
+
+   Sie fhren die Telekom-Service-Mitarbeiterin oder den Mitarbeiter
+   mit dem Mauspfeil durch verschiedene R„ume. Durch  das  Anklicken
+   von Gegenst„nden und/oder Befehlen - wie ™FFNE, SCHAUE usw. - l”-
+   sen Sie unterschiedliche Aktionen der Spielfigur aus. Sie  k”nnen
+   Dinge  reparieren,  sich mit anderen Leuten unterhalten und alles
+   genau erforschen. H”ren Sie gut zu, was man Ihnen sagt  oder  was
+   Sie so alles in Gespr„chen aufschnappen k”nnen - meistens verber-
+   gen sich wichtige Informationen dahinter.
+
+7. Bei Problemen - die Hotline zum Telekommando
+
+   Falls Sie auf unberwindliche Schwierigkeiten stoáen sollten, ste-
+   hen  Ihnen  unsere freundlichen Mitarbeiter jeweils Montags, Mitt-
+   wochs und Freitags von 15.00 Uhr bis 18.00 Uhr  unter  der  Nummer
+
+   0234/684488
+
+   gerne zur Verfgung.

@@ -1,0 +1,228 @@
+
+
+  In dieser Datei erf„hrst du,  welche Anforderungen  "Skyworker" an deinen
+  PC stellt, wie du das Spiel richtig installierst, wie du deine Soundkarte
+  fr "Skyworker" einrichtest und was  du tun muát, wenn du einmal Probleme
+  hast.
+
+  Du kannst  diese Datei einfach mit den "Cursor-Tasten" durchbl„ttern. Mit
+  der Taste "ESC" kannst du diese Datei verlassen.
+
+  Wenn du dir nicht  alles merken kannst, was du hier  liest, kannst du dir
+  diese  Datei auch ausdrucken,  indem du auf deine  "Skyworker"-Diskette 1
+  wechselst (A: oder B:) und dort den Befehl  "PRINT SKY.TXT" eingibst. Die
+  darauf folgende Frage "Name des Ausgabeger„ts [PRN]:" muát du nur einfach
+  mit der Eingabetaste best„tigen.
+
+  Sollte das  nicht funktionieren, kannst  du diese Datei  auch  direkt zum
+  Druckeranschluá kopieren (in der Regel LPT1:).
+
+  Dazu gibst du einfach an der  MS-DOS-Eingabeaufforderung den Befehl "COPY
+  SKY.TXT LPT1:" ein und best„tigst ihn mit der Eingabetaste.
+
+
+
+  1. Welche Hardware-Anforderungen werden vorausgesetzt?
+
+     Um  das Spiel  "Skyworker" zu spielen,  ben”tigst du  mindestens einen
+     IBM-PC 80286 mit 1 MB RAM  oder einen dazu  kompatiblen PC,  eine VGA-
+     Grafikkarte mit mindestens 512 KB RAM und eine Maus.
+
+     Da das  Spiel auf deine  Festplatte installiert  werden muá,  brauchst
+     du ca. 3 MB freien Festplattenspeicher.
+
+     "Skyworker" kann gespielt werden ab  MS-DOS-Version 3.3 und ca. 470 KB
+     freiem DOS-Arbeitsspeicher.
+
+     Wenn  du  auáerdem in den  Genuá  von hochwertigen  Synthesizer-Sounds
+     kommen  willst, brauchst  du eine  Adlib- oder  Soundblasterkarte oder
+     eine dazu kompatible Soundkarte.
+
+
+  2. Wie installiere ich das Spiel auf die Festplatte?
+
+     Um das Spiel auf  deine Festplatte zu kopieren,  lege die "Skyworker"-
+     Diskette 1  in  das  3,5"-Diskettenlaufwerk  und  aktiviere  es  durch
+     Eingabe von A: (oder B:).
+
+     Gib dann  INSTALL ein.  Das Installationsprogramm  wird nun gestartet.
+
+     Es erscheint die  erste Eingabemaske.  In dieser  Maske kannst  du das
+     Ziellaufwerk  und  den  Zielpfad fr  die Installation  ver„ndern. Wir
+     empfehlen dir  aber  in jedem  Fall,  die  Standardeinstellungen  bei-
+     zubehalten.
+
+     In dieser  Eingabemaske gibt es  zwei Eingabefelder.  Das Ziellaufwerk
+     kannst du einfach  durch Drcken des richtigen Buchstabens  (z.B. "D")
+     ausw„hlen.
+
+     M”chtest  du den Zielpfad ver„ndern, muát du  zuerst einmal die "TAB"-
+     Taste  drcken.  Du siehst  dann am  Ende des voreingestellten  Pfades
+     ("\BMWI\SKY")  die  blinkende  Eingabemarke.  Du  kannst  nun mit  der
+     Rckschritt-Taste  ("Backspace") die  Voreinstellung l”schen und einen
+     neuen Zielpfad eingeben.
+
+     Wenn du alle Eingaben  beendet hast, muát du  nur  einmal die Eingabe-
+     taste  drcken.
+
+     Jetzt wirst du gefragt, ob alle Eingaben korrekt sind. Best„tige diese
+     Frage einfach  mit der Eingabetaste (entspricht "Ja").
+
+
+  3. Wie konfiguriere ich meine Soundkarte?
+
+     "Skyworker"  untersttzt Adlib-,  Soundblaster-  und  dazu  kompatible
+     Soundkarten.
+
+     Wenn du das Spiel  das erstemal aufrufst,  wird automatisch das Sound-
+     karten-Konfigurationsprogramm gestartet.
+
+     Dort kannst du ganz einfach  deine Soundkarte ausw„hlen,  indem du die
+     Ziffer drckst, die deiner Soundkarte  entspricht. Solltest du weitere
+     Hilfe bei der Soundkarten-Einstellung ben”tigen, kannst du dir mit der
+     Taste "H" eine kleine Online-Hilfe anzeigen lassen.
+
+     Wenn du keine Soundkarte besitzt oder du dir nicht sicher bist, welche
+     Soundkarte du hast, w„hle vorsichtshalber die Taste "8" ("Keine Sound-
+     karte").
+
+     Danach muát  du nur noch die  Konfiguration mit der Taste "X"  beenden
+     und  beim Verlassen die  Frage "Konfiguration abspeichern (j/n)?"  mit
+     der Taste "J" fr "Ja" beantworten.
+
+
+  4. Wie finde ich das Spiel und wie starte ich es?
+
+     Wenn du deinen PC  neu gestartet hast,  findest du "Skyworker"  in dem
+     Verzeichnis, in dem du es installiert hast.
+
+     Wenn du w„hrend der Installation weder das Ziellaufwerk noch den Ziel-
+     pfad ge„ndert hast, befindet sich das Spiel im Verzeichnis "\BMWI\SKY".
+
+     Um  das  Spiel  zu   starten,  muát  du   zuerst  durch   Eingabe  von
+     "CD \BMWI\SKY"  (oder das  von dir gew„hlte Verzeichnis) und  Eingabe-
+     taste in  das richtige  Verzeichnis wechseln.  Danach brauchst  du nur
+     noch "SKY" einzugeben, um das Spiel zu starten.
+
+
+  5. Ich habe eine Adlib- oder Soundblasterkarte, der Sound funktioniert
+     aber nicht. Was soll ich tun?
+
+     Wenn du eine Soundblasterkarte besitzt, hast du  eventuell die falsche
+     Version  deiner Soundkarte  im Soundkarten-Konfigurationsprogramm  ge-
+     w„hlt.  Um  deine Konfiguration  noch einmal  zu „ndern,  gehe vor wie
+     unter Punkt 6 beschrieben.
+
+     Sollte  auch  das  nicht   funktionieren,   stelle   im   Soundkarten-
+     Konfigurationsprogramm "Keine Soundkarte" ein.
+
+     Alternativ  dazu  kannst du natrlich  auch die Hotline  anrufen.  Die
+     Telefonnummer lautet 0234-684488.
+
+
+  6. Ich habe eine neue Soundkarte. Was muá ich tun?
+
+     "Skyworker" untersttzt alle  Soundkarten, die zum  Adlib- oder Sound-
+     blaster-Standard  kompatibel  sind.  Andere Soundkarten  werden  nicht
+     untersttzt.
+
+     Um deine neue Soundkarte fr "Skyworker" einzurichten,  gehe zuerst in
+     das  Verzeichnis, in das du  "Skyworker" installiert hast (Wenn du die
+     Grundeinstellungen nicht ge„ndert hast, ist das "\BMWI\SKY").
+
+     Hier  gibst du an der  Eingabeaufforderung den Befehl  "PSMCFG4"  ein.
+     Dadurch gelangst du ins Soundkarten-Konfigurationsprogramm,  das du ja
+     schon von der Erstinstallation her kennst.
+
+     W„hle  dort einfach  die Ziffer,  die  deiner  Soundkarte  entspricht.
+     Solltest du  weitere Hilfe bei der  Soundkarten-Einstellung ben”tigen,
+     kannst  du dir mit der Taste  "H"  eine kleine  Online-Hilfe  anzeigen
+     lassen.
+
+     Wenn du keine Soundkarte besitzt oder du dir nicht sicher bist, welche
+     Soundkarte du hast, w„hle vorsichtshalber die Taste "8" ("Keine Sound-
+     karte").
+
+     Danach muát du nur noch die  Konfiguration mit der Taste  "X"  beenden
+     und beim  Verlassen die Frage  "Konfiguration abspeichern (j/n)?"  mit
+     der Taste "J" fr "Ja" beantworten.
+
+     Sollte auch das nicht zum Erfolg fhren,  rufe einfach die Hotline an.
+     Die Telefonnummer lautet 0234-684488.
+
+
+  7. Ich will das Spiel ber Tastatur spielen. Warum geht das nicht?
+
+     "Skyworker" ist ein sogenanntes "Adventure-" oder "Movie-Game". Spiele
+     dieser Art werden grunds„tzlich mit der Maus bedient, da es nahezu un-
+     m”glich ist,  die vielen Funktionen  des Spiels auf  die Tasten  einer
+     Tastatur zu legen.
+
+     Wenn du also  keine  Maus besitzt,  solltest du dir  schnellstens eine
+     besorgen. M„use gibt es heute schon fr unter 30 DM in jedem Computer-
+     Shop.
+
+
+  8. Ich will das Spiel mit der Maus spielen, das geht aber nicht.
+     Was ist zu tun?
+
+     Wahrscheinlich ist dein Maustreiber noch  nicht installiert. Der Maus-
+     treiber  ist  ein kleines  Programm, das  die  Kommunikation  zwischen
+     deinem PC und deiner Maus steuert.
+
+     Um den Maustreiber zu  installieren, muát du diesen einfach einmal vor
+     dem Start von  "Skyworker" aufrufen. Sinnvoll ist es, diesen Aufruf in
+     deine Startdatei  ("AUTOEXEC.BAT") zu  integrieren. Wie du  das macht,
+     erf„hrst du im Handbuch zu deiner Maus oder im MS-DOS-Benutzerhandbuch.
+
+     Die zweite  M”glichkeit ist, daá  das  Anschluákabel deiner  Maus sich
+     etwas gelockert hat. šberprfe vorsichtshalber noch einmal alle Kabel-
+     verbindungen zwischen Maus und PC.
+
+     Die dritte M”glichkeit ist,  daá du einen Maustreiber hast,  der nicht
+     kompatibel  zum Mausstandard ist. In diesem  Fall ist es sinnvoll, die
+     Hotline  anzurufen,  die dir  hier eventuell  weiterhelfen  kann.  Die
+     Telefonnummer der Hotline lautet 0234-684488.
+
+
+  9. Ich habe nicht gengend Platz auf meiner Festplatte. Was kann ich tun?
+
+     "Skyworker"  braucht etwa 3 MB freien  Speicher auf deiner Festplatte.
+     Sollte  dir das  Installationsprogramm  mitteilen,  daá du  nicht mehr
+     gengend  freien Speicher hast,  muát du  einige nicht  mehr ben”tigte
+     Dateien von  deiner Festplatte  herunterl”schen oder  auf ein  anderes
+     Medium (z.B. Diskette) sichern.
+
+     Wie du so etwas machst, erf„hrst du in deinem MS-DOS-Benutzerhandbuch.
+     Hier kann leider auch die Hotline nicht weiterhelfen.
+
+
+ 10. Ich komme nicht weiter im Spiel. Wer kann mir helfen?
+
+     Solltest du Probleme haben,  an einer Stelle im  Spiel nicht weiterzu-
+     kommen,  schaue  zuerst einmal unter dem Punkt "Hilfe"  im Spiel nach.
+     Dort  findest  du  einige  wichtige  Tips,  die  dir  den  Umgang  mit
+     "Skyworker" etwas erleichtern.
+
+     Wenn du auch  dann noch nicht  weiterkommst, rufe einfach die  Hotline
+     an. Die Telefonnummer  der Hotline lautet  0234-684488.  Bedenke aber,
+     daá du  dort eventuell Informationen bekommst, die  dir den  Spielspaá
+     verderben k”nnen.
+
+
+ 11. "Skyworker" teilt mir beim Start mit, daá ich zu wenig freien Arbeits-
+     speicher habe. Was kann ich tun?
+
+     Das Spiel  "Skyworker" wurde  so programmiert,  daá es m”glichst wenig
+     (ca. 470 KB) freien  Arbeitsspeicher belegt. Solltest du diese Fehler-
+     meldung  trotzdem  bekommen,   dann  ist  dein  System  nicht  optimal
+     konfiguriert.
+
+     Wir empfehlen dir, im MS-DOS-Benutzerhandbuch unter dem Punkt "System-/
+     Speicheroptimierung"  nachzuschlagen.  Dort erh„ltst du  einige  wert-
+     volle Tips, wie man am besten Speicherplatz einspart.
+
+     Wenn  das  auch  nicht  hilft,  solltest  du  einen  Freund oder  eine
+     Freundin zu Rate ziehen, der/die sich  mit der Editierung  der Dateien
+     "CONFIG.SYS" und "AUTOEXEC.BAT" auskennt und schon  einige Erfahrungen
+     mit dem Betriebssystem MS-DOS hat.

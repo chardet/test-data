@@ -1,0 +1,156 @@
+  Lassen Sie sich registrieren !
+  Es lohnt sich bestimmt.
+
+     Sie bekommen als registrierter Benutzer :
+      *****  EINE   PROFESSIONELLE      CODELISTE
+      *****  KNAPP 100 EXTRA LEVELS
+      *****  VIELE NEUE FRACTAL-HINTERGRUNDBILDER
+      *****  SIE  WERDEN  BEIM  ERSCHEINEN  JEDER
+             NEUEN  VERSION  VON  UNS  INFORMIERT
+      *****  GRATIS-HILFESTELLUNG ZU ALLEN FRAGEN
+
+(D-E-R-Leser haben eine registrierte Version!)
+
+
+ 1) HARDWARE BEDINGUNGEN :
+    - Mindestens 80286-er Prozessor
+    - Mindestens 384k Hauptspeicher
+    - VGA Grafikkarte mit Monitor
+    - Festplatte empfehlenswert
+    - Joystickbedienung mîglich
+
+ 2) INSTALLIEREN AUF FESTPLATTE : (Beim D-E-R nicht mehr nîtig.)
+    - SETUP.EXE von Diskette starten
+    - MenÅpunkt 'Kopieren' wÑhlen
+    - Zielpfad eingeben (z.B. 'c:\Bubble' )
+
+ 3) STARTEN VON BUBBLE BLOBB : (Macht beim D-E-R das MenÅ.)
+    - In das BUBBLE BLOBB Verzeichnis wechseln
+    - BUBBLE.EXE starten
+
+
+
+ DIE CODEABFRAGE : (Kommt bei D-E-R-Version nicht vor!)
+    Jedesmal  wenn  Sie  BUBBLE  BLOBB  starten
+    erscheinen auf dem Bildschirm drei Quadrate,
+    welche wiederum aus vier Quadraten bestehen.
+    Suchen  Sie  nun  auf  Ihrer  Codeliste  den
+    ensprechenden  Code  heraus  und  geben  Sie
+    ihn ein. Dann  drÅcken  Sie Enter. Haben Sie
+    einen  falschen Code  eingegeben, ertînt ein
+    Brummton  und Sie kînnen es noch einmal ver-
+    suchen.
+
+
+ 4) DAS SPIEL :
+   4.1) DER ANFANGSBILDSCHIRM :
+      Zuerst erscheint der Anfangsbildschirm.
+      Dort  kînnen Sie nun mehrere Mîglichkeiten
+      auswÑhlen, je nachdem was Sie tun mîchten.
+
+     4.1.1) F1 : HILFE
+        DrÅcken Sie F1, so  erscheint der Hilfe-
+        bildschirm,    der  Ihnen  nochmal  eine
+        öbersicht Åber die Steine gibt.
+
+     4.1.2) F2 : SPIELEN
+       DrÅcken Sie F2  um  das  Spiel zu beginnen.
+       Haben Sie bis dahin noch kein anderes Level
+       ausgewÑhlt,  beginnen Sie bei Level  1  mit
+       drei Leben.
+
+     4.1.3) ESC : BEENDEN
+       Wenn Sie im Anfangsbildschirm ESC drÅcken,
+       verlassen Sie das Programm.
+
+     4.1.4) F4-F8 : OPTIONEN
+       Wenn Sie ein der Tasten F1-F8 drÅcken
+       kînnen Sie dadurch die Spieloptionen
+       einstellen :
+       F4 : Musikeffekte
+       F5 : Animationen
+       F6 : Ein-, Ausblenden
+       F7 : Schatten
+       F8 : Spezialanimationen
+
+  4.2) DAS EIGENTLICHE SPIEL :
+     Sie werden auf dem Bildschirm durch ein Blase
+     reprÑsentiert,  die  sich gewîhnlich von oben
+     nach  unten  oder  umgekehrt  bewegt und fÅnf
+     verschiedene Farben annehmen kann. Nun kînnen
+     Sie die Blase durch Joystick oder Pfeiltasten
+     in  der  horizontalen  Richtung beeinflussen.
+     Wenn die Blase einen Stein trifft, prallt sie
+     ab. Bei jedem Stein passiert aber  zusÑtzlich
+     etwas fÅr  jeden  Stein  Kennzeichnendes.
+     Manche  Steine  werden jedoch nur aktiv, wenn
+     die  Farbe  Ihres  Balls  mit  der des Steins
+     Åbereinstimmt.  Auf  dem  Spielfeld sehen Sie
+     au·erdem  in der  linken  unteren  Ecke   ein
+     fÅnfstellige Zahl. Dies ist  der Zugriffscode
+     fÅr das Level. In der  rechten  unteren  Ecke
+     erscheint manchmal  ein Countdown. Ist dieser
+     abgelaufen, verlieren Sie ein Leben und mÅssen
+     neu beginnen.
+
+
+
+     4.2.1) FARBWECHSLER :
+       - éndert die Farbe ihres Ball
+
+     4.2.2) REGENBOGENSTEIN :
+       - FÅr kurze Zeit Ñndert sie die Farbe ihres
+         Balls rhythmisch
+
+     4.2.3) EXTRA LEBEN :
+       - Zugewinn eines Lebens
+
+     4.2.4) WAND :
+       - Der Ball prallt ab (kein Effekt)
+
+     4.2.5) 10 PUNKTE oder 100 PUNKTE :
+       - Erhîhung der Punkte um 10 bzw. 100
+
+     4.2.6) AUSGANG :
+       - Aufstieg ins nÑchste Level
+
+     4.2.7) TOD :
+       - Abzug eines Lebens
+       - Level von vorn anfangen
+
+     4.2.8) VERSCHIEBBARER STEIN :
+       - Verschiebung des Steins
+
+     4.2.9) NORMALER STEIN :
+       - Stein verschwindet
+       - Punktgewinn
+
+     4.2.10) DOPPELTER STEIN :
+       - Stein verwandelt sich in einen
+         'normalen Stein'
+       - doppelter Punktgewinn
+
+     4.2.11) FRAGEZEICHEN :
+       - Irgendeine besondere Aktion ( !?!?!? )
+
+     4.2.12) PLUS - MINUS STEINE
+       - Ist zwischen einem Plus- und Minus-Stein
+         ein einzelner Freiraum so kann es manch-
+         mal zu einer Entladung kommen. Dies Ent-
+         ladungen sind tîdlich.
+
+
+   DIE AUTOREN :
+
+    Registrierterten Benutzern beantworten wir all
+    ihre  Fragen gerne. Wenn  Sie dennoch Probleme
+    mit der  registrierten  Version  haben, wenden
+    Sie sich bitte schriftlich an den Distributor.
+    Nicht   registrierten   Benutzern   kann   aus
+    KostengrÅnden   leider  kein  Support  gewÑhrt
+    werden.
+    Die Adresse des Distributors wird Åbrigens nach
+    der Codeabfrage eingeblendet! Er wird sich mit
+    uns in Verbindung setzen.
+
+       Die Redaktion der programmtechnischen Leitung
