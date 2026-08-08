@@ -35,6 +35,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from encoding_gaps import ENCODING_LANGUAGES, ISO_TO_LANGUAGE, get_codec  # noqa: E402
+from encoding_overlaps import DISTINGUISHING_BYTES  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 DEFAULT_MAX_PER_PAIR = 8
@@ -120,6 +121,27 @@ USENET_PAIR: dict[str, tuple[str, str]] = {
 }
 
 
+def distinguishes(data: bytes, prefix: str) -> bool:
+    """Whether *data* contains a byte unique to this encoding.
+
+    Sibling codepages overlap heavily -- cp437 and cp850 place the German
+    umlauts at identical positions -- so a German README is equally valid
+    under either and proves neither.  The repo already computes, for every
+    single-byte encoding, the bytes that decode differently there than in
+    any other; requiring one keeps ambiguous files out of directories that
+    would then be asserting something the bytes do not show.
+
+    Encodings with no entry (multi-byte, Unicode, escape-based) are
+    identified structurally and pass.
+    """
+    marks = DISTINGUISHING_BYTES.get(prefix) or DISTINGUISHING_BYTES.get(
+        canonical(prefix) or ""
+    )
+    if not marks:
+        return True
+    return any(b in marks for b in data)
+
+
 def normalize_row(row: dict[str, str]) -> tuple[str, str] | None:
     """Return (codec, iso language) for a manifest row of any miner."""
     # PO catalogues carry both explicitly: the charset is declared in the
@@ -195,8 +217,20 @@ def main() -> int:
                 rejects.append((row["path"], f"{prefix}-{iso} already has {have}"))
                 continue
 
+            source = arguments.input / row["path"]
+            try:
+                data = source.read_bytes()
+            except OSError as error:
+                rejects.append((row["path"], f"unreadable: {error}"))
+                continue
+            if not distinguishes(data, prefix):
+                rejects.append(
+                    (row["path"], f"no byte unique to {prefix}; ambiguous with siblings")
+                )
+                continue
+
             promoted[pair] += 1
-            plans.append((arguments.input / row["path"], target_dir))
+            plans.append((source, target_dir))
 
     print(f"{len(plans)} to promote, {len(rejects)} skipped\n")
     for pair, count in sorted(promoted.items()):
