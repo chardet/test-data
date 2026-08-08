@@ -65,11 +65,41 @@ def prefix_for_codec() -> dict[str, str]:
         literal = canonical(prefix)
         if literal and literal not in mapping:
             mapping[literal] = prefix
+    # Codecs this repo folds into a superset directory, matching chardet's
+    # registry: GB18030 is a strict superset of GBK, so GBK bytes decode
+    # identically there and the detector's correct answer is "gb18030".
+    for narrow, wide in (("gbk", "gb18030"), ("cp936", "gb18030")):
+        if narrow not in mapping and wide in mapping:
+            mapping[narrow] = mapping[wide]
     return mapping
 
 
 def existing_count(directory: Path) -> int:
     return sum(1 for p in directory.iterdir() if p.is_file()) if directory.is_dir() else 0
+
+
+# The Usenet miner groups candidates by charset rather than tagging each row
+# with a codec and language, because a newsgroup hierarchy implies both.
+USENET_PAIR: dict[str, tuple[str, str]] = {
+    "hz": ("hz", "zh"),
+    "iso-2022-jp": ("iso2022_jp", "ja"),
+    "iso-2022-kr": ("iso2022_kr", "ko"),
+    "big5": ("big5", "zh"),
+    "euc-kr": ("euc_kr", "ko"),
+}
+
+
+def normalize_row(row: dict[str, str]) -> tuple[str, str] | None:
+    """Return (codec, iso language) for a manifest row of either miner."""
+    if row.get("codec"):
+        iso = (row.get("suggested_dir", "").rsplit("-", 1) + [""])[1]
+        return canonical(row["codec"]), iso
+    # Usenet manifest: the charset is the candidate's parent directory.
+    charset = row["path"].split("/", 1)[0]
+    pair = USENET_PAIR.get(charset)
+    if pair is None:
+        return None
+    return canonical(pair[0]), pair[1]
 
 
 def main() -> int:
@@ -90,10 +120,22 @@ def main() -> int:
     plans, rejects = [], []
     with manifest.open(encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
-            if row["verdict"] not in wanted:
+            # The Usenet manifest has no verdict column: every row it
+            # writes already passed that miner's per-charset validation.
+            if "verdict" in row and row["verdict"] not in wanted:
                 continue
-            codec = canonical(row["codec"])
-            iso = (row["suggested_dir"].rsplit("-", 1) + [""])[1]
+            # ...but its "spans-only" rows are deliberately lenient about
+            # RFC 1843 violations, and this repo requires every file to
+            # decode strictly under its directory's encoding.  Those stay
+            # candidates rather than test data.
+            if row.get("status") == "spans-only":
+                rejects.append((row["path"], "does not decode strictly"))
+                continue
+            normalized = normalize_row(row)
+            if normalized is None:
+                rejects.append((row["path"], "unrecognised manifest row"))
+                continue
+            codec, iso = normalized
             language = ISO_TO_LANGUAGE.get(iso)
             prefix = by_codec.get(codec)
 
