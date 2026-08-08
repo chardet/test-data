@@ -31,7 +31,10 @@ Filename prefixes indicate provenance:
 - **`scripts/mine_usenet.py`** — Mines HZ, ISO-2022-JP/KR, Big5 and EUC-KR posts from Internet Archive Usenet mboxes.
 - **`scripts/mine_artpacks.py`** — Mines CP437 from BBS artpacks at 16colo.rs (`.NFO`/`.DIZ` members, not `.ANS` canvases).
 - **`scripts/mine_repo_files.py`** — Scans a git repo for BOM-identified file encodings (utf-8-sig, utf-16).
-- **`scripts/mine_po_files.py`** — Scans a git repo for gettext catalogues, which declare their own charset and name their language.
+- **`scripts/mine_po_files.py`** — Scans a git repo *or release tarball* for gettext catalogues, which declare their own charset and name their language.
+- **`scripts/mine_dos_software.py`** — Mines DOS codepages from archive.org software, reading both zips and FAT floppy images.
+- **`scripts/mine_mac_images.py`** — Mines mac-roman from classic HFS disk images (needs `machfs`).
+- **`scripts/transcode_historic.py`** — Re-encodes period text from Kamenický or Mazovia, which Python cannot name, into a supported codepage.
 - **`scripts/promote_candidates.py`** — The only supported way mined candidates enter the tree; refuses pairs chardet's registry does not vouch for.
 - **`scripts/wild_coverage.py`** — Wild-file count per encoding against a target, with the shortfall grouped by how it could be sourced.
 
@@ -117,6 +120,18 @@ sharply by family:
     files does not yield the encodings; that needs registry support first.
   - *Mac items on archive.org are HFS disk images*, not zips, so their text
     is unreachable without an HFS reader.
+- **gettext catalogues** — the densest self-labelling source found: each
+  states its charset in its own header and names its language in its
+  filename. Current catalogues are all UTF-8 (translators migrated years
+  ago), so use *historical* releases — GNU keeps every tarball it shipped,
+  and `gettext-0.14.6` alone spans nine encodings. KDE 3.5.10 and the
+  Translation Project's current files are 100% UTF-8 and not worth scanning.
+- **Historic transcoding** — Czech DOS text is usually Kamenický and Polish
+  usually Mazovia, neither of which Python can name, so those files can only
+  enter re-encoded into a supported codepage. `transcode_historic.py` does
+  that with self-tested tables. The bottleneck is not the codec but surviving
+  text: a 40-item sweep of Czech and Slovak DOS software found exactly one
+  usable file.
 - **File encodings** — utf-8-sig and utf-16 live in files, not web pages.
   A 30-part crawl found one BOM-carrying page; one Microsoft sample repo
   held 2,343. Use `mine_repo_files.py`. Note that real-world UTF-16 nearly
