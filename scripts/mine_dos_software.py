@@ -44,6 +44,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from collections import defaultdict  # noqa: E402
+
 from encoding_overlaps import DISTINGUISHING_BYTES  # noqa: E402
 
 DEFAULT_OUTPUT = Path("scripts/.cache/wild-dos")
@@ -231,8 +233,17 @@ def evaluate(data: bytes, codec: str, language: str = "") -> tuple[int, int, int
     if letters < MIN_LETTERS or case_noise(text) > MAX_CASE_NOISE:
         return None
     expected = LANGUAGE_LETTERS.get(language)
-    if expected and sum(1 for ch in text if ch in expected) < MIN_LANGUAGE_LETTERS:
-        return None
+    if expected:
+        hits = [ch for ch in text if ch in expected]
+        if len(hits) < MIN_LANGUAGE_LETTERS:
+            return None
+        # Box-drawing runs decode to letters too, and in a Cyrillic
+        # codepage they come out as a handful of repeated capitals -- an
+        # English ASCII-art README scored as Kazakh on exactly that.  Real
+        # prose is mostly lowercase, so require it.
+        cased = [ch for ch in hits if ch.isupper() or ch.islower()]
+        if cased and sum(1 for ch in cased if ch.islower()) < len(cased) * 0.4:
+            return None
     return letters, high, unique
 
 
@@ -252,6 +263,44 @@ def zip_members(blob: bytes) -> list[tuple[str, bytes]]:
             except (RuntimeError, zipfile.BadZipFile, OSError):
                 continue
     return found
+
+
+# Codepages worth testing every candidate against in broadcast mode.
+BROADCAST_CODECS = (
+    "cp437", "cp850", "cp852", "cp855", "cp857", "cp858", "cp860", "cp861",
+    "cp862", "cp863", "cp864", "cp865", "cp866", "cp869", "cp737", "cp775",
+    "cp720", "cp1125", "mac-roman", "mac-latin2", "mac-greek", "mac-iceland",
+    "mac-turkish", "mac-cyrillic", "hp-roman8", "koi8-t", "kz1048",
+    "ptcp154", "iso8859-10", "iso8859-14",
+)
+
+
+def best_match(data: bytes) -> tuple[str, str, int] | None:
+    """Which (codec, language) this file is evidence for, if exactly one.
+
+    Querying archive.org one codepage at a time depends on guessing the
+    right keywords, and most DOS items are not tagged by language at all.
+    Testing every candidate against every codepage instead lets one sweep
+    serve all of them -- but only when the answer is unambiguous.  A file
+    matching two codepages equally well is evidence for neither, so it is
+    dropped rather than filed under whichever was tried first.
+    """
+    hits: list[tuple[str, str, int]] = []
+    for codec in BROADCAST_CODECS:
+        for language, letters in LANGUAGE_LETTERS.items():
+            metrics = evaluate(data, codec, language)
+            if metrics is None:
+                continue
+            score = sum(1 for ch in data.decode(codec) if ch in letters)
+            hits.append((codec, language, score))
+    if not hits:
+        return None
+    hits.sort(key=lambda h: -h[2])
+    # Require a clear winner: a runner-up within 20% means the file does
+    # not distinguish the two.
+    if len(hits) > 1 and hits[1][2] > hits[0][2] * 0.8 and hits[1][0] != hits[0][0]:
+        return None
+    return hits[0]
 
 
 def mine_item(item: str, codec: str, per_item: int, language: str = "") -> list[tuple]:
@@ -300,9 +349,56 @@ def write_candidates(rows, codec, language, output_dir, chardet_module) -> None:
     print(f"Wrote {len(rows)} candidates to {target_dir}")
 
 
+def run_broadcast(arguments) -> int:  # noqa: ANN001
+    """Sweep items testing every file against all candidate codepages."""
+    items = search_items(arguments.query, arguments.items)
+    print(f"{len(items)} item(s), broadcasting across {len(BROADCAST_CODECS)} codepages")
+    chardet_module = _load_chardet()
+    found: dict[str, list[tuple]] = defaultdict(list)
+    seen: set[str] = set()
+    for item in items:
+        try:
+            resolved = item_archive_url(item)
+            if resolved is None:
+                continue
+            url, kind = resolved
+            blob = http_get(url)
+        except (urllib.error.URLError, OSError, ValueError):
+            continue
+        members = zip_members(blob) if kind == "zip" else image_members(blob)
+        for name, data in members:
+            if not name.lower().endswith(TEXT_SUFFIXES):
+                continue
+            match = best_match(data)
+            if match is None:
+                continue
+            codec, language, score = match
+            digest = hashlib.sha256(data).hexdigest()
+            if digest in seen:
+                continue
+            seen.add(digest)
+            metrics = evaluate(data, codec, language)
+            if metrics is None:
+                continue
+            found[f"{codec}|{language}"].append((item, name, data, *metrics))
+            print(f"  {item}/{name[:26]} -> {codec} ({language}), score={score}")
+    if not found:
+        print("No candidates found.")
+        return 1
+    for key, rows in found.items():
+        codec, language = key.split("|")
+        write_candidates(rows, codec, language, arguments.output, chardet_module)
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--codec", default="cp850")
+    parser.add_argument(
+        "--broadcast",
+        action="store_true",
+        help="test every file against all DOS/Mac codepages instead of one",
+    )
     parser.add_argument("--language", default="de")
     parser.add_argument("--query", default="deutsch OR german")
     parser.add_argument("--items", type=int, default=40)
@@ -311,6 +407,8 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     arguments = parser.parse_args()
 
+    if arguments.broadcast:
+        return run_broadcast(arguments)
     if arguments.codec not in DISTINGUISHING_BYTES:
         sys.exit(
             f"{arguments.codec} has no distinguishing-byte set, so a candidate "
