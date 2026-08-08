@@ -91,15 +91,61 @@ def search_items(query: str, rows: int) -> list[str]:
     return [doc["identifier"] for doc in payload["response"]["docs"]]
 
 
-def item_zip_url(item: str) -> str | None:
+IMAGE_SUFFIXES = (".img", ".ima", ".dsk", ".vfd")
+
+
+def item_archive_url(item: str) -> tuple[str, str] | None:
+    """Return (url, kind) for an item's payload, kind being zip or image.
+
+    The shareware collection ships zips of the files as distributed, but
+    the games collection ships raw floppy images -- which is where most of
+    the non-English software is, and therefore most of the codepages worth
+    having.
+    """
     payload = json.loads(http_get(f"https://archive.org/metadata/{item}", timeout=90))
+    images = []
     for entry in payload.get("files", []):
-        if entry["name"].lower().endswith(".zip") and int(entry.get("size", 0)) < 40_000_000:
-            return (
-                f"https://archive.org/download/{item}/"
-                f"{urllib.parse.quote(entry['name'])}"
-            )
-    return None
+        name = entry["name"].lower()
+        size = int(entry.get("size", 0))
+        if size > 40_000_000:
+            continue
+        url = (
+            f"https://archive.org/download/{item}/"
+            f"{urllib.parse.quote(entry['name'])}"
+        )
+        if name.endswith(".zip"):
+            return url, "zip"
+        if name.endswith(IMAGE_SUFFIXES):
+            images.append(url)
+    return (images[0], "image") if images else None
+
+
+def image_members(blob: bytes) -> list[tuple[str, bytes]]:
+    """Every file inside a FAT floppy image, as (path, data)."""
+    try:
+        from pyfatfs.PyFatFS import PyFatFS  # noqa: PLC0415
+    except ImportError:
+        print("  (pyfatfs not installed -- skipping disk images)")
+        return []
+    import tempfile  # noqa: PLC0415
+
+    found: list[tuple[str, bytes]] = []
+    with tempfile.NamedTemporaryFile(suffix=".img") as handle:
+        handle.write(blob)
+        handle.flush()
+        try:
+            filesystem = PyFatFS(handle.name, read_only=True)
+        except Exception:  # noqa: BLE001 - not a FAT image, or damaged
+            return []
+        try:
+            for path in filesystem.walk.files():
+                try:
+                    found.append((path, filesystem.readbytes(path)))
+                except Exception:  # noqa: BLE001, PERF203
+                    continue
+        finally:
+            filesystem.close()
+    return found
 
 
 def case_noise(text: str) -> float:
@@ -152,29 +198,44 @@ def evaluate(data: bytes, codec: str) -> tuple[int, int, int] | None:
     return letters, high, unique
 
 
-def mine_item(item: str, codec: str, per_item: int) -> list[tuple]:
+def zip_members(blob: bytes) -> list[tuple[str, bytes]]:
+    """Every file inside a zip, as (path, data)."""
     try:
-        url = item_zip_url(item)
-        if url is None:
-            return []
-        blob = http_get(url)
         archive = zipfile.ZipFile(io.BytesIO(blob))
-    except (urllib.error.URLError, OSError, ValueError, zipfile.BadZipFile):
+    except (zipfile.BadZipFile, OSError, ValueError):
         return []
-    found = []
+    found: list[tuple[str, bytes]] = []
     with archive:
         for info in archive.infolist():
-            if len(found) >= per_item:
-                break
-            if info.is_dir() or not info.filename.lower().endswith(TEXT_SUFFIXES):
+            if info.is_dir():
                 continue
             try:
-                data = archive.read(info)
+                found.append((info.filename, archive.read(info)))
             except (RuntimeError, zipfile.BadZipFile, OSError):
                 continue
-            metrics = evaluate(data, codec)
-            if metrics is not None:
-                found.append((item, info.filename, data, *metrics))
+    return found
+
+
+def mine_item(item: str, codec: str, per_item: int) -> list[tuple]:
+    try:
+        resolved = item_archive_url(item)
+        if resolved is None:
+            return []
+        url, kind = resolved
+        blob = http_get(url)
+    except (urllib.error.URLError, OSError, ValueError):
+        return []
+    members = zip_members(blob) if kind == "zip" else image_members(blob)
+
+    found = []
+    for name, data in members:
+        if len(found) >= per_item:
+            break
+        if not name.lower().endswith(TEXT_SUFFIXES):
+            continue
+        metrics = evaluate(data, codec)
+        if metrics is not None:
+            found.append((item, name, data, *metrics))
     return found
 
 
