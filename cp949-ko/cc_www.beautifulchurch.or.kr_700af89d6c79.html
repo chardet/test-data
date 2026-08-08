@@ -1,0 +1,743 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head><title>▶ 평신도를 사역자화하는 아름다운교회</title>
+    <meta charset="ms949" name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/style_main_menu.css" type="text/css" media="screen, projection"/>
+<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="/js/import.js"></script>
+<script language="javascript">
+<!--
+function menuOver(obj) {
+  //obj.style.backgroundimage = "url(/images/top_menu_bg1.gif)";
+  document.all.aa.style.backgroundimage = "url(/images/top_menu_bg1.gif)";
+}
+
+function showSubMenu(num) {
+  hideSubMenu();
+  
+  document.getElementById("SubMenu"+num).style.visibility = "visible";
+}
+
+function hideSubMenu() {
+  for (i=1;i<=7;i++) {
+	  document.getElementById("SubMenu"+i).style.visibility = "hidden";
+	}
+}
+
+//VOD보기
+function viewVod(idx,VodID,fType) {  
+  var wname  = "Vod"+idx;
+  var width  = 640;
+	var height = 510;
+	var posx   = 100;
+	var posy   = 100;
+	var url    = "/preach/vod_view.asp?idx="+idx+"&VodID="+VodID+"&fType="+fType;
+	var position = "width="+width+",height="+height+",scrollbars=no,top="+posy+",left="+posx;
+	
+  if (VodID == "03" || VodID == "04") {
+    if (checkRegular()) {
+		  window.open(url, wname, position); 
+		} else {
+		  printRegularMsg();
+		}
+  } else {
+		window.open(url, wname, position); 
+  }
+}
+
+
+	
+			
+	
+//-->
+</script>
+</head>
+<body>
+<!----- header 시작 ----->
+<div id="topline" style="position:absolute; z-index:9999">
+	<table width="990" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+	    <td width="400">&nbsp;</td>
+	    <td width="*" align="right" class="topMenu">
+          <a href="javascript:home();">Home</a> | 
+          <a href="javascript:sitemap();">Sitemap</a>
+      </td>
+      <td width="70" align="right" valign="bottom"><strong>교우검색</strong>&nbsp;</td>
+      <td width="135" align="right">
+			  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="topSearch">
+			    <form name="frmMainSrch" action="/address/address.asp" method="post">
+					<tr>
+			      <td><input type="text" name="srchKeyword" value="" class="topSearchInput"></td>
+			      <td><input type="image" onClick="schk(this.form); return false;" src="/images/btn_sser.gif" border="0" width="17" height="13" align="absbottom"></td>
+			    </tr>
+					</form>
+			  </table>
+			</td>   	  
+	  </tr>
+	</table>
+</div>
+
+<div id="page-wrap">
+	
+        <a href="javascript:home();"><img src="/images/about/sub_title_bg.gif" alt="Beautiful Church" /></a>
+	   	
+        <ul class="dropdown">
+        	<li><a href="javascript:menu1_1_0();">교회안내</a>
+        		<ul class="sub_menu">
+        			 <li><a href="javascript:menu1_1_0();">아름다운교회소개</a></li>
+        			 <li><a href="javascript:menu1_2_0();">교회역사</a></li>
+        			 <li><a href="javascript:menu1_3_0();">담임목사</a></li>
+        			 <li><a href="javascript:menu1_4_0();">섬기는분들</a></li>
+        			 <li><a href="javascript:menu1_5_0();">5대철학</a></li>
+        			 <li><a href="javascript:menu1_6_0();">비전2020</a></li>
+        			 <li><a href="javascript:menu1_7_0();">교회사진</a></li>
+        			 <li><a href="javascript:menu1_8_0();">처음오셨다면</a></li>
+        			 <li><a href="javascript:menu1_9_0();">양육훈련</a></li>
+        			 <li><a href="javascript:menu1_10_0();">예배안내</a></li>
+        			 <li><a href="javascript:menu1_11_0();">시설안내</a></li>
+        			 <li><a href="javascript:menu1_12_0();">찾아오시는길</a></li>
+        		</ul>
+        	</li>
+        	<li><a href="javascript:menu2_1_0();">예배와 말씀</a>
+        		<ul class="sub_menu">
+        			<li><a href="javascript:menu2_1_0();">지난설교보기</a></li>
+        			<li><a href="javascript:menu2_2_0();">특별집회말씀</a></li>
+                    <li><a href="javascript:menu2_3_0();">1부성가대 찬양</a></li>
+                    <li><a href="javascript:menu2_4_0();">2부성가대 찬양</a></li>
+                    <li><a href="javascript:menu2_5_0();">경배와 찬양</a></li>
+        		</ul>
+        	</li>
+        	<li><a href="javascript:menu3_1_0();">제자훈련</a>
+        		<ul class="sub_menu">
+                    <li><a href="javascript:menu3_1_0();">멘토링맨투맨양육</a></li>
+                    <li><a href="javascript:menu3_2_0();">그룹제자훈련</a></li>
+                    <li><a href="javascript:menu3_3_0();">지도자훈련</a></li>
+                    <li><a href="javascript:menu3_4_0();">평신도대학</a></li>
+                    <li><a href="javascript:menu3_5_0();">귀납적성경연구</a></li>
+                    <li><a href="javascript:menu3_6_0();">제자기수보기</a></li>
+        		</ul>
+        	</li>
+        	<li><a href="javascript:menu4_1_0();">교회기관</a>
+        		<ul class="sub_menu">
+        			 <li><a href="javascript:menu4_1_0();">위원회</a></li>
+        			 <li><a href="javascript:menu4_2_0();">선교회</a></li>
+        			 <li><a href="javascript:menu4_3_0();">가정교회목장</a></li>
+        			 <li><a href="javascript:menu4_4_0();">성가대</a></li>
+        			 <li><a href="javascript:menu4_5_0();">제자훈련</a></li>
+        			 <li><a href="javascript:menu4_6_0();">다음세대</a></li>
+        		</ul>
+        	</li>
+            <li><a href="javascript:menu5_1_0();">다음세대</a>
+                <ul class="sub_menu">
+                    <li><a href="javascript:menu5_1_0();">까꿍부</a></li>
+                    <li><a href="javascript:menu5_2_0();">유치부</a></li>
+                    <li><a href="javascript:menu5_3_0();">유년부</a></li>
+                    <li><a href="javascript:menu5_4_0();">초등부</a></li>
+                    <li><a href="javascript:menu5_5_0();">중등부</a></li>
+                    <li><a href="javascript:menu5_6_0();">고등부</a></li>
+                    <li><a href="javascript:menu5_7_0();">청년부</a></li>
+<!--                    <li><a href="javascript:menu5_8_0();">1청년부</a></li> -->
+<!-- 청년부 통합처리 신화국 20170323 -->
+                </ul>
+            </li>
+            <li><a href="javascript:menu6_1_0();">게시판</a>
+                <ul class="sub_menu">
+                    <li><a href="javascript:menu6_1_0();">공지사항</a></li>
+                    <li><a href="javascript:menu6_2_0();">금주의 주보</a></li>
+                    <li><a href="javascript:menu6_3_0();">우리이야기해요</a></li>
+                    <li><a href="javascript:menu6_4_0();">중보기도요청</a></li>
+                    <li><a href="javascript:menu6_5_0();">선교게시판</a></li>
+                    <li><a href="javascript:menu6_6_0();">BCB NEWS</a></li>
+                    <li><a href="javascript:menu6_7_0();">은혜마당</a></li>
+                    <li><a href="javascript:menu6_8_0();">새신자 앨범</a></li>
+                    <li><a href="javascript:menu6_9_0();">아름다운 포토</a></li>
+                    <li><a href="javascript:menu6_10_0();">개인게시판</a></li>
+                    <li><a href="javascript:menu6_11_0();">기독교적 한자익히기</a></li>
+                    <li><a href="javascript:menu6_12_0();">아름다운 교회뷰티풀 아카데미</a></li>
+                    <li><a href="javascript:menu6_13_0();">BCB TV</a></li>
+                    <li><a href="javascript:menu6_14_0();">홈페이지 개선사항</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:menu7_1_0();">주소록</a>
+                <ul class="sub_menu">
+                    <li><a href="javascript:menu7_1_0();">새교우</a></li>
+                    <li><a href="javascript:menu7_2_0();">정보수정교우</a></li>
+                    <li><a href="javascript:menu7_3_0();">교우검색</a></li>
+                    <li><a href="javascript:menu7_4_0();">교우사업장</a></li>
+                </ul>
+            </li>
+        	<li><a href="javascript:menu8_1_0();">e-ministry</a>
+        		<ul class="sub_menu">
+        			 <li><a href="javascript:menu8_1_0();">진행상황</a></li>
+        			 <li><a href="javascript:menu8_2_0();">예배준비</a></li>
+        			 <li><a href="javascript:menu8_3_0();">관리자에게</a></li>
+        		</ul>
+        	</li>
+        </ul>
+		
+	</div>
+
+<div id="top">
+ 
+   
+
+ 	<div id="login">
+    <!--로그인 영역-->
+    <table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+	  <td width="11" height="11"><img src="/images/tb_01.gif" width="11" height="11" /></td>
+	  <td background="/images/tb_top.gif"></td>
+	  <td width="11"><img src="/images/tb_02.gif" width="11" height="11" /></td>
+	</tr>
+	<tr bgcolor="#ffffff">
+	  <td background="/images/tb_left.gif"></td>
+	  <td bgcolor="#ffffff" align="center"><script type="text/javascript"> 
+<!--
+function EnterOfSubmit(name) {
+	if (event.keyCode == 13) {
+	  if (name == "UserNM") {
+	      document.frmLogin.UserPW.focus();
+	  }
+	  if (name == "UserPW") {
+	      onLogin();
+	  }
+	}        
+}
+
+//온로드
+$(document).ready(function(){
+  showLoginInfo();
+});
+
+//-->
+</script> 
+
+<table width="169" border="0" cellspacing="0" cellpadding="0" align="center">
+<form name="frmLogin">
+  <tr>
+    <td height="25" colspan="2" align="left"><img src="/design/img/login_ti.gif" width="82" height="9" /></td>
+  </tr>
+  <tr>
+    <td height="84">
+        <div id="LoginBox"></div>
+    </td>
+  </tr>
+</form>
+</table>
+
+
+        
+		<div class="quickmenu">
+          <map name="quick" id="quick">
+            <area shape="rect" coords="7,11,59,84" href="/about/contents.asp?CodeID=020401" />
+            <area shape="rect" coords="62,13,113,85" href="/about/contents.asp?CodeID=0210" />
+            <area shape="rect" coords="117,13,166,84" href="/about/contents.asp?CodeID=0212" />
+          </map>
+        <img src="/images/quick_menu.gif" width="173" height="92" border="0" usemap="#quick"/></div>
+        </td>
+	<td background="/images/tb_right.gif"></td>          
+  </tr>
+  <tr>
+    <td height="11"><img src="/images/tb_03.gif" width="11" height="11" /></td>
+    <td background="/images/tb_bottom.gif"></td>
+    <td><img src="/images/tb_04.gif" width="11" height="11" /></td>
+  </tr>
+</table>
+
+    </div>
+    <div id="visual">
+      <!--비쥬얼 영역-->
+      
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script> 
+<script type="text/javascript"> 
+
+//$("#rolling div").eq(1).fadeIn(1000); 
+
+$(function() { 
+	var roll_index = 1;
+
+   setInterval(function() { 
+      var rollingDiv = $("#rolling").find("div"); 
+      
+      //$("#rolling").fadeIn(1000).append(rollingDiv.eq(0)); 
+	  $('#rolling div').eq(roll_index-1).fadeOut( 'slow');
+      //$("#rolling div").delay(1000);  	  
+	  
+	  if((roll_index % 5) == 0) roll_index = 1;
+	  else roll_index++;
+
+	  $("#rolling div").eq(roll_index-1).fadeIn( 1000 );
+	  
+	  
+
+   },3000); 
+}); 
+</script> 
+
+<div id="rolling" style="position:relative;"> 
+	<div style="position: absolute; left: 0px;	top: 0px; background-"><img src="/design/upload/00_1.jpg"></div> 
+	<div style="position: absolute; left: 0px;	top: 0px; background-"><img src="/design/upload/00_2.jpg"></div> 
+	<div style="position: absolute; left: 0px;	top: 0px; background-"><img src="/design/upload/00_3.jpg"></div> 
+	<div style="position: absolute; left: 0px;	top: 0px; background-"><img src="/design/upload/00_4.jpg"></div> 
+	<div style="position: absolute; left: 0px;	top: 0px; background-"><img src="/design/upload/00_5.jpg"></div> 
+</div> 
+
+    </div>
+    <div id="sermons">
+      <!--설교말씀 영역-->
+      <table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+	  <td width="11" height="11"><img src="/images/tb_01.gif" width="11" height="11" /></td>
+	  <td background="/images/tb_top.gif"></td>
+	  <td width="11"><img src="/images/tb_02.gif" width="11" height="11" /></td>
+	</tr>
+	<tr bgcolor="#ffffff">
+	  <td background="/images/tb_left.gif"></td>
+	  <td bgcolor="#ffffff" align="center">
+      	<div style="height:226px">
+          <map name="MovView" id="MovView">
+            <area shape="rect" coords="119,106,149,136" href="#" onClick="viewVod('3403','01','VOD');" class="event_03" onFocus="this.blur();" />
+          </map>      
+          <div><img src="/images/sermons.gif" width="172" height="163" border="0" usemap="#MovView" /></div>
+            <div class="date"><span style="font-size:11px; margin-right:5px; margin-top:2">설교일</span> 2019-08-25</div>
+            <div class="subject"><a href="/preach/list.asp?VodID=01">사도행전 13:1 ~ 5<h5 style="margin-top:4px">아웃리치(Out Reach)</h5></a></div>
+		</div>
+          </td>
+	<td background="/images/tb_right.gif"></td>          
+  </tr>
+  <tr>
+    <td height="11"><img src="/images/tb_03.gif" width="11" height="11" /></td>
+    <td background="/images/tb_bottom.gif"></td>
+    <td><img src="/images/tb_04.gif" width="11" height="11" /></td>
+  </tr>
+</table>
+
+  </div>
+ 
+</div>
+
+
+  <div id="mainContent">
+   
+
+<script language="javascript">
+<!--
+//팝업창
+function viewPopup(idx) {
+  var wname  = "popup"+idx;
+  var width  = 300;
+	var height = 300;
+	var posx   = 0;
+	var posy   = 0;
+	var url    = "/popup/popup.asp?idx="+idx;
+	var position = "width="+width+",height="+height+",scrollbars=no,top="+posy+",left="+posx;
+		
+	window.open(url, wname, position); 
+}
+
+
+if (getCookie( "popup51" ) != "done" ) { 
+  viewPopup('51');
+}
+
+
+
+//일정툴팁보이기
+function showTooltip(SchID,nDate,x,y) {
+  document.getElementById("schTooltip").style.display = "";
+    
+  $.ajax({
+		dataType: "html",
+		url     : "/schedule/getSchedule.asp",
+		data    : "SchID="+SchID+"&nDate="+nDate,
+		success : function(data) {
+		  $("#schTooltip").html(data);
+		}
+	});
+    
+    document.getElementById("schTooltip").style.posLeft=245 + x;
+    document.getElementById("schTooltip").style.posTop=380 + y;
+}
+
+//일정툴팁감추기
+function hideTooltip() {
+  document.getElementById("schTooltip").style.display = "none";
+}
+
+//-->
+</script>
+
+<div id="schTooltip" style="display:none;"></div>
+
+<div class="story">
+  <table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+	  <td width="11" height="11"><img src="/images/tb_01.gif" width="11" height="11" /></td>
+	  <td background="/images/tb_top.gif"></td>
+	  <td width="11"><img src="/images/tb_02.gif" width="11" height="11" /></td>
+	</tr>
+	<tr bgcolor="#ffffff">
+	  <td background="/images/tb_left.gif"></td>
+	  <td bgcolor="#ffffff" align="center">
+  <div class="title"><img src="/images/main_ti1.gif" width="172" height="35" alt="우리들의 이야기" /></div>
+  <ul id="storyList">
+    <li><span>+</span> <a href="/board/board.asp?BoardID=04">중보기도요청 (0/278)</a></li>
+    <li><span>+</span> <a href="/board/board.asp?BoardID=05">선교게시판 (0/198)</a></li>
+    <li><span>+</span> <a href="/board/board.asp?BoardID=06">은혜마당 (0/24)</a></li>
+    <li><span>+</span> <a href="/about/paster/board.asp?BoardID=11">담임목사와의대화 (0/144)</a></li>
+    <li class="blind"><span>+</span> <a href="/board/list.asp?BoardID=09">아름다운포토 (0/144)</a></li>
+  </ul>
+      </td>
+	<td background="/images/tb_right.gif"></td>          
+  </tr>
+  <tr>
+    <td height="11"><img src="/images/tb_03.gif" width="11" height="11" /></td>
+    <td background="/images/tb_bottom.gif"></td>
+    <td><img src="/images/tb_04.gif" width="11" height="11" /></td>
+  </tr>
+</table>
+
+</div>
+
+<div id="mainCenter">
+	<ul id="mainTab">
+		<script language="javascript">
+			 function ShowLayer(SL){ 
+			 DivCnt = 5
+				 
+			  for(i=0;i<DivCnt;i++){              
+			 ChkDiv = eval("document.all.bbsLIST"+i);
+			 ChkDiv.style.display="none";               
+			 } 
+			 ChkDiv = eval("document.all.bbsLIST"+SL);
+			 ChkDiv.style.display="block";   
+			 }            
+		</script>
+		<li>
+			<a href="#" onmouseover="javascript:ShowLayer('0');
+			a.src='/images/main_tab_on_01.gif';
+			b.src='/images/main_tab_02.gif';
+			c.src='/images/main_tab_03.gif';
+			d.src='/images/main_tab_04.gif';
+			e.src='/images/main_tab_05.gif';
+			"><img src="/images/main_tab_on_01.gif" name="a" width="60" height="22" alt="교회일정" /></a>
+	  </li>
+		<li>
+			<a href="#" onmouseover="javascript:ShowLayer('1');
+			a.src='/images/main_tab_01.gif';
+			b.src='/images/main_tab_on_02.gif';
+			c.src='/images/main_tab_03.gif';
+			d.src='/images/main_tab_04.gif';
+			e.src='/images/main_tab_05.gif';
+			"><img src="/images/main_tab_02.gif" name="b" width="90" height="22" alt="담임목사님일정" /></a>
+		</li>
+		<li>
+			<a href="/board/board.asp?BoardID=02" onmouseover="javascript:ShowLayer('2');
+			a.src='/images/main_tab_01.gif';
+			b.src='/images/main_tab_02.gif';
+			c.src='/images/main_tab_03.gif';
+			d.src='/images/main_tab_on_04.gif';
+			e.src='/images/main_tab_05.gif';
+			"><img src="/images/main_tab_04.gif" name="d" width="63" height="22" alt="공지사항" /></a>
+		</li>
+		<li>
+			<a href="/board/board.asp?BoardID=01" onmouseover="javascript:ShowLayer('3');
+			a.src='/images/main_tab_01.gif';
+			b.src='/images/main_tab_02.gif';
+			c.src='/images/main_tab_on_03.gif';
+			d.src='/images/main_tab_04.gif';
+			e.src='/images/main_tab_05.gif';
+			"><img src="/images/main_tab_03.gif" name="c" width="71" height="22" alt="금주의주보" /></a>
+		</li>
+		<li>
+			<a href="/board/board.asp?BoardID=03" onmouseover="javascript:ShowLayer('4');
+			a.src='/images/main_tab_01.gif';
+			b.src='/images/main_tab_02.gif';
+			c.src='/images/main_tab_03.gif';
+			d.src='/images/main_tab_04.gif';
+			e.src='/images/main_tab_on_05.gif';
+			"><img src="/images/main_tab_05.gif" name="e" width="88" height="22"  alt="우리이야기해요" /></a>
+		</li>
+	</ul>
+  <div style="height:170px;clear:both; margin-bottom:5px">
+    <div id="bbsLIST0">
+      <iframe src="/schedule/schedule.asp?SchID=01" width="100%" height="160" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div id="bbsLIST1" style="display:none">
+      <iframe src="/schedule/schedule.asp?SchID=02"  width="100%" height="160" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>		
+    </div>
+    <div id="bbsLIST2" style="display:none">
+      <ul id="mainList">
+		
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=02&sCnt=1">2019년 청년부 수련회에 초대합니다.</a> 
+            
+          </nobr> 
+          <span class="date">[2019.02.12]</span>
+        </li>
+        
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=02&sCnt=2">2019년 요셉장학관 모집 공고를 올립니다.</a> 
+            [1]
+          </nobr> 
+          <span class="date">[2018.12.26]</span>
+        </li>
+        
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=02&sCnt=3">10월15일은 청년부에서 3부예배후에 버스킹찬양전도 합니다.</a> 
+            
+          </nobr> 
+          <span class="date">[2017.10.10]</span>
+        </li>
+        
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=02&sCnt=4">목장사역보고서(목회일기)-양식</a> 
+            
+          </nobr> 
+          <span class="date">[2017.09.02]</span>
+        </li>
+        
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=02&sCnt=5">2017년 5월7일주간(5.7-5.13일주간 모임) 목소리</a> 
+            
+          </nobr> 
+          <span class="date">[2017.05.12]</span>
+        </li>
+        
+	  </ul>
+    </div>
+    <div id="bbsLIST3" style="display:none">
+      <ul id="mainList">              
+		
+        <li>
+			<nobr>
+				<a href="/board/board.asp?BoardID=01&sCnt=0">19년 6월 23일(교회소식) 주보입니다.</a> 
+				
+			</nobr>
+			<span class="date">[2019.06.23]</span>
+        </li>
+		
+        <li>
+			<nobr>
+				<a href="/board/board.asp?BoardID=01&sCnt=1">19년 6월 16일(교회소식) 주보입니다.</a> 
+				
+			</nobr>
+			<span class="date">[2019.06.16]</span>
+        </li>
+		
+        <li>
+			<nobr>
+				<a href="/board/board.asp?BoardID=01&sCnt=2">19년 6월 9일(교회소식) 주보입니다.</a> 
+				
+			</nobr>
+			<span class="date">[2019.06.11]</span>
+        </li>
+		
+        <li>
+			<nobr>
+				<a href="/board/board.asp?BoardID=01&sCnt=3">19년 6월 2일(교회소식) 주보입니다.</a> 
+				
+			</nobr>
+			<span class="date">[2019.06.02]</span>
+        </li>
+		
+        <li>
+			<nobr>
+				<a href="/board/board.asp?BoardID=01&sCnt=4">19년 5월 26일(교회소식) 주보입니다.</a> 
+				
+			</nobr>
+			<span class="date">[2019.05.26]</span>
+        </li>
+		
+      </ul>      
+    </div>
+    <div id="bbsLIST4" style="display:none">
+      <ul id="mainList">
+		
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=03&sCnt=1">2019년 PC 바탕화면 공유</a> 
+            
+          </nobr> 
+          <span class="date">[2019.01.30]</span>
+        </li>
+		
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=03&sCnt=2">슬픔을 함께 위로해주신 모든 교우님들에게 진심으로 감사드립니다</a> 
+            
+          </nobr> 
+          <span class="date">[2018.12.10]</span>
+        </li>
+		
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=03&sCnt=3">아름다운교회 창립 33주년을 축하드립니다.</a> 
+            
+          </nobr> 
+          <span class="date">[2018.03.04]</span>
+        </li>
+		
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=03&sCnt=4">비슷하지만 다른 삶</a> 
+            
+          </nobr> 
+          <span class="date">[2017.08.16]</span>
+        </li>
+		
+        <li>
+          <nobr>
+            <a href="/board/board.asp?BoardID=03&sCnt=5">누가 예수님의 제자인가?</a> 
+            
+          </nobr> 
+          <span class="date">[2017.08.08]</span>
+        </li>
+		
+      </ul>
+    </div>
+  </div>
+	<ul id="mainTab" class="photo">
+		<script language="javascript">
+			 function ShowLayer2(SL){ 
+			 DivCnt = 2
+				 
+			  for(i=0;i<DivCnt;i++){              
+			 ChkDiv = eval("document.all.bbsLIST2"+i);
+			 ChkDiv.style.display="none";               
+			 } 
+			 ChkDiv = eval("document.all.bbsLIST2"+SL);
+			 ChkDiv.style.display="block";   
+			 }            
+		</script>
+		<li>
+			<a href="/board/board.asp?BoardID=08" onmouseover="javascript:ShowLayer2('0');
+			g.src='/images/main_tab_on_06.gif';
+			h.src='/images/main_tab_07.gif';
+			"><img src="/images/main_tab_on_06.gif" name="g" width="73" height="22" alt="새신자환영" /></a>
+	  </li>
+		<li>
+			<a href="/board/board.asp?BoardID=09" onmouseover="javascript:ShowLayer2('1');
+			g.src='/images/main_tab_06.gif';
+			h.src='/images/main_tab_on_07.gif';
+			"><img src="/images/main_tab_07.gif" name="h" width="81" height="22" alt="아름다운포토" /></a>
+	  </li>
+	</ul>
+	<div id="bbsLIST20">
+		<div class="mainMore"><a href="/board/board.asp?BoardID=08"><img src="/images/btn_more.gif" alt="자세히보기" width="35" height="8" /></a></div>
+		<ul id="mainPhoto">
+			
+		  <li>
+		    <span><p><a href="javascript:alert('정회원이상만 볼 수 있습니다.');"><img src="/upload/board/08/thumb/" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+		  </li>
+		  
+		  <li>
+		    <span><p><a href="javascript:alert('정회원이상만 볼 수 있습니다.');"><img src="/upload/board/08/thumb/" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+		  </li>
+		  
+		  <li>
+		    <span><p><a href="javascript:alert('정회원이상만 볼 수 있습니다.');"><img src="/upload/board/08/thumb/" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+		  </li>
+		  
+		  <li>
+		    <span><p><a href="javascript:alert('정회원이상만 볼 수 있습니다.');"><img src="/upload/board/08/thumb/" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+		  </li>
+		  
+		</ul>
+	</div>
+	<div id="bbsLIST21" style="display:none">
+		<div class="mainMore"><a href="/board/board.asp?BoardID=09"><img src="/images/btn_more.gif" alt="자세히보기" width="35" height="8"  /></a></div>
+		<ul id="mainPhoto">
+		  
+		  <li>
+				<span><p><a href="/board/board.asp?BoardID=09&sCnt=0"><img src="/upload/board/09/thumb/B09_1_20150626185604.avi" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+			</li>
+		  
+		  <li>
+				<span><p><a href="/board/board.asp?BoardID=09&sCnt=1"><img src="/upload/board/09/thumb/B09_1_20140802221053.jpg" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+			</li>
+		  
+		  <li>
+				<span><p><a href="/board/board.asp?BoardID=09&sCnt=2"><img src="/upload/board/09/thumb/B09_1_20140730191627.jpg" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+			</li>
+		  
+		  <li>
+				<span><p><a href="/board/board.asp?BoardID=09&sCnt=3"><img src="/upload/board/09/thumb/B09_1_20140519083212.jpg" width="113" height="85" border="0" onError="imgErr86(this);return false;"></a></p></span>
+			</li>
+		  
+		</ul>
+	</div>
+	<ul id="main_banner">
+		<li><a href="http://tv.c3tv.com/sermon/sermonsearch/sermon_view.asp?chcode=228&amp;scode=" target="_blank"><img src="/images/main_banner_1.gif" width="172" height="42" /></a></li>
+		<li><a href="http://www.nahalla.net/" target="_blank"><img src="/images/main_banner_2.gif" width="172" height="42" /></a></li>
+		<li><a href="http://www.swim.org/home2008/qt_life.asp?gubun=04" target="_blank"><img src="/images/main_banner_3.gif" width="172" height="42" /></a></li>
+        <li><a href="http://www.odb.or.kr" target="_blank"><img src="/images/main_banner_4.gif" width="172" height="42" /></a></li>
+        <li><a href="http://www.beautifulchurch.or.kr/board/board.asp?BoardID=24"><img src="/images/main_banner_6.gif" width="172" height="42" /></a></li>
+        <li><a href="http://bbc.hcrm360.com" target="_blank"><img src="/images/main_banner_7.gif" width="172" height="42" /></a></li>
+	</ul>
+</div>
+    
+<div style="float:left; margin-left:13px">
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><a href="/preach/list.asp?VodID=02" onfocus="this.blur();"><img src="/images/main_r_banner1.gif" width="195" height="194" border="0" /></a></td>
+	</tr>
+	<tr>
+		<td height="38">&nbsp;</td>
+	</tr>
+	<tr>
+		<td><a href="/about/contents.asp?CodeID=020601" onfocus="this.blur();"><img src="/images/vision.gif" width="195" height="98" border="0" /></a></td>
+	</tr>
+	<tr>
+		<td height="23"></td>
+	</tr>
+	<tr>
+		<td><a href="/eministry/board.asp?BoardID=16" onfocus="this.blur();"><img src="/images/toadmin.gif" width="195" border="0" /></a></td>
+	</tr>
+</table>
+
+	 
+	
+</div>
+
+
+
+<!----- footer 시작 ----->
+</div>
+<div id="footer">
+	<div id="copyright">
+	  <form name="SGroup" method="get">
+    <select name="list"  onChange="fulldown(this.form)" class="select01">
+			<option selected >관련사이트 바로가기</option>
+			<option value="http://www.c3tv.com/" target="_blank" >C3TV 설교</option>
+			<option value="http://www.bsjc.or.kr/" target="_blank" >아름다운덕소교회</option>
+			<option value="http://www.eobuchurch.com/" target="_blank" >어부교회</option>
+			<option value="http://club.cyworld.nate.com/club/main/club_main.asp?club_id=51645091#/" target="_blank">아름다운교회 까꿍부</option> 
+			<option value="http://cafe.daum.net/beautifulsoccer" target="_blank">아름다운교회축구선교단</option>
+			<option value="http://www.kbtus.ac.kr/" target="_blank">대전침례신학대학교</option>
+			<option value="http://www.cbts.ac.kr/" target="_blank">수도침례신학교</option>
+			<option value="http://www.fmb.or.kr/" target="_blank">해외선교회</option>
+			<option value="http://www.kmb.or.kr/" target="_blank">국내선교회</option>
+			<option value="http://www.holylife.co.kr/" target="_blank">교회진흥원</option>
+			<option value="http://www.bpnews.co.kr/" target="_blank">침례신문</option>
+			<option value="http://www.wmbh.co.kr/" target="_blank">침례병원</option> 
+			<option value="http://cafe.daum.net/beautiful0691" target="_blank">아름다운교회 카페</option> 
+    </select>
+    </form>
+  </div>
+</div>
+<!----- footer 끝 ----->
+</body>
+</html>
+
+
