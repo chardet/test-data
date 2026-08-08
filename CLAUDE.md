@@ -29,6 +29,9 @@ Filename prefixes indicate provenance:
 - **`scripts/find_real_test_data.py`** — Downloads wild samples from the Wayback Machine, uchardet, and ENCA.
 - **`scripts/mine_common_crawl.py`** — Mines Common Crawl for pages served in a given charset (see "Mining wild data").
 - **`scripts/mine_usenet.py`** — Mines HZ, ISO-2022-JP/KR, Big5 and EUC-KR posts from Internet Archive Usenet mboxes.
+- **`scripts/mine_artpacks.py`** — Mines CP437 from BBS artpacks at 16colo.rs (`.NFO`/`.DIZ` members, not `.ANS` canvases).
+- **`scripts/mine_repo_files.py`** — Scans a git repo for BOM-identified file encodings (utf-8-sig, utf-16).
+- **`scripts/mine_po_files.py`** — Scans a git repo for gettext catalogues, which declare their own charset and name their language.
 - **`scripts/promote_candidates.py`** — The only supported way mined candidates enter the tree; refuses pairs chardet's registry does not vouch for.
 - **`scripts/wild_coverage.py`** — Wild-file count per encoding against a target, with the shortfall grouped by how it could be sourced.
 
@@ -102,9 +105,23 @@ sharply by family:
 - **Usenet / mail archives** — HZ and ISO-2022-JP exist essentially nowhere
   else. `alt.chinese.text` and the `japan.*` hierarchy both deliver. Korean
   Usenet used EUC-KR rather than ISO-2022-KR, so that one still needs a source.
-- **Software / BBS / disk archives** — DOS, Mac and HP codepages. No tooling
-  yet, and most surviving BBS text is 7-bit ASCII, so the high-byte content
-  that would actually prove a codepage is scarce.
+- **Software / BBS / disk archives** — DOS, Mac and HP codepages. CP437 is
+  solved via `mine_artpacks.py`. The rest are hard for reasons worth
+  recording, so nobody re-runs the same dead ends:
+  - *Common Crawl cannot help.* A 30-part scan of ibm850/852/855/866 and the
+    Mac pages produced 67 candidates and zero usable files; in 2019 those
+    labels are nearly always a misconfigured server serving something else.
+  - *National DOS text often used encodings we do not have.* A genuine Czech
+    DOS README from archive.org decodes as Kamenický, not CP852 (`Dračí`
+    renders as `Draçí`), and Polish DOS commonly used Mazovia. Finding the
+    files does not yield the encodings; that needs registry support first.
+  - *Mac items on archive.org are HFS disk images*, not zips, so their text
+    is unreachable without an HFS reader.
+- **File encodings** — utf-8-sig and utf-16 live in files, not web pages.
+  A 30-part crawl found one BOM-carrying page; one Microsoft sample repo
+  held 2,343. Use `mine_repo_files.py`. Note that real-world UTF-16 nearly
+  always carries a BOM, so `utf-16-le`/`utf-16-be`, which mean *BOM-less*
+  here, remain unfilled and may describe something that barely exists.
 - **EBCDIC** (`cp037`, `cp273`, `cp424`, `cp500`, `cp875`, `cp1026`, `cp1006`,
   `cp1140`, `cp856`) — no known public source of real files. Mainframe datasets
   are not published as retrievable, language-labelled text. Treat these as
