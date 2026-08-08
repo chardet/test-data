@@ -9,6 +9,7 @@ on the decoded text.
 
 import argparse
 import codecs
+import html
 import json
 import os
 import re
@@ -331,11 +332,44 @@ def check_special_unicode(text):
     return issues
 
 
+# Markup, entity references, and URLs are Latin regardless of what language
+# the document is in.  An RSS feed is mostly tags, so counting them makes a
+# Bulgarian feed look 85% Latin and fires a bogus language mismatch.
+_SCRIPT_STYLE = re.compile(r"(?is)<(script|style)\b.*?</\1\s*>")
+_COMMENT = re.compile(r"(?s)<!--.*?-->")
+_CDATA = re.compile(r"(?s)<!\[CDATA\[(.*?)\]\]>")
+_TAG = re.compile(r"(?s)<[^>]{1,4000}>")
+_URL = re.compile(r"\b(?:https?|ftp)://\S+|\bwww\.\S+")
+
+
+def strip_markup(text):
+    """Remove tags and URLs so only human-readable text remains.
+
+    Applied only to the language/script check.  On plain text this is close
+    to a no-op: prose rarely contains `<...>` spans, and anything that looks
+    like one is not language content anyway.
+
+    Two details matter for CJK feeds.  CDATA sections are *content*, not
+    markup -- RSS routinely wraps post titles in them, and a naive tag regex
+    eats `<![CDATA[愛力真正的源頭]]>` whole because the first `>` is at the
+    very end.  Entities are decoded rather than deleted, since a feed may
+    encode its Chinese as numeric character references, and dropping those
+    would discard the only language content in the file.
+    """
+    text = _SCRIPT_STYLE.sub(" ", text)
+    text = _COMMENT.sub(" ", text)
+    text = _CDATA.sub(r"\1", text)
+    text = _TAG.sub(" ", text)
+    text = html.unescape(text)
+    return _URL.sub(" ", text)
+
+
 def check_language_mismatch(text, language, filename):
     """Check if decoded text contains characters from the expected script."""
     if language is None or language not in LANGUAGE_SCRIPTS:
         return None
 
+    text = strip_markup(text)
     expected_scripts = LANGUAGE_SCRIPTS[language]
 
     # Count characters by script
