@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="WINDOWS-1255"?>
+<!--
+Source: http://www.info.org.il/rss/rss.php
+Expect: windows-1255
+-->
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+<channel>
+<title>My Hebrew RSS ordeal</title>
+<link>http://www.info.org.il/</link>
+<description dir = 'rtl'>‘‰… ‰–…˜ RSS ’˜‰</description>
+<language>en-us</language>
+<item>
+<title dir = 'rtl'>‹…˜… „™‰…‰ „‡˜‰ €˜ ™‰</title>
+<description  dir = 'rtl'>‰–˜‰ €˜ ™‰ ƒ“ ™€…‘“ ‹…˜… €˜‰ ™…‰ ’ ‰ƒ‰ —˜‰€ ’˜…–‰ „ RSS ™„. ƒ˜ ‚ ‰–˜‰ ™‰ ’˜…–‰ RSS €˜ ™‰. „„ „‹… shatil.org.il/rss</description>
+<link>http://www.info.org.il/rss/index.php#110806156605450986</link>
+</item>
+<item>
+<title dir = 'rtl'>‡— †„ €˜ ‹˜ € ’ƒ‹ (+ ’ƒ‹…‰)</title>
+<description  dir = 'rtl'>’ƒ‹…‰ €‡˜ ™„ ™‡— †„ € „’ƒ‹</description>
+<link>http://www.info.org.il/rss/index.php#109532914976076153</link>
+</item>
+<item>
+<title dir = 'rtl'>‰™ ‚ <a href="http://www.dop.co.il/sites/rss/rss.asp">ƒ‰‡…</a>  RSS</title>
+<description  dir = 'rtl'></description>
+<link>http://www.info.org.il/rss/index.php#106537326456559350</link>
+</item>
+<item>
+<title dir = 'rtl'>‚ …‚ ™ €…˜ €‰˜‰ ‰™ ”‰ƒ</title>
+<description  dir = 'rtl'>„„</description>
+<link>http://www.info.org.il/rss/index.php#200300670</link>
+</item>
+<item>
+<title dir = 'rtl'>€˜ ’˜‰ ’ RSS € „…</title>
+<description  dir = 'rtl'>„… „‰ €„ ‹ €˜ ’ RSS. „€˜ ’˜‰ „‹‰ ”…˜ˆ …–„ ™—˜€‰ ’ RSS. ‹ „‹…ƒ!</description>
+<link>http://www.info.org.il/rss/index.php#200190114</link>
+</item>
+<item>
+<title dir = 'rtl'>’ƒ‹…‰ ‰™˜€…‚</title>
+<description  dir = 'rtl'>‰˜‰ ‡…ˆ, „‰…–˜ ™ ‰™˜€…‚, „…ƒ‰’ ‰ ™‰™ ’‹™‰… RSS ™–‰‚ € „’ƒ‹…‰ …‚‰ ™‰™˜€…‚.</description>
+<link>http://www.info.org.il/rss/index.php#200189626</link>
+</item>
+<item>
+<title dir = 'rtl'>ˆ…‰ ‰–„ ’ <a href="http://www.hutteman.com/sharpreader/">SharpReader</a></title>
+<description  dir = 'rtl'>‹‰… ‰ € ‚ € ‰–‰.</description>
+<link>http://www.info.org.il/rss/index.php#200173124</link>
+</item>
+<item>
+<title dir = 'rtl'>‚ ”…˜…‰ ™ —…‘”–‰„ ‰™ RSS</title>
+<description  dir = 'rtl'>„”…˜… ™ —…‘”–‰„</description>
+<link>http://www.info.org.il/rss/index.php#200146728</link>
+</item>
+<item>
+<title dir = 'rtl'><a href="http://info.org.il/english/rss_distractions.html">Are RSS newsreaders such a good idea?</a></title>
+<description  dir = 'rtl'>‡™… ™„‰… ‰ —™˜  RSS ™‚˜ ‰ ˜ƒ —– „’‰‰.</description>
+<link>http://www.info.org.il/rss/index.php#200143122</link>
+</item>
+<item>
+<title dir = 'rtl'>€‰ ”‘‰— € „‡‰”…™</title>
+<description  dir = 'rtl'>‹€ …‹… –…€ ˜™‰„ ’—‰ ™ …‹… —˜‰€ RSS.</description>
+<link>http://www.info.org.il/rss/index.php#200143078</link>
+</item>
+<item>
+<title dir = 'rtl'><a href="http://www.awasu.com/">Awasu</a> - ’…ƒ …‹„ ™€ ’…ƒ</title>
+<description  dir = 'rtl'></description>
+<link>http://www.info.org.il/rss/index.php#200130385</link>
+</item>
+<item>
+<title dir = 'rtl'>—˜‰€ RSS ’…– ’ ‰ƒ‰ XSL</title>
+<description  dir = 'rtl'>€…ƒ‰ ™‡ ‰ € †„.</description>
+<link>http://www.info.org.il/rss/index.php#90234144</link>
+</item>
+<item>
+<title dir = 'rtl'><a href="http://www.yole.ru/projects/syndirella/">Syndirella</a></title>
+<description  dir = 'rtl'>”ˆ”…˜„ ƒ…ˆ ˆ.</description>
+<link>http://www.info.org.il/rss/index.php#90234123</link>
+</item>
+<item>
+<title dir = 'rtl'>„ RSS ™ pctip.co.il</title>
+<description  dir = 'rtl'>[ ‹€ ]. ’…˜ …‰ƒ–‰„. ˜…€‰ ˆ…. ‹ „‹…ƒ.‡ ™€‰ … description.</description>
+<link>http://www.info.org.il/rss/index.php#90204678</link>
+</item>
+<item>
+<title dir = 'rtl'>„ RSS ™ pcplus.co.il</title>
+<description  dir = 'rtl'>€ ’…˜ …‰ƒ–‰„™ Beaver …™ Archive.org</description>
+<link>http://www.info.org.il/rss/index.php#90204674</link>
+</item>
+<item>
+<title dir = 'rtl'>’‰„  Beaver</title>
+<description  dir = 'rtl'>–…‚ „ƒ“ ‡… „‡… € ˜”˜™ …€† € ’…™‰ —‰— ‹”… ’ „…ƒ’„ ‡ƒ™„, € ˜…€‰ €…„. –˜‰ ’™… ˜‰”˜…™ ‰ƒ‰ ‹ƒ‰ ˜€… €…„.</description>
+<link>http://www.info.org.il/rss/index.php#90204651</link>
+</item>
+<item>
+<title dir = 'rtl'>RSS … Movable Type</title>
+<description  dir = 'rtl'>ˆ…‰ ™‡„ ‰ ™…™„ —–‰ ™…–˜… ’ ‰ƒ‰ MT. ‹ —…• —‰ƒ…ƒ €‡˜.</description>
+<link>http://www.info.org.il/rss/index.php#90204648</link>
+</item>
+<item>
+<title dir = 'rtl'>NewsIsFree - RSS aggregation site - BAD</title>
+<description  dir = 'rtl'>ˆ…‰ „‰–„ ‰ ’ NewsIsFree</description>
+<link>http://www.info.org.il/rss/index.php#90204636</link>
+</item>
+<item>
+<title dir = 'rtl'>Beaver - RSS reader - OK</title>
+<description  dir = 'rtl'>„”‰ƒ ™‰ ’…ƒ …‰ƒ–‰„.</description>
+<link>http://www.info.org.il/rss/index.php#90204623</link>
+</item>
+<item>
+<title dir = 'rtl'>RSS Readers</title>
+<description  dir = 'rtl'>™…™ ™‡„ ‰ —‰™…˜ ƒ“ ’ ˜™‰„ ™ …‹… —˜‰€ RSS.</description>
+<link>http://www.info.org.il/rss/index.php#90204613</link>
+</item>
+<item>
+<title dir = 'rtl'>‡• ’…ƒ„</title>
+<description  dir = 'rtl'>—……„ ’ƒ‹ ‰‰ „—˜…‰.</description>
+<link>http://www.info.org.il/rss/index.php#90191461</link>
+</item>
+<item>
+<title dir = 'rtl'>˜‰˜ ‡ƒ - —˜ƒ‰ˆ</title>
+<description  dir = 'rtl'>˜— € —™… ”…˜™, €‰ €’  ‹ —˜ƒ‰ˆ ’ ƒ˜‰ ™™‡… ‰.</description>
+<link>http://www.info.org.il/rss/index.php#90181444</link>
+</item>
+<item>
+<title dir = 'rtl'>‰‹… „‰… ™„ RSS ™‰ „…€ € „˜€™….</title>
+<description  dir = 'rtl'>dotkof.org ”˜‘ € „‹…˜… ™… ”…˜€ˆ RSS [ ‹€ ].</description>
+<link>http://www.info.org.il/rss/index.php#90181438</link>
+</item>
+<item>
+<title dir = 'rtl'>EffNews - ’…ƒ —…˜€ RSS ˜™‰„</title>
+<description  dir = 'rtl'>…‘‘ Pyhton, €…˜ ’…ƒ ’ ‹„ ”ˆ”…˜… …„‹‰ ‡™…, ’…ƒ ƒ”ƒ” …€ ‹€”‰—–‰„. ‰™ ‰ „˜‚™„ ™—…˜€‰ RSS ™’…ƒ‰ ƒ”ƒ” ‰…ƒƒ… ˆ… ‰…˜ ’ „’˜‰.</description>
+<link>http://www.info.org.il/rss/index.php#90181423</link>
+</item>
+<item>
+<title dir = 'rtl'>„™‰„, –‰€ —…˜€‰ RSS ™…‹‰ ˆ… ’˜‰</title>
+<description  dir = 'rtl'>’…ƒ € –€‰ …‹„ ™—…˜€ RSS ’˜‰.</description>
+<link>http://www.info.org.il/rss/index.php#90176809</link>
+</item>
+<item>
+<title dir = 'rtl'>RSS, „ †„ …„ †„ ˆ…</title>
+<description  dir = 'rtl'>RSS „…€ ˜€™‰ ‰… ™ Really Simple Syndication</description>
+<link>http://www.info.org.il/rss/index.php#90173430</link>
+</item>
+<item>
+<title dir = 'rtl'>”˜„ ’‰‰ „…‘” description ‹ item</title>
+<description  dir = 'rtl'>”‰ ‹‰ „ description €‰ –’ ’‰… strip_tags ‹ƒ‰ € .</description>
+<link>http://www.info.org.il/rss/index.php#90173221</link>
+</item>
+<item>
+<title dir = 'rtl'>‘—… ‰‰‰</title>
+<description  dir = 'rtl'>— „—‰ƒ…ƒ ™ XML „…€ ‰…‰—…ƒ. RSS „…€  — ™ XML.</description>
+<link>http://www.info.org.il/rss/index.php#90173198</link>
+</item>
+<item>
+<title dir = 'rtl'>‘‰… „…‘‰“ description ‹ item</title>
+<description  dir = 'rtl'>™…™ „—™˜„ €‰ ’‹™‰… …ƒ‰˜… „˜„ ’ encoding …‹ „‡˜€ „†„. „‰€ ‰„ € —ˆ„ ’‰‰‰ „€„.</description>
+<link>http://www.info.org.il/rss/index.php#90171886</link>
+</item>
+<item>
+<title dir = 'rtl'>€…‰ „‡˜'„  comp.text.xml ‰…‹… ’†…˜</title>
+<description  dir = 'rtl'>”˜‘‰ ™€„ ”…˜ˆ —…– „ƒ‰… comp.text.xml</description>
+<link>http://www.info.org.il/rss/index.php#90170456</link>
+</item>
+<item>
+<title dir = 'rtl'>’…ƒ ‰ƒ †„ „‹‰ ˆ…</title>
+<description  dir = 'rtl'>[ ‹€ ] €”™˜ –…€ —…• RSS ™‹‰ ‰ƒ  Notepad …™˜‰ ‹ UTF-8</description>
+<link>http://www.info.org.il/rss/index.php#90166633</link>
+</item>
+<item>
+<title dir = 'rtl'>†„ „ ™…–‰€ …‚˜</title>
+<description  dir = 'rtl'>[ ‹€ ] €”™˜ ˜€… € „ RSS ™…–‰€ …‚˜.</description>
+<link>http://www.info.org.il/rss/index.php#90166441</link>
+</item>
+<item>
+<title dir = 'rtl'>’˜‰ windows-1255</title>
+<description  dir = 'rtl'>[ ‹€ ] –€ „ RSS ’˜‰ WIndows-1255.</description>
+<link>http://www.info.org.il/rss/index.php#90165987</link>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1255"?>
+<!--
+Source: http://hevra.org.il/backend.php
+Expect: windows-1255
+-->
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+ "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+
+<rss version="0.91">
+
+<channel>
+<title>‡˜„ –…ƒ—</title>
+<link>http://www.hevra.org.il</link>
+<description>‡˜„ –…ƒ— „‰€ …’ €†˜‡‰ ™™„ „ ˆ˜„ „‡†‰˜ € ˜……‡ „…™‰ ‰™˜€ …—ƒ ‘ƒ˜ „‰… „‹‹‰-‡˜‰</description>
+<language>he-il</language>
+
+<item>
+<title>‰™ ‘ˆ…ƒˆ‰ ™’ƒ‰”‰ ™‹ … ˆ˜—ˆ…˜‰ —… ’ „ƒ™€ —”…‘ / –”˜‰˜ ˜‰</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=840</link>
+</item>
+
+<item>
+<title>‡…‰ ‰ ˜…”… / ™…‰ €‰</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=839</link>
+</item>
+
+<item>
+<title>ƒ˜ ™ „”˜…ˆ‘ˆˆ‰… / ‰„…ƒ„ ˜ ™…</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=838</link>
+</item>
+
+<item>
+<title>‘…‹˜‰„ –…†˜ / ‰… ƒ˜…˜</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=836</link>
+</item>
+
+<item>
+<title>„™…’… ’ … „‘…–‰€‰† „ …—ƒ… / €‰ ‚˜”‰—</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=835</link>
+</item>
+
+<item>
+<title>„—–…’ „‰‚’ „†„ / ‰…‘‰ ™˜‰ƒ</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=834</link>
+</item>
+
+<item>
+<title>„ ‡™? ™‰‰ / …ˆ‰ –˜</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=833</link>
+</item>
+
+<item>
+<title>™˜ƒ‰ „™„ ‘‰ ‡‘… ‹ ‡‰˜, …’…ƒ‰ „— —‰ ‡ ™‹˜ ‰‰… / ˜…‰</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=832</link>
+</item>
+
+<item>
+<title>„˜‰€… ‹…’ ‡˜‰ / †€ ……˜˜ƒ</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=831</link>
+</item>
+
+<item>
+<title>‡†‰ ‘ˆ…ƒˆ‰€‰ ‡˜‰</title>
+<link>http://www.hevra.org.il/modules.php?name=News&amp;file=article&amp;sid=830</link>
+</item>
+
+</channel>
+</rss>
