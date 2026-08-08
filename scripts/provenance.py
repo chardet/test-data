@@ -169,11 +169,41 @@ def classify_subject(subject: str) -> str:
     return SUITE
 
 
+# Filename prefixes only one tool ever writes.  Commit subjects are the
+# primary signal, but relying on them alone means a transcode lands as
+# `suite` whenever someone words a subject differently -- which has now
+# happened twice.  These prefixes are not a guess about where a file came
+# from: `promote_candidates.py` and `transcode_historic.py` are the only
+# code that writes them, and each refuses pairs chardet's registry does
+# not vouch for.
+NAME_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    (HISTORIC, ("historic_",)),
+    (WILD, ("artpack_", "usenet_", "crawl_", "ebcdic_")),
+)
+
+
+def classify_name(filename: str) -> str | None:
+    """Provenance implied by a filename a mining tool wrote, if any."""
+    for verdict, prefixes in NAME_RULES:
+        if filename.startswith(prefixes):
+            return verdict
+    return None
+
+
 def classify_all() -> dict[str, str]:
-    """Map every current test-data path to its provenance."""
+    """Map every current test-data path to its provenance.
+
+    The introducing commit decides, except for files whose names only one
+    tool writes -- those are trusted over a subject line that may not have
+    matched a rule.
+    """
     origins = introducing_commits()
     result = {}
     for path in data_files():
+        by_name = classify_name(path.partition("/")[2])
+        if by_name is not None:
+            result[path] = by_name
+            continue
         date_subject = origins.get(path)
         result[path] = classify_subject(date_subject[1]) if date_subject else SUITE
     return result
