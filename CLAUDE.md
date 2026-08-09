@@ -167,6 +167,19 @@ sharply by family:
   images, not for text*. Four further repos scanned that way (IBM-Z-zOS,
   copybook-rs, copybook-ts, vscode-ebcdicconverter) yielded nothing, and no
   non-English card-image dataset has turned up yet.
+- **Minority-language pages need `--primary-language`.** `content_languages`
+  is ordered most-confident-first, and matching anywhere in it returns the
+  majority language's pages: every Kazakh-tagged page in six index parts came
+  back `rus,kaz`, a Russian site with a Kazakh section, and the promoter
+  rightly called all 16 Russian. Requiring the first entry turned that into 8
+  usable Kazakh pages. Note windows-1251 cannot hold `ә ғ қ ң ө ұ ү һ і` at
+  all, which is the reason kz1048 and ptcp154 exist, so Kazakh has to be
+  mined from UTF-8 and transcoded down.
+- **KOI8-T is too narrow for a real Tajik web page.** All 8 wild Tajik pages
+  found carry Armenian, Arabic or accented Latin in their navigation chrome,
+  and the round-trip check refuses the file over three characters in a
+  language-picker menu. The CulturaX Tajik text in the tree encodes cleanly,
+  so this is a property of wild pages, not of the codec table.
 - **CP864 cannot hold logical-order Arabic at all.** Python's codec maps the
   presentation forms in the U+FE80 block, so base letters like `ا` and `م`
   raise `UnicodeEncodeError` and even `%` is absent. Real CP864 files store
