@@ -32,8 +32,10 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import itertools
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -163,12 +165,10 @@ def run_from_wild(arguments) -> int:  # noqa: ANN001
             # Re-point any in-file declaration at the target first, so the
             # bytes and what the file says about itself agree.
             text = retarget_charset(source_text, arguments.target)
-            try:
-                out = text.encode(arguments.target)
-            except (UnicodeEncodeError, LookupError):
+            encoded = encode_for(text, arguments.target)
+            if encoded is None:
                 continue
-            if out.decode(arguments.target) != text:
-                continue
+            text, out = encoded
             if declares_charset(text) and not declares_target(text, arguments.target):
                 continue
             # Reject output the encoding did not actually change: ASCII
@@ -236,6 +236,81 @@ CHARSET_LABELS: dict[str, str] = {
     "iso8859-3": "ISO-8859-3", "iso8859-10": "ISO-8859-10",
     "iso8859-14": "ISO-8859-14", "iso8859-16": "ISO-8859-16",
 }
+
+
+def partial_decompose(text: str, codec: str) -> str:
+    """Decompose only as far as *codec* requires.
+
+    Full NFD is too blunt for CP1258: it has no combining circumflex, so
+    `ế` decomposed all the way to ``e`` + circumflex + acute cannot be
+    encoded at all.  What it does have is precomposed `ê` plus a
+    combining acute, which is how Vietnamese was really stored.  So for
+    each base character keep the longest recomposition the codec can
+    actually hold and leave the remaining marks combining.
+    """
+    decomposed = unicodedata.normalize("NFD", text)
+    clusters: list[str] = []
+    for char in decomposed:
+        # Combining marks (Mn) attach to whatever they follow.
+        if clusters and unicodedata.category(char) == "Mn":
+            clusters[-1] += char
+        else:
+            clusters.append(char)
+    out: list[str] = []
+    for cluster in clusters:
+        base, marks = cluster[:1], cluster[1:]
+        # Which marks to fold in is a choice, not a prefix: `ệ` decomposes
+        # with the dot below ahead of the circumflex in canonical order,
+        # so folding a prefix builds `ẹ` and strands a circumflex CP1258
+        # does not have.  Folding the circumflex and leaving the dot below
+        # combining is the sequence that encodes.  Marks per cluster are
+        # few, so try every subset, largest first.
+        best = cluster
+        for size in range(len(marks), -1, -1):
+            for keep in itertools.combinations(range(len(marks)), size):
+                folded = unicodedata.normalize(
+                    "NFC", base + "".join(marks[i] for i in keep)
+                )
+                rest = "".join(marks[i] for i in range(len(marks)) if i not in keep)
+                candidate = folded + rest
+                try:
+                    candidate.encode(codec)
+                except (UnicodeEncodeError, LookupError):
+                    continue
+                best = candidate
+                break
+            else:
+                continue
+            break
+        out.append(best)
+    return "".join(out)
+
+
+def encode_for(text: str, codec: str) -> tuple[str, bytes] | None:
+    """Encode *text* as *codec*, decomposing first if that is what it wants.
+
+    Returns the text as actually encoded together with the bytes, or None
+    if the codec cannot hold it.
+
+    Some codepages store a base letter plus a combining diacritic rather
+    than a precomposed character.  CP1258 is the clear case: Vietnamese
+    `ế` and `ộ` are simply absent from its table, and real CP1258 files
+    hold a partly decomposed sequence, so this is the correct encoding
+    procedure for it rather than a way around a failure.  The round-trip
+    is still required, and the result must match the source under NFC so
+    that decomposing cannot quietly change the text.
+    """
+    for candidate in (text, partial_decompose(text, codec)):
+        try:
+            out = candidate.encode(codec)
+        except (UnicodeEncodeError, LookupError):
+            continue
+        if out.decode(codec) != candidate:
+            continue
+        if unicodedata.normalize("NFC", candidate) != unicodedata.normalize("NFC", text):
+            continue
+        return candidate, out
+    return None
 
 
 def ascii_bytes(text: str) -> bytes | None:

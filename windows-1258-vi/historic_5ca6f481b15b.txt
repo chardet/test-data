@@ -1,0 +1,2527 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' lang='en'>
+<head>
+<link href='https://www.blogger.com/static/v1/widgets/3597120983-css_bundle_v2.css' rel='stylesheet' type='text/css'/>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=cp1258' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.2voz.asia/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.2voz.asia/2015/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Rµß&#165; World Of Tanks - Atom" href="http://www.2voz.asia/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Rµß&#165; World Of Tanks - RSS" href="http://www.2voz.asia/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Rµß&#165; World Of Tanks - Atom" href="https://www.blogger.com/feeds/3254144535531899008/posts/default" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/95993233-ieretrofit.js"></script>
+<![endif]-->
+<meta content='Mod, World of Tanks, WOT, Modification' name='description'/>
+<meta content='http://www.2voz.asia/2015/' property='og:url'/>
+<meta content='Rµß¥ World Of Tanks' property='og:title'/>
+<meta content='Mod, World of Tanks, WOT, Modification' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Rµß&#165; World Of Tanks: 2015</title>
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Awesome Inc.
+Designer: Tina Chen
+URL:      tinachen.org
+----------------------------------------------- */
+
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #333333;
+background: #2d3037 none repeat scroll top left;
+}
+html body .content-outer {
+min-width: 0;
+max-width: 100%;
+width: 100%;
+}
+a:link {
+text-decoration: none;
+color: #29aae1;
+}
+a:visited {
+text-decoration: none;
+color: #015782;
+}
+a:hover {
+text-decoration: underline;
+color: #29aae1;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 276px;
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+/* Columns
+----------------------------------------------- */
+.content-inner {
+padding: 0;
+}
+.header-inner .section {
+margin: 0 16px;
+}
+.tabs-inner .section {
+margin: 0 16px;
+}
+.main-inner {
+padding-top: 55px;
+}
+.main-inner .column-center-inner,
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 0 5px;
+}
+*+html body .main-inner .column-center-inner {
+margin-top: -55px;
+}
+#layout .main-inner .column-center-inner {
+margin-top: 0;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+margin: 0 0 15px 0;
+background: transparent none repeat scroll 0 0;
+}
+.Header h1 {
+font: normal normal 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #8ce1f5;
+text-shadow: 0 0 20px #000000;
+}
+.Header h1 a {
+color: #8ce1f5;
+}
+.Header .description {
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ffffff;
+}
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 0;
+padding-right: 0;
+margin-bottom: 0;
+}
+.header-inner .Header .titlewrapper {
+padding-top: 22px;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-outer {
+overflow: hidden;
+position: relative;
+background: #29aae1 url(https://resources.blogblog.com/blogblog/data/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll 0 0;
+}
+#layout .tabs-outer {
+overflow: visible;
+}
+.tabs-cap-top, .tabs-cap-bottom {
+position: absolute;
+width: 100%;
+border-top: 1px solid #2d3037;
+}
+.tabs-cap-bottom {
+bottom: 0;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+margin: 0;
+padding: .6em 1.5em;
+font: normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ffffff;
+border-top: 1px solid #2d3037;
+border-bottom: 1px solid #2d3037;
+border-left: 1px solid #2d3037;
+height: 16px;
+line-height: 16px;
+}
+.tabs-inner .widget li:last-child a {
+border-right: 1px solid #2d3037;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+background: #01689c url(https://resources.blogblog.com/blogblog/data/1kt/awesomeinc/tabs_gradient_light.png) repeat-x scroll 0 -100px;
+color: #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ff0000;
+}
+/* Widgets
+----------------------------------------------- */
+.main-inner .section {
+margin: 0 27px;
+padding: 0;
+}
+.main-inner .column-left-outer,
+.main-inner .column-right-outer {
+margin-top: -3.3em;
+}
+#layout .main-inner .column-left-outer,
+#layout .main-inner .column-right-outer {
+margin-top: 0;
+}
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+background: transparent none repeat 0 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+#layout .main-inner .column-left-inner,
+#layout .main-inner .column-right-inner {
+margin-top: 0;
+}
+.sidebar .widget {
+font: normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #7a7a7b;
+}
+.sidebar .widget a:link {
+color: #626066;
+}
+.sidebar .widget a:visited {
+color: #015782;
+}
+.sidebar .widget a:hover {
+color: #29aae1;
+}
+.sidebar .widget h2 {
+text-shadow: 0 0 20px #000000;
+}
+.main-inner .widget {
+background-color: #ffffff;
+border: 1px solid rgba(0, 0, 0, 0);
+padding: 0 0 15px;
+margin: 20px -16px;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.main-inner .widget h2 {
+margin: 0 -0;
+padding: .6em 0 .5em;
+border-bottom: 1px solid transparent;
+}
+.footer-inner .widget h2 {
+padding: 0 0 .4em;
+border-bottom: 1px solid transparent;
+}
+.main-inner .widget h2 + div, .footer-inner .widget h2 + div {
+border-top: 0 solid rgba(0, 0, 0, 0);
+padding-top: 8px;
+}
+.main-inner .widget .widget-content {
+margin: 0 -0;
+padding: 7px 0 0;
+}
+.main-inner .widget ul, .main-inner .widget #ArchiveList ul.flat {
+margin: -8px -15px 0;
+padding: 0;
+list-style: none;
+}
+.main-inner .widget #ArchiveList {
+margin: -8px 0 0;
+}
+.main-inner .widget ul li, .main-inner .widget #ArchiveList ul.flat li {
+padding: .5em 15px;
+text-indent: 0;
+color: #20124d;
+border-top: 0 solid rgba(0, 0, 0, 0);
+border-bottom: 1px solid transparent;
+}
+.main-inner .widget #ArchiveList ul li {
+padding-top: .25em;
+padding-bottom: .25em;
+}
+.main-inner .widget ul li:first-child, .main-inner .widget #ArchiveList ul.flat li:first-child {
+border-top: none;
+}
+.main-inner .widget ul li:last-child, .main-inner .widget #ArchiveList ul.flat li:last-child {
+border-bottom: none;
+}
+.post-body {
+position: relative;
+}
+.main-inner .widget .post-body ul {
+padding: 0 2.5em;
+margin: .5em 0;
+list-style: disc;
+}
+.main-inner .widget .post-body ul li {
+padding: 0.25em 0;
+margin-bottom: .25em;
+color: #333333;
+border: none;
+}
+.footer-inner .widget ul {
+padding: 0;
+list-style: none;
+}
+.widget .zippy {
+color: #20124d;
+}
+/* Posts
+----------------------------------------------- */
+body .main-inner .Blog {
+padding: 0;
+margin-bottom: 1em;
+background-color: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.main-inner .section:last-child .Blog:last-child {
+padding: 0;
+margin-bottom: 1em;
+}
+.main-inner .widget h2.date-header {
+margin: 0 -15px 1px;
+padding: 0 0 0 0;
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ff0000;
+background: transparent none no-repeat fixed center center;
+border-top: 0 solid rgba(0, 0, 0, 0);
+border-bottom: 1px solid transparent;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+position: absolute;
+bottom: 100%;
+left: 0;
+text-shadow: 0 0 20px #000000;
+}
+.main-inner .widget h2.date-header span {
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+display: block;
+padding: .5em 15px;
+border-left: 0 solid rgba(0, 0, 0, 0);
+border-right: 0 solid rgba(0, 0, 0, 0);
+}
+.date-outer {
+position: relative;
+margin: 55px 0 20px;
+padding: 0 15px;
+background-color: #ffffff;
+border: 1px solid #8ce1f5;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.date-outer:first-child {
+margin-top: 0;
+}
+.date-outer:last-child {
+margin-bottom: 0;
+-moz-border-radius-bottomleft: 0;
+-moz-border-radius-bottomright: 0;
+-webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-goog-ms-border-bottom-left-radius: 0;
+-goog-ms-border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+.date-posts {
+margin: 0 -0;
+padding: 0 0;
+clear: both;
+}
+.post-outer, .inline-ad {
+border-top: 1px solid #8ce1f5;
+margin: 0 -0;
+padding: 15px 0;
+}
+.post-outer {
+padding-bottom: 10px;
+}
+.post-outer:first-child {
+padding-top: 10px;
+border-top: none;
+}
+.post-outer:last-child, .inline-ad:last-child {
+border-bottom: none;
+}
+.post-body {
+position: relative;
+}
+.post-body img {
+padding: 8px;
+background: #ffffff;
+border: 1px solid #cccccc;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+h3.post-title, h4 {
+font: normal bold 24px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ff0000;
+}
+h3.post-title a {
+font: normal bold 24px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ff0000;
+}
+h3.post-title a:hover {
+color: #29aae1;
+text-decoration: underline;
+}
+.post-header {
+margin: 0 0 1em;
+}
+.post-body {
+line-height: 1.4;
+}
+.post-outer h2 {
+color: #333333;
+}
+.post-footer {
+margin: 1.5em 0 0;
+}
+#blog-pager {
+padding: 15px;
+font-size: 120%;
+background-color: transparent;
+border: 1px solid rgba(0, 0, 0, 0);
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0;
+-goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius-topright: 0;
+margin-top: 0;
+}
+.blog-feeds, .post-feeds {
+margin: 1em 0;
+text-align: center;
+color: #ffffff;
+}
+.blog-feeds a, .post-feeds a {
+color: #29aae1;
+}
+.blog-feeds a:visited, .post-feeds a:visited {
+color: #015782;
+}
+.blog-feeds a:hover, .post-feeds a:hover {
+color: #29aae1;
+}
+.post-outer .comments {
+margin-top: 2em;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #2d3037;
+border-bottom: 1px solid #2d3037;
+}
+.comments .continue {
+border-top: 2px solid #2d3037;
+}
+/* Footer
+----------------------------------------------- */
+.footer-outer {
+margin: -0 0 -1px;
+padding: 0 0 0;
+color: #ffffff;
+overflow: hidden;
+}
+.footer-fauxborder-left {
+border-top: 1px solid rgba(0, 0, 0, 0);
+background: transparent none repeat scroll 0 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+margin: 0 -0;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+*+html body.mobile .main-inner .column-center-inner {
+margin-top: 0;
+}
+.mobile .main-inner .widget {
+padding: 0 0 15px;
+}
+.mobile .main-inner .widget h2 + div,
+.mobile .footer-inner .widget h2 + div {
+border-top: none;
+padding-top: 0;
+}
+.mobile .footer-inner .widget h2 {
+padding: 0.5em 0;
+border-bottom: none;
+}
+.mobile .main-inner .widget .widget-content {
+margin: 0;
+padding: 7px 0 0;
+}
+.mobile .main-inner .widget ul,
+.mobile .main-inner .widget #ArchiveList ul.flat {
+margin: 0 -15px 0;
+}
+.mobile .main-inner .widget h2.date-header {
+left: 0;
+}
+.mobile .date-header span {
+padding: 0.4em 0;
+}
+.mobile .date-outer:first-child {
+margin-bottom: 0;
+border: 1px solid #8ce1f5;
+-moz-border-radius-topleft: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0;
+-goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+.mobile .date-outer {
+border-color: #8ce1f5;
+border-width: 0 1px 1px;
+}
+.mobile .date-outer:last-child {
+margin-bottom: 0;
+}
+.mobile .main-inner {
+padding: 0;
+}
+.mobile .header-inner .section {
+margin: 0;
+}
+.mobile .post-outer, .mobile .inline-ad {
+padding: 5px 0;
+}
+.mobile .tabs-inner .section {
+margin: 0 10px;
+}
+.mobile .main-inner .widget h2 {
+margin: 0;
+padding: 0;
+}
+.mobile .main-inner .widget h2.date-header span {
+padding: 0;
+}
+.mobile .main-inner .widget .widget-content {
+margin: 0;
+padding: 7px 0 0;
+}
+.mobile #blog-pager {
+border: 1px solid transparent;
+background: transparent none repeat scroll 0 0;
+}
+.mobile .main-inner .column-left-inner,
+.mobile .main-inner .column-right-inner {
+background: transparent none repeat 0 0;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+-goog-ms-box-shadow: none;
+box-shadow: none;
+}
+.mobile .date-posts {
+margin: 0;
+padding: 0;
+}
+.mobile .footer-fauxborder-left {
+margin: 0;
+border-top: inherit;
+}
+.mobile .main-inner .section:last-child .Blog:last-child {
+margin-bottom: 0;
+}
+.mobile-index-contents {
+color: #333333;
+}
+.mobile .mobile-link-button {
+background: #29aae1 url(https://resources.blogblog.com/blogblog/data/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll 0 0;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: transparent;
+border-top: 1px solid;
+border-color: #2d3037;
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #2d3037;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1076px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1076px;
+max-width: 1076px;
+_width: 1076px;
+}
+.main-inner .columns {
+padding-left: 0;
+padding-right: 290px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0;
+right: 290px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0") -
+parseInt("290px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 290px;
+}
+.main-inner .column-left-outer {
+width: 0;
+right: 100%;
+margin-left: -0;
+}
+.main-inner .column-right-outer {
+width: 290px;
+margin-right: -290px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+body#layout div.add_widget {
+padding: 8px;
+}
+body#layout div.add_widget a {
+margin-left: 32px;
+}
+--></style>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=3254144535531899008&amp;zx=5727f4df-aba7-4b2b-a404-50efc0b12238' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=3254144535531899008&amp;zx=5727f4df-aba7-4b2b-a404-50efc0b12238' rel='stylesheet'/></noscript>
+
+</head>
+<body class='loading variant-icy'>
+<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d3254144535531899008\x26blogName\x3dR%C2%B5%C3%9F%C2%A5+World+Of+Tanks\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://www.2voz.asia/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://www.2voz.asia/\x26vt\x3d2284451033701486171',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header' name='Header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://www.2voz.asia/'>
+Rµß&#165; World Of Tanks
+</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Trang thông tin, hỗ trợ Cộng đồng WOT Việt Nam tại sever ASIA</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol' name='Cross-Column'><div class='widget PageList' data-version='1' id='PageList1'>
+<h2>Tải mod lẻ #2 (21-End)</h2>
+<div class='widget-content'>
+<ul>
+<li>
+<a href='http://www.2voz.asia/'>Trang chủ - Home</a>
+</li>
+<li>
+<a href='http://www.2voz.asia/2015/01/3.html'>Tải GÓI MOD</a>
+</li>
+<li>
+<a href='http://www.2voz.asia/2015/01/6.html'>Dịch vụ Nạp game</a>
+</li>
+<li>
+<a href='https://www.facebook.com/groups/wotvn/'>Group: Cộng Đồng WOT VN </a>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' rel='nofollow' target='configPageList1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='tabs no-items section' id='crosscol-overflow' name='Cross-Column 2'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main' name='Main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>December 30, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='3254144535531899008' itemprop='blogId'/>
+<meta content='8954748764747810758' itemprop='postId'/>
+<a name='8954748764747810758'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.2voz.asia/2015/12/su-kien-2016-has-arrived-nam-2016-toi.html'>[Sự kiện] 2016 Has Arrived! - Năm 2016 đã tới</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8954748764747810758' itemprop='articleBody'>
+<h2 style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: WarHeliosCondC, 'Arial Narrow', Arial, sans-serif; font-size: 26px; font-stretch: normal; font-weight: normal; line-height: 1.2em; margin: 16px 0px 14px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="color: blue;">[Sự kiện] 2016 Has Arrived!</span></h2>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Bắt đầu 31/12/2015 - 13 giờ VN</strong></span></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Kết thúc 08/01/2016 - 13 giờ VN</strong></span></span></div>
+<table align="center" border="0" class="t-table cke_show_border" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(52, 56, 64); font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 13px; height: 292px; line-height: 19.5px; margin: auto; outline: 0px; padding: 0px; vertical-align: baseline; width: 478px;"><tbody style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><th align="center" class="t-table" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-color: rgb(84, 90, 105) rgb(46, 49, 57) rgb(46, 49, 57); border-style: solid; border-width: 1px; color: #babcbf; line-height: 17.03px; margin: 16px 0px 20px; outline: 0px; padding: 8px 13px; text-align: center; vertical-align: middle; width: 450px;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Happy New Year! - Chúc mừng năm mới</span></span></th></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #274e13;">Mục tiêu:</span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #274e13;">Nằm trong top 10 kinh nghiệm phe bạn&nbsp;</span></div>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; color: #9fa0a1; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Điều kiện:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Làm được nhiều lần</span></li>
+</ul>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; color: #9fa0a1; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Phần thưởng:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: red;"><b>x2 Kinh nghiệm Kíp Lái</b></span></span></li>
+<li style="color: #9fa0a1; line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;"><br /></span></li>
+</ul>
+</td></tr>
+</tbody></table>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Post by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/111166033479538819003' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/111166033479538819003' rel='author' title='author profile'>
+<span itemprop='name'>Unknown</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+Time post
+<meta content='http://www.2voz.asia/2015/12/su-kien-2016-has-arrived-nam-2016-toi.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.2voz.asia/2015/12/su-kien-2016-has-arrived-nam-2016-toi.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-12-30T17:33:00+07:00'>5:33 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-716588762'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3254144535531899008&postID=8954748764747810758&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=8954748764747810758&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=8954748764747810758&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=8954748764747810758&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=8954748764747810758&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=8954748764747810758&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Nhãn:
+<a href='http://www.2voz.asia/search/label/TT' rel='tag'>TT</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='inline-ad'>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-8691316336817344";
+    google_ad_host = "ca-host-pub-1556223355139109";
+    google_ad_host_channel = "L0007";
+    google_ad_slot = "1911078912";
+    google_ad_width = 970;
+    google_ad_height = 90;
+</script>
+<!-- 2voz_main_Blog1_970x90_as -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>December 28, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='3254144535531899008' itemprop='blogId'/>
+<meta content='867516849815497291' itemprop='postId'/>
+<a name='867516849815497291'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.2voz.asia/2015/12/su-kien-new-year-preparation-chuan-bi.html'>[Sự kiện] New Year Preparation - Chuẩn bị cho năm mới</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-867516849815497291' itemprop='articleBody'>
+<h2 style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: WarHeliosCondC, 'Arial Narrow', Arial, sans-serif; font-size: 26px; font-stretch: normal; font-weight: normal; line-height: 1.2em; margin: 16px 0px 14px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="color: #20124d;">[Sự kiện] New Year Preparation</span></h2>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: blue;">Bắt đầu: 28/12/2015 từ 13h giờ VN</span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: blue;">Kết thúc: 31/12/2015 từ 13h giờ VN</span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><br /></span></div>
+<table align="center" border="0" class="t-table cke_show_border" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(52, 56, 64); font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 13px; height: 300px; line-height: 19.5px; margin: auto; outline: 0px; padding: 0px; vertical-align: baseline; width: 476px;"><tbody style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><th align="center" class="t-table" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-color: rgb(84, 90, 105) rgb(46, 49, 57) rgb(46, 49, 57); border-style: solid; border-width: 1px; line-height: 17.03px; margin: 16px 0px 20px; outline: 0px; padding: 8px 13px; text-align: center; vertical-align: middle; width: 448px;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Nhiệm vụ: New Year Preparation</span></span></th></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Mục tiêu:</span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;">Nằm trong top 10 kinh nghiệm kiếm được của phe bạn trong một trận đánh.</span></div>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Điều kiện:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Tất cả các chế độ chơi trừ "Chiến đấu tới cùng"</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Có thể làm nhiều lần</span></li>
+</ul>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: red;">Rewards:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: red;">x3 Kinh nghiệm kíp lái</span></span></li>
+</ul>
+</td></tr>
+</tbody></table>
+<h2 style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: WarHeliosCondC, 'Arial Narrow', Arial, sans-serif; font-size: 26px; font-stretch: normal; font-weight: normal; line-height: 1.2em; margin: 16px 0px 14px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<br /></h2>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Post by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/111166033479538819003' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/111166033479538819003' rel='author' title='author profile'>
+<span itemprop='name'>Unknown</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+Time post
+<meta content='http://www.2voz.asia/2015/12/su-kien-new-year-preparation-chuan-bi.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.2voz.asia/2015/12/su-kien-new-year-preparation-chuan-bi.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-12-28T20:43:00+07:00'>8:43 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-716588762'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3254144535531899008&postID=867516849815497291&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=867516849815497291&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=867516849815497291&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=867516849815497291&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=867516849815497291&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=867516849815497291&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Nhãn:
+<a href='http://www.2voz.asia/search/label/TT' rel='tag'>TT</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='inline-ad'>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-8691316336817344";
+    google_ad_host = "ca-host-pub-1556223355139109";
+    google_ad_host_channel = "L0007";
+    google_ad_slot = "1911078912";
+    google_ad_width = 970;
+    google_ad_height = 90;
+</script>
+<!-- 2voz_main_Blog1_970x90_as -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>December 25, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='3254144535531899008' itemprop='blogId'/>
+<meta content='5505499408538457262' itemprop='postId'/>
+<a name='5505499408538457262'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.2voz.asia/2015/12/cuoc-thi-christmas-weekend-challenge.html'>[Cuộc thi] Christmas Weekend Challenge</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5505499408538457262' itemprop='articleBody'>
+<h3 style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: WarHeliosCondC, 'Arial Narrow', Arial, sans-serif; font-size: 21px; font-stretch: normal; font-weight: normal; line-height: 1.2em; margin: 24px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;">[Cuộc thi] Christmas Weekend Challenge</span></h3>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nhiệm vụ/x5 EXP bắt đầu :</strong></span>&nbsp;<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">25/12/2015 13h giờ VN</span></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Missions/x5 EXP kết thúc :</strong></span>&nbsp;<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">28/12/2015 13 giờ VN</span></span></div>
+<div class="mceTmpl" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div class="b-message-info" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 18px; margin: 0px 0px 12px; min-height: 26px; outline: 0px; padding: 15px 13px 13px 48px; vertical-align: baseline; word-wrap: break-word;">
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Chú y:</strong>&nbsp;Thời gian bắt đầu và kết thúc sự kiện có thể sai lệch 30 phút.</span></div>
+</div>
+</div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Cơ chế:</span></strong></span></div>
+<ol style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; counter-reset: list1 0; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 23px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Người chơi phải tuân theo các giới hạn sau:</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Sử dụng tăng cấp IV hoặc cao hơn.</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Trận đánh ngẫu nhiên</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Không được tham gia trung đội.</span></li>
+</ul>
+</li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Hoàn thành các yêu cầu sau giống nhau giữa các trận:</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Chỉ tính các trận x5 chiến thắng đầu tiên.</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Hoàn thành nhiệm vụ &nbsp;Skillful Play:&nbsp;</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Mô tả nhiêm vụ Skillful Play (Huy chương):</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Có được bất kỳ huy chương dưới đây:</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">High Caliber</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Tank Sniper</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Raider</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Lucky</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Shellproof</span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Skillful Play (Top 3)</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Hoàn thành trận đánh và nằm top 3 kinh nghiệm phe bạn</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Hoàn thành các yêu cầu trên <b>ít nhất 5 hoặc 10 trận.</b></span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Không cần post hình tham gia sự kiện.</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Chỉ những trận đánh diễn ra trong thời gian sự kiện mới được tính.&nbsp;</span></li>
+</ol>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Phần thưởng:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Type 59 + Chỗ trống xưởng xe (5 giải)</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Chọn ngẫu nhiên những người chơi hoàn thành thử thách ít nhất 10 trận.</span></li>
+</ul>
+</li>
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-weight: bold; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px 17px 0px 0px; vertical-align: baseline;"><span style="color: #20124d;"><span class="currency-gold" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px 17px 0px 0px; vertical-align: baseline;">1,000 vàng</span>&nbsp;(20 giải)</span><ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 7px 0px 14px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Chọn ngẫu nhiên những người chơi hoàn thành thử thách ít nhất 5 trận.</span></li>
+</ul>
+</li>
+</ul>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Quan trọng:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Người đoạt giải sẽ được thông báo qua bài viết thảo luận trong vòng 1 tuần kể từ sự kiện kết thúc.&nbsp;</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Phần thưởng sẽ được trao trong vòng 1 tuần kể từ khi người thắng cuộc được thông báo (thông thường sẽ sớm hơn) Cập nhật về trao giải sẽ được post trong bài viết thảo luận.&nbsp;</span></li>
+</ul>
+<div style="text-align: center;">
+<span style="color: #20124d; font-family: Arial, Helvetica CY, Helvetica, sans-serif;"><span style="font-size: 12px; line-height: 19.2px;"><a href="http://forum.worldoftanks.asia/index.php?/topic/61104-mad-skills-1/" target="_blank">TOPIC THẢO LUẬN CUỘC THI</a></span></span></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Post by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/111166033479538819003' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/111166033479538819003' rel='author' title='author profile'>
+<span itemprop='name'>Unknown</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+Time post
+<meta content='http://www.2voz.asia/2015/12/cuoc-thi-christmas-weekend-challenge.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.2voz.asia/2015/12/cuoc-thi-christmas-weekend-challenge.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-12-25T00:02:00+07:00'>12:02 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-716588762'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3254144535531899008&postID=5505499408538457262&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=5505499408538457262&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=5505499408538457262&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=5505499408538457262&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=5505499408538457262&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=5505499408538457262&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Nhãn:
+<a href='http://www.2voz.asia/search/label/TT' rel='tag'>TT</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='inline-ad'>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-8691316336817344";
+    google_ad_host = "ca-host-pub-1556223355139109";
+    google_ad_host_channel = "L0007";
+    google_ad_slot = "1911078912";
+    google_ad_width = 970;
+    google_ad_height = 90;
+</script>
+<!-- 2voz_main_Blog1_970x90_as -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>December 24, 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://static-ptl-sg.gcdn.co/dcont/fb/news/icons/inccrewtrainrate.png' itemprop='image_url'/>
+<meta content='3254144535531899008' itemprop='blogId'/>
+<meta content='2786389917445996900' itemprop='postId'/>
+<a name='2786389917445996900'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.2voz.asia/2015/12/su-kien-merry-christmas-mung-giang-sinh.html'>[Sự kiện] Merry Christmas - Mừng Giáng Sinh</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2786389917445996900' itemprop='articleBody'>
+<h2 style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: WarHeliosCondC, 'Arial Narrow', Arial, sans-serif; font-size: 26px; font-stretch: normal; font-weight: normal; line-height: 1.2em; margin: 16px 0px 14px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="color: #20124d;">[Special] Merry Christmas</span></h2>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Bắt đầu: 25/12/2015 - 13h giờ VN</strong></span></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Kết thúc: 28/12/2015 - 13 giờ VN&nbsp;</strong></span></span></div>
+<table align="center" border="0" class="t-table cke_show_border" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(52, 56, 64); font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 13px; height: 532px; line-height: 19.5px; margin: auto; outline: 0px; padding: 0px; vertical-align: baseline; width: 480px;"><tbody style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><th align="center" class="t-table" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-color: rgb(84, 90, 105) rgb(46, 49, 57) rgb(46, 49, 57); border-style: solid; border-width: 1px; line-height: 17.03px; margin: 16px 0px 20px; outline: 0px; padding: 8px 13px; text-align: center; vertical-align: middle; width: 452px;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Merry Christmas (Giảm giá)</span></span></th></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Tăng exp thưởng chiến thắng đầu tiên</span></span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;">Tất cả chiến thắng trong thời gian sự kiện sẽ được thưởng x5 Exp</span></div>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Khuyến mãi đổi Exp thường sang Exp tự do</span></span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<br /></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><span class="currency-gold" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-weight: bold; margin: 0px; outline: 0px; padding: 0px 17px 0px 0px; vertical-align: baseline;">1 vàng =</span><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">35 EXP</span></strong></span></div>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><b>Giảm 70%:</b></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><img alt="" data-cke-saved-src="http://static-ptl-sg.gcdn.co/dcont/fb/news/icons/inccrewtrainrate.png" dir="false" height="25" src="http://static-ptl-sg.gcdn.co/dcont/fb/news/icons/inccrewtrainrate.png" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; cursor: default; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" width="25" />&nbsp;Chi phi thay đổi hồ sơ kíp lai</span></li>
+</ul>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><span style="color: #20124d;"><br /></span><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><b>Giảm 50%:</b></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-style: italic; font-weight: bold; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><em style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><img alt="" data-cke-saved-src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/equipdisc.png" dir="false" height="25" src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/equipdisc.png" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; cursor: default; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" width="25" /></em>&nbsp;Trang bị</span></li>
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-style: italic; font-weight: bold; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><img alt="" data-cke-saved-src="http://static-ptl-sg.gcdn.co/dcont/fb/news/icons/barrackdisc.png" dir="false" height="25" src="http://static-ptl-sg.gcdn.co/dcont/fb/news/icons/barrackdisc.png" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; cursor: default; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" width="25" />&nbsp;</strong>Chỗ trống doanh trại</span></li>
+</ul>
+<div class="mceTmpl" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div class="b-message-info" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 19.5px; margin: 0px 0px 12px; min-height: 26px; outline: 0px; padding: 15px 13px 13px 48px; vertical-align: baseline; word-wrap: break-word;">
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><em style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">*</strong></em></span></strong></span>&nbsp;<em style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">- GIảm giá này cũng có hiệu lực trên &nbsp;Premium Shop.</em></span></div>
+</div>
+</div>
+</td></tr>
+</tbody></table>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><br /></span></div>
+<table align="center" border="0" class="t-table cke_show_border" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(52, 56, 64); font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 13px; height: 394px; line-height: 19.5px; margin: auto; outline: 0px; padding: 0px; vertical-align: baseline; width: 477px;"><tbody style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><th align="center" class="t-table" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-color: rgb(84, 90, 105) rgb(46, 49, 57) rgb(46, 49, 57); border-style: solid; border-width: 1px; line-height: 17.03px; margin: 16px 0px 20px; outline: 0px; padding: 8px 13px; text-align: center; vertical-align: middle; width: 449px;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Mission: Skillful Play (Huy chương)</span></span></th></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Mục tiêu:</span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;">Kiếm được bất ký huy chương ở danh sách dưới:</span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">High Caliber</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Tank Sniper</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Raider</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Lucky</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Shellproof</span></li>
+</ul>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Điều kiện:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Sự dụng tăng cấp IV hoặc cao hơn</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Chỉ với Trận đánh ngẫu nhiên</span></li>
+</ul>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Phần thưởng:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">x1.5 Kinh nghiệm kíp lái</span></span></li>
+</ul>
+</td></tr>
+</tbody></table>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><br /></span></div>
+<table align="center" border="0" class="t-table cke_show_border" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(52, 56, 64); font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 13px; height: 285px; line-height: 19.5px; margin: auto; outline: 0px; padding: 0px; vertical-align: baseline; width: 478px;"><tbody style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><th align="center" class="t-table" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-color: rgb(84, 90, 105) rgb(46, 49, 57) rgb(46, 49, 57); border-style: solid; border-width: 1px; color: #babcbf; line-height: 17.03px; margin: 16px 0px 20px; outline: 0px; padding: 8px 13px; text-align: center; vertical-align: middle; width: 450px;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Mission: Skillful Play Bonus (Top 3)</span></span></th></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); color: #9fa0a1; line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Mục tiêu:</span></strong></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;">Nằm trom top 3 kinh nghiệm phe bạn trong 1 trận đánh&nbsp;</span></div>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); color: #9fa0a1; line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Điều kiện:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Sự dụng tăng cấp IV hoặc cao hơn</span></li>
+<li style="line-height: 1.6em; list-style-position: inside; margin: 0px; padding: 0px;"><span style="color: #20124d;">Chỉ với Trận đánh ngẫu nhiên</span></li>
+</ul>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); color: #9fa0a1; line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">Phần thưởng:</span></strong></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">x1.5 Kinh nghiệm &nbsp;</span></span></li>
+</ul>
+</td></tr>
+</tbody></table>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Post by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/111166033479538819003' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/111166033479538819003' rel='author' title='author profile'>
+<span itemprop='name'>Unknown</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+Time post
+<meta content='http://www.2voz.asia/2015/12/su-kien-merry-christmas-mung-giang-sinh.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.2voz.asia/2015/12/su-kien-merry-christmas-mung-giang-sinh.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-12-24T23:39:00+07:00'>11:39 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-716588762'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3254144535531899008&postID=2786389917445996900&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2786389917445996900&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2786389917445996900&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2786389917445996900&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2786389917445996900&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2786389917445996900&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Nhãn:
+<a href='http://www.2voz.asia/search/label/TT' rel='tag'>TT</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://static-ptl-sg.gcdn.co/dcont/fb/icons/discountregulartank.png' itemprop='image_url'/>
+<meta content='3254144535531899008' itemprop='blogId'/>
+<meta content='2597743675330543533' itemprop='postId'/>
+<a name='2597743675330543533'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://www.2voz.asia/2015/12/su-kienl-march-of-nations-usa.html'>[Sự kiệnl] March of Nations: USA</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2597743675330543533' itemprop='articleBody'>
+<h2 style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: WarHeliosCondC, 'Arial Narrow', Arial, sans-serif; font-size: 26px; font-stretch: normal; font-weight: normal; line-height: 1.2em; margin: 16px 0px 14px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="color: #20124d;">[Sự kiện] March of Nations: USA</span></h2>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Bắt đầu:&nbsp;</strong><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">25/12/</span></span>2015 &nbsp;@ 13:00 UTC+7 (06:00 UTC)</span></span></span></div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><strong style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Kết thúc</strong>:&nbsp;<span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">30/12/</span><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">2015 &nbsp;@ 13:00 UTC+7 (06:00 UTC)</span></span></span></div>
+<table align="center" border="0" class="t-table cke_show_border" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(52, 56, 64); font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 13px; height: 149px; line-height: 19.5px; margin: auto; outline: 0px; padding: 0px; vertical-align: baseline; width: 480px;"><tbody style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><th align="center" class="t-table" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-color: rgb(84, 90, 105) rgb(46, 49, 57) rgb(46, 49, 57); border-style: solid; border-width: 1px; line-height: 17.03px; margin: 16px 0px 20px; outline: 0px; padding: 8px 13px; text-align: center; vertical-align: middle; width: 452px;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">March of Nations: USA (Discounts)</span></span></th></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><b>Giảm 50%</b>:</span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><img alt="" data-cke-saved-src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/discountregulartank.png" dir="false" height="25" src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/discountregulartank.png" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; cursor: default; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" width="25" />&nbsp;Tất cả Tăng Mỹ từ cấp II - V</span></li>
+</ul>
+</td></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><b>Giảm 30%</b>:</span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-weight: bold; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><img alt="" data-cke-saved-src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/discountregulartank.png" dir="false" height="25" src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/discountregulartank.png" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; cursor: default; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" width="25" />&nbsp;Tất cả Tăng Mỹ từ cấp VI - VII</span></span></li>
+</ul>
+</td></tr>
+</tbody></table>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 12px; line-height: 15.96px; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><br /></span></div>
+<table align="center" border="0" class="t-table cke_show_border" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(52, 56, 64); font-family: Arial, 'Helvetica CY', Helvetica, sans-serif; font-size: 13px; height: 123px; line-height: 19.5px; margin: auto; outline: 0px; padding: 0px; vertical-align: baseline; width: 479px;"><tbody style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><th align="center" class="t-table" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-color: rgb(84, 90, 105) rgb(46, 49, 57) rgb(46, 49, 57); border-style: solid; border-width: 1px; color: #babcbf; line-height: 17.03px; margin: 16px 0px 20px; outline: 0px; padding: 8px 13px; text-align: center; vertical-align: middle; width: 451px;"><span style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;">March of Nations: Tier VIII - X discount</span></span></th></tr>
+<tr style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><td colspan="1" rowspan="1" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 1px solid rgb(46, 49, 57); line-height: 1.6; margin: 0px; outline: 0px; padding: 10px 13px 6px; vertical-align: top;"><div class="mceTmpl" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; color: #9fa0a1; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div class="b-message-info" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; color: #babcbf; line-height: 19.5px; margin: 0px 0px 12px; min-height: 26px; outline: 0px; padding: 15px 13px 13px 48px; vertical-align: baseline; word-wrap: break-word;">
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;">Lưu ý: Giảm giá chỉ có hiệu lực từ 15/12/2015 đến 24/01/2015&nbsp;</span></div>
+</div>
+</div>
+<div style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; line-height: 1.6; margin-bottom: 10px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<span style="color: #20124d;"><b>Giảm giá 15%</b></span></div>
+<ul style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border-image-outset: initial; border-image-repeat: initial; border-image-slice: initial; border-image-source: initial; border-image-width: initial; border: 0px; color: #9fa0a1; list-style: none; margin: 15px 0px 20px; outline: 0px; padding: 0px 0px 0px 11px; vertical-align: baseline;">
+<li style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; line-height: 1.6em; list-style-position: inside; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: #20124d;"><img alt="" data-cke-saved-src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/discountregulartank.png" dir="false" height="25" src="http://static-ptl-sg.gcdn.co/dcont/fb/icons/discountregulartank.png" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; border: 0px; cursor: default; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" width="25" />&nbsp;Tất cả các Tăng &nbsp;từ cấp VIII - X</span></li>
+</ul>
+</td></tr>
+</tbody></table>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Post by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/111166033479538819003' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/111166033479538819003' rel='author' title='author profile'>
+<span itemprop='name'>Unknown</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+Time post
+<meta content='http://www.2voz.asia/2015/12/su-kienl-march-of-nations-usa.html' itemprop='url'/>
+<a class='timestamp-link' href='http://www.2voz.asia/2015/12/su-kienl-march-of-nations-usa.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-12-24T23:29:00+07:00'>11:29 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-716588762'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3254144535531899008&postID=2597743675330543533&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2597743675330543533&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2597743675330543533&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2597743675330543533&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2597743675330543533&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=3254144535531899008&postID=2597743675330543533&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Nhãn:
+<a href='http://www.2voz.asia/search/label/TT' rel='tag'>TT</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://www.2voz.asia/search?updated-max=2016-01-16T02:34:00%2B07:00&max-results=10&reverse-paginate=true' id='Blog1_blog-pager-newer-link' title='Newer Posts'>Newer Posts</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.2voz.asia/search?updated-max=2015-12-24T23:29:00%2B07:00&max-results=10' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://www.2voz.asia/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://www.2voz.asia/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget HTML' data-version='1' id='HTML3'>
+<h2 class='title'>Support my work/Ủng hộ công việc của mình</h2>
+<div class='widget-content'>
+- Qua paypal:  <a class="vx_text-6" data-nextpagegroup="main:ppme:profile" data-nextpagename="main:ppme:profile:::" data-pagename2="main:ppme:settings:::" data-pagename="main:ppme:settings" href="https://www.paypal.com/paypalme/my/profile" name="share" style="background-color: white; box-sizing: inherit; color: #0070ba; font-family: PayPal-Sans, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 15px; line-height: 1.62; text-align: center; text-decoration-line: none;">paypal.me/ruby1412</a><br /><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><span style="font-size: 100%;">- Hoặc liên hệ:  https://www.fb.me/ruby1412</span></form>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' rel='nofollow' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget LinkList' data-version='1' id='LinkList1'>
+<h2>Bookmark những trang liên quan</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.2voz.asia/2015/01/6.html'>Hỗ trợ mua đồ trên shop</a></li>
+<li><a href='http://imgur.com/a/jKXwW'>Album hình nền 4k của LeoVinc3nt</a></li>
+<li><a href='http://vk.com/album-49923136_169821561'>Album hình nền WOT đẹp</a></li>
+<li><a href='http://tanghangruoi.blogspot.com/'>Blog của tanghangruoi</a></li>
+<li><a href='https://docs.google.com/spreadsheet/ccc?key=0ArEBnu_hBHF8dGpUTnE2UEt2QkV3UlJvNlRLaTAzWEE&amp;usp=sharing#gid=0'>Crew Experience (Bảng tính kinh nghiệp kíp lái)</a></li>
+<li><a href='http://forum.worldoftanks.asia/index.php?/topic/47114-'>Dành cho người chơi mới</a></li>
+<li><a href='http://youtube.com/+2vozblogspot'>Kênh Youtube</a></li>
+<li><a href='https://www.facebook.com/pages/V-Tanker/551196551651347?fref=ts'>Thông tin từ NPH dịch bởi Leovincent</a></li>
+<li><a href='http://www.2voz.asia/2016/06/clan-war-stratsketch-wot-strategy.html'>Trang hỗ trợ vẽ chiến thuật cho map</a></li>
+<li><a href='http://www.twitch.tv/directory/game/World%20of%20Tanks'>Xem stream của các cao thủ</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' rel='nofollow' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='sidebar no-items section' id='sidebar-right-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='sidebar no-items section' id='sidebar-right-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='sidebar section' id='sidebar-right-3'><div class='widget PopularPosts' data-version='1' id='PopularPosts1'>
+<h2>Bài viết phổ biến</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2015/01/3.html' target='_blank'>
+<img alt='' border='0' src='https://lh6.googleusercontent.com/proxy/Q45BSPfit5wpZht4MHs9otQqLQKEhtQjVJB6nwqlVkOx2bI3IphPnserf3SNSeCpkIY=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2015/01/3.html'>MOD PACK's ruby1412  - #3 Bài viết số ba</a></div>
+<div class='item-snippet'>     MOD PACK&#39;s &#160;ruby1412 &#160;  Phiên bản 1.4           Thành phần bộ mod được tạo nên từ việc c hắt lọc từ mod pack Aslain&#39;s, logo, 6s...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2015/01/1-bai-viet-so-mot.html' target='_blank'>
+<img alt='' border='0' src='https://lh5.googleusercontent.com/proxy/dAt6oEtDAHI56eBc9FnV2X3aOlZIQZEnbgBR4QY2xu3Yabxt23xhmUsdHmNH_MB0shY=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2015/01/1-bai-viet-so-mot.html'>Simple Modification WOT -  #1 Bài viết số một</a></div>
+<div class='item-snippet'>          Bài viết&#160; #1&#160; và #2 &#160;là chia sẻ những&#160; Mod ĐƠN LẺ&#160; để các bạn tiện lựa chọn   #3&#160; Là mod&#160; Tổng hợp&#160; theo&#160; Bộ (Mod pack)     Nguồn ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2015/01/6.html' target='_blank'>
+<img alt='' border='0' src='https://lh3.googleusercontent.com/proxy/T9IB9tUOdu9KWebTBK8RGqqDmSNtVn7p7z0aCXgz5bEJvhE37hkSiBMkLYUQst8XgW4=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2015/01/6.html'>Hỗ trợ anh em mua đồ trên shop của WOT, WOWS, Warthunder, STEAM...</a></div>
+<div class='item-snippet'>      Hỗ trợ anh em mua đồ trên shop của Wargaming. Bao gồm: World of Tanks ASIA, World of Warship, World of Tank Blitz. Kể cả Warthunder ha...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2015/01/2.html' target='_blank'>
+<img alt='' border='0' src='https://lh5.googleusercontent.com/proxy/6r7m9SL35EXWzpSTeHzAQgD_L82CQytfouhxkVnEkosOyt_QJRX0M-2TKsmYSDe8Hl4=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2015/01/2.html'>Simple Modification WOT - #2 Bài viết số hai</a></div>
+<div class='item-snippet'>  21. Mod Accurate Damage Indicator xác định hướng địch bắn mình &#160;(Giữ vị trí 15s)    21.1&#160;Accurate Damage Indicator&#160; [ NOT ready ]         ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2015/06/98-j1mb0s-crosshair-mod-tam-ngam-jimbo.html' target='_blank'>
+<img alt='' border='0' src='https://lh3.googleusercontent.com/proxy/wxRQOMS98EiogK1KigB2X9gZwgX4qMu_0Dm8Y7enC7L2AhGYsH6G8ReBO33I-5QyRUU=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2015/06/98-j1mb0s-crosshair-mod-tam-ngam-jimbo.html'>[9.17] J1mB0's Crosshair - Mod tâm ngắm Jimbo</a></div>
+<div class='item-snippet'>    DOWNLOAD    Hướng dẫn: Tải về giải nén ra rồi copy thư mục res_mods  vào thư mục chứa game ví dụ C:\Games\ World_of_Tanks   Cụ thể hơn: ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2015/06/98-battle-assistant-mod-thay-oi-goc-ban.html' target='_blank'>
+<img alt='' border='0' src='https://lh4.googleusercontent.com/proxy/e_EY8GZwtHLNGgRPHnr7WrXCQqIDOdWWEi4Y1tkTAHBTul9sRWEhKEe6PiEMko2GdBeWnJr1K41-lMNearYRM-wq9Cnd4gkwmxEQaiCYpcHPN0Rx8Q=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2015/06/98-battle-assistant-mod-thay-oi-goc-ban.html'>[9.17] Battle Assistant - Mod thay đổi góc bắn của pháo</a></div>
+<div class='item-snippet'>      DOWNLOAD/TẢI Ở ĐÂY &#160;-Phiên bản 1.39     Link nguồn của tác giả bên RU&#160;   Cài đặt: Copy thư mục scripts dán vào&#160; World_of_Tanks\res_mod...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2018/09/thong-so-t-50-2-moi.html' target='_blank'>
+<img alt='' border='0' src='https://lh4.googleusercontent.com/proxy/SaEfKY31sbSZcogyRDmIhB5aSPYVipRSoT7m4qkpft65YWTzDijA1diEe-8wzF1E2n8LHJ2OJ9jKn74x3OdNGf280xqRDpEE0uK0VbJS4PbJWALfNDwTtffUNrsshBOSeMefRRmjhkUXbFDs76NPUDWCSQ=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2018/09/thong-so-t-50-2-moi.html'>Thông số T-50-2 (Mới)</a></div>
+<div class='item-snippet'>     T-50-2. Thông số ban đầu:   Xe premium LT&#160; cấp 6 của Liên Xô HP: 580 Động cơ: 480 hp Khối lượng: 16 t Tải trọng: 18 t Mã lực/tấn: 30 hp...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2018/09/thong-so-cua-kanonenjagdpanzer-105-ban.html' target='_blank'>
+<img alt='' border='0' src='https://lh5.googleusercontent.com/proxy/Hsvh4v7lElQXqDyYKOUtkmrsWPUWW9rYt-utJ9oJj6EwYtbHKj8MlQ_x96dp0EO4j00nZKly4-uqwNHWvMAOJGQcs4o2Lles5Vf0mwIW_zP9lLSOO0jVjmVyqQ=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2018/09/thong-so-cua-kanonenjagdpanzer-105-ban.html'>Thông số của Kanonenjagdpanzer 105 (Đã bán ở EU)</a></div>
+<div class='item-snippet'>   Kanonenjagdpanzer 105. Thông số chính:   Xe TD cấp 8 Premium của Đức HP: 1050 Động cơ: 500 hp Khối lượng: 26 t Trọng tải: 29,5 t Mã lực/t...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2018/07/hinh-anh-ve-50tp-prototyp.html' target='_blank'>
+<img alt='' border='0' src='https://lh6.googleusercontent.com/proxy/QzIY7ug28_tTJSZVEUOrb70Ds2SoyKsQ5xcNZydygtZsyDWo38K3tI_xSVJozvhTvtww10jH0jl6gccRxc8f2dfpmenSWlpOLjTXM7cAH-JyhXPJDV8fCnQ=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2018/07/hinh-anh-ve-50tp-prototyp.html'>Hình ảnh và thông số của 50TP prototyp</a></div>
+<div class='item-snippet'>  Nguồn:&#160;https://thearmoredpatrol.com   50TP prototyp. Thông số:   Cấp độ: Heavy Tank cấp-8, Ba Lan, Xe premium  HP: 1 500  Động cơ: 750 hp ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.2voz.asia/2018/10/thong-so-cua-is-3a.html' target='_blank'>
+<img alt='' border='0' src='https://lh3.googleusercontent.com/proxy/KOCezmwaUJIhOrcWEUJ5Fute2WPyh0MvT4iXeaQQQiJOsTBpqiTR3jhFcp161IGgW9YzdzpEIsJ5i9-csymN0msb4o1OfwCyt_-yboi98KRwPr8-2ZMRhDVGH6roEsZlnNkD5xRSeRZNIk_6bsjch4t4tjGpDJjCoNOz0f4VmEk=w72-h72-p-k-no-nu'/>
+</a>
+</div>
+<div class='item-title'><a href='http://www.2voz.asia/2018/10/thong-so-cua-is-3a.html'>Thông số của IS-3A</a></div>
+<div class='item-snippet'>    IS-3A (HT-8, Liên Xô). Thông số ban đầu:   Cấp độ: HT-8, Liên Xô HP: 1 550 Động cơ: 520 hp Khối lượng: 49 t Trọng tải: 53,56 t Mã lực/tấ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' rel='nofollow' target='configPopularPosts1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2018/'>
+2018
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2018/10/'>
+October
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2018/09/'>
+September
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2018/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2018/07/'>
+July
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2018/05/'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/'>
+2017
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/09/'>
+September
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/06/'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/04/'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/03/'>
+March
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/02/'>
+February
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2017/01/'>
+January
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/'>
+2016
+</a>
+<span class='post-count' dir='ltr'>(86)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/12/'>
+December
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/11/'>
+November
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/10/'>
+October
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/09/'>
+September
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/07/'>
+July
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/06/'>
+June
+</a>
+<span class='post-count' dir='ltr'>(32)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/05/'>
+May
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/04/'>
+April
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/03/'>
+March
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/02/'>
+February
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2016/01/'>
+January
+</a>
+<span class='post-count' dir='ltr'>(17)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(102)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/12/'>
+December
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+<ul class='posts'>
+<li><a href='http://www.2voz.asia/2015/12/su-kien-2016-has-arrived-nam-2016-toi.html'>[Sự kiện] 2016 Has Arrived! - Năm 2016 đã tới</a></li>
+<li><a href='http://www.2voz.asia/2015/12/su-kien-new-year-preparation-chuan-bi.html'>[Sự kiện] New Year Preparation - Chuẩn bị cho năm ...</a></li>
+<li><a href='http://www.2voz.asia/2015/12/cuoc-thi-christmas-weekend-challenge.html'>[Cuộc thi] Christmas Weekend Challenge</a></li>
+<li><a href='http://www.2voz.asia/2015/12/su-kien-merry-christmas-mung-giang-sinh.html'>[Sự kiện] Merry Christmas - Mừng Giáng Sinh</a></li>
+<li><a href='http://www.2voz.asia/2015/12/su-kienl-march-of-nations-usa.html'>[Sự kiệnl] March of Nations: USA</a></li>
+<li><a href='http://www.2voz.asia/2015/12/su-kien-march-of-nations-germany.html'>[Sự kiện] March of Nations: Germany</a></li>
+<li><a href='http://www.2voz.asia/2015/12/su-kien-christmas-cheers.html'>[Sự kiện] Christmas Cheers</a></li>
+<li><a href='http://www.2voz.asia/2015/12/special-czech-this-out-su-kien-ac-biet.html'>[Special] Czech This Out - Sự kiện đặc biệt mừng n...</a></li>
+<li><a href='http://www.2voz.asia/2015/12/913-hinh-anh-cua-map-moi-pilsen.html'>[9.13] Hình ảnh của map mới PILSEN</a></li>
+<li><a href='http://www.2voz.asia/2015/12/913-nhung-thay-oi-cua-ban-cap-nhat-913_15.html'>[9.13] Những thay đổi của bản cập nhật 9.13</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/10/'>
+October
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/07/'>
+July
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/06/'>
+June
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/05/'>
+May
+</a>
+<span class='post-count' dir='ltr'>(23)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/04/'>
+April
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/03/'>
+March
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/02/'>
+February
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.2voz.asia/2015/01/'>
+January
+</a>
+<span class='post-count' dir='ltr'>(23)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' rel='nofollow' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Label' data-version='1' id='Label1'>
+<h2>Tag</h2>
+<div class='widget-content cloud-label-widget-content'>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Clan%20war'>Clan war</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/CW'>CW</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Event'>Event</a>
+<span class='label-count' dir='ltr'>(8)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/HD'>HD</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Jimbo'>Jimbo</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Map'>Map</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/MOD%20Game%20WOT'>MOD Game WOT</a>
+<span class='label-count' dir='ltr'>(13)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/NPH'>NPH</a>
+<span class='label-count' dir='ltr'>(51)</span>
+</span>
+<span class='label-size label-size-2'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Ranzar'>Ranzar</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Replay'>Replay</a>
+<span class='label-count' dir='ltr'>(20)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/RNG'>RNG</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Sandbox'>Sandbox</a>
+<span class='label-count' dir='ltr'>(7)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/Troll%20WOT'>Troll WOT</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/TT'>TT</a>
+<span class='label-count' dir='ltr'>(17)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://www.2voz.asia/search/label/WWII'>WWII</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar-right-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' rel='nofollow' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'><div class='widget HTML' data-version='1' id='HTML1'>
+<div class='widget-content'>
+<script src="http://www.shoutbox.com/chat/chat.js.php"></script>
+<script> var chat = new Chat(5476);</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' rel='nofollow' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'><div class='widget Stats' data-version='1' id='Stats1'>
+<h2>Lượng Xem</h2>
+<div class='widget-content'>
+<div id='Stats1_content' style='display: none;'>
+<script src='https://www.gstatic.com/charts/loader.js' type='text/javascript'></script>
+<span id='Stats1_sparklinespan' style='display:inline-block; width:75px; height:30px'></span>
+<span class='counter-wrapper graph-counter-wrapper' id='Stats1_totalCount'>
+</span>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=Stats&widgetId=Stats1&action=editWidget&sectionId=footer-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Stats1"));' rel='nofollow' target='configStats1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='foot no-items section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' data-version='1' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+2Voz - World of Tanks ASIA. Awesome Inc. theme. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3254144535531899008&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' rel='nofollow' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2575128383-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY5zok_Moilz2DmVlmB5MJayDqyv5w:1566379771605';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3254144535531899008','//www.2voz.asia/2015/','3254144535531899008');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '3254144535531899008', 'title': 'Rµß&#165; World Of Tanks', 'url': 'http://www.2voz.asia/2015/', 'canonicalUrl': 'http://www.2voz.asia/2015/', 'homepageUrl': 'http://www.2voz.asia/', 'searchUrl': 'http://www.2voz.asia/search', 'canonicalHomepageUrl': 'http://www.2voz.asia/', 'blogspotFaviconUrl': 'http://www.2voz.asia/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': true, 'httpsEnabled': false, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Rµß&#165; World Of Tanks - Atom\x22 href\x3d\x22http://www.2voz.asia/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Rµß&#165; World Of Tanks - RSS\x22 href\x3d\x22http://www.2voz.asia/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Rµß&#165; World Of Tanks - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/3254144535531899008/posts/default\x22 /\x3e\n', 'meTag': '', 'adsenseClientId': 'ca-pub-8691316336817344', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': true, 'ieCssRetrofitLinks': '\x3c!--[if IE]\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.blogger.com/static/v1/jsbin/95993233-ieretrofit.js\x22\x3e\x3c/script\x3e\n\x3c![endif]--\x3e', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/2df76443987ae0d9', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': true, 'jumpLinkMessage': 'CÒN NỮA (Read more &#187;)', 'pageType': 'archive', 'pageName': '2015', 'pageTitle': 'Rµß&#165; World Of Tanks: 2015', 'metaDescription': 'Mod, World of Tanks, WOT, Modification'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'Awesome Inc.', 'localizedName': 'Awesome Inc.', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': false, 'variant': 'icy', 'variantId': 'icy'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Rµß&#165; World Of Tanks', 'description': 'Mod, World of Tanks, WOT, Modification', 'url': 'http://www.2voz.asia/2015/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': false, 'isArchive': true, 'isLabelSearch': false, 'archive': {'year': 2015, 'rangeMessage': 'Showing posts from 2015'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', document.getElementById('PageList1'), {'title': 'Tải mod lẻ #2 (21-End)', 'links': [{'isCurrentPage': false, 'href': 'http://www.2voz.asia/', 'title': 'Trang chủ - Home'}, {'isCurrentPage': false, 'href': 'http://www.2voz.asia/2015/01/3.html', 'title': 'Tải GÓI MOD'}, {'isCurrentPage': false, 'href': 'http://www.2voz.asia/2015/01/6.html', 'title': 'Dịch vụ Nạp game'}, {'isCurrentPage': false, 'href': 'https://www.facebook.com/groups/wotvn/', 'title': 'Group: Cộng Đồng WOT VN '}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'viewType': 'FILTERED_POSTMOD', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/194005098-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar-right-1', document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar-right-1', document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar-right-3', document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-3', document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar-right-3', document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer-1', document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_StatsView', new _WidgetInfo('Stats1', 'footer-2-1', document.getElementById('Stats1'), {'title': 'Lượng Xem', 'showGraphicalCounter': true, 'showAnimatedCounter': true, 'showSparkline': true, 'statsUrl': '//www.2voz.asia/b/stats?style\x3dWHITE_TRANSPARENT\x26timeRange\x3dALL_TIME\x26token\x3dAPq4FmDdx44n7PEvSUjw-cL941jz241lqg6cUGYkZW8DvMFx6oW58k7a-AulMTLdMpjHdgSS-bj3WA9DWRvYVdY768W-slW71A'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', document.getElementById('Attribution1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>
+

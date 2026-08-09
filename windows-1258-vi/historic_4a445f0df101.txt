@@ -1,0 +1,343 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<!-- get charset from DB:language -->
+   <meta http-equiv="content-type" content="text/html; charset=cp1258" />
+
+
+
+
+<!-- Document ID: 269-001-0015280  -->
+
+<title>
+
+Vi&#7879;t Nam: Nh&#7919;ng Nhà &#272;&#7889;i Kháng Tranh &#272;&#7845;u &#272;&#7875; Th&#7921;c Thi Quy&#7873;n T&#7921; Do Ngôn Lu&#7853;n (Human Rights Watch, 6-2-2007)</title>
+
+<link rel="stylesheet" href="/includes/css/main.css" type="text/css" />
+<link rel="stylesheet" href="/includes/blue/blue.css" type="text/css" />
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td bgcolor="#0066CC"><a href="/"><img src="/includes/blue/images/logo_top.gif" alt="HUMAN RIGHTS" width="117" height="52" border="0" /></a></td><td colspan="2" align="right" bgcolor="#0066CC" width="100%"><img src="/includes/blue/images/logo_middle.gif" alt="" width="243" height="52" border="0" /><img src="/includes/blue/images/logo_right.gif" alt="" width="166" height="52" border="0" /></td></tr><tr><td bgcolor="#6699FF"><a href="/"><img src="/includes/blue/images/logo_bottom.gif" alt="WATCH" width="117" height="34" border="0" /></a></td><td bgcolor="#6699FF">
+
+
+
+
+
+
+
+
+
+
+<a href="/press/index.htm"><img src="/includes/blue/titles/news.gif" alt="Human Rights News" width="270" height="22" border="0" /></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</td><td bgcolor="#6699FF" align="right" nowrap="nowrap"><a href="/portuguese/"><img src="/includes/blue/images/portugues.gif" alt="Portugues" width="57" height="14" border="0" /></a><a href="/french/"><img src="/includes/blue/images/francais.gif" alt="Francais" width="53" height="14" border="0" /></a><a href="/russian/"><img src="/includes/blue/images/russian.gif" alt="Russian" width="56" height="14" border="0" /></a><a href="/german/"><img src="/includes/blue/images/deutsch.gif" alt="German" width="45" height="14" border="0" /></a><br /><a href="/spanish/"><img src="/includes/blue/images/espanol.gif" alt="Espanol" width="57" height="19" border="0" /></a><a href="/chinese/"><img src="/includes/blue/images/chinese.gif" alt="Chinese" width="53" height="19" border="0" /></a><a href="/arabic/"><img src="/includes/blue/images/arabic.gif" alt="Arabic" width="56" height="19" border="0" /></a><a href="/allindex.htm"><img src="/includes/blue/images/other.gif" alt="Other Languages" width="45" height="19" border="0" /></a></td>
+</tr></table>
+<!-- HEADER TABLE ENDS HERE -->
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td valign="top" class="color2">
+<table width="117" cellspacing="0" cellpadding="0" border="0">
+<tr><td class="color1">
+<div id="nav_a"><a href="/">Home</a></div>
+<div id="nav_a"><a href="/doc/?t=news">News Releases</a></div>
+<div id="nav_a"><a href="/about/">About HRW</a></div>
+<div id="nav_a"><a href="https://donate.hrw.org/member">Contribute</a></div>
+<div id="nav_a"><a href="/doc/?t=pubs">Publications</a></div>
+<div id="nav_a"><a href="/countries.html">Info by Country</a></div>
+</td></tr><tr><td class="color2">
+<div id="nav_b">
+<a href="/doc/?t=africa">Africa</a><br />
+<a href="/doc/?t=americas">Americas</a><br />
+<a href="/doc/?t=asia">Asia</a><br />
+<a href="/doc/?t=europe">Europe/Central Asia</a><br />
+<a href="/doc/?t=mideast">Middle East/N. Africa</a><br />
+<a href="/doc/?t=usa">United States</a><br />
+<br />
+</div>
+</td></tr><tr><td class="color1">
+<div id="nav_a"><a href="/advocacy/index.htm">Global Issues</a></div>
+</td></tr><tr><td class="color2">
+<div id="nav_b">
+<a href="/doc/?t=arms">Arms</a><br />
+<a href="/doc/?t=corporations">Business</a><br />
+<a href="/children/">Children's Rights</a><br />
+<a href="/doc/?t=ct">Counterterrorism</a><br />
+<a href="/doc/?t=esc">Economic, Social & Cultural Rights</a><br />
+<a href="/doc/?t=hivaids&document_limit=0,5">HIV/AIDS</a><br />
+<a href="/doc/?t=justice">International Justice</a><br />
+<a href="/doc/?t=lgbt">LGBT Rights</a><br />
+<a href="/prisons/">Prisons</a><br />
+<a href="/doc/?t=refugees&document_limit=0,2">Refugees</a><br />
+<a href="/un/">United Nations</a><br />
+<a href="/women/">Women's Rights</a><br />
+<a href="/advocacy/index.htm">More...</a><br />
+<br />
+</div>
+</td></tr><tr><td class="color1">
+<div id="nav_a"><a href="/campaigns/campaigns.html">Campaigns</a></div>
+<div id="nav_a"><a href="/doc/?t=editorials">Commentary</a></div>
+<div id="nav_a"><a href="/iff/">Film Festival</a></div>
+<div id="nav_a"><a href="/doc/?t=photoessays">Photo Galleries</a></div>
+<div id="nav_a"><a href="/doc/?t=videos">Audio / Video</a></div>
+<div id="nav_a"><a href="/site-map.html">Site Map</a></div>
+<div id="nav_a"><a href="/contact.html">Contact Us</a></div>
+<div id="nav_a"><a href="/help/corrections.htm">Corrections</a></div>
+<div id="nav_a"><a href="/about/faq/permissions.htm">Permissions</a></div>
+<div id="nav_a"><a href="/rsslist/">RSS</a></div>
+</td></tr><tr><td class="color2">
+<div id="nav_b">
+<form action="http://search.hrw.org/search">
+          <input name="btnG" value="Google+Search" type="hidden" />
+          <input name="output" value="xml_no_dtd" type="hidden" />
+          <input name="sort" value="date_3AD_3AL_3Ad1" type="hidden" />
+		  <input name="client" value="hrw_frontend" type="hidden" />
+		  <input name="num" value="10" type="hidden" />
+		  <input name="proxystylesheet" value="hrw_frontend" type="hidden" />
+		   <input name="oe" value="UTF-8" type="hidden" />
+		  <input name="site" value="default_collection" type="hidden" />
+          <input name="ie" value="UTF-8" type="hidden" />
+          <input maxlength="256" size="15" name="q" value="" />
+          <input name="GO" src="/images/search.gif" alt="Search" align="top" border="0" type="image" />
+  </form>
+
+
+
+</div>
+</td></tr></table>
+</td><td width="20">   </td><td width="100%" valign="top">
+
+
+
+<h1 class="headline">Vi&#7879;t Nam: Nh&#7919;ng Nhà &#272;&#7889;i Kháng Tranh &#272;&#7845;u &#272;&#7875; Th&#7921;c Thi Quy&#7873;n T&#7921; Do Ngôn Lu&#7853;n</h1>
+<h2 class="subhead">Tám Nhà &#272;&#7889;i Kháng Th&#7855;ng Gi&#7843;i Hellman/Hammett </h2>
+
+<div class="content">
+
+
+
+
+
+
+
+<p>(New York, 6/2/2007) — T&#7893; Ch&#7913;c Human Rights Watch tuyên b&#7889; tám nhà &#273;&#7889;i kháng t&#7841;i Vi&#7879;t Nam &#273;ă th&#7855;ng gi&#7843;i th&#432;&#7903;ng cao quư Hellman/Hammett công nh&#7853;n tinh th&#7847;n d&#361;ng c&#7843;m c&#7911;a h&#7885; tr&#432;&#7899;c nh&#7919;ng &#273;àn áp chính tr&#7883;. </p>
+
+
+
+
+
+
+
+<table width="200" align="right" border="0" cellpadding="0" cellspacing="0" class="relatedmaterial" bgcolor="#336699">
+<tr><td>
+<table width="200" border="0" cellpadding="9" cellspacing="1" bgcolor="#336699">
+<tr><td bgcolor="#eeeeff"><div class="rm">
+
+
+<p><img src="/images/print.gif" alt="Print" width="14" height="11" border="0" align="top" /> <a href="http://hrw.org/vietnamese/docs/2007/02/06/vietna15280_txt.htm">Printer Friendly Version</a></p>
+
+
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td bgcolor="#eeeeff">
+<div class="rm">
+<p><font color="#333333"><b>Also Available in</b></font></p>
+
+
+<a href="http://hrw.org/english/docs/2007/02/06/vietna15277.htm"><img src="/images/languages/english.gif" alt="english" border="0" /></a>&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+</td></tr><tr><td bgcolor="#eeeeff">
+<div class="rm">
+<p><a href="/act/subscribe-mlists/subscribe.htm">Free Email Newsletter</a></p>
+<p><a href="/donations/">Contribute to Human Rights Watch</a></p>
+</div>
+</td></tr></table>
+</td></tr></table>
+
+
+
+       Bà Sophie Richardson, Giám &#273;&#7889;c V&#7909; Châu Á c&#7911;a Human Rights Watch phát bi&#7875;u: “&#272;ây là n&#259;m &#273;&#7863;c bi&#7879;t &#273;&#7875; vinh danh nh&#7919;ng ng̣i bút d&#361;ng c&#7843;m t&#7841;i Vi&#7879;t Nam. Phong trào dân ch&#7911; &#273;ang l&#7899;n m&#7841;nh t&#7841;i Vi&#7879;t Nam ngày càng tr&#7903; nên m&#7841;nh d&#7841;n h&#417;n v&#7899;i nh&#7919;ng s&#7921; lên ti&#7871;ng và xu&#7845;t hi&#7879;n công khai khi&#7871;n cho h&#7885; tr&#7903; nên m&#7909;c tiêu &#273;àn áp. Gi&#7843;i th&#432;&#7903;ng Hellman/Hammett s&#7869; mang l&#7841;i s&#7921; quan tâm c&#7911;a qu&#7889;c t&#7871; và s&#7921; b&#7843;o v&#7879;”. &nbsp;<br>&nbsp;<br>Gi&#7843;i th&#432;&#7903;ng Hellman/Hammett &#273;&#432;&#7907;c thành l&#7853;p b&#7903;i Human Rights Watch dành cho nh&#7919;ng ng&#432;&#7901;i c&#7847;m bút &#273;ang là &#273;&#7889;i t&#432;&#7907;ng c&#7911;a nh&#7919;ng v&#7909; &#273;àn áp chính tr&#7883;. Trong s&#7889; nh&#7919;ng ng&#432;&#7901;i th&#7855;ng gi&#7843;i n&#259;m nay  có tù nhân chính tr&#7883; Nguy&#7877;n V&#361; B́nh, nhà ho&#7841;t &#273;&#7897;ng dân ch&#7911; &#272;&#7895; Nam H&#7843;i, nhà b́nh lu&#7853;n Nguy&#7877;n Chính K&#7871;t và nhà v&#259;n Tr&#7847;n Kh&#7843;i Thanh Th&#7911;y. &nbsp;<br>&nbsp;<br>Bà Richardson nói v&#7873; nh&#7919;ng ng&#432;&#7901;i th&#7855;ng gi&#7843;i nh&#432; sau : “Nh&#7919;ng tác ph&#7849;m và cu&#7897;c s&#7889;ng c&#7911;a nh&#7919;ng ng&#432;&#7901;i c&#7847;m bút này c&#7909; th&#7875; hóa nh&#7919;ng ǵ nhà c&#7847;m quy&#7873;n Vi&#7879;t Nam mu&#7889;n che &#273;&#7853;y, &#273;ó là t́nh tr&#7841;ng t&#7841;i Vi&#7879;t Nam không có t&#7921; do ngôn lu&#7853;n, không có truy&#7873;n thông &#273;&#7897;c l&#7853;p và m&#7841;ng l&#432;&#7899;i Internet th́ b&#7883; ki&#7875;m soát ch&#7863;t ch&#7869;. Nh&#7919;ng ai ngh&#297; r&#7857;ng n&#7873;n kinh t&#7871; phát tri&#7875;n c&#7911;a Vi&#7879;t Nam &#273;&#7891;ng ngh&#297;a v&#7899;i s&#7921; th&#7843; l&#7887;ng v&#7873; chính tr&#7883; c&#7847;n ph&#7843;i quan sát k&#7929; h&#417;n, hoàn c&#7843;nh khó kh&#259;n c&#7911;a nh&#361;ng ng&#432;&#7901;i c&#7847;m bút là nh&#7919;ng b&#7857;ng ch&#7913;ng rơ nh&#7845;t.” &nbsp;<br>&nbsp;<br>Nhà n&#432;&#7899;c Vi&#7879;t Nam, v&#7899;i thành tích n&#7893;i ti&#7871;ng v&#7873; vi&#7879;c &#273;àn áp nh&#7919;ng nhà &#273;&#7889;i kháng, &#273;ă gia t&#259;ng &#273;àn áp trong d&#7883;p H&#7897;i Ngh&#7883; Th&#432;&#7907;ng &#272;&#7881;nh H&#7907;p Tác Kinh T&#7871; Châu Á Thái B́nh D&#432;&#417;ng (APEC) di&#7877;n ra t&#7841;i Hà N&#7897;i vào tháng 11 n&#259;m 2006. &nbsp;<br>&nbsp;<br>Chính quy&#7873;n Vi&#7879;t Nam không c&#7847;n che &#273;&#7853;y n&#7895; l&#7921;c nh&#7857;m b&#7883;t mi&#7879;ng nh&#7919;ng nhà &#273;&#7889;i kháng, b&#7845;t k&#7875; s&#7921; hi&#7879;n di&#7879;n &#273;ông &#273;&#7843;o c&#7911;a truy&#7873;n thông qu&#7889;c t&#7871; t&#7841;i Hà N&#7897;i trong d&#7883;p APEC. Nh&#7919;ng nhà &#273;&#7889;i kháng &#273;ă b&#7883; khóa c&#7893;ng giam gi&#7919; t&#7841;i nhà v&#7899;i l&#7879;nh c&#7845;m không &#273;&#432;&#7907;c r&#7901;i kh&#7887;i nhà ho&#7863;c ti&#7871;p khách. Công an &#273;ă canh gác tr&#432;&#7899;c nhà v&#7899;i nh&#7919;ng b&#7843;ng c&#7845;m nh&#432; “khu v&#7921;c c&#7845;m” và “C&#7845;m ng&#432;&#7901;i ngo&#7841;i qu&#7889;c” &#273;&#7875; c&#7843;n tr&#7903; b&#7845;t c&#7913; s&#7921; ti&#7871;p xúc v&#7899;i truy&#7873;n thông qu&#7889;c t&#7871;. M&#7897;t nhà b&#7845;t &#273;&#7891;ng chính ki&#7871;n &#273;ă b&#7883; khóa c&#7917;a nh&#7889;t trong nhà và ông &#273;ă b&#7883; hành hung thô b&#7841;o khi có khách &#273;&#7871;n th&#259;m. &nbsp;<br>&nbsp;<br>Ngoài ra, công an &#273;ă b&#7855;t ít nh&#7845;t là tám thành viên c&#7911;a Liên &#272;oàn Công Nông Vi&#7879;t Nam, m&#7897;t công &#273;oàn m&#7899;i &#273;&#432;&#7907;c thành l&#7853;p. Công &#273;oàn &#273;&#7897;c l&#7853;p hi&#7879;n nay b&#7883; c&#7845;m t&#7841;i Vi&#7879;t Nam. &nbsp;<br>&nbsp;<br>Nhà c&#7847;m quy&#7873;n Vi&#7879;t Nam c&#361;ng &#273;ă bao vây nh&#7919;ng ng&#432;&#7901;i dân khi&#7871;u ki&#7879;n t&#7853;p trung t&#7841;i V&#432;&#7901;n hoa Mai Xuân Th&#432;&#7903;ng t&#7841;i Hà N&#7897;i &#273;&#7875; n&#7897;p &#273;&#417;n khi&#7871;u ki&#7879;n n&#7841;n tham nh&#361;ng và t&#7883;ch thu &#273;&#7845;t trái phép. Nh&#7919;ng tr&#7867; em b&#7909;i &#273;&#7901;i &#273;ă b&#7883; chuy&#7875;n &#273;&#7871;n tr&#7841;i t&#7853;p trung &#272;&#7891;ng D&#7853;u t&#7841;i ngo&#7841;i thành. T&#7893; ch&#7913;c Human Rights Watch tr&#432;&#7899;c &#273;ây &#273;ă thành l&#7853;p h&#7891; s&#417; v&#7873; vi&#7879;c nh&#7919;ng tr&#7867; em b&#7883; giam gi&#7919; ph&#7843;i ch&#7883;u c&#7843;nh hành hung th&#432;&#7901;ng xuyên và s&#7889;ng trong môi tr&#432;&#7901;ng kh&#7855;c nghi&#7879;t t&#7841;i &#272;&#7891;ng D&#7853;u. &nbsp;<br>&nbsp;<br>Nh&#7919;ng vi ph&#7841;m nhân quy&#7873;n v&#7851;n di&#7877;n ra ngay c&#7843; khi Vi&#7879;t Nam &#273;ang là &#273;i&#7875;m quan tâm c&#7911;a qu&#7889;c t&#7871;. Ngoài vi&#7879;c giam gi&#7919; và b&#7887; tù nh&#7919;ng cá nhân &#273;&#432;&#7907;c xem là m&#7889;i &#273;e d&#7885;a chính tr&#7883;, chính quy&#7873;n Vi&#7879;t Nam c̣n dùng nh&#7919;ng ph&#432;&#417;ng pháp khác &#273;&#7875; b&#7883;t mi&#7879;ng nh&#7919;ng nhà &#273;&#7889;i kháng : &#273;i&#7879;n tho&#7841;i b&#7883; c&#7855;t, d&#7883;ch v&#7909; m&#7841;ng Internet b&#7883; c&#7855;t, th&#432;&#7901;ng xuyên b&#7883; tra h&#7887;i ho&#7863;c giam gi&#7919; m&#7895;i khi &#273;&#7871;n các trung tâm d&#7883;ch v&#7909; Internet. Nhà c&#7911;a nh&#7919;ng nhà ho&#7841;t &#273;&#7897;ng dân ch&#7911; b&#7883; khám xét theo &#273;&#7883;nh k&#7923;, máy &#273;i&#7879;n toán và nh&#7919;ng tài li&#7879;u &#273;&#7873;u b&#7883; t&#7883;ch thu, và gia &#273;́nh c&#7911;a h&#7885; b&#7883; áp l&#7921;c &#273;&#7875; ng&#259;n c&#7843;n không cho nh&#7919;ng nhà b&#7845;t &#273;&#7891;ng chính ki&#7871;n ti&#7871;p t&#7909;c lên ti&#7871;ng. Truy&#7873;n thông qu&#7889;c doanh s&#7881; nh&#7909;c nh&#7919;ng nhà ho&#7841;t &#273;&#7897;ng dân ch&#7911; trên nh&#7919;ng ph&#432;&#417;ng ti&#7879;n truy&#7873;n thông, và nhà n&#432;&#7899;c t&#7893; ch&#7913;c nh&#7919;ng cu&#7897;c &#273;&#7845;u t&#7889; &#273;&#7875; l&#259;ng m&#7841; h&#7885;. Nhi&#7873;u ng&#432;&#7901;i trong s&#7889; nh&#7919;ng nhà ho&#7841;t &#273;&#7897;ng dân ch&#7911; b&#7883; &#273;u&#7893;i vi&#7879;c, nh&#7919;ng th&#432;&#417;ng ch&#7911; d&#7847;n b&#7887; &#273;i v́ áp l&#7921;c t&#7915; chính quy&#7873;n và d&#432; lu&#7853;n tiêu c&#7921;c. Ngay c&#7843; nh&#7919;ng thành viên gia &#273;́nh c&#7911;a nh&#7919;ng nhà ho&#7841;t &#273;&#7897;ng dân ch&#7911; c&#361;ng b&#7883; &#273;e d&#7885;a và tr&#7843; thù b&#7903;i nhà n&#432;&#7899;c Vi&#7879;t Nam. &nbsp;<br>&nbsp;<br>Bà Richardson nói ti&#7871;p: “B&#7857;ng cách vinh danh nh&#7919;ng nhà b&#7845;t &#273;&#7891;ng chính ki&#7871;n, chúng tôi hy v&#7885;ng t&#7841;o s&#7921; quan tâm c&#7911;a qu&#7889;c t&#7871; &#273;&#7889;i v&#7899;i nh&#7919;ng con ng&#432;&#7901;i d&#361;ng c&#7843;m &#273;ang b&#7883; nhà n&#432;&#7899;c Vi&#7879;t Nam t́m &#273;&#7911; m&#7885;i cách &#273;&#7875; b&#7883;t mi&#7879;ng h&#7885;. Nhi&#7873;u qu&#7889;c gia &#273;ă làm ng&#417; tr&#432;&#7899;c nh&#7919;ng cu&#7897;c &#273;àn áp &#273;&#7889;i v&#7899;i nh&#7919;ng nhà &#273;&#7889;i kháng trong d&#7883;p APEC khi&#7871;n nhà n&#432;&#7899;c Vi&#7879;t Nam c&#7843;m th&#7845;y h&#7885; &#273;&#432;&#7907;c b&#7853;t &#273;èn xanh &#273;&#7875; ti&#7871;p t&#7909;c &#273;àn áp.” &nbsp;<br>Sau &#273;ây là l&#8206;&#8206;ư l&#7883;ch tóm t&#7855;t c&#7911;a nh&#7919;ng nhà &#273;&#7889;i kháng &#273;o&#7841;t gi&#7843;i Hellman/Hammett 2007 : &nbsp;<br>•	Nguy&#7877;n V&#361; B́nh: 38 tu&#7893;i, hi&#7879;n &#273;ang b&#7883; c&#7847;m tù 7 n&#259;m bi&#7879;t giam v́ vi&#7871;t báo phê b́nh chính quy&#7873;n. Là m&#7897;t trong nh&#7919;ng thành viên &#273;&#7847;u tiên phong trào dân ch&#7911; t&#7841;i Vi&#7879;t Nam, n&#259;m 2000 Nguy&#7877;n V&#361; B́nh t&#7915; b&#7887; s&#7921; h&#7907;p tác v&#7899;i T&#7841;p Chí C&#7897;ng S&#7843;n &#273;&#7875; thành l&#7853;p m&#7897;t &#273;&#7843;ng phái chính tr&#7883; &#273;&#7897;c l&#7853;p và t&#7893; ch&#7913;c ch&#7889;ng tham nh&#361;ng. Sau khi công b&#7889; ch&#7913;ng th&#432; v&#7873; t́nh tr&#7841;ng vi ph&#7841;m nhân quy&#7873;n t&#7841;i Vi&#7879;t Nam &#273;&#7871;n Qu&#7889;c H&#7897;i Hoa K&#7923; và nh&#7919;ng bài báo phê b́nh nhà c&#7847;m quy&#7873;n Vi&#7879;t Nam, nhà báo Nguy&#7877;n V&#361; B́nh &#273;ă b&#7883; b&#7855;t vào n&#259;m 2002 và b&#7883; gán t&#7897;i “gián &#273;i&#7879;p” trong m&#7897;t phiên toà b&#7845;t công. &nbsp;<br>•	&#272;&#7895; Nam H&#7843;i, 48 tu&#7893;i, chuyên gia ngân hàng và là m&#7897;t trong nh&#7919;ng thành viên ṇng c&#7889;t trong chi&#7871;n d&#7883;ch v&#7853;n &#273;&#7897;ng kư tên cho Tuyên Ngôn T&#7921; Do Dân Ch&#7911; Vi&#7879;t Nam 8406. Ông c&#361;ng là m&#7897; trong nh&#7919;g ng&#432;&#7901;i &#273;&#7841;i di&#7879;n c&#7911;a Liên Minh Dân Ch&#7911; Nhân Quy&#7873;n Vi&#7879;t Nam, m&#7897;t phong trào dân ch&#7911; l&#7899;n r&#7897;ng ch&#432;a t&#7915;ng có v&#7899;i s&#7921; tham d&#7921; c&#7911;a nhi&#7873;u nhân s&#7921; t&#7915; nhi&#7873;u thành ph&#7889; trên toàn cơi Vi&#7879;t Nam. Công an &#273;ă t&#7883;ch thu máy &#273;i&#7879;n toán và &#273;i&#7879;n tho&#7841;i di &#273;&#7897;ng c&#7911;a ông &#272;&#7895; Nam H&#7843;i nhi&#7873;u l&#7847;n. T&#7915; tháng 10 n&#259;m 2006, nhà ch&#7913;c trách &#273;ă nhi&#7873;u l&#7847;n c&#432;&#7905;ng ép ông &#272;&#7895; Nam H&#7843;i &#273;&#7875; th&#7849;m v&#7845;n, qu&#7843;n ch&#7871; và ngay c&#7843; dùng v&#361; l&#7921;c. M&#7853;t v&#7909; c&#7911;a nhà n&#432;&#7899;c Vi&#7879;t Nam luôn theo dơi ông H&#7843;i ngày &#273;êm. Trong th&#7901;i &#273;i&#7875;m Th&#432;&#7907;ng &#272;&#7881;nh APEC, công an &#273;ă b&#7855;t gi&#7919; và c&#7843;n tr&#7903; ông &#272;&#7895; Nam H&#7843;i không th&#7875; tham d&#7921; m&#7897;t cu&#7897;c h&#7885;p báo t&#7893; ch&#7913;c b&#7903;i Liên Minh. &nbsp;<br> &nbsp;<br>•	Nguy&#7877;n Chính K&#7871;t, 54 tu&#7893;i, là m&#7897;t giáo dân Công Giáo di c&#432; t&#7915; mi&#7873;n B&#7855;c vào Nam n&#259;m 1954. Ông Nguy&#7877;n Chính K&#7871;t r&#7901;i ch&#7911;ng vi&#7879;n n&#259;m 1975 nh&#7919;ng v&#7851;n ho&#7841;t &#273;&#7897;ng tích c&#7921;c trong giáo h&#7897;i. T&#7915; n&#259;m 2001, ông Nguy&#7877;n Chính K&#7871;t &#273;ă tr&#7903; thành m&#7897;t trong nh&#7919;ng nhà lănh &#273;&#7841;o &#273;&#7889;i kháng qua nh&#7919;ng bài ti&#7875;u lu&#7853;n, báo cáo và t&#7893; ch&#7913;c nh&#7919;ng cu&#7897;c g&#7863;p g&#7905; gi&#7919;a nh&#7919;ng nhà &#273;&#7889;i kháng. Là lănh &#273;&#7841;o c&#7911;a Liên Minh Dân Ch&#7911; và Nhân Quy&#7873;n và c&#361;ng là nhà sáng l&#7853;p c&#7911;a H&#7897;i Nhà Báo T&#7921; Do Vi&#7879;t Nam, m&#7897;t t&#7893; ch&#7913;c c&#7911;a nh&#7919;ng nhà báo &#273;&#7897;c l&#7853;p. Vào tháng 11 n&#259;m 2006, ông Nguy&#7877;n Chính K&#7871;t &#273;ă b&#7883; công an tri&#7879;u t&#7853;p &#273;&#7875; tra th&#7849;m nhi&#7873;u l&#7847;n. &nbsp;<br>&nbsp;<br>•	Tr&#7847;n Kh&#7843;i Thanh Th&#7911;y là m&#7897;t nhà v&#259;n và nhà báo, và c&#361;ng là ph&#7909; n&#7919; duy nh&#7845;t &#273;&#432;&#7907;c vinh danh trong n&#259;m nay t&#7915; Vi&#7879;t Nam. Là m&#7897;t nhà v&#259;n có nhi&#7873;u kh&#7843; n&#259;ng, bà &#273;ă vi&#7871;t nhi&#7873;u ti&#7875;u thuy&#7871;t và ti&#7875;u lu&#7853;n chính tr&#7883;. Bà là m&#7897;t trong nh&#7919;ng ng&#432;&#7901;i ph&#7909; trách t&#7901; báo chui T&#7893; Qu&#7889;c &#7845;n hành bí m&#7853;t t&#7841;i Hà N&#7897;i, Hu&#7871; và Thành Ph&#7889; H&#7891; Chí Minh và qua m&#7841;ng Internet. Nhà v&#259;n Tr&#7847;n Kh&#7843;i Thanh Th&#7911;y &#273;ă nhi&#7873;u l&#7847;n b&#7883; &#273;&#7845;u t&#7889; b&#7903;i nhà c&#7847;m quy&#7873;n, Toà Án Nhân Dân. Vào tháng 10 n&#259;m 2006, công an &#273;ă tri&#7879;u t&#7853;p 300 ng&#432;&#7901;i t&#7841;i m&#7897;t sân v&#7853;n &#273;&#7897;ng &#273;&#7875; s&#7881; nh&#7909;c bà. B&#259;ng &#273;&#7843;ng xă h&#7897;i &#273;en &#273;ă xâm nh&#7853;p vào nhà và g&#7885;i bà là &#273;&#7891; ph&#7843;n b&#7897;i và d&#7885;a s&#7869; hành hung bà. Công an &#273;ă cho bi&#7871;t là h&#7885; không th&#7875; b&#7843;o v&#7879; bà n&#7871;u bà không t&#7915; b&#7887; nh&#7919;ng ho&#7841;t &#273;&#7897;ng hi&#7879;n nay. Bà và phu quân &#273;ă nhi&#7873;u l&#7847;n b&#7883; sách nhi&#7877;u t&#7841;i s&#7903; làm. Vào tháng 9 và tháng 10/2006, nhà v&#259;n Tr&#7847;n Kh&#7843;i Thanh Th&#7911;y liên ti&#7871;p b&#7883; tra th&#7849;m và qu&#7843;n ch&#7871; b&#7903;i nhà ch&#7913;c trách. Tháng 11, bà &#273;ă b&#7883; sa th&#7843;i kh&#7887;i s&#7903; làm. Trong d&#7883;p APEC trong tháng 11, bà &#273;ă b&#7883; khóa c&#7917;a nh&#7889;t trong nhà b&#7903;i chính quy&#7873;n s&#7903; t&#7841;i&nbsp;<br>&nbsp;<br>•	Nguy&#7877;n V&#259;n &#272;ài là m&#7897;t trong nh&#7919;ng lu&#7853;t s&#432; t&#7841;i Vi&#7879;t Nam chuyên v&#7873; nhân quy&#7873;n và là sáng l&#7853;p viên c&#7911;a U&#7927; Ban Nhân Quy&#7873;n t&#7841;i Vi&#7879;t Nam &#273;&#432;&#7907;c thành h́nh t&#7841;i Vi&#7879;t Nam n&#259;m 2006. Lu&#7853;t s&#432; &#272;ài &#273;ă nh&#7853;n l&#7901;i bi&#7879;n h&#7897; cho nh&#7919;ng Giáo H&#7897;i Tin Lành b&#7883; &#273;àn áp, &#273;i&#7875;n h́nh là tr&#432;&#7901;ng h&#7907;p c&#7911;a c&#7921;u tù nhân chính tr&#7883; M&#7909;c s&#432; Nguy&#7877;n H&#7891;ng Quang. Ông &#273;ă vi&#7871;t nhi&#7873;u bài báo v&#7873; dân ch&#7911; và t&#7921; do báo chí, và &#273;ă b&#7883; b&#7855;t gi&#7919; vào tháng 8 n&#259;m 2006 khi ông và m&#7897;t s&#7889; nhà &#273;&#7889;i kháng khác chu&#7849;n b&#7883; &#7845;n hành m&#7897;t b&#7843;n tin &#273;&#7897;c l&#7853;p. Ông &#273;ă b&#7883; tra th&#7849;m b&#7903;i công an t&#7915; ngày 9 &#273;&#7871;n ngày 14 tháng 11. Công An &#273;ă canh gi&#7919; tr&#432;&#7899;c nhà c&#7911;a Lu&#7853;t s&#432; &#272;ài trong d&#7883;p APEC. Ông &#273;ă b&#7883; c&#7845;m r&#7901;i kh&#7887;i nhà, d&#7883;ch v&#7909; Internet và &#273;i&#7879;n tho&#7841;i di &#273;&#7897;ng &#273;&#7873;u b&#7883; c&#7855;t. &nbsp;<br>&nbsp;<br>•	Nguy&#7877;n Kh&#7855;c Toàn, 51 tu&#7893;i, là nhà ho&#7841;t &#273;&#7897;ng dân ch&#7911; &#273;ă &#273;&#432;&#7907;c tr&#7843; t&#7921; do trong tháng 2 n&#259;m 2006. Ông ti&#7871;p t&#7909;c b&#7883; qu&#7843;n ch&#7871; t&#7841;i gia, và báo cáo là công an &#273;ă thành l&#7853;p tr&#7841;m gác th&#432;&#7901;ng xuyên tr&#432;&#7899;c nhà c&#7911;a ông. Là m&#7897;t c&#7921;u chi&#7871;n binh c&#7911;a Quân &#272;&#7897;i B&#7855;c Vi&#7879;t, ông Toàn &#273;ă khi&#7871;n nhà c&#7847;m quy&#7873;n n&#7893;i gi&#7853;n khi ông vi&#7871;t m&#7897;t lo&#7841;t bài báo v&#7873; nh&#7919;ng cu&#7897;c bi&#7875;u t́nh c&#7911;a nh&#7919;ng nông dân trong n&#259;m 2001 và 2002 &#273;&#7875; ph&#7843;n &#273;&#7889;i n&#7841;n tham nh&#361;ng và t&#7883;ch thu &#273;&#7845;t. Ông &#273;ă giúp nh&#7919;ng nông dân và c&#7921;u chi&#7871;n binh vi&#7871;t &#273;&#417;n khi&#7871;u n&#7841;i g&#7917;i &#273;&#7871;n nhà ch&#7913;c trách, kèm theo nh&#7919;ng bài vi&#7871;t c&#7911;a ông, và &#273;&#259;ng t&#7843;i trên Internet. Ông Nguy&#7877;n Kh&#7855;c Toàn &#273;ă b&#7883; b&#7855;t trong n&#259;m 2002 t&#7841;i d&#7883;ch v&#7909; Internet và b&#7883; tuyên án 12 n&#259;m v&#7873; t&#7897;i làm gián &#273;i&#7879;p. Vào tháng 2 n&#259;m 2006, ông &#273;ă &#273;&#432;&#7907;c tr&#7843; t&#7921; do sau b&#7889;n n&#259;m b&#7883; c&#7847;m tù. T&#7915; khi &#273;&#432;&#7907;c tr&#7843; t&#7921; do, ông Nguy&#7877;n Kh&#7855;c Toàn ti&#7871;p t&#7909;c tranh &#273;&#7845;u cho dân ch&#7911;, và tr&#7907; giúp trong vi&#7879;c h́nh thành m&#7897;t t&#7893; ch&#7913;c công &#273;oàn &#273;&#7897;c l&#7853;p và th&#7921;c hi&#7879;n b&#7843;n tin T&#7921; Do Dân Ch&#7911;. Vào tháng 11 n&#259;m 2006, ông Toàn &#273;ă b&#7883; tri&#7879;u t&#7853;p &#273;&#7875; th&#7849;m v&#7845;n b&#7903;i Công An. M&#7853;t v&#7909; luôn canh gác tr&#432;&#7899;c nhà c&#7911;a ông Toàn &#273;&#7875; c&#7843;n tr&#7903; ng&#432;&#7901;i ngo&#7841;i qu&#7889;c &#273;&#7871;n ti&#7871;p xúc v&#7899;i ông trong d&#7883;p APEC. &nbsp;<br> &nbsp;<br>•	Ph&#7841;m Qu&#7871; D&#432;&#417;ng, 75 tu&#7893;i, là m&#7897;t trong nh&#7919;ng nhà lănh &#273;&#7841;o có uy tín nh&#7845;t c&#7911;a phong trào dân ch&#7911; t&#7841;i Vi&#7879;t Nam, và xu&#7845;t thân t&#7915; trong &#272;&#7843;ng C&#7897;ng S&#7843;n. Là m&#7897;t s&#7917; gia quân &#273;&#7897;i, ch&#7911; nhi&#7879;m và nhà báo, ông D&#432;&#417;ng &#273;&#432;&#7907;c bi&#7871;t &#273;&#7871;n qua vi&#7879;c ông t&#7915; b&#7887; &#272;&#7843;ng C&#7897;ng S&#7843;n vào tháng Giêng n&#259;m 1999 &#273;&#7875; ph&#7843;n &#273;&#7889;i vi&#7879;c tr&#7909;c xu&#7845;t kh&#7887;i &#273;&#7843;ng ông Tr&#7847;n &#272;&#7897;, m&#7897;t ng&#432;&#7901;i b&#7841;n c&#7911;a ông D&#432;&#417;ng và là m&#7897;t nhà phê b́nh ch&#7871; &#273;&#7897;. Ông Ph&#7841;m Qu&#7871; D&#432;&#417;ng &#273;ă vi&#7871;t r&#7845;t nhi&#7873;u bài báo, khi&#7871;u n&#7841;i và th&#432; ng&#7887; &#273;&#7871;n nhà n&#432;&#7899;c Vi&#7879;t Nam &#273;&#7875; kêu cho nhân quy&#7873;n và dân ch&#7911;. Ông là m&#7897;t trong nh&#7919;ng ch&#7911; nhi&#7879;m c&#7911;a b&#7843;n tin T&#7893; Qu&#7889;c phát hành bí m&#7853;t t&#7841;i Vi&#7879;t Nam và Internet. Ông D&#432;&#417;ng &#273;ă b&#7883; b&#7855;t và qu&#7843;n ch&#7871; t&#7841;i gia nhi&#7873;u l&#7847;n. &nbsp;<br>&nbsp;<br>•	Lê Chí Quang, 36 tu&#7893;i, là lu&#7853;t s&#432; và nhà ho&#7841;t &#273;&#7897;ng dân ch&#7911; &#273;ă b&#7883; b&#7855;t t&#7841;i d&#7883;ch v&#7909; Internet n&#259;m 2002 và b&#7883; tuyên án 4 n&#259;m tù v&#7873; t&#7897;i vi ph&#7841;m an ninh qu&#7889;c gia. Ông &#273;ă &#273;&#432;&#7907;c tr&#7843; t&#7921; do v́ áp l&#7921;c qu&#7889;c t&#7871; tr&#432;&#7899;c vi&#7879;c ông b&#7883; &#273;au th&#7853;n r&#7845;t n&#7863;ng. Sau khi &#273;&#432;&#7907;c tr&#7843; t&#7921; do vào tháng 6 n&#259;m 2004, ông Quang &#273;ă b&#7883; qu&#7843;n ch&#7871; t&#7841;i gia 3 n&#259;m. Ông &#273;ă nhi&#7873;u l&#7847;n b&#7883; sách nhi&#7877;u và tra th&#7849;m b&#7903;i công an t&#7841;i t&#432; gia và t&#7841;i &#273;&#7891;n. Ông Quang hi&#7879;n không &#273;&#432;&#7907;c phép r&#7901;i t&#432; gia t&#7841;i Hà N&#7897;i khi không &#273;&#432;&#7907;c phép c&#7911;a công an. Nhà ch&#7913;c trách &#273;ă gâp áp l&#7921;c r&#7845;t m&#7841;nh lên gia &#273;́nh c&#7911;a ông Quang &#273;&#7875; ép bu&#7897;c ông ph&#7843;i ch&#7845;m d&#7913;t m&#7885;i ho&#7841;t &#273;&#7897;ng &#273;&#7889;i kháng. Nh&#7919;ng bi&#7879;n pháp sách nhi&#7877;u tr&#7903; nên tàn b&#7841;o h&#417;n khi ông Quang gia nh&#7853;p ban biên t&#7853;p c&#7911;a b&#7843;n tin T&#7893; Qu&#7889;c cùng v&#7899;i Ph&#7841;m Qu&#7871; D&#432;&#417;ng, Nguy&#7877;n Thanh Giang và Tr&#7847;n Kh&#7843;i Thanh Thu&#7927;. &nbsp;<br>&nbsp;<br>
+
+</div>
+
+
+
+
+<br />
+</td>
+</tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="117" bgcolor="#99CCFF"><a href="/"><img src="/includes/blue/images/globe_logo.gif" alt="HRW Logo" width="77" height="75" border="0" HSPACE="15" VSPACE="5" /></a>
+</td>
+<td bgcolor="#99CCFF" align=top><font size="-2" face="Geneva, Arial" color="#333333">
+<a href="https://donate.hrw.org/member">Contribute to Human Rights Watch</a>
+
+<p><a href="/">Home</a> | <a href="/about/">About Us</a> | <a href="/doc/?t=news">News Releases</a> | <a href="/doc/?t=pubs">Publications</a> | <a href="/countries.html">Info by Country</a> | <a href="/advocacy/index.htm">Global Issues</a> | <a href="/campaigns/campaigns.html">Campaigns</a> | <a href="/community/">Community</a> | <a href="http://store.yahoo.com/hrwpubs/index.html">Bookstore</a> | <a href="/iff/index.html">Film Festival</a> | <a href="http://search.hrw.org/search?btnG=Google%2BSearch&output=xml_no_dtd&sort=date_3AD_3AL_3Ad1&client=hrw_frontend&num=10&proxystylesheet=hrw_frontend&oe=UTF-8&site=default_collection&ie=UTF-8&q=&GO.x=44&GO.y=2">Search</a> | <a href="/site-map.html">Site Map</a> | <a href="/contact.html">Contact Us</a> | <a href="/media.html">Press Contacts</a> | <a href="/about/privacy.htm">Privacy Policy</a></p>
+© Copyright 2006, Human Rights Watch     350 Fifth Avenue, 34th Floor    New York, NY 10118-3299     USA
+</font>
+</td><td><br /></td>
+</tr>
+</table>
+<script type="text/javascript" src="/s_code.js"></script>
+<script type="text/javascript">
+<!--
+s.pageName=""
+s.server=""
+s.channel="Legacy"
+s.pageType=""
+s.prop1=""
+s.prop2=""
+s.prop3=""
+s.prop4=""
+s.prop5=""
+s.prop6=""
+s.prop7=""
+s.prop9=""
+s.prop10=""
+s.prop11=""
+s.prop17=""
+s.state=""
+s.zip=""
+s.events=""
+s.products=""
+s.purchaseID=""
+s.eVar5=""
+s.eVar7=""
+s.eVar8=""
+s.eVar9=""
+s.eVar10=""
+s.eVar11=""
+s.eVar17=""
+s.hier1=""
+var s_code=s.t();if(s_code)document.write(s_code)
+//-->
+</script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf(MSIE)>=0)document.write(unescape(%3C)+!-+-)
+//-->
+</script>
+
+<!-- End omniture --><script>(function () { var v = 1566552361 * 3.1415926535898; v = Math.floor(v); document.cookie = "__zjc1416="+v+"; expires=Fri, 23 Aug 2019 09:27:49 UTC; path=/"; })()</script></body>
+</html>
+
+
+
+
+
