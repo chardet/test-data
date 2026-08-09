@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        	
+<title>4FunBR - Painel para Servidores de Jogos </title>
+	
+<meta http-equiv="content-type" content="application/xhtml; charset=IBM860" />
+<meta http-equiv="content-language" content="pt-br" />
+
+<meta name="keywords" content="painel, servidor, server, private, pirata, jogos, games, mmorpg, online, cabal, l2j, lineage, pw, perfect world, rf, rising force, eso, ether saga online" />
+
+<meta name="description" content="Painel para servidores de jogos (MMORPG) online. A solu&ccedil;&atilde;o perfeita para staffs administrarem seus servidores de jogos! Seguro e f&aacute;cil de usar!" />
+
+<meta name="author" content="FLEXPOINT" />
+<meta name="reply-to" content="contato@flexpoint.com.br" />
+	
+<meta name="robots" content="index,follow" />
+
+<meta name="verify-v1" content="" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/browser.js"></script>
+<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/js/masks.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle.all.2.72.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+	<script type="text/javascript">
+var xajaxRequestUri="http://4funbr.net/";
+var xajaxDebug=false;
+var xajaxStatusMessages=true;
+var xajaxWaitCursor=true;
+var xajaxDefinedGet=0;
+var xajaxDefinedPost=1;
+function xajax_ListaPost(){return xajax.call("ListaPost", arguments, 1);}
+function xajax_ListaFotos(){return xajax.call("ListaFotos", arguments, 1);}
+</script>
+	<script type="text/javascript" src="/gg/addons/xajax/xajax_js/xajax.js"></script>
+        
+
+        <link rel="stylesheet" type="text/css" href="/css/lightview.css"/>
+        <link href="http://fonts.googleapis.com/css?family=Alex+Brush:300" rel="stylesheet" type="text/css" />
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9244433541154451",
+            enable_page_level_ads: true
+          });
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30019529-29"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-30019529-29');
+        </script>
+
+        
+    </head>
+    <body id="home" >
+	
+
+        
+    <div id="all">
+	
+	<div id="wrapper">
+	
+	
+	
+		<div id="header">
+                    <h1 class="logo"><a href="/">4FunBR - Painel para Servidores de Jogos</a></h1>
+
+<script type="text/javascript">
+    function getInternetExplorerVersion()
+            // Returns the version of Windows Internet Explorer or a -1
+                    // (indicating the use of another browser).
+                    {
+                        var rv = -1; // Return value assumes failure.
+                        if (navigator.appName == 'Microsoft Internet Explorer')
+                        {
+                            var ua = navigator.userAgent;
+                            var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+                            if (re.exec(ua) != null)
+                                rv = parseFloat(RegExp.$1);
+                        }
+                        return rv;
+                    }
+            var versaoIe = getInternetExplorerVersion();
+            $().ready(function() {
+                if (versaoIe == -1 || versaoIe >= 9) {
+                    $('.logo').css({top: '0', opacity: '0'});
+
+                    //$('#header #menu ul li').css({top:'-30px',opacity:'0'});
+                }
+            });
+            function logo() {
+                if (versaoIe == -1 || versaoIe >= 9)
+                    $('.logo').animate({top: '40', opacity: 1}, 550, 'easeOutBack')
+            }
+            $().ready(function logo() {
+                setTimeout('logo()', 200)
+            });
+</script>
+
+	<iframe class="fblike" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F4FunBR&amp;send=false&amp;layout=button_count&amp;width=85&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=164692413593972" scrolling="no" frameborder="0"  allowTransparency="true"></iframe>
+	
+
+
+<div id="menu">
+        <ul>
+        <li class="first"><a href="/" class="selected">Home</a></li>
+        <li class="sized"><a href="/demo" class="">Demo</a><div>Conhe‡a o nosso sistema!</div></li>
+        <li class="sized"><a href="/afiliados" class="">Afiliados</a><div>Servidores que utilizam nosso sistema</div></li>
+        <!--<li class="sized"><a href="/adquira" class="">Adquira!</a><div>Painel para administra‡„o e para os players</div></li>-->
+        <li class="sized"><a href="adquira" >Adquira!</a><div>Painel para administra‡„o e para os players</div></li>
+        <li><a href="/institucional" class="">Sobre</a><div>Sobre a 4FunBR</div></li>
+        <li class="last"><a href="/atendimento" class="">Atendimento</a><div>Fale conosco</div></li>
+    </ul>
+
+</div>                </div>
+
+                <div id="container">
+                            <div id="headline">
+<p class="large">A solu&ccedil;&atilde;o perfeita para staffs administrarem seus servidores de jogos!</p>
+<p class="small">Seguro e f&aacute;cil de usar</p>
+<a href="javascript:;" onclick="javascript:showSlide('admin');" class="btn">Para a sua administra&ccedil;&atilde;o</a> <a href="javascript:;" onclick="javascript:showSlide('player');" class="btn">Para seus players</a></div>
+<div id="slideshow">
+    <script type="text/javascript">
+        function showSlide(type){
+            $('.sld').css('display','none');
+            if(type === 'player'){
+                $('#slidePlayer').fadeIn('slow');
+            }else{
+                $('#slideAdmin').fadeIn('slow');
+            }
+        }
+        
+        $(function() {
+            $('#slideAdmin').cycle({
+                fx: 'fade',
+                timeout: 5000
+            });
+            $('#slidePlayer').cycle({
+                fx: 'fade',
+                timeout: 5000
+            });
+
+        });
+    </script> 
+            <ul id="slideAdmin" class="sld">
+            <li>
+<img width="480" height="270" src="/img.content/banners/banner3.jpg" border="0">
+</li>
+<li>
+<img width="480" height="270" src="/img.content/banners/banner8.jpg" border="0">
+</li>
+<li>
+<img width="480" height="270" src="/img.content/banners/banner9.jpg" border="0">
+</li>
+ 
+        </ul>
+                <ul id="slidePlayer" class="sld" style="display:none">
+            <li>
+<img width="480" height="270" src="/img.content/banners/banner4.jpg" border="0">
+</li>
+<li>
+<img width="480" height="270" src="/img.content/banners/banner5.jpg" border="0">
+</li>
+<li>
+<img width="480" height="270" src="/img.content/banners/banner6.jpg" border="0">
+</li>
+<li>
+<img width="480" height="270" src="/img.content/banners/banner7.jpg" border="0">
+</li>
+ 
+        </ul>
+        </div>
+
+
+
+
+<div id="resources">
+
+    <h2><span>Recursos</span> <a href="/recursos">Conhe‡a todos os recursos</a></h2>
+	
+	<a href="adquira" class="assine btn large">S¢ R$ 59,90/mˆs. Adquira agora!</a>
+
+    <ul>
+<li class="">
+<a href="/recursos/view/id/6/pacotes-de-doacao.html" class="image"><img src="/img.content/recursos/recurso6.jpg" border="0"/></a>
+<div class="title">Pacotes de Doa‡„o</div>
+<p class="summary">Vocˆ pode facilmente criar uma promo‡„o de donate para seus usu rios</p>
+<a href="/recursos/view/id/6/pacotes-de-doacao.html" class="more">Saiba mais</a>
+</li>
+<li class="">
+<a href="/recursos/view/id/3/cashshop.html" class="image"><img src="/img.content/recursos/recurso3.jpg" border="0"/></a>
+<div class="title">CashShop</div>
+<p class="summary">Insira ou remova itens do CashShop de maneira muito simples e pr tica</p>
+<a href="/recursos/view/id/3/cashshop.html" class="more">Saiba mais</a>
+</li>
+<li class="last">
+<a href="/recursos/view/id/5/customize-o-painel-do-jogador.html" class="image"><img src="/img.content/recursos/recurso5.jpg" border="0"/></a>
+<div class="title">Customize o Painel do Jogador</div>
+<p class="summary">Deixe o painel do jogador com a cara do seu servidor</p>
+<a href="/recursos/view/id/5/customize-o-painel-do-jogador.html" class="more">Saiba mais</a>
+</li>
+<li class="botton">
+<a href="/recursos/view/id/2/pagseguro-e-paypal.html" class="image"><img src="/img.content/recursos/recurso2.jpg" border="0"/></a>
+<div class="title">PagSeguro e Paypal</div>
+<p class="summary">Formas de pagamentos com aprova‡„o autom tica nos pedidos de cash</p>
+<a href="/recursos/view/id/2/pagseguro-e-paypal.html" class="more">Saiba mais</a>
+</li>
+<li class="botton">
+<div class="title">Permiss”es</div>
+<p class="summary">Conceda ou remova permiss”es dos usu rios do painel admin de maneira muito simples e pr tica.</p>
+<a href="/recursos/view/id/4/permissoes.html" class="more">Saiba mais</a>
+</li>
+<li class="botton last">
+<a href="/recursos/view/id/1/contas-para-deposito.html" class="image"><img src="/img.content/recursos/recurso1.jpg" border="0"/></a>
+<div class="title">Contas para Dep¢sito</div>
+<p class="summary">Gerencie facilmente as op‡”es de contas para dep¢sitos de pagamentos para obten‡„o de cash</p>
+<a href="/recursos/view/id/1/contas-para-deposito.html" class="more">Saiba mais</a>
+</li>
+</ul>
+
+</div>
+
+<div id="boxes">
+
+
+<div id="fb">
+    <div class="inner">
+        <iframe class="fb" src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F4FunBR&width=1050&height=190&colorscheme=light&show_faces=true&border_color&stream=false&header=false&appId=164692413593972" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:1050px; height:190px;" allowTransparency="true"></iframe>
+    </div>
+</div>
+
+
+    <div id="blog" class="box">
+
+        <h2>Blog <a href="/blog">Ver mais publica‡”es +</a></h2>
+<ul class="apt">
+<li>
+<div class="date">04/07</div>
+<div class="title"><a href="/blog/view/id/7/atencao--manutencao-no-servidor-de-hospedagem.html">Aten‡„o - Manuten‡„o no servidor de hospedagem</a></div>
+<div class="summary">Ser  realizada uma manuten‡„o no servidor que poder  acarretar lentid„o.</div>
+</li>
+<li>
+<a href="/blog/view/id/6/update--troca-de-email.html" class="image"><img src="/img.content/noticias/tnoticia6.jpg" width="130"  title="" alt="" border="0"/></a>
+<div class="date">04/07</div>
+<div class="title"><a href="/blog/view/id/6/update--troca-de-email.html">Update - Troca de email</a></div>
+<div class="summary">Sistema de troca de emails implementado. Veja como funciona.</div>
+</li>
+<li>
+<a href="/blog/view/id/5/ative-o-paypal-como-forma-de-pagamento-em-seu-pain.html" class="image"><img src="/img.content/noticias/tnoticia5.jpg" width="130"  title="" alt="" border="0"/></a>
+<div class="date">02/10</div>
+<div class="title"><a href="/blog/view/id/5/ative-o-paypal-como-forma-de-pagamento-em-seu-pain.html">Ative o Paypal como forma de pagamento em seu painel</a></div>
+<div class="summary">Veja como pegar os dados solicitados pelo painel para a integra‡„o com o Paypal</div>
+</li>
+<li>
+<a href="/blog/view/id/4/mudando-de-dedicado-aprenda-a-exportar-os-logins-d.html" class="image"><img src="/img.content/noticias/tnoticia4.jpg" width="130"  title="" alt="" border="0"/></a>
+<div class="date">02/10</div>
+<div class="title"><a href="/blog/view/id/4/mudando-de-dedicado-aprenda-a-exportar-os-logins-d.html">Mudando de Dedicado? Aprenda a exportar os logins do SQLServer</a></div>
+<div class="summary">Conhe‡a uma fun‡„o que exporta os logins e as permiss”es </div>
+</li>
+<li>
+<a href="/blog/view/id/3/convertendo-dados-binarios-para-str-no-sql-server.html" class="image"><img src="/img.content/noticias/tnoticia3.jpg" width="130"  title="" alt="" border="0"/></a>
+<div class="date">02/10</div>
+<div class="title"><a href="/blog/view/id/3/convertendo-dados-binarios-para-str-no-sql-server.html">Convertendo dados Bin rios para STR no SQL Server</a></div>
+<div class="summary">Alguns administradores de RF j  passaram por este problema. Veja como resolver.</div>
+</li>
+<li>
+<a href="/blog/view/id/2/como-instalar-apf-firewall.html" class="image"><img src="/img.content/noticias/tnoticia2.jpg" width="130"  title="" alt="" border="0"/></a>
+<div class="date">27/08</div>
+<div class="title"><a href="/blog/view/id/2/como-instalar-apf-firewall.html">Como instalar apf firewall</a></div>
+<div class="summary">Uma ¢tima dica para proteger seu servidor Linux</div>
+</li>
+<li>
+<a href="/blog/view/id/1/bind-address-do-mysql-no-linux.html" class="image"><img src="/img.content/noticias/tnoticia1.jpg" width="130"  title="" alt="" border="0"/></a>
+<div class="date">26/08</div>
+<div class="title"><a href="/blog/view/id/1/bind-address-do-mysql-no-linux.html">Bind Address do Mysql no Linux</a></div>
+<div class="summary">Um dos problemas mais comuns de conectividade e mais f ceis de resolver</div>
+</li>
+<li class="last">
+								<a href="/noticias" class="more center">Ver mais publica‡”es +</a>
+							</li>
+<ul>
+    </div>
+
+    <div id="servers" class="box last">
+
+        <h2>Afiliados <a href="/afiliados">Ver todos +</a></h2>
+<ul class="apt">
+<li><a href="http://" target="_blank">PW Titan<br/><span class="url"></span></a> <span class="game pw"></span></li>
+<li><a href="http://pwcentral.com.br" target="_blank">PW Central<br/><span class="url">pwcentral.com.br</span></a> <span class="game pw"></span></li>
+<li><a href="http://" target="_blank">PW LDG<br/><span class="url"></span></a> <span class="game pw"></span></li>
+<li><a href="http://pwseven.com" target="_blank">PW Seven<br/><span class="url">pwseven.com</span></a> <span class="game pw"></span></li>
+<li><a href="http://rf.phoenyxgames.com.br" target="_blank">RF Phoenyx PVP<br/><span class="url">rf.phoenyxgames.com.br</span></a> <span class="game rf"></span></li>
+<li><a href="http://" target="_blank">PW Millennium<br/><span class="url"></span></a> <span class="game pw"></span></li>
+<li><a href="http://" target="_blank">PW Sky<br/><span class="url"></span></a> <span class="game pw"></span></li>
+<li><a href="http://" target="_blank">PW Global<br/><span class="url"></span></a> <span class="game pw"></span></li>
+<li><a href="http://" target="_blank">PW Cronos<br/><span class="url"></span></a> <span class="game pw"></span></li>
+<li><a href="http://www.cabalawakening.com" target="_blank">Cabal Awakening<br/><span class="url">www.cabalawakening.com</span></a> <span class="game cabal"></span></li>
+<li class="last"><a href="http://www.pwpandora.net" target="_blank">PW Pandora<br/><span class="url">www.pwpandora.net</span></a> <span class="game pw"></span></li>
+<ul>
+
+    </div>
+
+</div>
+
+                </div>
+
+                <div id="footer">
+                    <div class="copy">Copyright <strong>4FunBr</strong>. Todos os direitos reservados.</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
+

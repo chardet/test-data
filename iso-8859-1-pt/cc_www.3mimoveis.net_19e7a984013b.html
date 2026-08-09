@@ -1,0 +1,1010 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+
+	<title>Home - 3M Imóveis </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link rel="shortcut icon" type="image/x-icon" href="layout/favicon.ico">
+	<!-- Caso necessite poderá adicionar sua meta tag nesse espaço -->    <!-- Caso necessite poderá adicionar sua meta tag nesse espaço -->    <!-- Caso necessite poderá adicionar sua meta tag nesse espaço -->    <!-- Caso necessite poderá adicionar sua meta tag nesse espaço -->    <!-- Caso necessite poderá adicionar sua meta tag nesse espaço -->	<meta http-equiv="X-UA-Compatible" content="IE=100"/>
+	<meta http-equiv="pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/>
+	<meta name="resource-type" content="document"/>
+	<meta name="revisit-after" content="1"/>
+	<meta name="classification" content=""/>
+	<meta name="robots" content="index,follow"/>
+	<meta name="googlebots" content="index,follow"/>
+	<meta name="url" content="https://www.3mimoveis.net"/>
+	<meta name="language" content="pt-br"/>
+	<meta name="title" content="Home - 3M Imóveis "/>
+	<meta name="copyright" content="https://www.villeimob.com.br"/>
+	<meta name="distribution" content="Global"/>
+    <meta name="Keywords" content="Imobiliária em Taubaté, Imóveis em Taubaté, apartamento para alugar em Taubaté">
+    <meta name="Description" content="A 3M Imóveis tem as melhores oportunidades na hora da compra de seu imóvel em Taubaté e Região. Confira.">
+    <meta name="Author" content="villeImob ERP Imobiliário. Todos os direitos reservados, sistema registrado no INPI sob o nº RS 10433-2">
+	<meta name="keywords" content="" xml:lang="pt-BR" lang="pt-BR"/>
+
+	
+	
+	<script type="text/javascript" src="https://www.3mimoveis.net/imoveis/scripts/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="https://www.3mimoveis.net/imoveis/scripts/functions.js"></script>
+	<!-- estilos que definem bg e cores do template -->
+	<style type="text/css">
+		body{background:url(https://www.3mimoveis.net/imoveis/images/topo_site/topo-5.jpg) center top no-repeat; position:relative;}
+		.color{color:#40342D !important;}
+		.color_site{color:#FD352E !important;}
+		.background{background-color:#FD352E !important;}
+	</style>
+	<link type="text/css" rel="stylesheet" href="https://www.3mimoveis.net/imoveis/layout_thematic.css" media="all"/>
+	<!--galeria Highslide-->
+	<script type="text/javascript" src="https://www.3mimoveis.net/imoveis/scripts/highslide/highslide-with-gallery.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://www.3mimoveis.net/imoveis/scripts/highslide/highslide.css" />
+	<script type="text/javascript">
+		hs.graphicsDir = 'https://www.3mimoveis.net/imoveis/scripts/highslide/graphics/';
+		hs.align = 'center';
+		hs.transitions = ['expand', 'crossfade'];
+		hs.wrapperClassName = 'dark borderless floating-caption';
+		hs.fadeInOut = true;
+		hs.dimmingOpacity = .75;
+		if (hs.addSlideshow) hs.addSlideshow({
+			interval: 5000,
+			repeat: false,
+			useControls: true,
+			fixedControls: 'fit',
+			overlayOptions: {
+				opacity: .6,
+				position: 'bottom center',
+				hideOnMouseOut: true
+			}
+		});
+	</script>
+	
+	
+	<!-- Scrollable imoveis em destaque -->
+    <script src="https://www.3mimoveis.net/imoveis/js/jquery.tools.min.js"></script>
+
+<!-- codigo do combo valor -->
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  $("select[name=negocio]").change(function(){
+    var negocio = $("select[name=negocio]").val(); 
+  
+    $("select[name=faixapreco]").html('<option value="">Carregando...</option>');
+    $.post('https://www.3mimoveis.net/imoveis/faixapreco.php',
+	      {negocio:negocio},
+		  function(retorno){
+		  $("select[name=faixapreco]").html(retorno);
+		  });
+  });
+
+
+   $("select[name=cidade]").change(function(){
+    var cidade = $("select[name=cidade]").val(); 
+  
+    $("select[name=bairro]").html('<option value="">Carregando...</option>');
+    $.get('https://www.3mimoveis.net/imoveis/consulta2.php',
+	      {cidade:cidade},
+		  function(retorno){
+		  $("select[name=bairro]").html(retorno);
+		  });
+  });
+
+
+  $("select[name=tipo]").change(function(){
+    var tipo = $("select[name=tipo]").val(); 
+  
+    if(tipo == 'Apartamento 1 dorm' || 
+	   tipo == 'Apartamento 2 dorms' ||
+	   tipo == 'Apartamento 3 dorms' ||
+	   tipo == 'Apartamento 4 dorms' ||
+	   tipo == 'Apartamento 5 dorms' ||
+	   tipo == 'Apto 1 e 2 dorms' ||
+	   tipo == 'Apto 2 e 3 dorms' ||
+	   tipo == 'Apto 3 e 4 dorms'
+	  ){
+	    $('input[name=dormitorios]').attr('value', '');
+        $('input[name=dormitorios]').attr('disabled', 'disabled');
+	  }else{
+	    $('input[name=dormitorios]').attr('disabled', ''); 
+	    $('input[name=dormitorios]').removeAttr('disabled'); 	  
+	  }
+	});
+	
+	 
+});
+
+$(document).ready(function(){
+ 
+ $("#submitnews").click(function(){
+   var email = $("#email").val();
+   var nome = $("#nome").val();
+   
+    if ((nome == '') || (nome == 'Nome') || (email == '')  || (email == 'Email') || (email.indexOf("@")==-1)  || (email.indexOf(".")==-1) || (email.indexOf(",")==1) || (email.indexOf(";")==1) || (email.length < 6)){
+  alert("Por favor, preencha corretamente todos os campos.");
+	return false;
+ 
+ }else{
+   window.open('https://www.3mimoveis.net/imoveis/news.php?add&nome='+nome+'&email='+email,'CNL','toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,height=380,width=350,top=0,left=0');
+
+   $("#email").attr("value","Email");
+   $("#nome").attr("value","Nome");
+ }
+  return false;
+ });
+
+});
+</script>
+
+<style type="text/css">
+<!--
+
+#janela {
+
+    	position:absolute;
+	top:130px;
+	left: 50%;
+	width:400px;
+	height:auto;
+	z-index:9999;
+	margin-left:-210px;
+	background:none;
+	
+}
+.janela2{
+padding:5px 0 0 0;
+width:100%;
+height:100%;
+float:left;
+background:none;
+}
+.janela2 p{ margin:0px; padding:0px; }
+
+#btn-busca{background:url(https://www.3mimoveis.net/imoveis/layout_thematic/btn-busca.jpg) left top no-repeat !important; cursor:pointer; width:112px; height:29px; text-indent:-9999px; margin-top:3ex !important;}
+
+#btn-busca2{background:url(https://www.3mimoveis.net/imoveis/layout_thematic/btn-busca.jpg) left top no-repeat !important; cursor:pointer; width:112px; height:29px; text-indent:-9999px; margin-top:3ex !important;}
+
+#newsletter #submitnews{background:url(https://www.3mimoveis.net/imoveis/layout_thematic/cadastrar.jpg) left top no-repeat; width:90px; height:34px; border:none; margin:0 0 0 6px; cursor:pointer;}
+-->
+</style>
+
+</head>
+<body>
+
+	<div id="header" class="center">
+		<div class="logo" align="center"><a href="https://www.3mimoveis.net/imoveis/" title="Home - 3M Imóveis "><img src="https://www.3mimoveis.net/imoveis/layout/images/49819184.jpg" alt="3M Imóveis " height="169" border="0" title="3M Imóveis "></a>
+
+		<br />
+		<br />
+		</div>
+		<div id="languages" class="text-indent" style="margin-right:-42px">
+		    			<a href="https://www.3mimoveis.net/imoveis/l.it" title="ITA" class="ita">ITA</a>
+									<a href="https://www.3mimoveis.net/imoveis/l.pt-br" title="PT-BR" class="br">PT-BR</a>
+									<a href="https://www.3mimoveis.net/imoveis/l.es" title="ESP" class="esp">ESP</a>
+									<a href="https://www.3mimoveis.net/imoveis/l.en" title="ENG" class="eng">ENG</a>
+					</div>
+		<script>
+function suporte() {
+window.open('https://www.3mimoveis.net/imoveis/adm/corretor-online/suporte.php', '', 'top=100,left=400,width=550,height=480,resizable=0,scrollbars=1');
+}
+</script>
+<style type="text/css">
+		#corretor-on{background:url(https://www.3mimoveis.net/imoveis/layout_thematic/corretor-on.png) left top no-repeat; width:244px; height:85px; clear:right; float:right; margin-right:0px;}
+		#corretor-off{background:url(https://www.3mimoveis.net/imoveis/layout_thematic/corretor-off.png) left top no-repeat; width:244px; height:85px; clear:right; float:right; margin-right:0px;}
+</style>
+<a href="#" title="Corretor offline - Deixe uma mensagem" id="corretor-off" class="text-indent" onclick="suporte();">Corretor offline - Deixe uma mensagem</a>    
+		<div id="nav" class="clear" style="width:100%; background:#FD352E">
+			<ul>
+				<li><a href="https://www.3mimoveis.net/imoveis/" title="Principal" class="background">Principal</a></li>
+				<li><a href="https://www.3mimoveis.net/imoveis/quemsomos" title="Quem Somos" class="background">Quem Somos</a></li>								<li class="sub1">
+					<a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=venda" title="Im&oacute;veis para Venda" class="background">Im&oacute;veis para Venda</a>
+					<div class="nav-sub">
+						<ul class="venda">
+     <li><a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=venda&categoria=9">Pronto para Morar</a></li>  <li><a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=venda&categoria=10">Oportunidade</a></li>  <li><a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=venda&categoria=18">Comercial</a></li>						</ul>
+					</div>	
+				</li>
+												<li class="sub2">
+					<a href="#" title="Im&oacute;veis para Loca&ccedil;&atilde;o" class="background">Im&oacute;veis para Loca&ccedil;&atilde;o</a>
+					<div class="nav-sub">
+						<ul class="locacao">
+  <li><a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=Loca%E7%E3o%20Anual">Anual</a></li>
+						</ul>
+					</div>
+				</li>
+								<li><a href="https://www.3mimoveis.net/imoveis/cadastro" title="Cadastre seu Im&oacute;vel" class="background">Cadastre seu Im&oacute;vel</a></li>
+				<li><a href="https://www.3mimoveis.net/imoveis/servicos" title="Nossos Servi&ccedil;os" class="background">Nossos Servi&ccedil;os</a></li>                <li><a href="https://www.3mimoveis.net/imoveis/parceiros/1" title="Parceiros" class="background">Parceiros</a></li>                <li><a href="https://www.3mimoveis.net/imoveis/contato" title="Contatos" class="background">Contato</a></li>
+			</ul>
+		</div>
+		<div class="clear">
+			<a href="javascript:void(0);" title="Encontre seu imóvel" class="search-imovel color">Encontre seu imóvel</a>
+			<a href="javascript:void(0);" title="Buscar pelo código" class="search-codigo">Buscar pelo código</a>
+			<form action="https://www.3mimoveis.net/imoveis/busca-imovel" name="search" id="search" method="post">
+				<label style="width:140px;">
+					Neg&oacute;cio:<br/>
+					<select style="width:134px;" name="negocio" id="negocio" class="color">
+          <option selected value="">Todos</option>
+                    <option value="Locação Anual">Locação Anual</option>
+                    <option value="Permuta">Permuta</option>
+                    <option value="Venda">Venda</option>
+                  </select>
+				</label>
+				<label style="width:120px;">
+					Tipo do Imóvel:<br/>
+					<select style="width:114px;" name="tipo" id="tipo" class="color">
+           <option value="">Todos</option>
+                      <option value="Apartamento">Apartamento</option>
+                      <option value="Apartamento 2 dorms">Apartamento 2 dorms</option>
+                      <option value="Apartamento 3 dorms">Apartamento 3 dorms</option>
+                      <option value="Apartamento Duplex">Apartamento Duplex</option>
+                      <option value="Área Comercial">Área Comercial</option>
+                      <option value="Casa">Casa</option>
+                      <option value="Casa Comercial">Casa Comercial</option>
+                      <option value="Chácara">Chácara</option>
+                      <option value="Cobertura">Cobertura</option>
+                      <option value="Cobertura Duplex">Cobertura Duplex</option>
+                      <option value="Fazenda">Fazenda</option>
+                      <option value="Galpão">Galpão</option>
+                      <option value="Kitinete">Kitinete</option>
+                      <option value="Lote em Condomínio">Lote em Condomínio</option>
+                      <option value="Ponto Comercial">Ponto Comercial</option>
+                      <option value="Prédio Comercial">Prédio Comercial</option>
+                      <option value="Sala">Sala</option>
+                      <option value="Sala Comercial">Sala Comercial</option>
+                      <option value="Sítio">Sítio</option>
+                      <option value="Sobrado">Sobrado</option>
+                      <option value="Terreno">Terreno</option>
+           					</select>
+				</label>
+				<label style="width:40px;">
+					Dorm:<br/>
+					<input style="width:26px;" type="text" name="dormitorios" id="dormitorios" class="color"/>
+				</label>
+				<label style="width:150px;">
+					Cidade:<br/>
+					<select style="width:142px;" name="cidade" id="cidade" class="color">
+          <option selected value="">Todas</option>
+                    <option value="Cacapava - SP">Caçapava - SP</option>
+                    <option value="Campos do Jordao - SP">Campos do Jordão - SP</option>
+                    <option value="Caraguatatuba - SP">Caraguatatuba - SP</option>
+                    <option value="Cruzeiro - SP">Cruzeiro - SP</option>
+                    <option value="Em Aprovacao - SP">Em Aprovação - SP</option>
+                    <option value="Passos - MG">Passos - MG</option>
+                    <option value="Pindamonhangaba - SP">Pindamonhangaba - SP</option>
+                    <option value="Praia Grande - SP">Praia Grande - SP</option>
+                    <option value="Redencao da Serra - SP">Redenção da Serra - SP</option>
+                    <option value="Santo Antonio do Pinhal - SP">Santo Antonio do Pinhal - SP</option>
+                    <option value="Sao Bento do Sapucai - SP">São Bento do Sapucai - SP</option>
+                    <option value="Sao Jose dos Campos - SP">São José dos Campos - SP</option>
+                    <option value="Sao Luiz do Paraitinga - SP">São Luiz do Paraitinga - SP</option>
+                    <option value="Sao Paulo - SP">São Paulo - SP</option>
+                    <option value="Sao Roque de Minas - MG">São Roque de Minas - MG</option>
+                    <option value="Taubate - SP">Taubaté - SP</option>
+                    <option value="Tremembe - SP">Tremembé - SP</option>
+                    <option value="Ubatuba - SP">Ubatuba - SP</option>
+          					</select>
+				</label>
+				<label style="width:150px;">
+					Bairro:<br/>
+					<select style="width:142px;" name="bairro" id="bairro" class="color">
+                     <option selected value="">Todos</option>
+					</select>
+				</label>
+				<label style="width:134px;">
+					Valor:<br/>
+					<select style="width:126px;" name="faixapreco" id="mostratemporada" class="color">
+						<option selected value="">Todos</option>
+					</select>
+				</label>
+				<label style="width:130px;">
+					<input type="submit" id="btn-busca"/>
+				</label>
+			</form>
+			<form action="https://www.3mimoveis.net/imoveis/busca-imovel" name="search2" id="search2" method="post">
+				<label style="width:140px;">
+					Buscar pelo código:<br/>
+					<input type="text" style="width:126px;" name="cod" id="cod" class="color"/>
+				</label>
+				<label style="width:130px;">
+					<input type="submit" id="btn-busca2"/>
+				</label>
+			</form>
+		</div>
+	</div>
+	<div id="container" class="center"><!-- SLIDE -------------------------------------------->
+<link rel="stylesheet" href="https://www.3mimoveis.net/imoveis//assets/plugins/swiper/dist/css/swiper.min.css">
+<style type="text/css">
+	.swiper-container {
+		width: 946px;
+		height: 318px;
+	}
+	.swiper-slide {
+		width: 946px;
+		height: 318px;
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+		.swiper-slide .legenda {
+		width: 930px;
+		height: 318px;
+		text-align: left;
+		display: table;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	.swiper-slide .legenda .titulo {
+		padding: 5px;
+		font-family: Arial;
+		font-size: 18px;
+		color: #ffffff;
+		opacity: 0.6;
+		background: #FD352E !important;
+		border-radius: 5px;
+		display: table;
+	}
+
+	.swiper-slide .legenda .valor {
+		margin-top: 5px;
+		padding: 5px;
+		font-family: Arial;
+		font-size: 25px;
+		font-weight: bold;
+		color: #ffffff;
+		opacity: 0.6;
+		background: #666666 !important;
+		display: table;
+		border-radius: 5px;
+	}
+	.swiper-pagination-bullet-active {
+		opacity: 1;
+		background: #FD352E !important;
+	}
+</style>
+<!-- FIM SLIDE -------------------------------------------->
+
+<div id="flash">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+								<div class="swiper-slide"><a href="https://www.3mimoveis.net/imoveis/consulta-imovel/407/venda/apartamento/taubate-sp">
+							<div class="legenda">
+								<div class="titulo">Apartamento para Venda em Taubaté - SP</div>
+								<div class="valor">A combinar</div>
+							</div>
+							<img src="https://www.3mimoveis.net/imoveis//fotos/891c4e13f472.jpg" class="imagem_painel_destaque" style="width: 946px;">
+						</a>
+					</div>
+									<div class="swiper-slide"><a href="https://www.3mimoveis.net/imoveis/consulta-imovel/365/venda/predio-comercial/taubate-sp">
+							<div class="legenda">
+								<div class="titulo">Prédio Comercial para Venda em Taubaté - SP</div>
+								<div class="valor">R$ 1.200.000,00</div>
+							</div>
+							<img src="https://www.3mimoveis.net/imoveis//fotos/PTO-0102-5bb293c97163.JPG" class="imagem_painel_destaque" style="width: 946px;">
+						</a>
+					</div>
+									<div class="swiper-slide"><a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1652/venda/terreno/taubate-sp">
+							<div class="legenda">
+								<div class="titulo">Terreno para Venda em Taubaté - SP</div>
+								<div class="valor">A combinar</div>
+							</div>
+							<img src="https://www.3mimoveis.net/imoveis//fotos/TER-0249-149c6ffcafe0.jpg" class="imagem_painel_destaque" style="width: 946px;">
+						</a>
+					</div>
+									<div class="swiper-slide"><a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2428/venda/casa/tremembe-sp">
+							<div class="legenda">
+								<div class="titulo">Casa para Venda em Tremembé - SP</div>
+								<div class="valor">R$ 1.300.000,00</div>
+							</div>
+							<img src="https://www.3mimoveis.net/imoveis//fotos/CAM-1015-e4129a204a2e.jpg" class="imagem_painel_destaque" style="width: 946px;">
+						</a>
+					</div>
+									<div class="swiper-slide"><a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2176/venda/apartamento/taubate-sp">
+							<div class="legenda">
+								<div class="titulo">Apartamento para Venda em Taubaté - SP</div>
+								<div class="valor">R$ 630.000,00</div>
+							</div>
+							<img src="https://www.3mimoveis.net/imoveis//fotos/APM-0747-e26fa202cdf1.jpg" class="imagem_painel_destaque" style="width: 946px;">
+						</a>
+					</div>
+									<div class="swiper-slide"><a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2427/venda/casa/taubate-sp">
+							<div class="legenda">
+								<div class="titulo">Casa para Venda em Taubaté - SP</div>
+								<div class="valor">R$ 1.650.000,00</div>
+							</div>
+							<img src="https://www.3mimoveis.net/imoveis//fotos/CAM-1014-8e949d01dd57.jpg" class="imagem_painel_destaque" style="width: 946px;">
+						</a>
+					</div>
+									<div class="swiper-slide"><a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2430/venda/casa/taubate-sp">
+							<div class="legenda">
+								<div class="titulo">Casa para Venda em Taubaté - SP</div>
+								<div class="valor">R$ 1.200.000,00</div>
+							</div>
+							<img src="https://www.3mimoveis.net/imoveis//fotos/CAM-1016-be4f4ecaa453.jpg" class="imagem_painel_destaque" style="width: 946px;">
+						</a>
+					</div>
+									</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<!--<div class="swiper-button-next"></div>-->
+		<!--<div class="swiper-button-prev"></div>-->
+	</div>
+</div>
+<div id="super-destaque">
+		<span class="casa">&nbsp;</span>
+		<h4 class="titulosimoveis color_site">Super Destaque</h4>
+		<span class="legendh4">Conheça os Imóveis</span>
+		<!-- Navegação superior dos elementos -->
+		<div id="controls">
+			<a class="prev left"></a><span class="navi"></span><a class="next right"></a>	
+		</div>
+		<!-- div principal dos scrolls -->
+		<div class="scrollable" id="slideshow">
+			<div class="items">
+					
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2121/venda/apartamento/taubate-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_APM-0722-f404f0115043.jpg" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">LANçAMENTO</span>
+					<h3 class="color_site">Apartamento</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Independência</div>
+					<div><strong>Cidade:</strong> Taubaté - SP</div>
+					<h5 class="valor color_site">R$ consulte</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2121/venda/apartamento/taubate-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/906/venda/casa/taubate-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_7ef732e5677f.JPG" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">PRONTO PARA MORAR</span>
+					<h3 class="color_site">Casa</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Chacaras Catagua</div>
+					<div><strong>Cidade:</strong> Taubaté - SP</div>
+					<h5 class="valor color_site">R$ 1.800.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/906/venda/casa/taubate-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1808/venda/apartamento/taubate-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_APM-0630-02b3d1f9f981.jpg" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">PRONTO PARA MORAR</span>
+					<h3 class="color_site">Apartamento</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Monção</div>
+					<div><strong>Cidade:</strong> Taubaté - SP</div>
+					<h5 class="valor color_site">R$ 200.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1808/venda/apartamento/taubate-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/711/venda/casa/tremembe-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_5d4036068738.JPG" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">PRONTO PARA MORAR</span>
+					<h3 class="color_site">Casa</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Campos do Conde Versalles</div>
+					<div><strong>Cidade:</strong> Tremembé - SP</div>
+					<h5 class="valor color_site">R$ 680.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/711/venda/casa/tremembe-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1055/venda/casa/taubate-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_CAM-0651-8e8380bad73c.jpg" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">PRONTO PARA MORAR</span>
+					<h3 class="color_site">Casa</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Hipica Pinheiro</div>
+					<div><strong>Cidade:</strong> Taubaté - SP</div>
+					<h5 class="valor color_site">R$ 620.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1055/venda/casa/taubate-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1604/venda/casa/tremembe-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_CAM-0807-93a776e85c60.JPG" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">PRONTO PARA MORAR</span>
+					<h3 class="color_site">Casa</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Centro</div>
+					<div><strong>Cidade:</strong> Tremembé - SP</div>
+					<h5 class="valor color_site">R$ 1.380.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1604/venda/casa/tremembe-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/810/locacao-anual/galpao/taubate-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_6cde660dccdb.jpg" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">COMERCIAL</span>
+					<h3 class="color_site">Galpão</h3>
+					<div class="negocio">Locação Anual</div>
+					<div><strong>Bairro:</strong> Jardim Paulista</div>
+					<div><strong>Cidade:</strong> Taubaté - SP</div>
+					<h5 class="valor color_site">R$ 19.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/810/locacao-anual/galpao/taubate-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2238/venda/terreno/taubate-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_TER-0293-6f54f822d705.jpg" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">OPORTUNIDADE</span>
+					<h3 class="color_site">Terreno</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Catagua Way</div>
+					<div><strong>Cidade:</strong> Taubaté - SP</div>
+					<h5 class="valor color_site">R$ 130.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2238/venda/terreno/taubate-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+									
+				<div class="box-vertical color">
+															<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1933/venda/ponto-comercial/taubate-sp"><img class="img" src="https://www.3mimoveis.net/imoveis/fotos/tn_PTO-0152-884401470c47.JPG" alt="Imóvel" title="ver detalhes"/></a>
+					<span class="lanc background" style="font-size:12px">COMERCIAL</span>
+					<h3 class="color_site">Ponto Comercial</h3>
+					<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Jardim Ana Emilia</div>
+					<div><strong>Cidade:</strong> Taubaté - SP</div>
+					<h5 class="valor color_site">R$ 1.280.000,00</h5>
+					<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/1933/venda/ponto-comercial/taubate-sp" title="VER MAIS DETALHES" class="btn color">VER MAIS DETALHES</a>
+				</div>
+	
+								<br class="clear"/>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	
+	
+	<div id="sidebar">
+	   		<a href="https://www.3mimoveis.net/imoveis/mapa-imoveis" title="Localizar Imóveis no Mapa" class="mapa-avancado color_site">
+		Localizar Imóveis 
+		<br />
+		<span>no mapa</span>
+		</a>
+	  		<div class="cadastre-imovel">
+			<a href="cadastro" class="color_site" style="text-decoration:none">
+				
+				Cadastre aqui				<br />
+				<span>seu imóvel</span>
+				<br class="clear"/>
+			</a>
+		</div>
+		<div id="newsletter">
+			<span class="news">&nbsp;</span> 
+			<h4 class="color_site">Newsletter</h4>
+			<span>Receba lançamentos e oportunidades.</span>
+			<form id="FormNews" name="FormNews" method="post">
+				<input type="text" name="nome" id="nome" value="Nome" class="color" style="width:252px;"/>
+				<br/>
+				<br/>
+				<input type="text" name="email" id="email" value="Email" class="color" style="width:152px;"/>
+				<input name="submit" type="button" class="text-indent" id="submitnews" value="Bot&oacute;n"/>
+			</form>
+		</div>
+
+		<div id="mobile">
+			<span class="disponivel">&nbsp;</span>
+			<h4 class="color_site">Disponível na versão mobile</h4>
+			<a href="#" onclick="return false" title="Disponível na versão mobile">m.3mimoveis.net</a>
+		</div>
+		<div id="fale">
+			<span class="disponivel">&nbsp;</span>
+			<h4 class="color_site">Fale com a gente</h4>
+			<span>12-3631-6841 / 12-974101049</span><br/>
+		</div>
+	</div>
+	<div class="clear" id="destaques">
+		<span class="casa2">&nbsp;</span>
+		<h4 class="titulosimoveis color_site">Destaque</h4>
+		<span class="legendh4">Conheça os Imóveis</span>
+		<br class="clear"/><br style="line-height:12px;"/>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/407/venda-apartamento-taubate-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_891c4e13f472.jpg"></a>
+			<div class="box-info">
+				<h3 class="color_site">Apartamento</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Vila Nossa Srª Das Gra...</div>
+					<div><strong>Cidade:</strong> Taubaté  -  SP</div>
+					<h5 class="valor color_site">consulte</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/407/venda-apartamento-taubate-sp" title="Lançamento" class="btn2 background" style="background-color:#FD352E">LANçAMENTO</a>
+			</div>
+		</div>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/464/venda-chacara-taubate-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_c96a2d9bc862.JPG"></a>
+			<div class="box-info">
+				<h3 class="color_site">Chácara</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Pinheirinho</div>
+					<div><strong>Cidade:</strong> Taubaté  -  SP</div>
+					<h5 class="valor color_site">R$ 300.000,00</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/464/venda-chacara-taubate-sp" title="Pronto para Morar" class="btn2 background" style="background-color:#FD352E">PRONTO PARA MORAR...</a>
+			</div>
+		</div>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2327/venda-casa-taubate-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_CAM-0976-d30bd94e9601.JPG"></a>
+			<div class="box-info">
+				<h3 class="color_site">Casa</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Quiririm</div>
+					<div><strong>Cidade:</strong> Taubaté  -  SP</div>
+					<h5 class="valor color_site">R$ 1.100.000,00</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2327/venda-casa-taubate-sp" title="Pronto para Morar" class="btn2 background" style="background-color:#FD352E">PRONTO PARA MORAR...</a>
+			</div>
+		</div>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2343/venda-casa-taubate-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_CAM-0983-9a400a17e1d9.jpg"></a>
+			<div class="box-info">
+				<h3 class="color_site">Casa</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Vila São José</div>
+					<div><strong>Cidade:</strong> Taubaté  -  SP</div>
+					<h5 class="valor color_site">R$ 1.200.000,00</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2343/venda-casa-taubate-sp" title="Pronto para Morar" class="btn2 background" style="background-color:#FD352E">PRONTO PARA MORAR...</a>
+			</div>
+		</div>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/387/venda-terreno-taubate-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_e43594610543.JPG"></a>
+			<div class="box-info">
+				<h3 class="color_site">Terreno</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Altos do Catagua</div>
+					<div><strong>Cidade:</strong> Taubaté  -  SP</div>
+					<h5 class="valor color_site">R$ 160.000,00</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/387/venda-terreno-taubate-sp" title="Oportunidade" class="btn2 background" style="background-color:#FD352E">OPORTUNIDADE</a>
+			</div>
+		</div>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2131/venda-apartamento-taubate-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_APM-0729-a1e3913638d6.jpg"></a>
+			<div class="box-info">
+				<h3 class="color_site">Apartamento</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Centro</div>
+					<div><strong>Cidade:</strong> Taubaté  -  SP</div>
+					<h5 class="valor color_site">R$ 320.000,00</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2131/venda-apartamento-taubate-sp" title="Pronto para Morar" class="btn2 background" style="background-color:#FD352E">PRONTO PARA MORAR...</a>
+			</div>
+		</div>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2231/venda-casa-tremembe-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_CAM-0948-c0e2b62ea977.jpeg"></a>
+			<div class="box-info">
+				<h3 class="color_site">Casa</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Conde 3</div>
+					<div><strong>Cidade:</strong> Tremembé  -  SP</div>
+					<h5 class="valor color_site">R$ 600.000,00</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2231/venda-casa-tremembe-sp" title="Pronto para Morar" class="btn2 background" style="background-color:#FD352E">PRONTO PARA MORAR...</a>
+			</div>
+		</div>
+		<div class="box-horizontal color">
+													<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2424/venda-apartamento-taubate-sp" title="ver detalhes"><img class="img2" src="https://www.3mimoveis.net/imoveis/fotos/tn_APM-0799-49f5b57487cc.jpg"></a>
+			<div class="box-info">
+				<h3 class="color_site">Apartamento</h3>
+				<div class="negocio">Venda</div>
+					<div><strong>Bairro:</strong> Vila São José</div>
+					<div><strong>Cidade:</strong> Taubaté  -  SP</div>
+					<h5 class="valor color_site">R$ 250.000,00</h5>
+				<a href="https://www.3mimoveis.net/imoveis/consulta-imovel/2424/venda-apartamento-taubate-sp" title="Pronto para Morar" class="btn2 background" style="background-color:#FD352E">PRONTO PARA MORAR...</a>
+			</div>
+		</div>
+		<br class="clear"/>
+	</div>
+	<div class="clear" id="footer-boxes">
+			<div id="noticias-imobiliarias">
+			<span class="bg-noticias-imobiliarias">&nbsp;</span>
+			<h4 class="color_site">Notícias imobiliárias</h4>
+   			<p style="background-color:#FD352E;"><a href="https://www.3mimoveis.net/imoveis/ver-artigo/4/1/possiveis-mudanas-de-regras-para-calcular-ir-sobre-venda-de-imveis" title="POSSIVEIS MUDANÇAS DE REGRAS PARA CALCULAR IR SOBRE VENDA DE IMÓVEIS." style="color:#FFFFFF">POSSIVEIS MUDANÇAS DE REGRAS PARA CALCULAR IR SOBRE VENDA DE IMÓVEIS.</a></p>
+   			<p style="background-color:#FD352E;"><a href="https://www.3mimoveis.net/imoveis/ver-artigo/3/2/aptidoes-necessarias-para-atuacao-no-ramo-do-direito-imobiliario" title="Aptidões necessárias para atuação no ramo do direito imobiliário." style="color:#FFFFFF">Aptidões necessárias para atuação no ramo do direito imobiliário.</a></p>
+               
+			<a href="https://www.3mimoveis.net/imoveis/artigos/1" class="btn-vertodas color" title="Ver Todas">Ver Todas</a>
+			
+		</div>
+     		<div id="conheca-regiao">
+			<span class="bg-conheca-regiao">&nbsp;</span>
+			<h4 class="color_site">Conheça a Região</h4>
+    			<p style="background-color:#FD352E;"><a href="https://www.3mimoveis.net/imoveis/ver-artigo/6/1/centros-comerciais" title="Centros Comerciais" style="color:#FFFFFF">Centros Comerciais</a></p>
+				<p style="background-color:#FD352E;"><a href="https://www.3mimoveis.net/imoveis/ver-artigo/5/1/historia-de-quiririm" title="história de Quiririm" style="color:#FFFFFF">história de Quiririm</a></p>
+				<a href="https://www.3mimoveis.net/imoveis/artigos/2" class="btn-vertodas color" title="Ver Todas">Ver Todas</a>
+		</div>
+	  <div id="simulador">
+			<span class="bg-simulador">&nbsp;</span>
+			<h4 class="color_site">Simulador</h4>
+		  <span class="icones-bancos">
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="http://www.panamericano.com.br/site/content/linhas_de_credito/ImovelPan.aspx" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/10411957.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="http://www.santander.com.br/portal/gsb/script/templates/GCMRequest.do?page=496" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/58192740.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="https://wwws3.hsbc.com.br/HPB-CHM-SIMULADOR/servlets/HPBCreditoImobiliarioServlet" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/85679136.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="http://www.itau.com.br/" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/92574565.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="http://www8.caixa.gov.br/siopiinternet/simulaOperacaoInternet.do?method=inicializarCasoUso" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/11143692.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="http://www.shopcredit.com.br/" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/16102488.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="https://www.latam.citibank.com/esales/global/index.jsp?pais=brasil&prod=creim&PUB=" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/12568870.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="http://www.bb.com.br" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/54848230.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		     <div style="float:left; width:85px; min-height:70px; padding:0 0 0 0; margin-bottom:0px;" align="center">
+			  <a href="https://ww3.itau.com.br/imob1/simuladores/index.aspx" target="_blank" style="text-align:center; width:80px !important;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-bancos/40149051.gif"  style="border:0px; margin:0 0 5px 0" /></a>
+			  </div>
+			
+		
+		  		  </span>
+		  </div>
+		 		</div>
+	</div>
+
+<script type="text/javascript" src="js/fixar_div_rodape.js"></script>
+
+<script type="text/javascript">
+
+  
+
+  $(document).ready(function(){
+
+      
+
+	  var verifica = $("#verifica").val();
+
+	  
+
+    setInterval(function(){
+
+	
+
+	  $.post('https://www.3mimoveis.net/imoveis/adm/corretor-online/navegacao.php',
+
+        {acao:'convite', ip:'35.175.200.4'},
+
+		function(retorno){
+
+	         var arr = retorno.split("|");
+
+		     if(arr[1] == 'sim'){
+
+		       $('#convite_chat').jsliderelatedposts({
+
+		       speed: 1000,  
+
+		       scrolltrigger: 0.75,
+
+		       smartwidth: true
+
+	           });
+
+			}
+
+		});
+
+	}, 2000);
+
+	
+
+  });
+
+
+
+
+
+</script>
+
+<style type="text/css">
+
+<!--
+
+#convite_chat {
+
+    display:none;
+
+	background-color:#A7BFF2;
+
+	bottom:0; right:0; /* left:0; */
+
+	z-index: 10000;
+
+	/*width:auto; set width of bar to width of entire window*/
+
+	width:250px;
+
+	height:100px
+
+    
+
+}
+
+
+
+/*IE FIX*/
+
+.fixie {
+
+  left: expression( ( - convite_chat.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+
+  top: expression( ( - convite_chat.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+
+}
+
+-->
+
+</style>
+
+<div id="convite_chat"><img src="adm/corretor-online/admin/images/convite-chat.gif" width="250" height="100" border="0" usemap="#Map" />
+
+<map name="Map" id="Map">
+
+<area shape="rect" coords="3,25,246,97" href="#" onclick="window.open('https://www.3mimoveis.net/imoveis/adm/corretor-online/suporte.php', '', 'top=100,left=400,width=550,height=480,resizable=0,scrollbars=1'); return false;" class="suporte" /><area class="suporte" shape="rect" coords="153,1,246,22" href="#" />
+
+</map></div>
+
+<script src="https://www.3mimoveis.net/imoveis//assets/plugins/swiper/dist/js/swiper.min.js"></script>
+<script type="text/javascript">
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		// nextButton: '.swiper-button-next',
+		// prevButton: '.swiper-button-prev',
+		paginationClickable: true,
+		spaceBetween: 30,
+		centeredSlides: true,
+		autoplay: 5000,
+		autoplayDisableOnInteraction: false,
+		onTransitionStart : function(){
+			// ação inicio da transição
+		},
+		onTransitionEnd : function(swiper){
+			// ação final da transição
+		}
+	});
+</script>
+<style type="text/css">
+#bg-footer{width:100%; padding:10px 0 60px 0; background-color:#40342D;}
+
+</style>	<div id="banners" class="center">
+			<img src="https://www.3mimoveis.net/imoveis/images/rodape_site/rodape-1.jpg" /></div>
+    </div>
+	<div style="width:100%; background:#FD352E; height:8px; border-bottom:1px solid #CCCCCC">&nbsp;</div>
+    <div id="bg-footer">
+    	<div id="footer" class="center">
+ 			
+ 			<div class="endereco">
+		   		<h4>3M Imóveis </h4>
+				3M Imóveis - Técnica e experiência a serviço dos seus clientes<br/>
+				<address>
+                    <b>Creci: 23238J</b>
+		   		</address>
+	   		</div>
+			
+						
+			<div class="categorias_footer">
+			<h4>Imóveis para venda:</h4>
+							
+
+     <a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=venda&categoria=9">Pronto para Morar</a> |  <a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=venda&categoria=10">Oportunidade</a> |  <a href="https://www.3mimoveis.net/imoveis/imoveis.php?negocio=venda&categoria=18">Comercial</a>
+				
+			</div>
+		
+	
+			<div id="conectse">
+				<h6>CONECTE-SE</h6>
+<div style="width:300px; float:left; margin-left:-120px">
+<a href="https://www.facebook.com/pages/3M-Im%C3%B3veis-Consultoria-Imobili%C3A1ria/1597335500516570" target="_blank" title="Facebook" style="margin-right:0px; margin-left:0px;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-redes-sociais/facebook.png" style="border:0px;margin:7px 7px 0 0; float:left; width:32px"></a>
+
+
+<a href="www.twitter.com/3mimoveis" target="_blank" title="Twitter" style="margin-right:0px; margin-left:0px;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-redes-sociais/twitter.png" style="border:0px;margin:7px 7px 0 0; float:left; width:32px"></a>
+
+
+<a href="www.plus.google.com/3mimoveis" target="_blank" title="Google+" style="margin-right:0px; margin-left:0px;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-redes-sociais/google_mais.png" style="border:0px;margin:7px 7px 0 0; float:left; width:32px"></a>
+
+
+<a href="www.youtube.com/3mimoveis" target="_blank" title="Youtube" style="margin-right:0px; margin-left:0px;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-redes-sociais/youtube.png" style="border:0px;margin:7px 7px 0 0; float:left; width:32px"></a>
+
+
+<a href="www.instagrm.com/3mimoveis" target="_blank" title="Instagram" style="margin-right:0px; margin-left:0px;"><img src="https://www.3mimoveis.net/imoveis/layout/icone-redes-sociais/instagram.png" style="border:0px;margin:7px 7px 0 0; float:left; width:32px"></a>
+
+ </div>
+
+			</div>
+
+
+
+           
+		   <!-- unidades -->
+		   <div>
+
+<br style="clear:both" /><br style="clear:both" />				   <div style=" margin-right:80px; width:270px; margin-top:20px; float:left">
+				<address style="margin:0px; padding:0px">
+		<strong>3M Imóveis Consultoria Imobiliária Ltda.</strong> <br />
+        <strong>Endereço: </strong>Rua Jurandir Martins Filho, 35 - S. 506 - Edifício GLOBAL OFFICE - Flamboyant - Taubaté - SP - 12030-080<br />
+		        						  <strong>Telefone(s): </strong>12-3631-6841, 12-974101049				   		</address>
+	   		</div>
+		
+		   </div>
+		   
+		            <br style="clear:both" />
+		  <br style="clear:both" />
+		  
+		  		  <br style="clear:both" />
+		  <br style="clear:both" />
+		  <div class="logoville">
+				
+				<a href="https://www.villeimobiliarias.com.br" target="_blank" title="Ville Imobili&aacute;rias"><img src="https://www.3mimoveis.net/imoveis/layout_thematic/logo-villeimobiliarias.png" align="right" /></a>
+				<br style="clear:both" />
+			  <div style="margin-top:-10px; margin-left:3px"><a href="https://www.villeimobiliarias.com.br" target="_blank" style="color:#FFFFFF; text-decoration:none">Gestão e Marketing Imobiliário</a></div>		  </div>
+   	 	</div>
+	</div>
+	<script>
+		//galeria dos imoveis em destaque
+		$(document).ready(function() {
+			$("#slideshow").scrollable({circular: true, mousewheel: true}).navigator().autoscroll({
+				interval: 5000		
+			});	
+		});
+	</script>
+
+
+
+    <style>
+        div#integracao_whatsapp{
+            position: fixed;
+            bottom: 15px;
+            left: 15px;
+        }
+
+        div#integracao_whatsapp img{
+            width: 70px;
+        }
+    </style>
+    <div id="integracao_whatsapp">
+                <a href="https://web.whatsapp.com/send?phone=5512991643708&text=Ol%C3%A1%2C%20visitei%20seu%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es.%20Obrigado%20e%20aguardo%20contato.%0D%0A%0D%0AURL Visitada: https://www.3mimoveis.net/imoveis/" target="_blank">
+            <img src="https://www.3mimoveis.net/imoveis/whatsapp-imob.png" alt="Entrar em contato via WhatsApp!">
+        </a>
+    </div>
+</body>
+</html>
+
