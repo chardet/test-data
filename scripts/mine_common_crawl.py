@@ -638,6 +638,7 @@ def query_hits(
     targets: tuple[str, ...],
     per_charset: int,
     languages: tuple[str, ...] = (),
+    primary_language: bool = False,
 ) -> list[Hit]:
     """Query the index parts for target charsets, capped per charset.
 
@@ -646,6 +647,9 @@ def query_hits(
     language.  Without it, mining a common charset for a rare language is
     hopeless: iso-8859-1 alone has 629k pages in a single index part, and
     the Welsh ones would never surface.
+
+    *primary_language* additionally demands the language be the crawl's
+    first guess rather than merely present.
 
     The cap counts *distinct domains*, not rows.  Ranking rows by
     url_surtkey and taking the first N returns the alphabetically-first
@@ -656,8 +660,16 @@ def query_hits(
     language_filter = ""
     if languages:
         # content_languages is a comma-separated list, most confident first.
+        # Matching anywhere in it finds pages that merely *contain* the
+        # language, which for a minority language means mostly the majority
+        # one: every Kazakh-tagged page in six index parts came back as
+        # `rus,kaz`, a Russian site with a Kazakh section.  Asking for the
+        # first entry instead finds pages actually written in it.
         language_filter = (
-            "AND list_has_any(str_split(content_languages, ','), "
+            "AND str_split(content_languages, ',')[1] "
+            "IN (SELECT unnest(?::varchar[])) "
+            if primary_language
+            else "AND list_has_any(str_split(content_languages, ','), "
             "?::varchar[]) "
         )
     partition = (
@@ -1187,7 +1199,10 @@ def run_mine(arguments: argparse.Namespace) -> int:
             f"(index codes: {', '.join(languages)})"
         )
     try:
-        hits = query_hits(selected, targets, arguments.max_per_charset, languages)
+        hits = query_hits(
+            selected, targets, arguments.max_per_charset, languages,
+            primary_language=arguments.primary_language,
+        )
     except Exception as error:  # noqa: BLE001 - duckdb wraps HTTP failures
         if "503" in str(error) or "Service Unavailable" in str(error):
             sys.exit(
@@ -1290,6 +1305,13 @@ def main() -> int:
         default="",
         help="comma-separated ISO 639-1 codes to restrict to (e.g. cy,ga,br); "
         "needed to find a rare language inside a common charset",
+    )
+    parser.add_argument(
+        "--primary-language",
+        action="store_true",
+        help="require --languages to be the crawl's first guess, not just "
+        "present; finds pages written in a minority language rather than "
+        "majority-language pages that mention it",
     )
     parser.add_argument(
         "--output",

@@ -178,7 +178,17 @@ def classify_subject(subject: str) -> str:
 # not vouch for.
 NAME_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     (HISTORIC, ("historic_",)),
-    (WILD, ("artpack_", "usenet_", "crawl_", "ebcdic_")),
+    (TRANSCODED, ("culturax_",)),
+    # Every one of these is written by a miner and enters through
+    # promote_candidates.py: cc_ from the crawl, po_ from gettext
+    # catalogues, and the rest named for where they were dug out of.
+    (
+        WILD,
+        (
+            "cc_", "po_", "usenet_", "artpack_", "repo_",
+            "dos_", "ebcdic_", "machfs_", "archive_",
+        ),
+    ),
 )
 
 
