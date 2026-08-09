@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**2517 files** across **728 directories** covering **88 encodings**.
+**3108 files** across **730 directories** covering **89 encodings**.
 
 ## Sources
 
@@ -14,7 +14,7 @@ filename prefix, git history, or content:
 
 | Source | Prefix/Pattern | Files | Description |
 |--------|---------------|------:|-------------|
-| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,945 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,935 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
 | [Mark Pilgrim's chardet](https://github.com/puzzlet/chardet/tree/MarkPilgrim/tests) | `*.xml` (domain names) | 314 | Web-scraped RSS/Atom feeds from the original chardet test suite by Mark Pilgrim. Imported by Puzzlet Chung in 2012. Each filename is the source website's domain. |
 | [Ude](http://code.google.com/p/ude/) (Universal Detector Engine) | `_ude_` | 96 | Test files from the Ude charset detection library (a C# port of Mozilla's universal charset detector). |
 | [charset-normalizer](https://github.com/Ousret/charset_normalizer) ([char-dataset](https://github.com/Ousret/char-dataset)) | various | ~17 | Test data from the charset-normalizer test dataset by Ahmed TAHRI. Iris CSV/JSON datasets originally from [Capital One DataProfiler](https://github.com/capitalone/DataProfiler). UTF-8 `.md`/`.rst` files are READMEs from urllib3 and charset-normalizer. `anzeige-value-stars.html` from charset-normalizer [issue #104](https://github.com/Ousret/charset_normalizer/issues/104). ASCII JSON files (books, parchments, etc.) added to avoid false positives on structured data. `dummy-1.pem` added after [certbot #8964](https://github.com/certbot/certbot/issues/8964). Binary samples ensure non-text is correctly rejected. |
@@ -23,7 +23,7 @@ filename prefix, git history, or content:
 | [Chromium](https://chromium.googlesource.com/chromium/src/) | `_chromium_` | 15 | Test files from the Chromium browser's encoding detection test suite. |
 | [Mozilla](https://hg.mozilla.org/mozilla-central/) | `_mozilla_` | 11 | Test files from Mozilla's charset detection test suite, including regression tests for specific bugs (bug numbers in filenames). |
 | [Web Archive](https://web.archive.org/) | `archive_` | 11 | Test files sourced from the Wayback Machine web archive. |
-| Contributed | various | ~44 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
+| Contributed | various | ~271 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
 
 ## Provenance
 
@@ -40,104 +40,105 @@ it, and classified by how it came to exist:
   arrived as deliberate multi-encoding sets. Calling these wild would
   claim more than the evidence supports.
 
-Repo totals: **320 wild**, 1,960 transcoded, 237 suite (of 2,517 files).
+Repo totals: **807 wild**, 1,952 transcoded, 224 suite (of 3,108 files).
 
 Encodings with no wild files are the gaps worth filling — a high file
 count does not imply real-world coverage.
 
 | Encoding | Total | Wild | Transcoded | Suite |
 |----------|------:|-----:|-----------:|------:|
-| `windows-1251` | 62 | 33 | 18 | 11 |
+| `utf-8` | 268 | 107 | 140 | 21 |
+| `utf-16` | 217 | 71 | 142 | 4 |
+| `iso-8859-1` | 75 | 44 | 19 | 12 |
+| `iso-8859-9` | 45 | 38 | 3 | 4 |
+| `iso-8859-2` | 68 | 37 | 17 | 14 |
+| `windows-1251` | 63 | 37 | 18 | 8 |
+| `windows-1256` | 46 | 37 | 6 | 3 |
 | `iso-8859-5` | 51 | 30 | 17 | 4 |
 | `euc-kr` | 33 | 28 | 0 | 5 |
+| `shift_jis` | 31 | 26 | 0 | 5 |
 | `euc-jp` | 32 | 25 | 2 | 5 |
-| `shift_jis` | 31 | 25 | 0 | 6 |
 | `big5` | 29 | 24 | 1 | 4 |
+| `koi8-r` | 25 | 19 | 3 | 3 |
 | `gb2312` | 24 | 18 | 1 | 5 |
-| `koi8-r` | 25 | 18 | 3 | 4 |
 | `cp855` | 39 | 17 | 18 | 4 |
 | `cp866` | 37 | 17 | 17 | 3 |
 | `maccyrillic` | 38 | 16 | 18 | 4 |
-| `iso-8859-2` | 46 | 13 | 17 | 16 |
+| `ascii` | 32 | 15 | 8 | 9 |
+| `windows-1257` | 18 | 14 | 0 | 4 |
+| `iso-8859-15` | 42 | 13 | 26 | 3 |
 | `iso-8859-8` | 21 | 13 | 3 | 5 |
+| `windows-1252` | 44 | 13 | 23 | 8 |
+| `windows-1250` | 43 | 10 | 15 | 18 |
 | `iso-8859-7` | 17 | 9 | 3 | 5 |
-| `utf-8` | 170 | 8 | 141 | 21 |
+| `cp850` | 45 | 8 | 37 | 0 |
+| `cp874` | 8 | 8 | 0 | 0 |
+| `iso-8859-4` | 15 | 8 | 6 | 1 |
+| `koi8-u` | 11 | 8 | 2 | 1 |
+| `utf-8-sig` | 151 | 8 | 142 | 1 |
+| `windows-1254` | 9 | 8 | 0 | 1 |
+| `cp932` | 9 | 7 | 1 | 1 |
+| `cp949` | 8 | 7 | 0 | 1 |
+| `cp037` | 34 | 6 | 27 | 1 |
+| `cp437` | 33 | 6 | 27 | 0 |
+| `gb18030` | 9 | 6 | 1 | 2 |
+| `hz-gb-2312` | 8 | 6 | 2 | 0 |
+| `iso-8859-6` | 15 | 6 | 6 | 3 |
+| `windows-1253` | 8 | 6 | 1 | 1 |
+| `iso-2022-jp` | 8 | 5 | 2 | 1 |
+| `iso-8859-13` | 16 | 5 | 9 | 2 |
+| `macroman` | 46 | 5 | 41 | 0 |
 | `windows-1255` | 7 | 5 | 0 | 2 |
-| `windows-1250` | 37 | 4 | 15 | 18 |
-| `cp932` | 5 | 3 | 1 | 1 |
-| `iso-8859-9` | 10 | 3 | 3 | 4 |
+| `iso-8859-11` | 3 | 3 | 0 | 0 |
 | `tis-620` | 8 | 3 | 3 | 2 |
-| `cp874` | 2 | 2 | 0 | 0 |
-| `utf-16` | 149 | 2 | 143 | 4 |
-| `utf-32` | 147 | 2 | 143 | 2 |
-| `ascii` | 18 | 1 | 8 | 9 |
-| `utf-8-sig` | 145 | 1 | 143 | 1 |
+| `utf-32` | 151 | 2 | 142 | 2 |
+| `windows-1258` | 14 | 2 | 4 | 1 |
+| `utf-16le` | 154 | 1 | 145 | 3 |
 | `None-None` | 8 | 0 | 0 | 8 |
-| `cp037` | 28 | 0 | 27 | 1 |
 | `cp1006` | 3 | 0 | 3 | 0 |
-| `cp1026` | 3 | 0 | 3 | 0 |
-| `cp1125` | 3 | 0 | 2 | 1 |
-| `cp273` | 3 | 0 | 3 | 0 |
-| `cp424` | 4 | 0 | 3 | 1 |
-| `cp437` | 27 | 0 | 27 | 0 |
-| `cp500` | 24 | 0 | 24 | 0 |
-| `cp720` | 6 | 0 | 6 | 0 |
-| `cp737` | 1 | 0 | 1 | 0 |
-| `cp775` | 10 | 0 | 9 | 1 |
-| `cp850` | 37 | 0 | 37 | 0 |
-| `cp852` | 24 | 0 | 22 | 2 |
-| `cp856` | 3 | 0 | 3 | 0 |
-| `cp857` | 4 | 0 | 3 | 1 |
-| `cp858` | 33 | 0 | 33 | 0 |
-| `cp860` | 3 | 0 | 3 | 0 |
-| `cp861` | 3 | 0 | 3 | 0 |
-| `cp862` | 3 | 0 | 3 | 0 |
-| `cp863` | 3 | 0 | 3 | 0 |
+| `cp1026` | 8 | 0 | 3 | 0 |
+| `cp1125` | 5 | 0 | 2 | 1 |
+| `cp273` | 7 | 0 | 3 | 0 |
+| `cp424` | 9 | 0 | 3 | 1 |
+| `cp500` | 29 | 0 | 24 | 0 |
+| `cp720` | 8 | 0 | 6 | 0 |
+| `cp737` | 3 | 0 | 1 | 0 |
+| `cp775` | 12 | 0 | 9 | 1 |
+| `cp852` | 26 | 0 | 22 | 2 |
+| `cp856` | 8 | 0 | 3 | 0 |
+| `cp857` | 6 | 0 | 3 | 1 |
+| `cp858` | 35 | 0 | 33 | 0 |
+| `cp860` | 6 | 0 | 3 | 0 |
+| `cp861` | 5 | 0 | 3 | 0 |
+| `cp862` | 5 | 0 | 3 | 0 |
+| `cp863` | 5 | 0 | 3 | 0 |
 | `cp864` | 1 | 0 | 1 | 0 |
-| `cp865` | 4 | 0 | 4 | 0 |
-| `cp869` | 4 | 0 | 3 | 1 |
-| `cp875` | 3 | 0 | 3 | 0 |
-| `cp949` | 1 | 0 | 0 | 1 |
-| `gb18030` | 4 | 0 | 2 | 2 |
-| `hp-roman8` | 42 | 0 | 42 | 0 |
-| `hz-gb-2312` | 2 | 0 | 2 | 0 |
-| `iso-2022-jp` | 3 | 0 | 2 | 1 |
-| `iso-2022-jp-2004` | 3 | 0 | 3 | 0 |
-| `iso-2022-jp-ext` | 1 | 0 | 1 | 0 |
-| `iso-2022-kr` | 5 | 0 | 3 | 2 |
-| `iso-8859-1` | 34 | 0 | 19 | 15 |
-| `iso-8859-10` | 6 | 0 | 6 | 0 |
-| `iso-8859-13` | 11 | 0 | 9 | 2 |
-| `iso-8859-14` | 10 | 0 | 10 | 0 |
-| `iso-8859-15` | 30 | 0 | 26 | 4 |
-| `iso-8859-16` | 18 | 0 | 17 | 1 |
-| `iso-8859-3` | 11 | 0 | 9 | 2 |
-| `iso-8859-4` | 7 | 0 | 6 | 1 |
-| `iso-8859-6` | 9 | 0 | 6 | 3 |
-| `johab` | 7 | 0 | 3 | 4 |
+| `cp865` | 6 | 0 | 4 | 0 |
+| `cp869` | 6 | 0 | 3 | 1 |
+| `cp875` | 8 | 0 | 3 | 0 |
+| `hp-roman8` | 44 | 0 | 42 | 0 |
+| `iso-2022-jp-2004` | 6 | 0 | 3 | 0 |
+| `iso-2022-jp-ext` | 4 | 0 | 1 | 0 |
+| `iso-2022-kr` | 8 | 0 | 3 | 2 |
+| `iso-8859-10` | 8 | 0 | 6 | 0 |
+| `iso-8859-14` | 12 | 0 | 10 | 0 |
+| `iso-8859-16` | 20 | 0 | 17 | 1 |
+| `iso-8859-3` | 13 | 0 | 9 | 2 |
+| `johab` | 10 | 0 | 3 | 4 |
 | `koi8-t` | 3 | 0 | 3 | 0 |
-| `koi8-u` | 3 | 0 | 2 | 1 |
-| `kz1048` | 4 | 0 | 3 | 1 |
-| `macgreek` | 3 | 0 | 3 | 0 |
-| `maciceland` | 3 | 0 | 3 | 0 |
-| `maclatin2` | 21 | 0 | 18 | 3 |
-| `macroman` | 41 | 0 | 41 | 0 |
-| `macturkish` | 3 | 0 | 3 | 0 |
-| `ptcp154` | 4 | 0 | 3 | 1 |
+| `kz1048` | 6 | 0 | 3 | 1 |
+| `macgreek` | 5 | 0 | 3 | 0 |
+| `maciceland` | 5 | 0 | 3 | 0 |
+| `maclatin2` | 23 | 0 | 18 | 3 |
+| `macturkish` | 5 | 0 | 3 | 0 |
+| `ptcp154` | 6 | 0 | 3 | 1 |
 | `shift-jis` | 3 | 0 | 3 | 0 |
 | `utf-16-be` | 3 | 0 | 3 | 0 |
-| `utf-16be` | 149 | 0 | 146 | 3 |
-| `utf-16le` | 149 | 0 | 146 | 3 |
+| `utf-16be` | 153 | 0 | 145 | 3 |
 | `utf-32-be` | 3 | 0 | 3 | 0 |
-| `utf-32be` | 149 | 0 | 146 | 3 |
-| `utf-32le` | 149 | 0 | 146 | 3 |
-| `utf-7` | 143 | 0 | 143 | 0 |
-| `windows-1252` | 31 | 0 | 23 | 8 |
-| `windows-1253` | 2 | 0 | 1 | 1 |
-| `windows-1254` | 1 | 0 | 0 | 1 |
-| `windows-1256` | 9 | 0 | 6 | 3 |
-| `windows-1257` | 4 | 0 | 0 | 4 |
-| `windows-1258` | 5 | 0 | 2 | 3 |
+| `utf-32be` | 153 | 0 | 145 | 3 |
+| `utf-32le` | 153 | 0 | 145 | 3 |
+| `utf-7` | 145 | 0 | 142 | 0 |
 
 ## Binary Test Files (`None-None/`)
 
@@ -165,7 +166,7 @@ Pure ASCII files for baseline testing.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_78728.txt` | CulturaX | transcoded | 2,066 |  |
 
-### `ascii-en/` — 12 files
+### `ascii-en/` — 26 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -173,6 +174,20 @@ Pure ASCII files for baseline testing.
 | `_ude_1.txt` | Ude | suite | 2,343 | Ude test vector |
 | `book-stats.json` | charset-normalizer | suite | 51 | JSON with book statistics |
 | `books.json` | charset-normalizer | suite | 59,650 | Large JSON array of book data |
+| `cc_3dgoldprinting.nl_15eecc1b5cda.html` | Common Crawl | wild | 2,147 |  |
+| `cc_3dgoldprinting.nl_4b3fbd29ade7.html` | Common Crawl | wild | 1,642 |  |
+| `cc_aircharter.com.ng_9e67a7aa10da.html` | Common Crawl | wild | 3,323 |  |
+| `cc_cjp.com.ng_caa8eab90a0d.html` | Common Crawl | wild | 6,652 |  |
+| `cc_lists.gnucash.org_381c8f2ff8c4.html` | Common Crawl | wild | 3,668 |  |
+| `cc_lists.gnucash.org_6fda49873d1b.html` | Common Crawl | wild | 2,146 |  |
+| `cc_lists.gnupg.org_2aa1c9b8d942.html` | Common Crawl | wild | 5,291 |  |
+| `cc_lists.gnupg.org_d8c5f7d477a9.html` | Common Crawl | wild | 6,783 |  |
+| `cc_lists.gnutls.org_363aa3fe0301.html` | Common Crawl | wild | 6,313 |  |
+| `cc_lists.gnutls.org_993345493372.html` | Common Crawl | wild | 6,253 |  |
+| `cc_pareto.uab.es_b9874e3e3f7e.html` | Common Crawl | wild | 28,621 |  |
+| `cc_whitey.net_41002cca7e2a.html` | Common Crawl | wild | 4,207 |  |
+| `cc_www.goa-germany.org_53739c1bce77.html` | Common Crawl | wild | 10,974 |  |
+| `cc_www.willowgarden.net_72cc2b570f25.html` | Common Crawl | wild | 245,385 |  |
 | `culturax_mC4_84511.txt` | CulturaX | transcoded | 1,640 |  |
 | `culturax_mC4_84513.txt` | CulturaX | transcoded | 2,533 |  |
 | `dummy-1.pem` | charset-normalizer | suite | 3,884 | PEM-encoded certificate |
@@ -203,12 +218,13 @@ Each encoding directory contains files transcoded into that encoding.
 Many source texts appear across multiple encoding directories — the same
 content transcoded to test detection across encodings.
 
-### Unicode (1356 files in 441 directories)
+### Unicode (1551 files in 441 directories)
 
-#### `utf-16-ar/` — 3 files
+#### `utf-16-ar/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_www.ediblearrangements.qa_bd97e1576cd9.html` | Common Crawl | wild | 22,078 |  |
 | `culturax_OSCAR-2109_98639.txt` | CulturaX | transcoded | 4,846 |  |
 | `culturax_mC4_98635.txt` | CulturaX | transcoded | 2,252 |  |
 | `culturax_mC4_98638.txt` | CulturaX | transcoded | 5,944 |  |
@@ -252,18 +268,26 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78727.txt` | CulturaX | transcoded | 5,770 |  |
 | `culturax_mC4_78728.txt` | CulturaX | transcoded | 4,134 |  |
 
-#### `utf-16-da/` — 3 files
+#### `utf-16-da/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_2770.nu_db679991dfb0.html` | Common Crawl | wild | 36,780 |  |
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 3,838 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 5,856 |  |
 | `culturax_mC4_83468.txt` | CulturaX | transcoded | 4,040 |  |
 
-#### `utf-16-de/` — 3 files
+#### `utf-16-de/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_chinese-akupunktur.com_0a08722b908a.html` | Common Crawl | wild | 140,262 |  |
+| `cc_ctibrace.ch_f3a686b38984.html` | Common Crawl | wild | 1,088 |  |
+| `cc_edudoc.educa.ch_de1cd6e6224a.html` | Common Crawl | wild | 108,426 |  |
+| `cc_iccmo.de_2a553c226552.html` | Common Crawl | wild | 22,938 |  |
+| `cc_iccmo.de_d45ff296c994.html` | Common Crawl | wild | 21,352 |  |
+| `cc_imq-gmbh.de_3f2c30d2698d.html` | Common Crawl | wild | 104,068 |  |
+| `cc_www.lifeforestry.com_6ba43d555632.html` | Common Crawl | wild | 188,922 |  |
 | `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 5,154 |  |
 | `culturax_mC4_83755.txt` | CulturaX | transcoded | 4,316 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 4,520 |  |
@@ -276,7 +300,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 4,264 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 2,220 |  |
 
-#### `utf-16-en/` — 9 files
+#### `utf-16-en/` — 18 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -284,6 +308,15 @@ content transcoded to test detection across encodings.
 | `_ude_2.txt` | Ude | suite | 7,048 |  |
 | `bom-utf-16-be.srt` | unknown | wild | 1,714 | BOM detection test subtitle |
 | `bom-utf-16-le.srt` | unknown | wild | 1,714 | BOM detection test subtitle |
+| `cc_beltei.edu.kh_8c9e202cff33.html` | Common Crawl | wild | 12,486 |  |
+| `cc_lilybutterland.com_fdd9cbae7d25.html` | Common Crawl | wild | 11,900 |  |
+| `cc_netapp.cs.kookmin.ac.kr_98bb119e25a8.html` | Common Crawl | wild | 7,038 |  |
+| `cc_notendur.hi.is_8cb926ab757c.html` | Common Crawl | wild | 207,290 |  |
+| `cc_people.math.inha.ac.kr_e70882252d0c.html` | Common Crawl | wild | 10,142 |  |
+| `cc_web.donga.ac.kr_43d93e3143d9.html` | Common Crawl | wild | 98,154 |  |
+| `cc_www.ibiblio.org_44906cc1c773.html` | Common Crawl | wild | 37,556 |  |
+| `cc_www.kamico.or.kr_4053d0757543.html` | Common Crawl | wild | 14,716 |  |
+| `cc_www.todroberts.com_00941d2f8641.html` | Common Crawl | wild | 343,974 |  |
 | `culturax_mC4_84511.txt` | CulturaX | transcoded | 3,282 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 1,700 |  |
 | `culturax_mC4_84513.txt` | CulturaX | transcoded | 5,068 |  |
@@ -298,10 +331,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | transcoded | 2,640 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 5,266 |  |
 
-#### `utf-16-es/` — 3 files
+#### `utf-16-es/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_alcubilladeavellaneda.com_e083ece950c5.html` | Common Crawl | wild | 46,758 |  |
+| `cc_hermosa.acta.es_b16cb1456c75.html` | Common Crawl | wild | 217,796 |  |
+| `cc_libroswebsite.com_3fdb82bcabbc.html` | Common Crawl | wild | 38,588 |  |
+| `cc_www.avaluos.c-proesa.com.mx_1bbfda8d999c.html` | Common Crawl | wild | 131,664 |  |
 | `culturax_mC4_87069.txt` | CulturaX | transcoded | 2,928 |  |
 | `culturax_mC4_87070.txt` | CulturaX | transcoded | 5,942 |  |
 | `culturax_mC4_87071.txt` | CulturaX | transcoded | 5,558 |  |
@@ -314,10 +351,14 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66819.txt` | CulturaX | transcoded | 5,562 |  |
 | `culturax_mC4_66820.txt` | CulturaX | transcoded | 2,052 |  |
 
-#### `utf-16-fa/` — 3 files
+#### `utf-16-fa/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_iranradiatorcs.ir_efcd4fb5f1a3.html` | Common Crawl | wild | 81,826 |  |
+| `cc_khedmat.abfa-lorestan.ir_bcce44836462.html` | Common Crawl | wild | 444,530 |  |
+| `cc_noorchin.ir_c2b2c83090f4.html` | Common Crawl | wild | 28,162 |  |
+| `cc_www.azargoshnasp.net_15ae4113c997.html` | Common Crawl | wild | 79,572 |  |
 | `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,984 |  |
 | `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,054 |  |
 | `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,916 |  |
@@ -330,10 +371,15 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 6,002 |  |
 | `culturax_mC4_80363.txt` | CulturaX | transcoded | 5,610 |  |
 
-#### `utf-16-fr/` — 3 files
+#### `utf-16-fr/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_ajeqsite.org_392e75fcc67b.html` | Common Crawl | wild | 56,570 |  |
+| `cc_all4laptop.com_beb54933250c.html` | Common Crawl | wild | 14,510 |  |
+| `cc_mdevmd.accesmad.org_1fe04a4e4a51.html` | Common Crawl | wild | 123,324 |  |
+| `cc_mdevmd.accesmad.org_297ef9947e2d.html` | Common Crawl | wild | 305,636 |  |
+| `cc_www.ajeqsite.org_519e0f27cd80.html` | Common Crawl | wild | 71,372 |  |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 5,744 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 1,468 |  |
 | `culturax_mC4_88369.txt` | CulturaX | transcoded | 5,722 |  |
@@ -354,10 +400,14 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 5,780 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 13,102 |  |
 
-#### `utf-16-he/` — 3 files
+#### `utf-16-he/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_benyehuda.org_7b317d31f669.html` | Common Crawl | wild | 104,626 |  |
+| `cc_hill-crest.org.il_1a06d1d95aff.html` | Common Crawl | wild | 1,924 |  |
+| `cc_huatuo-israel.com_a10f41e97348.html` | Common Crawl | wild | 13,798 |  |
+| `cc_www.irob.org.il_f7842e00148a.html` | Common Crawl | wild | 159,482 |  |
 | `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,976 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,960 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 5,976 |  |
@@ -386,26 +436,36 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_114890.txt` | CulturaX | transcoded | 5,376 |  |
 | `culturax_mC4_114892.txt` | CulturaX | transcoded | 3,062 |  |
 
-#### `utf-16-is/` — 3 files
+#### `utf-16-is/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_www.bardaga.org_6d886c2b2220.html` | Common Crawl | wild | 7,610 |  |
 | `culturax_mC4_77487.txt` | CulturaX | transcoded | 5,764 |  |
 | `culturax_mC4_77488.txt` | CulturaX | transcoded | 3,014 |  |
 | `culturax_mC4_77489.txt` | CulturaX | transcoded | 5,618 |  |
 
-#### `utf-16-it/` — 3 files
+#### `utf-16-it/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_www.medicalpilates.academy_2460e28f781d.html` | Common Crawl | wild | 13,382 |  |
 | `culturax_mC4_92388.txt` | CulturaX | transcoded | 4,758 |  |
 | `culturax_mC4_92390.txt` | CulturaX | transcoded | 2,558 |  |
 | `culturax_mC4_92391.txt` | CulturaX | transcoded | 2,892 |  |
 
-#### `utf-16-ja/` — 3 files
+#### `utf-16-ja/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_aka-hura.com_6a0373c06369.html` | Common Crawl | wild | 19,236 |  |
+| `cc_atem.org_15a71a5b1077.html` | Common Crawl | wild | 10,654 |  |
+| `cc_chibasuiseki.com_03a428358a6d.html` | Common Crawl | wild | 51,914 |  |
+| `cc_chibasuiseki.com_1ad187eed8c9.html` | Common Crawl | wild | 48,960 |  |
+| `cc_officeiroha.ikidane.com_a69cf85a7b41.html` | Common Crawl | wild | 8,112 |  |
+| `cc_www.fujinomiya.biz_fe9890f619f4.html` | Common Crawl | wild | 11,222 |  |
+| `cc_www.hyakkeisya.org_9cd64c5285a3.html` | Common Crawl | wild | 5,316 |  |
+| `cc_www.hyakkeisya.org_e4bf5070d624.html` | Common Crawl | wild | 5,374 |  |
 | `culturax_OSCAR-2301_6.txt` | CulturaX | transcoded | 1,626 |  |
 | `culturax_mC4_4.txt` | CulturaX | transcoded | 6,002 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 5,862 |  |
@@ -418,10 +478,17 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73161.txt` | CulturaX | transcoded | 1,310 |  |
 | `culturax_mC4_73162.txt` | CulturaX | transcoded | 5,844 |  |
 
-#### `utf-16-ko/` — 3 files
+#### `utf-16-ko/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_ceru.kr_f3e4ba9f288c.html` | Common Crawl | wild | 30,878 |  |
+| `cc_chem.yonsei.ac.kr_b467dbd03c90.html` | Common Crawl | wild | 45,918 |  |
+| `cc_hb1001.or.kr_887ee5c47b53.html` | Common Crawl | wild | 33,892 |  |
+| `cc_hb1001.or.kr_8f6edcddf70d.html` | Common Crawl | wild | 20,552 |  |
+| `cc_www.aljago.com_3e93952b5f4d.html` | Common Crawl | wild | 22,816 |  |
+| `cc_www.aljago.com_b00d58269209.html` | Common Crawl | wild | 34,780 |  |
+| `cc_www.aljago.com_d6626453aa9d.html` | Common Crawl | wild | 19,338 |  |
 | `culturax_mC4_0.txt` | CulturaX | transcoded | 3,568 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 5,794 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,184 |  |
@@ -474,10 +541,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107675.txt` | CulturaX | transcoded | 4,912 |  |
 | `culturax_mC4_107676.txt` | CulturaX | transcoded | 2,088 |  |
 
-#### `utf-16-no/` — 3 files
+#### `utf-16-no/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_troms.historielag.org_22de513d36e6.html` | Common Crawl | wild | 129,064 |  |
 | `culturax_mC4_66762.txt` | CulturaX | transcoded | 5,006 |  |
 | `culturax_mC4_66763.txt` | CulturaX | transcoded | 6,002 |  |
 | `culturax_mC4_66764.txt` | CulturaX | transcoded | 6,002 |  |
@@ -490,10 +558,12 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 2,602 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 4,768 |  |
 
-#### `utf-16-pt/` — 3 files
+#### `utf-16-pt/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_hhface.org_2fd702aba3ac.html` | Common Crawl | wild | 59,304 |  |
+| `cc_www.gaes.gov.mo_427d827fa881.html` | Common Crawl | wild | 3,280 |  |
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 1,906 |  |
 | `culturax_mC4_101817.txt` | CulturaX | transcoded | 5,752 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 5,676 |  |
@@ -506,18 +576,21 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | transcoded | 5,268 |  |
 | `culturax_mC4_78978.txt` | CulturaX | transcoded | 5,456 |  |
 
-#### `utf-16-ru/` — 3 files
+#### `utf-16-ru/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_ano-anichkov.ru_07590d65d377.html` | Common Crawl | wild | 39,548 |  |
+| `cc_www.palomnik.org_6438d43f9b13.html` | Common Crawl | wild | 42,668 |  |
 | `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 6,002 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,664 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 2,654 |  |
 
-#### `utf-16-sk/` — 3 files
+#### `utf-16-sk/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_1stchoiceaupairs.co.uk_8b2a1ed7a1fa.html` | Common Crawl | wild | 160,864 |  |
 | `culturax_mC4_95224.txt` | CulturaX | transcoded | 2,892 |  |
 | `culturax_mC4_95226.txt` | CulturaX | transcoded | 4,010 |  |
 | `culturax_mC4_95227.txt` | CulturaX | transcoded | 5,738 |  |
@@ -594,11 +667,21 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 5,338 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 5,738 |  |
 
-#### `utf-16-zh/` — 3 files
+#### `utf-16-zh/` — 13 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 4,192 |  |
+| `cc_8o8.cn_59e88a7b7ab1.html` | Common Crawl | wild | 5,114 |  |
+| `cc_aleetacstyle.com_3f2683e3e618.html` | Common Crawl | wild | 8,684 |  |
+| `cc_chinaibt.com_70c0f51f2205.html` | Common Crawl | wild | 19,210 |  |
+| `cc_fp1989.com_722388d879d4.html` | Common Crawl | wild | 8,704 |  |
+| `cc_gtl.org_f394dcbe6ee8.html` | Common Crawl | wild | 15,180 |  |
+| `cc_hhface.org_29f332017908.html` | Common Crawl | wild | 68,650 |  |
+| `cc_huayuntielv.com_288ca00d31fd.html` | Common Crawl | wild | 8,470 |  |
+| `cc_www.027ms.com.cn_30b5bad9d623.html` | Common Crawl | wild | 46,396 |  |
+| `cc_www.chinaenhua.com_3f80a6bdc011.html` | Common Crawl | wild | 11,804 |  |
+| `cc_www.chinaprojector-eug.com_0b0272378564.html` | Common Crawl | wild | 8,702 |  |
+| `cc_www.huazhouzx.com_36ef4805d043.html` | Common Crawl | wild | 19,000 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,290 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 2,148 |  |
 
@@ -673,13 +756,18 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 4,262 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 2,218 |  |
 
-#### `utf-16be-en/` — 5 files
+#### `utf-16be-en/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_84511.txt` | CulturaX | transcoded | 3,280 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 1,698 |  |
 | `culturax_mC4_84513.txt` | CulturaX | transcoded | 5,066 |  |
+| `historic_0d14cb55da52.txt` | unknown | historic | 9,230 |  |
+| `historic_450e5e35d3ce.txt` | unknown | historic | 4,582 |  |
+| `historic_bdc855dba584.txt` | unknown | historic | 1,206 |  |
+| `historic_e83bde060010.txt` | unknown | historic | 902 |  |
+| `historic_f01bd179a307.txt` | unknown | historic | 8,780 |  |
 | `nobom-utf16be.txt` | unknown | suite | 1,588 | No-BOM encoding test |
 | `plane1-utf-16be.html` | Contributed | suite | 12,504 | Unicode Plane 1 (supplementary) test |
 
@@ -987,11 +1075,10 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 5,336 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 5,736 |  |
 
-#### `utf-16be-zh/` — 4 files
+#### `utf-16be-zh/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 4,190 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,288 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 2,146 |  |
 | `sample_chinese_no_bom.txt` | charset-normalizer | suite | 110 | BOM-less Chinese text (mixed simplified and traditional) |
@@ -1067,15 +1154,21 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 4,262 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 2,218 |  |
 
-#### `utf-16le-en/` — 5 files
+#### `utf-16le-en/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_84511.txt` | CulturaX | transcoded | 3,280 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 1,698 |  |
 | `culturax_mC4_84513.txt` | CulturaX | transcoded | 5,066 |  |
+| `historic_26e5e3aa9901.txt` | unknown | historic | 4,582 |  |
+| `historic_474cd4b0fd5b.txt` | unknown | historic | 8,780 |  |
+| `historic_705172bafb6d.txt` | unknown | historic | 1,206 |  |
+| `historic_77f050b4be49.txt` | unknown | historic | 902 |  |
+| `historic_9ea9f969decf.txt` | unknown | historic | 9,230 |  |
 | `nobom-utf16le.txt` | unknown | suite | 1,588 | No-BOM encoding test |
 | `plane1-utf-16le.html` | Contributed | suite | 12,504 | Unicode Plane 1 (supplementary) test |
+| `repo_72bb3580d229.txt` | unknown | wild | 4,918 |  |
 
 #### `utf-16le-eo/` — 3 files
 
@@ -1381,11 +1474,10 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 5,336 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 5,736 |  |
 
-#### `utf-16le-zh/` — 4 files
+#### `utf-16le-zh/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 4,190 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,288 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 2,146 |  |
 | `sample_chinese_no_bom.txt` | charset-normalizer | suite | 110 | BOM-less Chinese text (mixed simplified and traditional) |
@@ -1461,7 +1553,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 8,528 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 4,440 |  |
 
-#### `utf-32-en/` — 7 files
+#### `utf-32-en/` — 12 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -1470,6 +1562,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_84511.txt` | CulturaX | transcoded | 6,564 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 3,400 |  |
 | `culturax_mC4_84513.txt` | CulturaX | transcoded | 10,136 |  |
+| `historic_0a248aff12f4.txt` | unknown | historic | 1,808 |  |
+| `historic_1a17eba40403.txt` | unknown | historic | 2,416 |  |
+| `historic_65aae76a2658.txt` | unknown | historic | 18,464 |  |
+| `historic_684951ba16f6.txt` | unknown | historic | 9,168 |  |
+| `historic_f85f5b39a997.txt` | unknown | historic | 17,564 |  |
 | `iris-utf-32.csv` | unknown | suite | 20,452 | Iris dataset, originally from Capital One DataProfiler |
 | `iris-utf-32.json` | unknown | suite | 76,592 | Iris dataset, originally from Capital One DataProfiler |
 
@@ -1777,11 +1874,10 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 10,676 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 11,476 |  |
 
-#### `utf-32-zh/` — 3 files
+#### `utf-32-zh/` — 2 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 8,384 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 2,580 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 4,296 |  |
 
@@ -1856,13 +1952,18 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 8,524 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 4,436 |  |
 
-#### `utf-32be-en/` — 5 files
+#### `utf-32be-en/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_84511.txt` | CulturaX | transcoded | 6,560 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 3,396 |  |
 | `culturax_mC4_84513.txt` | CulturaX | transcoded | 10,132 |  |
+| `historic_4d969cdba0e7.txt` | unknown | historic | 2,412 |  |
+| `historic_5ef73fe926fc.txt` | unknown | historic | 18,460 |  |
+| `historic_c411d821bd88.txt` | unknown | historic | 1,804 |  |
+| `historic_e4be6790e41c.txt` | unknown | historic | 9,164 |  |
+| `historic_eef68e56eb98.txt` | unknown | historic | 17,560 |  |
 | `nobom-utf32be.txt` | unknown | suite | 3,176 | No-BOM encoding test |
 | `plane1-utf-32be.html` | Contributed | suite | 24,500 | Unicode Plane 1 (supplementary) test |
 
@@ -2170,11 +2271,10 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 10,672 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 11,472 |  |
 
-#### `utf-32be-zh/` — 4 files
+#### `utf-32be-zh/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 8,380 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 2,576 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 4,292 |  |
 | `sample_chinese_no_bom.txt` | charset-normalizer | suite | 220 | BOM-less Chinese text (mixed simplified and traditional) |
@@ -2250,13 +2350,18 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 8,524 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 4,436 |  |
 
-#### `utf-32le-en/` — 5 files
+#### `utf-32le-en/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_84511.txt` | CulturaX | transcoded | 6,560 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 3,396 |  |
 | `culturax_mC4_84513.txt` | CulturaX | transcoded | 10,132 |  |
+| `historic_0866593e542a.txt` | unknown | historic | 2,412 |  |
+| `historic_4b327de4435a.txt` | unknown | historic | 1,804 |  |
+| `historic_5100ecaf0082.txt` | unknown | historic | 17,560 |  |
+| `historic_61c4115e7bf8.txt` | unknown | historic | 9,164 |  |
+| `historic_eb9f3dfa12f3.txt` | unknown | historic | 18,460 |  |
 | `nobom-utf32le.txt` | unknown | suite | 3,176 | No-BOM encoding test |
 | `plane1-utf-32le.html` | Contributed | suite | 24,500 | Unicode Plane 1 (supplementary) test |
 
@@ -2564,22 +2669,24 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 10,672 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 11,472 |  |
 
-#### `utf-32le-zh/` — 4 files
+#### `utf-32le-zh/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 8,380 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 2,576 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 4,292 |  |
 | `sample_chinese_no_bom.txt` | charset-normalizer | suite | 220 | BOM-less Chinese text (mixed simplified and traditional) |
 
-#### `utf-7-ar/` — 3 files
+#### `utf-7-ar/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_98639.txt` | CulturaX | transcoded | 6,068 |  |
 | `culturax_mC4_98635.txt` | CulturaX | transcoded | 2,882 |  |
 | `culturax_mC4_98638.txt` | CulturaX | transcoded | 7,452 |  |
+| `historic_3e9a7856b089.txt` | unknown | historic | 5,501 |  |
+| `historic_b8ebd6205464.txt` | unknown | historic | 74,819 |  |
+| `historic_e2099e5f027a.txt` | unknown | historic | 76,816 |  |
 
 #### `utf-7-be/` — 3 files
 
@@ -2953,12 +3060,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 4,652 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 5,093 |  |
 
-#### `utf-7-zh/` — 3 files
+#### `utf-7-zh/` — 2 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_5.txt` | Ude | transcoded | 374 |  |
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 5,335 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,680 |  |
 
 #### `utf-8-ar/` — 3 files
@@ -3007,10 +3113,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78726.txt` | CulturaX | transcoded | 2,731 |  |
 | `culturax_mC4_78727.txt` | CulturaX | transcoded | 2,892 |  |
 
-#### `utf-8-da/` — 3 files
+#### `utf-8-da/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_www.1tap.gg_ed3258beae72.html` | Common Crawl | wild | 29,743 |  |
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 1,967 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,008 |  |
 | `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,049 |  |
@@ -3032,7 +3139,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 3,696 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 2,021 |  |
 
-#### `utf-8-en/` — 15 files
+#### `utf-8-en/` — 21 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -3044,6 +3151,12 @@ content transcoded to test detection across encodings.
 | `_ude_6.txt` | Ude | suite | 3,524 | English Wikipedia article about the English language |
 | `anitabee.blogspot.com.xml` | chardet | wild | 37,858 |  |
 | `boobooo.blogspot.com.xml` | chardet | wild | 12,982 | High markup ratio (62% tags) |
+| `cc_0009.in_993043358e07.html` | Common Crawl | wild | 119,710 |  |
+| `cc_007.es_0ee6a7b4d759.html` | Common Crawl | wild | 63,839 |  |
+| `cc_alexisbaskind.net_8b28d2d33ad5.html` | Common Crawl | wild | 22,066 |  |
+| `cc_www.00am.it_5da2030da228.html` | Common Crawl | wild | 342,415 |  |
+| `cc_www.00am.it_fc6eda56a31f.html` | Common Crawl | wild | 40,103 |  |
+| `cc_www.gnu-media.org_be1726b8984d.html` | Common Crawl | wild | 42,231 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 850 |  |
 | `finnish-utf-8-latin-1-confusion.html` | unknown | suite | 5,703 | Very high markup ratio (90% tags) |
 | `iris-utf-8.csv` | unknown | suite | 5,118 | Iris dataset, originally from Capital One DataProfiler |
@@ -3060,18 +3173,28 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | transcoded | 1,345 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 2,655 |  |
 
-#### `utf-8-es/` — 3 files
+#### `utf-8-es/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_00box.es_be3bc92fa8cf.html` | Common Crawl | wild | 61,647 |  |
+| `cc_00padel.es_5147d58f0be8.html` | Common Crawl | wild | 21,797 |  |
+| `cc_00padel.es_7166baab62de.html` | Common Crawl | wild | 15,871 |  |
+| `cc_www.00podcast.es_b516b02ee8f0.html` | Common Crawl | wild | 23,247 |  |
+| `cc_www.00podcast.es_cee86aa5cc6f.html` | Common Crawl | wild | 22,425 |  |
+| `cc_www.gnu-media.org_058cbe890bad.html` | Common Crawl | wild | 42,038 |  |
 | `culturax_mC4_87069.txt` | CulturaX | transcoded | 1,491 |  |
 | `culturax_mC4_87070.txt` | CulturaX | transcoded | 3,026 |  |
 | `culturax_mC4_87071.txt` | CulturaX | transcoded | 2,822 |  |
 
-#### `utf-8-et/` — 3 files
+#### `utf-8-et/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_007.ee_b1a569e0994a.html` | Common Crawl | wild | 210,143 |  |
+| `cc_www.%c3%b6%c3%b6jooks.ee_077a8791212c.html` | Common Crawl | wild | 61,926 |  |
+| `cc_www.01.ee_ccdec185b686.html` | Common Crawl | wild | 28,841 |  |
+| `cc_www.01.ee_d47fbe18dd44.html` | Common Crawl | wild | 28,745 |  |
 | `culturax_mC4_66818.txt` | CulturaX | transcoded | 2,623 |  |
 | `culturax_mC4_66819.txt` | CulturaX | transcoded | 2,876 |  |
 | `culturax_mC4_66820.txt` | CulturaX | transcoded | 1,045 |  |
@@ -3092,10 +3215,12 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 3,094 |  |
 | `culturax_mC4_80363.txt` | CulturaX | transcoded | 2,920 |  |
 
-#### `utf-8-fr/` — 3 files
+#### `utf-8-fr/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_alexis-web.net_7d551b16bab8.html` | Common Crawl | wild | 18,075 |  |
+| `cc_www.07.re_782ba67b4be7.html` | Common Crawl | wild | 13,231 |  |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 2,945 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 764 |  |
 | `culturax_mC4_88369.txt` | CulturaX | transcoded | 2,936 |  |
@@ -3116,13 +3241,21 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,962 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 6,699 |  |
 
-#### `utf-8-he/` — 6 files
+#### `utf-8-he/` — 14 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_he1.txt` | Ude | suite | 1,187 |  |
 | `_ude_he2.txt` | Ude | suite | 2,893 |  |
 | `_ude_he3.txt` | Ude | suite | 612 |  |
+| `cc_www.%d7%93%d7%99%d7%92%d7%99%d7%99.co.il_a1778eb99ec5.html` | Common Crawl | wild | 72,558 |  |
+| `cc_www.%d7%97%d7%93%d7%a9.co.il_b86756849f36.html` | Common Crawl | wild | 52,983 |  |
+| `cc_www.%d7%97%d7%93%d7%a9.co.il_eccab40bf3f9.html` | Common Crawl | wild | 30,442 |  |
+| `cc_www.%d7%9b%d7%9c%d7%9b%d7%9c%d7%9f%d7%a4%d7%a8%d7%a7%d7%98%d7%99.co.il_f0a7313cb9e1.html` | Common Crawl | wild | 91,580 |  |
+| `cc_www.%d7%9b%d7%a0%d7%99%d7%a1%d7%aa-%d7%a9%d7%91%d7%aa.co.il_ac24b3e750de.html` | Common Crawl | wild | 134,520 |  |
+| `cc_www.%d7%9b%d7%a0%d7%99%d7%a1%d7%aa-%d7%a9%d7%91%d7%aa.co.il_f7073e1f3bfd.html` | Common Crawl | wild | 134,518 |  |
+| `cc_www.%d7%9c%d7%95%d7%a4%d7%98.co.il_54d86bc24933.html` | Common Crawl | wild | 56,165 |  |
+| `cc_www.%d7%a4%d7%a8%d7%a1.co.il_78b3725cb2a6.html` | Common Crawl | wild | 107,696 |  |
 | `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,271 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,111 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 5,301 |  |
@@ -3162,37 +3295,71 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | transcoded | 1,634 |  |
 | `culturax_mC4_77489.txt` | CulturaX | transcoded | 3,055 |  |
 
-#### `utf-8-it/` — 3 files
+#### `utf-8-it/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_www.0-0-0.it_0e954ba7e2ff.html` | Common Crawl | wild | 79,128 |  |
+| `cc_www.0-0-0.it_fa50a71340f1.html` | Common Crawl | wild | 79,128 |  |
+| `cc_www.0-100.it_6dde057df324.html` | Common Crawl | wild | 257,231 |  |
+| `cc_www.0-100.it_8f64ebb93a6b.html` | Common Crawl | wild | 257,473 |  |
+| `cc_www.00042.it_6f754f615230.html` | Common Crawl | wild | 45,145 |  |
 | `culturax_mC4_92388.txt` | CulturaX | transcoded | 2,383 |  |
 | `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,297 |  |
 | `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,454 |  |
 
-#### `utf-8-ja/` — 4 files
+#### `utf-8-ja/` — 20 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_mozilla_bug426271_text-utf-8.html` | Mozilla | suite | 1,027 |  |
+| `cc_%e3%81%aa%e3%81%8f%e3%81%99%e3%83%bc%e3%81%ae.xyz_1b4d2a55ad8e.html` | Common Crawl | wild | 113,559 |  |
+| `cc_%e3%82%a6%e3%82%a9%e3%83%bc%e3%82%ad%e3%83%b3%e3%82%b0%e3%83%87%e3%83%83%e3%83%89.xyz_38e9cc253094.html` | Common Crawl | wild | 154,550 |  |
+| `cc_%e3%82%a6%e3%82%a9%e3%83%bc%e3%82%ad%e3%83%b3%e3%82%b0%e3%83%87%e3%83%83%e3%83%89.xyz_d7eac102aae2.html` | Common Crawl | wild | 212,719 |  |
+| `cc_%e4%bd%8f%e5%ae%85%e3%83%ad%e3%83%bc%e3%83%b3.xyz_84ec27f4012a.html` | Common Crawl | wild | 225,897 |  |
+| `cc_%e7%be%8e%e3%83%bb%e3%83%9e%e3%82%b8%e3%83%83%e3%82%af%e3%83%87%e3%83%a5%e3%82%aa%e3%83%9b%e3%83%af%e3%82%a4%e3%82%af%e3%83%ac%e3%82%a4%e3%83%91%e3%83%83%e3%82%af.xyz_5a9237a69931.html` | Common Crawl | wild | 147,635 |  |
+| `cc_%e8%83%b8%e3%82%92%e5%a4%a7%e3%81%8d%e3%81%8f%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95.xyz_61ba641adf75.html` | Common Crawl | wild | 129,759 |  |
+| `cc_%e8%83%b8%e3%82%92%e5%a4%a7%e3%81%8d%e3%81%8f%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95.xyz_ad9a5107060d.html` | Common Crawl | wild | 108,806 |  |
+| `cc_%e8%84%b1%e6%af%9b%e7%a6%8f%e5%b2%a1.xyz_39d4871e3096.html` | Common Crawl | wild | 43,064 |  |
+| `cc_0123artplus.co.jp_0e38be8c0bd0.html` | Common Crawl | wild | 18,753 |  |
+| `cc_012grp.co.jp_a567dc1c0697.html` | Common Crawl | wild | 26,657 |  |
+| `cc_012grp.co.jp_c39f5d56b132.html` | Common Crawl | wild | 39,306 |  |
+| `cc_0166.co.jp_a2a11258cac7.html` | Common Crawl | wild | 87,302 |  |
+| `cc_0166.co.jp_dc59b2e5ce4b.html` | Common Crawl | wild | 43,550 |  |
+| `cc_017.co.jp_a510f16922e4.html` | Common Crawl | wild | 36,597 |  |
+| `cc_017.co.jp_ea6edd089f90.html` | Common Crawl | wild | 40,969 |  |
+| `cc_www.012345.co.jp_41e53c1d4839.html` | Common Crawl | wild | 26,533 |  |
 | `culturax_OSCAR-2301_6.txt` | CulturaX | transcoded | 2,152 |  |
 | `culturax_mC4_4.txt` | CulturaX | transcoded | 7,544 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 8,524 |  |
 
-#### `utf-8-kk/` — 3 files
+#### `utf-8-kk/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_alexnrock.info_7e56f529ca33.html` | Common Crawl | wild | 53,662 |  |
+| `cc_almakz.info_4aacd4d6f174.html` | Common Crawl | wild | 97,546 |  |
+| `cc_almakz.info_7c2945db2295.html` | Common Crawl | wild | 32,487 |  |
+| `cc_aqparat.info_9d7d85be9561.html` | Common Crawl | wild | 86,253 |  |
+| `cc_lyricstranslate.com_912bcccae0d8.html` | Common Crawl | wild | 70,445 |  |
+| `cc_taximaxim.am_7821a9dcce52.html` | Common Crawl | wild | 24,933 |  |
+| `cc_taximaxim.am_88887f32dbbe.html` | Common Crawl | wild | 25,620 |  |
+| `cc_www.afor.academy_c5c4ee6a4853.html` | Common Crawl | wild | 19,640 |  |
 | `culturax_mC4_73160.txt` | CulturaX | transcoded | 3,609 |  |
 | `culturax_mC4_73161.txt` | CulturaX | transcoded | 1,207 |  |
 | `culturax_mC4_73162.txt` | CulturaX | transcoded | 5,375 |  |
 
-#### `utf-8-ko/` — 5 files
+#### `utf-8-ko/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_1.txt` | Ude | suite | 549 |  |
 | `_ude_2.txt` | Ude | suite | 1,628 |  |
+| `cc_000000.co.kr_d2e27d92c283.html` | Common Crawl | wild | 185,969 |  |
+| `cc_0031.co.kr_c9a953f5c0f4.html` | Common Crawl | wild | 1,578 |  |
+| `cc_0044free.co.kr_33dd2a25bb42.html` | Common Crawl | wild | 26,823 |  |
+| `cc_0044free.co.kr_c37b1af608ba.html` | Common Crawl | wild | 27,012 |  |
+| `cc_www.000000.co.kr_24027eee8944.html` | Common Crawl | wild | 185,977 |  |
 | `culturax_mC4_0.txt` | CulturaX | transcoded | 4,201 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 6,961 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,479 |  |
@@ -3269,19 +3436,33 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_101817.txt` | CulturaX | transcoded | 2,965 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 2,899 |  |
 
-#### `utf-8-ro/` — 3 files
+#### `utf-8-ro/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_0100.ro_c87da0012a54.html` | Common Crawl | wild | 134,711 |  |
+| `cc_07alaptare.ro_36dffa441a8b.html` | Common Crawl | wild | 63,836 |  |
+| `cc_www.0707.ro_7937cdde01db.html` | Common Crawl | wild | 63,065 |  |
+| `cc_www.075dermato.ro_bc2335574cf0.html` | Common Crawl | wild | 166,319 |  |
+| `cc_www.075dermato.ro_f52d9073ad8b.html` | Common Crawl | wild | 166,319 |  |
 | `culturax_OSCAR-2019_78977.txt` | CulturaX | transcoded | 811 |  |
 | `culturax_mC4_78976.txt` | CulturaX | transcoded | 2,782 |  |
 | `culturax_mC4_78978.txt` | CulturaX | transcoded | 2,829 |  |
 
-#### `utf-8-ru/` — 4 files
+#### `utf-8-ru/` — 13 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_russian.txt` | Ude | suite | 2,209 |  |
+| `cc_%e2%81%a0bookscafe.net_8af46fc992d1.html` | Common Crawl | wild | 55,255 |  |
+| `cc_0--0-0.ru_1ba355d73161.html` | Common Crawl | wild | 80,966 |  |
+| `cc_0--0-0.ru_d1f6b659bab2.html` | Common Crawl | wild | 77,315 |  |
+| `cc_007.ee_2f338fde7d9c.html` | Common Crawl | wild | 147,665 |  |
+| `cc_2019.gold_01bea974854f.html` | Common Crawl | wild | 39,163 |  |
+| `cc_2019.gold_e83855d78c74.html` | Common Crawl | wild | 60,631 |  |
+| `cc_oneiniecau.gnubee.org_01499c620955.html` | Common Crawl | wild | 9,975 |  |
+| `cc_oneiniecau.gnubee.org_8a330b005cb9.html` | Common Crawl | wild | 8,947 |  |
+| `cc_www.0-0-12.ru_78cdc9e1779f.html` | Common Crawl | wild | 32,698 |  |
 | `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,446 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,127 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 2,434 |  |
@@ -3357,11 +3538,18 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 5,025 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 3,699 |  |
 
-#### `utf-8-sig-en/` — 1 files
+#### `utf-8-sig-en/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `bom-utf-8.srt` | unknown | wild | 859 | BOM detection test subtitle |
+| `repo_262fb3358f9c.txt` | unknown | wild | 1,468 |  |
+| `repo_2de9235f1df6.txt` | unknown | wild | 1,252 |  |
+| `repo_30c92f017c28.txt` | unknown | wild | 1,303 |  |
+| `repo_7fdf47f7b8b4.txt` | unknown | wild | 12,971 |  |
+| `repo_83a5eef8ebd2.txt` | unknown | wild | 1,346 |  |
+| `repo_88144d06b2ff.txt` | unknown | wild | 1,282 |  |
+| `repo_b4a7045568cb.txt` | unknown | wild | 1,434 |  |
 
 #### `utf-8-sig-eo/` — 3 files
 
@@ -3668,12 +3856,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 3,311 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 3,582 |  |
 
-#### `utf-8-sig-zh/` — 3 files
+#### `utf-8-sig-zh/` — 2 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_5.txt` | Ude | transcoded | 410 |  |
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 5,595 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,813 |  |
 
 #### `utf-8-sk/` — 3 files
@@ -3708,10 +3895,18 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | transcoded | 2,644 |  |
 | `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,203 |  |
 
-#### `utf-8-tg/` — 3 files
+#### `utf-8-tg/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_aviav.info_ec71bf182229.html` | Common Crawl | wild | 35,238 |  |
+| `cc_magrm.com_beb0c77075b8.html` | Common Crawl | wild | 36,000 |  |
+| `cc_taximaxim.am_f3d36a229519.html` | Common Crawl | wild | 24,856 |  |
+| `cc_tg.gem.agency_aae82e85e3bc.html` | Common Crawl | wild | 94,807 |  |
+| `cc_www.alkhorasani.com_cbf603fcdfa1.html` | Common Crawl | wild | 68,646 |  |
+| `cc_www.alkhorasani.com_eea4268733df.html` | Common Crawl | wild | 62,560 |  |
+| `cc_www.aluminum-profiles-supplier.com_23249736a0c5.html` | Common Crawl | wild | 59,269 |  |
+| `cc_www.junschem.com_ba3843bc0b96.html` | Common Crawl | wild | 55,221 |  |
 | `culturax_mC4_74865.txt` | CulturaX | transcoded | 3,139 |  |
 | `culturax_mC4_74866.txt` | CulturaX | transcoded | 5,147 |  |
 | `culturax_mC4_74867.txt` | CulturaX | transcoded | 5,097 |  |
@@ -3748,37 +3943,62 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_82297.txt` | CulturaX | transcoded | 5,084 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 2,171 |  |
 
-#### `utf-8-vi/` — 3 files
+#### `utf-8-vi/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_101hoidap.asia_6fc302b17fa7.html` | Common Crawl | wild | 102,924 |  |
+| `cc_101hoidap.asia_dbf5922f577f.html` | Common Crawl | wild | 102,743 |  |
+| `cc_123travel.asia_fcae141d07cf.html` | Common Crawl | wild | 75,814 |  |
+| `cc_aag.aero_3f5fc7745352.html` | Common Crawl | wild | 34,477 |  |
+| `cc_aag.aero_af9c91f3a19e.html` | Common Crawl | wild | 58,615 |  |
+| `cc_aapd-saac.org_63c94d046a56.html` | Common Crawl | wild | 52,508 |  |
+| `cc_www.2voz.asia_45b200e0a27e.html` | Common Crawl | wild | 188,173 |  |
+| `cc_www.2voz.asia_be0952afae64.html` | Common Crawl | wild | 156,398 |  |
 | `culturax_OSCAR-2109_85695.txt` | CulturaX | transcoded | 812 |  |
 | `culturax_mC4_85693.txt` | CulturaX | transcoded | 3,308 |  |
 | `culturax_mC4_85694.txt` | CulturaX | transcoded | 3,579 |  |
 
-#### `utf-8-zh/` — 5 files
+#### `utf-8-zh/` — 12 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_chromium_UTF-8_with_no_encoding_specified.html` | Chromium | suite | 811 |  |
 | `_ude_5.txt` | Ude | suite | 407 |  |
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 5,592 |  |
+| `cc_0113.ee_3867c0a4ad19.html` | Common Crawl | wild | 10,418 |  |
+| `cc_0115.ee_2e4163613535.html` | Common Crawl | wild | 8,491 |  |
+| `cc_0115.ee_81394fb650c0.html` | Common Crawl | wild | 26,034 |  |
+| `cc_0305.ink_0ed94a170cf4.html` | Common Crawl | wild | 14,957 |  |
+| `cc_www.0113.ee_ca6db455d61c.html` | Common Crawl | wild | 10,572 |  |
+| `cc_www.02.ink_9971516f93e2.html` | Common Crawl | wild | 25,421 |  |
+| `cc_www.0735.ink_3e559b9e716c.html` | Common Crawl | wild | 46,212 |  |
+| `cc_www.0735.ink_a843c217d302.html` | Common Crawl | wild | 12,760 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,810 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 3,029 |  |
 
-### ISO 8859 (281 files in 68 directories)
+### ISO 8859 (421 files in 70 directories)
 
-#### `iso-8859-1-da/` — 1 files
+#### `iso-8859-1-da/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | suite | 529 |  |
+| `po_72ebf5a593ca.po` | unknown | wild | 96,000 |  |
+| `po_9ab9e728aa3f.po` | unknown | wild | 61,624 |  |
+| `po_afaa3cc70ff0.po` | unknown | wild | 29,212 |  |
+| `po_c30babbdca4e.po` | unknown | wild | 272,398 |  |
+| `po_da95f2fb3f6b.po` | unknown | wild | 14,571 |  |
 
-#### `iso-8859-1-de/` — 1 files
+#### `iso-8859-1-de/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | suite | 765 |  |
+| `po_16dde167f551.po` | unknown | wild | 50,112 |  |
+| `po_29e5718b366e.po` | unknown | wild | 25,543 |  |
+| `po_2de7d95e5370.po` | unknown | wild | 322,893 |  |
+| `po_3371f9d715bc.po` | unknown | wild | 18,918 |  |
+| `po_4bf750b3f4c1.po` | unknown | wild | 13,904 |  |
 
 #### `iso-8859-1-en/` — 2 files
 
@@ -3787,12 +4007,20 @@ content transcoded to test detection across encodings.
 | `_mozilla_bug421271_text.html` | Mozilla | suite | 671 |  |
 | `ioreg_output.txt` | unknown | suite | 748,505 | Large file (748,505 bytes); macOS ioreg command output, added for MacRoman prober testing |
 
-#### `iso-8859-1-es/` — 2 files
+#### `iso-8859-1-es/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | suite | 377 |  |
 | `_ude_5.txt` | Ude | suite | 1,639 |  |
+| `cc_12octubre.es_6e9833f21a16.html` | Common Crawl | wild | 14,110 |  |
+| `cc_www.100franquicias.com.mx_10a5d7cae651.html` | Common Crawl | wild | 96,497 |  |
+| `cc_www.100franquicias.com.mx_27afbef03945.html` | Common Crawl | wild | 96,772 |  |
+| `cc_www.123velo.es_2bb9a9598b17.html` | Common Crawl | wild | 26,376 |  |
+| `cc_www.12neumaticos.es_2d328411fc05.html` | Common Crawl | wild | 26,196 |  |
+| `cc_www.12neumaticos.es_e73c2e229ce2.html` | Common Crawl | wild | 81,551 |  |
+| `po_0d6186da69ea.po` | unknown | wild | 76,252 |  |
+| `po_a2fbc70c39af.po` | unknown | wild | 354,177 |  |
 
 #### `iso-8859-1-fi/` — 2 files
 
@@ -3801,15 +4029,30 @@ content transcoded to test detection across encodings.
 | `_ude_6.txt` | Ude | suite | 2,189 |  |
 | `culturax_mC4_80364.txt` | CulturaX | transcoded | 1,790 |  |
 
-#### `iso-8859-1-fr/` — 5 files
+#### `iso-8859-1-fr/` — 12 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | suite | 1,163 |  |
 | `_ude_2.txt` | Ude | suite | 2,010 |  |
-| `archive_www_lefigaro_fr_20020601.txt` | Web Archive | suite | 3,475 |  |
-| `archive_www_lemonde_fr_20020601.txt` | Web Archive | suite | 8,192 |  |
+| `archive_www_lefigaro_fr_20020601.txt` | Web Archive | wild | 3,475 |  |
+| `archive_www_lemonde_fr_20020601.txt` | Web Archive | wild | 8,192 |  |
+| `cc_www.008th.be_9ba809f53e5b.html` | Common Crawl | wild | 87,371 |  |
 | `culturax_mC4_88375.txt` | CulturaX | transcoded | 2,588 |  |
+| `po_2aa4f397fe37.po` | unknown | wild | 82,969 |  |
+| `po_695556666802.po` | unknown | wild | 32,170 |  |
+| `po_8362bd082519.po` | unknown | wild | 474,263 |  |
+| `po_b48882037425.po` | unknown | wild | 50,653 |  |
+| `po_bdca1700d4d3.po` | unknown | wild | 19,799 |  |
+| `po_f857eb0d5be0.po` | unknown | wild | 116,730 |  |
+
+#### `iso-8859-1-ga/` — 3 files
+
+| File | Source | Provenance | Size | Notes |
+|------|--------|------------|-----:|-------|
+| `po_1c4a05192548.po` | unknown | wild | 284,845 |  |
+| `po_e3860f7dcd3d.po` | unknown | wild | 11,868 |  |
+| `po_f58260dcdd35.po` | unknown | wild | 61,114 |  |
 
 #### `iso-8859-1-id/` — 1 files
 
@@ -3817,10 +4060,14 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 2,693 |  |
 
-#### `iso-8859-1-is/` — 3 files
+#### `iso-8859-1-is/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_www.123dekk.is_667a0c710c25.html` | Common Crawl | wild | 32,560 |  |
+| `cc_www.123dekk.is_6ccc10578ba1.html` | Common Crawl | wild | 32,463 |  |
+| `cc_www.123felgur.is_44c5d7b0c702.html` | Common Crawl | wild | 22,390 |  |
+| `cc_www.123felgur.is_46438421825c.html` | Common Crawl | wild | 22,388 |  |
 | `culturax_00000.txt` | CulturaX | transcoded | 554 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,170 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 22,441 |  |
@@ -3831,7 +4078,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `_ude_3.txt` | Ude | suite | 1,495 |  |
 | `_ude_4.txt` | Ude | suite | 1,222 |  |
-| `archive_www_repubblica_it_20030601.txt` | Web Archive | suite | 5,276 |  |
+| `archive_www_repubblica_it_20030601.txt` | Web Archive | wild | 5,276 |  |
 
 #### `iso-8859-1-ms/` — 1 files
 
@@ -3847,19 +4094,28 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 3,566 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,922 |  |
 
-#### `iso-8859-1-no/` — 3 files
+#### `iso-8859-1-no/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 827 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,857 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 34,353 |  |
+| `po_a5ee4c7dfed5.po` | unknown | wild | 45,775 |  |
 
-#### `iso-8859-1-pt/` — 4 files
+#### `iso-8859-1-pt/` — 12 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_1.txt` | Ude | suite | 1,648 |  |
+| `cc_12rcmec.net_f14d41b0712c.html` | Common Crawl | wild | 42,641 |  |
+| `cc_187.45.102.1_8085_ae8f71a40dc3.html` | Common Crawl | wild | 180,829 |  |
+| `cc_4funbr.net_a2629439a5ce.html` | Common Crawl | wild | 15,364 |  |
+| `cc_kb.3gnt.net_7b1cd0dde6f9.html` | Common Crawl | wild | 20,675 |  |
+| `cc_mysticallianceuni24.1talk.net_10b882e390bb.html` | Common Crawl | wild | 74,302 |  |
+| `cc_mysticallianceuni24.1talk.net_a1850791ea61.html` | Common Crawl | wild | 44,765 |  |
+| `cc_www.3mimoveis.net_19e7a984013b.html` | Common Crawl | wild | 48,098 |  |
+| `cc_www.3mimoveis.net_b2d83b0be34a.html` | Common Crawl | wild | 40,501 |  |
 | `culturax_00000.txt` | CulturaX | transcoded | 180 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,806 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 8,646 |  |
@@ -3880,18 +4136,33 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,041 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,322 |  |
 
-#### `iso-8859-10-is/` — 3 files
+#### `iso-8859-10-is/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 500 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,930 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 5,304 |  |
+| `historic_5394e7bd35d1.txt` | unknown | historic | 22,389 |  |
+| `historic_d2291bff0732.txt` | unknown | historic | 22,391 |  |
 
-#### `iso-8859-13-et/` — 3 files
+#### `iso-8859-11-th/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_122.154.100.103_38b21f727a64.html` | Common Crawl | wild | 7,547 |  |
+| `cc_nongkihealth.com_002a5ab27e19.html` | Common Crawl | wild | 67,386 |  |
+| `cc_www.gasthai.com_5d8925d4efff.html` | Common Crawl | wild | 8,926 |  |
+
+#### `iso-8859-13-et/` — 8 files
+
+| File | Source | Provenance | Size | Notes |
+|------|--------|------------|-----:|-------|
+| `cc_eestimale.ee_426eb3e4e4fa.html` | Common Crawl | wild | 17,060 |  |
+| `cc_eestimale.ee_ea1ba8e23e78.html` | Common Crawl | wild | 17,074 |  |
+| `cc_kipper.ee_f7f252d7f5e3.html` | Common Crawl | wild | 31,200 |  |
+| `cc_maasturid.ee_9dfd63f36231.html` | Common Crawl | wild | 33,298 |  |
+| `cc_www.kipper.ee_f927569ad682.html` | Common Crawl | wild | 30,965 |  |
 | `culturax_00000.txt` | CulturaX | transcoded | 424 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,281 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 11,750 |  |
@@ -3928,13 +4199,15 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_78730.txt` | CulturaX | transcoded | 2,790 |  |
 
-#### `iso-8859-14-ga/` — 3 files
+#### `iso-8859-14-ga/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 611 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 3,112 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,210 |  |
+| `historic_414e6f87393a.txt` | unknown | historic | 284,846 |  |
+| `historic_93cdd10add77.txt` | unknown | historic | 11,869 |  |
 
 #### `iso-8859-14-gd/` — 3 files
 
@@ -3950,11 +4223,12 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_15.txt` | uchardet | suite | 615 |  |
 
-#### `iso-8859-15-de/` — 1 files
+#### `iso-8859-15-de/` — 2 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `archive_www_spiegel_de_20020601.txt` | Web Archive | suite | 8,192 |  |
+| `archive_www_spiegel_de_20020601.txt` | Web Archive | wild | 8,192 |  |
+| `cc_www.2ask.at_3daa78526da5.html` | Common Crawl | wild | 30,308 |  |
 
 #### `iso-8859-15-en/` — 3 files
 
@@ -3964,24 +4238,35 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,871 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 3,372 |  |
 
-#### `iso-8859-15-es/` — 1 files
+#### `iso-8859-15-es/` — 2 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_15.txt` | uchardet | suite | 371 |  |
+| `cc_www.15club.com.ar_fc7115bde07b.html` | Common Crawl | wild | 31,380 |  |
 
-#### `iso-8859-15-fi/` — 1 files
+#### `iso-8859-15-fi/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 3,000 |  |
+| `po_19f7015c0a1d.po` | unknown | wild | 88,958 |  |
+| `po_44408f07c1c0.po` | unknown | wild | 16,871 |  |
+| `po_f6b83b6d2f73.po` | unknown | wild | 24,954 |  |
+| `po_fe92531deb17.po` | unknown | wild | 215,993 |  |
 
-#### `iso-8859-15-fr/` — 2 files
+#### `iso-8859-15-fr/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_15.txt` | uchardet | suite | 976 |  |
+| `cc_www.applicpub33.com_3b61f92c8c8e.html` | Common Crawl | wild | 23,772 |  |
+| `cc_www.aprixfous.com_bda76f1aace8.html` | Common Crawl | wild | 101,432 |  |
+| `cc_www.bdnet.com_3c37066f6f86.html` | Common Crawl | wild | 69,185 |  |
+| `cc_www.ty-cado.com_4e6a8071e1be.html` | Common Crawl | wild | 54,383 |  |
+| `cc_www.ty-cado.com_77ecebe534a4.html` | Common Crawl | wild | 53,710 |  |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 2,871 |  |
+| `po_5700572a7a81.po` | unknown | wild | 230,933 |  |
 
 #### `iso-8859-15-ga/` — 1 files
 
@@ -4072,7 +4357,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,383 |  |
 
-#### `iso-8859-16-ro/` — 4 files
+#### `iso-8859-16-ro/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4080,6 +4365,8 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_78981.txt` | CulturaX | transcoded | 2,842 |  |
 | `culturax_mC4_78979.txt` | CulturaX | transcoded | 2,872 |  |
 | `culturax_mC4_78980.txt` | CulturaX | transcoded | 2,753 |  |
+| `historic_2869a7b9ce2c.txt` | unknown | historic | 134,168 |  |
+| `historic_3ae09d22c7c8.txt` | unknown | historic | 63,030 |  |
 
 #### `iso-8859-16-sk/` — 3 files
 
@@ -4097,7 +4384,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66689.txt` | CulturaX | transcoded | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | transcoded | 1,188 |  |
 
-#### `iso-8859-2-cs/` — 5 files
+#### `iso-8859-2-cs/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4106,13 +4393,19 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,362 |  |
 | `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,424 |  |
 | `culturax_mC4_98823.txt` | CulturaX | transcoded | 1,627 |  |
+| `po_3c55fe738406.po` | unknown | wild | 73,123 |  |
+| `po_681f3ab15465.po` | unknown | wild | 46,645 |  |
+| `po_a111d5cab97a.po` | unknown | wild | 382,459 |  |
+| `po_a331d850d2b0.po` | unknown | wild | 111,778 |  |
 
-#### `iso-8859-2-hr/` — 2 files
+#### `iso-8859-2-hr/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_iso88592_hr.txt` | ENCA | suite | 127 |  |
 | `_ude_1.txt` | Ude | suite | 5,976 |  |
+| `po_0e85f2d2779c.po` | unknown | wild | 58,481 |  |
+| `po_75cfede70965.po` | unknown | wild | 18,433 |  |
 
 #### `iso-8859-2-hu/` — 19 files
 
@@ -4138,27 +4431,38 @@ content transcoded to test detection across encodings.
 | `torokorszag.blogspot.com.xml` | chardet | wild | 596,838 | Large file (596,838 bytes) |
 | `ugyanmar.blogspot.com.xml` | chardet | wild | 17,772 | High markup ratio (66% tags) |
 
-#### `iso-8859-2-pl/` — 7 files
+#### `iso-8859-2-pl/` — 14 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_iso88592_pl.txt` | ENCA | suite | 105 |  |
 | `_ude_1.txt` | Ude | suite | 3,413 |  |
-| `archive_www_onet_pl_20030601.txt` | Web Archive | suite | 4,810 |  |
-| `archive_www_wp_pl_20030601.txt` | Web Archive | suite | 5,126 |  |
+| `archive_www_onet_pl_20030601.txt` | Web Archive | wild | 4,810 |  |
+| `archive_www_wp_pl_20030601.txt` | Web Archive | wild | 5,126 |  |
 | `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,815 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,383 |  |
 | `culturax_mC4_97063.txt` | CulturaX | transcoded | 501 |  |
+| `po_1fd74927ef41.po` | unknown | wild | 11,999 |  |
+| `po_21770a5e9c36.po` | unknown | wild | 13,527 |  |
+| `po_3d9a22700ddc.po` | unknown | wild | 27,217 |  |
+| `po_678158c85723.po` | unknown | wild | 61,455 |  |
+| `po_70881a30ca37.po` | unknown | wild | 281,563 |  |
+| `po_bb876618885d.po` | unknown | wild | 46,418 |  |
+| `po_d934fa4ebcf1.po` | unknown | wild | 178,050 |  |
 
-#### `iso-8859-2-ro/` — 3 files
+#### `iso-8859-2-ro/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 500 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,771 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 4,809 |  |
+| `po_296987deb486.po` | unknown | wild | 18,533 |  |
+| `po_521e1f85cc09.po` | unknown | wild | 12,023 |  |
+| `po_a14d06ffee96.po` | unknown | wild | 12,977 |  |
+| `po_c8d5efd784bd.po` | unknown | wild | 29,494 |  |
 
-#### `iso-8859-2-sk/` — 6 files
+#### `iso-8859-2-sk/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4168,8 +4472,10 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,445 |  |
 | `culturax_mC4_95227.txt` | CulturaX | transcoded | 2,868 |  |
 | `culturax_mC4_95230.txt` | CulturaX | transcoded | 2,928 |  |
+| `po_d1757eecc2e1.po` | unknown | wild | 148,505 |  |
+| `po_e2911654458a.po` | unknown | wild | 378,972 |  |
 
-#### `iso-8859-2-sl/` — 4 files
+#### `iso-8859-2-sl/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4177,6 +4483,9 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66688.txt` | CulturaX | transcoded | 2,892 |  |
 | `culturax_mC4_66689.txt` | CulturaX | transcoded | 2,655 |  |
 | `culturax_mC4_66690.txt` | CulturaX | transcoded | 1,188 |  |
+| `po_8fc044a8c85b.po` | unknown | wild | 112,789 |  |
+| `po_c42c7032ceb4.po` | unknown | wild | 48,638 |  |
+| `po_fea22ecb7da5.po` | unknown | wild | 59,533 |  |
 
 #### `iso-8859-3-eo/` — 4 files
 
@@ -4195,7 +4504,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_51489.txt` | CulturaX | transcoded | 3,000 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 1,097 |  |
 
-#### `iso-8859-3-tr/` — 4 files
+#### `iso-8859-3-tr/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4203,12 +4512,21 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107848.txt` | CulturaX | transcoded | 1,161 |  |
 | `culturax_mC4_107849.txt` | CulturaX | transcoded | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | transcoded | 2,309 |  |
+| `historic_1161614798d6.txt` | unknown | historic | 1,840 |  |
+| `historic_992bf76c3e0b.txt` | unknown | historic | 1,440 |  |
 
-#### `iso-8859-4-et/` — 1 files
+#### `iso-8859-4-et/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_1.txt` | Ude | suite | 2,894 |  |
+| `cc_193.40.120.114_b6ddb4d174ef.html` | Common Crawl | wild | 69,324 |  |
+| `cc_aarika.ee_5b47096ee34f.html` | Common Crawl | wild | 33,625 |  |
+| `cc_aiaelekter.ee_b9ee3efefc94.html` | Common Crawl | wild | 37,453 |  |
+| `cc_www.aara.ee_5ce75db4361c.html` | Common Crawl | wild | 56,250 |  |
+| `cc_www.aara.ee_76eb80f1481b.html` | Common Crawl | wild | 56,238 |  |
+| `cc_www.kodutud.com_0a867eaa33e3.html` | Common Crawl | wild | 58,835 |  |
+| `cc_www.kodutud.com_b8d6c2a8ab0c.html` | Common Crawl | wild | 58,964 |  |
 
 #### `iso-8859-4-lt/` — 3 files
 
@@ -4218,10 +4536,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_73446.txt` | CulturaX | transcoded | 2,683 |  |
 | `culturax_mC4_73448.txt` | CulturaX | transcoded | 2,819 |  |
 
-#### `iso-8859-4-lv/` — 3 files
+#### `iso-8859-4-lv/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_musee.pieces.gfx.free.fr_9679eb1e43e7.html` | Common Crawl | wild | 31,054 |  |
 | `culturax_mC4_71628.txt` | CulturaX | transcoded | 2,968 |  |
 | `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,304 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 766 |  |
@@ -4307,13 +4626,19 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | transcoded | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | transcoded | 2,821 |  |
 
-#### `iso-8859-6-ar/` — 6 files
+#### `iso-8859-6-ar/` — 12 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_chromium_ISO-8859-6_with_no_encoding_specified.html` | Chromium | suite | 605 |  |
 | `_uchardet_iso_8859_6.txt` | uchardet | suite | 214 |  |
 | `_ude_1.txt` | Ude | suite | 2,637 |  |
+| `cc_akgultrade.com_36462e38122f.html` | Common Crawl | wild | 5,020 |  |
+| `cc_cm-spa.ae_2fa0e13de2d6.html` | Common Crawl | wild | 14,202 |  |
+| `cc_gaeb.gov.eg_96c34e80a37e.html` | Common Crawl | wild | 36,663 |  |
+| `cc_gaeb.gov.eg_9861a21ca250.html` | Common Crawl | wild | 33,440 |  |
+| `cc_www.cm-spa.ae_0aa7cc851092.html` | Common Crawl | wild | 26,555 |  |
+| `cc_yildizapartotel.com_1ae09e1fc347.html` | Common Crawl | wild | 107,073 |  |
 | `culturax_OSCAR-2109_98639.txt` | CulturaX | transcoded | 2,422 |  |
 | `culturax_mC4_98635.txt` | CulturaX | transcoded | 1,125 |  |
 | `culturax_mC4_98641.txt` | CulturaX | transcoded | 1,443 |  |
@@ -4374,7 +4699,7 @@ content transcoded to test detection across encodings.
 | `pcplus.co.il.xml` | chardet | wild | 1,652 |  |
 | `sharks.co.il.xml` | chardet | wild | 4,949 |  |
 
-#### `iso-8859-9-tr/` — 10 files
+#### `iso-8859-9-tr/` — 45 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4382,6 +4707,41 @@ content transcoded to test detection across encodings.
 | `_uchardet_iso_8859_9.txt` | uchardet | suite | 958 |  |
 | `_ude_1.txt` | Ude | suite | 1,379 |  |
 | `_ude_2.txt` | Ude | suite | 2,394 |  |
+| `cc_adanadan.biz_b174e1da83ac.html` | Common Crawl | wild | 61,511 |  |
+| `cc_arud.org_42d29ac784c1.html` | Common Crawl | wild | 35,997 |  |
+| `cc_arud.org_a255bcab75a6.html` | Common Crawl | wild | 35,985 |  |
+| `cc_atabay.org_48b07ced9ab9.html` | Common Crawl | wild | 20,689 |  |
+| `cc_atabay.org_b58d654940e3.html` | Common Crawl | wild | 26,347 |  |
+| `cc_cihancit.istanbul_64b2745a4c92.html` | Common Crawl | wild | 26,237 |  |
+| `cc_cihancit.istanbul_99a4e86305f8.html` | Common Crawl | wild | 21,312 |  |
+| `cc_fatihsultan.istanbul_dc93dc3539f4.html` | Common Crawl | wild | 46,026 |  |
+| `cc_forexforumtr.com_5a84d41a802e.html` | Common Crawl | wild | 45,035 |  |
+| `cc_forkliftkiralamaservis.com_2e34bb8650cd.html` | Common Crawl | wild | 19,377 |  |
+| `cc_forkliftkiralamaservis.com_bf09f8129773.html` | Common Crawl | wild | 11,124 |  |
+| `cc_golcukakademi.org_4d2c9eef7bdf.html` | Common Crawl | wild | 15,454 |  |
+| `cc_gruphepsifanclup.ace.st_ef4e850e7d6d.html` | Common Crawl | wild | 41,868 |  |
+| `cc_gruphepsifans.123.st_629e1d908555.html` | Common Crawl | wild | 72,832 |  |
+| `cc_hursoyinsaat.com_9c088b410175.html` | Common Crawl | wild | 22,211 |  |
+| `cc_hursoyinsaat.com_b37e1c1e50af.html` | Common Crawl | wild | 24,823 |  |
+| `cc_huyukgundem.com_e4fc22e261f8.html` | Common Crawl | wild | 26,975 |  |
+| `cc_huyukgundem.com_ed402e1b742a.html` | Common Crawl | wild | 36,031 |  |
+| `cc_liderklimaservisi.com_91a106395cae.html` | Common Crawl | wild | 21,875 |  |
+| `cc_liderklimaservisi.com_ff3f42877fd1.html` | Common Crawl | wild | 19,793 |  |
+| `cc_rapcity.123.st_b64dd56f44c2.html` | Common Crawl | wild | 51,720 |  |
+| `cc_www.adanadan.biz_bf768f1a587d.html` | Common Crawl | wild | 61,527 |  |
+| `cc_www.atakent1.org_baad0d4ae2b6.html` | Common Crawl | wild | 13,257 |  |
+| `cc_www.eham.istanbul_391943d00b1b.html` | Common Crawl | wild | 34,903 |  |
+| `cc_www.eham.istanbul_dd3576221f2a.html` | Common Crawl | wild | 34,903 |  |
+| `cc_www.forexforumtr.com_35f107070271.html` | Common Crawl | wild | 44,822 |  |
+| `cc_www.formspormerkezi.com_202f585200e4.html` | Common Crawl | wild | 27,887 |  |
+| `cc_www.gtaoyunlari.org_176c59ca21ca.html` | Common Crawl | wild | 12,585 |  |
+| `cc_www.gtaoyunlari.org_f9cb2027601f.html` | Common Crawl | wild | 10,748 |  |
+| `cc_www.gulumsohbet.org_6a59cba6e043.html` | Common Crawl | wild | 20,558 |  |
+| `cc_www.gulumsohbet.org_9a1ab193eb0d.html` | Common Crawl | wild | 18,377 |  |
+| `cc_www.hukukwork.com_fc78ab0a611d.html` | Common Crawl | wild | 33,102 |  |
+| `cc_www.lidersohbet.com_26fd05a4e0be.html` | Common Crawl | wild | 9,392 |  |
+| `cc_www.lidyasardesotel.com_90abc20d672c.html` | Common Crawl | wild | 30,241 |  |
+| `cc_www.lifeaksesuar.com_75c7b5df553d.html` | Common Crawl | wild | 17,004 |  |
 | `culturax_mC4_107848.txt` | CulturaX | transcoded | 1,161 |  |
 | `culturax_mC4_107849.txt` | CulturaX | transcoded | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | transcoded | 2,309 |  |
@@ -4389,9 +4749,9 @@ content transcoded to test detection across encodings.
 | `subtitle.srt` | unknown | wild | 1,440 | Subtitle file |
 | `wikitop_tr_ISO-8859-9.txt` | unknown | wild | 1,840 |  |
 
-### Windows code pages (158 files in 37 directories)
+### Windows code pages (252 files in 37 directories)
 
-#### `windows-1250-cs/` — 6 files
+#### `windows-1250-cs/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4401,6 +4761,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,362 |  |
 | `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,424 |  |
 | `culturax_mC4_98823.txt` | CulturaX | transcoded | 1,627 |  |
+| `po_78a23b2c79e5.po` | unknown | wild | 111,786 |  |
 
 #### `windows-1250-hr/` — 2 files
 
@@ -4423,15 +4784,19 @@ content transcoded to test detection across encodings.
 | `bbc.co.uk.hu.pressreview.xml` | chardet | wild | 17,091 |  |
 | `bbc.co.uk.hu.xml` | chardet | wild | 46,615 |  |
 
-#### `windows-1250-pl/` — 5 files
+#### `windows-1250-pl/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_cp1250_pl.txt` | ENCA | suite | 106 |  |
 | `_ude_1.txt` | Ude | suite | 3,413 |  |
+| `cc_2040.com.pl_7e4fe8f86aae.html` | Common Crawl | wild | 3,620 |  |
+| `cc_68lo.edu.pl_80d8c1771f2c.html` | Common Crawl | wild | 23,532 |  |
+| `cc_abstynenci.czest.pl_ee205218a522.html` | Common Crawl | wild | 24,747 |  |
 | `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,815 |  |
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,383 |  |
+| `po_0df5859deab5.po` | unknown | wild | 178,058 |  |
 
 #### `windows-1250-ro/` — 3 files
 
@@ -4441,7 +4806,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,852 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,539 |  |
 
-#### `windows-1250-sk/` — 6 files
+#### `windows-1250-sk/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4451,6 +4816,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,445 |  |
 | `culturax_mC4_95226.txt` | CulturaX | transcoded | 2,004 |  |
 | `culturax_mC4_95227.txt` | CulturaX | transcoded | 2,868 |  |
+| `po_b70f8591cd58.po` | unknown | wild | 148,513 |  |
 
 #### `windows-1250-sl/` — 5 files
 
@@ -4521,9 +4887,9 @@ content transcoded to test detection across encodings.
 | `_ude_1.txt` | Ude | suite | 1,211 |  |
 | `aif.ru.health.xml` | chardet | wild | 7,827 |  |
 | `anthropology.ru.xml` | chardet | wild | 10,482 |  |
-| `archive_lenta_ru_20050601.txt` | Web Archive | suite | 8,192 |  |
-| `archive_www_mail_ru_20050601.txt` | Web Archive | suite | 3,546 |  |
-| `archive_www_rbc_ru_20050601.txt` | Web Archive | suite | 8,192 |  |
+| `archive_lenta_ru_20050601.txt` | Web Archive | wild | 8,192 |  |
+| `archive_www_mail_ru_20050601.txt` | Web Archive | wild | 3,546 |  |
+| `archive_www_rbc_ru_20050601.txt` | Web Archive | wild | 8,192 |  |
 | `aug32.hole.ru.xml` | chardet | wild | 633 |  |
 | `aviaport.ru.xml` | chardet | wild | 60,039 |  |
 | `blog.mlmaster.com.xml` | chardet | wild | 6,461 | High markup ratio (61% tags) |
@@ -4551,7 +4917,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66921.txt` | CulturaX | transcoded | 2,630 |  |
 | `culturax_mC4_66923.txt` | CulturaX | transcoded | 2,867 |  |
 
-#### `windows-1251-uk/` — 4 files
+#### `windows-1251-uk/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4559,6 +4925,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95019.txt` | CulturaX | transcoded | 1,080 |  |
 | `culturax_mC4_95020.txt` | CulturaX | transcoded | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | transcoded | 2,821 |  |
+| `po_7d6783149898.po` | unknown | wild | 311,870 |  |
 
 #### `windows-1252-da/` — 2 files
 
@@ -4567,13 +4934,15 @@ content transcoded to test detection across encodings.
 | `_uchardet_windows_1252.txt` | uchardet | suite | 615 |  |
 | `culturax_mC4_83469.txt` | CulturaX | transcoded | 2,827 |  |
 
-#### `windows-1252-de/` — 3 files
+#### `windows-1252-de/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_windows_1252.txt` | uchardet | suite | 765 |  |
 | `_ude_1.txt` | Ude | suite | 865 |  |
 | `anzeige-value-stars.html` | charset-normalizer | suite | 210,655 |  |
+| `cc_www.1000fliegen.at_8a39b3f25015.html` | Common Crawl | wild | 86,806 |  |
+| `cc_www.1000fliegen.at_955f68b989d5.html` | Common Crawl | wild | 145,550 |  |
 
 #### `windows-1252-en/` — 1 files
 
@@ -4593,11 +4962,13 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 3,000 |  |
 
-#### `windows-1252-fr/` — 2 files
+#### `windows-1252-fr/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_windows_1252.txt` | uchardet | suite | 163 |  |
+| `cc_fisc.1082.be_9458e047495c.html` | Common Crawl | wild | 65,670 |  |
+| `cc_www.chercheuse.com_5a47b4b1fb91.html` | Common Crawl | wild | 30,477 |  |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 2,871 |  |
 
 #### `windows-1252-ga/` — 1 files
@@ -4620,10 +4991,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,075 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 3,787 |  |
 
-#### `windows-1252-it/` — 3 files
+#### `windows-1252-it/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_www.1000mosche.it_641dadc5256a.html` | Common Crawl | wild | 145,258 |  |
+| `cc_www.1000mosche.it_d567b7bae38f.html` | Common Crawl | wild | 145,823 |  |
+| `cc_www.cheriesposa.com_b999d594bb45.html` | Common Crawl | wild | 24,502 |  |
 | `culturax_00000.txt` | CulturaX | transcoded | 500 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,476 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 11,839 |  |
@@ -4645,10 +5019,16 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,283 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 10,617 |  |
 
-#### `windows-1252-pt/` — 3 files
+#### `windows-1252-pt/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_barrosbrito.com_71ce70acaf4f.html` | Common Crawl | wild | 34,507 |  |
+| `cc_barrosbrito.com_7ea9548b86dd.html` | Common Crawl | wild | 5,377 |  |
+| `cc_batistaprocar.com_50a2ae0e4528.html` | Common Crawl | wild | 53,967 |  |
+| `cc_fnb.co.mz_ad28ff4b69f7.html` | Common Crawl | wild | 158,065 |  |
+| `cc_pt.bclevr.com_3e049d83e503.html` | Common Crawl | wild | 111,275 |  |
+| `cc_pt.bclevr.com_dd1cece444ad.html` | Common Crawl | wild | 34,963 |  |
 | `culturax_00000.txt` | CulturaX | transcoded | 250 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,000 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 3,142 |  |
@@ -4661,18 +5041,32 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,071 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 3,754 |  |
 
-#### `windows-1253-el/` — 2 files
+#### `windows-1253-el/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_windows_1253.txt` | uchardet | suite | 467 |  |
+| `cc_212.251.7.50_539cbd8d5974.html` | Common Crawl | wild | 2,210 |  |
+| `cc_appliedaesthetics.000webhostapp.com_0345bf973cba.html` | Common Crawl | wild | 497 |  |
+| `cc_appliedaesthetics.000webhostapp.com_e63c69b4f222.html` | Common Crawl | wild | 25,338 |  |
+| `cc_aytokinisi.com_6a5ee913ec67.html` | Common Crawl | wild | 5,174 |  |
+| `cc_aytokinisi.com_c3b5f530de65.html` | Common Crawl | wild | 4,451 |  |
+| `cc_members.aon.at_7c4ca1fdea2d.html` | Common Crawl | wild | 10,776 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 2,131 |  |
 
-#### `windows-1254-tr/` — 1 files
+#### `windows-1254-tr/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_1.txt` | Ude | suite | 2,088 |  |
+| `cc_diegaste-online.de_9c11db69f6f0.html` | Common Crawl | wild | 33,606 |  |
+| `cc_dosthane.de_1e3d5eee73ef.html` | Common Crawl | wild | 14,253 |  |
+| `cc_humaokullari.com_b9f44b424f29.html` | Common Crawl | wild | 3,901 |  |
+| `cc_kariyer.antalya-airport.aero_7f3794eefef3.html` | Common Crawl | wild | 2,732 |  |
+| `cc_www.christianhenrichs.de_f089e14cd894.html` | Common Crawl | wild | 36,108 |  |
+| `cc_www.hukukgiyim.com_6e4712e9543e.html` | Common Crawl | wild | 16,872 |  |
+| `cc_www.hukukgiyim.com_b547ef0eb1d3.html` | Common Crawl | wild | 16,867 |  |
+| `cc_www.liderhali.com_c85770b7ad83.html` | Common Crawl | wild | 12,299 |  |
 
 #### `windows-1255-he/` — 7 files
 
@@ -4686,55 +5080,115 @@ content transcoded to test detection across encodings.
 | `notes.co.il.6.xml` | chardet | wild | 10,056 |  |
 | `whatsup.org.il.xml` | chardet | wild | 8,755 |  |
 
-#### `windows-1256-ar/` — 6 files
+#### `windows-1256-ar/` — 38 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_chromium_windows-1256_with_no_encoding_specified.html` | Chromium | suite | 607 |  |
 | `_uchardet_windows_1256.txt` | uchardet | suite | 214 |  |
 | `_ude_1.txt` | Ude | suite | 2,637 |  |
+| `cc_5gn99x.68qishufm.cn_148dcb2ade7c.html` | Common Crawl | wild | 53,755 |  |
+| `cc_68qishumh.cn_f3fd2a907ff4.html` | Common Crawl | wild | 38,296 |  |
+| `cc_68qishuzn.cn_7d4816fe948e.html` | Common Crawl | wild | 39,027 |  |
+| `cc_action.123.st_00b40edf2174.html` | Common Crawl | wild | 81,425 |  |
+| `cc_action.123.st_47bc0f95e023.html` | Common Crawl | wild | 58,818 |  |
+| `cc_adcp.ae_3db4151936a6.html` | Common Crawl | wild | 19,023 |  |
+| `cc_afaqdubai.ae_1937c731bbd2.html` | Common Crawl | wild | 157,541 |  |
+| `cc_attawhid.org_ab24ececadf3.html` | Common Crawl | wild | 21,244 |  |
+| `cc_attawhid.org_f9316a370b1b.html` | Common Crawl | wild | 52,656 |  |
+| `cc_auolt.org_ecd8fdbb9f64.html` | Common Crawl | wild | 18,236 |  |
+| `cc_awu-jer.org_81167f9440c5.html` | Common Crawl | wild | 6,314 |  |
+| `cc_b-blood.org_50091dc75253.html` | Common Crawl | wild | 8,873 |  |
+| `cc_forsanalsunah.com_148928b2323b.html` | Common Crawl | wild | 42,634 |  |
+| `cc_forsanalsunah.com_ac99b27640a9.html` | Common Crawl | wild | 43,017 |  |
+| `cc_html4arab.com_4127c81683d8.html` | Common Crawl | wild | 23,731 |  |
+| `cc_huda-n.com_ec139a35077e.html` | Common Crawl | wild | 111,438 |  |
+| `cc_libyanaapps.com_89f1eabe195b.html` | Common Crawl | wild | 20,086 |  |
+| `cc_linz-arab.com_824dfb77f060.html` | Common Crawl | wild | 50,388 |  |
+| `cc_salah-2.1forum.biz_ad00034345dd.html` | Common Crawl | wild | 65,173 |  |
+| `cc_vb.chatqatar.qa_0f6ab9be7293.html` | Common Crawl | wild | 151,997 |  |
+| `cc_vb.chatqatar.qa_b9520632d848.html` | Common Crawl | wild | 149,600 |  |
+| `cc_www.alemadia.com.qa_bca8a8e6a047.html` | Common Crawl | wild | 48,620 |  |
+| `cc_www.bahrainaida.org_a5b8dfcd8025.html` | Common Crawl | wild | 30,028 |  |
+| `cc_www.foraqsa.com_05c8744e79c1.html` | Common Crawl | wild | 68,489 |  |
+| `cc_www.foraqsa.com_2d13d321f65c.html` | Common Crawl | wild | 67,395 |  |
+| `cc_www.ford4arab.com_8d850bfe5b83.html` | Common Crawl | wild | 13,412 |  |
+| `cc_www.ford4arab.com_a3b493b64d29.html` | Common Crawl | wild | 1,727 |  |
+| `cc_www.huda11.com_8cb284c8e154.html` | Common Crawl | wild | 189,996 |  |
+| `cc_www.libyan-kitchen.com_b2ba61d611de.html` | Common Crawl | wild | 27,466 |  |
+| `cc_www.liilas.com_58e4ce4873f8.html` | Common Crawl | wild | 3,059 |  |
+| `cc_www.liilas.com_8875b2597707.html` | Common Crawl | wild | 19,587 |  |
+| `cc_www.liillas.com_0785bc14cd45.html` | Common Crawl | wild | 3,660 |  |
 | `culturax_OSCAR-2109_98639.txt` | CulturaX | transcoded | 2,422 |  |
 | `culturax_mC4_98635.txt` | CulturaX | transcoded | 1,125 |  |
 | `culturax_mC4_98641.txt` | CulturaX | transcoded | 1,443 |  |
 
-#### `windows-1256-fa/` — 3 files
+#### `windows-1256-fa/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_dorsanaderi.com_10efd460ddc4.html` | Common Crawl | wild | 47,870 |  |
+| `cc_hupaa.com_15811980f80f.html` | Common Crawl | wild | 22,900 |  |
+| `cc_iranfastener.ir_8490b810641d.html` | Common Crawl | wild | 3,735 |  |
+| `cc_iranfastener.ir_89d0d0559d0a.html` | Common Crawl | wild | 17,247 |  |
+| `cc_irhk-old.ir_25a4f45836d0.html` | Common Crawl | wild | 3,989 |  |
 | `culturax_00000.txt` | CulturaX | transcoded | 385 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,140 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 15,829 |  |
 
-#### `windows-1257-et/` — 2 files
+#### `windows-1257-et/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_cp1257_et.txt` | ENCA | suite | 81 | Very small (81 bytes) |
 | `_ude_1.txt` | Ude | suite | 1,532 |  |
+| `cc_pstroika.com_ea7846af9094.html` | Common Crawl | wild | 14,253 |  |
 
-#### `windows-1257-lt/` — 1 files
+#### `windows-1257-lt/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_cp1257_lt.txt` | ENCA | suite | 78 | Very small (78 bytes) |
+| `cc_aivaweb.com_395296f9e440.html` | Common Crawl | wild | 19,231 |  |
+| `cc_aivaweb.com_aeffca8fb097.html` | Common Crawl | wild | 20,702 |  |
+| `cc_dugera.com_c1683262ac2e.html` | Common Crawl | wild | 12,036 |  |
+| `cc_dugera.com_c58279d9495a.html` | Common Crawl | wild | 12,082 |  |
+| `cc_ebony-date.com_858f41e371e8.html` | Common Crawl | wild | 59,057 |  |
+| `cc_forumas.forumakers.com_04a8c30717aa.html` | Common Crawl | wild | 73,896 |  |
+| `cc_www.conti-moto.pl_564ac882ae43.html` | Common Crawl | wild | 29,806 |  |
+| `cc_www.dutymanstore.com_ecc6b5dea65c.html` | Common Crawl | wild | 34,675 |  |
 
-#### `windows-1257-lv/` — 1 files
+#### `windows-1257-lv/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_cp1257_lv.txt` | ENCA | suite | 72 | Very small (72 bytes) |
+| `cc_5.179.20.1_81_6da6b1baf1fe.html` | Common Crawl | wild | 23,791 |  |
+| `cc_eratija.forumlv.com_ed2ca7d76105.html` | Common Crawl | wild | 40,804 |  |
+| `cc_panzerkampf.org_fbd55d35805c.html` | Common Crawl | wild | 51,955 |  |
+| `cc_www.ebaltics.com_c077631a7267.html` | Common Crawl | wild | 8,493 |  |
+| `cc_www.latvia.mid.ru_c9438ca0a22c.html` | Common Crawl | wild | 35,288 |  |
 
-#### `windows-1258-vi/` — 5 files
+#### `windows-1258-vi/` — 14 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_2.txt` | Ude | suite | 276 |  |
+| `cc_dao-liege.org_a6e65fbf9ccf.html` | Common Crawl | wild | 83,891 |  |
+| `cc_www.hrw.org_4f0449e3aa4c.html` | Common Crawl | wild | 29,500 |  |
 | `culturax_OSCAR-2019_85698.txt` | CulturaX | transcoded | 1,290 |  |
 | `culturax_OSCAR-2109_85695.txt` | CulturaX | transcoded | 670 |  |
-| `culturax_mC4_85693.txt` | CulturaX | suite | 2,668 |  |
-| `culturax_mC4_85696.txt` | CulturaX | suite | 1,573 |  |
+| `culturax_mC4_85693.txt` | CulturaX | transcoded | 2,668 |  |
+| `culturax_mC4_85696.txt` | CulturaX | transcoded | 1,573 |  |
+| `historic_10613f024a73.txt` | unknown | historic | 101,950 |  |
+| `historic_4a445f0df101.txt` | unknown | historic | 29,494 |  |
+| `historic_5ca6f481b15b.txt` | unknown | historic | 187,340 |  |
+| `historic_d79aa8a6a94a.txt` | unknown | historic | 83,885 |  |
+| `historic_d7dd9c7e026f.txt` | unknown | historic | 102,139 |  |
+| `historic_e802f1066850.txt` | unknown | historic | 51,219 |  |
+| `historic_f4934f0a6cb5.txt` | unknown | historic | 74,509 |  |
 
-### IBM/DOS code pages (321 files in 113 directories)
+### IBM/DOS code pages (414 files in 113 directories)
 
 #### `cp037-da/` — 3 files
 
@@ -4751,12 +5205,18 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,576 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,259 |  |
 
-#### `cp037-en/` — 2 files
+#### `cp037-en/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_1.txt` | Ude | suite | 658 |  |
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 849 |  |
+| `ebcdic_gsf1_rec0.txt` | unknown | wild | 8,000 |  |
+| `ebcdic_gsf1_rec120000.txt` | unknown | wild | 8,000 |  |
+| `ebcdic_gsf1_rec20000.txt` | unknown | wild | 8,000 |  |
+| `ebcdic_gsf1_rec200000.txt` | unknown | wild | 8,000 |  |
+| `ebcdic_gsf1_rec5000.txt` | unknown | wild | 8,000 |  |
+| `ebcdic_gsf1_rec60000.txt` | unknown | wild | 8,000 |  |
 
 #### `cp037-es/` — 2 files
 
@@ -4847,31 +5307,42 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,422 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 8,191 |  |
 
-#### `cp1026-tr/` — 3 files
+#### `cp1026-tr/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_107848.txt` | CulturaX | transcoded | 1,161 |  |
 | `culturax_mC4_107849.txt` | CulturaX | transcoded | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | transcoded | 2,309 |  |
+| `historic_1354ba36d4df.txt` | unknown | historic | 35,993 |  |
+| `historic_2aac43f809b5.txt` | unknown | historic | 1,440 |  |
+| `historic_48963552779e.txt` | unknown | historic | 61,507 |  |
+| `historic_69f8693079cf.txt` | unknown | historic | 35,981 |  |
+| `historic_b349af9edba4.txt` | unknown | historic | 1,840 |  |
 
-#### `cp1125-uk/` — 3 files
+#### `cp1125-uk/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_cp1125_uk.txt` | ENCA | suite | 96 | Very small (96 bytes) |
 | `culturax_mC4_95020.txt` | CulturaX | transcoded | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | transcoded | 2,821 |  |
+| `historic_80d6e014ca75.txt` | unknown | historic | 18,081 |  |
+| `historic_8aafcd2f3546.txt` | unknown | historic | 14,712 |  |
 
-#### `cp273-de/` — 3 files
+#### `cp273-de/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 219 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,076 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,474 |  |
+| `historic_717f045b1bc8.txt` | unknown | historic | 15,956 |  |
+| `historic_87ba009eaeb5.txt` | unknown | historic | 10,237 |  |
+| `historic_976fb26e0a52.txt` | unknown | historic | 5,036 |  |
+| `historic_d6188914ae9f.txt` | unknown | historic | 3,823 |  |
 
-#### `cp424-he/` — 4 files
+#### `cp424-he/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4879,6 +5350,11 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 2,987 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 2,987 |  |
 | `culturax_OSCAR-2301_58268.txt` | CulturaX | transcoded | 3,000 |  |
+| `historic_5389949d4b7e.txt` | unknown | historic | 3,680 |  |
+| `historic_5acd4e8a61d5.txt` | unknown | historic | 2,104 |  |
+| `historic_7bf19d2fa5fa.txt` | unknown | historic | 7,973 |  |
+| `historic_c0b6b83a8cca.txt` | unknown | historic | 15,042 |  |
+| `historic_ccda7016e961.txt` | unknown | historic | 11,889 |  |
 
 #### `cp437-da/` — 3 files
 
@@ -4896,10 +5372,16 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,076 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,474 |  |
 
-#### `cp437-en/` — 2 files
+#### `cp437-en/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `artpack_0196ciph_6aaccd2c9778.txt` | unknown | wild | 4,615 |  |
+| `artpack_01adment_f7a22d9aadb5.txt` | unknown | wild | 451 |  |
+| `artpack_02adment_ecdb700b997b.txt` | unknown | wild | 4,390 |  |
+| `artpack_1-lhi-1_4173f875d1a5.txt` | unknown | wild | 603 |  |
+| `artpack_1-lhi-1_65da662ee30a.txt` | unknown | wild | 2,291 |  |
+| `artpack_3nt0994_afcc114eb29b.txt` | unknown | wild | 1,466 |  |
 | `culturax_00000.txt` | CulturaX | transcoded | 2,042 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,871 |  |
 
@@ -4977,11 +5459,16 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,576 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,259 |  |
 
-#### `cp500-en/` — 1 files
+#### `cp500-en/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 849 |  |
+| `historic_056215185540.txt` | unknown | historic | 8,000 |  |
+| `historic_157d74bcafd1.txt` | unknown | historic | 3,323 |  |
+| `historic_32e575e305ca.txt` | unknown | historic | 8,000 |  |
+| `historic_5e7db2859668.txt` | unknown | historic | 8,000 |  |
+| `historic_a0a136e6fd4c.txt` | unknown | historic | 8,000 |  |
 
 #### `cp500-es/` — 2 files
 
@@ -5056,13 +5543,15 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96485.txt` | CulturaX | transcoded | 2,733 |  |
 | `culturax_mC4_96486.txt` | CulturaX | transcoded | 2,533 |  |
 
-#### `cp720-ar/` — 3 files
+#### `cp720-ar/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_98639.txt` | CulturaX | transcoded | 2,422 |  |
 | `culturax_mC4_98635.txt` | CulturaX | transcoded | 1,125 |  |
 | `culturax_mC4_98641.txt` | CulturaX | transcoded | 1,443 |  |
+| `historic_433d5fd7ae7b.txt` | unknown | historic | 5,017 |  |
+| `historic_f33482454cb6.txt` | unknown | historic | 14,199 |  |
 
 #### `cp720-fa/` — 3 files
 
@@ -5072,13 +5561,15 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,672 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 8,850 |  |
 
-#### `cp737-el/` — 1 files
+#### `cp737-el/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 2,131 |  |
+| `historic_47ddca8f4d77.txt` | unknown | historic | 4,500 |  |
+| `historic_7878533970fa.txt` | unknown | historic | 2,046 |  |
 
-#### `cp775-et/` — 4 files
+#### `cp775-et/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -5086,6 +5577,8 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_66818.txt` | CulturaX | transcoded | 2,580 |  |
 | `culturax_mC4_66820.txt` | CulturaX | transcoded | 1,025 |  |
 | `culturax_mC4_66822.txt` | CulturaX | transcoded | 2,894 |  |
+| `historic_35673157e3c4.txt` | unknown | historic | 17,069 |  |
+| `historic_d1f77108ab9f.txt` | unknown | historic | 17,055 |  |
 
 #### `cp775-lt/` — 3 files
 
@@ -5111,13 +5604,21 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,074 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 19,561 |  |
 
-#### `cp850-de/` — 3 files
+#### `cp850-de/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 353 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,963 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,170 |  |
+| `dos_101d61c5945b.txt` | unknown | wild | 15,956 |  |
+| `dos_12ca3016de50.txt` | unknown | wild | 3,823 |  |
+| `dos_19d41a930516.txt` | unknown | wild | 5,095 |  |
+| `dos_1a149c07cc47.txt` | unknown | wild | 10,237 |  |
+| `dos_34a448a7a1fa.txt` | unknown | wild | 786 |  |
+| `dos_99e902e2654a.txt` | unknown | wild | 36,550 |  |
+| `dos_9b690286d416.txt` | unknown | wild | 5,036 |  |
+| `dos_a3f0feee9c62.txt` | unknown | wild | 1,369 |  |
 
 #### `cp850-en/` — 2 files
 
@@ -5210,7 +5711,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,145 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 4,565 |  |
 
-#### `cp852-cs/` — 4 files
+#### `cp852-cs/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -5218,6 +5719,7 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,362 |  |
 | `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,424 |  |
 | `culturax_mC4_98823.txt` | CulturaX | transcoded | 1,627 |  |
+| `historic_74415ba33ff8.txt` | unknown | historic | 2,818 |  |
 
 #### `cp852-hr/` — 3 files
 
@@ -5235,13 +5737,14 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | transcoded | 1,572 |  |
 | `culturax_mC4_82418.txt` | CulturaX | transcoded | 627 |  |
 
-#### `cp852-pl/` — 3 files
+#### `cp852-pl/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,815 |  |
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,383 |  |
+| `historic_6b965e6e536a.txt` | unknown | historic | 11,995 |  |
 
 #### `cp852-ro/` — 4 files
 
@@ -5338,15 +5841,20 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | transcoded | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | transcoded | 2,821 |  |
 
-#### `cp856-he/` — 3 files
+#### `cp856-he/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 119 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,217 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,489 |  |
+| `historic_27e433fc2936.txt` | unknown | historic | 2,104 |  |
+| `historic_3d5f0539c645.txt` | unknown | historic | 3,680 |  |
+| `historic_895b9616be8f.txt` | unknown | historic | 15,042 |  |
+| `historic_a3bed1f52f68.txt` | unknown | historic | 7,973 |  |
+| `historic_b24c02669884.txt` | unknown | historic | 11,889 |  |
 
-#### `cp857-tr/` — 4 files
+#### `cp857-tr/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -5354,6 +5862,8 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_107848.txt` | CulturaX | transcoded | 1,161 |  |
 | `culturax_mC4_107849.txt` | CulturaX | transcoded | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | transcoded | 2,309 |  |
+| `historic_5e7380585b56.txt` | unknown | historic | 1,840 |  |
+| `historic_a45c6ca3f5ea.txt` | unknown | historic | 1,440 |  |
 
 #### `cp858-da/` — 3 files
 
@@ -5371,11 +5881,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,000 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,084 |  |
 
-#### `cp858-en/` — 1 files
+#### `cp858-en/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 3,372 |  |
+| `historic_4173f875d1a5.txt` | unknown | historic | 603 |  |
+| `historic_f7a22d9aadb5.txt` | unknown | historic | 451 |  |
 
 #### `cp858-es/` — 3 files
 
@@ -5463,37 +5975,46 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,071 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 3,754 |  |
 
-#### `cp860-pt/` — 3 files
+#### `cp860-pt/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 952 |  |
 | `culturax_mC4_101817.txt` | CulturaX | transcoded | 2,875 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 2,837 |  |
+| `historic_24ed5982473b.txt` | unknown | historic | 15,360 |  |
+| `historic_35244a5c9f72.txt` | unknown | historic | 180,825 |  |
+| `historic_3dd13293382b.txt` | unknown | historic | 42,637 |  |
 
-#### `cp861-is/` — 3 files
+#### `cp861-is/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_77487.txt` | CulturaX | transcoded | 2,881 |  |
 | `culturax_mC4_77488.txt` | CulturaX | transcoded | 1,506 |  |
 | `culturax_mC4_77489.txt` | CulturaX | transcoded | 2,808 |  |
+| `historic_9569ee1ce042.txt` | unknown | historic | 22,384 |  |
+| `historic_ad320626cff5.txt` | unknown | historic | 22,386 |  |
 
-#### `cp862-he/` — 3 files
+#### `cp862-he/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 119 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 984 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,148 |  |
+| `historic_393bdb735227.txt` | unknown | historic | 11,890 |  |
+| `historic_e172fe000e16.txt` | unknown | historic | 3,681 |  |
 
-#### `cp863-fr/` — 3 files
+#### `cp863-fr/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 530 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,710 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,484 |  |
+| `historic_2f37e62a1d77.txt` | unknown | historic | 87,367 |  |
+| `historic_a0db4dbba260.txt` | unknown | historic | 230,928 |  |
 
 #### `cp864-ar/` — 1 files
 
@@ -5501,13 +6022,15 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 385 |  |
 
-#### `cp865-da/` — 3 files
+#### `cp865-da/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 349 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,445 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 19,560 |  |
+| `historic_2c46262eb485.txt` | unknown | historic | 272,394 |  |
+| `historic_e9d3a1b24116.txt` | unknown | historic | 29,208 |  |
 
 #### `cp865-no/` — 1 files
 
@@ -5582,7 +6105,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | transcoded | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | transcoded | 2,821 |  |
 
-#### `cp869-el/` — 4 files
+#### `cp869-el/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -5590,39 +6113,63 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 2,745 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 2,131 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 1,109 |  |
+| `historic_56d7be2ed9f6.txt` | unknown | historic | 10,116 |  |
+| `historic_6def7427ec48.txt` | unknown | historic | 2,047 |  |
 
-#### `cp874-th/` — 2 files
+#### `cp874-th/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_103.28.101.10_3cb4e9ff6bc9.html` | Common Crawl | wild | 15,667 |  |
+| `cc_103.28.101.10_ed49e44f9b3c.html` | Common Crawl | wild | 15,431 |  |
+| `cc_nihaochinatravel.com_1337e43d59e1.html` | Common Crawl | wild | 40,940 |  |
+| `cc_www.bask1.com_1e4f2658333f.html` | Common Crawl | wild | 98,683 |  |
+| `cc_www.bask1.com_71072e488930.html` | Common Crawl | wild | 58,558 |  |
+| `cc_www.klinetravel.asia_91ed62ac522f.html` | Common Crawl | wild | 55,226 |  |
 | `pharmacy.kku.ac.th.centerlab.xml` | chardet | wild | 9,540 |  |
 | `pharmacy.kku.ac.th.healthinfo-ne.xml` | chardet | wild | 19,707 |  |
 
-#### `cp875-el/` — 3 files
+#### `cp875-el/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 2,745 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 2,131 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 1,109 |  |
+| `historic_3c14c8f8f421.txt` | unknown | historic | 4,500 |  |
+| `historic_712cf0573b4e.txt` | unknown | historic | 4,468 |  |
+| `historic_7c5fcdb40bc3.txt` | unknown | historic | 10,115 |  |
+| `historic_87f094fd3bd6.txt` | unknown | historic | 4,067 |  |
+| `historic_b7801ed1c9ca.txt` | unknown | historic | 2,046 |  |
 
-#### `cp932-ja/` — 5 files
+#### `cp932-ja/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `5554s2a-cp932.txt` | unknown | suite | 486 |  |
+| `cc_sankyu.co_3e6bfde0036b.html` | Common Crawl | wild | 61,815 |  |
+| `cc_sankyu.co_739ca1669e81.html` | Common Crawl | wild | 26,224 |  |
+| `cc_tiu-singapore.rfsc.asia_0becc2b61d87.html` | Common Crawl | wild | 13,326 |  |
 | `culturax_OSCAR-2019_7.txt` | CulturaX | transcoded | 1,604 |  |
 | `hardsoft.at.webry.info.xml` | chardet | wild | 45,871 | High markup ratio (60% tags) |
+| `po_9f3c9e1a305b.po` | unknown | wild | 305,137 |  |
 | `www2.chuo-u.ac.jp-suishin.xml` | chardet | wild | 4,420 |  |
 | `y-moto.com.xml` | chardet | wild | 37,856 |  |
 
-#### `cp949-ko/` — 1 files
+#### `cp949-ko/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `cc_daekhon.co.kr_25dc4f58ac4b.html` | Common Crawl | wild | 15,015 |  |
+| `cc_daekhon.co.kr_323c19a9d07c.html` | Common Crawl | wild | 11,449 |  |
+| `cc_seoul.koshba.or.kr_36d774619257.html` | Common Crawl | wild | 23,781 |  |
+| `cc_seoul.koshba.or.kr_5d5f46692abc.html` | Common Crawl | wild | 28,015 |  |
+| `cc_thinkpool.com_0957cb4294d5.html` | Common Crawl | wild | 144,833 |  |
+| `cc_thinkpool.com_114145d438c1.html` | Common Crawl | wild | 117,213 |  |
+| `cc_www.beautifulchurch.or.kr_700af89d6c79.html` | Common Crawl | wild | 28,386 |  |
 | `ricanet.com.xml` | chardet | suite | 35,289 |  |
 
-### Mac encodings (109 files in 31 directories)
+### Mac encodings (122 files in 31 directories)
 
 #### `maccyrillic-be/` — 4 files
 
@@ -5692,21 +6239,25 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_95020.txt` | CulturaX | transcoded | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | transcoded | 2,821 |  |
 
-#### `macgreek-el/` — 3 files
+#### `macgreek-el/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 2,745 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 2,131 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 1,109 |  |
+| `historic_63378628cf03.txt` | unknown | historic | 10,121 |  |
+| `historic_68de1c67d3d6.txt` | unknown | historic | 2,052 |  |
 
-#### `maciceland-is/` — 3 files
+#### `maciceland-is/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_77487.txt` | CulturaX | transcoded | 2,881 |  |
 | `culturax_mC4_77488.txt` | CulturaX | transcoded | 1,506 |  |
 | `culturax_mC4_77489.txt` | CulturaX | transcoded | 2,808 |  |
+| `historic_21193c3b4baf.txt` | unknown | historic | 32,468 |  |
+| `historic_22974547d25c.txt` | unknown | historic | 32,565 |  |
 
 #### `maclatin2-cs/` — 4 files
 
@@ -5734,13 +6285,15 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 1,582 |  |
 | `culturax_mC4_82418.txt` | CulturaX | transcoded | 627 |  |
 
-#### `maclatin2-pl/` — 3 files
+#### `maclatin2-pl/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,815 |  |
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 1,300 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,383 |  |
+| `historic_b20ce28a308a.txt` | unknown | historic | 11,997 |  |
+| `historic_e8e8dfe13aa1.txt` | unknown | historic | 13,525 |  |
 
 #### `maclatin2-sk/` — 4 files
 
@@ -5788,11 +6341,16 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,157 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,259 |  |
 
-#### `macroman-en/` — 1 files
+#### `macroman-en/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_84512.txt` | CulturaX | transcoded | 849 |  |
+| `machfs_03331072ed22.txt` | unknown | wild | 18,630 |  |
+| `machfs_7b832248cdff.txt` | unknown | wild | 4,487 |  |
+| `machfs_816b10d13254.txt` | unknown | wild | 6,461 |  |
+| `machfs_86734169dada.txt` | unknown | wild | 18,859 |  |
+| `machfs_fc9aecaa4248.txt` | unknown | wild | 5,567 |  |
 
 #### `macroman-es/` — 3 files
 
@@ -5880,15 +6438,17 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96486.txt` | CulturaX | transcoded | 2,533 |  |
 | `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,111 |  |
 
-#### `macturkish-tr/` — 3 files
+#### `macturkish-tr/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_107848.txt` | CulturaX | transcoded | 1,161 |  |
 | `culturax_mC4_107849.txt` | CulturaX | transcoded | 729 |  |
 | `culturax_mC4_107851.txt` | CulturaX | transcoded | 2,309 |  |
+| `historic_1b6ee9b503fd.txt` | unknown | historic | 1,440 |  |
+| `historic_e8ba44a32d25.txt` | unknown | historic | 1,840 |  |
 
-### KOI8 (31 files in 3 directories)
+### KOI8 (39 files in 3 directories)
 
 #### `koi8-r-ru/` — 25 files
 
@@ -5898,7 +6458,7 @@ content transcoded to test detection across encodings.
 | `_uchardet_koi8_r.txt` | uchardet | suite | 352 |  |
 | `_ude_1.txt` | Ude | suite | 1,211 |  |
 | `aif.ru.health.xml` | chardet | wild | 7,966 |  |
-| `archive_www_rambler_ru_20050601.txt` | Web Archive | suite | 2,575 |  |
+| `archive_www_rambler_ru_20050601.txt` | Web Archive | wild | 2,575 |  |
 | `aug32.hole.ru.xml` | chardet | wild | 634 |  |
 | `aviaport.ru.xml` | chardet | wild | 61,945 |  |
 | `blog.mlmaster.com.xml` | chardet | wild | 6,455 | High markup ratio (61% tags) |
@@ -5928,15 +6488,23 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_74866.txt` | CulturaX | transcoded | 2,819 |  |
 | `culturax_mC4_74867.txt` | CulturaX | transcoded | 2,853 |  |
 
-#### `koi8-u-uk/` — 3 files
+#### `koi8-u-uk/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_enca_koi8u_uk.txt` | ENCA | suite | 96 | Very small (96 bytes) |
+| `cc_avalon.org.ua_f01750850023.html` | Common Crawl | wild | 5,287 |  |
+| `cc_bandoog.com_0650524c60d2.html` | Common Crawl | wild | 6,836 |  |
+| `cc_info.bankrut.gov.ua_0d07d014e2cb.html` | Common Crawl | wild | 14,811 |  |
+| `cc_mail.edicom.co.il_9ae36b546b35.html` | Common Crawl | wild | 6,359 |  |
+| `cc_www.ioss.org.ua_4a8c40867c58.html` | Common Crawl | wild | 15,588 |  |
 | `culturax_mC4_95020.txt` | CulturaX | transcoded | 1,371 |  |
 | `culturax_mC4_95021.txt` | CulturaX | transcoded | 2,821 |  |
+| `po_8b5e130940b6.po` | unknown | wild | 18,081 |  |
+| `po_a44f7e3b484d.po` | unknown | wild | 14,712 |  |
+| `po_c91fc489d3a1.po` | unknown | wild | 64,175 |  |
 
-### HP encodings (42 files in 14 directories)
+### HP encodings (44 files in 14 directories)
 
 #### `hp-roman8-da/` — 3 files
 
@@ -5954,13 +6522,14 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,076 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 7,474 |  |
 
-#### `hp-roman8-en/` — 3 files
+#### `hp-roman8-en/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 276 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,405 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 11,230 |  |
+| `historic_090eae0374e5.txt` | unknown | historic | 42,180 |  |
 
 #### `hp-roman8-es/` — 3 files
 
@@ -5978,13 +6547,14 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 2,041 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,321 |  |
 
-#### `hp-roman8-fr/` — 3 files
+#### `hp-roman8-fr/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 129 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,979 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,484 |  |
+| `historic_c8503b2f176c.txt` | unknown | historic | 230,931 |  |
 
 #### `hp-roman8-id/` — 3 files
 
@@ -6050,7 +6620,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,395 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 4,993 |  |
 
-### Chinese encodings (59 files in 4 directories)
+### Chinese encodings (70 files in 4 directories)
 
 #### `big5-zh/` — 29 files
 
@@ -6086,14 +6656,19 @@ content transcoded to test detection across encodings.
 | `willythecop.blogspot.com.xml` | chardet | wild | 13,437 | High markup ratio (73% tags) |
 | `ytc.blogspot.com.xml` | chardet | wild | 54,145 |  |
 
-#### `gb18030-zh/` — 4 files
+#### `gb18030-zh/` — 9 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_gb18030.txt` | uchardet | suite | 88 | Very small (88 bytes) |
 | `_ude_1.txt` | Ude | suite | 1,429 | Chinese Wikipedia article about the Chinese language. Requires gb18030 (not decodable as gb2312). |
-| `culturax_mC4_3.txt` | CulturaX | transcoded | 3,848 | Uses gb18030 4-byte sequences |
+| `cc_www.010.sh.cn_bf2d49c8f81d.html` | Common Crawl | wild | 96,116 |  |
+| `cc_www.010.sh.cn_ca6e706206df.html` | Common Crawl | wild | 52,880 |  |
+| `cc_www.020.sh.cn_d5be717035f7.html` | Common Crawl | wild | 50,847 |  |
+| `cc_www.024.sh.cn_0e1460139485.html` | Common Crawl | wild | 100,328 |  |
+| `cc_www.024.sh.cn_df854e8d3ff5.html` | Common Crawl | wild | 100,178 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 2,051 | Uses gbk-range bytes beyond gb2312 |
+| `po_28615ec6dac5.po` | unknown | wild | 269,192 |  |
 
 #### `gb2312-zh/` — 24 files
 
@@ -6124,14 +6699,20 @@ content transcoded to test detection across encodings.
 | `w3cn.org.xml` | chardet | wild | 5,646 |  |
 | `xy15400.blogcn.com.xml` | chardet | wild | 19,804 |  |
 
-#### `hz-gb-2312-zh/` — 2 files
+#### `hz-gb-2312-zh/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,419 |  |
 | `culturax_mC4_8.txt` | CulturaX | transcoded | 5,462 |  |
+| `usenet_015da2206664.txt` | unknown | wild | 706 |  |
+| `usenet_05b04ec97a24.txt` | unknown | wild | 1,533 |  |
+| `usenet_2708e0f29b4f.txt` | unknown | wild | 290 |  |
+| `usenet_3be5ab074e86.txt` | unknown | wild | 5,394 |  |
+| `usenet_b0c3b30a5532.txt` | unknown | wild | 600 |  |
+| `usenet_fcddd4d8e063.txt` | unknown | wild | 1,514 |  |
 
-### Japanese encodings (70 files in 5 directories)
+### Japanese encodings (81 files in 5 directories)
 
 #### `euc-jp-ja/` — 32 files
 
@@ -6170,27 +6751,38 @@ content transcoded to test detection across encodings.
 | `tls.org.xml` | chardet | wild | 15,158 | High markup ratio (62% tags) |
 | `yukiboh.moo.jp.xml` | chardet | wild | 11,596 |  |
 
-#### `iso-2022-jp-2004-ja/` — 3 files
+#### `iso-2022-jp-2004-ja/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 226 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,759 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 10,084 |  |
+| `historic_07a01513d2e0.txt` | unknown | historic | 1,090 |  |
+| `historic_9c1caa03e25d.txt` | unknown | historic | 3,227 |  |
+| `historic_b8b9c876fe1a.txt` | unknown | historic | 1,499 |  |
 
-#### `iso-2022-jp-ext-ja/` — 1 files
+#### `iso-2022-jp-ext-ja/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00001.txt` | CulturaX | transcoded | 1,750 |  |
+| `historic_07a01513d2e0.txt` | unknown | historic | 1,090 |  |
+| `historic_9c1caa03e25d.txt` | unknown | historic | 3,227 |  |
+| `historic_b8b9c876fe1a.txt` | unknown | historic | 1,499 |  |
 
-#### `iso-2022-jp-ja/` — 3 files
+#### `iso-2022-jp-ja/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_1.txt` | Ude | suite | 1,561 |  |
 | `culturax_OSCAR-2301_6.txt` | CulturaX | transcoded | 1,776 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 6,387 |  |
+| `usenet_07a01513d2e0.txt` | unknown | wild | 1,090 |  |
+| `usenet_645001dbe0e6.txt` | unknown | wild | 634 |  |
+| `usenet_828ea510d7e9.txt` | unknown | wild | 690 |  |
+| `usenet_9c1caa03e25d.txt` | unknown | wild | 3,227 |  |
+| `usenet_b8b9c876fe1a.txt` | unknown | wild | 1,499 |  |
 
 #### `shift_jis-ja/` — 31 files
 
@@ -6208,7 +6800,7 @@ content transcoded to test detection across encodings.
 | `andore.com.inami.xml` | chardet | wild | 11,351 |  |
 | `andore.com.money.xml` | chardet | wild | 17,236 |  |
 | `andore.com.xml` | chardet | wild | 8,325 | High markup ratio (60% tags) |
-| `archive_www_nhk_or_jp_20020601.txt` | Web Archive | suite | 3,690 |  |
+| `archive_www_nhk_or_jp_20020601.txt` | Web Archive | wild | 3,690 |  |
 | `blog.inkase.net.xml` | chardet | wild | 30,255 | High markup ratio (63% tags) |
 | `blog.paseri.ne.jp.xml` | chardet | wild | 24,859 | High markup ratio (67% tags) |
 | `bloglelife.com.xml` | chardet | wild | 27,219 | High markup ratio (68% tags) |
@@ -6228,7 +6820,7 @@ content transcoded to test detection across encodings.
 | `tamuyou.haun.org.xml` | chardet | wild | 30,148 |  |
 | `yasuhisa.com.xml` | chardet | wild | 5,431 | High markup ratio (60% tags) |
 
-### Korean encodings (45 files in 3 directories)
+### Korean encodings (51 files in 3 directories)
 
 #### `euc-kr-ko/` — 33 files
 
@@ -6268,7 +6860,7 @@ content transcoded to test detection across encodings.
 | `yunho.egloos.com.xml` | chardet | wild | 23,344 |  |
 | `zangsalang.egloos.com.xml` | chardet | wild | 14,754 |  |
 
-#### `iso-2022-kr-ko/` — 5 files
+#### `iso-2022-kr-ko/` — 8 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -6277,8 +6869,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_0.txt` | CulturaX | transcoded | 3,852 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 6,269 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,311 |  |
+| `historic_14a9e871b7fb.txt` | unknown | historic | 24,440 |  |
+| `historic_773b9d303ae4.txt` | unknown | historic | 15,824 |  |
+| `historic_935e703ad36e.txt` | unknown | historic | 11,668 |  |
 
-#### `johab-ko/` — 7 files
+#### `johab-ko/` — 10 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -6286,6 +6881,9 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_0.txt` | CulturaX | transcoded | 2,992 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 4,929 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,035 |  |
+| `historic_250547726663.txt` | unknown | historic | 15,015 |  |
+| `historic_7e11eb968e7e.txt` | unknown | historic | 23,781 |  |
+| `historic_a7c580f538e7.txt` | unknown | historic | 11,449 |  |
 | `hlpro-readme.txt` | Contributed | suite | 1,541 |  |
 | `iyagi-readme.txt` | Contributed | suite | 18,649 |  |
 | `mdir-doc.txt` | Contributed | suite | 70,536 |  |
@@ -6305,24 +6903,28 @@ content transcoded to test detection across encodings.
 | `pharmacy.kku.ac.th.analyse1.xml` | chardet | wild | 12,082 |  |
 | `trickspot.boxchart.com.xml` | chardet | wild | 13,027 |  |
 
-### Central Asian encodings (8 files in 2 directories)
+### Central Asian encodings (12 files in 2 directories)
 
-#### `kz1048-kk/` — 4 files
+#### `kz1048-kk/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_73160.txt` | CulturaX | transcoded | 1,954 |  |
 | `culturax_mC4_73161.txt` | CulturaX | transcoded | 654 |  |
 | `culturax_mC4_73162.txt` | CulturaX | transcoded | 2,921 |  |
+| `historic_07a19c46f546.txt` | unknown | historic | 50,295 |  |
+| `historic_4017aa60bddb.txt` | unknown | historic | 69,863 |  |
 | `useful-sentences.html` | charset-normalizer | suite | 260 |  |
 
-#### `ptcp154-kk/` — 4 files
+#### `ptcp154-kk/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_73160.txt` | CulturaX | transcoded | 1,954 |  |
 | `culturax_mC4_73161.txt` | CulturaX | transcoded | 654 |  |
 | `culturax_mC4_73162.txt` | CulturaX | transcoded | 2,921 |  |
+| `historic_203d7ad2b4ff.txt` | unknown | historic | 69,863 |  |
+| `historic_33f2dd94aebe.txt` | unknown | historic | 50,295 |  |
 | `useful-sentences.html` | charset-normalizer | suite | 264 |  |
 
 ### Other encodings (3 files in 1 directories)
