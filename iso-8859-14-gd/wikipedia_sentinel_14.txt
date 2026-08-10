@@ -1,0 +1,47 @@
+'S e siostam conaltraidh a th' ann an cànan. 
+
+'S e cànanachas a th' air sgrùdadh saidheansail cànain.
+
+Cànanan Innd-Eòrpach 
+ Innd-Eòrpais:
+
+Cànanan Ghearmaineach 
+ A' Bheurla Ghallda
+ Beurla
+ Danmhairgis
+ Duitsis
+ Gearmailtis
+ Nirribhis
+ Bokmål
+ Nynorsk
+ Duitsis Phennsylvania
+ Seann-Lochlannais
+ Innis-Tìlis
+ Suainis
+
+Cànanan Ceilteach 
+ Breatannais
+ Còrnais
+ Cuimris
+ Gaeilge
+ Gàidhlig
+ Gaelg
+ Gallaicis
+ Gallais
+ Ceilt-Ìbeiris
+
+Cànanan Ròmanach 
+ Catalanais
+ Eadailtis
+ Fraingis
+ Portagailis
+ Provençal
+ Romanais
+ Rumantsch
+ Spàinntis
+ Walloon
+
+Cànanan Slàbhach 
+  Cròthaisis
+ Bealaruisis
+ Pòlai
