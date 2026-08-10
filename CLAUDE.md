@@ -119,6 +119,16 @@ sharply by family:
 - **Software / BBS / disk archives** — DOS, Mac and HP codepages. CP437 is
   solved via `mine_artpacks.py`. The rest are hard for reasons worth
   recording, so nobody re-runs the same dead ends:
+  - *ISO-8859-14 was never on the web at all.* A census of a Common Crawl
+    index slice that resolves single pages (72,305 windows-1252 declarations,
+    one page each for several DOS codepages) counted zero, and a Wayback hunt
+    over 123 raw snapshots from 17 Celtic-language domains of 1998-2010 —
+    including the standard author's own evertype.com and egt.ie — found no
+    declaration and no Latin-8 byte usage. The period explanation (Dyke, OU
+    TR 2003/16): no Internet Explorer version ever supported it, so serving
+    it meant mojibake for ~97% of visitors. The only genuine niche remains
+    Irish gettext catalogues. Do not go hunting the open web again; wild
+    coverage for this encoding can only come from .po files.
   - *Common Crawl cannot help.* A 30-part scan of ibm850/852/855/866 and the
     Mac pages produced 67 candidates and zero usable files; in 2019 those
     labels are nearly always a misconfigured server serving something else.
