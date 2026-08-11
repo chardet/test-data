@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**3116 files** across **730 directories** covering **89 encodings**.
+**3122 files** across **730 directories** covering **89 encodings**.
 
 ## Sources
 
@@ -14,7 +14,7 @@ filename prefix, git history, or content:
 
 | Source | Prefix/Pattern | Files | Description |
 |--------|---------------|------:|-------------|
-| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,941 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,947 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
 | [Mark Pilgrim's chardet](https://github.com/puzzlet/chardet/tree/MarkPilgrim/tests) | `*.xml` (domain names) | 314 | Web-scraped RSS/Atom feeds from the original chardet test suite by Mark Pilgrim. Imported by Puzzlet Chung in 2012. Each filename is the source website's domain. |
 | [Ude](http://code.google.com/p/ude/) (Universal Detector Engine) | `_ude_` | 96 | Test files from the Ude charset detection library (a C# port of Mozilla's universal charset detector). |
 | [charset-normalizer](https://github.com/Ousret/charset_normalizer) ([char-dataset](https://github.com/Ousret/char-dataset)) | various | ~17 | Test data from the charset-normalizer test dataset by Ahmed TAHRI. Iris CSV/JSON datasets originally from [Capital One DataProfiler](https://github.com/capitalone/DataProfiler). UTF-8 `.md`/`.rst` files are READMEs from urllib3 and charset-normalizer. `anzeige-value-stars.html` from charset-normalizer [issue #104](https://github.com/Ousret/charset_normalizer/issues/104). ASCII JSON files (books, parchments, etc.) added to avoid false positives on structured data. `dummy-1.pem` added after [certbot #8964](https://github.com/certbot/certbot/issues/8964). Binary samples ensure non-text is correctly rejected. |
@@ -40,7 +40,7 @@ it, and classified by how it came to exist:
   arrived as deliberate multi-encoding sets. Calling these wild would
   claim more than the evidence supports.
 
-Repo totals: **807 wild**, 1,958 transcoded, 226 suite (of 3,116 files).
+Repo totals: **807 wild**, 1,964 transcoded, 226 suite (of 3,122 files).
 
 Encodings with no wild files are the gaps worth filling — a high file
 count does not imply real-world coverage.
@@ -51,7 +51,7 @@ count does not imply real-world coverage.
 | `utf-16` | 217 | 71 | 142 | 4 |
 | `iso-8859-1` | 75 | 44 | 19 | 12 |
 | `iso-8859-9` | 45 | 38 | 3 | 4 |
-| `iso-8859-2` | 68 | 37 | 17 | 14 |
+| `iso-8859-2` | 71 | 37 | 20 | 14 |
 | `windows-1251` | 63 | 37 | 18 | 8 |
 | `windows-1256` | 46 | 37 | 6 | 3 |
 | `iso-8859-5` | 51 | 30 | 17 | 4 |
@@ -122,7 +122,7 @@ count does not imply real-world coverage.
 | `iso-2022-kr` | 8 | 0 | 3 | 2 |
 | `iso-8859-10` | 8 | 0 | 6 | 0 |
 | `iso-8859-14` | 20 | 0 | 16 | 2 |
-| `iso-8859-16` | 19 | 0 | 17 | 0 |
+| `iso-8859-16` | 22 | 0 | 20 | 0 |
 | `iso-8859-3` | 13 | 0 | 9 | 2 |
 | `johab` | 10 | 0 | 3 | 4 |
 | `koi8-t` | 3 | 0 | 3 | 0 |
@@ -3976,7 +3976,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,810 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 3,029 |  |
 
-### ISO 8859 (428 files in 70 directories)
+### ISO 8859 (434 files in 70 directories)
 
 #### `iso-8859-1-da/` — 6 files
 
@@ -4350,12 +4350,15 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 141 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 576 |  |
 
-#### `iso-8859-16-hu/` — 2 files
+#### `iso-8859-16-hu/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_82421.txt` | CulturaX | transcoded | 2,837 |  |
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | transcoded | 1,572 |  |
+| `culturax_hu_0db58ebe16d9.txt` | CulturaX | transcoded | 2,484 | Chosen for u-double-acute density (9 occurrences); see culturax_hu_b91d5ccd213c.txt. |
+| `culturax_hu_5bcbd01ffdb7.txt` | CulturaX | transcoded | 5,072 | Chosen for u-double-acute density (8 occurrences); see culturax_hu_b91d5ccd213c.txt. |
+| `culturax_hu_b91d5ccd213c.txt` | CulturaX | transcoded | 5,239 | Chosen for u-double-acute density (17 occurrences): the only Hungarian letter distinguishing iso8859-2 from iso8859-16. Filename is a content digest, not a CulturaX row index, because the source article was removed from the training cache. |
 
 #### `iso-8859-16-pl/` — 3 files
 
@@ -4414,7 +4417,7 @@ content transcoded to test detection across encodings.
 | `po_0e85f2d2779c.po` | unknown | wild | 58,481 |  |
 | `po_75cfede70965.po` | unknown | wild | 18,433 |  |
 
-#### `iso-8859-2-hu/` — 19 files
+#### `iso-8859-2-hu/` — 22 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4426,6 +4429,9 @@ content transcoded to test detection across encodings.
 | `cigartower.hu.xml` | chardet | wild | 5,447 |  |
 | `culturax_OSCAR-2019_82421.txt` | CulturaX | transcoded | 2,837 |  |
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | transcoded | 1,572 |  |
+| `culturax_hu_0db58ebe16d9.txt` | CulturaX | transcoded | 2,484 | Chosen for u-double-acute density (9 occurrences); see culturax_hu_b91d5ccd213c.txt. |
+| `culturax_hu_5bcbd01ffdb7.txt` | CulturaX | transcoded | 5,072 | Chosen for u-double-acute density (8 occurrences); see culturax_hu_b91d5ccd213c.txt. |
+| `culturax_hu_b91d5ccd213c.txt` | CulturaX | transcoded | 5,239 | Chosen for u-double-acute density (17 occurrences): the only Hungarian letter distinguishing iso8859-2 from iso8859-16. Filename is a content digest, not a CulturaX row index, because the source article was removed from the training cache. |
 | `escience.hu.xml` | chardet | wild | 13,696 |  |
 | `hirtv.hu.xml` | chardet | wild | 3,510 |  |
 | `honositomuhely.hu.xml` | chardet | wild | 4,275 |  |
