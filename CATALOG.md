@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**3122 files** across **730 directories** covering **89 encodings**.
+**3121 files** across **730 directories** covering **89 encodings**.
 
 ## Sources
 
@@ -14,7 +14,7 @@ filename prefix, git history, or content:
 
 | Source | Prefix/Pattern | Files | Description |
 |--------|---------------|------:|-------------|
-| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,947 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,946 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
 | [Mark Pilgrim's chardet](https://github.com/puzzlet/chardet/tree/MarkPilgrim/tests) | `*.xml` (domain names) | 314 | Web-scraped RSS/Atom feeds from the original chardet test suite by Mark Pilgrim. Imported by Puzzlet Chung in 2012. Each filename is the source website's domain. |
 | [Ude](http://code.google.com/p/ude/) (Universal Detector Engine) | `_ude_` | 96 | Test files from the Ude charset detection library (a C# port of Mozilla's universal charset detector). |
 | [charset-normalizer](https://github.com/Ousret/charset_normalizer) ([char-dataset](https://github.com/Ousret/char-dataset)) | various | ~17 | Test data from the charset-normalizer test dataset by Ahmed TAHRI. Iris CSV/JSON datasets originally from [Capital One DataProfiler](https://github.com/capitalone/DataProfiler). UTF-8 `.md`/`.rst` files are READMEs from urllib3 and charset-normalizer. `anzeige-value-stars.html` from charset-normalizer [issue #104](https://github.com/Ousret/charset_normalizer/issues/104). ASCII JSON files (books, parchments, etc.) added to avoid false positives on structured data. `dummy-1.pem` added after [certbot #8964](https://github.com/certbot/certbot/issues/8964). Binary samples ensure non-text is correctly rejected. |
@@ -40,7 +40,7 @@ it, and classified by how it came to exist:
   arrived as deliberate multi-encoding sets. Calling these wild would
   claim more than the evidence supports.
 
-Repo totals: **807 wild**, 1,964 transcoded, 226 suite (of 3,122 files).
+Repo totals: **807 wild**, 1,963 transcoded, 226 suite (of 3,121 files).
 
 Encodings with no wild files are the gaps worth filling — a high file
 count does not imply real-world coverage.
@@ -121,7 +121,7 @@ count does not imply real-world coverage.
 | `iso-2022-jp-ext` | 4 | 0 | 1 | 0 |
 | `iso-2022-kr` | 8 | 0 | 3 | 2 |
 | `iso-8859-10` | 8 | 0 | 6 | 0 |
-| `iso-8859-14` | 20 | 0 | 16 | 2 |
+| `iso-8859-14` | 19 | 0 | 15 | 2 |
 | `iso-8859-16` | 22 | 0 | 20 | 0 |
 | `iso-8859-3` | 13 | 0 | 9 | 2 |
 | `johab` | 10 | 0 | 3 | 4 |
@@ -3976,7 +3976,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,810 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 3,029 |  |
 
-### ISO 8859 (434 files in 70 directories)
+### ISO 8859 (433 files in 70 directories)
 
 #### `iso-8859-1-da/` — 6 files
 
@@ -4185,11 +4185,10 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,304 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 766 |  |
 
-#### `iso-8859-14-br/` — 5 files
+#### `iso-8859-14-br/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_00000.txt` | CulturaX | transcoded | 215 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 253 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 86,172 |  |
 | `culturax_sentinel_34231.txt` | CulturaX | transcoded | 600 |  |
