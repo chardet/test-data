@@ -2734,30 +2734,27 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,240 |  |
 | `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,129 |  |
 
-#### `utf-7-de/` — 4 files
+#### `utf-7-de/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,694 |  |
-| `culturax_OSCAR-2301_83754_signed.txt` | derived | transcoded | 2,699 | `culturax_OSCAR-2301_83754.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,241 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,375 |  |
 
-#### `utf-7-el/` — 4 files
+#### `utf-7-el/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_greek.txt` | Ude | transcoded | 1,462 |  |
-| `_ude_greek_signed.txt` | derived | transcoded | 1,465 | `_ude_greek.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 7,056 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 5,177 |  |
 
-#### `utf-7-en/` — 4 files
+#### `utf-7-en/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_3.txt` | Ude | transcoded | 68 | Very small (68 bytes) |
-| `_ude_3_signed.txt` | derived | transcoded | 71 | `_ude_3.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `signature_only_ascii_body.txt` | synthetic | suite | 195 | Signed UTF-7 whose body is pure ASCII: only the signature identifies it |
 | `reddit_wsb.csv` | unknown | transcoded | 17,152,721 |  |
 
@@ -2769,10 +2766,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_40442.txt` | CulturaX | transcoded | 1,416 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 2,717 |  |
 
-#### `utf-7-es/` — 3 files
+#### `utf-7-es/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `signature_dependent_synthetic.txt` | synthetic | suite | 244 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 | `culturax_mC4_87069.txt` | CulturaX | transcoded | 1,569 |  |
 | `culturax_mC4_87070.txt` | CulturaX | transcoded | 3,175 |  |
 | `culturax_mC4_87071.txt` | CulturaX | transcoded | 2,948 |  |
@@ -2801,10 +2799,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 3,316 |  |
 | `culturax_mC4_80363.txt` | CulturaX | transcoded | 3,192 |  |
 
-#### `utf-7-fr/` — 3 files
+#### `utf-7-fr/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `signature_dependent_synthetic.txt` | synthetic | suite | 230 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 3,142 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 851 |  |
 | `culturax_mC4_88369.txt` | CulturaX | transcoded | 3,137 |  |
@@ -2864,10 +2863,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_77488.txt` | CulturaX | transcoded | 1,967 |  |
 | `culturax_mC4_77489.txt` | CulturaX | transcoded | 3,669 |  |
 
-#### `utf-7-it/` — 3 files
+#### `utf-7-it/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `signature_dependent_synthetic.txt` | synthetic | suite | 207 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 | `culturax_mC4_92388.txt` | CulturaX | transcoded | 2,393 |  |
 | `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,339 |  |
 | `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,472 |  |
@@ -2976,12 +2976,11 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | transcoded | 3,177 |  |
 | `culturax_mC4_78978.txt` | CulturaX | transcoded | 3,083 |  |
 
-#### `utf-7-ru/` — 4 files
+#### `utf-7-ru/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_russian.txt` | Ude | transcoded | 3,105 |  |
-| `_ude_russian_signed.txt` | derived | transcoded | 3,108 | `_ude_russian.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 7,615 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 7,125 |  |
 
