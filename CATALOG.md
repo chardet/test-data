@@ -2734,27 +2734,30 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,240 |  |
 | `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,129 |  |
 
-#### `utf-7-de/` — 3 files
+#### `utf-7-de/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,694 |  |
+| `culturax_OSCAR-2301_83754_signed.txt` | derived | transcoded | 2,699 | `culturax_OSCAR-2301_83754.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,241 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,375 |  |
 
-#### `utf-7-el/` — 3 files
+#### `utf-7-el/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_greek.txt` | Ude | transcoded | 1,462 |  |
+| `_ude_greek_signed.txt` | derived | transcoded | 1,465 | `_ude_greek.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 7,056 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 5,177 |  |
 
-#### `utf-7-en/` — 2 files
+#### `utf-7-en/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_3.txt` | Ude | transcoded | 68 | Very small (68 bytes) |
+| `_ude_3_signed.txt` | derived | transcoded | 71 | `_ude_3.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `reddit_wsb.csv` | unknown | transcoded | 17,152,721 |  |
 
 #### `utf-7-eo/` — 3 files
@@ -2972,11 +2975,12 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_78976.txt` | CulturaX | transcoded | 3,177 |  |
 | `culturax_mC4_78978.txt` | CulturaX | transcoded | 3,083 |  |
 
-#### `utf-7-ru/` — 3 files
+#### `utf-7-ru/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_russian.txt` | Ude | transcoded | 3,105 |  |
+| `_ude_russian_signed.txt` | derived | transcoded | 3,108 | `_ude_russian.txt` with a UTF-7 signature (U+FEFF) prepended |
 | `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 7,615 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 7,125 |  |
 
