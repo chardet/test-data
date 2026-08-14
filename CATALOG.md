@@ -2752,12 +2752,13 @@ content transcoded to test detection across encodings.
 | `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 7,056 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 5,177 |  |
 
-#### `utf-7-en/` — 3 files
+#### `utf-7-en/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_3.txt` | Ude | transcoded | 68 | Very small (68 bytes) |
 | `_ude_3_signed.txt` | derived | transcoded | 71 | `_ude_3.txt` with a UTF-7 signature (U+FEFF) prepended |
+| `signature_only_ascii_body.txt` | synthetic | suite | 195 | Signed UTF-7 whose body is pure ASCII: only the signature identifies it |
 | `reddit_wsb.csv` | unknown | transcoded | 17,152,721 |  |
 
 #### `utf-7-eo/` — 3 files

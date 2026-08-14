@@ -1,0 +1,1 @@
++/v8-This memo is plain ASCII on purpose: the only UTF-7 evidence is the signature itself. Detectors that ignore the signature will call this file ASCII and hand the marker back as literal text.
