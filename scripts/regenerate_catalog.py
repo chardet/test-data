@@ -48,6 +48,8 @@ SOURCE_INFO = {
     "_uchardet_": ("uchardet", None),
     "archive_": ("Web Archive", None),
     "cc_": ("Common Crawl", "https://commoncrawl.org/"),
+    "msdn_": ("MSDN disc", "https://archive.org/details/96791-041997-16bit-operating-systems"),
+    "carved_": ("MSDN disc", "https://archive.org/details/96791-041997-16bit-operating-systems"),
 }
 
 

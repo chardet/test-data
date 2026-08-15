@@ -62,6 +62,14 @@ SUITE = "suite"
 # not wild; the text is authentic rather than modern web prose, so it is
 # not ordinary transcoding either.  See scripts/transcode_historic.py.
 HISTORIC = "historic"
+# Text runs carved byte-for-byte out of an era binary (a DOS help file or
+# executable string table).  The byte sequences are authentic -- written in
+# that encoding by the original vendor, never re-encoded -- but the
+# document is our concatenation of them, so calling it wild would claim a
+# file nobody ever shipped.  Carving is also a real detector workload:
+# strings pulled from old binaries are exactly what data-recovery feeds
+# detect().  The only path in is a "Carve ..." commit naming the source.
+EXTRACTED = "extracted"
 
 # Substrings of the introducing commit's subject line -> provenance.
 # Order matters: the first matching rule wins.  Anything unmatched falls
@@ -83,6 +91,10 @@ COMMIT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
             "Fill 3 more gaps",
             "Better handling of historical Hebrew doc generation",
         ),
+    ),
+    (
+        EXTRACTED,
+        ("Carve ",),
     ),
     (
         WILD,
@@ -179,14 +191,16 @@ def classify_subject(subject: str) -> str:
 NAME_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     (HISTORIC, ("historic_",)),
     (TRANSCODED, ("culturax_",)),
+    (EXTRACTED, ("carved_",)),
     # Every one of these is written by a miner and enters through
     # promote_candidates.py: cc_ from the crawl, po_ from gettext
     # catalogues, and the rest named for where they were dug out of.
+    # msdn_ files were lifted whole from mounted MSDN disc images.
     (
         WILD,
         (
             "cc_", "po_", "usenet_", "artpack_", "repo_",
-            "dos_", "ebcdic_", "machfs_", "archive_",
+            "dos_", "ebcdic_", "machfs_", "archive_", "msdn_",
         ),
     ),
 )

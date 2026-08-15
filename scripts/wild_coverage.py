@@ -25,7 +25,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from encoding_gaps import get_codec  # noqa: E402
-from provenance import HISTORIC, WILD, classify_all, data_files  # noqa: E402
+from provenance import EXTRACTED, HISTORIC, WILD, classify_all, data_files  # noqa: E402
 
 # Per-tier targets.  A flat number assumed a retrievable wild corpus
 # exists for every encoding; testing ten source types showed it does not.
@@ -76,11 +76,36 @@ for _codec in ("hz", "iso2022_jp", "iso2022_jp_2", "iso2022_jp_2004",
                "iso2022_jp_ext", "iso2022_kr", "utf-7", "johab"):
     SOURCE_CLASS[_codec] = USENET
 for _codec in ("cp437", "cp850", "cp852", "cp855", "cp857", "cp858", "cp860",
-               "cp861", "cp862", "cp863", "cp864", "cp865", "cp869", "cp737",
+               "cp861", "cp862", "cp863", "cp865", "cp869", "cp737",
                "cp775", "cp720", "cp1125", "mac-roman", "mac-latin2",
                "mac-greek", "mac-iceland", "mac-turkish", "hp-roman8",
-               "koi8-t", "kz1048", "ptcp154", "iso8859-10", "iso8859-14"):
+               "kz1048", "ptcp154", "iso8859-10", "iso8859-14"):
     SOURCE_CLASS[_codec] = ARCHIVE
+# Measured, not assumed (August 2026), in the iso-8859-14 tradition:
+#   cp864    opened, not just searched: both retrievable generations of
+#            Microsoft's Arabic DOS were mounted and their archives
+#            extracted (MS-DOS 3.30 Arabic floppies, archive.org item
+#            msdos-330-ar, ARC members CRC-verified; Arabic MS-DOS 5.0
+#            from the MSDN April 1997 16-bit international disc, SZDD
+#            members expanded).  Every README is plain ASCII English, and
+#            every Arabic-bearing file in both trees strict-decodes under
+#            cp720 while cp864 strictly fails; the 3.30 VIDEO.CPI carries
+#            437/850/860/863/865 plus pre-standard Arabic codepages
+#            151/152/161-166, no 864.  The MSDN Arabic line stops at 5.0.
+#            cp864 is IBM's Arabic codepage; its text lived on IBM Arabic
+#            PC DOS systems, which no tested archive holds.  A future
+#            specimen needs an IBM Arabic PC DOS image, and proving it
+#            would take joining-form coherence analysis: cp864 shares no
+#            30%-overlap partner, but cp720 fills the same high range
+#            with Arabic, so byte positions alone prove nothing.
+#   koi8-t   an interim bridge encoding that reached glibc's tg_TJ locale
+#            and FreeDOS (cp62318) but left no retrievable text: Tajik in
+#            Common Crawl is utf-8/cp1251 only (measured), GitHub code
+#            search has zero files declaring charset=KOI8-T, and the
+#            Translation Project's only Tajik catalogue was UTF-8 from its
+#            2004 start.
+for _codec in ("cp864", "koi8-t"):
+    SOURCE_CLASS[_codec] = NONE
 for _codec in ("cp037", "cp273", "cp424", "cp500", "cp875", "cp1026",
                "cp1006", "cp1140", "cp856"):
     SOURCE_CLASS[_codec] = NONE
@@ -102,7 +127,11 @@ def dir_codec(dirname: str) -> str | None:
 # corpus survives only in a codepage Python cannot name, period text
 # re-encoded into the supported sibling is the closest thing to a real
 # sample that can exist, and is far better evidence than modern web text.
-COUNTED = (WILD, HISTORIC)
+# Extracted carvings count for the same reason: for encodings whose only
+# surviving artifacts are binaries (Hebrew and Arabic DOS shipped no plain
+# text files), byte-authentic vendor text carved out of them is the
+# closest thing to a wild sample that can exist.
+COUNTED = (WILD, HISTORIC, EXTRACTED)
 
 
 def wild_counts() -> dict[str, int]:

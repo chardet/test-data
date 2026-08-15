@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**3121 files** across **730 directories** covering **89 encodings**.
+**3137 files** across **730 directories** covering **89 encodings**.
 
 ## Sources
 
@@ -23,7 +23,7 @@ filename prefix, git history, or content:
 | [Chromium](https://chromium.googlesource.com/chromium/src/) | `_chromium_` | 15 | Test files from the Chromium browser's encoding detection test suite. |
 | [Mozilla](https://hg.mozilla.org/mozilla-central/) | `_mozilla_` | 11 | Test files from Mozilla's charset detection test suite, including regression tests for specific bugs (bug numbers in filenames). |
 | [Web Archive](https://web.archive.org/) | `archive_` | 11 | Test files sourced from the Wayback Machine web archive. |
-| Contributed | various | ~273 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
+| Contributed | various | ~277 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
 
 ## Provenance
 
@@ -40,7 +40,7 @@ it, and classified by how it came to exist:
   arrived as deliberate multi-encoding sets. Calling these wild would
   claim more than the evidence supports.
 
-Repo totals: **807 wild**, 1,963 transcoded, 226 suite (of 3,121 files).
+Repo totals: **815 wild**, 1,963 transcoded, 230 suite (of 3,137 files).
 
 Encodings with no wild files are the gaps worth filling — a high file
 count does not imply real-world coverage.
@@ -54,13 +54,13 @@ count does not imply real-world coverage.
 | `iso-8859-2` | 71 | 37 | 20 | 14 |
 | `windows-1251` | 63 | 37 | 18 | 8 |
 | `windows-1256` | 46 | 37 | 6 | 3 |
+| `euc-kr` | 37 | 32 | 0 | 5 |
 | `iso-8859-5` | 51 | 30 | 17 | 4 |
-| `euc-kr` | 33 | 28 | 0 | 5 |
-| `shift_jis` | 31 | 26 | 0 | 5 |
+| `shift_jis` | 34 | 29 | 0 | 5 |
 | `euc-jp` | 32 | 25 | 2 | 5 |
 | `big5` | 29 | 24 | 1 | 4 |
+| `gb2312` | 25 | 19 | 1 | 5 |
 | `koi8-r` | 25 | 19 | 3 | 3 |
-| `gb2312` | 24 | 18 | 1 | 5 |
 | `cp855` | 39 | 17 | 18 | 4 |
 | `cp866` | 37 | 17 | 17 | 3 |
 | `maccyrillic` | 38 | 16 | 18 | 4 |
@@ -101,7 +101,7 @@ count does not imply real-world coverage.
 | `cp273` | 7 | 0 | 3 | 0 |
 | `cp424` | 9 | 0 | 3 | 1 |
 | `cp500` | 29 | 0 | 24 | 0 |
-| `cp720` | 8 | 0 | 6 | 0 |
+| `cp720` | 10 | 0 | 6 | 0 |
 | `cp737` | 3 | 0 | 1 | 0 |
 | `cp775` | 12 | 0 | 9 | 1 |
 | `cp852` | 26 | 0 | 22 | 2 |
@@ -110,7 +110,7 @@ count does not imply real-world coverage.
 | `cp858` | 35 | 0 | 33 | 0 |
 | `cp860` | 6 | 0 | 3 | 0 |
 | `cp861` | 5 | 0 | 3 | 0 |
-| `cp862` | 5 | 0 | 3 | 0 |
+| `cp862` | 7 | 0 | 3 | 0 |
 | `cp863` | 5 | 0 | 3 | 0 |
 | `cp864` | 1 | 0 | 1 | 0 |
 | `cp865` | 6 | 0 | 4 | 0 |
@@ -138,7 +138,7 @@ count does not imply real-world coverage.
 | `utf-32-be` | 3 | 0 | 3 | 0 |
 | `utf-32be` | 153 | 0 | 145 | 3 |
 | `utf-32le` | 153 | 0 | 145 | 3 |
-| `utf-7` | 145 | 0 | 142 | 0 |
+| `utf-7` | 149 | 0 | 142 | 4 |
 
 ## Binary Test Files (`None-None/`)
 
@@ -218,7 +218,7 @@ Each encoding directory contains files transcoded into that encoding.
 Many source texts appear across multiple encoding directories — the same
 content transcoded to test detection across encodings.
 
-### Unicode (1551 files in 441 directories)
+### Unicode (1555 files in 441 directories)
 
 #### `utf-16-ar/` — 4 files
 
@@ -2755,8 +2755,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_3.txt` | Ude | transcoded | 68 | Very small (68 bytes) |
-| `signature_only_ascii_body.txt` | synthetic | suite | 195 | Signed UTF-7 whose body is pure ASCII: only the signature identifies it |
 | `reddit_wsb.csv` | unknown | transcoded | 17,152,721 |  |
+| `signature_only_ascii_body.txt` | unknown | suite | 195 | Signed UTF-7 whose body is pure ASCII: only the signature identifies it |
 
 #### `utf-7-eo/` — 3 files
 
@@ -2770,10 +2770,10 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `signature_dependent_synthetic.txt` | synthetic | suite | 244 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 | `culturax_mC4_87069.txt` | CulturaX | transcoded | 1,569 |  |
 | `culturax_mC4_87070.txt` | CulturaX | transcoded | 3,175 |  |
 | `culturax_mC4_87071.txt` | CulturaX | transcoded | 2,948 |  |
+| `signature_dependent_synthetic.txt` | unknown | suite | 244 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 
 #### `utf-7-et/` — 3 files
 
@@ -2803,10 +2803,10 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `signature_dependent_synthetic.txt` | synthetic | suite | 230 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 3,142 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 851 |  |
 | `culturax_mC4_88369.txt` | CulturaX | transcoded | 3,137 |  |
+| `signature_dependent_synthetic.txt` | unknown | suite | 230 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 
 #### `utf-7-ga/` — 3 files
 
@@ -2867,10 +2867,10 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `signature_dependent_synthetic.txt` | synthetic | suite | 207 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 | `culturax_mC4_92388.txt` | CulturaX | transcoded | 2,393 |  |
 | `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,339 |  |
 | `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,472 |  |
+| `signature_dependent_synthetic.txt` | unknown | suite | 207 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 
 #### `utf-7-ja/` — 3 files
 
@@ -5205,7 +5205,7 @@ content transcoded to test detection across encodings.
 | `historic_e802f1066850.txt` | unknown | historic | 51,219 |  |
 | `historic_f4934f0a6cb5.txt` | unknown | historic | 74,509 |  |
 
-### IBM/DOS code pages (414 files in 113 directories)
+### IBM/DOS code pages (418 files in 113 directories)
 
 #### `cp037-da/` — 3 files
 
@@ -5560,10 +5560,12 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_96485.txt` | CulturaX | transcoded | 2,733 |  |
 | `culturax_mC4_96486.txt` | CulturaX | transcoded | 2,533 |  |
 
-#### `cp720-ar/` — 5 files
+#### `cp720-ar/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `carved_manager_exe.txt` | MSDN disc | extracted | 5,595 | Menu strings carved from Arabic MS-DOS 5.0 MANAGER.EXE, MSDN Apr 1997 16-bit intl disc |
+| `carved_manager_hlp.txt` | MSDN disc | extracted | 19,893 | Text runs carved from Arabic MS-DOS 5.0 MANAGER.HLP, MSDN Apr 1997 16-bit intl disc |
 | `culturax_OSCAR-2109_98639.txt` | CulturaX | transcoded | 2,422 |  |
 | `culturax_mC4_98635.txt` | CulturaX | transcoded | 1,125 |  |
 | `culturax_mC4_98641.txt` | CulturaX | transcoded | 1,443 |  |
@@ -6013,10 +6015,12 @@ content transcoded to test detection across encodings.
 | `historic_9569ee1ce042.txt` | unknown | historic | 22,384 |  |
 | `historic_ad320626cff5.txt` | unknown | historic | 22,386 |  |
 
-#### `cp862-he/` — 5 files
+#### `cp862-he/` — 7 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `carved_manager_exe.txt` | MSDN disc | extracted | 3,903 | Menu strings carved from Hebrew MS-DOS 5.0 MANAGER.EXE, MSDN Apr 1997 16-bit intl disc |
+| `carved_manager_hlp.txt` | MSDN disc | extracted | 26,744 | Text runs carved from Hebrew MS-DOS 5.0 MANAGER.HLP, MSDN Apr 1997 16-bit intl disc |
 | `culturax_00000.txt` | CulturaX | transcoded | 119 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 984 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,241 |  |
@@ -6637,7 +6641,7 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 1,395 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 4,993 |  |
 
-### Chinese encodings (70 files in 4 directories)
+### Chinese encodings (71 files in 4 directories)
 
 #### `big5-zh/` — 29 files
 
@@ -6687,7 +6691,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 2,051 | Uses gbk-range bytes beyond gb2312 |
 | `po_28615ec6dac5.po` | unknown | wild | 269,192 |  |
 
-#### `gb2312-zh/` — 24 files
+#### `gb2312-zh/` — 25 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -6711,6 +6715,7 @@ content transcoded to test detection across encodings.
 | `jjgod.3322.org.xml` | chardet | wild | 9,356 |  |
 | `lily.blogsome.com.xml` | chardet | wild | 38,414 |  |
 | `luciferwang.blogcn.com.xml` | chardet | wild | 20,395 | High markup ratio (61% tags) |
+| `msdn_sample.txt` | MSDN disc | wild | 4,170 | Chinese MS-DOS 6.22 SC sample text, MSDN Apr 1997 16-bit intl disc |
 | `pda.blogsome.com.xml` | chardet | wild | 4,479 |  |
 | `softsea.net.xml` | chardet | wild | 87,552 |  |
 | `w3cn.org.xml` | chardet | wild | 5,646 |  |
@@ -6729,7 +6734,7 @@ content transcoded to test detection across encodings.
 | `usenet_b0c3b30a5532.txt` | unknown | wild | 600 |  |
 | `usenet_fcddd4d8e063.txt` | unknown | wild | 1,514 |  |
 
-### Japanese encodings (81 files in 5 directories)
+### Japanese encodings (84 files in 5 directories)
 
 #### `euc-jp-ja/` — 32 files
 
@@ -6801,7 +6806,7 @@ content transcoded to test detection across encodings.
 | `usenet_9c1caa03e25d.txt` | unknown | wild | 3,227 |  |
 | `usenet_b8b9c876fe1a.txt` | unknown | wild | 1,499 |  |
 
-#### `shift_jis-ja/` — 31 files
+#### `shift_jis-ja/` — 34 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -6829,6 +6834,9 @@ content transcoded to test detection across encodings.
 | `grebeweb.net.xml` | chardet | wild | 16,953 |  |
 | `milliontimes.jp.xml` | chardet | wild | 34,584 |  |
 | `moon-light.ne.jp.xml` | chardet | wild | 7,588 |  |
+| `msdn_networkj.txt` | MSDN disc | wild | 23,477 | Japanese MS-DOS 6.2/V NETWORKS, MSDN Apr 1997 16-bit intl disc |
+| `msdn_os2j.txt` | MSDN disc | wild | 6,748 | Japanese MS-DOS 6.2/V OS2 notes, MSDN Apr 1997 16-bit intl disc |
+| `msdn_readmej.txt` | MSDN disc | wild | 104,364 | Japanese MS-DOS 6.2/V README, MSDN Apr 1997 16-bit intl disc |
 | `nextbeaut.com.xml` | chardet | wild | 21,540 | High markup ratio (73% tags) |
 | `ooganemochi.com.xml` | chardet | wild | 2,681 |  |
 | `perth-on.net.xml` | chardet | wild | 3,760 |  |
@@ -6837,9 +6845,9 @@ content transcoded to test detection across encodings.
 | `tamuyou.haun.org.xml` | chardet | wild | 30,148 |  |
 | `yasuhisa.com.xml` | chardet | wild | 5,431 | High markup ratio (60% tags) |
 
-### Korean encodings (51 files in 3 directories)
+### Korean encodings (55 files in 3 directories)
 
-#### `euc-kr-ko/` — 33 files
+#### `euc-kr-ko/` — 37 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -6866,6 +6874,10 @@ content transcoded to test detection across encodings.
 | `jowchung.oolim.net.xml` | chardet | wild | 41,204 | High markup ratio (76% tags) |
 | `kina.egloos.com.xml` | chardet | wild | 8,538 |  |
 | `lennon81.egloos.com.xml` | chardet | wild | 6,122 | High markup ratio (75% tags) |
+| `msdn_networks.txt` | MSDN disc | wild | 22,782 | Korean MS-DOS 6.2 NETWORKS.TXT, MSDN Apr 1997 16-bit intl disc |
+| `msdn_os2.txt` | MSDN disc | wild | 6,427 | Korean MS-DOS 6.2 OS2.TXT, MSDN Apr 1997 16-bit intl disc |
+| `msdn_readme.txt` | MSDN disc | wild | 88,426 | Korean MS-DOS 6.2 README (Sep 1994), MSDN Apr 1997 16-bit intl disc |
+| `msdn_setup.msg` | MSDN disc | wild | 1,447 | Korean MS-DOS 6.2 setup messages, MSDN Apr 1997 16-bit intl disc |
 | `oroll.egloos.com.xml` | chardet | wild | 6,339 | High markup ratio (73% tags) |
 | `poliplus.egloos.com.xml` | chardet | wild | 6,519 | High markup ratio (74% tags) |
 | `scarletkh2.egloos.com.xml` | chardet | wild | 10,320 |  |
