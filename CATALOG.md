@@ -4698,9 +4698,9 @@ content transcoded to test detection across encodings.
 | `_ude_he1.txt` | Ude | suite | 681 |  |
 | `_ude_he2.txt` | Ude | suite | 1,608 |  |
 | `_ude_he3.txt` | Ude | suite | 340 |  |
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 2,987 |  |
-| `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 2,987 |  |
-| `culturax_OSCAR-2301_58268.txt` | CulturaX | transcoded | 3,000 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 2,987 | Visual order (bytes in display order, the 1990s ISO-8859-8 web convention); reordered from the logical CulturaX article by UBA |
+| `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 2,987 | Visual order (bytes in display order, the 1990s ISO-8859-8 web convention); reordered from the logical CulturaX article by UBA |
+| `culturax_OSCAR-2301_58268.txt` | CulturaX | transcoded | 3,000 | Visual order (bytes in display order, the 1990s ISO-8859-8 web convention); reordered from the logical CulturaX article by UBA |
 | `exego.net.2.xml` | chardet | wild | 11,896 |  |
 | `hagada.org.il.xml` | chardet | wild | 3,687 |  |
 | `halemo.net.edoar.xml` | chardet | wild | 15,049 |  |

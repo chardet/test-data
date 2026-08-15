@@ -16,6 +16,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import codecs
 import hashlib
 import os
 import sys
@@ -26,6 +27,10 @@ from pathlib import Path
 if __name__ == "__main__" and __package__ is None:
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from scripts.bidi_order import (  # noqa: E402
+    VISUAL_ORDER_ENCODINGS,
+    reorder_visual,
+)
 from scripts.encoding_gaps import (  # noqa: E402
     LANGUAGE_TO_ISO,
     find_gaps,
@@ -428,11 +433,20 @@ def generate_culturax(
     # Prepare substitutions
     subs = get_substitutions(enc_prefix, full_language)
 
+    # Files for visual-convention encodings are stored in display order;
+    # see scripts/bidi_order.py for the evidence and the chardet twin.
+    try:
+        visual = codecs.lookup(codec).name in VISUAL_ORDER_ENCODINGS
+    except LookupError:
+        visual = False
+
     # Encode all articles and collect those that pass quality gates.
     candidates: list[tuple[str, bytes]] = []
     for raw_text in articles:
         text = normalize_text(raw_text, enc_prefix)
         text = apply_substitutions(text, subs)
+        if visual:
+            text = reorder_visual(text)
 
         # Try the full article first.
         encoded = text.encode(codec, errors="ignore")
