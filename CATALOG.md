@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**3137 files** across **730 directories** covering **89 encodings**.
+**3138 files** across **730 directories** covering **89 encodings**.
 
 ## Sources
 
@@ -23,7 +23,7 @@ filename prefix, git history, or content:
 | [Chromium](https://chromium.googlesource.com/chromium/src/) | `_chromium_` | 15 | Test files from the Chromium browser's encoding detection test suite. |
 | [Mozilla](https://hg.mozilla.org/mozilla-central/) | `_mozilla_` | 11 | Test files from Mozilla's charset detection test suite, including regression tests for specific bugs (bug numbers in filenames). |
 | [Web Archive](https://web.archive.org/) | `archive_` | 11 | Test files sourced from the Wayback Machine web archive. |
-| Contributed | various | ~277 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
+| Contributed | various | ~278 | Community contributions: Turkish test files by queeup, CP932 tests by hashy, Johab Korean texts (hlpro-readme, iyagi-readme, mdir-doc), UTF-16/32 plane 1 tests by Jason Zavaglia. |
 
 ## Provenance
 
@@ -40,7 +40,7 @@ it, and classified by how it came to exist:
   arrived as deliberate multi-encoding sets. Calling these wild would
   claim more than the evidence supports.
 
-Repo totals: **815 wild**, 1,963 transcoded, 230 suite (of 3,137 files).
+Repo totals: **815 wild**, 1,963 transcoded, 230 suite (of 3,138 files).
 
 Encodings with no wild files are the gaps worth filling — a high file
 count does not imply real-world coverage.
@@ -112,7 +112,7 @@ count does not imply real-world coverage.
 | `cp861` | 5 | 0 | 3 | 0 |
 | `cp862` | 7 | 0 | 3 | 0 |
 | `cp863` | 5 | 0 | 3 | 0 |
-| `cp864` | 1 | 0 | 1 | 0 |
+| `cp864` | 2 | 0 | 1 | 0 |
 | `cp865` | 6 | 0 | 4 | 0 |
 | `cp869` | 6 | 0 | 3 | 1 |
 | `cp875` | 8 | 0 | 3 | 0 |
@@ -5205,7 +5205,7 @@ content transcoded to test detection across encodings.
 | `historic_e802f1066850.txt` | unknown | historic | 51,219 |  |
 | `historic_f4934f0a6cb5.txt` | unknown | historic | 74,509 |  |
 
-### IBM/DOS code pages (418 files in 113 directories)
+### IBM/DOS code pages (419 files in 113 directories)
 
 #### `cp037-da/` — 3 files
 
@@ -6037,11 +6037,12 @@ content transcoded to test detection across encodings.
 | `historic_2f37e62a1d77.txt` | unknown | historic | 87,367 |  |
 | `historic_a0db4dbba260.txt` | unknown | historic | 230,928 |  |
 
-#### `cp864-ar/` — 1 files
+#### `cp864-ar/` — 2 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_00000.txt` | CulturaX | transcoded | 385 |  |
+| `culturax_00000.txt` | CulturaX | transcoded | 385 | Contextually shaped presentation forms in visual order (IBM two-form convention); logical source in _logical_source/ |
+| `historic_189b43d0b58d.txt` | unknown | historic | 19,490 | Arabic MS-DOS 5.0 Manager text shaped into cp864 presentation forms, visual order, as an IBM Arabic PC DOS machine would store it; logical source in _logical_source/ |
 
 #### `cp865-da/` — 5 files
 

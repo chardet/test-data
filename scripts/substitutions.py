@@ -364,11 +364,12 @@ def normalize_text(text: str, encoding: str) -> str:
     if enc_upper == "WINDOWS-1258":
         nfc = unicodedata.normalize("NFC", text)
         text = "".join(VIETNAMESE_DECOMPOSITION.get(c, c) for c in nfc)
-    # Arabic presentation forms for cp1006 / cp864
+    # Arabic presentation forms for cp1006.  cp864 no longer uses a naive
+    # isolated-form map here: the generator shapes its text contextually
+    # and stores it in visual order (scripts/arabic_shape.py +
+    # scripts/bidi_order.py), matching how chardet trains that model.
     if enc_upper == "CP1006":
         text = "".join(_CP1006_PRES_MAP.get(c, c) for c in text)
-    elif enc_upper == "CP864":
-        text = "".join(_CP864_PRES_MAP.get(c, c) for c in text)
     return text
 
 

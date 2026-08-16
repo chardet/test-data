@@ -27,6 +27,10 @@ from pathlib import Path
 if __name__ == "__main__" and __package__ is None:
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from scripts.arabic_shape import (  # noqa: E402
+    SHAPED_VISUAL_ENCODINGS,
+    shape_for_codec,
+)
 from scripts.bidi_order import (  # noqa: E402
     VISUAL_ORDER_ENCODINGS,
     reorder_visual,
@@ -434,26 +438,36 @@ def generate_culturax(
     subs = get_substitutions(enc_prefix, full_language)
 
     # Files for visual-convention encodings are stored in display order;
-    # see scripts/bidi_order.py for the evidence and the chardet twin.
+    # presentation-form pages are contextually shaped first.  See
+    # scripts/bidi_order.py and scripts/arabic_shape.py for the evidence
+    # and the chardet twins.
     try:
-        visual = codecs.lookup(codec).name in VISUAL_ORDER_ENCODINGS
+        canonical = codecs.lookup(codec).name
     except LookupError:
-        visual = False
+        canonical = ""
+    visual = canonical in VISUAL_ORDER_ENCODINGS
+    shaped = canonical in SHAPED_VISUAL_ENCODINGS
 
     # Encode all articles and collect those that pass quality gates.
-    candidates: list[tuple[str, bytes]] = []
+    # Candidates carry the raw source article so shaped directories can
+    # write it as the `_logical_source/` sidecar the train/test overlap
+    # exclusion needs: shaping deletes characters, so the shaped bytes
+    # can never be matched back to the article they came from.
+    candidates: list[tuple[str, bytes, str]] = []
     for raw_text in articles:
         text = normalize_text(raw_text, enc_prefix)
         text = apply_substitutions(text, subs)
         if visual:
             text = reorder_visual(text)
+        elif shaped:
+            text = reorder_visual(shape_for_codec(text, codec))
 
         # Try the full article first.
         encoded = text.encode(codec, errors="ignore")
         if passes_quality_gates(encoded, text, codec, enc_prefix, language):
             md5 = hashlib.md5(encoded).hexdigest()
             if md5 not in existing_md5s:
-                candidates.append((text, encoded))
+                candidates.append((text, encoded, raw_text))
                 continue
 
         # Try truncated versions at each target size.
@@ -471,7 +485,7 @@ def generate_culturax(
                 if passes_quality_gates(enc, trimmed, codec, enc_prefix, language):
                     md5 = hashlib.md5(enc).hexdigest()
                     if md5 not in existing_md5s:
-                        candidates.append((trimmed, enc))
+                        candidates.append((trimmed, enc, raw_text))
                         added = True
                         break
 
@@ -494,15 +508,21 @@ def generate_culturax(
         ]
 
     # Build final file list
-    generated: list[tuple[str, bytes]] = []
-    for idx, (_text, encoded) in enumerate(selected):
+    generated: list[tuple[str, bytes, str]] = []
+    for idx, (_text, encoded, raw_text) in enumerate(selected):
         fname = f"culturax_{idx:05d}.txt"
-        generated.append((fname, encoded))
+        generated.append((fname, encoded, raw_text))
 
     dst_dir.mkdir(exist_ok=True)
-    for fname, encoded in generated:
+    for fname, encoded, raw_text in generated:
         (dst_dir / fname).write_bytes(encoded)
         existing_md5s.add(hashlib.md5(encoded).hexdigest())
+        if shaped:
+            # The full source article, not the possibly truncated slice:
+            # over-inclusive exclusion is the correct direction.
+            sidecar = dst_dir / "_logical_source"
+            sidecar.mkdir(exist_ok=True)
+            (sidecar / fname).write_text(raw_text, encoding="utf-8")
 
     print(
         f"  CREATED {enc_prefix}-{language}/ "
