@@ -5,7 +5,7 @@ This repository contains character encoding test data for the
 subdirectory is named `{encoding}` or `{encoding}-{language}` and
 contains files encoded in that encoding.
 
-**3138 files** across **730 directories** covering **89 encodings**.
+**3137 files** across **730 directories** covering **89 encodings**.
 
 ## Sources
 
@@ -15,7 +15,7 @@ filename prefix, git history, or content:
 | Source | Prefix/Pattern | Files | Description |
 |--------|---------------|------:|-------------|
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) | `culturax_` | 1,946 | Multilingual web text from the CulturaX dataset (built on mC4 and OSCAR Common Crawl snapshots). Row indices are preserved in filenames (e.g., `culturax_mC4_84511.txt`, `culturax_OSCAR-2301_58265.txt`). Many files are transcoded copies of the same source text across multiple encodings. |
-| [Mark Pilgrim's chardet](https://github.com/puzzlet/chardet/tree/MarkPilgrim/tests) | `*.xml` (domain names) | 314 | Web-scraped RSS/Atom feeds from the original chardet test suite by Mark Pilgrim. Imported by Puzzlet Chung in 2012. Each filename is the source website's domain. |
+| [Mark Pilgrim's chardet](https://github.com/puzzlet/chardet/tree/MarkPilgrim/tests) | `*.xml` (domain names) | 313 | Web-scraped RSS/Atom feeds from the original chardet test suite by Mark Pilgrim. Imported by Puzzlet Chung in 2012. Each filename is the source website's domain. |
 | [Ude](http://code.google.com/p/ude/) (Universal Detector Engine) | `_ude_` | 96 | Test files from the Ude charset detection library (a C# port of Mozilla's universal charset detector). |
 | [charset-normalizer](https://github.com/Ousret/charset_normalizer) ([char-dataset](https://github.com/Ousret/char-dataset)) | various | ~17 | Test data from the charset-normalizer test dataset by Ahmed TAHRI. Iris CSV/JSON datasets originally from [Capital One DataProfiler](https://github.com/capitalone/DataProfiler). UTF-8 `.md`/`.rst` files are READMEs from urllib3 and charset-normalizer. `anzeige-value-stars.html` from charset-normalizer [issue #104](https://github.com/Ousret/charset_normalizer/issues/104). ASCII JSON files (books, parchments, etc.) added to avoid false positives on structured data. `dummy-1.pem` added after [certbot #8964](https://github.com/certbot/certbot/issues/8964). Binary samples ensure non-text is correctly rejected. |
 | [ENCA](https://cihar.com/software/enca/) | `_enca_` | 32 | Test files from the ENCA (Extremely Naive Charset Analyser) library. |
@@ -40,7 +40,7 @@ it, and classified by how it came to exist:
   arrived as deliberate multi-encoding sets. Calling these wild would
   claim more than the evidence supports.
 
-Repo totals: **815 wild**, 1,963 transcoded, 230 suite (of 3,138 files).
+Repo totals: **815 wild**, 1,962 transcoded, 230 suite (of 3,137 files).
 
 Encodings with no wild files are the gaps worth filling — a high file
 count does not imply real-world coverage.
@@ -138,7 +138,7 @@ count does not imply real-world coverage.
 | `utf-32-be` | 3 | 0 | 3 | 0 |
 | `utf-32be` | 153 | 0 | 145 | 3 |
 | `utf-32le` | 153 | 0 | 145 | 3 |
-| `utf-7` | 149 | 0 | 142 | 4 |
+| `utf-7` | 148 | 0 | 141 | 4 |
 
 ## Binary Test Files (`None-None/`)
 
@@ -218,7 +218,7 @@ Each encoding directory contains files transcoded into that encoding.
 Many source texts appear across multiple encoding directories — the same
 content transcoded to test detection across encodings.
 
-### Unicode (1555 files in 441 directories)
+### Unicode (1554 files in 441 directories)
 
 #### `utf-16-ar/` — 4 files
 
@@ -2840,14 +2840,13 @@ content transcoded to test detection across encodings.
 | `culturax_00001.txt` | CulturaX | transcoded | 172 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 619 |  |
 
-#### `utf-7-hu/` — 4 files
+#### `utf-7-hu/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | transcoded | 1,899 |  |
 | `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 2,278 |  |
 | `culturax_mC4_82418.txt` | CulturaX | transcoded | 918 |  |
-| `weblabor.hu.xml` | chardet | transcoded | 11,014 |  |
 
 #### `utf-7-id/` — 1 files
 
