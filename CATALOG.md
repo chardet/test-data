@@ -49,11 +49,11 @@ count does not imply real-world coverage.
 |----------|------:|-----:|-----------:|------:|
 | `utf-8` | 268 | 107 | 140 | 21 |
 | `utf-16` | 217 | 71 | 142 | 4 |
-| `iso-8859-1` | 75 | 44 | 19 | 12 |
-| `iso-8859-9` | 45 | 38 | 3 | 4 |
-| `iso-8859-2` | 71 | 37 | 20 | 14 |
+| `iso-8859-1` | 70 | 39 | 19 | 12 |
 | `windows-1251` | 63 | 37 | 18 | 8 |
 | `windows-1256` | 46 | 37 | 6 | 3 |
+| `iso-8859-2` | 69 | 35 | 20 | 14 |
+| `iso-8859-9` | 40 | 33 | 3 | 4 |
 | `euc-kr` | 37 | 32 | 0 | 5 |
 | `iso-8859-5` | 51 | 30 | 17 | 4 |
 | `shift_jis` | 34 | 29 | 0 | 5 |
@@ -61,22 +61,22 @@ count does not imply real-world coverage.
 | `big5` | 29 | 24 | 1 | 4 |
 | `gb2312` | 25 | 19 | 1 | 5 |
 | `koi8-r` | 25 | 19 | 3 | 3 |
+| `windows-1252` | 49 | 18 | 23 | 8 |
+| `windows-1255` | 25 | 18 | 0 | 7 |
 | `cp855` | 39 | 17 | 18 | 4 |
 | `cp866` | 37 | 17 | 17 | 3 |
 | `maccyrillic` | 38 | 16 | 18 | 4 |
 | `ascii` | 32 | 15 | 8 | 9 |
 | `windows-1257` | 18 | 14 | 0 | 4 |
 | `iso-8859-15` | 42 | 13 | 26 | 3 |
-| `iso-8859-8` | 21 | 13 | 3 | 5 |
-| `windows-1252` | 44 | 13 | 23 | 8 |
-| `windows-1250` | 44 | 10 | 15 | 19 |
+| `windows-1254` | 14 | 13 | 0 | 1 |
+| `windows-1250` | 46 | 12 | 15 | 19 |
 | `iso-8859-7` | 17 | 9 | 3 | 5 |
 | `cp850` | 45 | 8 | 37 | 0 |
 | `cp874` | 8 | 8 | 0 | 0 |
 | `iso-8859-4` | 15 | 8 | 6 | 1 |
 | `koi8-u` | 11 | 8 | 2 | 1 |
 | `utf-8-sig` | 151 | 8 | 142 | 1 |
-| `windows-1254` | 9 | 8 | 0 | 1 |
 | `cp932` | 9 | 7 | 1 | 1 |
 | `cp949` | 8 | 7 | 0 | 1 |
 | `cp037` | 34 | 6 | 27 | 1 |
@@ -88,7 +88,6 @@ count does not imply real-world coverage.
 | `iso-2022-jp` | 8 | 5 | 2 | 1 |
 | `iso-8859-13` | 16 | 5 | 9 | 2 |
 | `macroman` | 46 | 5 | 41 | 0 |
-| `windows-1255` | 7 | 5 | 0 | 2 |
 | `iso-8859-11` | 3 | 3 | 0 | 0 |
 | `tis-620` | 8 | 3 | 3 | 2 |
 | `utf-32` | 151 | 2 | 142 | 2 |
@@ -124,6 +123,7 @@ count does not imply real-world coverage.
 | `iso-8859-14` | 19 | 0 | 15 | 2 |
 | `iso-8859-16` | 22 | 0 | 20 | 0 |
 | `iso-8859-3` | 13 | 0 | 9 | 2 |
+| `iso-8859-8` | 3 | 0 | 3 | 0 |
 | `johab` | 10 | 0 | 3 | 4 |
 | `koi8-t` | 3 | 0 | 3 | 0 |
 | `kz1048` | 6 | 0 | 3 | 1 |
@@ -3979,7 +3979,7 @@ content transcoded to test detection across encodings.
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 1,810 |  |
 | `culturax_mC4_7.txt` | CulturaX | transcoded | 3,029 |  |
 
-### ISO 8859 (433 files in 70 directories)
+### ISO 8859 (403 files in 70 directories)
 
 #### `iso-8859-1-da/` — 6 files
 
@@ -4010,18 +4010,13 @@ content transcoded to test detection across encodings.
 | `_mozilla_bug421271_text.html` | Mozilla | suite | 671 |  |
 | `ioreg_output.txt` | unknown | suite | 748,505 | Large file (748,505 bytes); macOS ioreg command output, added for MacRoman prober testing |
 
-#### `iso-8859-1-es/` — 10 files
+#### `iso-8859-1-es/` — 5 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_iso_8859_1.txt` | uchardet | suite | 377 |  |
 | `_ude_5.txt` | Ude | suite | 1,639 |  |
 | `cc_12octubre.es_6e9833f21a16.html` | Common Crawl | wild | 14,110 |  |
-| `cc_www.100franquicias.com.mx_10a5d7cae651.html` | Common Crawl | wild | 96,497 |  |
-| `cc_www.100franquicias.com.mx_27afbef03945.html` | Common Crawl | wild | 96,772 |  |
-| `cc_www.123velo.es_2bb9a9598b17.html` | Common Crawl | wild | 26,376 |  |
-| `cc_www.12neumaticos.es_2d328411fc05.html` | Common Crawl | wild | 26,196 |  |
-| `cc_www.12neumaticos.es_e73c2e229ce2.html` | Common Crawl | wild | 81,551 |  |
 | `po_0d6186da69ea.po` | unknown | wild | 76,252 |  |
 | `po_a2fbc70c39af.po` | unknown | wild | 354,177 |  |
 
@@ -4419,7 +4414,7 @@ content transcoded to test detection across encodings.
 | `po_0e85f2d2779c.po` | unknown | wild | 58,481 |  |
 | `po_75cfede70965.po` | unknown | wild | 18,433 |  |
 
-#### `iso-8859-2-hu/` — 22 files
+#### `iso-8859-2-hu/` — 20 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4437,13 +4432,11 @@ content transcoded to test detection across encodings.
 | `escience.hu.xml` | chardet | wild | 13,696 |  |
 | `hirtv.hu.xml` | chardet | wild | 3,510 |  |
 | `honositomuhely.hu.xml` | chardet | wild | 4,275 |  |
-| `objektivhir.hu.xml` | chardet | wild | 13,417 |  |
 | `saraspatak.hu.xml` | chardet | wild | 7,095 |  |
 | `shamalt.uw.hu.mk.xml` | chardet | wild | 11,632 |  |
 | `shamalt.uw.hu.mr.xml` | chardet | wild | 4,950 |  |
 | `shamalt.uw.hu.mv.xml` | chardet | wild | 8,202 |  |
 | `shamalt.uw.hu.xml` | chardet | wild | 12,464 |  |
-| `torokorszag.blogspot.com.xml` | chardet | wild | 596,838 | Large file (596,838 bytes) |
 | `ugyanmar.blogspot.com.xml` | chardet | wild | 17,772 | High markup ratio (66% tags) |
 
 #### `iso-8859-2-pl/` — 14 files
@@ -4688,33 +4681,15 @@ content transcoded to test detection across encodings.
 | `naftemporiki.gr.spo.xml` | chardet | wild | 4,372 |  |
 | `naftemporiki.gr.wld.xml` | chardet | wild | 4,576 |  |
 
-#### `iso-8859-8-he/` — 21 files
+#### `iso-8859-8-he/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `_chromium_ISO-8859-8_with_no_encoding_specified.html` | Chromium | suite | 602 |  |
-| `_uchardet_iso_8859_8.txt` | uchardet | suite | 119 |  |
-| `_ude_he1.txt` | Ude | suite | 681 |  |
-| `_ude_he2.txt` | Ude | suite | 1,608 |  |
-| `_ude_he3.txt` | Ude | suite | 340 |  |
 | `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 2,987 | Visual order (bytes in display order, the 1990s ISO-8859-8 web convention); reordered from the logical CulturaX article by UBA |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 2,987 | Visual order (bytes in display order, the 1990s ISO-8859-8 web convention); reordered from the logical CulturaX article by UBA |
 | `culturax_OSCAR-2301_58268.txt` | CulturaX | transcoded | 3,000 | Visual order (bytes in display order, the 1990s ISO-8859-8 web convention); reordered from the logical CulturaX article by UBA |
-| `exego.net.2.xml` | chardet | wild | 11,896 |  |
-| `hagada.org.il.xml` | chardet | wild | 3,687 |  |
-| `halemo.net.edoar.xml` | chardet | wild | 15,049 |  |
-| `hevra.org.il.xml` | chardet | wild | 2,111 |  |
-| `info.org.il.xml` | chardet | wild | 7,980 |  |
-| `infomed.co.il.xml` | chardet | wild | 8,119 |  |
-| `law.co.il.xml` | chardet | wild | 5,477 |  |
-| `maakav.org.xml` | chardet | wild | 1,835 |  |
-| `notes.co.il.50.xml` | chardet | wild | 10,945 |  |
-| `notes.co.il.7.xml` | chardet | wild | 9,972 |  |
-| `notes.co.il.8.xml` | chardet | wild | 10,860 |  |
-| `pcplus.co.il.xml` | chardet | wild | 1,652 |  |
-| `sharks.co.il.xml` | chardet | wild | 4,949 |  |
 
-#### `iso-8859-9-tr/` — 45 files
+#### `iso-8859-9-tr/` — 40 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4736,10 +4711,6 @@ content transcoded to test detection across encodings.
 | `cc_golcukakademi.org_4d2c9eef7bdf.html` | Common Crawl | wild | 15,454 |  |
 | `cc_gruphepsifanclup.ace.st_ef4e850e7d6d.html` | Common Crawl | wild | 41,868 |  |
 | `cc_gruphepsifans.123.st_629e1d908555.html` | Common Crawl | wild | 72,832 |  |
-| `cc_hursoyinsaat.com_9c088b410175.html` | Common Crawl | wild | 22,211 |  |
-| `cc_hursoyinsaat.com_b37e1c1e50af.html` | Common Crawl | wild | 24,823 |  |
-| `cc_huyukgundem.com_e4fc22e261f8.html` | Common Crawl | wild | 26,975 |  |
-| `cc_huyukgundem.com_ed402e1b742a.html` | Common Crawl | wild | 36,031 |  |
 | `cc_liderklimaservisi.com_91a106395cae.html` | Common Crawl | wild | 21,875 |  |
 | `cc_liderklimaservisi.com_ff3f42877fd1.html` | Common Crawl | wild | 19,793 |  |
 | `cc_rapcity.123.st_b64dd56f44c2.html` | Common Crawl | wild | 51,720 |  |
@@ -4753,7 +4724,6 @@ content transcoded to test detection across encodings.
 | `cc_www.gtaoyunlari.org_f9cb2027601f.html` | Common Crawl | wild | 10,748 |  |
 | `cc_www.gulumsohbet.org_6a59cba6e043.html` | Common Crawl | wild | 20,558 |  |
 | `cc_www.gulumsohbet.org_9a1ab193eb0d.html` | Common Crawl | wild | 18,377 |  |
-| `cc_www.hukukwork.com_fc78ab0a611d.html` | Common Crawl | wild | 33,102 |  |
 | `cc_www.lidersohbet.com_26fd05a4e0be.html` | Common Crawl | wild | 9,392 |  |
 | `cc_www.lidyasardesotel.com_90abc20d672c.html` | Common Crawl | wild | 30,241 |  |
 | `cc_www.lifeaksesuar.com_75c7b5df553d.html` | Common Crawl | wild | 17,004 |  |
@@ -4764,7 +4734,7 @@ content transcoded to test detection across encodings.
 | `subtitle.srt` | unknown | wild | 1,440 | Subtitle file |
 | `wikitop_tr_ISO-8859-9.txt` | unknown | wild | 1,840 |  |
 
-### Windows code pages (253 files in 37 directories)
+### Windows code pages (283 files in 37 directories)
 
 #### `windows-1250-cs/` — 7 files
 
@@ -4785,7 +4755,7 @@ content transcoded to test detection across encodings.
 | `_enca_cp1250_hr.txt` | ENCA | suite | 129 |  |
 | `_ude_1.txt` | Ude | suite | 5,976 |  |
 
-#### `windows-1250-hu/` — 9 files
+#### `windows-1250-hu/` — 11 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -4798,6 +4768,8 @@ content transcoded to test detection across encodings.
 | `bbc.co.uk.hu.learningenglish.xml` | chardet | wild | 18,576 |  |
 | `bbc.co.uk.hu.pressreview.xml` | chardet | wild | 17,091 |  |
 | `bbc.co.uk.hu.xml` | chardet | wild | 46,615 |  |
+| `objektivhir.hu.xml` | chardet | wild | 13,417 |  |
+| `torokorszag.blogspot.com.xml` | chardet | wild | 596,838 | Large file (596,838 bytes) |
 
 #### `windows-1250-pl/` — 9 files
 
@@ -4966,11 +4938,16 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `github_bug_9.txt` | unknown | suite | 136 | Regression test for chardet [issue #9](https://github.com/chardet/chardet/issues/9) |
 
-#### `windows-1252-es/` — 1 files
+#### `windows-1252-es/` — 6 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_uchardet_windows_1252.txt` | uchardet | suite | 371 |  |
+| `cc_www.100franquicias.com.mx_10a5d7cae651.html` | Common Crawl | wild | 96,497 |  |
+| `cc_www.100franquicias.com.mx_27afbef03945.html` | Common Crawl | wild | 96,772 |  |
+| `cc_www.123velo.es_2bb9a9598b17.html` | Common Crawl | wild | 26,376 |  |
+| `cc_www.12neumaticos.es_2d328411fc05.html` | Common Crawl | wild | 26,196 |  |
+| `cc_www.12neumaticos.es_e73c2e229ce2.html` | Common Crawl | wild | 81,551 |  |
 
 #### `windows-1252-fi/` — 1 files
 
@@ -5070,7 +5047,7 @@ content transcoded to test detection across encodings.
 | `cc_members.aon.at_7c4ca1fdea2d.html` | Common Crawl | wild | 10,776 |  |
 | `culturax_mC4_103810.txt` | CulturaX | transcoded | 2,131 |  |
 
-#### `windows-1254-tr/` — 9 files
+#### `windows-1254-tr/` — 14 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
@@ -5078,22 +5055,45 @@ content transcoded to test detection across encodings.
 | `cc_diegaste-online.de_9c11db69f6f0.html` | Common Crawl | wild | 33,606 |  |
 | `cc_dosthane.de_1e3d5eee73ef.html` | Common Crawl | wild | 14,253 |  |
 | `cc_humaokullari.com_b9f44b424f29.html` | Common Crawl | wild | 3,901 |  |
+| `cc_hursoyinsaat.com_9c088b410175.html` | Common Crawl | wild | 22,211 |  |
+| `cc_hursoyinsaat.com_b37e1c1e50af.html` | Common Crawl | wild | 24,823 |  |
+| `cc_huyukgundem.com_e4fc22e261f8.html` | Common Crawl | wild | 26,975 |  |
+| `cc_huyukgundem.com_ed402e1b742a.html` | Common Crawl | wild | 36,031 |  |
 | `cc_kariyer.antalya-airport.aero_7f3794eefef3.html` | Common Crawl | wild | 2,732 |  |
 | `cc_www.christianhenrichs.de_f089e14cd894.html` | Common Crawl | wild | 36,108 |  |
 | `cc_www.hukukgiyim.com_6e4712e9543e.html` | Common Crawl | wild | 16,872 |  |
 | `cc_www.hukukgiyim.com_b547ef0eb1d3.html` | Common Crawl | wild | 16,867 |  |
+| `cc_www.hukukwork.com_fc78ab0a611d.html` | Common Crawl | wild | 33,102 |  |
 | `cc_www.liderhali.com_c85770b7ad83.html` | Common Crawl | wild | 12,299 |  |
 
-#### `windows-1255-he/` — 7 files
+#### `windows-1255-he/` — 25 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
+| `_chromium_ISO-8859-8_with_no_encoding_specified.html` | Chromium | suite | 602 |  |
 | `_chromium_windows-1255_with_no_encoding_specified.html` | Chromium | suite | 604 |  |
+| `_uchardet_iso_8859_8.txt` | uchardet | suite | 119 |  |
 | `_uchardet_windows_1255.txt` | uchardet | suite | 152 |  |
+| `_ude_he1.txt` | Ude | suite | 681 |  |
+| `_ude_he2.txt` | Ude | suite | 1,608 |  |
+| `_ude_he3.txt` | Ude | suite | 340 |  |
 | `carshops.co.il.xml` | chardet | wild | 142,386 | Large file (142,386 bytes); High markup ratio (72% tags) |
+| `exego.net.2.xml` | chardet | wild | 11,896 |  |
+| `hagada.org.il.xml` | chardet | wild | 3,687 |  |
+| `halemo.net.edoar.xml` | chardet | wild | 15,049 |  |
+| `hevra.org.il.xml` | chardet | wild | 2,111 |  |
 | `hydepark.hevre.co.il.7957.xml` | chardet | wild | 82,358 |  |
+| `info.org.il.xml` | chardet | wild | 7,980 |  |
+| `infomed.co.il.xml` | chardet | wild | 8,119 |  |
+| `law.co.il.xml` | chardet | wild | 5,477 |  |
+| `maakav.org.xml` | chardet | wild | 1,835 |  |
 | `neviim.net.xml` | chardet | wild | 7,245 |  |
+| `notes.co.il.50.xml` | chardet | wild | 10,945 |  |
 | `notes.co.il.6.xml` | chardet | wild | 10,056 |  |
+| `notes.co.il.7.xml` | chardet | wild | 9,972 |  |
+| `notes.co.il.8.xml` | chardet | wild | 10,860 |  |
+| `pcplus.co.il.xml` | chardet | wild | 1,652 |  |
+| `sharks.co.il.xml` | chardet | wild | 4,949 |  |
 | `whatsup.org.il.xml` | chardet | wild | 8,755 |  |
 
 #### `windows-1256-ar/` — 38 files
