@@ -97,14 +97,10 @@ CP866_SUBSTITUTIONS: dict[str, str] = {
 # CP866 language-specific substitutions
 # ---------------------------------------------------------------------------
 
-# cp866 has ї and є, but the same writers did not type them: of 2,486
-# Latin-i messages, 12 carry a real є and 2 a real ї.  They wrote ї as
-# Latin i (20 authors) and є as е (18 authors).
+# cp866 holds ї and є, and writers used them: FidoNet messages relayed to
+# Usenet carry both at their cp866 bytes (62 and 52 of 97 authors), beside
+# a Latin i for the і the code page lacks.  Only ґ needs a stand-in.
 CP866_UKRAINIAN_SUBSTITUTIONS: dict[str, str] = {
-    "\u0457": "i",  # ї → Latin i
-    "\u0407": "I",  # Ї → Latin I
-    "\u0454": "\u0435",  # є → е
-    "\u0404": "\u0415",  # Є → Е
     "\u0490": "\u0413",  # Ґ → Г (Ukrainian Ghe uppercase → Russian Ghe uppercase)
     "\u0491": "\u0433",  # ґ → г (Ukrainian Ghe → Russian Ghe)
 }
@@ -440,7 +436,7 @@ def get_substitutions(
         subs.update(CP864_ARABIC_SUBSTITUTIONS)
 
     if enc_upper == "CP866":
-        subs.update(CP866_SUBSTITUTIONS)  # і→и for all CP866
+        subs.update(CP866_SUBSTITUTIONS)  # і → Latin i for all CP866
         if language == "ukrainian":
             subs.update(CP866_UKRAINIAN_SUBSTITUTIONS)
         elif language == "serbian":
