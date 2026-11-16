@@ -95,13 +95,13 @@ CP866_BELARUSIAN_SUBSTITUTIONS: dict[str, str] = {
 
 CP866_SERBIAN_SUBSTITUTIONS: dict[str, str] = {
     "\u0452": "\u0434",  # ђ → д (Dje → De)
-    "\u0458": "\u0439",  # ј → й (Je → Short I)
+    "\u0458": "j",  # ј → Latin j, the spelling writers without the letter use
     "\u0459": "\u043b",  # љ → л (Lje → El)
     "\u045a": "\u043d",  # њ → н (Nje → En)
     "\u045b": "\u0447",  # ћ → ч (Tshe → Che)
     "\u045f": "\u0446",  # џ → ц (Dzhe → Tse)
     "\u0402": "\u0414",  # Ђ → Д (uppercase)
-    "\u0408": "\u0419",  # Ј → Й (uppercase)
+    "\u0408": "J",  # Ј → Latin J (uppercase)
     "\u0409": "\u041b",  # Љ → Л (uppercase)
     "\u040a": "\u041d",  # Њ → Н (uppercase)
     "\u040b": "\u0427",  # Ћ → Ч (uppercase)
@@ -111,14 +111,14 @@ CP866_SERBIAN_SUBSTITUTIONS: dict[str, str] = {
 CP866_MACEDONIAN_SUBSTITUTIONS: dict[str, str] = {
     "\u0453": "\u0433",  # ѓ → г (Gje → Ghe)
     "\u0455": "\u0437",  # ѕ → з (Dze → Ze)
-    "\u0458": "\u0439",  # ј → й (Je → Short I)
+    "\u0458": "j",  # ј → Latin j, the spelling writers without the letter use
     "\u045c": "\u043a",  # ќ → к (Kje → Ka)
     "\u0459": "\u043b",  # љ → л (Lje → El)
     "\u045a": "\u043d",  # њ → н (Nje → En)
     "\u045f": "\u0446",  # џ → ц (Dzhe → Tse)
     "\u0403": "\u0413",  # Ѓ → Г (uppercase)
     "\u0405": "\u0417",  # Ѕ → З (uppercase)
-    "\u0408": "\u0419",  # Ј → Й (uppercase)
+    "\u0408": "J",  # Ј → Latin J (uppercase)
     "\u040c": "\u041a",  # Ќ → К (uppercase)
     "\u0409": "\u041b",  # Љ → Л (uppercase)
     "\u040a": "\u041d",  # Њ → Н (uppercase)
