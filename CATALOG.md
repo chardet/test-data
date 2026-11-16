@@ -275,7 +275,7 @@ content transcoded to test detection across encodings.
 | `cc_2770.nu_db679991dfb0.html` | Common Crawl | wild | 36,780 |  |
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 3,838 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 5,856 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 4,040 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 4,036 |  |
 
 #### `utf-16-de/` — 10 files
 
@@ -327,8 +327,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 5,856 |  |
-| `culturax_mC4_40442.txt` | CulturaX | transcoded | 2,640 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 5,860 |  |
+| `culturax_mC4_40442.txt` | CulturaX | transcoded | 2,632 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 5,266 |  |
 
 #### `utf-16-es/` — 7 files
@@ -359,9 +359,9 @@ content transcoded to test detection across encodings.
 | `cc_khedmat.abfa-lorestan.ir_bcce44836462.html` | Common Crawl | wild | 444,530 |  |
 | `cc_noorchin.ir_c2b2c83090f4.html` | Common Crawl | wild | 28,162 |  |
 | `cc_www.azargoshnasp.net_15ae4113c997.html` | Common Crawl | wild | 79,572 |  |
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,984 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,054 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,916 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 2,004 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,056 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,926 |  |
 
 #### `utf-16-fi/` — 3 files
 
@@ -382,7 +382,7 @@ content transcoded to test detection across encodings.
 | `cc_www.ajeqsite.org_519e0f27cd80.html` | Common Crawl | wild | 71,372 |  |
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 5,744 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 1,468 |  |
-| `culturax_mC4_88369.txt` | CulturaX | transcoded | 5,722 |  |
+| `culturax_mC4_88369.txt` | CulturaX | transcoded | 5,714 |  |
 
 #### `utf-16-ga/` — 3 files
 
@@ -408,7 +408,7 @@ content transcoded to test detection across encodings.
 | `cc_hill-crest.org.il_1a06d1d95aff.html` | Common Crawl | wild | 1,924 |  |
 | `cc_huatuo-israel.com_a10f41e97348.html` | Common Crawl | wild | 13,798 |  |
 | `cc_www.irob.org.il_f7842e00148a.html` | Common Crawl | wild | 159,482 |  |
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,976 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,972 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,960 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 5,976 |  |
 
@@ -434,7 +434,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | transcoded | 5,146 |  |
 | `culturax_mC4_114890.txt` | CulturaX | transcoded | 5,376 |  |
-| `culturax_mC4_114892.txt` | CulturaX | transcoded | 3,062 |  |
+| `culturax_mC4_114892.txt` | CulturaX | transcoded | 3,054 |  |
 
 #### `utf-16-is/` — 4 files
 
@@ -489,7 +489,7 @@ content transcoded to test detection across encodings.
 | `cc_www.aljago.com_3e93952b5f4d.html` | Common Crawl | wild | 22,816 |  |
 | `cc_www.aljago.com_b00d58269209.html` | Common Crawl | wild | 34,780 |  |
 | `cc_www.aljago.com_d6626453aa9d.html` | Common Crawl | wild | 19,338 |  |
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,568 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,556 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 5,794 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,184 |  |
 
@@ -506,31 +506,31 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_71628.txt` | CulturaX | transcoded | 5,938 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 2,610 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 2,606 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 1,534 |  |
 
 #### `utf-16-mk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,728 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,720 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 2,412 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 6,002 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 5,986 |  |
 
 #### `utf-16-ms/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 456 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 1,082 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 1,078 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 8,134 |  |
 
 #### `utf-16-mt/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 3,576 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 6,002 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 3,556 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 6,184 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 2,196 |  |
 
 #### `utf-16-nl/` — 3 files
@@ -565,7 +565,7 @@ content transcoded to test detection across encodings.
 | `cc_hhface.org_2fd702aba3ac.html` | Common Crawl | wild | 59,304 |  |
 | `cc_www.gaes.gov.mo_427d827fa881.html` | Common Crawl | wild | 3,280 |  |
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 1,906 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 5,752 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 5,748 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 5,676 |  |
 
 #### `utf-16-ro/` — 3 files
@@ -582,7 +582,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `cc_ano-anichkov.ru_07590d65d377.html` | Common Crawl | wild | 39,548 |  |
 | `cc_www.palomnik.org_6438d43f9b13.html` | Common Crawl | wild | 42,668 |  |
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 6,002 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,994 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,664 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 2,654 |  |
 
@@ -632,7 +632,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 5,498 |  |
-| `culturax_mC4_109133.txt` | CulturaX | transcoded | 5,980 |  |
+| `culturax_mC4_109133.txt` | CulturaX | transcoded | 5,976 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 2,660 |  |
 
 #### `utf-16-tr/` — 3 files
@@ -656,7 +656,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_82296.txt` | CulturaX | transcoded | 5,780 |  |
-| `culturax_mC4_82297.txt` | CulturaX | transcoded | 5,886 |  |
+| `culturax_mC4_82297.txt` | CulturaX | transcoded | 5,882 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 2,452 |  |
 
 #### `utf-16-vi/` — 3 files
@@ -738,7 +738,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 3,836 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 5,854 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 4,038 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 4,034 |  |
 
 #### `utf-16be-de/` — 3 files
 
@@ -775,8 +775,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 5,854 |  |
-| `culturax_mC4_40442.txt` | CulturaX | transcoded | 2,638 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 5,858 |  |
+| `culturax_mC4_40442.txt` | CulturaX | transcoded | 2,630 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 5,264 |  |
 
 #### `utf-16be-es/` — 3 files
@@ -799,9 +799,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,982 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,052 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,914 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 2,002 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,054 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,924 |  |
 
 #### `utf-16be-fi/` — 3 files
 
@@ -817,7 +817,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 5,742 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 1,466 |  |
-| `culturax_mC4_88369.txt` | CulturaX | transcoded | 5,720 |  |
+| `culturax_mC4_88369.txt` | CulturaX | transcoded | 5,712 |  |
 
 #### `utf-16be-ga/` — 3 files
 
@@ -839,7 +839,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,974 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,970 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,958 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 5,974 |  |
 
@@ -865,7 +865,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | transcoded | 5,144 |  |
 | `culturax_mC4_114890.txt` | CulturaX | transcoded | 5,374 |  |
-| `culturax_mC4_114892.txt` | CulturaX | transcoded | 3,060 |  |
+| `culturax_mC4_114892.txt` | CulturaX | transcoded | 3,052 |  |
 
 #### `utf-16be-is/` — 3 files
 
@@ -903,7 +903,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,566 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,554 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 5,792 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,182 |  |
 
@@ -920,31 +920,31 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_71628.txt` | CulturaX | transcoded | 5,936 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 2,608 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 2,604 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 1,532 |  |
 
 #### `utf-16be-mk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,726 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,718 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 2,410 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 6,000 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 5,984 |  |
 
 #### `utf-16be-ms/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 454 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 1,080 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 1,076 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 8,132 |  |
 
 #### `utf-16be-mt/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 3,574 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 6,000 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 3,554 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 6,182 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 2,194 |  |
 
 #### `utf-16be-nl/` — 3 files
@@ -976,7 +976,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 1,904 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 5,750 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 5,746 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 5,674 |  |
 
 #### `utf-16be-ro/` — 3 files
@@ -991,7 +991,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 6,000 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,992 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,662 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 2,652 |  |
 
@@ -1040,7 +1040,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 5,496 |  |
-| `culturax_mC4_109133.txt` | CulturaX | transcoded | 5,978 |  |
+| `culturax_mC4_109133.txt` | CulturaX | transcoded | 5,974 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 2,658 |  |
 
 #### `utf-16be-tr/` — 3 files
@@ -1064,7 +1064,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_82296.txt` | CulturaX | transcoded | 5,778 |  |
-| `culturax_mC4_82297.txt` | CulturaX | transcoded | 5,884 |  |
+| `culturax_mC4_82297.txt` | CulturaX | transcoded | 5,880 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 2,450 |  |
 
 #### `utf-16be-vi/` — 3 files
@@ -1136,7 +1136,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 3,836 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 5,854 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 4,038 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 4,034 |  |
 
 #### `utf-16le-de/` — 3 files
 
@@ -1174,8 +1174,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 5,854 |  |
-| `culturax_mC4_40442.txt` | CulturaX | transcoded | 2,638 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 5,858 |  |
+| `culturax_mC4_40442.txt` | CulturaX | transcoded | 2,630 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 5,264 |  |
 
 #### `utf-16le-es/` — 3 files
@@ -1198,9 +1198,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,982 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,052 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,914 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 2,002 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,054 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,924 |  |
 
 #### `utf-16le-fi/` — 3 files
 
@@ -1216,7 +1216,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 5,742 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 1,466 |  |
-| `culturax_mC4_88369.txt` | CulturaX | transcoded | 5,720 |  |
+| `culturax_mC4_88369.txt` | CulturaX | transcoded | 5,712 |  |
 
 #### `utf-16le-ga/` — 3 files
 
@@ -1238,7 +1238,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,974 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,970 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,958 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 5,974 |  |
 
@@ -1264,7 +1264,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | transcoded | 5,144 |  |
 | `culturax_mC4_114890.txt` | CulturaX | transcoded | 5,374 |  |
-| `culturax_mC4_114892.txt` | CulturaX | transcoded | 3,060 |  |
+| `culturax_mC4_114892.txt` | CulturaX | transcoded | 3,052 |  |
 
 #### `utf-16le-is/` — 3 files
 
@@ -1302,7 +1302,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,566 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,554 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 5,792 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,182 |  |
 
@@ -1319,31 +1319,31 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_71628.txt` | CulturaX | transcoded | 5,936 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 2,608 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 2,604 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 1,532 |  |
 
 #### `utf-16le-mk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,726 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,718 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 2,410 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 6,000 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 5,984 |  |
 
 #### `utf-16le-ms/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 454 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 1,080 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 1,076 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 8,132 |  |
 
 #### `utf-16le-mt/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 3,574 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 6,000 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 3,554 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 6,182 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 2,194 |  |
 
 #### `utf-16le-nl/` — 3 files
@@ -1375,7 +1375,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 1,904 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 5,750 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 5,746 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 5,674 |  |
 
 #### `utf-16le-ro/` — 3 files
@@ -1390,7 +1390,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 6,000 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,992 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,662 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 2,652 |  |
 
@@ -1439,7 +1439,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 5,496 |  |
-| `culturax_mC4_109133.txt` | CulturaX | transcoded | 5,978 |  |
+| `culturax_mC4_109133.txt` | CulturaX | transcoded | 5,974 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 2,658 |  |
 
 #### `utf-16le-tr/` — 3 files
@@ -1463,7 +1463,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_82296.txt` | CulturaX | transcoded | 5,778 |  |
-| `culturax_mC4_82297.txt` | CulturaX | transcoded | 5,884 |  |
+| `culturax_mC4_82297.txt` | CulturaX | transcoded | 5,880 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 2,450 |  |
 
 #### `utf-16le-vi/` — 3 files
@@ -1535,7 +1535,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 7,676 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 11,712 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 8,080 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 8,072 |  |
 
 #### `utf-32-de/` — 3 files
 
@@ -1574,8 +1574,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 11,712 |  |
-| `culturax_mC4_40442.txt` | CulturaX | transcoded | 5,280 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 11,720 |  |
+| `culturax_mC4_40442.txt` | CulturaX | transcoded | 5,264 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 10,532 |  |
 
 #### `utf-32-es/` — 3 files
@@ -1598,9 +1598,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 3,968 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 10,108 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 7,832 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 4,008 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 10,112 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 7,852 |  |
 
 #### `utf-32-fi/` — 3 files
 
@@ -1616,7 +1616,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 11,488 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 2,936 |  |
-| `culturax_mC4_88369.txt` | CulturaX | transcoded | 11,440 |  |
+| `culturax_mC4_88369.txt` | CulturaX | transcoded | 11,424 |  |
 
 #### `utf-32-ga/` — 3 files
 
@@ -1638,7 +1638,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 11,952 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 11,944 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 11,920 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 11,952 |  |
 
@@ -1664,7 +1664,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | transcoded | 10,292 |  |
 | `culturax_mC4_114890.txt` | CulturaX | transcoded | 10,752 |  |
-| `culturax_mC4_114892.txt` | CulturaX | transcoded | 6,124 |  |
+| `culturax_mC4_114892.txt` | CulturaX | transcoded | 6,108 |  |
 
 #### `utf-32-is/` — 3 files
 
@@ -1702,7 +1702,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 7,136 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 7,112 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 11,588 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 2,368 |  |
 
@@ -1719,31 +1719,31 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_71628.txt` | CulturaX | transcoded | 11,876 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 5,220 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 5,212 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 3,068 |  |
 
 #### `utf-32-mk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 9,456 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 9,440 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 4,824 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 12,004 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 11,972 |  |
 
 #### `utf-32-ms/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 912 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 2,164 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 2,156 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 16,268 |  |
 
 #### `utf-32-mt/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 7,152 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 12,004 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 7,112 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 12,368 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 4,392 |  |
 
 #### `utf-32-nl/` — 3 files
@@ -1775,7 +1775,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 3,812 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 11,504 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 11,496 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 11,352 |  |
 
 #### `utf-32-ro/` — 3 files
@@ -1790,7 +1790,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 12,004 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 11,988 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 11,328 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 5,308 |  |
 
@@ -1839,7 +1839,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 10,996 |  |
-| `culturax_mC4_109133.txt` | CulturaX | transcoded | 11,912 |  |
+| `culturax_mC4_109133.txt` | CulturaX | transcoded | 11,904 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 5,320 |  |
 
 #### `utf-32-tr/` — 3 files
@@ -1863,7 +1863,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_82296.txt` | CulturaX | transcoded | 11,560 |  |
-| `culturax_mC4_82297.txt` | CulturaX | transcoded | 11,772 |  |
+| `culturax_mC4_82297.txt` | CulturaX | transcoded | 11,764 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 4,904 |  |
 
 #### `utf-32-vi/` — 3 files
@@ -1934,7 +1934,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 7,672 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 11,708 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 8,076 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 8,068 |  |
 
 #### `utf-32be-de/` — 3 files
 
@@ -1971,8 +1971,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 11,708 |  |
-| `culturax_mC4_40442.txt` | CulturaX | transcoded | 5,276 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 11,716 |  |
+| `culturax_mC4_40442.txt` | CulturaX | transcoded | 5,260 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 10,528 |  |
 
 #### `utf-32be-es/` — 3 files
@@ -1995,9 +1995,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 3,964 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 10,104 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 7,828 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 4,004 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 10,108 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 7,848 |  |
 
 #### `utf-32be-fi/` — 3 files
 
@@ -2013,7 +2013,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 11,484 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 2,932 |  |
-| `culturax_mC4_88369.txt` | CulturaX | transcoded | 11,436 |  |
+| `culturax_mC4_88369.txt` | CulturaX | transcoded | 11,420 |  |
 
 #### `utf-32be-ga/` — 3 files
 
@@ -2035,7 +2035,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 11,948 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 11,940 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 11,916 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 11,948 |  |
 
@@ -2061,7 +2061,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | transcoded | 10,288 |  |
 | `culturax_mC4_114890.txt` | CulturaX | transcoded | 10,748 |  |
-| `culturax_mC4_114892.txt` | CulturaX | transcoded | 6,120 |  |
+| `culturax_mC4_114892.txt` | CulturaX | transcoded | 6,104 |  |
 
 #### `utf-32be-is/` — 3 files
 
@@ -2099,7 +2099,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 7,132 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 7,108 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 11,584 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 2,364 |  |
 
@@ -2116,31 +2116,31 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_71628.txt` | CulturaX | transcoded | 11,872 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 5,216 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 5,208 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 3,064 |  |
 
 #### `utf-32be-mk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 9,452 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 9,436 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 4,820 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 12,000 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 11,968 |  |
 
 #### `utf-32be-ms/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 908 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 2,160 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 2,152 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 16,264 |  |
 
 #### `utf-32be-mt/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 7,148 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 12,000 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 7,108 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 12,364 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 4,388 |  |
 
 #### `utf-32be-nl/` — 3 files
@@ -2172,7 +2172,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 3,808 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 11,500 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 11,492 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 11,348 |  |
 
 #### `utf-32be-ro/` — 3 files
@@ -2187,7 +2187,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 12,000 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 11,984 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 11,324 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 5,304 |  |
 
@@ -2236,7 +2236,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 10,992 |  |
-| `culturax_mC4_109133.txt` | CulturaX | transcoded | 11,908 |  |
+| `culturax_mC4_109133.txt` | CulturaX | transcoded | 11,900 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 5,316 |  |
 
 #### `utf-32be-tr/` — 3 files
@@ -2260,7 +2260,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_82296.txt` | CulturaX | transcoded | 11,556 |  |
-| `culturax_mC4_82297.txt` | CulturaX | transcoded | 11,768 |  |
+| `culturax_mC4_82297.txt` | CulturaX | transcoded | 11,760 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 4,900 |  |
 
 #### `utf-32be-vi/` — 3 files
@@ -2332,7 +2332,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 7,672 |  |
 | `culturax_mC4_83467.txt` | CulturaX | transcoded | 11,708 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 8,076 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 8,068 |  |
 
 #### `utf-32le-de/` — 3 files
 
@@ -2369,8 +2369,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 11,708 |  |
-| `culturax_mC4_40442.txt` | CulturaX | transcoded | 5,276 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 11,716 |  |
+| `culturax_mC4_40442.txt` | CulturaX | transcoded | 5,260 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 10,528 |  |
 
 #### `utf-32le-es/` — 3 files
@@ -2393,9 +2393,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 3,964 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 10,104 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 7,828 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 4,004 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 10,108 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 7,848 |  |
 
 #### `utf-32le-fi/` — 3 files
 
@@ -2411,7 +2411,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 11,484 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 2,932 |  |
-| `culturax_mC4_88369.txt` | CulturaX | transcoded | 11,436 |  |
+| `culturax_mC4_88369.txt` | CulturaX | transcoded | 11,420 |  |
 
 #### `utf-32le-ga/` — 3 files
 
@@ -2433,7 +2433,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 11,948 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 11,940 |  |
 | `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 11,916 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 11,948 |  |
 
@@ -2459,7 +2459,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_114889.txt` | CulturaX | transcoded | 10,288 |  |
 | `culturax_mC4_114890.txt` | CulturaX | transcoded | 10,748 |  |
-| `culturax_mC4_114892.txt` | CulturaX | transcoded | 6,120 |  |
+| `culturax_mC4_114892.txt` | CulturaX | transcoded | 6,104 |  |
 
 #### `utf-32le-is/` — 3 files
 
@@ -2497,7 +2497,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 7,132 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 7,108 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 11,584 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 2,364 |  |
 
@@ -2514,31 +2514,31 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_71628.txt` | CulturaX | transcoded | 11,872 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 5,216 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 5,208 |  |
 | `culturax_mC4_71630.txt` | CulturaX | transcoded | 3,064 |  |
 
 #### `utf-32le-mk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 9,452 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 9,436 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 4,820 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 12,000 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 11,968 |  |
 
 #### `utf-32le-ms/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 908 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 2,160 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 2,152 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 16,264 |  |
 
 #### `utf-32le-mt/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 7,148 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 12,000 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 7,108 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 12,364 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 4,388 |  |
 
 #### `utf-32le-nl/` — 3 files
@@ -2570,7 +2570,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 3,808 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 11,500 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 11,492 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 11,348 |  |
 
 #### `utf-32le-ro/` — 3 files
@@ -2585,7 +2585,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 12,000 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 11,984 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 11,324 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 5,304 |  |
 
@@ -2634,7 +2634,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 10,992 |  |
-| `culturax_mC4_109133.txt` | CulturaX | transcoded | 11,908 |  |
+| `culturax_mC4_109133.txt` | CulturaX | transcoded | 11,900 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 5,316 |  |
 
 #### `utf-32le-tr/` — 3 files
@@ -2658,7 +2658,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_82296.txt` | CulturaX | transcoded | 11,556 |  |
-| `culturax_mC4_82297.txt` | CulturaX | transcoded | 11,768 |  |
+| `culturax_mC4_82297.txt` | CulturaX | transcoded | 11,760 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 4,900 |  |
 
 #### `utf-32le-vi/` — 3 files
@@ -2694,15 +2694,15 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_77015.txt` | CulturaX | transcoded | 6,884 |  |
 | `culturax_mC4_77016.txt` | CulturaX | transcoded | 3,077 |  |
-| `culturax_mC4_77017.txt` | CulturaX | transcoded | 5,676 |  |
+| `culturax_mC4_77017.txt` | CulturaX | transcoded | 5,694 |  |
 
 #### `utf-7-bg/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_84188.txt` | CulturaX | transcoded | 3,391 |  |
-| `culturax_OSCAR-2301_84186.txt` | CulturaX | transcoded | 3,164 |  |
-| `culturax_mC4_84187.txt` | CulturaX | transcoded | 5,933 |  |
+| `culturax_OSCAR-2301_84186.txt` | CulturaX | transcoded | 3,191 |  |
+| `culturax_mC4_84187.txt` | CulturaX | transcoded | 5,936 |  |
 
 #### `utf-7-br/` — 2 files
 
@@ -2716,7 +2716,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,715 |  |
-| `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,895 |  |
+| `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,898 |  |
 | `culturax_mC4_98822.txt` | CulturaX | transcoded | 3,931 |  |
 
 #### `utf-7-cy/` — 2 files
@@ -2724,22 +2724,22 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_78726.txt` | CulturaX | transcoded | 2,783 |  |
-| `culturax_mC4_78727.txt` | CulturaX | transcoded | 2,911 |  |
+| `culturax_mC4_78727.txt` | CulturaX | transcoded | 2,944 |  |
 
 #### `utf-7-da/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 2,107 |  |
-| `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,240 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,129 |  |
+| `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,249 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,130 |  |
 
 #### `utf-7-de/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,694 |  |
-| `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,241 |  |
+| `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,718 |  |
+| `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,245 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,375 |  |
 
 #### `utf-7-el/` — 3 files
@@ -2747,8 +2747,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_greek.txt` | Ude | transcoded | 1,462 |  |
-| `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 7,056 |  |
-| `culturax_mC4_103810.txt` | CulturaX | transcoded | 5,177 |  |
+| `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 7,059 |  |
+| `culturax_mC4_103810.txt` | CulturaX | transcoded | 5,180 |  |
 
 #### `utf-7-en/` — 3 files
 
@@ -2762,8 +2762,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 3,093 |  |
-| `culturax_mC4_40442.txt` | CulturaX | transcoded | 1,416 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 3,101 |  |
+| `culturax_mC4_40442.txt` | CulturaX | transcoded | 1,419 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 2,717 |  |
 
 #### `utf-7-es/` — 4 files
@@ -2780,16 +2780,16 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_66818.txt` | CulturaX | transcoded | 2,752 |  |
-| `culturax_mC4_66819.txt` | CulturaX | transcoded | 3,132 |  |
+| `culturax_mC4_66819.txt` | CulturaX | transcoded | 3,144 |  |
 | `culturax_mC4_66820.txt` | CulturaX | transcoded | 1,105 |  |
 
 #### `utf-7-fa/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 2,574 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,923 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 4,704 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 2,601 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 5,926 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 4,719 |  |
 
 #### `utf-7-fi/` — 3 files
 
@@ -2797,15 +2797,15 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_80361.txt` | CulturaX | transcoded | 1,025 |  |
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 3,316 |  |
-| `culturax_mC4_80363.txt` | CulturaX | transcoded | 3,192 |  |
+| `culturax_mC4_80363.txt` | CulturaX | transcoded | 3,195 |  |
 
 #### `utf-7-fr/` — 4 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 3,142 |  |
+| `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 3,144 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 851 |  |
-| `culturax_mC4_88369.txt` | CulturaX | transcoded | 3,137 |  |
+| `culturax_mC4_88369.txt` | CulturaX | transcoded | 3,139 |  |
 | `signature_dependent_synthetic.txt` | unknown | suite | 230 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 
 #### `utf-7-ga/` — 3 files
@@ -2814,7 +2814,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_63468.txt` | CulturaX | transcoded | 3,509 |  |
 | `culturax_mC4_63469.txt` | CulturaX | transcoded | 3,679 |  |
-| `culturax_mC4_63470.txt` | CulturaX | transcoded | 1,484 |  |
+| `culturax_mC4_63470.txt` | CulturaX | transcoded | 1,496 |  |
 
 #### `utf-7-gd/` — 3 files
 
@@ -2829,7 +2829,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_he3.txt` | Ude | transcoded | 865 |  |
-| `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 7,113 |  |
+| `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 7,119 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 7,592 |  |
 
 #### `utf-7-hr/` — 3 files
@@ -2845,8 +2845,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | transcoded | 1,899 |  |
-| `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 2,278 |  |
-| `culturax_mC4_82418.txt` | CulturaX | transcoded | 918 |  |
+| `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 2,291 |  |
+| `culturax_mC4_82418.txt` | CulturaX | transcoded | 921 |  |
 
 #### `utf-7-id/` — 1 files
 
@@ -2867,8 +2867,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_92388.txt` | CulturaX | transcoded | 2,393 |  |
-| `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,339 |  |
-| `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,472 |  |
+| `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,351 |  |
+| `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,478 |  |
 | `signature_dependent_synthetic.txt` | unknown | suite | 207 | Signed UTF-7 whose accents sit deep inside words: BOM-less it reads as ASCII, so only the signature identifies it |
 
 #### `utf-7-ja/` — 3 files
@@ -2876,7 +2876,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_mozilla_bug426271_text-utf-8.html` | Mozilla | transcoded | 941 |  |
-| `culturax_mC4_4.txt` | CulturaX | transcoded | 7,207 |  |
+| `culturax_mC4_4.txt` | CulturaX | transcoded | 7,210 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 7,759 |  |
 
 #### `utf-7-kk/` — 3 files
@@ -2899,25 +2899,25 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_73445.txt` | CulturaX | transcoded | 3,239 |  |
-| `culturax_mC4_73446.txt` | CulturaX | transcoded | 3,175 |  |
-| `culturax_mC4_73447.txt` | CulturaX | transcoded | 3,562 |  |
+| `culturax_mC4_73445.txt` | CulturaX | transcoded | 3,248 |  |
+| `culturax_mC4_73446.txt` | CulturaX | transcoded | 3,202 |  |
+| `culturax_mC4_73447.txt` | CulturaX | transcoded | 3,574 |  |
 
 #### `utf-7-lv/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_71628.txt` | CulturaX | transcoded | 3,927 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,744 |  |
-| `culturax_mC4_71630.txt` | CulturaX | transcoded | 992 |  |
+| `culturax_mC4_71628.txt` | CulturaX | transcoded | 3,957 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,756 |  |
+| `culturax_mC4_71630.txt` | CulturaX | transcoded | 998 |  |
 
 #### `utf-7-mk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 5,974 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 5,973 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 3,075 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 7,528 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 7,541 |  |
 
 #### `utf-7-ms/` — 3 files
 
@@ -2931,8 +2931,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 2,109 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 3,622 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 2,121 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 4,054 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 1,240 |  |
 
 #### `utf-7-nl/` — 3 files
@@ -2947,15 +2947,15 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66762.txt` | CulturaX | transcoded | 2,676 |  |
+| `culturax_mC4_66762.txt` | CulturaX | transcoded | 2,679 |  |
 | `culturax_mC4_66763.txt` | CulturaX | transcoded | 3,251 |  |
-| `culturax_mC4_66764.txt` | CulturaX | transcoded | 3,242 |  |
+| `culturax_mC4_66764.txt` | CulturaX | transcoded | 3,281 |  |
 
 #### `utf-7-pl/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 2,201 |  |
+| `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 2,237 |  |
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 1,477 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,894 |  |
 
@@ -2963,8 +2963,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 972 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 3,185 |  |
+| `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 986 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 3,186 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 3,059 |  |
 
 #### `utf-7-ro/` — 3 files
@@ -2972,7 +2972,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_78977.txt` | CulturaX | transcoded | 923 |  |
-| `culturax_mC4_78976.txt` | CulturaX | transcoded | 3,177 |  |
+| `culturax_mC4_78976.txt` | CulturaX | transcoded | 3,192 |  |
 | `culturax_mC4_78978.txt` | CulturaX | transcoded | 3,083 |  |
 
 #### `utf-7-ru/` — 3 files
@@ -2980,22 +2980,22 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_russian.txt` | Ude | transcoded | 3,105 |  |
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 7,615 |  |
-| `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 7,125 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 7,619 |  |
+| `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 7,131 |  |
 
 #### `utf-7-sk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,871 |  |
+| `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,883 |  |
 | `culturax_mC4_95226.txt` | CulturaX | transcoded | 2,701 |  |
-| `culturax_mC4_95227.txt` | CulturaX | transcoded | 3,672 |  |
+| `culturax_mC4_95227.txt` | CulturaX | transcoded | 3,675 |  |
 
 #### `utf-7-sl/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66688.txt` | CulturaX | transcoded | 3,159 |  |
+| `culturax_mC4_66688.txt` | CulturaX | transcoded | 3,162 |  |
 | `culturax_mC4_66689.txt` | CulturaX | transcoded | 2,953 |  |
 | `culturax_mC4_66690.txt` | CulturaX | transcoded | 1,285 |  |
 
@@ -3003,9 +3003,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66918.txt` | CulturaX | transcoded | 2,835 |  |
+| `culturax_mC4_66918.txt` | CulturaX | transcoded | 2,841 |  |
 | `culturax_mC4_66920.txt` | CulturaX | transcoded | 2,806 |  |
-| `culturax_mC4_66921.txt` | CulturaX | transcoded | 6,653 |  |
+| `culturax_mC4_66921.txt` | CulturaX | transcoded | 6,666 |  |
 
 #### `utf-7-sv/` — 3 files
 
@@ -3013,7 +3013,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_96485.txt` | CulturaX | transcoded | 3,122 |  |
 | `culturax_mC4_96486.txt` | CulturaX | transcoded | 2,947 |  |
-| `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,473 |  |
+| `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,476 |  |
 
 #### `utf-7-tg/` — 3 files
 
@@ -3021,14 +3021,14 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_74865.txt` | CulturaX | transcoded | 4,397 |  |
 | `culturax_mC4_74866.txt` | CulturaX | transcoded | 7,285 |  |
-| `culturax_mC4_74867.txt` | CulturaX | transcoded | 7,155 |  |
+| `culturax_mC4_74867.txt` | CulturaX | transcoded | 7,158 |  |
 
 #### `utf-7-th/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 6,482 |  |
-| `culturax_mC4_109133.txt` | CulturaX | transcoded | 6,984 |  |
+| `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 6,527 |  |
+| `culturax_mC4_109133.txt` | CulturaX | transcoded | 6,983 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 2,615 |  |
 
 #### `utf-7-tr/` — 3 files
@@ -3043,16 +3043,16 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_95019.txt` | CulturaX | transcoded | 2,661 |  |
-| `culturax_mC4_95020.txt` | CulturaX | transcoded | 3,410 |  |
-| `culturax_mC4_95021.txt` | CulturaX | transcoded | 7,187 |  |
+| `culturax_mC4_95019.txt` | CulturaX | transcoded | 2,670 |  |
+| `culturax_mC4_95020.txt` | CulturaX | transcoded | 3,416 |  |
+| `culturax_mC4_95021.txt` | CulturaX | transcoded | 7,196 |  |
 
 #### `utf-7-ur/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_82296.txt` | CulturaX | transcoded | 7,454 |  |
-| `culturax_mC4_82297.txt` | CulturaX | transcoded | 7,323 |  |
+| `culturax_mC4_82297.txt` | CulturaX | transcoded | 7,322 |  |
 | `culturax_mC4_82298.txt` | CulturaX | transcoded | 3,149 |  |
 
 #### `utf-7-vi/` — 3 files
@@ -3084,15 +3084,15 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_77015.txt` | CulturaX | transcoded | 5,017 |  |
 | `culturax_mC4_77016.txt` | CulturaX | transcoded | 2,202 |  |
-| `culturax_mC4_77017.txt` | CulturaX | transcoded | 4,074 |  |
+| `culturax_mC4_77017.txt` | CulturaX | transcoded | 4,086 |  |
 
 #### `utf-8-bg/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_84188.txt` | CulturaX | transcoded | 2,379 |  |
-| `culturax_OSCAR-2301_84186.txt` | CulturaX | transcoded | 2,248 |  |
-| `culturax_mC4_84187.txt` | CulturaX | transcoded | 4,209 |  |
+| `culturax_OSCAR-2301_84186.txt` | CulturaX | transcoded | 2,276 |  |
+| `culturax_mC4_84187.txt` | CulturaX | transcoded | 4,211 |  |
 
 #### `utf-8-br/` — 2 files
 
@@ -3106,7 +3106,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,460 |  |
-| `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,554 |  |
+| `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,556 |  |
 | `culturax_mC4_98822.txt` | CulturaX | transcoded | 3,230 |  |
 
 #### `utf-8-cy/` — 2 files
@@ -3114,7 +3114,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_78726.txt` | CulturaX | transcoded | 2,731 |  |
-| `culturax_mC4_78727.txt` | CulturaX | transcoded | 2,892 |  |
+| `culturax_mC4_78727.txt` | CulturaX | transcoded | 2,914 |  |
 
 #### `utf-8-da/` — 4 files
 
@@ -3122,15 +3122,15 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `cc_www.1tap.gg_ed3258beae72.html` | Common Crawl | wild | 29,743 |  |
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 1,967 |  |
-| `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,008 |  |
+| `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,014 |  |
 | `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,049 |  |
 
 #### `utf-8-de/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,604 |  |
-| `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,178 |  |
+| `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,618 |  |
+| `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,180 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,290 |  |
 
 #### `utf-8-el/` — 4 files
@@ -3138,8 +3138,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_greek.txt` | Ude | suite | 1,039 |  |
-| `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 5,022 |  |
-| `culturax_mC4_103810.txt` | CulturaX | transcoded | 3,696 |  |
+| `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 5,024 |  |
+| `culturax_mC4_103810.txt` | CulturaX | transcoded | 3,698 |  |
 | `culturax_mC4_103811.txt` | CulturaX | transcoded | 2,021 |  |
 
 #### `utf-8-en/` — 21 files
@@ -3172,7 +3172,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 2,970 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 2,976 |  |
 | `culturax_mC4_40442.txt` | CulturaX | transcoded | 1,345 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 2,655 |  |
 
@@ -3199,16 +3199,16 @@ content transcoded to test detection across encodings.
 | `cc_www.01.ee_ccdec185b686.html` | Common Crawl | wild | 28,841 |  |
 | `cc_www.01.ee_d47fbe18dd44.html` | Common Crawl | wild | 28,745 |  |
 | `culturax_mC4_66818.txt` | CulturaX | transcoded | 2,623 |  |
-| `culturax_mC4_66819.txt` | CulturaX | transcoded | 2,876 |  |
+| `culturax_mC4_66819.txt` | CulturaX | transcoded | 2,884 |  |
 | `culturax_mC4_66820.txt` | CulturaX | transcoded | 1,045 |  |
 
 #### `utf-8-fa/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,793 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 4,243 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,328 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,823 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 4,246 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,343 |  |
 
 #### `utf-8-fi/` — 3 files
 
@@ -3216,7 +3216,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_80361.txt` | CulturaX | transcoded | 911 |  |
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 3,094 |  |
-| `culturax_mC4_80363.txt` | CulturaX | transcoded | 2,920 |  |
+| `culturax_mC4_80363.txt` | CulturaX | transcoded | 2,922 |  |
 
 #### `utf-8-fr/` — 5 files
 
@@ -3224,7 +3224,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `cc_alexis-web.net_7d551b16bab8.html` | Common Crawl | wild | 18,075 |  |
 | `cc_www.07.re_782ba67b4be7.html` | Common Crawl | wild | 13,231 |  |
-| `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 2,945 |  |
+| `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 2,947 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 764 |  |
 | `culturax_mC4_88369.txt` | CulturaX | transcoded | 2,936 |  |
 
@@ -3234,7 +3234,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_63468.txt` | CulturaX | transcoded | 3,080 |  |
 | `culturax_mC4_63469.txt` | CulturaX | transcoded | 3,106 |  |
-| `culturax_mC4_63470.txt` | CulturaX | transcoded | 1,294 |  |
+| `culturax_mC4_63470.txt` | CulturaX | transcoded | 1,302 |  |
 
 #### `utf-8-gd/` — 3 files
 
@@ -3259,8 +3259,8 @@ content transcoded to test detection across encodings.
 | `cc_www.%d7%9b%d7%a0%d7%99%d7%a1%d7%aa-%d7%a9%d7%91%d7%aa.co.il_f7073e1f3bfd.html` | Common Crawl | wild | 134,518 |  |
 | `cc_www.%d7%9c%d7%95%d7%a4%d7%98.co.il_54d86bc24933.html` | Common Crawl | wild | 56,165 |  |
 | `cc_www.%d7%a4%d7%a8%d7%a1.co.il_78b3725cb2a6.html` | Common Crawl | wild | 107,696 |  |
-| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,271 |  |
-| `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,111 |  |
+| `culturax_OSCAR-2301_58265.txt` | CulturaX | transcoded | 5,289 |  |
+| `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,117 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 5,301 |  |
 
 #### `utf-8-hr/` — 3 files
@@ -3277,8 +3277,8 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `balatonblog.typepad.com.xml` | chardet | wild | 42,993 |  |
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | transcoded | 1,659 |  |
-| `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 1,757 |  |
-| `culturax_mC4_82418.txt` | CulturaX | transcoded | 702 |  |
+| `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 1,765 |  |
+| `culturax_mC4_82418.txt` | CulturaX | transcoded | 704 |  |
 | `linuxbox.hu.xml` | chardet | wild | 14,178 |  |
 | `pihgy.hu.xml` | chardet | wild | 16,479 |  |
 | `weblabor.hu.2.xml` | chardet | wild | 12,234 |  |
@@ -3308,8 +3308,8 @@ content transcoded to test detection across encodings.
 | `cc_www.0-100.it_8f64ebb93a6b.html` | Common Crawl | wild | 257,473 |  |
 | `cc_www.00042.it_6f754f615230.html` | Common Crawl | wild | 45,145 |  |
 | `culturax_mC4_92388.txt` | CulturaX | transcoded | 2,383 |  |
-| `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,297 |  |
-| `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,454 |  |
+| `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,305 |  |
+| `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,458 |  |
 
 #### `utf-8-ja/` — 20 files
 
@@ -3333,7 +3333,7 @@ content transcoded to test detection across encodings.
 | `cc_017.co.jp_ea6edd089f90.html` | Common Crawl | wild | 40,969 |  |
 | `cc_www.012345.co.jp_41e53c1d4839.html` | Common Crawl | wild | 26,533 |  |
 | `culturax_OSCAR-2301_6.txt` | CulturaX | transcoded | 2,152 |  |
-| `culturax_mC4_4.txt` | CulturaX | transcoded | 7,544 |  |
+| `culturax_mC4_4.txt` | CulturaX | transcoded | 7,546 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 8,524 |  |
 
 #### `utf-8-kk/` — 11 files
@@ -3363,7 +3363,7 @@ content transcoded to test detection across encodings.
 | `cc_0044free.co.kr_33dd2a25bb42.html` | Common Crawl | wild | 26,823 |  |
 | `cc_0044free.co.kr_c37b1af608ba.html` | Common Crawl | wild | 27,012 |  |
 | `cc_www.000000.co.kr_24027eee8944.html` | Common Crawl | wild | 185,977 |  |
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 4,201 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 4,203 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 6,961 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,479 |  |
 
@@ -3371,17 +3371,17 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_73445.txt` | CulturaX | transcoded | 2,844 |  |
-| `culturax_mC4_73446.txt` | CulturaX | transcoded | 2,818 |  |
-| `culturax_mC4_73447.txt` | CulturaX | transcoded | 3,156 |  |
+| `culturax_mC4_73445.txt` | CulturaX | transcoded | 2,850 |  |
+| `culturax_mC4_73446.txt` | CulturaX | transcoded | 2,836 |  |
+| `culturax_mC4_73447.txt` | CulturaX | transcoded | 3,164 |  |
 
 #### `utf-8-lv/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_71628.txt` | CulturaX | transcoded | 3,225 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,426 |  |
-| `culturax_mC4_71630.txt` | CulturaX | transcoded | 828 |  |
+| `culturax_mC4_71628.txt` | CulturaX | transcoded | 3,245 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,434 |  |
+| `culturax_mC4_71630.txt` | CulturaX | transcoded | 832 |  |
 
 #### `utf-8-mk/` — 3 files
 
@@ -3389,7 +3389,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,234 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 2,169 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 5,376 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 5,386 |  |
 
 #### `utf-8-ms/` — 3 files
 
@@ -3403,8 +3403,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 1,876 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 3,153 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 1,880 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 3,426 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 1,134 |  |
 
 #### `utf-8-nl/` — 3 files
@@ -3419,15 +3419,15 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66762.txt` | CulturaX | transcoded | 2,549 |  |
+| `culturax_mC4_66762.txt` | CulturaX | transcoded | 2,551 |  |
 | `culturax_mC4_66763.txt` | CulturaX | transcoded | 3,067 |  |
-| `culturax_mC4_66764.txt` | CulturaX | transcoded | 3,066 |  |
+| `culturax_mC4_66764.txt` | CulturaX | transcoded | 3,092 |  |
 
 #### `utf-8-pl/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,921 |  |
+| `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,941 |  |
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 1,349 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,528 |  |
 
@@ -3435,7 +3435,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 957 |  |
+| `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 965 |  |
 | `culturax_mC4_101817.txt` | CulturaX | transcoded | 2,965 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 2,899 |  |
 
@@ -3449,7 +3449,7 @@ content transcoded to test detection across encodings.
 | `cc_www.075dermato.ro_bc2335574cf0.html` | Common Crawl | wild | 166,319 |  |
 | `cc_www.075dermato.ro_f52d9073ad8b.html` | Common Crawl | wild | 166,319 |  |
 | `culturax_OSCAR-2019_78977.txt` | CulturaX | transcoded | 811 |  |
-| `culturax_mC4_78976.txt` | CulturaX | transcoded | 2,782 |  |
+| `culturax_mC4_78976.txt` | CulturaX | transcoded | 2,792 |  |
 | `culturax_mC4_78978.txt` | CulturaX | transcoded | 2,829 |  |
 
 #### `utf-8-ru/` — 13 files
@@ -3466,9 +3466,9 @@ content transcoded to test detection across encodings.
 | `cc_oneiniecau.gnubee.org_01499c620955.html` | Common Crawl | wild | 9,975 |  |
 | `cc_oneiniecau.gnubee.org_8a330b005cb9.html` | Common Crawl | wild | 8,947 |  |
 | `cc_www.0-0-12.ru_78cdc9e1779f.html` | Common Crawl | wild | 32,698 |  |
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,446 |  |
-| `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,127 |  |
-| `culturax_mC4_85056.txt` | CulturaX | transcoded | 2,434 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,448 |  |
+| `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,131 |  |
+| `culturax_mC4_85056.txt` | CulturaX | transcoded | 2,440 |  |
 
 #### `utf-8-sig-ar/` — 3 files
 
@@ -3484,15 +3484,15 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_77015.txt` | CulturaX | transcoded | 5,020 |  |
 | `culturax_mC4_77016.txt` | CulturaX | transcoded | 2,205 |  |
-| `culturax_mC4_77017.txt` | CulturaX | transcoded | 4,077 |  |
+| `culturax_mC4_77017.txt` | CulturaX | transcoded | 4,089 |  |
 
 #### `utf-8-sig-bg/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_84188.txt` | CulturaX | transcoded | 2,382 |  |
-| `culturax_OSCAR-2301_84186.txt` | CulturaX | transcoded | 2,251 |  |
-| `culturax_mC4_84187.txt` | CulturaX | transcoded | 4,212 |  |
+| `culturax_OSCAR-2301_84186.txt` | CulturaX | transcoded | 2,279 |  |
+| `culturax_mC4_84187.txt` | CulturaX | transcoded | 4,214 |  |
 
 #### `utf-8-sig-br/` — 2 files
 
@@ -3506,7 +3506,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,463 |  |
-| `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,557 |  |
+| `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,559 |  |
 | `culturax_mC4_98822.txt` | CulturaX | transcoded | 3,233 |  |
 
 #### `utf-8-sig-cy/` — 3 files
@@ -3514,23 +3514,23 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_78726.txt` | CulturaX | transcoded | 2,734 |  |
-| `culturax_mC4_78727.txt` | CulturaX | transcoded | 2,895 |  |
-| `culturax_mC4_78728.txt` | CulturaX | transcoded | 2,069 |  |
+| `culturax_mC4_78727.txt` | CulturaX | transcoded | 2,917 |  |
+| `culturax_mC4_78728.txt` | CulturaX | transcoded | 2,075 |  |
 
 #### `utf-8-sig-da/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 1,970 |  |
-| `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,011 |  |
+| `culturax_mC4_83467.txt` | CulturaX | transcoded | 3,017 |  |
 | `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,052 |  |
 
 #### `utf-8-sig-de/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,607 |  |
-| `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,181 |  |
+| `culturax_OSCAR-2301_83754.txt` | CulturaX | transcoded | 2,621 |  |
+| `culturax_mC4_83755.txt` | CulturaX | transcoded | 2,183 |  |
 | `culturax_mC4_83756.txt` | CulturaX | transcoded | 2,293 |  |
 
 #### `utf-8-sig-el/` — 3 files
@@ -3538,8 +3538,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_greek.txt` | Ude | transcoded | 1,042 |  |
-| `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 5,025 |  |
-| `culturax_mC4_103810.txt` | CulturaX | transcoded | 3,699 |  |
+| `culturax_OSCAR-2201_103812.txt` | CulturaX | transcoded | 5,027 |  |
+| `culturax_mC4_103810.txt` | CulturaX | transcoded | 3,701 |  |
 
 #### `utf-8-sig-en/` — 8 files
 
@@ -3558,7 +3558,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_40441.txt` | CulturaX | transcoded | 2,973 |  |
+| `culturax_mC4_40441.txt` | CulturaX | transcoded | 2,979 |  |
 | `culturax_mC4_40442.txt` | CulturaX | transcoded | 1,348 |  |
 | `culturax_mC4_40443.txt` | CulturaX | transcoded | 2,658 |  |
 
@@ -3575,16 +3575,16 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_66818.txt` | CulturaX | transcoded | 2,626 |  |
-| `culturax_mC4_66819.txt` | CulturaX | transcoded | 2,879 |  |
+| `culturax_mC4_66819.txt` | CulturaX | transcoded | 2,887 |  |
 | `culturax_mC4_66820.txt` | CulturaX | transcoded | 1,048 |  |
 
 #### `utf-8-sig-fa/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,796 |  |
-| `culturax_mC4_104836.txt` | CulturaX | transcoded | 4,246 |  |
-| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,331 |  |
+| `culturax_mC4_104835.txt` | CulturaX | transcoded | 1,826 |  |
+| `culturax_mC4_104836.txt` | CulturaX | transcoded | 4,249 |  |
+| `culturax_mC4_104837.txt` | CulturaX | transcoded | 3,346 |  |
 
 #### `utf-8-sig-fi/` — 3 files
 
@@ -3592,13 +3592,13 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_80361.txt` | CulturaX | transcoded | 914 |  |
 | `culturax_mC4_80362.txt` | CulturaX | transcoded | 3,097 |  |
-| `culturax_mC4_80363.txt` | CulturaX | transcoded | 2,923 |  |
+| `culturax_mC4_80363.txt` | CulturaX | transcoded | 2,925 |  |
 
 #### `utf-8-sig-fr/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 2,948 |  |
+| `culturax_OSCAR-2201_88371.txt` | CulturaX | transcoded | 2,950 |  |
 | `culturax_OSCAR-2301_88370.txt` | CulturaX | transcoded | 767 |  |
 | `culturax_mC4_88369.txt` | CulturaX | transcoded | 2,939 |  |
 
@@ -3608,7 +3608,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_63468.txt` | CulturaX | transcoded | 3,083 |  |
 | `culturax_mC4_63469.txt` | CulturaX | transcoded | 3,109 |  |
-| `culturax_mC4_63470.txt` | CulturaX | transcoded | 1,297 |  |
+| `culturax_mC4_63470.txt` | CulturaX | transcoded | 1,305 |  |
 
 #### `utf-8-sig-gd/` — 3 files
 
@@ -3623,7 +3623,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_he3.txt` | Ude | transcoded | 615 |  |
-| `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,114 |  |
+| `culturax_OSCAR-2301_58266.txt` | CulturaX | transcoded | 5,120 |  |
 | `culturax_OSCAR-2301_58267.txt` | CulturaX | transcoded | 5,304 |  |
 
 #### `utf-8-sig-hr/` — 3 files
@@ -3639,8 +3639,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_82419.txt` | CulturaX | transcoded | 1,662 |  |
-| `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 1,760 |  |
-| `culturax_mC4_82418.txt` | CulturaX | transcoded | 705 |  |
+| `culturax_OSCAR-2301_82420.txt` | CulturaX | transcoded | 1,768 |  |
+| `culturax_mC4_82418.txt` | CulturaX | transcoded | 707 |  |
 
 #### `utf-8-sig-id/` — 3 files
 
@@ -3663,8 +3663,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_92388.txt` | CulturaX | transcoded | 2,386 |  |
-| `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,300 |  |
-| `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,457 |  |
+| `culturax_mC4_92390.txt` | CulturaX | transcoded | 1,308 |  |
+| `culturax_mC4_92391.txt` | CulturaX | transcoded | 1,461 |  |
 
 #### `utf-8-sig-ja/` — 4 files
 
@@ -3672,7 +3672,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `_mozilla_bug426271_text-utf-8.html` | Mozilla | transcoded | 1,030 |  |
 | `_ude_4.txt` | Ude | suite | 1,729 |  |
-| `culturax_mC4_4.txt` | CulturaX | transcoded | 7,547 |  |
+| `culturax_mC4_4.txt` | CulturaX | transcoded | 7,549 |  |
 | `culturax_mC4_5.txt` | CulturaX | transcoded | 8,527 |  |
 
 #### `utf-8-sig-kk/` — 3 files
@@ -3695,17 +3695,17 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_73445.txt` | CulturaX | transcoded | 2,847 |  |
-| `culturax_mC4_73446.txt` | CulturaX | transcoded | 2,821 |  |
-| `culturax_mC4_73447.txt` | CulturaX | transcoded | 3,159 |  |
+| `culturax_mC4_73445.txt` | CulturaX | transcoded | 2,853 |  |
+| `culturax_mC4_73446.txt` | CulturaX | transcoded | 2,839 |  |
+| `culturax_mC4_73447.txt` | CulturaX | transcoded | 3,167 |  |
 
 #### `utf-8-sig-lv/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_71628.txt` | CulturaX | transcoded | 3,228 |  |
-| `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,429 |  |
-| `culturax_mC4_71630.txt` | CulturaX | transcoded | 831 |  |
+| `culturax_mC4_71628.txt` | CulturaX | transcoded | 3,248 |  |
+| `culturax_mC4_71629.txt` | CulturaX | transcoded | 1,437 |  |
+| `culturax_mC4_71630.txt` | CulturaX | transcoded | 835 |  |
 
 #### `utf-8-sig-mk/` — 3 files
 
@@ -3713,7 +3713,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_102724.txt` | CulturaX | transcoded | 4,237 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 2,172 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 5,379 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 5,389 |  |
 
 #### `utf-8-sig-ms/` — 3 files
 
@@ -3727,8 +3727,8 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_51488.txt` | CulturaX | transcoded | 1,879 |  |
-| `culturax_mC4_51489.txt` | CulturaX | transcoded | 3,156 |  |
+| `culturax_mC4_51488.txt` | CulturaX | transcoded | 1,883 |  |
+| `culturax_mC4_51489.txt` | CulturaX | transcoded | 3,429 |  |
 | `culturax_mC4_51490.txt` | CulturaX | transcoded | 1,137 |  |
 
 #### `utf-8-sig-nl/` — 3 files
@@ -3743,15 +3743,15 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66762.txt` | CulturaX | transcoded | 2,552 |  |
+| `culturax_mC4_66762.txt` | CulturaX | transcoded | 2,554 |  |
 | `culturax_mC4_66763.txt` | CulturaX | transcoded | 3,070 |  |
-| `culturax_mC4_66764.txt` | CulturaX | transcoded | 3,069 |  |
+| `culturax_mC4_66764.txt` | CulturaX | transcoded | 3,095 |  |
 
 #### `utf-8-sig-pl/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,924 |  |
+| `culturax_OSCAR-2019_97062.txt` | CulturaX | transcoded | 1,944 |  |
 | `culturax_mC4_97060.txt` | CulturaX | transcoded | 1,352 |  |
 | `culturax_mC4_97061.txt` | CulturaX | transcoded | 2,531 |  |
 
@@ -3759,7 +3759,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 960 |  |
+| `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 968 |  |
 | `culturax_mC4_101817.txt` | CulturaX | transcoded | 2,968 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 2,902 |  |
 
@@ -3768,7 +3768,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2019_78977.txt` | CulturaX | transcoded | 814 |  |
-| `culturax_mC4_78976.txt` | CulturaX | transcoded | 2,785 |  |
+| `culturax_mC4_78976.txt` | CulturaX | transcoded | 2,795 |  |
 | `culturax_mC4_78978.txt` | CulturaX | transcoded | 2,832 |  |
 
 #### `utf-8-sig-ru/` — 3 files
@@ -3776,22 +3776,22 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_russian.txt` | Ude | transcoded | 2,212 |  |
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,449 |  |
-| `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,130 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 5,451 |  |
+| `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 5,134 |  |
 
 #### `utf-8-sig-sk/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,566 |  |
+| `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,574 |  |
 | `culturax_mC4_95226.txt` | CulturaX | transcoded | 2,204 |  |
-| `culturax_mC4_95227.txt` | CulturaX | transcoded | 3,101 |  |
+| `culturax_mC4_95227.txt` | CulturaX | transcoded | 3,103 |  |
 
 #### `utf-8-sig-sl/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66688.txt` | CulturaX | transcoded | 2,963 |  |
+| `culturax_mC4_66688.txt` | CulturaX | transcoded | 2,965 |  |
 | `culturax_mC4_66689.txt` | CulturaX | transcoded | 2,733 |  |
 | `culturax_mC4_66690.txt` | CulturaX | transcoded | 1,217 |  |
 
@@ -3799,9 +3799,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66918.txt` | CulturaX | transcoded | 2,040 |  |
+| `culturax_mC4_66918.txt` | CulturaX | transcoded | 2,044 |  |
 | `culturax_mC4_66920.txt` | CulturaX | transcoded | 2,010 |  |
-| `culturax_mC4_66921.txt` | CulturaX | transcoded | 4,721 |  |
+| `culturax_mC4_66921.txt` | CulturaX | transcoded | 4,729 |  |
 
 #### `utf-8-sig-sv/` — 3 files
 
@@ -3809,7 +3809,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_96485.txt` | CulturaX | transcoded | 2,836 |  |
 | `culturax_mC4_96486.txt` | CulturaX | transcoded | 2,647 |  |
-| `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,206 |  |
+| `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,208 |  |
 
 #### `utf-8-sig-tg/` — 3 files
 
@@ -3817,13 +3817,13 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_74865.txt` | CulturaX | transcoded | 3,142 |  |
 | `culturax_mC4_74866.txt` | CulturaX | transcoded | 5,150 |  |
-| `culturax_mC4_74867.txt` | CulturaX | transcoded | 5,100 |  |
+| `culturax_mC4_74867.txt` | CulturaX | transcoded | 5,102 |  |
 
 #### `utf-8-sig-th/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 7,035 |  |
+| `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 7,077 |  |
 | `culturax_mC4_109133.txt` | CulturaX | transcoded | 7,524 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 2,786 |  |
 
@@ -3839,9 +3839,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_95019.txt` | CulturaX | transcoded | 1,923 |  |
-| `culturax_mC4_95020.txt` | CulturaX | transcoded | 2,458 |  |
-| `culturax_mC4_95021.txt` | CulturaX | transcoded | 5,177 |  |
+| `culturax_mC4_95019.txt` | CulturaX | transcoded | 1,929 |  |
+| `culturax_mC4_95020.txt` | CulturaX | transcoded | 2,462 |  |
+| `culturax_mC4_95021.txt` | CulturaX | transcoded | 5,183 |  |
 
 #### `utf-8-sig-ur/` — 3 files
 
@@ -3870,15 +3870,15 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,563 |  |
+| `culturax_mC4_95224.txt` | CulturaX | transcoded | 1,571 |  |
 | `culturax_mC4_95226.txt` | CulturaX | transcoded | 2,201 |  |
-| `culturax_mC4_95227.txt` | CulturaX | transcoded | 3,098 |  |
+| `culturax_mC4_95227.txt` | CulturaX | transcoded | 3,100 |  |
 
 #### `utf-8-sl/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66688.txt` | CulturaX | transcoded | 2,960 |  |
+| `culturax_mC4_66688.txt` | CulturaX | transcoded | 2,962 |  |
 | `culturax_mC4_66689.txt` | CulturaX | transcoded | 2,730 |  |
 | `culturax_mC4_66690.txt` | CulturaX | transcoded | 1,214 |  |
 
@@ -3886,9 +3886,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_66918.txt` | CulturaX | transcoded | 2,037 |  |
+| `culturax_mC4_66918.txt` | CulturaX | transcoded | 2,041 |  |
 | `culturax_mC4_66920.txt` | CulturaX | transcoded | 2,007 |  |
-| `culturax_mC4_66921.txt` | CulturaX | transcoded | 4,718 |  |
+| `culturax_mC4_66921.txt` | CulturaX | transcoded | 4,726 |  |
 
 #### `utf-8-sv/` — 3 files
 
@@ -3896,7 +3896,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_96485.txt` | CulturaX | transcoded | 2,833 |  |
 | `culturax_mC4_96486.txt` | CulturaX | transcoded | 2,644 |  |
-| `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,203 |  |
+| `culturax_mC4_96487.txt` | CulturaX | transcoded | 2,205 |  |
 
 #### `utf-8-tg/` — 11 files
 
@@ -3912,13 +3912,13 @@ content transcoded to test detection across encodings.
 | `cc_www.junschem.com_ba3843bc0b96.html` | Common Crawl | wild | 55,221 |  |
 | `culturax_mC4_74865.txt` | CulturaX | transcoded | 3,139 |  |
 | `culturax_mC4_74866.txt` | CulturaX | transcoded | 5,147 |  |
-| `culturax_mC4_74867.txt` | CulturaX | transcoded | 5,097 |  |
+| `culturax_mC4_74867.txt` | CulturaX | transcoded | 5,099 |  |
 
 #### `utf-8-th/` — 3 files
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 7,032 |  |
+| `culturax_OSCAR-2301_109134.txt` | CulturaX | transcoded | 7,074 |  |
 | `culturax_mC4_109133.txt` | CulturaX | transcoded | 7,521 |  |
 | `culturax_mC4_109136.txt` | CulturaX | transcoded | 2,783 |  |
 
@@ -3934,9 +3934,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_95019.txt` | CulturaX | transcoded | 1,920 |  |
-| `culturax_mC4_95020.txt` | CulturaX | transcoded | 2,455 |  |
-| `culturax_mC4_95021.txt` | CulturaX | transcoded | 5,174 |  |
+| `culturax_mC4_95019.txt` | CulturaX | transcoded | 1,926 |  |
+| `culturax_mC4_95020.txt` | CulturaX | transcoded | 2,459 |  |
+| `culturax_mC4_95021.txt` | CulturaX | transcoded | 5,180 |  |
 
 #### `utf-8-ur/` — 3 files
 
@@ -4090,7 +4090,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 887 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 3,566 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 7,922 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 7,940 |  |
 
 #### `iso-8859-1-no/` — 4 files
 
@@ -4188,7 +4188,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00001.txt` | CulturaX | transcoded | 253 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 86,172 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 86,178 |  |
 | `culturax_sentinel_34231.txt` | CulturaX | transcoded | 600 |  |
 | `culturax_sentinel_34232.txt` | CulturaX | transcoded | 598 |  |
 
@@ -4657,7 +4657,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 423 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,339 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 17,334 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 17,357 |  |
 
 #### `iso-8859-7-el/` — 17 files
 
@@ -4745,7 +4745,7 @@ content transcoded to test detection across encodings.
 | `_ude_2.txt` | Ude | suite | 1,646 |  |
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,362 |  |
 | `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,424 |  |
-| `culturax_mC4_98823.txt` | CulturaX | transcoded | 1,627 |  |
+| `culturax_mC4_98823.txt` | CulturaX | transcoded | 1,617 |  |
 | `po_78a23b2c79e5.po` | unknown | wild | 111,786 |  |
 
 #### `windows-1250-hr/` — 2 files
@@ -4792,7 +4792,7 @@ content transcoded to test detection across encodings.
 | `_ude_1.txt` | Ude | suite | 3,964 | Relabeled from iso-8859-16-ro: two 0x89 bytes after election percentages decode to ‰ under cp1250 but to a C1 control under iso-8859-16, so the producing software was working in windows-1250 (the letters are equivalent either way). |
 | `culturax_00000.txt` | CulturaX | transcoded | 738 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,852 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 7,539 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 7,489 |  |
 
 #### `windows-1250-sk/` — 7 files
 
@@ -4861,9 +4861,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 2,363 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 2,359 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 1,205 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 3,000 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 2,992 |  |
 
 #### `windows-1251-ru/` — 27 files
 
@@ -4881,7 +4881,7 @@ content transcoded to test detection across encodings.
 | `aug32.hole.ru.xml` | chardet | wild | 633 |  |
 | `aviaport.ru.xml` | chardet | wild | 60,039 |  |
 | `blog.mlmaster.com.xml` | chardet | wild | 6,461 | High markup ratio (61% tags) |
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 3,000 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 2,996 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 2,831 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 1,326 |  |
 | `forum.template-toolkit.ru.1.xml` | chardet | wild | 24,875 |  |
@@ -5148,9 +5148,9 @@ content transcoded to test detection across encodings.
 | `cc_iranfastener.ir_8490b810641d.html` | Common Crawl | wild | 3,735 |  |
 | `cc_iranfastener.ir_89d0d0559d0a.html` | Common Crawl | wild | 17,247 |  |
 | `cc_irhk-old.ir_25a4f45836d0.html` | Common Crawl | wild | 3,989 |  |
-| `culturax_00000.txt` | CulturaX | transcoded | 385 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 2,140 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 15,829 |  |
+| `culturax_00000.txt` | CulturaX | transcoded | 390 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 2,138 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 15,954 |  |
 
 #### `windows-1257-et/` — 3 files
 
@@ -5194,7 +5194,7 @@ content transcoded to test detection across encodings.
 | `cc_www.hrw.org_4f0449e3aa4c.html` | Common Crawl | wild | 29,500 |  |
 | `culturax_OSCAR-2019_85698.txt` | CulturaX | transcoded | 1,290 |  |
 | `culturax_OSCAR-2109_85695.txt` | CulturaX | transcoded | 670 |  |
-| `culturax_mC4_85693.txt` | CulturaX | transcoded | 2,668 |  |
+| `culturax_mC4_85693.txt` | CulturaX | transcoded | 2,666 |  |
 | `culturax_mC4_85696.txt` | CulturaX | transcoded | 1,573 |  |
 | `historic_10613f024a73.txt` | unknown | historic | 101,950 |  |
 | `historic_4a445f0df101.txt` | unknown | historic | 29,494 |  |
@@ -5442,7 +5442,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 899 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 3,577 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 7,970 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 7,988 |  |
 
 #### `cp437-pt/` — 3 files
 
@@ -5503,7 +5503,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_00000.txt` | CulturaX | transcoded | 911 |  |
+| `culturax_00000.txt` | CulturaX | transcoded | 914 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 2,710 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 9,484 |  |
 
@@ -5576,8 +5576,8 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 440 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 1,672 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 8,850 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 1,688 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 9,019 |  |
 
 #### `cp737-el/` — 3 files
 
@@ -5643,7 +5643,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 2,014 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 3,372 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 3,375 |  |
 
 #### `cp850-es/` — 3 files
 
@@ -6080,9 +6080,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_00000.txt` | CulturaX | transcoded | 429 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 2,194 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 7,529 |  |
+| `culturax_00000.txt` | CulturaX | transcoded | 430 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 2,197 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 7,560 |  |
 
 #### `cp866-ru/` — 22 files
 
@@ -6115,9 +6115,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_00000.txt` | CulturaX | transcoded | 742 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 2,416 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 11,723 |  |
+| `culturax_00000.txt` | CulturaX | transcoded | 750 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 2,444 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 11,809 |  |
 
 #### `cp866-uk/` — 2 files
 
@@ -6171,7 +6171,7 @@ content transcoded to test detection across encodings.
 | `cc_sankyu.co_3e6bfde0036b.html` | Common Crawl | wild | 61,815 |  |
 | `cc_sankyu.co_739ca1669e81.html` | Common Crawl | wild | 26,224 |  |
 | `cc_tiu-singapore.rfsc.asia_0becc2b61d87.html` | Common Crawl | wild | 13,326 |  |
-| `culturax_OSCAR-2019_7.txt` | CulturaX | transcoded | 1,604 |  |
+| `culturax_OSCAR-2019_7.txt` | CulturaX | transcoded | 1,605 |  |
 | `hardsoft.at.webry.info.xml` | chardet | wild | 45,871 | High markup ratio (60% tags) |
 | `po_9f3c9e1a305b.po` | unknown | wild | 305,137 |  |
 | `www2.chuo-u.ac.jp-suishin.xml` | chardet | wild | 4,420 |  |
@@ -6213,9 +6213,9 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_mC4_102724.txt` | CulturaX | transcoded | 2,363 |  |
+| `culturax_mC4_102724.txt` | CulturaX | transcoded | 2,359 |  |
 | `culturax_mC4_102726.txt` | CulturaX | transcoded | 1,205 |  |
-| `culturax_mC4_102727.txt` | CulturaX | transcoded | 3,000 |  |
+| `culturax_mC4_102727.txt` | CulturaX | transcoded | 2,992 |  |
 
 #### `maccyrillic-ru/` — 21 files
 
@@ -6227,7 +6227,7 @@ content transcoded to test detection across encodings.
 | `aug32.hole.ru.xml` | chardet | wild | 631 |  |
 | `aviaport.ru.xml` | chardet | wild | 60,037 |  |
 | `blog.mlmaster.com.xml` | chardet | wild | 6,459 | High markup ratio (61% tags) |
-| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 3,000 |  |
+| `culturax_OSCAR-2019_85055.txt` | CulturaX | transcoded | 2,996 |  |
 | `culturax_OSCAR-2019_85057.txt` | CulturaX | transcoded | 2,831 |  |
 | `culturax_mC4_85056.txt` | CulturaX | transcoded | 1,326 |  |
 | `forum.template-toolkit.ru.4.xml` | chardet | wild | 10,740 |  |
@@ -6287,7 +6287,7 @@ content transcoded to test detection across encodings.
 | `_enca_macce_cs.txt` | ENCA | suite | 58 | Very small (58 bytes) |
 | `culturax_OSCAR-2019_98821.txt` | CulturaX | transcoded | 1,362 |  |
 | `culturax_mC4_98820.txt` | CulturaX | transcoded | 1,424 |  |
-| `culturax_mC4_98823.txt` | CulturaX | transcoded | 1,627 |  |
+| `culturax_mC4_98823.txt` | CulturaX | transcoded | 1,617 |  |
 
 #### `maclatin2-hr/` — 4 files
 
@@ -6351,7 +6351,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_83466.txt` | CulturaX | transcoded | 1,918 |  |
-| `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,019 |  |
+| `culturax_mC4_83468.txt` | CulturaX | transcoded | 2,017 |  |
 | `culturax_mC4_83469.txt` | CulturaX | transcoded | 2,827 |  |
 
 #### `macroman-de/` — 3 files
@@ -6448,7 +6448,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_OSCAR-2109_101819.txt` | CulturaX | transcoded | 952 |  |
-| `culturax_mC4_101817.txt` | CulturaX | transcoded | 2,875 |  |
+| `culturax_mC4_101817.txt` | CulturaX | transcoded | 2,873 |  |
 | `culturax_mC4_101818.txt` | CulturaX | transcoded | 2,837 |  |
 
 #### `macroman-sv/` — 3 files
@@ -6465,7 +6465,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_mC4_107848.txt` | CulturaX | transcoded | 1,161 |  |
 | `culturax_mC4_107849.txt` | CulturaX | transcoded | 729 |  |
-| `culturax_mC4_107851.txt` | CulturaX | transcoded | 2,309 |  |
+| `culturax_mC4_107851.txt` | CulturaX | transcoded | 2,303 |  |
 | `historic_1b6ee9b503fd.txt` | unknown | historic | 1,440 |  |
 | `historic_e8ba44a32d25.txt` | unknown | historic | 1,840 |  |
 
@@ -6615,7 +6615,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 238 |  |
 | `culturax_00001.txt` | CulturaX | transcoded | 1,183 |  |
-| `culturax_00002.txt` | CulturaX | transcoded | 7,922 |  |
+| `culturax_00002.txt` | CulturaX | transcoded | 7,940 |  |
 
 #### `hp-roman8-no/` — 3 files
 
@@ -6778,7 +6778,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `culturax_00000.txt` | CulturaX | transcoded | 226 |  |
-| `culturax_00001.txt` | CulturaX | transcoded | 1,759 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 1,760 |  |
 | `culturax_00002.txt` | CulturaX | transcoded | 10,084 |  |
 | `historic_07a01513d2e0.txt` | unknown | historic | 1,090 |  |
 | `historic_9c1caa03e25d.txt` | unknown | historic | 3,227 |  |
@@ -6788,7 +6788,7 @@ content transcoded to test detection across encodings.
 
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
-| `culturax_00001.txt` | CulturaX | transcoded | 1,750 |  |
+| `culturax_00001.txt` | CulturaX | transcoded | 1,751 |  |
 | `historic_07a01513d2e0.txt` | unknown | historic | 1,090 |  |
 | `historic_9c1caa03e25d.txt` | unknown | historic | 3,227 |  |
 | `historic_b8b9c876fe1a.txt` | unknown | historic | 1,499 |  |
@@ -6895,7 +6895,7 @@ content transcoded to test detection across encodings.
 |------|--------|------------|-----:|-------|
 | `_ude_iso1.txt` | Ude | suite | 501 |  |
 | `_ude_iso2.txt` | Ude | suite | 1,460 |  |
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,852 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 3,845 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 6,269 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,311 |  |
 | `historic_14a9e871b7fb.txt` | unknown | historic | 24,440 |  |
@@ -6907,7 +6907,7 @@ content transcoded to test detection across encodings.
 | File | Source | Provenance | Size | Notes |
 |------|--------|------------|-----:|-------|
 | `_ude_1.txt` | Ude | suite | 1,165 |  |
-| `culturax_mC4_0.txt` | CulturaX | transcoded | 2,992 |  |
+| `culturax_mC4_0.txt` | CulturaX | transcoded | 2,989 |  |
 | `culturax_mC4_1.txt` | CulturaX | transcoded | 4,929 |  |
 | `culturax_mC4_2.txt` | CulturaX | transcoded | 1,035 |  |
 | `historic_250547726663.txt` | unknown | historic | 15,015 |  |

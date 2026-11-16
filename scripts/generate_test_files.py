@@ -435,7 +435,7 @@ def generate_culturax(
         return False
 
     # Prepare substitutions
-    subs = get_substitutions(enc_prefix, full_language)
+    subs = get_substitutions(enc_prefix, full_language, codec)
 
     # Files for visual-convention encodings are stored in display order;
     # presentation-form pages are contextually shaped first.  See

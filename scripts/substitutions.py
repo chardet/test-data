@@ -5,6 +5,11 @@ into legacy encodings. Characters not representable in the target encoding
 are replaced with historically correct alternatives rather than silently
 dropped.
 
+A character the target encoding can hold is left alone: wild files in
+Windows and Mac code pages keep their curly quotes, dashes, ellipses and
+no-break spaces, so the transcoded files do too. Only the language tables
+that record a spelling habit (Croatian, Romanian) apply regardless.
+
 Tables ported from chardet's training script (MIT-licensed, same project).
 """
 
@@ -15,6 +20,9 @@ import unicodedata
 
 # ---------------------------------------------------------------------------
 # Universal substitutions (typographic punctuation -> ASCII)
+#
+# Applied only to characters the target encoding cannot hold; see
+# get_substitutions().
 # ---------------------------------------------------------------------------
 
 UNIVERSAL_SUBSTITUTIONS: dict[str, str] = {
@@ -47,6 +55,12 @@ UNIVERSAL_SUBSTITUTIONS: dict[str, str] = {
     "\u2032": "'",  # PRIME
     "\u2033": '"',  # DOUBLE PRIME
     "\u2212": "-",  # MINUS SIGN
+    # Wild Latin-1 era files write the currency out beside the amount; none
+    # of the 439 wild files checked uses the generic currency sign for it.
+    "\u20ac": "EUR",  # EURO SIGN
+    # Arabic-Indic and Extended Arabic-Indic digits -> ASCII digits
+    **{chr(0x0660 + i): str(i) for i in range(10)},
+    **{chr(0x06F0 + i): str(i) for i in range(10)},
     # Zero-width and formatting characters (remove)
     "\u200b": "",  # ZERO WIDTH SPACE
     "\u200c": "",  # ZERO WIDTH NON-JOINER
@@ -63,6 +77,7 @@ UNIVERSAL_SUBSTITUTIONS: dict[str, str] = {
 ARABIC_SUBSTITUTIONS: dict[str, str] = {
     "\u060c": ",",  # ARABIC COMMA
     "\u061b": ";",  # ARABIC SEMICOLON
+    "\u061f": "?",  # ARABIC QUESTION MARK (missing from CP720)
     "\u066a": "%",  # ARABIC PERCENT SIGN
 }
 
@@ -70,42 +85,47 @@ ARABIC_SUBSTITUTIONS: dict[str, str] = {
 # CP866 substitutions (shared across all CP866 languages)
 # ---------------------------------------------------------------------------
 
+# Ukrainian and Belarusian writers on Russian-only systems typed a Latin i:
+# in FidoNet/Usenet archives (2000-2015) 85 Ukrainian and 6 Belarusian
+# authors do, against a handful of и spellings that read as dialect.
 CP866_SUBSTITUTIONS: dict[str, str] = {
-    "\u0456": "\u0438",  # і → и (Ukrainian/Belarusian I → Russian I)
-    "\u0406": "\u0418",  # І → И (uppercase)
+    "\u0456": "i",  # і → Latin i
+    "\u0406": "I",  # І → Latin I
 }
 
 # ---------------------------------------------------------------------------
 # CP866 language-specific substitutions
 # ---------------------------------------------------------------------------
 
+# cp866 has ї and є, but the same writers did not type them: of 2,486
+# Latin-i messages, 12 carry a real є and 2 a real ї.  They wrote ї as
+# Latin i (20 authors) and є as е (18 authors).
 CP866_UKRAINIAN_SUBSTITUTIONS: dict[str, str] = {
-    "\u0457": "\u0438",  # ї → и (Ukrainian Yi → Russian I)
-    "\u0404": "\u0415",  # Є → Е (Ukrainian Ye uppercase → Russian Ye uppercase)
-    "\u0454": "\u0435",  # є → е (Ukrainian Ye → Russian Ye)
+    "\u0457": "i",  # ї → Latin i
+    "\u0407": "I",  # Ї → Latin I
+    "\u0454": "\u0435",  # є → е
+    "\u0404": "\u0415",  # Є → Е
     "\u0490": "\u0413",  # Ґ → Г (Ukrainian Ghe uppercase → Russian Ghe uppercase)
     "\u0491": "\u0433",  # ґ → г (Ukrainian Ghe → Russian Ghe)
-    "\u0407": "\u0418",  # Ї → И (Ukrainian Yi uppercase → Russian I uppercase)
 }
 
-CP866_BELARUSIAN_SUBSTITUTIONS: dict[str, str] = {
-    "\u045e": "\u0443",  # ў → у (Belarusian Short U → Russian U)
-    "\u040e": "\u0423",  # Ў → У (uppercase)
-}
-
+# Stand-ins follow what Serbian text in Russian-only encodings looks like in
+# FidoNet/Usenet archives (fido7.ru.linguist, fido7.ru.yugoslavia and others,
+# 2003-2015): soft-sign digraphs for љ and њ, Latin h for ћ, дж for џ, Latin j
+# for ј.  No message spelled ђ, ќ, ѓ or ѕ, so those keep their base letters.
 CP866_SERBIAN_SUBSTITUTIONS: dict[str, str] = {
     "\u0452": "\u0434",  # ђ → д (Dje → De)
     "\u0458": "j",  # ј → Latin j, the spelling writers without the letter use
-    "\u0459": "\u043b",  # љ → л (Lje → El)
-    "\u045a": "\u043d",  # њ → н (Nje → En)
-    "\u045b": "\u0447",  # ћ → ч (Tshe → Che)
-    "\u045f": "\u0446",  # џ → ц (Dzhe → Tse)
+    "\u0459": "\u043b\u044c",  # љ → ль
+    "\u045a": "\u043d\u044c",  # њ → нь
+    "\u045b": "h",  # ћ → Latin h
+    "\u045f": "\u0434\u0436",  # џ → дж
     "\u0402": "\u0414",  # Ђ → Д (uppercase)
     "\u0408": "J",  # Ј → Latin J (uppercase)
-    "\u0409": "\u041b",  # Љ → Л (uppercase)
-    "\u040a": "\u041d",  # Њ → Н (uppercase)
-    "\u040b": "\u0427",  # Ћ → Ч (uppercase)
-    "\u040f": "\u0426",  # Џ → Ц (uppercase)
+    "\u0409": "\u041b\u044c",  # Љ → Ль
+    "\u040a": "\u041d\u044c",  # Њ → Нь
+    "\u040b": "H",  # Ћ → Latin H
+    "\u040f": "\u0414\u0436",  # Џ → Дж
 }
 
 CP866_MACEDONIAN_SUBSTITUTIONS: dict[str, str] = {
@@ -113,16 +133,16 @@ CP866_MACEDONIAN_SUBSTITUTIONS: dict[str, str] = {
     "\u0455": "\u0437",  # ѕ → з (Dze → Ze)
     "\u0458": "j",  # ј → Latin j, the spelling writers without the letter use
     "\u045c": "\u043a",  # ќ → к (Kje → Ka)
-    "\u0459": "\u043b",  # љ → л (Lje → El)
-    "\u045a": "\u043d",  # њ → н (Nje → En)
-    "\u045f": "\u0446",  # џ → ц (Dzhe → Tse)
+    "\u0459": "\u043b\u044c",  # љ → ль
+    "\u045a": "\u043d\u044c",  # њ → нь
+    "\u045f": "\u0434\u0436",  # џ → дж
     "\u0403": "\u0413",  # Ѓ → Г (uppercase)
     "\u0405": "\u0417",  # Ѕ → З (uppercase)
     "\u0408": "J",  # Ј → Latin J (uppercase)
     "\u040c": "\u041a",  # Ќ → К (uppercase)
-    "\u0409": "\u041b",  # Љ → Л (uppercase)
-    "\u040a": "\u041d",  # Њ → Н (uppercase)
-    "\u040f": "\u0426",  # Џ → Ц (uppercase)
+    "\u0409": "\u041b\u044c",  # Љ → Ль
+    "\u040a": "\u041d\u044c",  # Њ → Нь
+    "\u040f": "\u0414\u0436",  # Џ → Дж
 }
 
 # ---------------------------------------------------------------------------
@@ -381,17 +401,37 @@ def apply_substitutions(text: str, subs: dict[str, str]) -> str:
     return text
 
 
-def get_substitutions(encoding: str, language: str) -> dict[str, str]:
+def _can_encode(char: str, codec: str) -> bool:
+    """Return True if *codec* has a byte sequence for *char*."""
+    try:
+        char.encode(codec)
+    except (UnicodeEncodeError, LookupError):
+        return False
+    return True
+
+
+def get_substitutions(
+    encoding: str, language: str, codec: str | None = None,
+) -> dict[str, str]:
     """Build the character substitution table for a given encoding and language.
 
     Returns a merged dictionary of all applicable substitutions based on
-    the target encoding and language.
+    the target encoding and language.  *codec* is the Python codec name
+    when it differs from the directory prefix *encoding*.
     """
     subs = dict(UNIVERSAL_SUBSTITUTIONS)
     enc_upper = encoding.upper()
 
     if enc_upper in ("CP720", "CP864", "ISO-8859-6"):
         subs.update(ARABIC_SUBSTITUTIONS)
+
+    # Fold only what the encoding cannot hold.  The byte order mark is
+    # the exception: mid-text it is always noise.
+    subs = {
+        char: repl
+        for char, repl in subs.items()
+        if char == "\ufeff" or not _can_encode(char, codec or encoding)
+    }
 
     if enc_upper == "CP1006":
         subs.update(CP1006_URDU_SUBSTITUTIONS)
@@ -403,8 +443,6 @@ def get_substitutions(encoding: str, language: str) -> dict[str, str]:
         subs.update(CP866_SUBSTITUTIONS)  # і→и for all CP866
         if language == "ukrainian":
             subs.update(CP866_UKRAINIAN_SUBSTITUTIONS)
-        elif language == "belarusian":
-            subs.update(CP866_BELARUSIAN_SUBSTITUTIONS)
         elif language == "serbian":
             subs.update(CP866_SERBIAN_SUBSTITUTIONS)
         elif language == "macedonian":
